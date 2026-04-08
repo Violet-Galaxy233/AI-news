@@ -64,7 +64,8 @@
       "WebFetch(domain:arxiv.org)",
       "WebFetch(domain:z.ai)",
       "WebFetch(domain:www.infoq.com)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npm run:*)"
     ]
   }
 }
