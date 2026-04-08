@@ -1,0 +1,132 @@
+{
+  "date": "2026-01-08",
+  "date_formatted": "26/01/08",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发布 ChatGPT Health 健康助手",
+      "content": "OpenAI 发布 ChatGPT Health,整合电子病历和 Apple Health 数据,提供体检报告分析、用药提醒和个性化饮食运动计划。每周有 2.3 亿用户在 ChatGPT 询问健康问题,但该功能不用于诊断治疗。",
+      "importance": "critical",
+      "reasoning": "OpenAI 昨天(1月7日)发布重大健康功能,2.3亿周活用户,整合医疗记录,标志AI进入医疗健康场景,但明确不用于诊疗。属于三大厂主流产品重大更新。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/07/openai-unveils-chatgpt-health-says-230-million-users-ask-about-health-each-week/",
+      "keywords": ["OpenAI", "ChatGPT Health", "2.3 亿用户", "Apple Health", "健康助手"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 融资 100 亿美元估值翻倍至 3500 亿",
+      "content": "Anthropic 签署协议以 3500 亿美元估值融资 100 亿美元,4 个月内估值从 1830 亿翻倍。领投方为 Coatue 和新加坡主权基金 GIC,交易预计数周内完成。公司计划 2026 年 IPO,2028 年实现盈利。",
+      "importance": "critical",
+      "reasoning": "Anthropic 昨天(1月7日)宣布100亿美元融资,估值4个月翻倍至3500亿美元,为OpenAI主要竞争对手,融资规模和估值增速都具行业级影响。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/07/anthropic-funding-term-sheet-valuation.html",
+      "keywords": ["Anthropic", "100 亿美元", "3500 亿估值", "IPO", "翻倍"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Google Classroom 推出 Gemini 播客生成功能",
+      "content": "Google 为 Google Classroom 推出 Gemini 播客功能,教师可一键将课本内容转为播客式音频课程,支持按年级和学习目标定制,可选择单人或多人对话形式。面向教育版订阅用户开放。",
+      "importance": "critical",
+      "reasoning": "Google 于1月6日发布重大教育AI应用,将课本转为播客,面向全球教育版用户,标志AI进入主流教育场景,属于三大厂核心产品发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/07/google-classrooms-new-tool-uses-gemini-to-transform-lessons-into-podcast-episodes/",
+      "keywords": ["Google", "Gemini", "Classroom", "播客", "教育"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Boston Dynamics 与 DeepMind 合作开发 AI 机器人",
+      "content": "Boston Dynamics 与 Google DeepMind 1 月 5 日在 CES 宣布合作,将 Gemini 视觉模型集成到 Atlas 人形机器人中,用于导航和物体识别。现代汽车计划 2028 年起年产 3 万台,初期处理零件排序。",
+      "importance": "critical",
+      "reasoning": "Boston Dynamics 与 DeepMind 于1月5日CES宣布重大AI合作,集成 Gemini 视觉能力,现代汽车承诺年产3万台,标志人形机器人进入AI驱动时代。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/",
+      "keywords": ["Boston Dynamics", "DeepMind", "Atlas", "3 万台", "现代汽车"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI o1 推理模型负责人离职",
+      "content": "OpenAI 研发副总裁 Jerry Tworek 1 月初离职,结束 7 年任职。他是 o1/o3 推理模型负责人,离职原因是想做 OpenAI 无法开展的研究。",
+      "importance": "high",
+      "reasoning": "OpenAI 推理模型(o1/o3)之父、7年元老于1月初离职,反映OpenAI从研究转向商业化的内部压力,具高话题性。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3627594281976834",
+      "keywords": ["OpenAI", "Jerry Tworek", "o1", "o3", "离职"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "AMD 发布 MI455X GPU 挑战 Nvidia",
+      "content": "AMD CEO 苏姿丰 在 CES 发布 MI455X GPU,3200 亿晶体管,比上代增加 70%。OpenAI 总裁和李飞飞到场站台。",
+      "importance": "high",
+      "reasoning": "AMD于1月6日CES发布史上最强AI芯片,3200亿晶体管,获OpenAI和李飞飞站台,OpenAI承诺60亿瓦部署,挑战Nvidia地位,属赛道级产品。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3627607956079621",
+      "keywords": ["AMD", "MI455X", "3200 亿晶体管", "OpenAI", "李飞飞"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "智谱 AI 今日港股上市成大模型第一股",
+      "content": "清华系 AI 公司智谱今日港股上市,代码 2513,估值超 511 亿港元,2025 上半年营收增长 325%。",
+      "importance": "high",
+      "reasoning": "智谱今天(1月8日)正式上市,成为全球大模型第一股,募资43亿港元,2025上半年营收增长325%,标志中国AI产业成熟,属重要融资事件。",
+      "source": "每经网",
+      "url": "https://www.nbd.com.cn/articles/2025-12-30/4201090.html",
+      "keywords": ["智谱", "港股上市", "2513", "511 亿港元", "325% 增长"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "MiniMax 明日港股上市估值 461 亿港元",
+      "content": "MiniMax 明天上市,代码 0100,估值 461 亿港元。成立仅 4 年,创全球 AI 公司最快上市记录。",
+      "importance": "high",
+      "reasoning": "MiniMax明天(1月9日)上市,成立仅4年创全球AI公司最快上市记录,估值60亿美元,基石投资27亿港元,属重要融资事件。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/newstock/2025-12-31/doc-inhesahs9171538.shtml",
+      "keywords": ["MiniMax", "港股上市", "0100", "461 亿港元", "4 年"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "Nvidia CEO 在 CES 演讲中重点提及 DeepSeek",
+      "content": "Nvidia CEO 黄仁勋在 CES 演讲中重点展示 DeepSeek 和 Kimi,称其令全球惊讶。",
+      "importance": "medium",
+      "reasoning": "Nvidia CEO 在CES主题演讲中罕见重点提及中国AI模型DeepSeek和Kimi,展示中国AI模型的国际影响力,1月6日发布。",
+      "source": "新华社英文",
+      "url": "https://english.news.cn/20260107/62bdceaeda8640969708ca62a2bc110e/c.html",
+      "keywords": ["Nvidia", "黄仁勋", "DeepSeek", "Kimi", "Rubin"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "智源今日发布 2026 AI 十大趋势",
+      "content": "智源研究院今日发布 2026 AI 十大趋势,聚焦具身智能和 AI for Science。",
+      "importance": "medium",
+      "reasoning": "智源研究院今天(1月8日)发布年度趋势报告,聚焦具身智能和AI4S,为行业报告类,具参考价值。",
+      "source": "AITOP100",
+      "url": "https://www.aitop100.cn/infomation/",
+      "keywords": ["智源", "2026 趋势", "具身智能", "AI for Science", "发布会"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-08T09:30:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1850
+  }
+}

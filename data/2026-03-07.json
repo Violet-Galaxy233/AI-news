@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-07",
+  "date_formatted": "26/03/07",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenClaw 工坊今日新加坡开讲",
+      "content": "中新人工智能协会（CSAIA）× DistriBrain 在新加坡 Twin Regency 举办 OpenClaw「养殖指北」工坊，以 48 SGD 半公益价系统讲透 AI 智能体原理与多智能体协作搭建，含现场部署 24x7 自动化智能体军团实操演示，精品小班限 15-20 人。主讲 Dr. Franklin 具备清华 / 南洋理工 / SenseTime 八年研究经历，10+ 顶会论文及评审资历。当前坡坡市场 OpenClaw 上门安装服务普遍收费 399 SGD 起，",
+      "importance": "critical",
+      "reasoning": "本地 AI 社群今日活动，时效性强。主办方 CSNA 为中新 AI 社群核心组织，内容聚焦当前最热门 AI 智能体实战搭建，对新加坡 AI 爱好者及创业者具有直接参考价值。",
+      "source": "CSNA × DistriBrain",
+      "url": "",
+      "keywords": ["OpenClaw", "AI智能体", "新加坡", "CSNA", "工坊"],
+      "category": "社区活动"
+    },
+    {
+      "id": 2,
+      "title": "三星 AI 眼镜正式曝光",
+      "content": "三星在世界移动通信大会（MWC）首次公开 AI 智能眼镜详情：搭载 1200 万像素摄像头，采用高通 AR1 专用芯片，运行三星与谷歌、高通联合开发的 Android XR 操作系统，通过将摄像画面实时传至手机处理，提供场景识别和实时翻译功能。三星确认该产品将于 2026 年内发售，定价参照 Meta Ray-Ban（起售价约 379 美元）制定，旨在撬动 Meta 占据 82% 市占率的智能眼镜市场，这也是三星首次进入这一品类。",
+      "importance": "critical",
+      "reasoning": "三星（全球最大硬件厂商之一）正式曝光 AI 智能眼镜硬件细节，直接对标 Meta Ray-Ban，标志着继苹果 Vision Pro 之后又一科技巨头以清晰产品规格进入 AI 可穿戴市场，属于巨头 AI 硬件发布级别事件。CNBC 昨日（3 月 6 日）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/06/samsung-ai-smart-glasses-first-details-specs-release-date.html",
+      "keywords": ["三星", "AI眼镜", "MWC", "智能眼镜", "Android XR"],
+      "category": "硬件发布"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic 推出企业应用市场",
+      "content": "Anthropic 正式上线 Claude Marketplace，企业客户可购买由 Claude 驱动的第三方 AI 应用，Anthropic 不抽取任何分成，并允许企业将已承诺的 Anthropic 年度费用直接用于购买合作方产品，相当于向合作伙伴直接引流既有预算。首批入驻 6 家合作方包括 GitLab、Harvey、Replit、Lovable、Rogo 和 Snowflake，涵盖代码开发、法律自动化和数据分析等场景，Anthropic 将其定位为「亚马逊式 AI 软件商店」，现已进入企业限量预览阶段。",
+      "importance": "critical",
+      "reasoning": "Anthropic（三大核心 AI 公司之一）正式构建企业 AI 应用生态，以「0 分成 + 预算复用」策略对标 OpenAI GPT Store，且 6 家首批合作方均为企业 SaaS 头部产品，是 AI 产业从模型研发转向生态运营的重要里程碑。Bloomberg/VentureBeat/SiliconANGLE 昨日（3 月 6 日）集中报道。",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude",
+      "keywords": ["Anthropic", "Claude Marketplace", "企业生态", "GitLab", "Harvey"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT 嵌入 Excel 正式上线",
+      "content": "OpenAI 正式推出 ChatGPT for Excel，将 GPT-5.4 Thinking 直接嵌入微软 Excel 和谷歌表格，可在工作表内自主构建财务模型、执行分析并更新数据，无需切换任何应用。在 OpenAI 内部投行任务评测中，性能从 GPT-5 时的 43.7% 跃升至 87.3%，已接近资深金融分析师水准。测试版现向美国、加拿大、澳大利亚的 ChatGPT Plus/Pro/Team/Enterprise 用户开放，并计划整合彭博、FactSet 等实时金融数据源。",
+      "importance": "critical",
+      "reasoning": "OpenAI 将旗舰模型直接嵌入全球最广泛使用的生产力工具 Excel（全球约 12 亿 Office 用户），以 43.7% → 87.3% 的量化跃升证明 AI 进入企业核心工作流。属于超大规模 AI 部署事件，对企业 SaaS 市场影响深远。Fortune/Axios/VentureBeat 昨日（3 月 5-6 日）报道。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/",
+      "keywords": ["OpenAI", "ChatGPT", "Excel", "GPT-5.4", "企业AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "NotebookLM 推出视频生成",
+      "content": "谷歌为 NotebookLM 上线「电影级视频摘要」功能，用户上传文档或笔记后，系统调用 Gemini 3 担任创意导演、Nano Banana Pro 生成视觉素材、Veo 3 负责动态画面，自动产出叙事完整的动画视频，完成整套多媒体内容创作。该功能目前仅向 AI Ultra 订阅用户（约 $20/月）开放，每日上限 20 条，支持英语内容。",
+      "importance": "high",
+      "reasoning": "谷歌将三款自研 AI 模型（Gemini 3 + Nano Banana Pro + Veo 3）首次整合至 NotebookLM 单一产品，实现从文档到视频的全自动转化，是知识管理工具与视频生成技术的首次深度融合，将对 Sora、Runway 等视频生成赛道形成竞争。MacRumors/gHacks 前日（3 月 5 日）报道。",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/03/05/notebooklm-now-creates-cinematic-video-overviews/",
+      "keywords": ["谷歌", "NotebookLM", "视频生成", "Gemini", "Veo 3"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "WhatsApp 向竞品 AI 开放",
+      "content": "Meta 宣布继欧洲（应对欧盟反垄断调查）后，WhatsApp 巴西用户可使用 ChatGPT、Perplexity 等第三方 AI 助手，Meta 向接入方收取每条约 0.06 美元消息费。全球逾 20 亿 WhatsApp 用户首次能直接选择非 Meta AI 助手，Meta 以「平台收费」模式从竞品 AI 流量中持续获益，该决定源于欧盟反垄断调查与巴西反垄断败诉的双重压力。",
+      "importance": "high",
+      "reasoning": "WhatsApp（全球最大即时通讯应用，逾 20 亿用户）正式向竞争对手 AI 开放，重塑全球最大移动 AI 分发渠道的竞争格局，OpenAI 和 Perplexity 等公司首次获得触达 WhatsApp 海量用户的渠道。TechCrunch 昨日（3 月 6 日）独立报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "keywords": ["Meta", "WhatsApp", "竞品AI", "反垄断", "ChatGPT"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "云服务商确认 Claude 服务不受限",
+      "content": "围绕 Anthropic 与五角大楼的供应链争议出现重大新进展：微软、谷歌、亚马逊 AWS 相继公开表态，企业和创业公司通过三大云平台调用 Claude 的服务不受国防部封锁影响，仅对国防部直接采购渠道的限制在上诉期维持。Anthropic 同时表示与五角大楼已有「积极进展」的沟通，但仍推进联邦诉讼程序，双轨并行。",
+      "importance": "high",
+      "reasoning": "三大云服务商集体公开澄清使用资格，是 Anthropic 诉讼风波中的重要利益相关方表态，直接稳定了以 AWS Bedrock/Azure AI 为渠道的企业客户信心，是昨日重大事件的关键后续进展。TechCrunch/SiliconANGLE 昨日（3 月 6 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "keywords": ["Anthropic", "五角大楼", "AWS", "微软", "供应链"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "Claude Code 企业功能大更新",
+      "content": "Anthropic 为 Claude Code 推出一批企业级功能：新增 /loop 循环指令和定时调度（cron），VS Code 侧边栏新增全会话管理面板，并内置 MCP 服务管理对话框。同步上线：Cowork 协同功能向 Pro 用户开放，Claude Code 访问权限纳入全部 Team 标准席位。",
+      "importance": "medium",
+      "reasoning": "Anthropic 持续强化 Claude Code 企业功能，定时调度和循环指令使 AI 编程工具向全自动化迈进，Cowork 下放 Pro 计划扩大企业协同用户基础，是产品迭代的重要节点。Releasebot 昨日（3 月 6 日）记录。",
+      "source": "Anthropic",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "keywords": ["Claude Code", "Anthropic", "企业功能", "Cowork", "MCP"],
+      "category": "产品更新"
+    },
+    {
+      "id": 8,
+      "title": "Ai2 发布 Olmo Hybrid 开源模型",
+      "content": "艾伦 AI 研究院（Ai2）发布 Olmo Hybrid 7B 开源模型，混合 Transformer 注意力机制与线性循环层，在通用知识和推理评测中达到 Olmo 3 同等准确率所需的训练数据较后者减少 49%，数据效率翻倍。模型权重完全开源，支持学术和商业用途。",
+      "importance": "medium",
+      "reasoning": "Ai2 是开源 AI 研究领域标杆机构，Olmo Hybrid 以混合架构实现 2 倍数据效率提升，对学术界和资源受限的企业用户具有重要参考价值，推动开源与闭源模型差距进一步缩小。搜索结果显示昨日（3 月 6 日）发布。",
+      "source": "AI News",
+      "url": "https://llm-stats.com/ai-news",
+      "keywords": ["Ai2", "Olmo Hybrid", "开源模型", "混合架构", "数据效率"],
+      "category": "模型发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-07T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "CNBC", "VentureBeat", "Fortune", "SiliconANGLE", "MacRumors", "Bloomberg", "Axios", "Releasebot", "WebSearch"],
+    "duplicates_removed": 4,
+    "generation_time_seconds": 780
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-02-28",
+  "date_formatted": "26/02/28",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Trump 封禁 Anthropic",
+      "content": "特朗普下令全政府立即停用 Anthropic 产品，五角大楼将其列为「供应链风险」，凡有意承接军方合同的企业须与 Anthropic 强制断绝往来，现有国防部合同获六个月过渡期。导火索是 Anthropic 拒绝五角大楼的最后通牒：移除大规模国内监控及全自主武器系统两条安全限制，双方谈判破裂。Anthropic 宣布将提起法律挑战。",
+      "importance": "critical",
+      "reasoning": "美国政府首次将一家 AI 企业列为「供应链风险」并全面封禁，意味着任何与美军合作的企业均须与 Anthropic 断绝业务，是 AI 行业与政府关系的历史性破裂节点。Bloomberg / CNBC / Fortune 于 2 月 27 日（昨天）全面报道。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-orders-us-government-to-drop-anthropic-after-pentagon-feud",
+      "keywords": ["Anthropic", "Trump", "五角大楼", "供应链风险", "AI伦理"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 完成史上最大私募",
+      "content": "OpenAI 以亚马逊 500 亿、英伟达 300 亿、软银 300 亿的股东阵容完成 1100 亿美元融资，公司估值升至 7300 亿美元，较四个月前 5000 亿涨幅 46%，创史上最大规模私募融资纪录。亚马逊同步签署多年战略合作，英伟达将提供专属 Vera Rubin 系统的推理与训练算力，支撑 OpenAI 后续算力扩张。",
+      "importance": "critical",
+      "reasoning": "史上最大私募融资，$7300 亿估值超过绝大多数上市科技公司市值，亚马逊 / 英伟达 / 软银三巨头同时入局，意味着 AI 供应链头部资本向 OpenAI 高度集中。TechCrunch / CNBC / Bloomberg 于 2 月 27 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "keywords": ["OpenAI", "1100亿融资", "亚马逊", "英伟达", "软银"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 签署五角大楼协议",
+      "content": "Anthropic 遭封禁数小时后，OpenAI CEO Sam Altman 宣布与五角大楼签署协议，将在军方机密网络部署 OpenAI 模型。协议写入与 Anthropic 相同的两条安全承诺：禁止大规模国内监控、自主武器须保留人类决策权。五角大楼认可这两条原则并承诺写入法规，OpenAI 将派驻技术人员跟进安全运行。",
+      "importance": "critical",
+      "reasoning": "Anthropic 被封禁当天 OpenAI 即以相同安全条款完成协议，暗示五角大楼在技术层面接受了安全红线，却选择以「封禁不服从者」而非「接受条款」的方式施压。CNBC / NPR / Bloomberg 于 2 月 27 日（昨天）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html",
+      "keywords": ["OpenAI", "五角大楼", "军事协议", "Altman", "AI安全"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT 周活用户破 9 亿",
+      "content": "OpenAI 宣布 ChatGPT 周活跃用户突破 9 亿，逼近 10 亿大关，较 2025 年初的 3 亿增长 3 倍，消息与 1100 亿美元融资同日公布。",
+      "importance": "high",
+      "reasoning": "9 亿周活约占全球互联网用户的 20%，是 AI 产品渗透率的重要里程碑，与史上最大私募融资同日披露强化 OpenAI 估值叙事。2 月 27 日（昨天）宣布，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
+      "keywords": ["ChatGPT", "9亿用户", "OpenAI", "周活跃", "用户增长"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "AI 员工联署支持 Anthropic",
+      "content": "Anthropic 遭封禁当天，Google 的 236 名与 OpenAI 的 65 名员工联署公开信，要求两家公司采纳相同的军事 AI 红线——禁止大规模国内监控与全自主武器系统。这是 AI 行业首次出现跨公司员工大规模联署，向雇主施压拒绝特定军事条款。",
+      "importance": "high",
+      "reasoning": "AI 员工自组织跨公司联署施压雇主是行业新现象，301 人签署可能影响 Google 和 OpenAI 与五角大楼的后续谈判走向，也是 AI 伦理从企业政策层面向员工行动层面延伸的标志。TechCrunch 于 2 月 27 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropics-pentagon-stand-in-open-letter/",
+      "keywords": ["Google", "OpenAI", "员工联署", "AI伦理", "军事AI红线"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Suno 付费用户达 200 万",
+      "content": "Suno AI 宣布付费订阅达 200 万、年化收入突破 3 亿美元，商业里程碑在版权诉讼仍悬而未决之际对外公布，显示法律风险未影响 C 端增长。",
+      "importance": "high",
+      "reasoning": "Suno 以付费 200 万 / ARR 3 亿美元确立 AI 音乐赛道商业化领先地位，在仍面临唱片公司版权诉讼的逆境中公布增长数据，是 AI 生成内容付费化的关键数据节点。TechCrunch 于 2 月 27 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
+      "keywords": ["Suno", "AI音乐", "200万订阅", "3亿ARR", "版权诉讼"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "DeepSeek V4 下周发布",
+      "content": "DeepSeek 宣布下周发布 V4 多模态模型，原生支持音频、视频、图像与文字生成，上下文长度达 100 万字符，并完成与华为、寒武纪国产芯片的深度适配。",
+      "importance": "medium",
+      "reasoning": "DeepSeek V4 是 R1 发布以来首个重大更新，原生多模态能力与百万字符上下文为实质性功能升级，国产芯片适配具有重要战略意义。AIBase 于 2 月 28 日（今天）报道，《金融时报》确认发布时间表。",
+      "source": "AIBase",
+      "url": "https://www.aibase.com/news/25790",
+      "keywords": ["DeepSeek", "V4", "多模态", "国产芯片", "开源模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "英伟达推专用推理芯片",
+      "content": "英伟达计划推出整合 Groq 专用芯片技术的新型 AI 推理处理器，预计下月 GTC 开发者大会亮相，此前英伟达以 200 亿美元收购 Groq 资产，此举直接回应 OpenAI 对现有 GPU 推理效率不满并外寻替代方案的压力。",
+      "importance": "medium",
+      "reasoning": "英伟达以专用推理芯片产品线填补通用 GPU 在效率场景的缺口，同时以 200 亿美元收购 Groq 阻断了 OpenAI 的替代渠道，是 AI 芯片竞争格局的新动向。WSJ 于 2 月 27 日（昨天）首发报道。",
+      "source": "WSJ",
+      "url": "https://money.usnews.com/investing/news/articles/2026-02-27/nvidia-plans-new-chip-to-speed-ai-processing-wsj-reports",
+      "keywords": ["英伟达", "Groq", "推理芯片", "GTC", "AI硬件"],
+      "category": "硬件基础设施"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-28T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["Bloomberg", "TechCrunch", "CNBC", "NPR", "Fortune", "Hacker News", "AIBase", "36kr", "WSJ", "WebSearch"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 420
+  }
+}

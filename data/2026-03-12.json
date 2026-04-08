@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-12",
+  "date_formatted": "26/03/12",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "英伟达260亿布局AI模型",
+      "content": "英伟达在最新 SEC 备案文件中披露，计划在 18-24 个月内斥资 260 亿美元自主研发开源 AI 模型，资金涵盖模型训练、算力基础设施、研究人才及生态合作。这是英伟达首次以书面形式宣布进入 AI 模型赛道，将与原本最大客户 OpenAI、Anthropic、DeepSeek 直接竞争。与此同步，英伟达发布首款旗舰开源模型 Nemotron 3 Super：1200 亿参数规模（运行时仅激活 120 亿），上下文长度达 100 万字符，运行速度较上代提升 5 倍。",
+      "importance": "critical",
+      "reasoning": "3 月 11-12 日发布。英伟达首次以 SEC 正式文件宣布斥资 260 亿美元进入 AI 模型赛道，从「卖铲子」转型为模型竞争者，将与最大客户正面竞争；同步发布旗舰开源模型 Nemotron 3 Super，是 AI 产业格局的根本性转变，Wired、Motley Fool、Sherwood News 等多家主流媒体同日重点报道。",
+      "source": "Sherwood News",
+      "url": "https://sherwood.news/tech/nvidia-plans-to-spend-usd26-billion-trainging-its-own-open-weight-ai-models/",
+      "keywords": ["英伟达", "开源AI模型", "SEC备案", "Nemotron", "260亿"],
+      "category": "模型发布"
+    },
+    {
+      "id": 2,
+      "title": "Replit估值90亿三倍融资",
+      "content": "在线编程平台 Replit 完成 4 亿美元 D 轮融资，估值升至 90 亿美元，是 6 个月前 30 亿美元估值的 3 倍，由 Georgian Partners 领投。平台主打 AI 辅助「氛围编程」，目标年末年化营收突破 10 亿美元，已成为新一代开发者的主流工具平台。",
+      "importance": "critical",
+      "reasoning": "3 月 11 日发布。4 亿美元融资令 Replit 估值 6 个月内翻 3 倍至 90 亿美元，是氛围编程赛道规模最大的单笔融资；年化营收 10 亿美元目标显示 AI 辅助编程平台商业化已进入主流阶段，TechCrunch 重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
+      "keywords": ["Replit", "融资", "氛围编程", "估值", "D轮"],
+      "category": "融资"
+    },
+    {
+      "id": 3,
+      "title": "Lovable人均创收破纪录",
+      "content": "瑞典 AI 编程公司 Lovable 披露，2 月单月新增年化营收 1 亿美元，当前年化营收已达 4 亿美元，全公司仅 146 名员工，人均年创收约 274 万美元，刷新 SaaS 赛道效率纪录。Lovable 证明 AI 原生公司可凭极少人力实现高速规模增长，对传统软件开发商业模式构成直接冲击。",
+      "importance": "critical",
+      "reasoning": "3 月 11 日发布。146 人实现 4 亿美元年化营收（人均 274 万美元），是 SaaS 赛道历史上最极端的效率比例之一；单月新增 1 亿美元年化营收的增速亦创行业纪录，是 AI 原生公司颠覆传统软件商业模式的范式证据，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+      "keywords": ["Lovable", "年化营收", "氛围编程", "SaaS", "人效"],
+      "category": "商业数据"
+    },
+    {
+      "id": 4,
+      "title": "Atlassian裁员转型AI",
+      "content": "Atlassian 宣布裁员约 1600 人（占全员 10%），其中 900 余人来自研发部门，重组费用达 2.36 亿美元，年底前完成。CEO 坎农-布鲁克斯表示此举是为「自筹资金」加速 AI 转型，首席技术官同步离职，公司股价今年已累跌逾 50%。",
+      "importance": "high",
+      "reasoning": "3 月 11 日发布。裁员 10%（1600 人）明确标注为资助 AI 投入，是已盈利大型软件公司首次以如此大规模裁员换取 AI 转型资金，2.36 亿美元重组费表明规模真实，CNBC 重点报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/11/atlassian-slashes-10percent-of-workforce-to-self-fund-investments-in-ai.html",
+      "keywords": ["Atlassian", "裁员", "AI转型", "重组", "1600人"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Claude进驻办公套件",
+      "content": "Anthropic 升级 Claude 的 Microsoft Office 插件：Excel 与 PowerPoint 现可共享对话上下文，用户在 Excel 完成数据分析后，Claude 可直接延续至 PowerPoint 制图，无需重复说明背景。即日起向 Mac 和 Windows 付费用户开放，支持企业级一键可复用工作流模板，正面对标微软 Copilot 企业市场。",
+      "importance": "high",
+      "reasoning": "3 月 11 日发布。Anthropic 将 Claude 集成至 Microsoft Office 两大旗舰应用并实现跨应用上下文共享，是对微软 Copilot 企业市场的最直接挑战，进一步扩大 Anthropic 企业客户版图，VentureBeat 报道。",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
+      "keywords": ["Claude", "Anthropic", "Excel", "PowerPoint", "企业办公"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Netflix收购AI制片公司",
+      "content": "Netflix 以最高 6 亿美元收购演员本·阿弗莱克创立的 AI 制片工具公司 InterPositive，16 人团队全体加入 Netflix，阿弗莱克出任高级顾问。InterPositive 可分析拍摄素材并生成 AI 模型，辅助后期调色、补光、视觉特效等流程，是 Netflix 历史规模最大的并购之一，技术将开放给内容合作方使用。",
+      "importance": "high",
+      "reasoning": "3 月 11 日发布。6 亿美元收购价格是 Netflix 历史最大并购之一，是主流流媒体公司首次在制作后期领域收购 AI 工具公司，标志好莱坞正式将 AI 制作工具纳入核心生产体系，Bloomberg 独家曝光后多家媒体跟进。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+      "keywords": ["Netflix", "InterPositive", "并购", "AI制片", "Ben Affleck"],
+      "category": "并购"
+    },
+    {
+      "id": 7,
+      "title": "Zendesk并购AI客服创企",
+      "content": "客服软件公司 Zendesk 宣布收购 AI 客服智能体创企 Forethought（2018 年 TechCrunch Battlefield 冠军），交易预计 3 月底完成，具体金额未披露。Forethought 的 AI 系统可自动处理客服交互，将帮助 Zendesk 打造「可自我进化的客服解决方案」，是 Zendesk 近二十年来规模最大的并购。",
+      "importance": "high",
+      "reasoning": "3 月 11 日发布。Zendesk 近二十年来最大并购，收购 AI 客服智能体领域早期先行者，标志客服软件市场全面转向 AI 智能体架构，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+      "keywords": ["Zendesk", "Forethought", "并购", "AI客服", "智能体"],
+      "category": "并购"
+    },
+    {
+      "id": 8,
+      "title": "宏利AI智能体进入保险核心",
+      "content": "加拿大宏利金融已将 AI 智能体部署至保险核准和理赔等核心流程，目前生产环境运行 35 个生成式 AI 用例，预计 2027 年前创造超 10 亿美元价值。",
+      "importance": "medium",
+      "reasoning": "3 月 11 日发布。全球领先保险公司将 AI 智能体正式导入核准和理赔核心流程（35 个用例），预计创造超 10 亿美元价值，是保险行业 AI 智能体规模化落地的标志性案例，AI News 报道。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/",
+      "keywords": ["宏利金融", "AI智能体", "保险", "核准", "理赔"],
+      "category": "行业应用"
+    },
+    {
+      "id": 9,
+      "title": "METR:AI编程评测脱离实战",
+      "content": "AI 安全机构 METR 研究发现，通过主流 AI 编程能力测试的代码，大多数在真实开源项目中不会被维护者接受合并，揭示 AI 编程测评标准与实际工程质量之间存在系统性落差。",
+      "importance": "medium",
+      "reasoning": "3 月 10 日发布（在 3 天窗口期内）。AI 安全机构 METR 正式发布研究注记，揭示 AI 编程测评标准与真实开源项目维护者接受度之间的系统性差距，是对 AI 编程工具实际能力的重要校正数据，METR 官网发布并引发广泛讨论。",
+      "source": "METR",
+      "url": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
+      "keywords": ["METR", "AI编程", "评测", "开源", "工程质量"],
+      "category": "研究报告"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-12T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "CNBC", "Bloomberg", "VentureBeat", "AI News", "METR", "Sherwood News", "TechBuzz AI", "AIBase", "Hacker News", "36kr", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 540
+  }
+}

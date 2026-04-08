@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-06",
+  "date_formatted": "26/04/06",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic封锁外部框架",
+      "content": "Anthropic 宣布，Claude Code 订阅计划（Pro $20/月、Max $200/月）停止覆盖 OpenClaw 及其他第三方智能体框架的使用消耗；开发者若继续使用第三方工具，须切换至按量计费，以 Claude Opus 4.6 为例输入 $15、输出 $75 每百万字符，月均成本从 $200 上涨至 $1,000–$5,000，涨幅最高达 25 倍；Claude Code 产品负责人 Boris Cherny 表示「订阅制并非为此类使用模式设计」。Anthropic 向存量订阅用户提供等额一次性抵扣额度（有效至 4 月 17 日），批量预购最高享 30% 折扣。",
+      "importance": "critical",
+      "reasoning": "4月4日 Anthropic 官方宣布，TechCrunch、TNW、Yahoo Finance 等多家媒体同日报道。Claude Code 订阅用户使用 OpenClaw 等第三方智能体框架的费用最高暴涨 25 倍，影响数千名开发者，是 AI 订阅制商业模式的重大转折，标志着 AI 公司开始将智能体框架用量纳入单独计费体系。Critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+      "keywords": ["Anthropic", "Claude Code", "OpenClaw", "按量计费", "订阅制", "Boris Cherny", "智能体框架"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "AI攻击性网络能力每6个月翻倍",
+      "content": "AI 安全机构 Lyptus Research 发布研究报告：自 2024 年起，AI 攻击性网络安全能力每 5.7 个月翻倍，速度较 2019–2024 年的 9.8 个月显著加速；以 Claude Opus 4.6 和 GPT-5.3 Codex 进行测试（291 项真实渗透任务，10 名职业安全专家评分），两款模型已可以 50% 成功率完成需专家约 3 小时处理的网络攻击任务；若将算力预算扩大至 1,000 万字符，GPT-5.3 Codex 可完成相当于 10.5 小时专家工作量的任务，而防御端能力提升速度远落后于此。研究数据集已公开于 GitHub 和 Hugging Face。",
+      "importance": "critical",
+      "reasoning": "4月5日 The Decoder 发表，基于 Lyptus Research 的完整公开研究（291任务、10位专家、METR 时间维度评估法）。AI攻击能力每5.7个月翻倍，已可自主完成3小时的专家攻击任务，这是可量化的安全基准线数据，对 AI 安全评估和监管框架有系统性影响。Critical 级。",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/ai-offensive-cyber-capabilities-are-doubling-every-six-months-safety-researchers-find/",
+      "keywords": ["Lyptus Research", "网络安全", "攻击能力", "5.7个月翻倍", "Claude Opus 4.6", "GPT-5.3 Codex", "METR"],
+      "category": "安全研究"
+    },
+    {
+      "id": 3,
+      "title": "美国首推AI自主续精神科处方",
+      "content": "犹他州 4 月正式启动全美首个 AI 自主续药试点：授权 Legion Health 旗下 AI 系统在无需医师介入的情况下，为 15 种低风险精神科维护用药自动续期（不含管制药品、抗精神病药及锂盐），试点为期 1 年；首批 1,250 例须经医师复审后方可全面铺开，AI 系统无权开具新处方或调整剂量。犹他州 1 月已授权 Doctronic AI 续开 190 种常规药物，此次精神科是 AI 首次进入高度敏感临床处方流程，构成全美监管先例。",
+      "importance": "critical",
+      "reasoning": "试点于 2026 年 4 月正式启动（1月公告，3月批准，4月执行），Gizmodo、Washington Post 等多家媒体持续报道。AI 首次获得自主续开精神科处方的权力，是美国医疗 AI 监管的历史性节点；犹他州已是两次「全美首例」（1月常规药物、4月精神科），将深刻影响其他州的立法走向。Critical 级。",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/utah-is-giving-dr-ai-the-power-to-renew-drug-prescriptions-2000742164",
+      "keywords": ["犹他州", "Legion Health", "AI处方", "精神科", "医疗AI", "监管先例", "Doctronic"],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic成立政治组织",
+      "content": "Anthropic 向美国联邦选举委员会申请注册成立员工自愿出资政治行动委员会 AnthroPAC，单人出资上限 $5,000；计划由两党联合董事会运营，向两党候选人均匀捐款；此举恰在 Anthropic 与特朗普政府就五角大楼供应链封锁令展开联邦诉讼的背景下宣布。Anthropic 今年 2 月已向 AI 安全倡导组织 Public First Action 注资 $2,000 万，AnthroPAC 标志其政治布局进一步系统化。",
+      "importance": "high",
+      "reasoning": "4月3日 TechCrunch、Axios 等报道，FEC 官方备案可查。Anthropic 是首家在与联邦政府正面交锋期间注册 PAC 的大型 AI 公司，$5,000 员工上限、两党对等结构显示试图维持中立形象；结合2月 $2,000 万捐款，AI 公司的政治化布局已形成体系。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+      "keywords": ["Anthropic", "AnthroPAC", "FEC", "政治行动委员会", "五角大楼诉讼", "AI政治化"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "微软Copilot自称娱乐",
+      "content": "TechCrunch 披露，微软现行服务条款将 Copilot 定性为「仅供娱乐目的使用」，声明不对输出的准确性、版权或名誉权侵害承担任何保证，用户若公开使用 AI 内容须独立承担全部法律责任；微软发言人回应称该表述为「历史遗留用语、已不反映 Copilot 实际用途」，将随下次更新修改。企业已将 Copilot 深度集成至 Microsoft 365 核心业务流程，此次曝光引发对 AI 责任豁免条款与实际商用定位落差的广泛讨论。",
+      "importance": "high",
+      "reasoning": "4月5日 TechCrunch 报道（The Register 4月2日已先行披露），HN 热度较高。微软 Copilot 是全球部署量最大的企业 AI 助手之一，「仅供娱乐」条款与其面向企业的营销定位形成鲜明矛盾，触发对 AI 责任边界和企业合规风险的系统性讨论。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+      "keywords": ["微软", "Copilot", "服务条款", "娱乐目的", "法律责任", "企业AI", "责任豁免"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "日本物理AI从试点走向规模商用",
+      "content": "TechCrunch 报道，日本劳动年龄人口仅余 59.6%（14 年连续下降），物理 AI 正加速从试验走向规模部署：机器人公司 Mujin 已在超 100 处仓库落地 AI 机械臂，单站替代 3–4 名工人；FANUC 与英伟达合作推出可接受语音指令、自动生成操作代码的 AI 机器人；日本政府已承诺投入约 $63 亿支持产业发展，日本经产省目标 2040 年占全球物理 AI 市场 30% 份额。",
+      "importance": "high",
+      "reasoning": "4月5日 TechCrunch 深度报道。日本是全球最早因人口危机大规模导入物理 AI 的经济体，Mujin 100+ 仓库、FANUC 英伟达合作、$63 亿政府投入均为可量化数据，标志物理 AI 从 CES 展品进入真实产业落地，对制造业和供应链有全球示范意义。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "keywords": ["日本", "物理AI", "Mujin", "FANUC", "英伟达", "仓储机器人", "劳动力短缺"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "高盛预测芯片营收年内增49%",
+      "content": "高盛预测，受 AI 算力需求持续拉动，2026 年底全球半导体营收将同比增长 49%，AI 硬件收入届时有望突破 $7,000 亿；美国 AI 相关投资已较 2022 年基线增加 $3,250 亿，占 GDP 1.1%。",
+      "importance": "medium",
+      "reasoning": "4月5日 ANI News、Tribune India 等报道，引用高盛研究报告。49% 的芯片营收增长预测和 $7,000 亿 AI 硬件收入是行业分析参考基准，有具体数字支撑，medium 级（行业报告，非突发事件）。",
+      "source": "Goldman Sachs / ANI News",
+      "url": "https://www.aninews.in/news/business/ai-led-demand-to-drive-sharp-surge-in-semiconductor-revenues-goldman-sachs20260405145721/",
+      "keywords": ["高盛", "半导体", "49%增长", "AI硬件", "$7000亿", "算力需求"],
+      "category": "行业分析"
+    },
+    {
+      "id": 8,
+      "title": "印度Sarvam接近融资",
+      "content": "印度 AI 初创 Sarvam AI 本周接近完成 $3.5 亿融资（估值 $15.5 亿），由 Bessemer Venture Partners 领投，英伟达、亚马逊参与；公司专注于支持 22 种印度语言的语音优先 AI 系统，是印度迄今最大规模纯 AI 基础模型公司融资。",
+      "importance": "medium",
+      "reasoning": "4月2日 Bloomberg 独家报道融资接近完成，本周（4月6日当周）预计交割。Sarvam AI 是印度代表性 AI 基础模型公司，英伟达、亚马逊参投体现全球科技巨头对美中以外 AI 生态的持续押注，$3.5 亿是印度单笔 AI 融资纪录。Medium 级（融资消息，尚未官宣关闭）。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/india-ai-startup-sarvam-raises-funds-at-1-5-billion-valuation",
+      "keywords": ["Sarvam AI", "印度", "融资", "$3.5亿", "Bessemer", "英伟达", "亚马逊", "22种语言"],
+      "category": "融资动态"
+    },
+    {
+      "id": 9,
+      "title": "谷歌Gemini推弹性计费",
+      "content": "谷歌为 Gemini API 新增 Flex 和 Priority 两档计费：Flex 档较标准价低 50%，适合可接受 1–15 分钟延迟的批量后台任务；Priority 档保证资源优先分配和低延迟，超出容量时自动降级至标准档而非报错，两档均复用同一标准 API 端点，开发者无需额外维护异步任务逻辑。",
+      "importance": "medium",
+      "reasoning": "4月2日谷歌 Gemini API 产品团队官方发布，AI Toolly 等于4月3日跟进报道。Gemini API 推出差异化计费层级，50% 的 Flex 折扣对批量推理场景有实质成本意义，是 Google 针对开发者商业化定价体系的重要调整。Medium 级（常规 API 更新）。",
+      "source": "Google Developers Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "keywords": ["谷歌", "Gemini API", "Flex档", "Priority档", "弹性计费", "50%折扣", "批量推理"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-06T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "The Decoder", "Gizmodo", "Washington Post", "Axios", "The Register", "Bloomberg", "ANI News", "Goldman Sachs Research", "Google Developers Blog", "TNW", "Lyptus Research", "Hacker News", "AI News"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 680
+  }
+}

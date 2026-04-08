@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>早餐 AI 速读</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="icon">🌅</span>
+                    <span id="pageTitle">早餐 AI 速读</span>
+                </h1>
+                <div class="date-selector">
+                    <button id="prevDay" class="date-btn" title="前一天">◀</button>
+                    <span id="currentDate" class="current-date">加载中...</span>
+                    <button id="nextDay" class="date-btn" title="后一天">▶</button>
+                    <button id="todayBtn" class="today-btn">今天</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 新闻内容 -->
+        <main class="main-content">
+            <div id="newsContainer" class="news-container">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>正在加载新闻...</p>
+                </div>
+            </div>
+
+            <!-- 元数据 -->
+            <footer class="metadata" id="metadata" style="display: none;">
+                <div class="metadata-item">
+                    <span class="metadata-icon">📊</span>
+                    <span id="totalNews">0</span> 条新闻
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-icon">🌐</span>
+                    <span id="sourcesCount">0</span> 个数据源
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-icon">⏱️</span>
+                    生成于 <span id="generatedTime">--:--</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-icon">🗑️</span>
+                    已去重 <span id="duplicatesRemoved">0</span> 条
+                </div>
+            </footer>
+        </main>
+
+        <!-- 操作按钮 -->
+        <div class="actions">
+            <button id="copyBtn" class="action-btn">
+                <span>📋</span> 复制文本
+            </button>
+            <button id="refreshBtn" class="action-btn">
+                <span>🔄</span> 刷新
+            </button>
+            <button id="shareBtn" class="action-btn">
+                <span>📤</span> 分享
+            </button>
+        </div>
+
+        <!-- 历史列表（可选） -->
+        <div class="history-panel" id="historyPanel" style="display: none;">
+            <h3>历史简报</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <!-- 提示消息 -->
+    <div id="toast" class="toast"></div>
+
+    <script src="utils.js"></script>
+    <script>
+        // 全局状态
+        let currentNewsData = null;
+        let currentDateStr = null;
+        let availableDates = [];
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            initApp();
+            bindEvents();
+        });
+
+        async function initApp() {
+            // 获取可用的日期列表
+            await loadAvailableDates();
+
+            // 加载今天的新闻或最新的新闻
+            const today = formatDate(new Date());
+            if (availableDates.includes(today)) {
+                loadNews(today);
+            } else if (availableDates.length > 0) {
+                // 加载最新的
+                loadNews(availableDates[0]);
+            } else {
+                showError('未找到任何新闻数据。请先运行 generate_news.py 生成新闻。');
+            }
+        }
+
+        async function loadAvailableDates() {
+            // 尝试获取最近30天的日期文件
+            const dates = [];
+            const today = new Date();
+
+            for (let i = 0; i < 30; i++) {
+                const date = new Date(today);
+                date.setDate(date.getDate() - i);
+                const dateStr = formatDate(date);
+
+                // 检查文件是否存在
+                try {
+                    const response = await fetch(`${dateStr}.json`);
+                    if (response.ok) {
+                        dates.push(dateStr);
+                    }
+                } catch (e) {
+                    // 文件不存在，跳过
+                }
+            }
+
+            availableDates = dates;
+            return dates;
+        }
+
+        async function loadNews(dateStr) {
+            showLoading();
+
+            try {
+                const response = await fetch(`${dateStr}.json`);
+
+                if (!response.ok) {
+                    throw new Error(`无法加载 ${dateStr}.json`);
+                }
+
+                const data = await response.json();
+                currentNewsData = data;
+                currentDateStr = dateStr;
+
+                renderNews(data);
+                renderMetadata(data.metadata);
+                updateDateDisplay(dateStr);
+
+            } catch (error) {
+                showError(`加载失败: ${error.message}`);
+            }
+        }
+
+        function renderNews(data) {
+            const container = document.getElementById('newsContainer');
+            container.innerHTML = '';
+
+            const newsList = data.news || [];
+
+            if (newsList.length === 0) {
+                container.innerHTML = '<div class="no-news">今日暂无新闻</div>';
+                return;
+            }
+
+            newsList.forEach((newsItem, index) => {
+                const newsCard = createNewsCard(newsItem, index);
+                container.appendChild(newsCard);
+            });
+        }
+
+        function createNewsCard(newsItem, index) {
+            const card = document.createElement('div');
+            card.className = `news-card importance-${newsItem.importance || 'medium'}`;
+
+            // 重要性图标
+            const importanceIcons = {
+                'critical': '🔥',
+                'high': '📌',
+                'medium': '·'
+            };
+            const icon = importanceIcons[newsItem.importance] || '·';
+
+            // 新闻内容
+            const content = document.createElement('div');
+            content.className = 'news-content';
+
+            const text = document.createElement('p');
+            text.className = 'news-text';
+            text.innerHTML = `<span class="news-icon">${icon}</span> ${newsItem.content}`;
+
+            content.appendChild(text);
+
+            // 关键词标签
+            if (newsItem.keywords && newsItem.keywords.length > 0) {
+                const tags = document.createElement('div');
+                tags.className = 'news-tags';
+
+                newsItem.keywords.forEach(keyword => {
+                    const tag = document.createElement('span');
+                    tag.className = 'tag';
+                    tag.textContent = `#${keyword}`;
+                    tags.appendChild(tag);
+                });
+
+                content.appendChild(tags);
+            }
+
+            // 底部信息（来源和链接）
+            if (newsItem.source || newsItem.url) {
+                const footer = document.createElement('div');
+                footer.className = 'news-footer';
+
+                if (newsItem.source) {
+                    const source = document.createElement('span');
+                    source.className = 'news-source';
+                    source.textContent = newsItem.source;
+                    footer.appendChild(source);
+                }
+
+                if (newsItem.url) {
+                    const link = document.createElement('a');
+                    link.className = 'news-link';
+                    link.href = newsItem.url;
+                    link.target = '_blank';
+                    link.textContent = '查看原文 →';
+                    footer.appendChild(link);
+                }
+
+                content.appendChild(footer);
+            }
+
+            card.appendChild(content);
+
+            return card;
+        }
+
+        function renderMetadata(metadata) {
+            if (!metadata) return;
+
+            document.getElementById('totalNews').textContent = metadata.total_news || 0;
+            document.getElementById('sourcesCount').textContent =
+                (metadata.sources_checked || []).length;
+            document.getElementById('duplicatesRemoved').textContent =
+                metadata.duplicates_removed || 0;
+
+            if (metadata.generated_at) {
+                const time = new Date(metadata.generated_at);
+                document.getElementById('generatedTime').textContent =
+                    time.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+            }
+
+            document.getElementById('metadata').style.display = 'flex';
+        }
+
+        function updateDateDisplay(dateStr) {
+            const date = new Date(dateStr);
+            const formatted = date.toLocaleDateString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                weekday: 'short'
+            });
+
+            document.getElementById('currentDate').textContent = formatted;
+
+            // 更新按钮状态
+            const currentIndex = availableDates.indexOf(dateStr);
+            document.getElementById('prevDay').disabled = currentIndex >= availableDates.length - 1;
+            document.getElementById('nextDay').disabled = currentIndex <= 0;
+        }
+
+        function bindEvents() {
+            // 日期导航
+            document.getElementById('prevDay').addEventListener('click', () => {
+                const currentIndex = availableDates.indexOf(currentDateStr);
+                if (currentIndex < availableDates.length - 1) {
+                    loadNews(availableDates[currentIndex + 1]);
+                }
+            });
+
+            document.getElementById('nextDay').addEventListener('click', () => {
+                const currentIndex = availableDates.indexOf(currentDateStr);
+                if (currentIndex > 0) {
+                    loadNews(availableDates[currentIndex - 1]);
+                }
+            });
+
+            document.getElementById('todayBtn').addEventListener('click', () => {
+                const today = formatDate(new Date());
+                if (availableDates.includes(today)) {
+                    loadNews(today);
+                } else {
+                    showToast('今天的新闻尚未生成');
+                }
+            });
+
+            // 操作按钮
+            document.getElementById('copyBtn').addEventListener('click', copyToClipboard);
+            document.getElementById('refreshBtn').addEventListener('click', () => {
+                loadNews(currentDateStr);
+            });
+            document.getElementById('shareBtn').addEventListener('click', shareNews);
+        }
+
+        async function copyToClipboard() {
+            if (!currentNewsData) {
+                showToast('没有可复制的内容');
+                return;
+            }
+
+            let text = `${currentNewsData.title} - ${currentNewsData.date_formatted}\n\n`;
+
+            currentNewsData.news.forEach((item, index) => {
+                const icons = { 'critical': '🔥', 'high': '📌', 'medium': '·' };
+                const icon = icons[item.importance] || '·';
+                text += `${icon} ${item.content}\n\n`;
+            });
+
+            text += `\n生成时间: ${currentNewsData.metadata.generated_at}\n`;
+            text += `新闻总数: ${currentNewsData.metadata.total_news}\n`;
+
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast('✓ 已复制到剪贴板');
+            } catch (err) {
+                showToast('复制失败，请手动复制');
+            }
+        }
+
+        function shareNews() {
+            if (!currentNewsData) return;
+
+            const url = window.location.href;
+            const title = `${currentNewsData.title} - ${currentNewsData.date_formatted}`;
+
+            if (navigator.share) {
+                navigator.share({
+                    title: title,
+                    url: url
+                }).catch(() => {});
+            } else {
+                showToast('浏览器不支持分享功能');
+            }
+        }
+
+        // 工具函数
+        function formatDate(date) {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        function showLoading() {
+            document.getElementById('newsContainer').innerHTML = `
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>正在加载新闻...</p>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            document.getElementById('newsContainer').innerHTML = `
+                <div class="error">
+                    <p>❌ ${message}</p>
+                </div>
+            `;
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

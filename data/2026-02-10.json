@@ -1,0 +1,145 @@
+{
+  "date": "2026-02-10",
+  "date_formatted": "26/02/10",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "ChatGPT 正式上线广告",
+      "content": "OpenAI 为 ChatGPT 免费用户上线广告，单条出现在回复下方，每千次展示收费 60 美元。Plus、Pro 等付费用户不受影响，用户对话不会分享给广告主。",
+      "importance": "critical",
+      "reasoning": "OpenAI（三大厂之一）首次在 ChatGPT 中引入广告，标志 AI 聊天产品新变现模式。2 月 9 日上线。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/chatgpt-rolls-out-ads/",
+      "keywords": ["ChatGPT", "广告", "OpenAI", "60 美元", "免费用户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 即将融资超 200 亿美元",
+      "content": "Anthropic 即将完成超 200 亿美元融资，估值达 3500 亿美元，最快本周内交割。Nvidia、Microsoft、Sequoia 等参投。公司年化收入超 90 亿美元，5 个月前刚融 130 亿美元。",
+      "importance": "critical",
+      "reasoning": "Anthropic（三大厂之一）即将完成史上最大规模 AI 公司融资之一，估值 3500 亿美元。Bloomberg 2 月 7 日报道，TechCrunch 2 月 9 日跟进。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/anthropic-closes-in-on-20b-round/",
+      "keywords": ["Anthropic", "200 亿美元", "3500 亿估值", "Nvidia", "Microsoft"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Alphabet 完成 200 亿美元债券发行",
+      "content": "Google 母公司 Alphabet 2 月 9 日完成 200 亿美元债券发行，超出预期的 150 亿，吸引逾 1000 亿美元认购。资金用于 AI 基础设施建设，公司还计划发行罕见的 100 年期债券。",
+      "importance": "critical",
+      "reasoning": "Google 母公司完成史上最大规模债券发行用于 AI 基础设施，吸引超 1000 亿美元认购，含罕见 100 年期债券。2 月 9 日完成。",
+      "source": "Bloomberg",
+      "url": "https://finance.yahoo.com/news/alphabet-set-raise-20-billion-181104210.html",
+      "keywords": ["Alphabet", "Google", "200 亿美元", "债券", "AI 基础设施"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Seedance 2.0 爆火后紧急限制功能",
+      "content": "字节跳动 发布视频生成模型 Seedance 2.0，可一句话生成 60 秒多镜头短片并原生同步音频，生成速度提升 30%。但因真人素材存在滥用风险，官方紧急暂停真人参考功能，引发 AI 视频伦理争议。",
+      "importance": "critical",
+      "reasoning": "字节跳动发布的视频生成模型引发全网关注，效果被评为超越 Sora 2，但真人素材滥用风险迫使官方紧急限制功能，兼具技术突破与伦理争议。2 月 7 日发布，2 月 10 日暂停真人功能。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/t/2026-02-09/doc-inhmfivi9237017.shtml",
+      "keywords": ["Seedance 2.0", "字节跳动", "视频生成", "真人素材", "伦理争议"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Databricks 完成 50 亿美元融资",
+      "content": "Databricks 完成 50 亿美元融资，估值 1340 亿美元，年化收入超 54 亿，同比增长 65%。CEO 称 AI 将使传统 SaaS 界面变得无关紧要。",
+      "importance": "high",
+      "reasoning": "AI 数据平台完成 50 亿美元大额融资，估值 1340 亿超过 Snowflake，CEO 做出行业重要判断。2 月 9 日宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/09/databricks-completes-5-billion-funding-round-with-2-billion-in-debt.html",
+      "keywords": ["Databricks", "50 亿美元", "1340 亿估值", "SaaS", "65% 增长"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Crypto.com 7000 万买下 AI.com",
+      "content": "Crypto.com 创始人以 7000 万美元收购 AI.com，创域名交易最高纪录。该网站在超级碗期间上线，提供个人 AI 助手服务。",
+      "importance": "high",
+      "reasoning": "创域名交易史上最高纪录，显示 AI 品牌价值飙升。2 月 8 日宣布，超级碗期间上线。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/crypto-com-places-70m-bet-on-ai-com-domain-ahead-of-super-bowl/",
+      "keywords": ["Crypto.com", "AI.com", "7000 万美元", "域名", "超级碗"],
+      "category": "企业动态"
+    },
+    {
+      "id": 7,
+      "title": "Cursor 发布 Composer 1.5",
+      "content": "AI 编程工具 Cursor 发布首个自研模型 Composer 1.5，训练规模提升 20 倍，复杂编程任务表现大幅超越上代，兼顾速度与智能。",
+      "importance": "high",
+      "reasoning": "AI 编程赛道重要产品更新，Cursor 发布首个自研模型，训练规模提升 20 倍。2 月 9 日发布。",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/composer-1-5",
+      "keywords": ["Cursor", "Composer 1.5", "AI 编程", "自研模型", "20 倍"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "纽约州拟暂停数据中心建设",
+      "content": "纽约州议员提出法案，拟暂停 20 兆瓦以上数据中心审批 3 年。纽约是美国第六个、也是最大一个考虑此类限制的州。",
+      "importance": "high",
+      "reasoning": "美国大州首次提出暂停数据中心建设，反映 AI 基础设施与环境的矛盾。2 月 7 日提出。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/07/new-york-lawmakers-propose-a-three-year-pause-on-new-data-centers/",
+      "keywords": ["纽约州", "数据中心", "暂停审批", "3 年", "环境影响"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "超级碗成 AI 广告大战",
+      "content": "超级碗 66 条广告中 15 条涉及 AI，占 23%，Anthropic 和 OpenAI 等均投放，AI 首次成为主力品类。",
+      "importance": "medium",
+      "reasoning": "超级碗广告中 AI 占比创历史新高，标志 AI 进入大众营销时代。2 月 9 日超级碗。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
+      "keywords": ["超级碗", "AI 广告", "23%", "Anthropic", "OpenAI"],
+      "category": "行业趋势"
+    },
+    {
+      "id": 10,
+      "title": "ClawHub 遭大规模供应链攻击",
+      "content": "AI 工具平台 ClawHub 发现 341 个恶意插件可窃取密钥，为智能体生态首次大规模供应链攻击。",
+      "importance": "medium",
+      "reasoning": "AI 智能体生态首次遭遇大规模供应链攻击，暴露新型安全风险。2 月初披露。",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+      "keywords": ["ClawHub", "供应链攻击", "恶意插件", "341 个", "AI 安全"],
+      "category": "安全事件"
+    },
+    {
+      "id": 11,
+      "title": "Anthropic 印度扩张遇商标纠纷",
+      "content": "Anthropic 进军印度遭本地同名公司起诉，对方自 2017 年使用该名称，法院 2 月 16 日审理。",
+      "importance": "medium",
+      "reasoning": "Anthropic 印度扩张遇法律障碍，反映 AI 公司全球化面临的挑战。TechCrunch 2 月 9 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/09/anthropics-india-expansion-collides-with-a-local-company-that-already-had-the-name/",
+      "keywords": ["Anthropic", "印度", "商标纠纷", "同名公司", "2017"],
+      "category": "企业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-10T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "Bloomberg",
+      "CNBC",
+      "新浪财经",
+      "WebSearch"
+    ],
+    "duplicates_removed": 4,
+    "generation_time_seconds": 300
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-17",
+  "date_formatted": "25/11/17",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "百度发布文心 5.0 参数达 2.4 万亿",
+      "content": "百度发布文心 5.0 大模型，总参数 2.4 万亿、推理时激活不到 3%，采用全模态统一建模技术。在 40 项权威评测中，语言和多模态理解能力与 Gemini 2.5 Pro、GPT-5 持平。模型已通过文心 App 和千帆平台向用户开放。",
+      "importance": "critical",
+      "reasoning": "国内大厂主流产品发布：2.4 万亿参数规模，40 项评测与国际顶级模型持平，全模态统一建模技术，对国内 AI 发展有重要推动，11 月 13 日发布（4 天前）。",
+      "source": "OFweek",
+      "url": "https://m.ofweek.com/ai/2025-11/ART-201700-8110-30673651.html",
+      "keywords": ["百度", "文心5.0", "多模态", "评测成绩"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Databricks 警告美国 AI 主导地位转向中国",
+      "content": "Databricks 联合创始人 Andy Konwinski 在 Cerebral Valley AI 峰会警告，过去一年约 50% 新 AI 想法来自中国团队，美国正失去 AI 研究主导地位。他指出中国政府支持 DeepSeek、Qwen 等实验室开源创新，而美国主要 AI 实验室保持专有，呼吁美国采用开源战略。",
+      "importance": "critical",
+      "reasoning": "行业级战略警告：Databricks 联合创始人指出 50% 新想法来自中国，警告美国 AI 主导地位转移，呼吁开源战略，对全球 AI 竞争格局有重要影响，11 月 14 日发言（3 天前）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/14/databricks-co-founder-argues-us-must-go-open-source-to-beat-china-in-ai/",
+      "keywords": ["Databricks", "中美竞争", "开源", "AI 战略"],
+      "category": "行业观点"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 向 Microsoft 支付费用曝光",
+      "content": "泄露文件显示，OpenAI 2024 年向 Microsoft 支付 4.94 亿美元，2025 年前三季度增至 8.66 亿美元。推理成本方面，2024 年约 38 亿美元，2025 年前 9 个月达 86.5 亿美元。文件还显示 OpenAI 与 Microsoft 签订 20% 收入分成协议，引发对商业模式可持续性的质疑。",
+      "importance": "critical",
+      "reasoning": "重大财务信息披露：OpenAI 支付 Microsoft 费用从 4.94 亿涨至 8.66 亿，推理成本达 86.5 亿美元，20% 收入分成协议，对 AI 商业模式和 IPO 计划有重要影响，11 月 14 日曝光（3 天前）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/14/leaked-documents-shed-light-into-how-much-openai-pays-microsoft/",
+      "keywords": ["OpenAI", "Microsoft", "财务", "推理成本"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "AI 数据中心可再生能源占比将达 50%",
+      "content": "国际能源署报告显示，2025 年全球数据中心投资达 5800 亿美元，超过石油勘探投资 400 亿美元。目前可再生能源供应全球数据中心 27% 电力，2024-2030 年年均增长 22%，预计将满足近 50% 的数据中心电力需求增长。太阳能因成本低、建设快成为主要选择。",
+      "importance": "high",
+      "reasoning": "重要行业趋势：5800 亿美元全球投资超石油勘探，可再生能源占比从 27% 增至满足 50% 增长需求，对 AI 基础设施可持续发展有重要意义，11 月 16 日报告（1 天前）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/16/how-much-of-the-ai-data-center-boom-will-be-powered-by-renewable-energy/",
+      "keywords": ["数据中心", "可再生能源", "IEA", "太阳能"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+    "title": "Harvey AI 法律平台估值半年涨至 80 亿美元",
+    "content": "法律 AI 平台 Harvey 估值从 2 月的 30 亿美元涨至 6 月 50 亿美元，10 月达 80 亿美元，半年内增长 167%。平台服务 63 个国家 700 家客户，包括美国前 10 大律所多数，年营收超 1 亿美元。",
+    "importance": "critical",
+    "reasoning": "垂直 AI 爆发式增长：半年估值从 30 亿涨至 80 亿增长 167%，服务 700 家客户和营收破亿展示商业成功，对法律 AI 应用有重要参考，11 月 14 日报道（3 天前）。",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+    "keywords": ["Harvey", "法律 AI", "估值", "垂直应用"],
+    "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "羊毛党用 AI 假图骗仅退款成产业",
+      "content": "羊毛党使用 AI 生成水果霉斑、衣物破损等假图，骗取电商平台仅退款，百元内商品成重灾区。造假教程被打包以 288 元出售，声称单账户可成功获得约 30 次退款。平台已采取应对措施，豆包等 AI 工具自动拒绝损坏商品相关请求，部分商家要求多角度视频验证。",
+      "importance": "high",
+      "reasoning": "高话题性事件：AI 生成假图骗取退款成产业链，288 元售卖教程，百元内商品成重灾区，平台和 AI 工具采取应对，对电商和 AI 应用监管有警示，11 月 16 日报道（1 天前）。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/t/2025-11-16/doc-infxqeck7834559.shtml",
+      "keywords": ["AI 造假", "电商", "退款欺诈", "豆包"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "IBM 指出数据孤岛是企业 AI 最大障碍",
+      "content": "IBM 商业价值研究院调查 1700 名高级数据领导者发现，数据孤岛是企业 AI 推广的最大障碍。77% 的首席数据官表示难以吸引或留住数据人才，较 2024 年的 62% 大幅上升。财务、人力、营销、供应链数据各自孤立，导致每个 AI 项目需 6-12 个月数据清理工作。",
+      "importance": "high",
+      "reasoning": "重要行业研究：IBM 调查 1700 名领导者，77% 面临人才困境，数据孤岛导致 AI 项目需 6-12 个月清理，对企业 AI 落地有重要指引，11 月 13 日发布（4 天前）。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/ibm-data-silos-are-holding-back-enterprise-ai/",
+      "keywords": ["IBM", "数据孤岛", "企业 AI", "人才"],
+      "category": "行业研究"
+    },
+    {
+      "id": 8,
+      "title": "Google 确认 Gemini 3.0 年底发布",
+      "content": "Google CEO 确认 Gemini 3.0 将于年底发布。",
+      "importance": "medium",
+      "reasoning": "预期内版本迭代：Google 确认年底发布时间表，预览版已测试，对 Gemini 产品线常规更新，具有参考价值，11 月 5 日预览（12 天前），11 月 22 日正式发布（5 天后）。",
+      "source": "DataLearner",
+      "url": "https://www.datalearner.com/ai-models/pretrained-models/gemini-3-0-pro-preview-11-2025",
+      "keywords": ["Google", "Gemini 3.0", "发布", "多模态"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Heretic 开源工具移除语言模型审查",
+      "content": "开源项目 Heretic 在 Hacker News 获 395 点赞，旨在为语言模型移除自动审查机制。项目对 AI 模型自由度和内容管控的平衡引发思考。",
+      "importance": "high",
+      "reasoning": "高话题性开源工具：获 395 点赞和 157 条评论，涉及 AI 审查和自由度的平衡，对模型开发理念有启发，11 月 16-17 日发布（0-1 天前）。",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=45945587",
+      "keywords": ["Heretic", "开源", "审查", "语言模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Microsoft 公布 50 年 AI 基础设施计划",
+      "content": "Microsoft CEO Nadella 11 月 14 日公布 50 年 AI 计划，定位 Microsoft 为 Agent 经济的操作系统层。警告模型公司面临赢家诅咒，模型容易被复制而商品化。Microsoft 运营 70 个地区超 400 个数据中心，Azure 收入达 750 亿美元、增长 34%。",
+      "importance": "medium",
+      "reasoning": "重要战略规划：Microsoft 公布 50 年 AI 计划，警告模型商品化，Azure 收入 750 亿增长 34%，对 AI 行业格局有指引，11 月 14 日公布（3 天前）。",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/25/11/48865453/satya-nadella-unveils-microsofts-50-year-ai-plan-and-a-stark-winners-curse-warning",
+      "keywords": ["Microsoft", "Nadella", "Agent", "Azure"],
+      "category": "行业观点"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-17T10:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 2100
+  }
+}

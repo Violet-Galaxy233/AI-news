@@ -1,0 +1,132 @@
+{
+  "date": "2026-01-19",
+  "date_formatted": "26/01/19",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "ChatGPT 将引入广告",
+      "content": "OpenAI 宣布将在未来几周内测试 ChatGPT 广告功能，面向美国免费用户和 Go 订阅用户，Plus、Pro 和企业用户不受影响。ChatGPT 目前拥有超 8 亿周活用户，广告将出现在回复底部并明确标注，不影响回答内容。Sam Altman 表示此举旨在让更多人免费使用 AI。",
+      "importance": "critical",
+      "reasoning": "OpenAI 核心产品商业模式重大变化，8 亿周活用户规模，反映 AI 公司 IPO 前收入多元化战略。1 月 16 日官方宣布。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/openai-to-test-targeted-ads-in-chatgpt-stepping-up-revenue-push",
+      "keywords": ["OpenAI", "ChatGPT", "广告", "8 亿周活", "商业模式"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "马斯克起诉 OpenAI 索赔 1340 亿美元",
+      "content": "马斯克向联邦法院提交文件，要求 OpenAI 和微软赔偿 790 亿至 1340 亿美元，指控其放弃非营利使命并欺骗早期投资者。马斯克称自己贡献了 3800 万美元，占 OpenAI 早期资金的 60%。OpenAI 回应称该索赔\"不严肃\"，审判预计 4 月开始。",
+      "importance": "critical",
+      "reasoning": "史上最大 AI 公司诉讼之一，涉及 OpenAI 公司性质和早期承诺争议，审判在即。1 月 17 日提交。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/musk-seeks-up-to-134-billion-damages-from-openai-microsoft",
+      "keywords": ["马斯克", "OpenAI", "1340 亿美元", "诉讼", "微软"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "阿里千问 App 实现 AI 购物",
+      "content": "阿里巴巴发布千问 App 重大升级，接入淘宝、支付宝、飞猪、高德等业务，成为全球首个能完成点外卖、买东西、订机票等真实购物任务的 AI 助手。上线 400+ 项办事功能，发布 7 天下载量超 1000 万，打破 ChatGPT 增长纪录。",
+      "importance": "critical",
+      "reasoning": "全球首个实现 AI 购物全流程履约的产品，7 天 1000 万下载创纪录，领先 Google 购物协议落地。1 月 15 日发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3641739798810244",
+      "keywords": ["阿里巴巴", "千问", "AI 购物", "淘宝", "1000 万下载"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Signal 创始人开发隐私版 ChatGPT",
+      "content": "Signal 联合创始人 Moxie Marlinspike 正在开发一款隐私优先的 ChatGPT 竞品，主打用户数据保护和端到端加密。具体产品细节和发布时间尚未披露。",
+      "importance": "critical",
+      "reasoning": "全球最知名隐私通讯应用创始人进军 AI 聊天市场，有望填补隐私保护型 AI 助手空白。今天（1 月 19 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "keywords": ["Signal", "Moxie Marlinspike", "隐私", "ChatGPT 竞品", "加密"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "加州向 xAI 发停止令",
+      "content": "加州总检察长向马斯克旗下 xAI 发出停止令，要求立即停止 Grok 生成性化深度伪造图像和涉及未成年人的内容。分析显示圣诞至新年期间 Grok 生成的 2 万张图片中超半数涉及不当内容。日本、加拿大、英国已启动调查，马来西亚和印尼已封禁该平台。",
+      "importance": "high",
+      "reasoning": "美国首个针对 AI 深度伪造的政府停止令，涉及未成年人保护，马斯克公司面临全球监管压力。1 月 16 日发出。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/16/california-ag-sends-musks-xai-a-cease-and-desist-order-over-sexual-deepfakes/",
+      "keywords": ["加州", "xAI", "Grok", "停止令", "深度伪造"],
+      "category": "政策法规"
+    },
+    {
+      "id": 6,
+      "title": "Runpod 年收入达 1.2 亿美元",
+      "content": "AI 云基础设施公司 Runpod 年化收入达到 1.2 亿美元，最初从 Reddit 讨论起步，现已成为 AI 开发者主要的 GPU 租赁平台之一。",
+      "importance": "high",
+      "reasoning": "AI 基础设施公司从社区项目成长为亿级收入企业，反映 AI 算力需求爆发。1 月 17 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "keywords": ["Runpod", "1.2 亿美元", "GPU 租赁", "AI 云", "算力"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "韩国 AI 订阅支出超 Netflix",
+      "content": "韩国 AI 订阅服务月支出达 803 亿韩元（约 5500 万美元），超过 Netflix 在韩国 75 亿韩元的月收入。AI 正在从新奇工具转变为日常必需服务。",
+      "importance": "high",
+      "reasoning": "韩国 AI 订阅支出超过流媒体巨头 Netflix，量化展示 AI 消费市场崛起。今天（1 月 19 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["韩国", "AI 订阅", "803 亿韩元", "Netflix", "消费市场"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "95% 企业 AI 项目仍失败",
+      "content": "尽管 AI 成本大幅下降进入\"白菜价\"时代，95% 的企业级 AI 项目仍面临失败。报告指出主要原因包括数据质量问题、组织协调不足和期望值过高。",
+      "importance": "high",
+      "reasoning": "企业 AI 落地困境的量化数据，对商业决策者有重要参考价值。今天（1 月 19 日）报道。",
+      "source": "36氪",
+      "url": "https://orz.ai/api/v1/dailynews/?platform=36kr",
+      "keywords": ["企业 AI", "95% 失败", "AI 落地", "成本下降", "项目管理"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "OpenAI 测试 Salute 新功能",
+      "content": "OpenAI 正在测试 ChatGPT 网页版新功能\"Salute\"，支持文件上传和任务进度追踪，预计未来几周向用户开放。",
+      "importance": "medium",
+      "reasoning": "ChatGPT 功能常规升级，提升文件处理和任务管理能力。今天（1 月 19 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["OpenAI", "ChatGPT", "Salute", "文件上传", "任务追踪"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "飞书安克发布 10 克 AI 录音机",
+      "content": "飞书与安克创新联合发布\"AI 录音豆\"，重量仅 10 克，支持蓝牙和 Wi-Fi 双模连接，可实时转录会议内容并整合至知识库。",
+      "importance": "medium",
+      "reasoning": "轻量级 AI 硬件创新，10 克重量和双模连接展示 AI 可穿戴设备小型化趋势。今天（1 月 19 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["飞书", "安克", "AI 录音", "10 克", "会议转录"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-19T10:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 180
+  }
+}

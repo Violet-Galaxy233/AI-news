@@ -1,0 +1,121 @@
+{
+  "date": "2025-12-10",
+  "date_formatted": "25/12/10",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Microsoft 宣布 230 亿美元 AI 投资",
+      "content": "Microsoft 宣布 230 亿美元 AI 投资计划，其中 175 亿美元投向印度，为该公司在亚洲最大规模投资。4 年投资期从 2026 年开始，首个数据中心 2026 年中启用。另外 54 亿美元投向加拿大。CEO Satya Nadella 同时承诺在 2030 年前为 2000 万印度人提供 AI 技能培训。",
+      "importance": "critical",
+      "reasoning": "巨头重大投资：Microsoft 宣布 230 亿美元投资，印度获 175 亿美元成为亚洲最大投资，对全球 AI 基础设施布局有重大影响，昨天（12 月 9 日）宣布",
+      "source": "Microsoft News",
+      "url": "https://news.microsoft.com/source/asia/2025/12/09/microsoft-invests-us17-5-billion-in-india-to-drive-ai-diffusion-at-population-scale/",
+      "keywords": ["Microsoft", "印度", "投资", "AI 基础设施"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "欧盟调查 Google AI 搜索反垄断",
+      "content": "欧盟委员会对 Google AI 搜索工具启动反垄断调查,指控其在 AI Overview 和 AI Mode 中未经授权使用网站内容且未向出版商支付费用。Google 潜在面临相当于全球年收入 10% 的罚款。欧盟调查 Google 是否通过不公平条款压制竞争对手 AI 模型开发,并为自己提供特权访问。",
+      "importance": "critical",
+      "reasoning": "重大反垄断案件：欧盟调查 Google AI 搜索侵权行为，潜在罚款达年收入 10%，对 AI 内容使用规范和竞争格局有重大影响，12 月 9 日启动。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/09/eu-launches-antitrust-probe-into-googles-ai-search-tools/",
+      "keywords": ["Google", "欧盟", "反垄断", "AI 搜索"],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI 等巨头成立 AI 智能体标准化基金会",
+      "content": "Linux 基金会 宣布成立 AI 智能体基金会（AAIF），OpenAI、Anthropic、Block 为创始成员，Google、Microsoft、AWS 等支持。Anthropic 贡献模型上下文协议（MCP），OpenAI 贡献 AGENTS.md（已被 6 万个开源项目采用），Block 贡献 Goose 框架。",
+      "importance": "critical",
+      "reasoning": "行业级标准化倡议：OpenAI、Anthropic、Google、Microsoft 等巨头联合成立标准化基金会，AGENTS.md 已被 6 万个项目采用，对 AI 智能体生态有重大影响，昨天（12 月 9 日）宣布",
+      "source": "Linux Foundation",
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+      "keywords": ["OpenAI", "Anthropic", "Linux Foundation", "AI 智能体"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Slack CEO 加盟 OpenAI 任首席营收官",
+      "content": "OpenAI 宣布任命 Slack CEO Denise Dresser 为首位首席营收官，领导全球营收战略。Dresser 在 Salesforce 工作超 10 年，2023 年出任 Slack CEO。OpenAI 目前服务超 100 万企业客户，ChatGPT 每周活跃用户超 8 亿。Slack 产品负责人 Rob Seaman 将担任临时 CEO。",
+      "importance": "critical",
+      "reasoning": "重大高管变动：OpenAI 首位首席营收官来自 Slack，服务 100 万企业客户和 8 亿周活用户，凸显 OpenAI 加速企业市场扩张战略，12 月 9 日宣布。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser/",
+      "keywords": ["OpenAI", "Slack", "Denise Dresser", "高管变动"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Accenture 与 Anthropic 达成战略合作",
+      "content": "Accenture 与 Anthropic 宣布三年期战略合作，组建约 3 万名专业人员的团队接受培训，这是 Claude Code 史上最大规模部署。双方将共同开发金融、医疗、生命科学和公共部门的 AI 解决方案，Anthropic CEO 表示这代表公司有史以来最大部署。",
+      "importance": "high",
+      "reasoning": "重要战略合作：3 万名专业人员规模，Anthropic 史上最大部署，聚焦金融医疗等受监管行业，对企业 AI 大规模落地有重要推动，12 月 9 日宣布。",
+      "source": "Accenture",
+      "url": "https://newsroom.accenture.com/news/2025/accenture-and-anthropic-launch-multi-year-partnership-to-drive-enterprise-ai-innovation-and-value-across-industries",
+      "keywords": ["Accenture", "Anthropic", "Claude Code", "企业 AI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Mistral 发布 Devstral2 编程模型",
+      "content": "Mistral AI 发布 Devstral 2（123B 参数）和 Devstral Small 2（24B 参数）开源编程模型，成本比 Claude Sonnet 低 7 倍。Devstral 2 在 SWE-bench 测试达 72.2% 准确率，采用修改版 MIT 许可开源，并推出 Mistral Vibe CLI 命令行工具实现端到端代码自动化。",
+      "importance": "high",
+      "reasoning": "重要开源发布：123B 开源编程模型，成本低 7 倍，72.2% 测试准确率，对开源编程 AI 工具有重要推动，12 月 9 日发布。",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral-2-vibe-cli",
+      "keywords": ["Mistral", "Devstral2", "开源", "编程模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Waymo 每周订单达 45 万次",
+      "content": "Waymo 披露每周提供 45 万次付费乘车服务，较 6 个月前的 25 万次增长近一倍。Waymo 目前运营 2500 辆无人出租车，覆盖亚特兰大、奥斯汀、洛杉矶、凤凰城和旧金山湾区五个城市，计划 2026 年扩展至达拉斯、丹佛、休斯顿等 12 个新市场。",
+      "importance": "high",
+      "reasoning": "重要市场里程碑：每周 45 万次订单，6 个月翻倍增长，2500 辆车队规模，展示无人驾驶商业化快速进展，12 月 8 日披露。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/08/investor-letter-reveals-skyrocketing-growth-of-waymos-robotaxi-rides/",
+      "keywords": ["Waymo", "无人驾驶", "45 万订单", "Google"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "Amazon Ring 推出面部识别功能",
+      "content": "Amazon 为 Ring 智能门铃推出 Familiar Faces 面部识别功能，可识别最多 50 个面孔。此举引发美国参议员 Ed Markey 强烈反对，称其为大规模监控技术的危险扩张，并致信 CEO 要求放弃该功能。伊利诺伊州、德克萨斯州和波特兰因隐私法禁用该功能。Amazon 表示该功能默认关闭，数据云端处理且不用于训练 AI 模型。",
+      "importance": "high",
+      "reasoning": "高话题性争议：Amazon 面部识别引发隐私担忧，美国参议员公开反对，部分地区因隐私法禁用，对 AI 隐私监管和消费者接受度有重要影响，12 月 9 日推出。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/09/amazons-ring-rolls-out-controversial-ai-powered-facial-recognition-feature-to-video-doorbells/",
+      "keywords": ["Amazon", "Ring", "面部识别", "隐私争议"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Musk xAI 推出影视广告植入工具 Halftime",
+      "content": "Elon Musk 旗下 xAI 推出 Halftime 工具，可在电影和电视节目中无缝植入产品广告，通过修改角色对话实现。该技术引发对内容真实性和广告伦理的讨论。",
+      "importance": "high",
+      "reasoning": "创新广告技术：xAI 推出影视广告无缝植入工具，可修改角色对话，引发内容真实性讨论，对广告行业有参考价值，今天（12 月 10 日）发布",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23554",
+      "keywords": ["xAI", "Elon Musk", "Halftime", "广告植入"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-10T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 4,
+    "generation_time_seconds": 1800
+  }
+}

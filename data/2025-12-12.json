@@ -1,0 +1,133 @@
+{
+  "date": "2025-12-12",
+  "date_formatted": "25/12/12",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发布 GPT-5.2 模型",
+      "content": "OpenAI 发布 GPT-5.2，包含 Instant、Thinking、Pro 三个版本，数学竞赛题目解题准确率达 40.3%，创行业新纪录，国际数学奥林匹克资格考试获满分。模型已向 ChatGPT 付费用户和 API 开发者开放，被称为首个专家级 AI 模型。",
+      "importance": "critical",
+      "reasoning": "重大产品发布：OpenAI 发布 GPT-5.2 三版本套装，数学能力突破（40.3% 准确率，IMO 满分），首个专家级模型定位，昨天（12 月 11 日）发布",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "keywords": ["OpenAI", "GPT-5.2", "数学能力", "专家级 AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Google 发布 Gemini Deep Research Agent",
+      "content": "Google 发布 Gemini Deep Research Agent，基于 Gemini 3 Pro 驱动，可自主规划和执行多步骤研究任务，自动生成带引用的详细报告。测试准确率达 66.1%，价格每百万次调用 2 美元，即将集成到 Google 搜索、NotebookLM 等产品。",
+      "importance": "critical",
+      "reasoning": "重大产品发布：Google 推出自主研究智能体，测试准确率 66.1%，价格 2 美元/百万次，即将集成多个产品，对 AI 研究工具有重大影响，昨天（12 月 11 日）发布",
+      "source": "Google Blog / TechCrunch",
+      "url": "https://blog.google/technology/developers/deep-research-agent-gemini-api/",
+      "keywords": ["Google", "Gemini Deep Research", "AI 智能体", "研究工具"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Disney 向 OpenAI 投资 10 亿美元",
+      "content": "Disney 宣布向 OpenAI 投资 10 亿美元，签署三年合作协议，授权 Sora 和 ChatGPT 生成超过 200 个迪士尼角色视频和图像，涵盖 Marvel、Pixar、星球大战等品牌。粉丝创作视频将于 2026 年初上线，部分作品将在 Disney+ 播出。",
+      "importance": "critical",
+      "reasoning": "重大战略合作：Disney 投资 10 亿美元，授权 200+ 角色给 Sora，三年协议，2026 年上线，首个内容巨头深度 AI 合作，昨天（12 月 11 日）宣布",
+      "source": "Disney / OpenAI / CNBC",
+      "url": "https://openai.com/index/disney-sora-agreement/",
+      "keywords": ["Disney", "OpenAI", "Sora", "10 亿美元"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "TIME 评选 AI 架构者为年度人物",
+      "content": "TIME 杂志将「AI 的架构者」评为 2025 年度人物，封面人物包括英伟达 CEO 黄仁勋、Meta CEO 扎克伯格、特斯拉 CEO 马斯克、AI 教母李飞飞、OpenAI CEO Sam Altman、AMD CEO 苏姿丰、DeepMind CEO 哈萨比斯、Anthropic CEO 达里奥共 8 位科技领袖。",
+      "importance": "critical",
+      "reasoning": "重大年度评选：TIME 杂志将 AI 架构者评为年度人物，封面 8 位科技领袖，继 1982 年「电脑」后再次评选群体，昨天（12 月 11 日）公布",
+      "source": "TIME Magazine",
+      "url": "https://time.com/person-of-the-year-2025-architects-of-ai/",
+      "keywords": ["TIME", "年度人物", "AI 架构者", "黄仁勋"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Runway 发布首个世界模型 GWM-1",
+      "content": "Runway 发布首个通用世界模型 GWM-1，可实时模拟物理世界，理解物理规律和物体运动，支持视频生成、机器人训练和虚拟角色应用。模型逐帧预测未来状态，可交互和控制。",
+      "importance": "high",
+      "reasoning": "重要技术发布：Runway 首个世界模型，可实时模拟物理世界，支持多场景应用，对 AI 物理模拟有重要推动，昨天（12 月 11 日）发布",
+      "source": "Runway / TechCrunch",
+      "url": "https://runwayml.com/research/introducing-runway-gwm-1",
+      "keywords": ["Runway", "GWM-1", "世界模型", "物理模拟"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "1X 与 EQT 部署 1 万台人形机器人",
+      "content": "AI 机器人公司 1X 宣布与私募股权公司 EQT 达成战略合作，计划 2026-2030 年向其超 300 家企业部署最多 1 万台 Neo 人形机器人，聚焦制造、仓储和物流领域，标志人形机器人开始大规模商业化部署。",
+      "importance": "high",
+      "reasoning": "重要商业化里程碑：1 万台人形机器人部署计划，覆盖 300+ 企业，2026-2030 年实施，人形机器人首个大规模商用案例，昨天（12 月 11 日）宣布",
+      "source": "1X / TechCrunch",
+      "url": "https://techcrunch.com/2025/12/11/1x-struck-a-deal-to-send-its-home-humanoids-to-factories-and-warehouses/",
+      "keywords": ["1X", "Neo", "人形机器人", "EQT"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Google 推出 Disco 实验性浏览器",
+      "content": "Google 推出实验性浏览器 Disco，核心功能 GenTabs 由 Gemini 3 驱动，可根据用户打开的标签页和聊天记录自动生成交互式网页应用，无需编程。目前仅向少数测试者开放，首先登陆 macOS 平台。",
+      "importance": "high",
+      "reasoning": "重要产品实验：Google 推出 AI 驱动浏览器，自动生成网页应用，无需编程，可能影响 Chrome 未来方向，昨天（12 月 11 日）发布",
+      "source": "Google Labs / TechCrunch",
+      "url": "https://blog.google/technology/google-labs/gentabs-gemini-3/",
+      "keywords": ["Google", "Disco", "GenTabs", "浏览器"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Microsoft 推出 Promptions 提示框架",
+      "content": "Microsoft 发布开源工具 Promptions，将模糊的自然语言提示转化为精确的可点击界面选项，系统自动分析用户意图生成长度、语气等选项，降低提示工程难度。工具作为轻量级中间层运行，用户反馈显示更易表达任务需求。",
+      "importance": "high",
+      "reasoning": "重要开源工具：Microsoft 推出提示优化框架，降低提示工程难度，开源轻量级中间层，改善 AI 交互体验，昨天（12 月 11 日）发布",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-promptions-fix-ai-prompts-failing-to-deliver/",
+      "keywords": ["Microsoft", "Promptions", "开源", "提示工程"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "ElevenLabs 估值翻倍至 66 亿美元",
+      "content": "AI 语音平台 ElevenLabs 启动 1 亿美元员工股票回购计划，估值达 66 亿美元，较 9 个月前翻倍。年收入突破 2 亿美元，预计年底达 3 亿美元，企业客户收入增长超 200%。",
+      "importance": "medium",
+      "reasoning": "重要估值里程碑：9 个月估值翻倍至 66 亿美元，年收入 2 亿美元，企业收入增长 200%，展示 AI 语音市场快速增长，12 月宣布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/elevenlabs-valuation-doubles/",
+      "keywords": ["ElevenLabs", "估值", "66 亿美元", "AI 语音"],
+      "category": "投融资"
+    },
+
+    {
+      "id": 11,
+      "title": "腾讯高薪挖角字节 AI 研究员",
+      "content": "腾讯今天被曝大幅提高薪资招募字节跳动 AI 研究人员，薪资涨幅显著，反映中国科技公司在 AI 领域的人才竞争加剧。",
+      "importance": "medium",
+      "reasoning": "行业人才动态：腾讯高薪挖角字节 AI 人才，反映国内 AI 人才竞争白热化，对行业薪资水平有参考价值，今天（12 月 12 日）报道",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["腾讯", "字节跳动", "AI 人才", "薪资"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-12T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 2,
+    "generation_time_seconds": 1800
+  }
+}

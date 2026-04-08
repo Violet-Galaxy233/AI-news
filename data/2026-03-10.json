@@ -1,0 +1,146 @@
+{
+  "date": "2026-03-10",
+  "date_formatted": "26/03/10",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "LeCun 创立 AMI Labs 获 10 亿融资",
+      "content": "图灵奖得主 Yann LeCun 正式宣布离开 Meta，创立 AMI Labs 并完成 10.3 亿美元首轮融资，估值 35 亿美元。AMI Labs 主攻「世界模型」方向——训练 AI 理解物理世界的运行规律，而非单纯处理文字，LeCun 长期批评当前主流生成式 AI 存在根本性局限。他在 Meta 主导基础研究长达 10 年，此次独立创业标志着世界模型成为顶级研究者级别的正式赛道。",
+      "importance": "critical",
+      "reasoning": "图灵奖得主（AI 领域最高荣誉）独立创业并融资超 10 亿美元，将「世界模型」推至与生成式 AI 并列的主流研究路线，是当日最重大的 AI 行业人事与技术方向事件。3 月 9 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "keywords": ["Yann LeCun", "AMI Labs", "世界模型", "融资", "Meta"],
+      "category": "融资"
+    },
+    {
+      "id": 1,
+      "title": "OpenAI 机器人主管辞职",
+      "content": "OpenAI 机器人与硬件业务主管 Caitlin Kalinowski 于 3 月 7 日宣布辞职，称此次离职是「原则立场」：她无法接受 OpenAI 与五角大楼签署的协议对大规模监控和自主武器仅以「不得故意」设限，认为这一措辞过于宽泛。Kalinowski 是 OpenAI 宣布与国防部合作以来首位公开因此离职的高层管理者；她此前在 Meta 带领增强现实眼镜团队 4 年，2024 年 11 月加入 OpenAI 专注机器人方向。",
+      "importance": "critical",
+      "reasoning": "OpenAI（全球最核心 AI 公司之一）出现首位因五角大楼合同而公开离职的高层，直接印证了内部对国防协议的道德争议已无法调和。事件覆盖 TechCrunch、NPR、Fortune、CNBC 等主要媒体，3 月 7 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "keywords": ["OpenAI", "Kalinowski", "五角大楼", "辞职", "国防协议"],
+      "category": "人事动态"
+    },
+    {
+      "id": 2,
+      "title": "Claude 扫出 Firefox 22 漏洞",
+      "content": "Anthropic 与 Mozilla 合作，用 Claude Opus 4.6 扫描 Firefox 约 6000 个 C++ 源代码文件，2 周内共提交 112 份独立缺陷报告，正式认定 22 个安全漏洞（14 个高危、7 个中危、1 个低危），运行总成本约 4000 美元。这 14 个高危漏洞相当于 2025 年全年 Firefox 高危漏洞总数的 1/5，已全部在 Firefox 148 中完成修补。",
+      "importance": "critical",
+      "reasoning": "Anthropic 将旗舰 AI 模型用于大规模真实安全审计并取得量化成果（22 个 CVE / 4000 美元 / 2 周），是 AI 应用于关键基础设施安全的里程碑案例，对全行业软件安全实践具有示范意义。TechCrunch、The Register、Hacker News 均在 3 月 6 日重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "keywords": ["Anthropic", "Mozilla", "Firefox", "安全漏洞", "Claude Opus 4.6"],
+      "category": "AI 安全"
+    },
+    {
+      "id": 2,
+      "title": "腾讯 AI 智能体全线发布股价涨 7%",
+      "content": "腾讯密集发布「龙虾」系 AI 智能体全线产品：企业端 WorkBuddy 已完成 2,000+ 员工内测，内置 20+ 职场技能包，兼容 5,000+ 第三方插件，支持 DeepSeek、Kimi、MiniMax 多种模型切换；消费端 QClaw 打通微信和 QQ，以自然语言指令控制电脑执行任务。腾讯港股当日收涨 7.3%，创一年内最大单日涨幅，花旗维持买入评级、目标价 783 港元，并指出此举标志着中国 AI 从「聊天问答」向「执行替代」的范式转变。",
+      "importance": "critical",
+      "reasoning": "腾讯（全球最大社交平台之一）以完整产品矩阵全面进入 AI 智能体赛道，股价+7.3% 印证市场认可，花旗等机构明确定性为「执行型 AI」范式转变，对中国 AI 产业格局影响深远。3 月 9-10 日发布。",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/03/09/tencent-launches-workbuddy-openclaw-compatible-workplace-ai-agent/",
+      "keywords": ["腾讯", "WorkBuddy", "QClaw", "AI智能体", "OpenClaw"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "美国防部拒绝暂停 Anthropic 封锁令",
+      "content": "美国防部正式回应 Anthropic 联邦诉讼：声明诉讼程序不能阻止供应链封锁评估继续执行，拒绝在上诉期内暂停该认定，波音、洛克希德·马丁等国防供应商仍须依规审查采用 Anthropic 产品的合规性。这是自 2 月 26 日首次发出封锁令以来国防部态度最强硬的官方声明，Anthropic 现面临「诉讼推进」与「业务受限」双线并行的高压局面。",
+      "importance": "critical",
+      "reasoning": "美国政府在 AI 公司供应链认定问题上首次明确表态「诉讼无法阻止行政评估」，确立了重要先例，对全行业 AI 公司参与政府合同具有直接政策影响。3 月 10 日新进展。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["Anthropic", "五角大楼", "供应链", "封锁令", "诉讼"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "Grammarly 克隆已故学者审稿",
+      "content": "Grammarly 旗下 Expert Review 功能被曝在未获授权的情况下，以真实学者名义生成论文审稿意见，其中包括 2026 年 1 月刚刚去世的历史学家 David Abulafia——他从未同意参与该项目，其家属亦未被告知。该功能调用学者公开著作模拟其评审风格，以本人名义呈现输出；Grammarly 未公开回应是否持有版权授权，学术界普遍将此行为定性为「令人反感」。",
+      "importance": "high",
+      "reasoning": "AI 公司未经授权克隆已故学者身份并用于商业产品，触发学术界和法律界关于版权、肖像权和逝者数字身份的争议，是 AI 伦理高话题性事件。Futurism、Decrypt、SF Weekly 等持续报道，最新报道于 3 月 8 日发出。",
+      "source": "Futurism",
+      "url": "https://futurism.com/artificial-intelligence/grammarly-ai-reviews",
+      "keywords": ["Grammarly", "学者克隆", "AI伦理", "版权", "数字身份"],
+      "category": "AI 伦理"
+    },
+    {
+      "id": 4,
+      "title": "Nscale 融资 20 亿 Sandberg 加盟董事会",
+      "content": "英伟达投资的英国 AI 算力初创公司 Nscale 完成 20 亿美元新融资，估值升至 146 亿美元。前 Meta 首席运营官 Sheryl Sandberg 与前 Facebook 全球政策负责人 Nick Clegg 同日加入董事会，引发市场对「算力基础设施+政策资源」组合的高度关注。",
+      "importance": "high",
+      "reasoning": "20 亿美元融资与 146 亿美元估值均属 AI 基础设施赛道顶级规模，Sandberg+Clegg 联袂加盟使 Nscale 同时具备资本、政策和公关资源，是 AI 算力赛道的重要融资事件。3 月 9 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
+      "keywords": ["Nscale", "Sheryl Sandberg", "Nick Clegg", "AI算力", "融资"],
+      "category": "融资"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI 收购 AI 安全测试公司 Promptfoo",
+      "content": "OpenAI 宣布收购 AI 安全测试公司 Promptfoo，专注检测 AI 智能体在企业场景中的安全漏洞与可靠性缺陷。收购金额未披露，Promptfoo 团队将整合至 OpenAI 负责 AI 安全的部门，此举被视为 OpenAI 在大规模推广 AI 智能体前的关键安全补位动作。",
+      "importance": "high",
+      "reasoning": "OpenAI 以收购方式填补智能体安全测试能力，在 GPT-5.4 推出后快速补强企业级 AI 部署的安全底座，是 AI 公司从能力竞赛转向可靠性建设的典型动作。3 月 9 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+      "keywords": ["OpenAI", "Promptfoo", "AI安全", "智能体", "收购"],
+      "category": "并购"
+    },
+    {
+      "id": 6,
+      "title": "Anthropic 推出 AI 代码质量审查工具",
+      "content": "Anthropic 推出 Claude Code 专属代码审查功能，采用多智能体协同机制自动扫描 AI 生成代码中的逻辑错误，直接应对企业因大量使用 AI 编程工具导致的代码质量失控问题，3 月 9 日起向企业客户限量开放测试。",
+      "importance": "high",
+      "reasoning": "Anthropic 以工具化产品应对 AI 生成代码泛滥带来的质量风险，属于 AI 编程工具赛道从「生成」向「审查」延伸的重要产品节点。3 月 9 日独家首发。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "keywords": ["Anthropic", "Claude Code", "代码审查", "AI编程", "企业"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "竞对 30+ 员工联署声援 Anthropic",
+      "content": "来自 OpenAI 和谷歌 DeepMind 的 30 余名员工联署公开声明，声援 Anthropic 起诉五角大楼供应链认定，认为国防部的评估程序缺乏公正性。竞争对手员工在重大法律纠纷中公开跨公司表态，在 AI 行业历史上极为罕见。",
+      "importance": "high",
+      "reasoning": "OpenAI 和谷歌员工集体公开声援最大竞争对手的诉讼，是 AI 行业应对政府监管压力的罕见团结事件，具有强烈的行业信号意义。3 月 9 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
+      "keywords": ["Anthropic", "OpenAI", "谷歌", "五角大楼", "联署"],
+      "category": "政策监管"
+    },
+    {
+      "id": 8,
+      "title": "小红书封禁 AI 代管营销账号",
+      "content": "小红书发布平台公告，宣布将严查并封禁由 AI 工具代为运营的营销账号及虚假互动行为，违规账号将直接封禁，是国内主流内容平台首批明确针对 AI 代管账号的专项整治措施。",
+      "importance": "medium",
+      "reasoning": "小红书是中国最大的种草内容平台，此次明确针对 AI 代管账号的专项整治，对依赖 AI 自动化运营的品牌方和 MCN 机构影响直接。3 月 10 日发布。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["小红书", "AI账号", "内容监管", "整治", "营销"],
+      "category": "政策监管"
+    },
+    {
+      "id": 9,
+      "title": "高通携手 Neura Robotics 布局机器人",
+      "content": "高通宣布与德国人形机器人公司 Neura Robotics 深化合作，后者将在高通 IQ10 专用芯片上开发下一代具身 AI 机器人，高通称此合作是其进军具身 AI 领域的重要战略布局，具体投资金额未披露。",
+      "importance": "medium",
+      "reasoning": "高通（全球最大移动芯片厂商之一）将已在 CES 发布的 IQ10 芯片导入人形机器人场景，强化具身 AI 硬件生态，是芯片巨头布局机器人赛道的典型动作。3 月 9 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/",
+      "keywords": ["高通", "Neura Robotics", "人形机器人", "具身AI", "IQ10"],
+      "category": "硬件"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-10T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "TechNode", "AIBase", "Hacker News", "Bloomberg", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 540
+  }
+}

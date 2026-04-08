@@ -1,0 +1,121 @@
+{
+  "date": "2026-01-07",
+  "date_formatted": "26/01/07",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Intel 发布 Core Ultra Series 3 芯片",
+      "content": "Intel 在 CES 2026 发布 Core Ultra Series 3 处理器，采用美国本土 18A 工艺制造，多线程性能提升 60%，游戏性能提升 77%。超 200 款笔记本电脑设计采用该芯片，1 月 27 日全球发售。",
+      "importance": "critical",
+      "reasoning": "Intel 首款 18A 工艺芯片，性能提升显著（多线程 60%、游戏 77%），200+ 笔记本设计，标志美国半导体制造回归。1 月 5-6 日发布。",
+      "source": "Intel Newsroom / Tom's Hardware",
+      "url": "https://newsroom.intel.com/client-computing/ces-2026-intel-core-ultra-series-3-debut-first-built-on-intel-18a",
+      "keywords": ["Intel", "Core Ultra Series 3", "18A 工艺", "60%", "77%"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "AMD 发布 Ryzen AI 400 系列处理器",
+      "content": "AMD 在 CES 2026 发布 Ryzen AI 400 系列处理器，最高 12 核心，AI 运算达 60 TOPS，多任务处理比竞品快 1.3 倍。宏碁、华硕、戴尔等将在 Q1 2026 出货搭载该芯片的设备。",
+      "importance": "critical",
+      "reasoning": "AMD 在 CES 2026 发布新一代 AI PC 处理器，12 核心、60 TOPS AI 运算，性能提升 1.3 倍，多家 OEM 厂商采用。1 月 5 日发布。",
+      "source": "AMD / Yahoo Finance",
+      "url": "https://www.amd.com/en/newsroom/press-releases/2026-1-5-amd-expands-ai-leadership-across-client-graphics-.html",
+      "keywords": ["AMD", "Ryzen AI 400", "12 核心", "60 TOPS", "1.3 倍"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Samsung 计划在 8 亿设备部署 Gemini",
+      "content": "Samsung 在 CES 2026 宣布，2026 年将搭载 Google Gemini 的移动设备从 4 亿台增至 8 亿台，覆盖手机、平板、电视和家电。Galaxy AI 品牌认知度一年内从 30% 升至 80%。",
+      "importance": "critical",
+      "reasoning": "Samsung 将 Gemini 设备数量翻倍至 8 亿台，品牌认知度飙升至 80%，展示 AI 在消费电子的大规模部署。1 月 6 日发布。",
+      "source": "VOI / 36 氪",
+      "url": "https://voi.id/en/technology/548634",
+      "keywords": ["Samsung", "Gemini", "8 亿台", "4 亿台", "80%"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Nvidia 发布 Alpamayo 自动驾驶 AI 平台",
+      "content": "Nvidia CEO 黄仁勋在 CES 2026 发布自动驾驶 AI 开发平台 Alpamayo，Uber 已采用该技术。平台集成 Nvidia 芯片和开发工具，帮助车企快速构建自动驾驶系统。",
+      "importance": "critical",
+      "reasoning": "Nvidia 在 CES 2026 发布自动驾驶 AI 平台，Uber 已采用，展示 Nvidia 在自动驾驶领域布局，将影响自动驾驶行业。1 月 6 日发布。",
+      "source": "日经新闻",
+      "url": "https://www.nikkei.com/article/DGXZQOGN05A890V00C26A1000000/",
+      "keywords": ["Nvidia", "Alpamayo", "自动驾驶", "Uber", "黄仁勋"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "ChatGPT 面临广告变现挑战",
+      "content": "Sensor Tower 数据显示，90% ChatGPT 用户来自美加之外，66% 来自美加欧之外。OpenAI 计划 5 年从免费用户获得 1120 亿美元收入，但国际市场广告单价远低于美国，对货币化构成挑战。",
+      "importance": "critical",
+      "reasoning": "ChatGPT 用户地域分布（90% 在美加之外）影响 OpenAI 千亿美元变现计划，展示 AI 商业化挑战。1 月 5 日报道。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-05/doc-inhfhicm7982462.shtml",
+      "keywords": ["ChatGPT", "90%", "66%", "1120 亿美元", "货币化"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Google Gemini 登陆 Google TV",
+      "content": "Google 在 CES 2026 发布 Google TV 的 Gemini 功能，支持语音调节亮度、音量，搜索照片并生成影片。首批支持 TCL 电视。",
+      "importance": "high",
+      "reasoning": "Google 将 Gemini 扩展至电视，提供语音控制和照片处理功能，首批支持 TCL，展示 AI 助手进入家庭场景。1 月 5 日发布。",
+      "source": "Google Blog / TechCrunch",
+      "url": "https://blog.google/products/google-tv/ces-2026/",
+      "keywords": ["Google", "Gemini", "Google TV", "TCL", "语音控制"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "加州 AI 陪伴机器人法案 1 月 1 日生效",
+      "content": "加州 AI 陪伴机器人法案 1 月 1 日生效，要求年龄验证、内容过滤和自杀干预，违规罚 25 万美元。",
+      "importance": "high",
+      "reasoning": "美国首个 AI 陪伴机器人监管法案生效，要求安全保护措施，违规罚款 25 万美元，影响行业合规。1 月 1 日生效。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/889/190.htm",
+      "keywords": ["加州", "AI 聊天机器人", "1 月 1 日", "25 万美元", "监管"],
+      "category": "政策法规"
+    },
+    {
+      "id": 8,
+      "title": "法国调查 Grok 生成性化深度伪造内容",
+      "content": "巴黎检察官 对 xAI 的 Grok 启动调查，因用户利用其功能生成名人和未成年人虚假性内容。法国政府官员和议员已提起诉讼。",
+      "importance": "high",
+      "reasoning": "Grok 因深度伪造问题面临法国调查，涉及名人和未成年人虚假性内容，引发监管关注和多起诉讼。1 月 2 日启动调查。",
+      "source": "游民星空",
+      "url": "https://www.gamersky.com/news/202601/2069909.shtml",
+      "keywords": ["Grok", "xAI", "深度伪造", "法国", "1 月 2 日"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "PubMatic 发布 AgenticOS 企业营销平台",
+      "content": "PubMatic 发布 AgenticOS 自主广告平台，设置时间减少 87%，问题解决减少 70%。WPP Media 等公司已采用。",
+      "importance": "high",
+      "reasoning": "PubMatic 发布企业营销 AI 平台，显著提升效率（设置时间减少 87%、问题解决减少 70%），多家头部公司采用。1 月 5 日发布。",
+      "source": "PubMatic / AI News",
+      "url": "https://pubmatic.com/news/pubmatic-launches-agenticos-the-operating-system-for-agent-to-agent-advertising/",
+      "keywords": ["PubMatic", "AgenticOS", "87%", "70%", "WPP Media"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-07T00:48:26Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36 氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 3200
+  }
+}

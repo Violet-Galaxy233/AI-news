@@ -1,0 +1,121 @@
+{
+  "date": "2025-12-06",
+  "date_formatted": "25/12/06",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "欧盟调查 Meta WhatsApp 反垄断",
+      "content": "欧盟委员会 12 月 4 日对 Meta 启动反垄断调查，指控其 WhatsApp 平台仅允许自家 Meta AI 接入商业 API,封杀 ChatGPT 等第三方 AI 聊天机器人。Meta 潜在面临高达 164 亿美元罚款，相当于其年收入的 10%。欧盟反垄断负责人表示正考虑临时禁令阻止政策生效。",
+      "importance": "critical",
+      "reasoning": "重大反垄断案件：欧盟对 Meta 启动调查，潜在罚款 164 亿美元，封杀竞争对手 AI,对全球科技监管和 AI 竞争格局有重大影响，12 月 4 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/04/eu-investigating-meta-over-policy-change-that-bans-rival-ai-chatbots-from-whatsapp/",
+      "keywords": ["Meta", "WhatsApp", "欧盟", "反垄断"],
+      "category": "政策法规"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 与 Snowflake 签 2 亿美元协议",
+      "content": "Anthropic 与 Snowflake 12 月 4 日宣布多年期 2 亿美元战略合作，将 Claude Opus 4.5 等模型集成到 Snowflake AI 数据云，服务 12600 家全球客户。Snowflake CEO 表示这是公司极少数达到九位数规模的合作伙伴。Snowflake 同时宣布提前一个季度达成 1 亿美元 AI 收入目标。",
+      "importance": "critical",
+      "reasoning": "重大商业合作：2 亿美元多年期协议，服务 12600 家企业客户，Snowflake 提前达成 1 亿美元 AI 收入目标，对企业 AI 市场有重要推动，12 月 4 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/04/anthropic-signs-200m-deal-to-bring-its-llms-to-snowflakes-customers/",
+      "keywords": ["Anthropic", "Snowflake", "Claude", "企业 AI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "纽约时报起诉 Perplexity 侵权",
+      "content": "纽约时报 12 月 5 日对 AI 搜索引擎 Perplexity 提起版权侵权诉讼，指控其未经授权在搜索结果中使用受版权保护的内容。这是继起诉 OpenAI 后，纽约时报对 AI 公司发起的第二起重大诉讼，凸显传统媒体与 AI 公司在内容使用上的法律冲突加剧。",
+      "importance": "critical",
+      "reasoning": "重大法律诉讼：纽约时报起诉 Perplexity 版权侵权，这是对 AI 公司的第二起重大诉讼，对 AI 行业内容使用规范和版权保护有重要影响，12 月 5 日提起。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/05/the-new-york-times-is-suing-perplexity-for-copyright-infringement/",
+      "keywords": ["纽约时报", "Perplexity", "版权", "诉讼"],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 推出 GPT-5.1-Codex-Max 编程模型",
+      "content": "OpenAI 12 月 4 日在 GitHub Copilot 推出 GPT-5.1-Codex-Max 编程模型，首个原生跨多个上下文窗口工作，可处理数百万级任务。内部测试显示能持续工作超 24 小时无需人工干预，性能优于 GPT-5.1-Codex 同时降低 30% 计算成本。",
+      "importance": "critical",
+      "reasoning": "重大技术突破：OpenAI 首个原生跨窗口编程模型，可工作 24 小时以上，降低 30% 成本，已在 GitHub Copilot 推出，对 AI 编程工具有重大影响，12 月 4 日发布。",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/",
+      "keywords": ["OpenAI", "GPT-5.1-Codex-Max", "GitHub Copilot", "编程 AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Yoodli 估值飙升至 3 亿美元",
+      "content": "AI 沟通培训平台 Yoodli 完成 4000 万美元 B 轮融资，估值超 3 亿美元，半年内涨 3 倍。年收入增长 900%，客户含 Google、Snowflake 等巨头。",
+      "importance": "high",
+      "reasoning": "重要融资事件：4000 万美元 B 轮，估值半年内涨 3 倍达 3 亿美元，年收入增长 900%，客户含 Google 等巨头，对 AI 培训市场有重要影响，12 月 5 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/05/ex-googlers-yoodli-triples-valuation-to-300m-with-ai-built-to-assist-not-replace-people/",
+      "keywords": ["Yoodli", "融资", "3 亿美元", "AI 培训"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Aaru 以 10 亿美元估值完成 A 轮",
+      "content": "AI 研究平台 Aaru 完成 A 轮融资，估值 10 亿美元，Redpoint 领投。成立仅 20 个月，用 AI 智能体替代传统调研，客户含埃森哲、安永等咨询巨头。",
+      "importance": "high",
+      "reasoning": "重要融资：成立不到 2 年达 10 亿美元估值，客户含埃森哲、安永等咨询巨头，用 AI 智能体颠覆传统市场调研，对研究行业有重要影响，12 月 5 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/05/ai-synthetic-research-startup-aaru-raised-a-series-a-at-a-1b-headline-valuation/",
+      "keywords": ["Aaru", "10 亿美元", "AI 研究", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 7,
+      "title": "Meta 收购 AI 可穿戴公司 Limitless",
+      "content": "Meta 12 月 5 日收购 AI 可穿戴公司 Limitless。该公司曾获 Sam Altman、a16z 等 3300 万美元投资，产品可录制对话生成摘要，将加速 Meta 可穿戴设备开发。",
+      "importance": "high",
+      "reasoning": "重要并购事件：Meta 收购 Sam Altman 投资的 AI 可穿戴公司，加速硬件布局，对 AI 硬件市场竞争格局有影响，12 月 5 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/",
+      "keywords": ["Meta", "Limitless", "收购", "AI 可穿戴"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "Meta 与多家媒体签署内容协议",
+      "content": "Meta 12 月 5 日与 CNN、Fox News、USA Today 等媒体签署数据协议，在 Meta AI 中提供实时新闻内容，强化信息服务能力。",
+      "importance": "high",
+      "reasoning": "重要战略合作：Meta 与 CNN、Fox News 等主流媒体签约，为 Meta AI 提供实时新闻，对 AI 内容生态和媒体商业模式有重要影响，12 月 5 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/05/meta-signs-commercial-ai-data-agreements-with-publishers-to-offer-real-time-news-on-meta-ai/",
+      "keywords": ["Meta", "新闻媒体", "Meta AI", "内容协议"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "YouTube AI 深伪检测引发隐私争议",
+      "content": "YouTube 深伪检测工具引发隐私争议，使用创作者生物识别数据但可能被 Google 用于训练 AI。YouTube 否认曾使用该数据训练模型。",
+      "importance": "medium",
+      "reasoning": "隐私争议事件：YouTube 深伪检测工具收集生物识别数据引发隐私担忧，对 AI 隐私保护和数据使用规范有参考价值，12 月 2-5 日报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/12/02/youtube-ai-biometric-data-creator-deepfake.html",
+      "keywords": ["YouTube", "深伪检测", "隐私", "生物识别"],
+      "category": "行业观点"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-06T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AIBase News",
+      "TechCrunch",
+      "Hacker News",
+      "36kr",
+      "WebSearch",
+      "GitHub Blog",
+      "CNBC"
+    ],
+    "duplicates_removed": 15,
+    "generation_time_seconds": 1800
+  }
+}

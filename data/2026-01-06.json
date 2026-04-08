@@ -1,0 +1,134 @@
+{
+  "date": "2026-01-06",
+  "date_formatted": "26/01/06",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 下单 210 亿美元谷歌 TPU",
+      "content": "Anthropic 向博通下单 210 亿美元采购谷歌 TPU 芯片，包括 Q3 的 100 亿美元和 Q4 的 110 亿美元订单。计划 2026 年部署 100 万颗 TPU，提供超 1 吉瓦算力。这是业内最大专用 AI 算力建设项目，挑战 NVIDIA 市场地位。",
+      "importance": "critical",
+      "reasoning": "210 亿美元订单，100 万颗芯片，超 1 吉瓦算力，挑战 NVIDIA 垄断，改变 AI 芯片竞争格局。Q3/Q4 2025 订单，2026 年部署。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3624744386036738",
+      "keywords": ["Anthropic", "谷歌", "TPU", "210 亿美元", "100 万颗"],
+      "category": "产品发布"
+    },
+    {
+      "id": 1,
+      "title": "Nvidia 发布 Rubin 芯片架构",
+      "content": "Nvidia 在 CES 2026 发布 Rubin 芯片架构,集成 3360 亿晶体管,AI 运行性能比 Blackwell 提升 5 倍,成本降低 10 倍。2026 下半年出货,微软、亚马逊、谷歌已预订。芯片由 6 颗独立芯片协同工作。",
+      "importance": "critical",
+      "reasoning": "Nvidia CEO 在 CES 2026 主题演讲发布下一代旗舰芯片架构,性能提升 5 倍、成本降低 10 倍,三大云服务商已预订,将影响全球 AI 计算基础设施。1 月 5 日发布。",
+      "source": "TechCrunch / Tom's Hardware",
+      "url": "https://techcrunch.com/2026/01/05/nvidia-launches-powerful-new-rubin-chip-architecture/",
+      "keywords": ["Nvidia", "Rubin", "3360 亿晶体管", "CES 2026", "芯片"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Boston Dynamics Atlas 机器人商业化",
+      "content": "Boston Dynamics 在 CES 2026 首次公开展示 Atlas 人形机器人。现代汽车计划 2028 年起年产 3 万台,初期处理零件排序,2030 年升级至组装。Atlas 可举起 110 磅,集成 Google Gemini 进行导航识别。",
+      "importance": "high",
+      "reasoning": "全球领先机器人公司首次公开展示商业版人形机器人,现代汽车承诺年产 3 万台,标志人形机器人从研发转向大规模生产。1 月 5 日发布。",
+      "source": "TechCrunch / Boston Herald",
+      "url": "https://www.technobezz.com/news/boston-dynamics-unveils-commercial-atlas-robot-at-ces-2026-2026-01-05-mzkc",
+      "keywords": ["Boston Dynamics", "Atlas", "3 万台", "现代汽车", "人形机器人"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "MiniMax 1 月 9 日港股上市",
+      "content": "MiniMax 将于 1 月 9 日港股上市,代码 0100,估值 461-503 亿港元。14 家基石投资者认购 27.23 亿港元,包括阿里、瀚亚等。海外营收占比超 70%,累计用户超 2.12 亿。",
+      "importance": "critical",
+      "reasoning": "成立仅 4 年的 AI 公司上市,估值 60 亿美元,基石投资 27 亿港元,海外营收占比 70%,创全球 AI 公司最快上市记录。1 月 9 日上市。",
+      "source": "东方财富 / 第一财经",
+      "url": "https://caifuhao.eastmoney.com/news/20251231133342861714420",
+      "keywords": ["MiniMax", "港股上市", "461 亿港元", "阿里", "2.12 亿用户"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "智谱 1 月 8 日港股上市成大模型第一股",
+      "content": "清华系 AI 公司智谱于 1 月 8 日港股上市,代码 2513,募资 43 亿港元,估值超 511 亿港元。11 家基石投资者认购 29.8 亿港元。营收 2022-2024 年复合增长率 130%,2025 上半年增长 325%。",
+      "importance": "critical",
+      "reasoning": "清华技术转化的 AI 公司成为全球大模型第一股,募资 43 亿港元,营收年复合增长 130%,2025 上半年增长 325%,标志中国 AI 产业成熟。1 月 8 日上市。",
+      "source": "每经网 / 第一财经",
+      "url": "https://www.nbd.com.cn/articles/2025-12-30/4201090.html",
+      "keywords": ["智谱", "港股上市", "43 亿港元", "清华", "325% 增长"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "百度昆仑芯提交港股上市申请",
+      "content": "百度旗下昆仑芯向港交所提交上市申请,百度持股 59.45%。摩根大通预测营收将从 2025 年 13 亿元增至 2026 年 83 亿元,增长 6 倍。昆仑芯为中国第二大 AI 芯片厂商。",
+      "importance": "critical",
+      "reasoning": "中国第二大 AI 芯片厂商提交上市申请,摩根大通预测 2026 年营收增长 6 倍至 83 亿元,百度股价单日飙涨 9.35%。1 月 2 日提交申请。",
+      "source": "量子位 / 新浪财经",
+      "url": "https://www.qbitai.com/2026/01/366454.html",
+      "keywords": ["百度", "昆仑芯", "IPO", "83 亿元", "AI 芯片"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Nvidia 发布机器人开发平台",
+      "content": "Nvidia 在 CES 2026 发布机器人开发平台,包含开源模型和工具,与 Hugging Face 合作连接 200 万机器人开发者。",
+      "importance": "high",
+      "reasoning": "Nvidia 发布完整机器人开发生态,目标成为机器人领域的 Android,与 Hugging Face 合作连接 200 万开发者,多家头部机器人公司已采用。1 月 5 日发布。",
+      "source": "TechCrunch / Engadget",
+      "url": "https://techcrunch.com/2026/01/05/nvidia-wants-to-be-the-android-of-generalist-robotics/",
+      "keywords": ["Nvidia", "机器人平台", "Hugging Face", "200 万开发者", "开源"],
+      "category": "产品发布"
+    },
+
+    {
+      "id": 8,
+      "title": "Amazon Alexa 登陆网页浏览器",
+      "content": "Amazon 在 CES 2026 推出 Alexa.com 网页版,用户可在浏览器中使用 Alexa+ 进行问答、规划行程和控制智能家居。",
+      "importance": "high",
+      "reasoning": "Amazon 将 Alexa+ 扩展至网页浏览器,首次脱离硬件设备限制,与 ChatGPT、Claude 等 AI 助手直接竞争,已向早期用户开放。1 月 5 日发布。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/01/05/alexa-without-an-echo-amazons-ai-chatbot-comes-to-the-web-and-a-revamped-alexa-app/",
+      "keywords": ["Amazon", "Alexa", "网页版", "CES 2026", "浏览器"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "华为云具身负责人离职创业",
+      "content": "华为云具身机器人负责人朱森华离职创立具脑磐石，完成数千万元种子轮融资，投资方为乐聚机器人等。",
+      "importance": "high",
+      "reasoning": "华为云关键人才离职创业，获数千万融资，展示具身智能创业热潮。今日（1 月 5 日）36 氪独家报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3624490892461057",
+      "keywords": ["华为云", "朱森华", "具身智能", "数千万融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "大厂重启输入法大战",
+      "content": "豆包输入法上线，智谱开启测试。输入法市场有 7 亿用户，百度、搜狗、微信、讯飞等已推 AI 功能，争夺入口。",
+      "importance": "high",
+      "reasoning": "大厂争夺 7 亿用户入口，豆包、智谱等纷纷入局，AI 重塑传统工具。今日（1 月 5 日）36 氪报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3624759439393796",
+      "keywords": ["豆包输入法", "智谱", "7 亿用户", "AI 输入法"],
+      "category": "产品发布"
+    }
+
+  ],
+  "metadata": {
+    "generated_at": "2026-01-06T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 2800
+  }
+}

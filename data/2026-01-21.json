@@ -1,0 +1,147 @@
+{
+  "date": "2026-01-21",
+  "date_formatted": "26/01/21",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 与盖茨基金会启动非洲医疗 AI 计划",
+      "content": "OpenAI 与盖茨基金会联合发起「Horizon1000」计划，投入 5000 万美元将 AI 引入非洲医疗系统。首批在卢旺达试点，目标到 2028 年覆盖 1000 家基层诊所。盖茨表示非洲医疗工作者缺口达 600 万人，AI 工具可辅助而非替代医护人员。",
+      "importance": "critical",
+      "reasoning": "OpenAI 与盖茨基金会联合推出医疗 AI 计划，5000 万美元投入，针对非洲 600 万医护缺口，属三大厂核心产品重大应用。1 月 20-21 日发布。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/01/21/gates-foundation-openai-50-million-partnership-africa-rwanda-horizon1000/",
+      "keywords": ["OpenAI", "盖茨基金会", "Horizon1000", "5000 万美元", "非洲医疗"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "AI 创业公司 Humans& 种子轮融 4.8 亿美元",
+      "content": "由 Anthropic、xAI、Google 前研究员创立的 AI 创业公司 Humans& 完成 4.8 亿美元种子轮融资，估值达 44.8 亿美元，由 Nvidia、贝索斯和 Google Ventures 领投。公司成立仅 3 个月，尚未发布产品，主打「人机协作」理念。",
+      "importance": "critical",
+      "reasoning": "种子轮融资 4.8 亿美元创纪录，估值 44.8 亿美元，团队来自 Anthropic、xAI、Google，展示 AI 人才溢价。1 月 20 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/",
+      "keywords": ["Humans&", "4.8 亿美元", "种子轮", "44.8 亿估值", "Nvidia"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic CEO 达沃斯批评对华芯片出口",
+      "content": "Anthropic CEO Dario Amodei 在达沃斯论坛上抨击美国政府批准 Nvidia 向中国出口 H200 芯片的决定，称此举「如同向朝鲜出售核武器」。该政策于 1 月 15 日生效，美国政府将从销售中抽取 25% 分成。Nvidia 最近还宣布向 Anthropic 投资 100 亿美元。",
+      "importance": "critical",
+      "reasoning": "Anthropic CEO 在全球最重要经济论坛公开批评美国芯片出口政策，涉及国家安全和 AI 竞争格局，引发广泛关注。1 月 20 日发言。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/20/anthropics-ceo-stuns-davos-with-nvidia-criticism/",
+      "keywords": ["Anthropic", "Dario Amodei", "达沃斯", "Nvidia", "H200 芯片"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "马斯克宣布重启 Tesla Dojo3 超算项目",
+      "content": "马斯克宣布 Tesla 将重启 Dojo3 超级计算机项目，用于「太空 AI 计算」。项目此前因核心团队离职而暂停 5 个月。马斯克表示 AI5 芯片设计已稳定，Dojo3 将利用太空环境的太阳能和低温优势降低能耗。Tesla 正招募芯片工程师加入团队。",
+      "importance": "critical",
+      "reasoning": "Tesla 重启 Dojo3 超算项目，提出太空 AI 计算新方向，AI5 芯片设计稳定，属巨头硬件发布。1 月 19-20 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/20/elon-musk-says-teslas-restarted-dojo3-will-be-for-space-based-ai-compute/",
+      "keywords": ["Tesla", "Dojo3", "马斯克", "太空 AI", "AI5 芯片"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "X 平台正式开源基于 Grok 的推荐算法",
+      "content": "马斯克宣布 X 平台正式开源推荐算法，成为首个完全透明化核心流量分发逻辑的主流社交平台。新算法采用与 Grok 相同的 Transformer 架构，完全依赖用户行为学习，摒弃人工规则。代码已发布在 GitHub，承诺每 4 周更新一次。",
+      "importance": "critical",
+      "reasoning": "主流社交平台首次完全开源核心推荐算法，采用 Grok 架构，承诺持续透明更新，属范式转变级别事件。1 月 20 日发布。",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-20/doc-inhhxznt6094129.shtml",
+      "keywords": ["X 平台", "开源", "推荐算法", "Grok", "Transformer"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "印度 AI 编码公司 Emergent 融资 7000 万美元",
+      "content": "印度 AI 编码平台 Emergent 完成 7000 万美元 B 轮融资，软银和 Khosla Ventures 领投，估值较 7 个月前翻三倍至 3 亿美元。公司年收入已达 5000 万美元，用户超 500 万。",
+      "importance": "high",
+      "reasoning": "印度 AI 编码创业公司 7 个月估值翻三倍，年收入 5000 万美元增速惊人，软银重返印度 AI 投资。1 月 20 日发布。",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/companies/start-ups/ai-startup-emergent-raises-70-million-in-softbank-khosla-led-round-126012001191_1.html",
+      "keywords": ["Emergent", "7000 万美元", "软银", "3 亿估值", "AI 编码"],
+      "category": "投融资"
+    },
+    {
+      "id": 7,
+      "title": "ChatGPT 推出 AI 年龄预测保护未成年人",
+      "content": "OpenAI 推出 ChatGPT 年龄预测功能，通过分析用户行为模式（如活跃时段、使用习惯）自动识别未成年账户并限制敏感内容。该功能为即将上线的「成人模式」做准备，ChatGPT 周活用户现已达 8 亿。",
+      "importance": "high",
+      "reasoning": "OpenAI 核心产品推出 AI 年龄预测功能，为成人内容开放做准备，涉及 8 亿用户隐私和未成年保护议题。1 月 20 日发布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/20/open-ai-age-prediction-chatgpt.html",
+      "keywords": ["ChatGPT", "年龄预测", "8 亿用户", "未成年保护", "成人模式"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "印度语音 AI 公司 Bolna 融资 630 万美元",
+      "content": "印度语音 AI 平台 Bolna 完成 630 万美元种子轮融资，General Catalyst 领投。公司曾被 Y Combinator 拒绝 5 次后终获录取，现日均处理超 20 万通电话，年收入即将突破 70 万美元。",
+      "importance": "high",
+      "reasoning": "印度语音 AI 创业公司获 General Catalyst 领投，日均 20 万通电话处理量展示本地化 AI 应用潜力。1 月 20-21 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/20/bolna-nabs-6-3-million-from-general-catalyst-for-its-india-focused-voice-orchestration-platform/",
+      "keywords": ["Bolna", "630 万美元", "General Catalyst", "语音 AI", "印度"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "Block 开源 AI 编码助手 Goose",
+      "content": "支付公司 Block 的开源 AI 编码助手 Goose 持续获得关注，可作为 Claude Code 的免费替代方案。Block 内部 60% 员工每周使用，开发效率提升 50-75%。支持任意 AI 模型，可自主完成编码、调试和部署。",
+      "importance": "high",
+      "reasoning": "Block 开源编码助手作为 Claude Code 替代方案获关注，60% 员工使用且效率提升显著，属开发者工具重要动态。今天报道。",
+      "source": "GitHub",
+      "url": "https://github.com/block/goose",
+      "keywords": ["Block", "Goose", "开源", "Claude Code", "AI 编码"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "智谱 AI GLM 编程计划限购",
+      "content": "智谱 AI 的 GLM 编程计划因 GLM-4.7 发布后用户激增，每日仅放出 20% 配额，供不应求。",
+      "importance": "medium",
+      "reasoning": "智谱 AI 产品供不应求，每日限量 20%，反映国产 AI 编程工具需求旺盛。今天（1 月 21 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["智谱 AI", "GLM-4.7", "限购", "20%", "编程计划"],
+      "category": "产品发布"
+    },
+    {
+      "id": 11,
+      "title": "MiniMax 发布专家智能体平台 2.0",
+      "content": "MiniMax 发布桌面版专家智能体平台 2.0，支持用户自定义 AI 助手工作台，面向专业应用场景。",
+      "importance": "medium",
+      "reasoning": "MiniMax 发布 AI 智能体平台新版本，支持自定义工作台，属国产 AI 产品更新。今天（1 月 21 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["MiniMax", "智能体", "2.0", "桌面版", "AI 助手"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-21T15:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "Fortune",
+      "CNBC",
+      "Business Standard",
+      "GitHub"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 180
+  }
+}

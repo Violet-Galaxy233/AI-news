@@ -1,0 +1,102 @@
+{
+  "date": "2026-03-18",
+  "date_formatted": "26/03/18",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "GPT-5.4 mini发布",
+      "content": "OpenAI 正式发布 GPT-5.4 mini 与 nano 两款轻量版本，mini 版速度较 GPT-5.0 mini 提升 2 倍以上、向 Free 和 Go 用户全量开放；nano 版仅限 API 调用，起步价每百万处理量 $0.20，专为 AI 智能体子任务设计。两款模型推理与多模态理解能力接近完整版 GPT-5.4，标志 OpenAI 加速以「薄利多量」策略抢占底层 AI 基础设施市场。",
+      "importance": "critical",
+      "reasoning": "3 月 17-18 日发布。OpenAI 核心模型家族扩展，mini 版向所有免费用户开放意味着 AI 能力的大规模普及，nano 版定价 $0.20/百万处理量直接针对智能体子任务市场；9to5Mac 报道，符合「三大厂核心模型发布」critical 标准。",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/03/17/openai-releases-gpt-5-4-mini-and-nano-its-most-capable-small-models-yet/",
+      "keywords": ["OpenAI", "GPT-5.4", "mini", "nano", "轻量模型"],
+      "category": "模型发布"
+    },
+    {
+      "id": 2,
+      "title": "微软警告起诉OpenAI",
+      "content": "微软警告将就 OpenAI 与 Amazon 的 500 亿美元 Frontier 协议提起诉讼，指控 OpenAI 联合 Amazon Bedrock 创建「有状态运行环境」绕过 Azure 独家分发协议。微软内部人士向《金融时报》明确表态「违约就起诉」，三方仍在谈判，争点为新技术架构是否实质规避了微软对 OpenAI 模型的独家分发权。",
+      "importance": "critical",
+      "reasoning": "3 月 18 日报道。微软与 OpenAI 的法律冲突直接威胁 OpenAI Frontier 商业化进程，涉及全球最大 AI 公司间的独家云协议，是 AI 行业迄今最大的合同纠纷，《金融时报》/Neowin/多家媒体报道，属行业级重大法律事件。",
+      "source": "Financial Times",
+      "url": "https://finance.yahoo.com/news/microsoft-weighs-legal-action-over-050654370.html",
+      "keywords": ["微软", "OpenAI", "Amazon", "诉讼", "Azure"],
+      "category": "法律争议"
+    },
+    {
+      "id": 3,
+      "title": "阿里悟空智能体发布",
+      "content": "阿里巴巴正式发布企业 AI 智能体平台悟空（Wukong），由旗舰 Qwen 模型驱动，支持通过统一界面管理多个 AI 智能体，已能处理审批、会议记录、文件编辑等工作流，并计划接入钉钉（2000 万企业用户）、Slack、Teams 和微信。阿里巴巴同步成立 Token Hub 新业务单元统筹 AI 战略，CEO 吴泳铭亲自挂帅，Bloomberg 与 CNBC 双重报道。",
+      "importance": "critical",
+      "reasoning": "3 月 16-17 日发布。阿里巴巴 CEO 级别主导的企业 AI 智能体平台，接入基础 DingTalk 2000 万企业用户并扩展至 Slack/Teams/微信，配合 Token Hub 新业务单元结构调整，是中国最大科技公司以「全平台 AI 智能体」为核心的战略级转型，Bloomberg+CNBC 同日报道，属行业重大事件。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/17/alibaba-wukong-ai-enterprise-tool-restructuring-qwen-exits.html",
+      "keywords": ["阿里巴巴", "悟空", "Wukong", "企业AI", "Qwen"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Mistral发布Forge",
+      "content": "Mistral 在 Nvidia GTC 发布企业 AI 训练平台 Forge，支持企业从零构建专属 AI 模型，提供完整训练控制权（不同于仅优化现有模型）。早期用户含 ASML、爱立信、欧洲航天局，Mistral 年化营收预计今年突破 10 亿美元。",
+      "importance": "high",
+      "reasoning": "3 月 17-18 日 GTC 发布。Forge 提供「从零训练」而非优化现有模型，是企业 AI 建设方式的范式转变；Mistral 年化营收破 $10 亿是欧洲最大 AI 独角兽里程碑，TechCrunch 头条报道，符合「赛道级产品」high 标准。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "keywords": ["Mistral", "Forge", "企业AI", "GTC2026", "自定义训练"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "乐天AI实为中国模型",
+      "content": "乐天集团在日本政府 GENIAC 补贴下发布「日本最大自研 AI」Rakuten AI 3.0，但开发者在 Hugging Face 配置文件中发现其实为中国 DeepSeek-V3（671 亿参数）日语优化版，模型回答亦倾向亲中立场，引发日本各界对政府 AI 补贴用途的激烈质疑。",
+      "importance": "high",
+      "reasoning": "3 月 17-18 日发布并曝光。日本政府补贴下的「自研 AI」实为中国模型优化版，涉及 AI 主权、政府补贴合规与国家安全议题，是当前 AI 国产化背景下高话题性事件，AIBase/PANews/多家加密媒体报道，符合「高话题性」high 标准。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26347",
+      "keywords": ["乐天", "Rakuten", "DeepSeek", "日本AI", "开源争议"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI进驻政府机密云",
+      "content": "OpenAI 与 Amazon AWS 签署政府云扩展协议，OpenAI 模型将通过 AWS GovCloud 及最高机密级别区域向美国联邦政府机构开放；OpenAI 保留模型控制权，AWS 需提前报备才能接入情报机构，是 OpenAI 继五角大楼合同后最大范围的政府云渗透。",
+      "importance": "high",
+      "reasoning": "3 月 17 日 TechCrunch 报道。OpenAI 借 AWS 渗透美国全部联邦机构（含情报机构），是继五角大楼合同后对政府云市场的全面扩张，此前 Anthropic 退出政府市场为 OpenAI 留出了巨大空间，属重大政策动向。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "keywords": ["OpenAI", "AWS", "GovCloud", "政府云", "美国联邦"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "DeepMind AGI评测赛",
+      "content": "Google DeepMind 在 Kaggle 发起 AGI 能力评测竞赛，设学习、元认知、注意力等 5 条认知赛道，总奖金 20 万美元，征稿截至 4 月 16 日。",
+      "importance": "medium",
+      "reasoning": "3 月 17 日发布。Google DeepMind 设立系统性 AGI 能力评测框架，$20 万奖金吸引全球开发者参与，是 AGI 研究进展量化的重要参考，Google DeepMind Blog 报道。",
+      "source": "Google DeepMind",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/",
+      "keywords": ["DeepMind", "AGI", "Kaggle", "认知能力", "评测竞赛"],
+      "category": "研究动态"
+    },
+    {
+      "id": 8,
+      "title": "五角大楼寻AI替代方案",
+      "content": "美国国防部报告显示，五角大楼正与其他 AI 服务商洽谈，开发 Anthropic 替代供应链；自 Anthropic 被列为供应链风险后，国防部已启动多元 AI 采购布局。",
+      "importance": "medium",
+      "reasoning": "3 月 17 日 TechCrunch 报道。五角大楼采购战略转变直接影响 Anthropic、OpenAI 及其他 AI 公司的政府市场格局，与本简报中 OpenAI+AWS 政府扩张形成直接关联，是 AI 军事市场重组的持续追踪项。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "keywords": ["五角大楼", "Anthropic", "供应链", "国防部", "政府AI"],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-18T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "Bloomberg", "9to5Mac", "Financial Times", "AIBase", "36kr", "Hacker News", "AI News", "VentureBeat", "Google DeepMind", "Rakuten Group", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 520
+  }
+}

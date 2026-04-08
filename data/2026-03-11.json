@@ -1,0 +1,102 @@
+{
+  "date": "2026-03-11",
+  "date_formatted": "26/03/11",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "美国国会批准 AI 工具官用",
+      "content": "美国参议院正式批准 ChatGPT、Gemini 及 Microsoft Copilot 供参议员助手日常使用，用途涵盖起草文件、整理摘要及调研分析；众议院同步批准 Claude Pro 通过内部平台 HouseNet 接入。所有工具须经安全审查，AI 输出结果必须由人工审核后方可使用。这是美国立法机构首次将生成式 AI 正式纳入核心工作流程，对各国政府机构采购 AI 具有示范效应。",
+      "importance": "critical",
+      "reasoning": "3 月 10-11 日发布。美国参众两院同步官方授权多款生成式 AI 工具进入立法核心流程，是全球最重要立法机构首次正式背书，Reuters、NYT、TechCrunch 广泛报道，对全球政府 AI 采购具有里程碑示范意义。",
+      "source": "Reuters",
+      "url": "https://finance.yahoo.com/news/chatgpt-other-ai-chatbots-approved-224358019.html",
+      "keywords": ["美国参议院", "ChatGPT", "Claude", "政策", "立法"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "英伟达 1GW 算力押注 Murati",
+      "content": "前 OpenAI 首席技术官 Mira Murati 创立的 Thinking Machines Lab 与英伟达签署多年战略协议：英伟达将提供至少 1 吉瓦下一代 Vera Rubin 芯片算力，并对其进行金额未披露的「重大投资」。Vera Rubin 系统计划明年初部署，Thinking Machines Lab 成立 13 个月以来累计融资超 20 亿美元。这是英伟达首次以「吉瓦级算力」绑定单一 AI 实验室，标志着顶尖算力争夺已进入百亿量级。",
+      "importance": "critical",
+      "reasoning": "3 月 10 日发布。英伟达首次以吉瓦级算力绑定单一 AI 实验室，是 AI 算力军备竞赛进入新量级的里程碑；前 OpenAI CTO 成立仅 13 个月的公司获此规模支持，TechCrunch、CNBC、Axios 同日重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+      "keywords": ["英伟达", "Thinking Machines Lab", "Mira Murati", "算力", "Vera Rubin"],
+      "category": "算力基础设施"
+    },
+    {
+      "id": 3,
+      "title": "a16z 报告：ChatGPT 周活破 9 亿",
+      "content": "a16z 发布第六版生成式 AI 消费者应用 Top 100 报告：ChatGPT 周活用户达 9 亿，占全球人口逾 10%，网页流量是第二名 Gemini 的 2.7 倍；DeepSeek 全球排名升至第四，是首个进入前五的中国应用；Claude 付费用户年增超 200%，Gemini 增速达 258%，两者均在加速追赶。报告指出 AI 应用正由网页端向本地设备迁移，AI 智能体是新一轮增长主线。",
+      "importance": "critical",
+      "reasoning": "3 月 11 日发布。a16z 半年度 AI 应用排行是全球最重要的行业竞争力数据报告；ChatGPT 9 亿周活（全球人口 10%+）是消费级 AI 历史里程碑，Claude 200%+ 年增率等量化数据对整个 AI 产业竞争格局判断具有决定性价值。",
+      "source": "a16z",
+      "url": "https://a16z.com/100-gen-ai-apps-6/",
+      "keywords": ["a16z", "ChatGPT", "DeepSeek", "Claude", "AI应用排行"],
+      "category": "行业报告"
+    },
+    {
+      "id": 4,
+      "title": "Meta 收购 AI 智能体网络 Moltbook",
+      "content": "Meta 完成对 AI 智能体社交网络 Moltbook 的收购，后者是专供 AI 智能体发帖、投票、协作的类 Reddit 平台，被称为「机器人的 Facebook」。平台联创 Matt Schlicht 和 Ben Parr 3 月 16 日起加入 Meta 超级智能实验室，收购金额未披露。",
+      "importance": "critical",
+      "reasoning": "3 月 10 日发布。Meta 首次收购专为 AI 智能体设计的社交网络，创立团队加入 Meta 超级智能实验室，是 AI 智能体互联成为产业方向的重要信号，Hacker News 496 点，TechCrunch/Axios/CNBC/Bloomberg 均重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+      "keywords": ["Meta", "Moltbook", "AI智能体", "社交网络", "收购"],
+      "category": "并购"
+    },
+    {
+      "id": 5,
+      "title": "法律 AI 公司 Legora 融资 5.5 亿",
+      "content": "瑞典法律 AI 公司 Legora 完成 5.5 亿美元 D 轮融资，估值升至 55 亿美元，是 5 个月前 18 亿估值的 3 倍；本轮由 Accel 领投，Benchmark、General Catalyst 等跟投，Legora 目前服务 800 家律所，计划年底前将美国团队扩至 300 人。",
+      "importance": "high",
+      "reasoning": "3 月 10 日发布。5.5 亿美元融资+55 亿估值（5 个月内翻 3 倍）是法律 AI 赛道迄今规模最大的单笔融资，标志着法律 AI 已进入独角兽爆发期，Bloomberg、TechCrunch 重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
+      "keywords": ["Legora", "法律AI", "融资", "Accel", "瑞典"],
+      "category": "融资"
+    },
+    {
+      "id": 6,
+      "title": "ChatGPT 上线交互数理可视化",
+      "content": "OpenAI 为 ChatGPT 新增交互式可视化功能：覆盖 70+ 数学和科学概念，用户可拖动滑块实时改变变量，图表即时更新——以毕达哥拉斯定理、库仑定律为例，配合动画模拟辅助理解。功能今日面向全体用户免费开放，无需付费订阅，后续将陆续支持更多概念。",
+      "importance": "high",
+      "reasoning": "3 月 10 日发布。OpenAI 将交互式可视化向全体用户（含免费层）开放，覆盖 70+ 数学/科学概念，标志着 ChatGPT 从问答工具向多模态互动教育平台演进，是 OpenAI 产品差异化的重要节点。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
+      "keywords": ["ChatGPT", "交互式可视化", "数学", "科学", "教育"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Amazon Health AI 向全美开放",
+      "content": "亚马逊将 Health AI 扩展至全美普通用户（无需 Prime 会员），支持健康问题解答、医疗记录解读、续药预约及连线 One Medical 医师；此前于 1 月仅向 One Medical 会员限量开放。",
+      "importance": "medium",
+      "reasoning": "3 月 10 日发布。亚马逊将 Health AI 从付费会员扩展至全美普通用户，是消费级 AI 医疗服务大规模普及的重要节点，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+      "keywords": ["Amazon", "Health AI", "医疗", "One Medical", "消费者"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Mastercard AI 支付落地新加坡",
+      "content": "Mastercard 与新加坡两大银行 DBS 和 UOB 合作，推出由 AI 智能体驱动的支付系统，允许 AI 代理用户自主完成消费决策与付款，是亚洲主流银行首次在生产环境部署此类项目，具体交易规模未披露。",
+      "importance": "medium",
+      "reasoning": "3 月 10 日发布。Mastercard 携手新加坡两大银行落地 AI 支付智能体，是亚洲主流金融机构首次在生产环境部署智能体支付，具有区域示范意义，AI News 报道。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/",
+      "keywords": ["Mastercard", "DBS", "UOB", "AI支付", "新加坡"],
+      "category": "金融科技"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-11T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "AIBase", "Hacker News", "AI News", "a16z", "Reuters", "Bloomberg", "WebSearch"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 480
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2026-01-20",
+  "date_formatted": "26/01/20",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "专家预警 OpenAI 18 个月内或现金枯竭",
+      "content": "纽约时报专栏作家、外交关系委员会高级研究员 Sebastian Mallaby 撰文预测，OpenAI 可能在 18 个月内耗尽现金。他指出 OpenAI 2025 年预计烧掉 80 亿美元，2028 年将超过 400 亿美元，而竞争对手 Google、微软、Meta 可用主营业务利润补贴 AI 研发，OpenAI 没有这种优势。他预测 OpenAI 最终可能被微软或亚马逊收购。",
+      "importance": "critical",
+      "reasoning": "纽约时报发布 OpenAI 财务分析，具体量化烧钱速度和现金流危机，预测被收购结局，属行业重要财务预警。1 月 18 日发布。",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/01/18/opinion/openai-ai-altman.html",
+      "keywords": ["OpenAI", "18 个月", "80 亿美元", "现金流", "收购"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 拟融资 100 亿美元估值冲 3500 亿",
+      "content": "据华尔街日报报道，Anthropic 正洽谈新一轮 100 亿美元融资，估值将达 3500 亿美元，较 4 个月前的 1830 亿美元接近翻倍。新加坡主权财富基金 GIC 和 Coatue 领投。Anthropic 正与 OpenAI（估值 5000 亿美元）展开激烈竞争。",
+      "importance": "critical",
+      "reasoning": "Anthropic 估值 4 个月翻倍至 3500 亿美元，融资 100 亿美元，属 AI 行业最大规模融资之一。1 月 7 日首报。",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/anthropic-fundraising-350-billion-valuation-f52b776c",
+      "keywords": ["Anthropic", "100 亿美元", "3500 亿美元", "GIC", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Hassabis 预测 AGI 将在 3-5 年内实现",
+      "content": "Google DeepMind CEO、诺贝尔奖得主 Demis Hassabis 在达沃斯论坛接受 CNBC 采访时表示，通用人工智能（AGI）可能在 3-5 年内实现，较此前「5-10 年」预测大幅提前。他认为只需 1-2 个类似 AlphaGo 级别的技术突破即可达成，但指出目前 AI 模型仍缺乏对物理世界的真正理解。",
+      "importance": "critical",
+      "reasoning": "诺奖得主、DeepMind CEO 在达沃斯缩短 AGI 时间表至 3-5 年，较此前预测大幅提前，属行业权威预测。1 月 16 日采访。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/16/deepmind-ceo-hassabis-agi-timeline.html",
+      "keywords": ["Hassabis", "AGI", "3-5 年", "DeepMind", "达沃斯"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "达沃斯 2026 聚焦 AI 治理",
+      "content": "第 56 届世界经济论坛年会于 1 月 19-23 日在达沃斯举行，来自 130 多个国家的近 3000 名领导人参会。AI 治理成为核心议题，超过 200 场会议中多数涉及人工智能。OpenAI 首席全球事务官 Christopher Lehane 在会上表示 AI 治理已成为「全球紧急状态」。论坛预测 AI 到 2030 年将为全球 GDP 贡献超 15 万亿美元。",
+      "importance": "critical",
+      "reasoning": "达沃斯论坛 3000 名全球领导人聚焦 AI 治理，OpenAI 高管称 AI 治理为全球紧急状态，属行业级政策法规重要事件。1 月 19 日开幕。",
+      "source": "World Economic Forum",
+      "url": "https://www.weforum.org/stories/2026/01/davos-2026-annual-meeting-what-to-expect/",
+      "keywords": ["达沃斯", "AI 治理", "3000 名", "15 万亿美元", "OpenAI"],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic 任命印度负责人筹建班加罗尔办公室",
+      "content": "Anthropic 任命前微软印度总经理 Irina Ghose 为印度业务负责人，将于下月在班加罗尔开设办公室，这是继东京后其亚太区第二个办公室。印度是 Claude.ai 全球第二大市场，近半数用户集中在技术开发领域。",
+      "importance": "high",
+      "reasoning": "Anthropic 进军印度市场，任命微软高管，印度为其第二大市场，属重要国际扩张动作。1 月 15-16 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/15/anthropic-taps-former-microsoft-india-md-to-lead-bengaluru-expansion/",
+      "keywords": ["Anthropic", "印度", "Irina Ghose", "班加罗尔", "微软"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Google 将 Gemini 3 Pro 部署到搜索",
+      "content": "Google 宣布将 Gemini 3 Pro 模型部署到搜索 AI 概述功能，系统会自动将复杂查询路由到更强大模型处理。目前 AI 概述月活用户达 20 亿，Gemini 应用月活超 6.5 亿。该功能面向美国 AI Pro 和 AI Ultra 订阅用户开放。",
+      "importance": "high",
+      "reasoning": "Google 将最新 Gemini 3 Pro 部署到 20 亿月活的搜索功能，属三大厂核心产品更新。1 月中旬部署。",
+      "source": "Google Blog",
+      "url": "https://blog.google/products/search/gemini-3-search-ai-mode/",
+      "keywords": ["Google", "Gemini 3 Pro", "20 亿", "AI 概述", "搜索"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "壁仞科技港股上市首日涨超 75%",
+      "content": "国产 GPU 公司壁仞科技 1 月 2 日在港交所上市，成为港股 2026 年首只新股和「国产 GPU 第一股」。发行价 19.6 港元，首日最高涨超 118% 至 42.88 港元，市值突破 1000 亿港元。公司 2025 上半年收入 0.59 亿元，累计亏损超 63 亿元。",
+      "importance": "high",
+      "reasoning": "国产 GPU 公司港股上市首日涨超 75%，市值破千亿，属中国 AI 芯片里程碑事件。1 月 2-3 日发布。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-01-03/doc-inheytmx3931786.shtml",
+      "keywords": ["壁仞科技", "港股", "75%", "1000 亿港元", "GPU"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "Claude 永久记忆功能曝光",
+      "content": "据泄露信息，Anthropic 正在开发 Claude 的「永久记忆」功能，可跨对话记住用户偏好和项目历史。新功能采用「知识库」设计，AI 可主动从中检索背景信息，并持续更新内容。预计将随 Claude Cowork 的 Windows 版本在 2026 年中发布。",
+      "importance": "high",
+      "reasoning": "Anthropic Claude 永久记忆功能曝光，采用知识库设计支持跨会话记忆，属产品重要升级。1 月 19 日报道。",
+      "source": "36氪",
+      "url": "https://eu.36kr.com/en/p/3646147182595974",
+      "keywords": ["Claude", "永久记忆", "知识库", "Anthropic", "Windows"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "小米 MiMo 大模型 API 定价公布",
+      "content": "小米大模型团队公布 MiMo-V2-Flash 模型 API 定价：国内输入 0.7 元/百万字符、输出 2.1 元/百万字符；海外输入 0.1 美元、输出 0.3 美元。公测免费期延长至 1 月 20 日 14:00。",
+      "importance": "medium",
+      "reasoning": "小米公布大模型 API 定价进入商业化阶段，定价低于行业平均水平。今天（1 月 20 日）截止免费期。",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/909/621.htm",
+      "keywords": ["小米", "MiMo", "API", "0.7 元", "定价"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "寒武纪市值 6300 亿登顶胡润 AI 50 强",
+      "content": "胡润研究院发布 2025 年中国 AI 50 强榜单，寒武纪以 6300 亿元市值登顶，较去年增长 160%。字节跳动、蚂蚁集团分列二三位。",
+      "importance": "medium",
+      "reasoning": "寒武纪市值 6300 亿元登顶中国 AI 榜单，增长 160%，反映国产 AI 芯片估值变化。今天报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24735",
+      "keywords": ["寒武纪", "6300 亿", "胡润", "160%", "AI 50 强"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-20T09:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "New York Times",
+      "Wall Street Journal",
+      "CNBC",
+      "World Economic Forum",
+      "Google Blog",
+      "新浪财经",
+      "IT之家"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 200
+  }
+}

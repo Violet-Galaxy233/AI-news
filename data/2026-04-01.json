@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-01",
+  "date_formatted": "26/04/01",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Claude源码意外全泄",
+      "content": "Anthropic 因打包工具 bug 意外将 Claude Code 全部 512,000 行 TypeScript 源码随 npm 包对外公开，竞争对手已获取含未发布智能体功能「KAIROS」及反蒸馏策略等路线图机密；DMCA 要求 GitHub 删除 8,100 个镜像仓库未能奏效，代码已被 41,500 次 fork 扩散至去中心化平台，实际无法撤回；这是 Anthropic 一周内第二次重大安全事故。",
+      "importance": "critical",
+      "reasoning": "3月31日 The Register/Decrypt/VentureBeat 广泛报道，Hacker News 1136分。Anthropic npm包bug导致512K行TypeScript源码全量外泄，DMCA失效，战略机密（KAIROS智能体、反蒸馏机制）无法追回，是AI公司源码安全的范式级事故，一周内第二次重大安全事件，critical级。",
+      "source": "The Register",
+      "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_source_code/",
+      "keywords": ["Anthropic", "Claude Code", "源码泄露", "KAIROS", "npm", "DMCA", "41500fork"],
+      "category": "AI安全"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI史上最大融资",
+      "content": "OpenAI 完成史上最大 AI 私募融资，总规模 1,220 亿美元，估值升至 8,520 亿美元；首次向散户开放 30 亿美元定向配股（经三大银行私募渠道），标志 IPO 进程实质启动；由 SoftBank、a16z 领投，Amazon、英伟达、微软参投；月收入 20 亿美元，增速是谷歌、Meta 创立初期的 4 倍；ARK Invest 同步将其纳入旗下多只 ETF。",
+      "importance": "critical",
+      "reasoning": "3月31日 TechCrunch/CNBC/OpenAI官方宣布。史上最大AI私募融资122亿美元，首次向散户开放，估值8520亿美元接近万亿，ARK ETF纳入标志IPO进程明确，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "keywords": ["OpenAI", "1220亿美元", "8520亿估值", "散户", "IPO", "SoftBank", "a16z"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "LiteLLM供应链攻击爆发",
+      "content": "开源 AI 网关工具 LiteLLM 遭黑客劫持 PyPI 账户，恶意版本 1.82.7 和 1.82.8 已推送至公开注册表，波及每日下载量达数百万次的数千家企业；黑客组织 Lapsus$ 借此入侵估值 100 亿美元的 AI 招聘独角兽 Mercor，声称窃取 4TB 数据，含 OpenAI 和 Anthropic 承包商资料；这是 AI 开发生态迄今规模最大的软件供应链安全攻击。",
+      "importance": "critical",
+      "reasoning": "3月31日 TechCrunch 报道，Mercor官方确认。LiteLLM每日下载量数百万，波及数千家企业；Lapsus$声称从估值百亿美元的Mercor窃取4TB数据含OpenAI/Anthropic承包商资料，是AI基础设施供应链安全的范式级事件，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "keywords": ["LiteLLM", "Mercor", "供应链攻击", "Lapsus$", "4TB", "PyPI", "恶意版本"],
+      "category": "AI安全"
+    },
+    {
+      "id": 4,
+      "title": "Slack全面升级企业AI",
+      "content": "Salesforce 为 Slack 发布 30 余项 AI 功能，Slackbot 升级为全能企业智能体：支持跨任意视频平台会议全程转录与摘要、可感知用户屏幕的桌面智能体、MCP 客户端接入 6,000 余款外部应用，并可将任务转发至 Salesforce Agentforce；4 月起向免费及 Pro 用户开放试用。",
+      "importance": "high",
+      "reasoning": "3月31日 TechCrunch/VentureBeat 报道，Salesforce官方宣布。Slackbot从信息机器人升级为全面企业智能体，MCP支持6000+应用，覆盖广泛企业用户，是企业协作软件AI化的重要里程碑，high级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "keywords": ["Slack", "Salesforce", "Slackbot", "30功能", "MCP", "企业智能体", "会议转录"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Mistral获8.3亿欧债务融资",
+      "content": "法国 AI 创企 Mistral 联合 7 家全球银行完成首笔 8.3 亿欧元债务融资，在巴黎郊区 Bruyères-le-Châtel 建设配备 13,800 块英伟达 GB300 显卡、容量 44 兆瓦的主权算力中心，计划 2026 年第二季度投产；目标 2027 年底欧洲总算力达 200 兆瓦。",
+      "importance": "high",
+      "reasoning": "3月30日 TechCrunch/CNBC/Bloomberg 报道。Mistral自2023年成立以来首次债务融资，联合BNP Paribas等7家顶级银行，建设欧洲主权AI算力，是欧洲AI基础设施战略自主的重要节点，high级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "keywords": ["Mistral", "8.3亿欧元", "巴黎数据中心", "GB300", "13800显卡", "欧洲算力"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "韩国AI芯片获4亿pre-IPO",
+      "content": "韩国 AI 芯片创企 Rebellions 完成 4 亿美元 pre-IPO 融资，估值升至 23.4 亿美元；公司专注 AI 推理芯片，6 个月内连续完成 6.5 亿美元融资，已在美国、日本、沙特和台湾设立实体，计划 2026 年下半年 IPO，正面挑战英伟达推理芯片市场。",
+      "importance": "high",
+      "reasoning": "3月30日 TechCrunch/CNBC 报道。Rebellions 6个月内连续融资6.5亿美元，估值23.4亿美元，pre-IPO融资明确2026年下半年IPO计划，是非美系AI芯片挑战者的重要里程碑，high级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "keywords": ["Rebellions", "4亿美元", "AI芯片", "推理芯片", "韩国", "IPO", "英伟达"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "摩根大通监控员工AI用量",
+      "content": "摩根大通宣布开始系统追踪员工使用内部 AI 工具的详细行为数据，是全球首家建立完整 AI 使用监控体系的大型金融机构，所得数据将用于评估工具投资回报并识别合规风险。",
+      "importance": "medium",
+      "reasoning": "3月30日 AI News 报道。摩根大通作为全球最大金融机构之一，首次系统监控AI工具使用，对金融业AI合规趋势具有参考意义，medium级（行业报告类）。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/jpmorgan-begins-tracking-how-employees-use-ai-at-work/",
+      "keywords": ["摩根大通", "AI监控", "员工AI使用", "合规", "金融AI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "Runway设千万美元创业基金",
+      "content": "AI 视频公司 Runway 宣布设立 1,000 万美元风险基金及 Builders 计划，面向早期 AI 创业公司提供最高 50 万美元资金和 50 万次 API 调用额度，覆盖 AI、媒体和世界模拟三大领域。",
+      "importance": "medium",
+      "reasoning": "3月31日 TechCrunch 报道。Runway设立1000万美元基金支持早期AI创业者，是视频AI平台从工具向生态平台延伸的策略性举措，medium级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+      "keywords": ["Runway", "1000万美元", "Builders", "AI创业", "风险基金", "世界模拟"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "ScaleOps获1.3亿算力融资",
+      "content": "以色列算力优化创企 ScaleOps 完成 1.3 亿美元 C 轮融资，估值超 8 亿美元，过去 12 个月营收增长 450%；其软件可将企业 AI 工作负载云端成本降低最高 80%，自动化算力管理赛道持续升温。",
+      "importance": "medium",
+      "reasoning": "3月30日 TechCrunch 报道。ScaleOps 1.3亿美元C轮，估值超8亿，450% YoY增长，降低最高80% AI算力成本，在AI需求激增背景下具有行业参考价值，medium级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+      "keywords": ["ScaleOps", "1.3亿美元", "算力优化", "450%增长", "AI工作负载", "云成本"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-01T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AI News", "AIBase", "Hacker News", "The Register", "Decrypt", "CNBC", "Bloomberg", "VentureBeat"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 540
+  }
+}

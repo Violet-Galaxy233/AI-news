@@ -1,0 +1,164 @@
+{
+  "date": "2025-10-28",
+  "date_formatted": "25/10/28",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic Claude 集成 Excel 挑战微软",
+      "content": "Anthropic 发布 Claude for Excel 测试版，直接在 Excel 侧边栏分析和修改表格，并集成伦敦证券交易所、穆迪等金融数据源。定位对标微软 Copilot，目前向企业用户开放。",
+      "importance": "critical",
+      "reasoning": "主流公司重大产品发布：Anthropic 推出 Excel 集成直接挑战微软 Copilot，并深度整合金融数据源（LSEG、Moody's 等），对企业 AI 工具市场有重要影响，10-27 发布。",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai/anthropic-rolls-out-claude-ai-for-finance-integrates-with-excel-to-rival",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Excel",
+        "金融服务"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 披露每周超 100 万人向 ChatGPT 倾诉自杀",
+      "content": "OpenAI披露，每周约 100 万用户向 ChatGPT 倾诉自杀计划。公司咨询 170 多位心理健康专家优化模型，GPT-5 在自杀话题测试中达标率从 77% 提升至 91%。",
+      "importance": "critical",
+      "reasoning": "重大社会影响披露：OpenAI 首次公开心理健康数据，每周 100 万人倾诉自杀反映 AI 在心理健康领域的重要角色，GPT-5 安全性提升 14 个百分点展示技术进步，今天（10-28）披露。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/892/790.htm",
+      "keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "心理健康",
+        "GPT-5"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "MiniMax M2 开源模型登顶全球第一",
+      "content": "MiniMax 开源 M2 模型，总参数 2300 亿，登顶全球开源模型榜首，API 成本仅为 Claude Sonnet 4.5 的 8%，运行速度快近 2 倍。",
+      "importance": "critical",
+      "reasoning": "国产重大开源模型发布：MiniMax M2 登顶全球开源模型第一，成本仅为 Claude Sonnet 4.5 的 8% 且速度快 2 倍，展示国产模型的竞争力，采用 MIT 许可证可商用，10-27 发布。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/tech/2025-10-27/doc-infvinsr2158697.shtml",
+      "keywords": [
+        "MiniMax",
+        "M2",
+        "开源模型",
+        "性价比"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "马斯克推出 Grokipedia 挑战维基百科",
+      "content": "xAI 日上线 Grokipedia，收录超 88.5 万篇文章，定位维基百科的 AI 替代品。部分内容改编自维基百科，声称更客观。上线后因访问量大一度宕机。",
+      "importance": "critical",
+      "reasoning": "主流公司重要产品发布：马斯克推出 AI 版维基百科，88.5 万篇文章规模可观，直接挑战传统知识库，上线即宕机反映高关注度，今天（10-28）上线。",
+      "source": "流动日报",
+      "url": "https://www.newmobilelife.com/2025/10/28/grokipedia-outage-musk-universe/",
+      "keywords": [
+        "xAI",
+        "Grokipedia",
+        "马斯克",
+        "维基百科"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Mercor 融资 3.5 亿美元估值达 100 亿",
+      "content": "AI 招聘平台 Mercor 完成 3.5 亿美元 C 轮融资，估值达 100 亿美元，较 2 月增长 5 倍。管理超 3 万名承包商，日支付额超 150 万美元。",
+      "importance": "critical",
+      "reasoning": "重大融资：Mercor 估值 8 个月增长 5 倍至 100 亿美元，3.5 亿美元融资展示 AI 招聘市场潜力，3 万承包商日支付 150 万美元证明商业规模，10-27 宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/",
+      "keywords": [
+        "Mercor",
+        "融资",
+        "AI 招聘",
+        "估值"
+      ],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "特斯拉发布世界模拟器训练自动驾驶",
+      "content": "特斯拉披露世界模拟器，AI 生成驾驶场景，1 天学习相当人类 500 年经验，训练自动驾驶和擎天柱机器人。",
+      "importance": "high",
+      "reasoning": "主流公司重大技术披露：特斯拉世界模拟器可将训练效率提升至 1 天 = 500 年人类经验，同时训练 FSD 和 Optimus 展示通用性，对自动驾驶和机器人训练有重要推动，10-27 在 ICCV 披露。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3527049206307971",
+      "keywords": [
+        "特斯拉",
+        "世界模拟器",
+        "自动驾驶",
+        "擎天柱"
+      ],
+      "category": "技术突破"
+    },
+    {
+      "id": 7,
+      "title": "OpenAI 开发音乐生成工具",
+      "content": "OpenAI 正开发音乐生成工具，可根据文本创作音乐或为音轨添加伴奏。Juilliard 学生参与训练，发布日期未定。",
+      "importance": "high",
+      "reasoning": "主流公司新产品方向：OpenAI 进军音乐生成市场，Juilliard 学生参与训练提升专业性，可能整合到 Sora 等现有产品，对 AI 音乐市场有重要影响，10 月报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/25/openai-reportedly-developing-new-generative-music-tool/",
+      "keywords": [
+        "OpenAI",
+        "音乐生成",
+        "AI 创作"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "零一万物新一轮高管调整深化 ToB",
+      "content": "零一万物进行高管调整，深化 ToB 战略。此前已有多位技术高管离职，CEO 李开复继续领导转型。",
+      "importance": "high",
+      "reasoning": "国内 AI 公司战略调整：零一万物进行新一轮高管变动深化 ToB 战略，继 1-2 月技术高管离职后的再次调整，反映 AI 公司从 ToC 向 ToB 转型趋势，今天（10-28）报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3526684698713219",
+      "keywords": [
+        "零一万物",
+        "李开复",
+        "高管变动",
+        "ToB"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "LeCun 批评机器人行业引发争议",
+      "content": "Meta 首席科学家 LeCun 在 MIT 批评机器人行业缺乏真正智能，引发特斯拉、Figure 高管回怼。",
+      "importance": "high",
+      "reasoning": "行业重要争议：Meta 首席科学家 LeCun 公开批评机器人行业引发特斯拉、Figure 高管反驳，反映 AI 研究者与工程团队对机器人智能化路径的分歧，10 月下旬 MIT 演讲。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3525806224989060",
+      "keywords": [
+        "LeCun",
+        "机器人",
+        "Meta",
+        "特斯拉"
+      ],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-28T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "36氪",
+      "Web Search"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 620.5
+  }
+}

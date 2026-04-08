@@ -1,0 +1,132 @@
+{
+  "date": "2025-12-03",
+  "date_formatted": "25/12/03",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "亚马逊发布 Nova 2 系列 AI 模型",
+      "content": "AWS 在 re:Invent 2025 大会发布四款 Nova 2 AI 模型，覆盖文本、图像、视频和语音能力，内置网络搜索和代码执行功能。Nova 2 Lite 成本仅为同类模型的一半，同时性能超越竞品。",
+      "importance": "critical",
+      "reasoning": "三大厂主流产品发布：AWS 发布四款自研 AI 模型，成本降低 50%，内置搜索和代码执行，对云计算 AI 服务有重大影响，12 月 3 日发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23339",
+      "keywords": ["AWS", "Nova 2", "亚马逊", "re:Invent"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 收购 Bun 加强 Claude Code",
+      "content": "Anthropic 宣布以数十亿美元收购 JavaScript 运行时 Bun，计划将其集成到 Claude Code 中，大幅降低大规模编程任务的延迟和失败率。Bun 是近年来最受欢迎的 JavaScript 工具之一。",
+      "importance": "critical",
+      "reasoning": "重大并购事件：Anthropic 数十亿美元收购 Bun 强化 Claude Code，降低编程延迟和失败率，对 AI 编程工具市场有重大影响，12 月 3 日宣布。",
+      "source": "AIBase News / Hacker News",
+      "url": "https://bun.com/blog/bun-joins-anthropic",
+      "keywords": ["Anthropic", "Bun", "Claude Code", "并购"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 拉响红色警报应对谷歌竞争",
+      "content": "OpenAI CEO Sam Altman 宣布启动红色警报，调集内部资源对 ChatGPT 进行突击升级。此举源于 Google Gemini 3 模型带来的竞争压力，OpenAI 同时暂停了原定的广告计划。",
+      "importance": "critical",
+      "reasoning": "行业级竞争升级：OpenAI CEO 宣布红色警报应对 Google Gemini 3 竞争，暂停广告专注产品，对 AI 行业格局有重大影响，12 月 2-3 日报道。",
+      "source": "Hacker News / WebSearch",
+      "url": "https://www.theverge.com/news/836212/openai-code-red-chatgpt",
+      "keywords": ["OpenAI", "Google", "Gemini 3", "竞争"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "亚马逊发布新 AI 芯片性能提升 6 倍",
+      "content": "亚马逊在 re:Invent 2025 发布新一代自研 AI 芯片，性能较上一代提升 6 倍，同时宣布与英伟达建立更紧密合作。新芯片将为 AWS 客户提供更高性价比的 AI 计算能力。",
+      "importance": "critical",
+      "reasoning": "巨头硬件重大发布：亚马逊自研芯片性能飙升 6 倍，对 AI 芯片市场和云计算成本有重大影响，12 月 2 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
+      "keywords": ["亚马逊", "AI 芯片", "AWS", "英伟达"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Mistral 推出新开源模型追赶巨头",
+      "content": "Mistral AI 发布 Mistral 3 开源前沿模型，性能逼近 OpenAI、Google 等巨头商业模型，进一步缩小开源与闭源差距。",
+      "importance": "high",
+      "reasoning": "赛道级产品发布：Mistral 新开源模型性能逼近巨头商业模型，对开源 AI 生态有重要推动，12 月 2 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/",
+      "keywords": ["Mistral", "开源", "AI 模型", "前沿模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "阿里发布 AI 眼镜 S1 搭载通义千问",
+      "content": "阿里巴巴推出首款自研 AI 眼镜 S1，搭载 5 个高性能麦克风和骨传导技术，可在嘈杂环境中精准识别语音指令。",
+      "importance": "high",
+      "reasoning": "重要硬件产品：阿里首款 AI 眼镜，5 个麦克风+骨传导技术，对 AI 可穿戴设备市场有重要影响，12 月 3 日发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23336",
+      "keywords": ["阿里巴巴", "AI 眼镜", "通义千问", "可穿戴"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "IBM CEO 质疑科技巨头 AI 投资回报",
+      "content": "IBM CEO 公开质疑科技巨头在 AI 数据中心上的巨额支出能否获得回报，引发行业对 AI 基础设施投资热潮的反思。",
+      "importance": "high",
+      "reasoning": "高话题性观点：IBM CEO 质疑巨头 AI 投资回报，引发行业对投资热潮的反思，对 AI 投资决策有参考意义，12 月 2 日报道。",
+      "source": "Hacker News",
+      "url": "https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12",
+      "keywords": ["IBM", "AI 投资", "数据中心", "回报率"],
+      "category": "行业观点"
+    },
+    {
+      "id": 8,
+      "title": "阿里 Qwen3-VL 可扫描两小时视频",
+      "content": "阿里发布 Qwen3-VL 视觉模型，可扫描长达两小时视频并精确定位几乎每个细节，展示多模态 AI 长视频理解突破。",
+      "importance": "high",
+      "reasoning": "重要技术突破：Qwen3-VL 可扫描两小时视频并精确定位细节，对视频 AI 应用有重要推动，12 月 2 日发布。",
+      "source": "Hacker News",
+      "url": "https://the-decoder.com/qwen3-vl-can-scan-two-hour-videos-and-pinpoint-nearly-every-detail/",
+      "keywords": ["阿里巴巴", "Qwen3-VL", "视频理解", "多模态"],
+      "category": "技术突破"
+    },
+    {
+      "id": 9,
+      "title": "谷歌 Android 16 推出 AI 通知摘要",
+      "content": "Google 为 Android 16 新增 AI 通知摘要功能，率先在 Pixel 设备推出。",
+      "importance": "medium",
+      "reasoning": "常规更新：Android 16 新增 AI 通知摘要功能，Pixel 首发，对移动操作系统有参考价值，12 月 3 日发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23338",
+      "keywords": ["Google", "Android 16", "AI 通知", "Pixel"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Simular 获 2150 万美元融资开发 AI 代理",
+      "content": "Simular 完成 2150 万美元融资，由 Felicis 领投，开发 Mac 和 Windows PC 桌面自动化 AI 代理。",
+      "importance": "medium",
+      "reasoning": "中等融资：2150 万美元 A 轮，Felicis 领投，开发桌面 AI 代理，对 AI 自动化应用有参考价值，12 月 2 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/02/simular-releases-mac-os-ai-agent-raises-21-5m-from-felicis-with-windows-coming-soon/",
+      "keywords": ["Simular", "融资", "AI 代理", "桌面自动化"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-03T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 2,
+    "generation_time_seconds": 1800
+  }
+}

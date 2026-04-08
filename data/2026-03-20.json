@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-20",
+  "date_formatted": "26/03/20",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "贝索斯筹1000亿改造制造业",
+      "content": "贝索斯正向阿联酋主权财富基金、摩根大通 CEO 戴蒙等机构募集 1000 亿美元，计划收购半导体、国防、航空航天领域制造企业并以 AI 全面改造；基金配合贝索斯 62 亿美元 AI 公司「Project Prometheus」运作，主攻制造业与工程领域高阶 AI 系统；这是他卸任亚马逊 CEO 五年后首次以联席 CEO 身份领衔的全球资本运作，若落地将成史上规模最大的产业 AI 改造投资。",
+      "importance": "critical",
+      "reasoning": "3月19日报道（WSJ/Bloomberg/TechCrunch）。贝索斯募集1000亿美元超过大多数主权财富基金规模，配合62亿美元Project Prometheus AI初创公司联动，是全球规模最大的产业AI改造计划，符合「范式转变+重大资本运作」critical标准。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "keywords": ["贝索斯", "1000亿", "制造业AI", "Project Prometheus", "阿联酋主权财富基金"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI收购Astral",
+      "content": "OpenAI 宣布收购 Python 工具链公司 Astral，其旗下 uv、Ruff、ty 月下载量数千万，是现代 Python 开发生态的核心基础设施；Astral 团队将并入 AI 编程助手 Codex 团队，Codex 今年用户数增长 3 倍、使用量增长 5 倍，周活跃用户达 200 万；收购金额未披露，OpenAI 承诺继续维护 Astral 全部开源项目，是 OpenAI 全面押注编程赛道的最强战略信号。",
+      "importance": "critical",
+      "reasoning": "3月19日（OpenAI官方/Bloomberg/CNBC）。OpenAI直接收购Python生态核心工具链，Codex周活200万且今年使用量5倍增长，是「三大厂主流产品战略布局」的critical级行动，直接影响整个Python开发者生态与AI编程市场格局。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/openai-to-acquire-astral/",
+      "keywords": ["OpenAI", "Astral", "Codex", "Python", "编程工具", "200万周活"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Cursor发首款自研AI模型",
+      "content": "AI 编程平台 Cursor 发布首款自研模型 Composer 2，在 SWE-bench 多语言编程测试中得分 73.7，超越 Claude Opus 4.6（65.9 分），调用价格 0.5 美元/百万次输入，约为业界顶级模型的十分之一；Cursor 日活用户超 100 万、估值 290 亿美元，此举标志 AI 编程平台从「调用大厂接口」转向「独立建模」，将正面竞争 Anthropic 与 OpenAI 的编程市场份额。",
+      "importance": "critical",
+      "reasoning": "3月19日（Cursor官方/Bloomberg/VentureBeat）。290亿美元估值的AI编程龙头首次自研模型并超越Claude Opus 4.6，直接向顶级AI厂商的编程产品发起竞争，是AI编程赛道「工具层」升级为「模型层」的范式转变，critical级别。",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/composer-2",
+      "keywords": ["Cursor", "Composer 2", "自研模型", "290亿估值", "编程评测", "Claude超越"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "通义千问登顶中国AI排行",
+      "content": "阿里巴巴旗舰模型 Qwen3.5-Max 预览版上线全球 AI 评测平台 Arena，成为中国排名最高模型，全球综合第 15 位，数学能力全球第 5，仅次于 Claude Opus 4.6 和 GPT-5.4-High；阿里表示正进行「最终优化」，计划两周内正式发布完整版。",
+      "importance": "high",
+      "reasoning": "3月19日上线（Arena官方/南华早报）。阿里旗舰模型登顶中国，全球数学第5，正式版两周内发布，是中美AI竞争格局中的重要进展，high级别。",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/tech/article/3347272/preview-alibabas-strongest-ai-model-tops-chinese-peers-ranking-lags-us-rivals",
+      "keywords": ["阿里巴巴", "Qwen3.5", "Arena排行", "中国AI", "数学第5"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Meta部署自研内容审核AI",
+      "content": "Meta 向 Facebook、Instagram、Threads 三大平台全面部署自研 AI 内容执法系统，将内容审核判定权从外包第三方供应商收回内部；此举减少对外部人工审核网络的依赖，强化 Meta 对内容政策执行的直接管控，具体拦截准确率数据暂未披露。",
+      "importance": "high",
+      "reasoning": "3月19日（TechCrunch）。Meta三大平台内容执法从外包转向自研AI，涉及数十亿用户的内容体验与审核逻辑，是科技平台AI内容管控能力内化的重要案例，high级别。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+      "keywords": ["Meta", "AI内容审核", "Facebook", "Instagram", "Threads", "自研系统"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "亚马逊收购机器人公司Rivr",
+      "content": "亚马逊收购瑞士机器人公司 Rivr，其轮足复合机器人可在楼梯、坡道、电梯等复杂城市建筑场景中自主完成最后一公里快递配送；收购金额未披露，此举填补亚马逊物流机器人在室内垂直楼宇场景的技术空白，为城市密集居住区的自动化配送提供关键能力。",
+      "importance": "high",
+      "reasoning": "3月20日（AIBase）。亚马逊收购欧洲机器人公司强化室内物流自动化，是亚马逊物流机器人版图向复杂城市场景延伸的重要布局，high级别。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26423",
+      "keywords": ["亚马逊", "Rivr", "机器人", "最后一公里", "物流自动化"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "机器人流量将超越人类上网",
+      "content": "Cloudflare CEO 马修·普林斯公开预测，2027 年互联网机器人自动化流量将首次超过真实用户流量；随着 AI 智能体大量涌入网络，机器人流量已系统性压缩人类用户占比，将深刻改变网络广告、搜索引擎、内容授权的商业模式。",
+      "importance": "high",
+      "reasoning": "3月19日（TechCrunch）。Cloudflare作为全球最大网络基础设施之一，CEO的预测有实际流量数据支撑且时间线明确（2027年），对广告、内容行业商业模式具有重要警示意义，high级别。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "keywords": ["Cloudflare", "机器人流量", "AI智能体", "2027", "互联网生态"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "谷歌向出版商开放AI摘要退出",
+      "content": "谷歌宣布允许网站选择退出搜索 AI 摘要功能，出版商内容将不再被自动抓取并直接展示在搜索结果页而不导流；此举回应英国出版商数月抗议，是谷歌首次在搜索 AI 摘要问题上向版权方做出实质性让步。",
+      "importance": "medium",
+      "reasoning": "3月20日（AIBase/谷歌官方）。谷歌首次允许网站退出AI摘要，是版权方与科技平台博弈中的重要政策节点，medium级别。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26421",
+      "keywords": ["谷歌", "AI搜索摘要", "版权", "出版商", "退出机制"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "ElevenLabs音乐市场",
+      "content": "ElevenLabs 发布 AI 音乐交易市场，创作者可生成 AI 音乐并通过按次下载和商业授权两种方式变现，打通 AI 音乐从创作到商业销售的完整链路；平台分成比例及具体定价未披露。",
+      "importance": "medium",
+      "reasoning": "3月20日（AIBase）。ElevenLabs将AI音乐生成与商业变现直接打通，是AI内容创作货币化的重要尝试，medium级别。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26415",
+      "keywords": ["ElevenLabs", "AI音乐", "交易市场", "内容变现"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "外卖平台付费采集AI训练数据",
+      "content": "DoorDash 推出 Tasks 应用，向配送员支付报酬换取视频数据，用于训练自动驾驶与物流 AI 系统，具体薪酬标准及数据用途范围未披露；此举将配送网络转化为 AI 数据采集基础设施。",
+      "importance": "medium",
+      "reasoning": "3月19日（TechCrunch）。DoorDash利用现有配送员网络采集AI训练数据，是平台企业将劳动力转化为AI数据资产的新模式，medium级别。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+      "keywords": ["DoorDash", "AI训练数据", "配送员", "自动驾驶", "数据采集"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-20T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "OpenAI Blog", "Bloomberg", "CNBC", "WSJ", "AIBase", "Hacker News", "AI News", "South China Morning Post", "Cursor Blog", "WebSearch"],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 510
+  }
+}

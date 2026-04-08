@@ -1,0 +1,135 @@
+{
+  "date": "2026-03-30",
+  "date_formatted": "26/03/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI关闭Sora停运",
+      "content": "OpenAI 永久关闭 AI 视频生成产品 Sora，该产品发布约 6 个月后因每日运营成本约 100 万美元止损退出；用户规模从峰值 100 万人骤降至 50 万人以下，WSJ 确认视频生成技术成本远超商业化收益是关闭主因；此举标志 AI 视频赛道首次经历头部玩家主动退出，Runway、可灵等竞争者的商业模式也将面临市场重新审视。",
+      "importance": "critical",
+      "reasoning": "3月29日 TechCrunch + WSJ 深度报道（实际关闭约3月22-24日，持续发酵重大事件例外保留）。OpenAI亲手关闭旗舰级视频产品，每日百万美元成本烧光，用户数腰斩，是AI视频赛道范式级挫折，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "keywords": ["OpenAI", "Sora", "关闭", "AI视频", "100万美元/天", "产品退出"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic下代模型泄露",
+      "content": "Anthropic 因内容管理系统配置失误，意外将下一代旗舰模型 Claude Mythos（代号 Capybara）的未发布草稿公开；泄露文件显示该模型「在网络安全能力上领先任何其他 AI 模型」，可自动发现并利用软件漏洞，速度远超防御方应对能力；Anthropic 确认为人为失误，目前仅向网络安全防御者开放内测，正式发布计划未披露。",
+      "importance": "critical",
+      "reasoning": "3月26-28日 Fortune + Futurism 报道，Anthropic官方确认。下代旗舰模型意外曝光，泄露内容显示其网络安全能力「前所未有」并被自身定性为「网络安全噩梦」，是AI能力跃升与安全风险并存的范式级事件，critical级。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+      "keywords": ["Anthropic", "Claude Mythos", "泄露", "网络安全", "Capybara", "下代模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic得联邦禁令",
+      "content": "旧金山联邦法院裁定，特朗普政府将 Anthropic 列为国防供应链风险违反第一修正案，属「典型违法第一修正案报复」，向 Anthropic 颁布初步禁令；禁令于 4 月 2 日生效，强制撤销五角大楼封锁令；政府已表示将向第九巡回法院申请紧急中止，Anthropic 与联邦政府法律战进入关键节点。",
+      "importance": "critical",
+      "reasoning": "3月26日 TechCrunch + CNBC 报道。联邦法院首次以第一修正案为由裁定政府供应链风险认定违宪，4月2日生效，政府可能上诉，是AI公司对抗政府监管的重要法律里程碑，critical级（持续发酵中例外保留）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+      "keywords": ["Anthropic", "五角大楼", "禁令", "第一修正案", "联邦法院", "DOD", "4月2日"],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "谷歌押注Anthropic算力",
+      "content": "谷歌与 Anthropic 签署里程碑级协议，将出资约 100 亿美元为其专建并独占租赁数据中心；此举标志谷歌从股权投资升级为「算力+融资」双重绑定，微软绑定 OpenAI、亚马逊绑定 Anthropic 算力后，谷歌正式补强自身 AI 生态护城河；三大云巨头与三大 AI 实验室之间的深度捆绑格局由此全面成形。",
+      "importance": "critical",
+      "reasoning": "3月30日 AIBase 报道。谷歌首次以百亿级专属数据中心锁定Anthropic，完成三大云厂+三大AI实验室「深度捆绑」格局，是AI算力生态从开放竞争转向独占绑定的重要节点，critical级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26645",
+      "keywords": ["谷歌", "Anthropic", "100亿", "专属数据中心", "算力绑定", "云巨头"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "微软接管德州AI工厂",
+      "content": "微软正式接管得克萨斯州 Abilene 原由 OpenAI 主导的 AI 工厂项目，首期配备专属发电厂容量 900 MW，全园区最终扩展至 2.1 吉瓦，成为全球首个进入吉瓦级的单一 AI 算力园区；OpenAI 退出后转向多区域分散部署策略，微软独占这一超级算力项目并与开发商 Crusoe 共享低延迟网络优势。",
+      "importance": "high",
+      "reasoning": "3月30日 AIBase 报道。全球首个2.1吉瓦单体AI算力园区，微软独占，是AI算力军备竞赛的重要里程碑，high级（基础设施重大进展，无新产品/政策变化）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26653",
+      "keywords": ["微软", "德克萨斯", "2.1吉瓦", "AI工厂", "OpenAI", "Crusoe", "算力园区"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "xAI创始团队全员离职",
+      "content": "马斯克旗下 xAI 最后两名联创 Manuel Kroiss 与 Ross Nordeen 于本周相继离职，至此 11 位原始联创无一留任；马斯克此前公开承认「xAI 最初建设不对」，创始团队集体出走将进一步加深市场对这家 AI 公司战略方向与文化稳定性的疑虑。",
+      "importance": "high",
+      "reasoning": "3月28日 TechCrunch 报道。xAI 11名联创全员离职，是创始团队彻底瓦解的重要节点，马斯克自认「建设不对」，影响市场对xAI长期竞争力的判断，high级（AI伦理争议/高话题性）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+      "keywords": ["xAI", "马斯克", "联创离职", "Ross Nordeen", "Manuel Kroiss", "创始团队"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Copilot向PR插广告",
+      "content": "GitHub Copilot 被曝在协助开发者修改代码提交描述时，擅自插入 Copilot 自身及 Raycast 的推广文字；事件在开发者社区迅速发酵，被视为 AI 工具「平台腐化」的典型案例——从服务用户演变为利用用户为第三方导流，从根本上破坏了 AI 编程工具的信任基础。",
+      "importance": "high",
+      "reasoning": "近期曝光，Hacker News 517分热议。GitHub Copilot未经授权向用户代码库植入广告，是AI工具伦理重大红线事件，引发开发者社区强烈反弹，high级（AI伦理争议/高话题性）。",
+      "source": "Hacker News",
+      "url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
+      "keywords": ["GitHub Copilot", "广告", "PR植入", "AI伦理", "平台腐化", "Raycast"],
+      "category": "AI伦理"
+    },
+    {
+      "id": 8,
+      "title": "Claude付费订阅年内翻倍",
+      "content": "Anthropic 官方确认 Claude 付费订阅量今年内已翻倍以上，第三方估计消费端用户达 1800-3000 万；Claude 正成为 ChatGPT 最强劲的消费级竞争对手，订阅增速领跑全球主流 AI 助手，企业端合同同步激增进一步支撑 Anthropic 的收入增长预期。",
+      "importance": "high",
+      "reasoning": "3月28日 TechCrunch 报道，Anthropic官方确认。付费订阅年内翻倍，用户规模1800-3000万，是Anthropic消费端高速增长的重要数据节点，high级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "keywords": ["Anthropic", "Claude", "付费订阅", "翻倍", "3000万用户", "消费端增长"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "豆包评测国内登顶",
+      "content": "字节跳动 Doubao-Seed-2.0-pro 在 SuperCLUE 最新评测中以 71.53 分位列国内第一，与全球第三 GPT-5.4 差距收窄至 0.95 分；评测覆盖数学推理、代码生成等 6 大任务，22 个主流模型参与，3 月 30 日公布。",
+      "importance": "medium",
+      "reasoning": "3月30日 SuperCLUE官方/AIBase 报道。字节旗舰模型国内登顶，与GPT-5.4差距仅0.95分，是中美AI竞争中的重要评测节点，medium级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26655",
+      "keywords": ["豆包", "字节跳动", "SuperCLUE", "71.53分", "国内第一", "GPT-5.4"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Runway多镜头短片AI",
+      "content": "Runway 推出 Multi-Shot 应用，可从文字描述或图片自动生成最多 5 镜头的完整短片，系统自动处理构图、镜头切换与配音，无需专业制作技能；现已上线 Runway 网页端。",
+      "importance": "medium",
+      "reasoning": "3月30日 AIBase 报道。Runway首次将单镜头生成升级为叙事式完整短片制作，是AI视频工具功能的重要跃升，medium级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26649",
+      "keywords": ["Runway", "Multi-Shot", "AI视频", "5镜头", "自动配音", "短片生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 11,
+      "title": "YouTube垃圾视频泛滥",
+      "content": "YouTube 出现大规模 AI 批量生成垃圾视频，内容集中复制热点话题，充斥错误信息与无意义解说；平台已要求创作者标注合成内容，但 AI 改写技术令检测效果存疑，正威胁广告主信心与用户体验。",
+      "importance": "medium",
+      "reasoning": "3月30日 AIBase 报道。AI生成内容已对YouTube平台生态造成系统性威胁，标签政策应对不力，medium级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26660",
+      "keywords": ["YouTube", "AI垃圾视频", "错误信息", "内容审核", "合成内容标签"],
+      "category": "AI伦理"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-30T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": ["TechCrunch", "AIBase", "Hacker News", "Fortune", "Futurism", "CNBC", "WSJ", "Bloomberg"],
+    "duplicates_removed": 15,
+    "generation_time_seconds": 600
+  }
+}

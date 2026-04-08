@@ -1,0 +1,123 @@
+{
+  "date": "2025-12-18",
+  "date_formatted": "25/12/18",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google 发布 Gemini 3 Flash",
+      "content": "Google 发布 Gemini 3 Flash 模型并设为 Gemini 应用默认模型，性能显著超越 2.5 Pro，在多个测试中甚至优于 3 Pro。该模型主打前沿智能与极速推理，成本仅为前代一小部分，现已向全球开发者开放。",
+      "importance": "critical",
+      "reasoning": "三大厂主流产品发布：Google 发布 Gemini 3 Flash 超越前代性能，成为默认模型，主打速度和成本优势，昨天（12 月 17 日）发布",
+      "source": "TechCrunch / 9to5Google",
+      "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/",
+      "keywords": ["Google", "Gemini 3 Flash", "默认模型", "开发者"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "亚马逊洽谈向 OpenAI 投资百亿美元",
+      "content": "亚马逊正洽谈向 OpenAI 投资至少 100 亿美元，交易可能使 OpenAI 估值突破 5000 亿美元。作为协议一部分，OpenAI 将采用亚马逊自研 Trainium AI 芯片，挑战英伟达市场地位。OpenAI 已承诺 7 年内向 AWS 支付 380 亿美元租赁费。12 月 16-17 日报道。",
+      "importance": "critical",
+      "reasoning": "巨额战略投资：100 亿美元投资，OpenAI 估值可能破 5000 亿，涉及 AI 芯片竞争和云服务长期合作，对行业格局有重大影响，12 月 16-17 日报道",
+      "source": "新浪财经 / TechCrunch",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2025-12-17/doc-inhccfwi9303614.shtml",
+      "keywords": ["亚马逊", "OpenAI", "100 亿美元", "Trainium"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Meta 发布首个统一音频分离模型",
+      "content": "Meta 发布 SAM Audio，全球首个统一多模态音频分离模型。用户可通过点击、文字或时间段提示从复杂音频中分离任意声音，例如从乐队演出中单独提取吉他音轨。该模型已开源并在 Segment Anything Playground 上线供公众体验。",
+      "importance": "critical",
+      "reasoning": "范式转变技术：Meta 发布首个统一多模态音频分离模型，支持多种提示方式，开源并公开体验，对音频处理领域有重大推动，12 月 16-17 日发布",
+      "source": "IT之家 / Meta AI",
+      "url": "https://www.ithome.com/0/905/849.htm",
+      "keywords": ["Meta", "SAM Audio", "音频分离", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Coursera 与 Udemy 合并",
+      "content": "Coursera 与 Udemy 宣布合并，交易价值约 25 亿美元。Udemy 股东将获 26% 溢价，双方将分别持有新公司 41% 和 59% 股权。合并后公司年收入预计超 15 亿美元，预计 2026 年下半年完成交易。",
+      "importance": "high",
+      "reasoning": "行业重大整合：25 亿美元交易，在线教育两大平台合并，年收入超 15 亿美元，对 AI 时代技能培训市场有重要影响，12 月 17 日宣布",
+      "source": "TechCrunch / Coursera",
+      "url": "https://techcrunch.com/2025/12/17/coursera-and-udemy-enter-a-merger-agreement-valued-at-around-2-5b/",
+      "keywords": ["Coursera", "Udemy", "合并", "25 亿美元"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Adobe 遭 AI 训练版权集体诉讼",
+      "content": "Adobe 遭集体诉讼，原告指控其未经授权使用 Books3 数据集训练 SlimLM 文档处理模型。Books3 包含约 19 万本受版权保护书籍。此案是继纽约时报起诉 OpenAI 后，AI 版权争议再次升级的重要案例。",
+      "importance": "critical",
+      "reasoning": "重大法律诉讼：Adobe 遭集体诉讼涉嫌未授权使用 19 万本书籍训练模型，继纽约时报案后 AI 版权争议升级，对行业有重要警示，12 月 17 日报道",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/17/adobe-hit-with-proposed-class-action-accused-of-misusing-authors-work-in-ai-training/",
+      "keywords": ["Adobe", "版权诉讼", "Books3", "AI 训练"],
+      "category": "政策法规"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI 开放应用提交功能",
+      "content": "OpenAI 开放应用提交，开发者可将应用发布到 ChatGPT 应用目录，用户可在对话中完成订餐、制作演示等操作。",
+      "importance": "high",
+      "reasoning": "重要生态扩展：OpenAI 推出应用目录，开发者可提交应用到 ChatGPT 平台，构建类似应用商店的生态系统，昨天（12 月 17 日）发布",
+      "source": "OpenAI / IT之家",
+      "url": "https://www.ithome.com/0/905/880.htm",
+      "keywords": ["OpenAI", "ChatGPT", "应用目录", "开发者生态"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "AWS CEO 称用 AI 替代初级开发者最蠢",
+      "content": "AWS CEO Matt Garman 称用 AI 替代初级开发者是最蠢想法，强调初级员工是企业人才储备关键。",
+      "importance": "high",
+      "reasoning": "高话题性观点：AWS CEO 公开反对用 AI 替代初级开发者，引发行业关于 AI 就业影响的讨论，对企业 AI 战略有警示意义，12 月 16 日报道",
+      "source": "Fortune / INSIDE",
+      "url": "https://fortune.com/2025/12/16/aws-ceo-matt-garman-ai-displacing-junior-employees-dumbest-idea-amazon-layoffs/",
+      "keywords": ["AWS", "Matt Garman", "初级开发者", "AI 就业"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "腾讯任命前 OpenAI 研究员为首席科学家",
+      "content": "腾讯于 任命 27 岁前 OpenAI 研究员姚顺雨为首席 AI 科学家，负责大模型研发。姚是 Operator 核心贡献者。",
+      "importance": "critical",
+      "reasoning": "重要人事任命：腾讯引入 27 岁前 OpenAI 核心研究员任首席科学家，并重组大模型团队架构，展示中国企业 AI 人才竞争加剧，昨天（12 月 17 日）宣布",
+      "source": "36氪 / 新浪财经",
+      "url": "https://36kr.com/p/3599367248412930",
+      "keywords": ["腾讯", "姚顺雨", "OpenAI", "首席科学家"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "Google Opal 编程工具集成到 Gemini",
+      "content": "Google 于 12 月 17 日将编程工具 Opal 集成到 Gemini，用户可用自然语言创建应用，降低开发门槛。",
+      "importance": "high",
+      "reasoning": "重要产品整合：Google 将氛围编程工具集成到 Gemini，支持自然语言创建应用工作流，降低开发门槛，昨天（12 月 17 日）发布",
+      "source": "TechCrunch / Google",
+      "url": "https://techcrunch.com/2025/12/17/googles-vibe-coding-tool-opal-comes-to-gemini/",
+      "keywords": ["Google", "Opal", "Gemini", "编程工具"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-18T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "新浪财经",
+      "IT之家"
+    ],
+    "duplicates_removed": 4,
+    "generation_time_seconds": 1800
+  }
+}

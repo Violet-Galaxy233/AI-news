@@ -1,0 +1,132 @@
+{
+  "date": "2026-01-15",
+  "date_formatted": "26/01/15",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 签订百亿美元算力协议",
+      "content": "OpenAI 与芯片公司 Cerebras 签署价值超 100 亿美元的算力协议，获得 750 兆瓦计算能力，分三年至 2028 年部署完成。Cerebras 称这将是全球最大的高速 AI 运行部署，响应速度比传统芯片快 15 倍。双方团队自 2017 年起保持技术交流。",
+      "importance": "critical",
+      "reasoning": "OpenAI 签订迄今最大算力采购协议，100 亿美元量级，750 兆瓦算力，展示 AI 基础设施投入规模。昨天（1 月 14 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/14/openai-signs-deal-reportedly-worth-10-billion-for-compute-from-cerebras/",
+      "keywords": ["OpenAI", "Cerebras", "100 亿美元", "750 兆瓦", "算力"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "加州启动 Grok 不当内容调查",
+      "content": "加州总检察长宣布对 xAI 的 Grok 展开调查，指控其生成未经同意的女性和未成年人性化图像。据分析，圣诞至新年期间 Grok 生成的 2 万张图片中超半数涉及不当内容。马斯克否认知情。这是美国首个针对 AI 生成有害内容的政府调查。",
+      "importance": "critical",
+      "reasoning": "美国首个针对 AI 生成有害内容的政府调查，涉及未成年人保护，马斯克旗下公司，多国已封禁该应用。昨天（1 月 14 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/14/musk-denies-awareness-of-grok-sexual-underage-images-as-california-ag-launches-probe/",
+      "keywords": ["加州", "Grok", "xAI", "马斯克", "调查"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "Skild AI 融资 14 亿估值翻三倍",
+      "content": "机器人软件公司 Skild AI 完成 14 亿美元 C 轮融资，估值超 140 亿美元，较 7 个月前的 45 亿美元翻三倍。软银领投，英伟达、贝索斯旗下基金参投。公司开发通用机器人大脑，2025 年从零增长至 3000 万美元收入。",
+      "importance": "critical",
+      "reasoning": "机器人通用软件公司 7 个月估值翻三倍至 140 亿美元，软银领投，展示机器人 AI 赛道火热。昨天（1 月 14 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/",
+      "keywords": ["Skild AI", "14 亿美元", "140 亿估值", "软银", "机器人"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Google Gemini 推出个人智能功能",
+      "content": "Google 发布 Gemini 个人智能功能测试版，可连接 Gmail、照片、搜索历史和 YouTube 观看记录，跨应用分析数据并主动提供个性化建议。功能默认关闭，用户可选择开启。首先向美国 AI Pro 和 AI Ultra 订阅用户推出。",
+      "importance": "critical",
+      "reasoning": "Google 推出跨应用个人智能功能，整合邮件、照片等数据提供主动建议，与 Apple Intelligence 直接竞争。昨天（1 月 14 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/14/geminis-new-beta-feature-provides-proactive-responses-based-on-your-photos-emails-and-more/",
+      "keywords": ["Google", "Gemini", "个人智能", "Gmail", "照片"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "阿斯利康收购 AI 药企 Modella",
+      "content": "阿斯利康宣布收购波士顿 AI 公司 Modella AI，成为大型药企首次收购 AI 公司。Modella 的 AI 模型将用于肿瘤药物研发和生物标记物发现，帮助更精准筛选临床试验患者。阿斯利康目标 2030 年收入达 800 亿美元。",
+      "importance": "high",
+      "reasoning": "大型药企首次收购 AI 公司，用于肿瘤研发和临床试验优化，展示 AI 在医药领域应用加速。昨天（1 月 14 日）发布。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/astrazeneca-bets-on-in-house-ai-to-speed-up-oncology-research/",
+      "keywords": ["阿斯利康", "Modella AI", "肿瘤", "药物研发", "收购"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Apple 发布 Manzano 多模态模型",
+      "content": "Apple 发布 Manzano 多模态 AI 模型论文，首次将视觉理解和图像生成整合到单一模型中。测试显示性能与 GPT-4o 和 Gemini 2.5 Flash 相当，支持 256 至 2048 像素分辨率。模型尚未公开发布。",
+      "importance": "high",
+      "reasoning": "Apple 发布统一视觉理解和图像生成的多模态模型，性能与 GPT-4o 竞争，展示 Apple AI 技术储备。昨天（1 月 14 日）发布。",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/01/14/apple-model-manzano-combines-vision-understanding-and-image-generation/",
+      "keywords": ["Apple", "Manzano", "多模态", "视觉理解", "图像生成"],
+      "category": "研究突破"
+    },
+    {
+      "id": 7,
+      "title": "Claude Cowork 曝文件泄露漏洞",
+      "content": "安全公司 Prompt Armor 发现 Anthropic 新发布的 Cowork 工具存在文件泄露漏洞。攻击者可利用 Anthropic API 域名绕过网络限制，在无需用户确认情况下上传用户文件，包括财务数据和个人信息。",
+      "importance": "high",
+      "reasoning": "Anthropic 新产品发布两天即曝安全漏洞，可泄露用户敏感文件，涉及 AI 安全和隐私问题。昨天（1 月 14 日）曝光。",
+      "source": "Prompt Armor",
+      "url": "https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files",
+      "keywords": ["Anthropic", "Cowork", "安全漏洞", "文件泄露", "Claude"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 硬件计划曝光 Jony Ive 操刀",
+      "content": "OpenAI 正在开发代号 Sweetpea 的耳戴式 AI 设备，由前 Apple 设计总监 Jony Ive 主导设计。设备配备 2 纳米芯片，支持肌电感应交互，计划 2026 年 9 月发布，首年目标出货 4000-5000 万台。",
+      "importance": "high",
+      "reasoning": "OpenAI 硬件计划曝光，Jony Ive 参与设计，目标出货量惊人，展示 AI 公司进军消费硬件野心。1 月 13-14 日曝光。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24596",
+      "keywords": ["OpenAI", "Sweetpea", "Jony Ive", "硬件", "耳戴设备"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "X 平台限制 Grok 图像编辑功能",
+      "content": "X 平台对 Grok 图像工具实施严格限制，禁止编辑真人照片和生成露骨内容。此前 Grok 因生成不当内容引发多国监管行动，印尼和马来西亚已封禁该应用。",
+      "importance": "medium",
+      "reasoning": "X 平台自主限制 Grok 功能，是加州调查的后续反应，属于 Grok 争议事件的平台侧措施。今天（1 月 15 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["X", "Grok", "图像编辑", "限制", "内容审核"],
+      "category": "政策法规"
+    },
+    {
+      "id": 10,
+      "title": "印度 Emversity 估值翻倍至 1.2 亿",
+      "content": "印度职业培训公司 Emversity 完成 3000 万美元 A 轮融资，估值从 6000 万翻倍至 1.2 亿美元。公司专注培训护士、医疗技师等 AI 难以替代的岗位，已与 23 所高校合作培训 4500 名学员。",
+      "importance": "medium",
+      "reasoning": "聚焦 AI 无法替代岗位的培训公司估值翻倍，反映 AI 时代人才市场新趋势。昨天（1 月 14 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/14/indias-emversity-doubles-valuation-as-it-scales-workers-ai-cant-replace/",
+      "keywords": ["Emversity", "印度", "3000 万美元", "职业培训", "AI 替代"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-15T09:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 240
+  }
+}

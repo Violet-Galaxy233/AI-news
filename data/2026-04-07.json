@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-07",
+  "date_formatted": "26/04/07",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "伊朗威胁炸Stargate中心",
+      "content": "伊朗伊斯兰革命卫队（IRGC公开发布视频，点名对阿布扎比 OpenAI Stargate 数据中心（造价 300 亿美元、装机 1GW）实施「彻底摧毁」，视频附卫星夜视图像精准定位目标，配文「任何事物都逃不过我们的视野」；伊朗表示前提为美国打击其发电厂及海水淡化设施，届时将反制攻击美国在中东的能源与科技基础设施；伊朗已于近期实际袭击巴林 AWS 及迪拜 Oracle 数据中心，令威胁具备现实可执行性，截至 4 月 6 日停火谈判仍陷僵局。",
+      "importance": "critical",
+      "reasoning": "4 月 6 日 TechCrunch、Tom's Hardware、The Next Web 等多家媒体集中报道，视频原始发布时间为 4 月 3 日。伊朗已实际攻击巴林 AWS 和迪拜 Oracle 数据中心，此次直接点名 OpenAI Stargate 阿布扎比 1GW 核心算力节点，是有史以来首次有主权国家军事力量公开针对特定 AI 基础设施发出具体攻击威胁，对全球 AI 算力安全格局具有系统性影响。Critical 级。",
+      "source": "TechCrunch / Tom's Hardware",
+      "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+      "keywords": ["伊朗", "IRGC", "Stargate", "OpenAI", "数据中心", "阿布扎比", "中东冲突"],
+      "category": "地缘政治"
+    },
+    {
+      "id": 2,
+      "title": "三星Q1利润增755%",
+      "content": "三星电子发布 Q1 初步业绩：营业利润约 57.2 万亿韩元（折合约 379 亿美元），同比增长 755%，刷新公司历史纪录；销售额达 133 万亿韩元，同比增 68%；核心驱动力为 AI 服务器使用的高带宽内存芯片销售激增，DRAM 合同价 Q1 已较上季翻倍，Q2 预计再涨 58–63%。",
+      "importance": "critical",
+      "reasoning": "4 月 7 日三星官方发布 Q1 2026 初步业绩。营业利润同比增 755% 至约 379 亿美元，是三星史上最高单季利润，直接反映 AI 算力需求对全球半导体供应链的拉动效应，对英伟达、AMD、台积电等整条 AI 硬件产业链均有基准信号意义。Critical 级。",
+      "source": "Reuters / Free Malaysia Today",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/04/07/samsung-electronics-expects-record-us37-9bil-q1-profit",
+      "keywords": ["三星", "Q1业绩", "高带宽内存", "AI芯片", "DRAM", "755%增长", "史上最高"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic签算力协议",
+      "content": "Anthropic 宣布与谷歌、Broadcom 签署多吉瓦级算力合作协议：Broadcom 将为谷歌定制下一代 TPU 芯片并直接供给 Anthropic，总供应规模约 3.5GW，协议覆盖至 2031 年，预计 2027 年起陆续上线；Anthropic 同步披露，年化营收已超 300 亿美元（2025 年底约 90 亿），年均消费逾 100 万美元的企业客户从 2 月的 500 余家扩至逾 1,000 家；CFO Krishna Rao 称此为「公司迄今最重大的算力承诺」。",
+      "importance": "critical",
+      "reasoning": "4 月 6 日 Anthropic 官网、Bloomberg、CNBC、The Register 同日报道，Broadcom 同日发布监管文件确认。3.5GW / 2031 年的长期协议规模前所未有；营收从 90 亿暴涨至 300 亿（年内增 3 倍以上），由财务官官方披露，是 Anthropic 迄今最具说服力的商业化数据公开。Critical 级。",
+      "source": "Anthropic / Bloomberg / CNBC",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "keywords": ["Anthropic", "谷歌", "Broadcom", "TPU", "3.5GW", "算力协议", "300亿营收"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "三大AI联手打击中国蒸馏",
+      "content": "Bloomberg 报道，OpenAI、Anthropic、谷歌三家竞争对手已通过 Frontier Model Forum（2023 年与微软联合创立）共享情报，联合检测并阻断中国 AI 公司的「对抗蒸馏」攻击；此前 Anthropic 披露，DeepSeek 等中国三家公司通过约 2.4 万个虚假账号、逾 1,600 万次交互盗取 Claude 能力，微软和 OpenAI 已就 DeepSeek R1 展开类似调查；三家原本激烈竞争的公司联手，是美国 AI 行业首次以统一战线应对系统性知识产权盗取。",
+      "importance": "critical",
+      "reasoning": "Bloomberg 4 月 6 日独家报道，Japan Times 4 月 7 日跟进确认。OpenAI、Anthropic、谷歌三家直接竞争对手罕见共享情报应对同一对手，是 AI 知识产权博弈的重要升级；因属于已有背景事件（Anthropic 2 月披露）的新进展而非首次曝光，定 High 级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+      "keywords": ["OpenAI", "Anthropic", "谷歌", "Frontier Model Forum", "对抗蒸馏", "DeepSeek", "知识产权"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI要求调查马斯克",
+      "content": "OpenAI 战略总监 Jason Kwon 致函加州及特拉华州检察长，指控马斯克通过「非法骚扰」手段破坏 OpenAI，包括与 Meta CEO Zuckerberg 协调施压；马斯克正在加州联邦法院起诉 OpenAI，索赔逾 1,340 亿美元，声称公司转型营利实体损害非营利使命；陪审团审判预计本月于奥克兰开庭，OpenAI 警告该诉讼将「瘫痪」其基金会运营。",
+      "importance": "high",
+      "reasoning": "4 月 6 日 CNBC、Benzinga 报道，OpenAI 向两州检察长发函主动出击是本周新进展。马斯克索赔 1,340 亿美元 + 本月陪审团开庭，是 AI 行业最高额度未决诉讼，高话题性且涉及 Zuckerberg 协调指控。High 级。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
+      "keywords": ["OpenAI", "马斯克", "Jason Kwon", "加州检察长", "1340亿美元", "陪审团", "Zuckerberg"],
+      "category": "法律纠纷"
+    },
+    {
+      "id": 6,
+      "title": "苹果等三家遭版权集诉",
+      "content": "三个 YouTube 频道（h3h3Productions、MrShortGame Golf、Golfholics）4 月 6 日在加州联邦法院提起集体诉讼，指控苹果利用 Panda-70M 数据集链接调用自动化工具爬取数百万 YouTube 版权视频训练 AI，绕过平台反爬取系统；原告同日另起诉亚马逊（指控用于训练视频生成模型 Nova Reel）及 OpenAI，三起诉讼均依据 DMCA 主张赔偿。",
+      "importance": "high",
+      "reasoning": "4 月 6 日 9to5Mac、Engadget、MacRumors 同日报道，加州联邦法院当日立案。一日内同时对苹果、亚马逊、OpenAI 三家顶级公司发起集体诉讼，以 Panda-70M 作为具体技术指控依据，是 AI 训练数据版权诉讼中技术证据最明确的一批，可能成为行业判例。High 级。",
+      "source": "9to5Mac / Engadget",
+      "url": "https://9to5mac.com/2026/04/06/proposed-class-action-accuses-apple-of-scraping-millions-of-youtube-videos-for-ai-training/",
+      "keywords": ["苹果", "亚马逊", "OpenAI", "YouTube", "Panda-70M", "版权诉讼", "DMCA"],
+      "category": "法律纠纷"
+    },
+    {
+      "id": 7,
+      "title": "中国AI处理量超美4倍",
+      "content": "China Daily报道，3 月 30 日至 4 月 5 日一周内，中国 AI 模型全球处理量达 12.96 万亿次，环比增 31.5%；同期美国 AI 模型处理量为 3.03 万亿次，中国为美国的 4.3 倍，已连续第 5 周超越美国；分析认为中国模型同等性能价格可低于美国模型逾 10 倍是主要驱动力。",
+      "importance": "medium",
+      "reasoning": "4 月 6 日 China Daily、CGTN 报道，数据来源为 OpenRouter 全球 AI 处理量追踪。连续 5 周超越且差距扩大至 4.3 倍，是 AI 使用格局转移的重要数据参考。Medium 级（行业报告，数据来自中方媒体）。",
+      "source": "China Daily / CGTN",
+      "url": "https://www.chinadaily.com.cn/a/202604/06/WS69d3c692a310d6866eb41d92.html",
+      "keywords": ["中国AI", "全球处理量", "超越美国", "DeepSeek", "OpenRouter", "12.96万亿次"],
+      "category": "行业分析"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI倡议机器人税",
+      "content": "OpenAI 发布 AI 经济政策白皮书，提议向自动化盈利企业征收「机器人税」、建立公共财富基金将 AI 收益全民分配、以及推行四天工作制应对岗位替代；这是 Altman 首次以公司名义就 AI 经济影响提出系统性政策主张，融合再分配经济与资本主义逻辑。",
+      "importance": "medium",
+      "reasoning": "4 月 6 日 TechCrunch 报道。OpenAI 以公司名义首次提出「机器人税」等系统性经济政策，是 AI 公司主动参与监管塑造的重要信号，但属于政策倡议非实际落地。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "keywords": ["OpenAI", "机器人税", "公共财富基金", "四天工作制", "AI经济政策", "Altman"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "谷歌推iOS离线AI听写",
+      "content": "谷歌悄然在 iOS 上线离线优先 AI 听写应用，内置 Gemma 模型，语音转文字全程本地处理、无需联网，对标 Wispr Flow 等云端听写服务；离线设计同时解决隐私保护与断网场景使用需求，是谷歌在苹果设备上推进端侧 AI 的落地尝试。",
+      "importance": "medium",
+      "reasoning": "4 月 6 日 TechCrunch 报道。谷歌 Gemma 模型端侧部署于 iOS，实现离线听写是 Google 在苹果设备上推进端侧 AI 的具体落地案例，产品已可使用。Medium 级（常规产品发布）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "keywords": ["谷歌", "iOS", "离线听写", "Gemma", "端侧AI", "语音转文字"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-07T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "Reuters", "Tom's Hardware", "The Register", "9to5Mac", "Engadget", "Japan Times", "China Daily", "CGTN", "Free Malaysia Today", "Anthropic Blog", "Benzinga", "Hacker News", "AIBase"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 610
+  }
+}

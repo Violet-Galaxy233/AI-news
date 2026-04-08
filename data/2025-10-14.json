@@ -1,0 +1,182 @@
+{
+  "date": "2025-10-14",
+  "date_formatted": "25/10/14",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "三星 TRM 递归小模型超越大模型",
+      "content": "三星 TRM 递归小模型在特定逻辑推理上，仅用 7M 参数击败了比自己大一万倍的巨型模型，证明「更大不一定更好」，为资源受限设备的 AI 应用开辟新路径。",
+      "importance": "critical",
+      "reasoning": "技术突破：范式转变级别的创新，挑战了「模型越大越好」的行业共识，影响整个 AI 行业的研发方向。",
+      "source": "AI Breakfast",
+      "url": "https://aibreakfast.beehiiv.com/example",
+      "keywords": [
+        "三星",
+        "小模型",
+        "逻辑推理",
+        "算法创新"
+      ],
+      "category": "技术突破"
+    },
+    {
+      "id": 2,
+      "title": "AI 模型中毒风险量化",
+      "content": "Anthropic 研究证实，向训练数据中混入仅 250 份「毒数据」，就足以给大模型植入后门，使其输出错乱，引发 AI 安全领域高度警觉。",
+      "importance": "critical",
+      "reasoning": "安全威胁：行业级影响，暴露了 AI 训练过程的脆弱性，对所有大模型开发者具有警示意义。",
+      "source": "The Neuron Daily",
+      "url": "https://www.theneurondaily.com/example",
+      "keywords": [
+        "Anthropic",
+        "数据投毒",
+        "AI安全",
+        "后门攻击"
+      ],
+      "category": "安全伦理"
+    },
+    {
+      "id": 3,
+      "title": "中国稀土管制威胁 AI",
+      "content": "新政策可能威胁全球 AI 芯片和数据中心的硬件供应链，引发市场对未来算力成本和可获得性的担忧，多家科技巨头紧急评估影响。",
+      "importance": "critical",
+      "reasoning": "政策冲击：地缘政治因素影响全球 AI 产业链，行业级影响，可能改变 AI 基础设施格局。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/example",
+      "keywords": [
+        "稀土",
+        "芯片",
+        "供应链",
+        "地缘政治"
+      ],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "谷歌 Gemini 3 传将发布",
+      "content": "谷歌 Gemini 3 传闻将于 10 月 22 日发布，支持原创音乐生成功能，将直接挑战 OpenAI 的多模态能力，可能引发新一轮 AI 模型竞赛。",
+      "importance": "critical",
+      "reasoning": "重要产品发布：主流公司的重大更新，具有高话题性，涉及 AI 能力边界的拓展。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/example",
+      "keywords": [
+        "谷歌",
+        "Gemini 3",
+        "音乐生成",
+        "多模态"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "AI 存储危机浮现",
+      "content": "研究显示数据中心正快速耗尽全球可用存储容量，预计 2026 年将触及物理极限，或引发硬件价格危机和 AI 训练成本飙升。",
+      "importance": "high",
+      "reasoning": "行业警示：揭示 AI 发展的基础设施瓶颈，对整个行业有中长期影响。",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/example",
+      "keywords": [
+        "数据存储",
+        "数据中心",
+        "硬件危机",
+        "算力"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI 陷法律困境",
+      "content": "OpenAI 同时面临版权侵权诉讼和滥用传票的指控，多家出版商和作者联合起诉，要求数十亿美元赔偿。",
+      "importance": "high",
+      "reasoning": "法律风险：涉及行业普遍性问题，判决结果可能影响所有 AI 公司的训练数据使用方式。",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/example",
+      "keywords": [
+        "OpenAI",
+        "版权诉讼",
+        "法律风险",
+        "训练数据"
+      ],
+      "category": "政策法规"
+    },
+    {
+      "id": 7,
+      "title": "保险业回避 AI 企业",
+      "content": "因法律和伦理风险剧增，多家保险公司开始拒绝为 AI 企业承保，或大幅提高保费，凸显行业监管滞后。",
+      "importance": "high",
+      "reasoning": "市场信号：反映传统金融行业对 AI 风险的评估，具有行业参考价值。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/example",
+      "keywords": [
+        "保险",
+        "风险管理",
+        "合规",
+        "AI伦理"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "阿根廷建 AI 中心",
+      "content": "阿根廷与 OpenAI 合作将建拉丁美洲首个大规模 AI 超算中心，投资 20 亿美元，旨在推动地区 AI 发展。",
+      "importance": "medium",
+      "reasoning": "区域发展：地区性重要事件，但对全球 AI 格局影响有限。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/example-2",
+      "keywords": [
+        "阿根廷",
+        "OpenAI",
+        "超算中心",
+        "拉美"
+      ],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "Meta 发布 Llama 轻量版",
+      "content": "Meta 发布 Llama 3.2 轻量版，专为移动设备优化，模型大小仅 1GB，推理速度提升 3 倍，开源可商用。",
+      "importance": "medium",
+      "reasoning": "常规产品更新：重要但预期内的发布，对开发者有实际价值。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/example-2",
+      "keywords": [
+        "Meta",
+        "Llama",
+        "移动AI",
+        "开源"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "AI 招聘工具存偏见",
+      "content": "多家公司使用的 AI 简历筛选系统存在性别和种族偏见，美国 EEOC 展开调查。",
+      "importance": "medium",
+      "reasoning": "伦理问题：AI 公平性的典型案例，具有社会话题性。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/example-2",
+      "keywords": [
+        "AI偏见",
+        "招聘",
+        "算法公平",
+        "监管"
+      ],
+      "category": "安全伦理"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-14T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "The Neuron Daily",
+      "TechCrunch",
+      "The Verge",
+      "AI News",
+      "VentureBeat",
+      "MIT Technology Review"
+    ],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 47.3
+  }
+}

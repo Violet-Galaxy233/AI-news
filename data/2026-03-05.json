@@ -1,0 +1,103 @@
+{
+  "date": "2026-03-05",
+  "date_formatted": "26/03/05",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 五角大楼谈判重启",
+      "content": "Anthropic CEO Dario Amodei 恢复与国防部的合同谈判，同时在内部备忘录中将 OpenAI 围绕军方合同的公关说辞称为「彻头彻尾的谎言」，指责 Altman 将自己包装为「和平缔造者」是「纯属捏造」。OpenAI 已承认原 2 亿美元合同「仓促草率」并正在重谈关键条款；白宫对双方协议前景持悲观态度。此前国防部长 Hegseth 将 Anthropic 列为供应链风险，是五角大楼首次以此名义封禁 AI 公司。",
+
+      "importance": "critical",
+      "reasoning": "Anthropic-五角大楼争议迎来最新关键转折：Amodei 今日（3 月 5 日）重启谈判，同时在备忘录中公开指责 OpenAI 军方合同造假；多方博弈持续升级，属行业级政策事件。Bloomberg/CNBC 3 月 5 日报道。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/anthropic-s-amodei-reopens-ai-discussions-with-pentagon-ft-says",
+      "keywords": ["Anthropic", "五角大楼", "OpenAI", "军事AI", "Amodei"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "谷歌发布 Gemini 3.1 Flash-Lite",
+      "content": "谷歌 正式发布 Gemini 3.1 Flash-Lite，定位最廉价 Gemini 系列模型：API 价格为每百万字符 $0.25 输入、$1.50 输出，输出速度较前代提升 45%，首字节响应提速 2.5 倍。用户可自主调节推理计算强度（极简、轻量、中等、完整四档），在响应质量与成本之间灵活取舍，目前通过 Google AI Studio 向开发者开放预览，企业版经 Vertex AI 接入。",
+      "importance": "critical",
+      "reasoning": "谷歌（三大核心 AI 公司之一）正式发布新 Gemini 系列模型，以最低定价切入高并发企业场景，直接影响开发者与中小企业 AI 工具选型。3 月 3 日（两天前）发布。",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "keywords": ["谷歌", "Gemini", "Flash-Lite", "低价模型", "API定价"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Broadcom AI 芯片营收翻倍",
+      "content": "博通 公布 Q1 财报：AI 芯片营收同比增长 106% 至 84 亿美元，总营收 193 亿美元（+29%），均超市场预期，股价盘后涨超 5%。CEO Hock Tan 预测 2027 年 AI 芯片营收将「远超 1000 亿美元」，Q2 指引 102 亿美元，供应链已就绪。博通是谷歌 TPU 独家代工厂，同时为 OpenAI 与 Anthropic 生产定制芯片，2026 年将为 Anthropic 交付相当于 1 GW 算力的处理器。",
+      "importance": "critical",
+      "reasoning": "博通是全球最重要的 AI 定制芯片设计商之一，Q1 AI 营收翻倍叠加 1000 亿美元中期预测，是全球 AI 基础设施投资规模的权威量化指标。CNBC 昨日（3 月 4 日）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/04/broadcom-sees-ai-chip-sales-significantly-over-100-billion-in-2027.html",
+      "keywords": ["Broadcom", "AI芯片", "财报", "定制芯片", "千亿预测"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 4,
+      "title": "英伟达暗示停止投资 OpenAI",
+      "content": "英伟达 CEO Jensen Huang 在摩根士丹利科技大会上表示，对 OpenAI（约 300 亿美元）和 Anthropic（约 100 亿美元）的现有持仓很可能是最后一轮投资，官方理由是 IPO 临近令私募入股窗口将关闭；分析人士认为 Anthropic 遭五角大楼封禁、OpenAI 军方合同争议才是英伟达萌生退意的真正动因。",
+      "importance": "high",
+      "reasoning": "英伟达持有 OpenAI 约 300 亿美元、Anthropic 约 100 亿美元，是两家公司最大战略投资人之一，CEO 公开表态停止进一步入股是 AI 一级市场重要信号。TechCrunch 昨日（3 月 4 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
+      "keywords": ["英伟达", "NVIDIA", "OpenAI", "Anthropic", "IPO"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Claude 攻克高德纳图论猜想",
+      "content": "计算机科学奠基人 Donald Knuth 日发表论文《Claude 的环》，记录 Claude Opus 4.6 在约 1 小时内经 31 步系统推演，破解其搁置 30 年的图论哈密顿环猜想，发现适用于所有奇数情形的「蛇形构型」规律。Knuth 论文以「震惊！震惊！」开篇，并表示「我得重新审视自己对 AI 的判断了」，相关报道 6 小时内获超 63 万次浏览。",
+      "importance": "high",
+      "reasoning": "Donald Knuth 是计算机科学最具权威的学者之一，本人公开承认 AI 解题令自己「震惊」并须修正判断，是 AI 数学推理能力的重要里程碑。3 月 3 日（两天前）发布。",
+      "source": "Stanford CS",
+      "url": "https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "keywords": ["Claude", "Anthropic", "图论", "高德纳", "数学突破"],
+      "category": "技术突破"
+    },
+    {
+      "id": 6,
+      "title": "Anthropic 年化营收逼近 200 亿",
+      "content": "彭博社报道，Anthropic 年化营收已接近 190 亿美元，较 2025 年底的 90 亿美元不足 3 个月内翻倍，增速主要由 Claude Code 代码工具拉动。增长出现在公司遭五角大楼封禁、ChatGPT 卸载激增的争议期，Claude 同期登顶 App Store 全球免费榜首位，政策风险未阻碍商业需求。",
+      "importance": "high",
+      "reasoning": "Anthropic 年化营收 3 个月内从 90 亿翻倍至近 190 亿美元，逆政治逆风高速增长，是 AI 行业商业化进程的关键数据点。Bloomberg 3 月 3 日（两天前）报道。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud",
+      "keywords": ["Anthropic", "营收", "年化", "Claude Code", "增长"],
+      "category": "商业动态"
+    },
+    {
+      "id": 7,
+      "title": "Apple Music 上线 AI 透明标签",
+      "content": "Apple Music 推出内容透明标签体系，唱片公司和发行商可在 AI 生成的曲目、封面和 MV 上标注对应标签，新内容上传须强制声明，旧内容可自愿补充，标签数据通过 Apple Music API 对外可查。",
+      "importance": "medium",
+      "reasoning": "Apple 在音乐流媒体平台率先建立 AI 内容披露标准（Spotify 于 2025 年 9 月已推出类似方案），是 AI 生成内容溯源监管的行业推进信号。TechCrunch 昨日（3 月 4 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
+      "keywords": ["Apple Music", "AI透明度", "生成内容", "标签", "音乐"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "纽约立法限制 AI 冒充专业人士",
+      "content": "纽约州参议院 AI 法案（S7263）进入全院审议，拟追究冒充医师、律师等持牌专业人士的 AI 服务平台法律责任，用户可向州检察长投诉，运营商须赔偿受害者损失。",
+      "importance": "medium",
+      "reasoning": "美国最大消费市场之一的纽约州推进 AI 专业服务监管立法，对向美国用户提供医疗、法律类 AI 产品的平台具有直接约束效力。Reason 昨日（3 月 4 日）报道。",
+      "source": "Reason",
+      "url": "https://reason.com/2026/03/04/this-bill-in-new-york-state-would-protect-lawyers-from-ai-competition/",
+      "keywords": ["纽约", "AI监管", "专业人士", "立法", "责任"],
+      "category": "政策监管"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-05T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "Google Blog", "Stanford CS", "SiliconAngle", "AIBase", "36kr", "Hacker News", "AI News", "Reason"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 780
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-03-04",
+  "date_formatted": "26/03/04",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Qwen 负责人林俊旸离职",
+      "content": "阿里 Qwen 技术负责人林俊旸 3 月 4 日宣布卸任，以一句「me stepping down. bye my beloved qwen」告别，此前一天已提交离职申请。同日，团队效果优化负责人余博文亦离职；今年 1 月 Qwen Code 负责人惠彬源已出走加入 Meta，4 位核心骨干相继出走。起因是通义实验室将团队拆分为独立的基础训练、效果优化、文字与多模态四条线，与林俊旸坚持多模块紧密协作的技术理念相悖。外界对引入前 Gemini 研究员能否延续开源路线存疑，离职宣言获社区 5000+ 点赞回应。",
+      "importance": "critical",
+      "reasoning": "林俊旸是阿里最年轻 P10 技术高管（32岁），Qwen 开源路线的核心推动者，4 位骨干相继出走叠加团队拆分，是中国最重要开源 AI 项目的重大人事震荡，直接影响 Qwen 未来开源战略走向，引发全球 AI 社区广泛讨论。今日（3 月 4 日）爆发。",
+      "source": "36氪",
+      "url": "https://www.36kr.com/p/3708215623954562",
+      "keywords": ["Qwen", "林俊旸", "阿里千问", "离职", "开源"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "ChatGPT 更新降低错误生成",
+      "content": "OpenAI 将旗下主力 ChatGPT 模型更新至 GPT-5.3 Instant，错误生成内容减少 26.8%，大幅降低系统无理由拒绝用户请求的概率，修复对话中「说教式」「尬聊」风格，所有 ChatGPT 用户即时生效，开发者 API 名称为 gpt-5.3-chat-latest。OpenAI 随即在社交媒体暗示下一版 GPT-5.4「比你想象的更快到来」。",
+      "importance": "critical",
+      "reasoning": "OpenAI 对最广泛使用的 ChatGPT 主力模型进行量化改进（错误生成 -26.8%），且对所有用户立即生效，属三大厂主流产品重大更新。9to5Mac 昨日（3 月 3 日）报道。",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/03/03/openai-releases-gpt-5-3-instant-update-to-make-chatgpt-less-cringe/",
+      "keywords": ["OpenAI", "GPT-5.3", "ChatGPT", "错误生成", "模型更新"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "谷歌与openAI员工联名反对军事 AI",
+      "content": "美军对伊朗发动空袭后，谷歌与 OpenAI 员工联署公开信「我们不会被分裂」，截至 3 月 3 日签名人数达近 900 人（谷歌约 800 人、OpenAI 约 100 人）。信件要求两家公司明确禁止军方将 AI 用于大规模国内监控或无人监督的自主武器，并指出五角大楼意图通过向各公司「各个击破」方式获取无条件技术授权。谷歌公司层面至今未回应。",
+      "importance": "critical",
+      "reasoning": "继 Anthropic 被封禁、OpenAI 签约五角大楼后，谷歌和 OpenAI 内部共 900 名员工以行动联署，叠加伊朗战争背景，是 AI 军事化争议史上最大规模的员工联合抗议，直接向两家全球最大 AI 公司的领导层施压。CNBC 昨日（3 月 3 日）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
+      "keywords": ["谷歌", "OpenAI", "员工联名", "军事AI", "五角大楼"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "英伟达 40 亿押注光学芯片",
+      "content": "NVIDIA 3 月 2 日宣布分别向 Lumentum 和 Coherent 各投资 20 亿美元，合计 40 亿美元，协议包含多年采购承诺和产能预购权，支持两家公司新建光刻产线。目的是用光纤传输取代 AI 服务器内铜线，解决超大规模 AI 集群中芯片间数据传输的速率与功耗瓶颈。",
+      "importance": "high",
+      "reasoning": "NVIDIA 以 40 亿美元战略投资两家光子公司，是迄今对光学互联最大规模的单笔押注，信号意义明确：光纤将接替铜线成为 AI 数据中心下一代互联标准。CNBC 3 月 2 日（两天前）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
+      "keywords": ["NVIDIA", "Lumentum", "Coherent", "光学互联", "40亿美元"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 5,
+      "title": "Ayar 获 5 亿融资",
+      "content": "MIT 衍生公司 Ayar Labs 于 3 月 3 日完成 5 亿美元 E 轮融资，NVIDIA、AMD、MediaTek 及 Sequoia 等机构共同参投，估值升至 37.5 亿美元，累计融资 8.7 亿美元。该公司开发「芯片内光互联」技术，可在数据中心 AI 处理器之间以光纤取代铜线，每瓦传输速率最高提升 20 倍，目前正加速量产。",
+      "importance": "high",
+      "reasoning": "继 NVIDIA 昨日（3 月 2 日）向 Lumentum/Coherent 投资 40 亿美元后，Ayar Labs 今日再获 5 亿美元，NVIDIA/AMD 同日两笔光学互联押注，标志着 AI 芯片互联技术路线正从铜线向光纤的行业级迁移。SiliconAngle 昨日（3 月 3 日）报道。",
+      "source": "SiliconAngle",
+      "url": "https://siliconangle.com/2026/03/03/co-packaged-optics-startup-ayar-labs-raises-500m-round-backed-nvidia-amd/",
+      "keywords": ["Ayar Labs", "光学互联", "NVIDIA", "AMD", "5亿美元"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 6,
+      "title": "GSMA 发起电信 AI 倡议",
+      "content": "通信行业标准组织 GSMA 3 月 2 日在 MWC 巴塞罗那发布「开放电信 AI」倡议，AT&T 与 AMD 为联合创始伙伴。GSMA 调查显示仅 16% 的电信 AI 部署应用于核心网络运营，认为通用 AI 模型无法处理电信专属网络数据与协议文档，新倡议将构建含开放数据集、算力平台、行业评测及开发者社区的四层支撑体系。",
+      "importance": "high",
+      "reasoning": "GSMA 是全球电信行业最重要标准组织，AT&T + AMD 共同发起，以仅 16% 的网络部署率揭示通用 AI 对电信场景的能力缺口，开辟电信垂直 AI 赛道。GSMA 官方新闻稿 3 月 2 日（两天前）发布。",
+      "source": "GSMA",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-launches-open-telco-ai-to-accelerate-development-of-telco-grade-ai/",
+      "keywords": ["GSMA", "电信AI", "AT&T", "AMD", "开放电信AI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "Qwen AI 眼镜正式发布",
+      "content": "阿里千问 在 MWC 巴塞罗那正式发布首款 AI 智能眼镜，G1 系列叠加国家补贴后售 1997 元，3 月 8 日中国市场开始线下发货，与 Qwen APP 深度打通，支持实时翻译、视觉问答与语音助手。这是千问从纯软件模型向 AI 硬件入口迈出的第一步，后续规划还将推出 AI 戒指与耳机。",
+      "importance": "medium",
+      "reasoning": "阿里千问进军 AI 硬件是品牌战略级转变，1997 元国补后售价具竞争力，3 月 8 日即开卖，加之今日林俊旸离职引发外界对 Qwen 开源路线的担忧，两件事共同构成今日「Qwen 大事」主题。TechNode 2 月 28 日及 AIBase 3 月 3 日报道。",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/02/28/qwen-to-unveil-ai-smart-glasses-at-mwc-2026-plans-global-rollout-of-ai-hardware-lineup/",
+      "keywords": ["Qwen", "AI眼镜", "阿里千问", "MWC", "AI硬件"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-04T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "CNBC", "9to5Mac", "Engadget", "MacRumors", "SiliconAngle", "GSMA", "Axios", "Al Jazeera", "WebSearch", "OpenAI Newsroom", "NVIDIA Newsroom"],
+    "duplicates_removed": 9,
+    "generation_time_seconds": 840
+  }
+}

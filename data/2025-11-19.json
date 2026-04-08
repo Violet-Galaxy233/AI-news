@@ -1,0 +1,110 @@
+{
+  "date": "2025-11-19",
+  "date_formatted": "25/11/19",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google Gemini 3 Pro 发布，登顶全球第一",
+      "content": "Google 发布 Gemini 3，在 LMArena 排行榜以 1501 分登顶第一，全面超越 Claude Sonnet 4.5 和 GPT-5.1。模型在多项测试中达到 91.9% 准确率，上下文长度达 104 万字（约 10 本书），首日即部署到 Google 搜索、Gemini App 和开发者平台。",
+      "importance": "critical",
+      "reasoning": "Google 核心模型发布：Gemini 3 Pro 在推理、编程和多模态理解创纪录，100 万字符上下文长度，已集成主流产品，对 AI 竞争格局有重大影响，今天（11 月 19 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/18/google-launches-gemini-3-with-new-coding-app-and-record-benchmark-scores/",
+      "keywords": ["Google", "Gemini 3 Pro", "DeepMind", "多模态"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "NVIDIA 和 Microsoft 投资 Anthropic 150 亿",
+      "content": "NVIDIA 和 Microsoft 向 Anthropic 投资 150 亿美元。Anthropic 估值达 3500 亿美元，承诺购买 300 亿美元 Azure 计算服务。Claude 成为唯一在亚马逊、谷歌、微软三大云平台运行的前沿 AI 模型。",
+      "importance": "critical",
+      "reasoning": "行业级重大投资：NVIDIA 和 Microsoft 投资 150 亿美元，Anthropic 估值达 3500 亿美元，300 亿美元 Azure 采购承诺，Claude 覆盖三大云平台，对 AI 算力格局有重大影响，昨天（11 月 18 日）宣布。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+      "keywords": ["NVIDIA", "Microsoft", "Anthropic", "投资"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Lambda 融资 15 亿美元建 AI 数据中心",
+      "content": "AI 数据中心提供商 Lambda 宣布完成 15 亿美元 E 轮融资，由 TWG Global 领投。此前 Lambda 与 Microsoft 达成数十亿美元协议，将部署数万块 NVIDIA AI 芯片。公司成立于 2012 年，累计融资达 23 亿美元。",
+      "importance": "critical",
+      "reasoning": "重大融资事件：15 亿美元 E 轮融资，与 Microsoft 数十亿美元协议，累计融资 23 亿美元，对 AI 基础设施建设有重要推动，昨天（11 月 18 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/18/ai-data-center-provider-lambda-raises-whopping-1-5b-after-multibillion-dollar-microsoft-deal/",
+      "keywords": ["Lambda", "融资", "数据中心", "Microsoft"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Google 发布 Antigravity AI 原生开发工具",
+      "content": "Google 发布 Antigravity，这是一款集成 Gemini 3 Pro 的 AI 原生开发工具，支持代理驱动的编程方式和工作流自动化。工具针对 AI 时代重新设计，旨在让开发者通过自然语言与 AI 代理协作完成编程任务。",
+      "importance": "critical",
+      "reasoning": "Google 重要开发工具发布：集成 Gemini 3 Pro，AI 原生设计支持代理驱动编程，对开发工具市场和 AI 编程方式有重要影响，今天（11 月 19 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22910",
+      "keywords": ["Google", "Antigravity", "开发工具", "Gemini 3"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Hugging Face CEO 警告大语言模型泡沫",
+      "content": "Hugging Face CEO 昨天表示行业处于'大语言模型泡沫'，当前仅对话式 AI 存在泡沫，而非整个 AI 行业。他认为市场过度关注文本对话模型，忽视了图像、视频等其他 AI 技术的发展潜力。",
+      "importance": "high",
+      "reasoning": "重要行业观点：Hugging Face CEO 在 Axios BFD 活动警告大语言模型泡沫，预测 2026 年破裂，对 AI 行业预期有重要影响，昨天（11 月 18 日）发言。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/18/hugging-face-ceo-says-were-in-an-llm-bubble-not-an-ai-bubble/",
+      "keywords": ["Hugging Face", "泡沫", "行业观点", "预测"],
+      "category": "行业观点"
+    },
+    {
+      "id": 5,
+      "title": "Intuit 与 OpenAI 签超 1 亿美元协议",
+      "content": "Intuit 与 OpenAI 签署超 1 亿美元协议，将旗下财务软件整合至 ChatGPT 平台，用户可在 ChatGPT 中直接使用 Intuit 的应用。",
+      "importance": "high",
+      "reasoning": "重要商业合作：Intuit 与 OpenAI 超 1 亿美元协议，财务软件整合至 ChatGPT，对 AI 应用生态有重要意义，昨天（11 月 18 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/18/intuit-signs-100m-deal-with-openai-to-bring-its-apps-to-chatgpt/",
+      "keywords": ["Intuit", "OpenAI", "ChatGPT", "合作"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Stack Overflow 转型为 AI 数据提供商",
+      "content": "开发者问答社区 Stack Overflow 昨天宣布战略转型，从经典问答论坛转向 AI 数据提供商，与 OpenAI、Google 等公司合作提供编程训练数据。2025 年开发者调查显示，84% 开发者仍依赖社区验证 AI 生成的代码。",
+      "importance": "high",
+      "reasoning": "重要商业模式转型：Stack Overflow 从问答社区转型数据提供商，与 OpenAI、Google 合作，84% 开发者依赖展示价值，对开发者生态有重要影响，昨天（11 月 18 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/18/stack-overflow-is-remaking-itself-into-an-ai-data-provider/",
+      "keywords": ["Stack Overflow", "数据提供商", "开发者", "转型"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "Microsoft 测试 AI 文件连接器功能",
+      "content": "Microsoft 在 Windows 11 测试 AI 文件连接器，允许 AI 助手如 Claude 请求访问本地文件，用户需授权同意。功能默认关闭。",
+      "importance": "high",
+      "reasoning": "重要功能测试：Microsoft 在 Windows 11 测试 AI 访问本地文件功能，涉及隐私和安全，对操作系统 AI 集成有探索意义，今天（11 月 19 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22918",
+      "keywords": ["Microsoft", "Windows 11", "文件访问", "隐私"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-19T10:30:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 2100
+  }
+}

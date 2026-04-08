@@ -1,0 +1,110 @@
+{
+  "date": "2026-01-13",
+  "date_formatted": "26/01/13",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Apple 与 Google 达成 Siri 合作",
+      "content": "Apple 宣布与 Google 达成多年合作，Siri 将由 Google Gemini 模型驱动，今年晚些时候随 iOS 26.4 推出。Apple 每年向 Google 支付约 10 亿美元。新版 Siri 将支持个人化情境理解和更深度的应用控制。Google 市值因此突破 4 万亿美元。",
+      "importance": "critical",
+      "reasoning": "Apple 与 Google 达成战略合作，Siri 由 Gemini 驱动，每年支付 10 亿美元，推动 Google 市值破 4 万亿美元，属三大厂核心产品重大更新。昨天（1 月 12 日）发布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html",
+      "keywords": ["Apple", "Google", "Siri", "Gemini", "10 亿美元"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 发布医疗版 Claude",
+      "content": "Anthropic 发布 Claude for Healthcare，支持访问电子病历和健康记录，采用零训练政策保护隐私。Novo Nordisk 将临床文档时间从 10 周缩短至 10 分钟，Banner Health 的 22000 名医护人员已采用该平台。",
+      "importance": "critical",
+      "reasoning": "Anthropic 在 JPMorgan 医疗大会发布医疗版 Claude，Novo Nordisk 效率提升显著（10 周→10 分钟），22000 名医护采用，属三大厂医疗产品发布。1 月 11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/12/anthropic-announces-claude-for-healthcare-following-openais-chatgpt-health-reveal/",
+      "keywords": ["Anthropic", "Claude", "医疗", "22000 名", "10 分钟"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Meta 启动 AI 基础设施计划",
+      "content": "Meta CEO 扎克伯格宣布启动 Meta Compute 计划，本世纪将建设数十吉瓦 AI 基础设施，长期目标数百吉瓦。计划涉及技术架构、芯片开发和全球数据中心运营，Daniel Gross 负责长期容量战略。",
+      "importance": "critical",
+      "reasoning": "Meta 宣布顶层 AI 基础设施计划，本世纪建设数十吉瓦、长期数百吉瓦，涉及技术、芯片、数据中心全链条，展示科技巨头 AI 投入规模。昨天（1 月 12 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/12/mark-zuckerberg-says-meta-is-launching-its-own-ai-infrastructure-initiative/",
+      "keywords": ["Meta", "Meta Compute", "数十吉瓦", "数百吉瓦", "扎克伯格"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Google 发布 AI 购物统一协议",
+      "content": "Google 在零售业大会发布通用商务协议 (UCP)，联合 Shopify、Etsy、Walmart、Target 等企业，为 AI 购物助手建立统一标准。用户可在 Google 搜索和 Gemini 应用内直接下单，支持 Google Pay 和 PayPal。",
+      "importance": "critical",
+      "reasoning": "Google 联合 20+ 头部企业发布行业级 AI 购物协议，建立统一标准，McKinsey 预测该市场 2030 年达 3-5 万亿美元。1 月 11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/",
+      "keywords": ["Google", "UCP", "Shopify", "Walmart", "AI 购物"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic 推出 Cowork 桌面工具",
+      "content": "Anthropic 发布 Cowork 工具，内置于 Claude 桌面应用，用户可指定文件夹让 Claude 读取或修改文件。目前仅向 Max 订阅用户开放研究预览版，普通用户需加入等待名单。",
+      "importance": "high",
+      "reasoning": "Anthropic 昨天发布 Cowork，将 Claude Code 能力简化为桌面工具，降低使用门槛，向 Max 用户开放。昨天（1 月 12 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/12/anthropics-new-cowork-tool-offers-claude-code-without-the-code/",
+      "keywords": ["Anthropic", "Cowork", "Claude", "桌面应用", "Max"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Amazon 展示 Bee 可穿戴设备新功能",
+      "content": "Amazon 在 CES 展示收购的 Bee AI 可穿戴设备，售价 50 美元。90 天内推出 4 项新功能，包括语音笔记、日程连接和每日洞察。设备可佩戴在手腕或衣服上，实时处理对话但不存储音频。",
+      "importance": "high",
+      "reasoning": "Amazon 在 CES 展示收购的 Bee 设备，售价 50 美元，90 天推出 4 项功能，定位个人 AI 助手市场。1 月 9-12 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/12/why-amazon-bought-bee-an-ai-wearable/",
+      "keywords": ["Amazon", "Bee", "50 美元", "90 天", "可穿戴"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Google 移除医疗查询 AI 概述",
+      "content": "Google 移除肝功能测试等医疗查询的 AI 概述功能，此前 Guardian 调查发现其提供的数值未考虑性别、年龄，可能误导患者。英国肝脏信托基金警告这未解决根本问题。",
+      "importance": "high",
+      "reasoning": "Google 因 Guardian 调查移除医疗 AI 功能，涉及患者安全和 AI 伦理争议，引发对 AI 健康建议的关注。1 月 12 日报道。",
+      "source": "动点科技",
+      "url": "https://cn.technode.com/post/2026-01-12/google-pulls-alarming-dangerous-medical-ai-overviews/",
+      "keywords": ["Google", "AI 概述", "医疗查询", "Guardian", "患者安全"],
+      "category": "政策法规"
+    },
+    {
+      "id": 8,
+      "title": "Deepseek 开源大模型记忆模块",
+      "content": "Deepseek 与北京大学合作发布最新论文，提出了条件记忆，梁文锋署名",
+      "importance": "high",
+      "reasoning": "",
+      "source": "36KR",
+      "url": "https://eu.36kr.com/zh/p/3637114445349889/",
+      "keywords": ["Google", "AI 概述", "医疗查询", "Guardian", "患者安全"],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-13T08:00:00Z",
+    "total_news": 7,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 2400
+  }
+}

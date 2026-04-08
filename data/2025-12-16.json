@@ -1,0 +1,123 @@
+{
+  "date": "2025-12-16",
+  "date_formatted": "25/12/16",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Gemini 3 通过金融资格考试",
+      "content": "Google Gemini 3.0 Pro 在 CFA 一级考试中获得 97.6% 分数,三级考试论述题得分 92.0%。哥伦比亚大学研究团队测试 980 道 CFA 题库,多个推理模型均通过三级考试,显示 AI 在金融专业领域能力已达人类专家水平。",
+      "importance": "critical",
+      "reasoning": "重大技术突破：Google Gemini 3 在金融资格考试获得 97.6% 高分,多个 AI 模型通过 CFA 三级考试,展示 AI 在金融专业领域达到人类专家水平,今天(12月16日)报道",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3596669797318917",
+      "keywords": ["Gemini 3", "CFA 考试", "金融", "97.6%"],
+      "category": "技术突破"
+    },
+    {
+      "id": 2,
+      "title": "英伟达发布 Nemotron 3 模型",
+      "content": "英伟达发布 Nemotron 3 系列开源模型,包含 300 亿、1000 亿和 5000 亿参数三个版本。Nano 版本吞吐量达上一代 4 倍,采用混合专家架构,埃森哲、甲骨文、Zoom 等 10+ 企业为首批客户。",
+      "importance": "critical",
+      "reasoning": "重大产品发布：英伟达发布 Nemotron 3 系列,吞吐量 4 倍提升,三种规模版本,10+ 企业首批采用,昨天(12月15日)发布",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/905/202.htm",
+      "keywords": ["英伟达", "Nemotron 3", "开源", "4 倍吞吐量"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Chai Discovery 融资 1.3 亿美元",
+      "content": "OpenAI 支持的生物科技公司 Chai Discovery 完成 1.3 亿美元 B 轮融资，估值 13 亿美元，专注 AI 驱动的药物研发和蛋白质设计，加速新药开发进程。",
+      "importance": "critical",
+      "reasoning": "重要融资：OpenAI 支持的生物科技公司 B 轮融资 1.3 亿美元，估值 13 亿美元，AI 在生命科学领域的重要应用，今天（12-16）宣布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/16/chai-discovery-raises-130m/",
+      "keywords": ["Chai Discovery", "OpenAI", "生物科技", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "扫地机器人鼻祖 iRobot 破产",
+      "content": "扫地机器人鼻祖 iRobot 申请破产,中国制造商杉川将通过债转股获得 100% 股权。公司现金仅 2480 万美元,负债 5.08 亿美元,全球市占率从 60% 跌至 8%,股价暴跌 82%。",
+      "importance": "critical",
+      "reasoning": "重大行业事件：扫地机器人鼻祖破产,市占率从 60% 跌至 8%,负债 5 亿美元,中国企业接手,12月14日申请",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2025-12-15/doc-inhawxxz1753918.shtml",
+      "keywords": ["iRobot", "破产", "杉川", "市占率"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "800 万用户 AI 对话被售卖",
+      "content": "Chrome 扩展 Urban VPN 自 7 月起拦截 ChatGPT、Claude、Gemini 用户对话并售卖给广告商。扩展下载量超 800 万次,曾被 Google 和 Microsoft 标记为「精选」。",
+      "importance": "critical",
+      "reasoning": "重大安全事件：800 万用户 AI 对话被拦截并售卖,扩展被平台标记为「精选」,严重隐私侵犯,今天(12月16日)曝光",
+      "source": "Koi Security",
+      "url": "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection",
+      "keywords": ["数据泄露", "Urban VPN", "800 万用户", "隐私"],
+      "category": "安全事件"
+    },
+    {
+      "id": 5,
+      "title": "摩根大通 AI 投资见成效",
+      "content": "摩根大通 2025 年投入 180 亿美元发展 AI,超 20 万员工使用 AI 平台,分析师称其为「银行业的英伟达」。",
+      "importance": "high",
+      "reasoning": "重要行业动态：摩根大通 180 亿美元 AI 投资见成效,20 万员工使用,被称为「银行业的英伟达」,12月16日报道",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025/",
+      "keywords": ["摩根大通", "180 亿美元", "AI 投资", "20 万员工"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Opera 推出 AI 浏览器 Neon",
+      "content": "Opera 推出 AI 浏览器 Neon,月费 19.9 美元,集成 Gemini 3 Pro、GPT-5.1,支持生成小程序和视频。",
+      "importance": "high",
+      "reasoning": "重要产品发布：Opera AI 浏览器正式上线,月费 19.9 美元,集成多个高级模型,12月11日发布",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/904/343.htm",
+      "keywords": ["Opera", "Neon", "AI 浏览器", "19.9 美元"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Creative Commons 支持付费爬取",
+      "content": "Creative Commons 初步支持 AI 付费爬取系统，允许创作者对 AI 训练数据收费，试图在开放内容和创作者权益间找到平衡。",
+      "importance": "high",
+      "reasoning": "重要政策转变：Creative Commons 支持 AI 付费爬取，允许创作者收费，对 AI 训练数据获取和版权保护有重要影响，今天（12-16）宣布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/16/creative-commons-ai/",
+      "keywords": ["Creative Commons", "AI 爬取", "版权", "付费"],
+      "category": "政策法规"
+    },
+    {
+      "id": 7,
+      "title": "Apple 发布 SHARP 照片合成技术",
+      "content": "Apple 发布 SHARP 照片真实感合成技术,可从单张照片生成逼真图像,展示其在 AI 图像生成领域的进展。",
+      "importance": "high",
+      "reasoning": "重要技术发布：Apple 发布照片真实感合成技术,从单张照片生成逼真图像,今天(12月16日)发布",
+      "source": "Apple ML Research",
+      "url": "https://apple.github.io/ml-sharp/",
+      "keywords": ["Apple", "SHARP", "照片合成", "图像生成"],
+      "category": "技术突破"
+    }
+
+  ],
+  "metadata": {
+    "generated_at": "2025-12-16T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "IT之家"
+    ],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 1800
+  }
+}

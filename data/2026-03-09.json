@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-09",
+  "date_formatted": "26/03/09",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 机器人主管辞职",
+      "content": "OpenAI 机器人与硬件业务主管 Caitlin Kalinowski 于 3 月 7 日宣布辞职，称此次离职是「原则立场」：她无法接受 OpenAI 与五角大楼签署的协议对大规模监控和自主武器仅以「不得故意」设限，认为这一措辞过于宽泛。Kalinowski 是 OpenAI 宣布与国防部合作以来首位公开因此离职的高层管理者；她此前在 Meta 带领增强现实眼镜团队 4 年，2024 年 11 月加入 OpenAI 专注机器人方向。",
+      "importance": "critical",
+      "reasoning": "OpenAI（全球最核心 AI 公司之一）出现首位因五角大楼合同而公开离职的高层，直接印证了内部对国防协议的道德争议已无法调和。事件覆盖 TechCrunch、NPR、Fortune、CNBC 等主要媒体，3 月 7 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "keywords": ["OpenAI", "Kalinowski", "五角大楼", "辞职", "国防协议"],
+      "category": "人事动态"
+    },
+    {
+      "id": 2,
+      "title": "Claude 扫出 Firefox 22 漏洞",
+      "content": "Anthropic 与 Mozilla 合作，用 Claude Opus 4.6 扫描 Firefox 约 6000 个 C++ 源代码文件，2 周内共提交 112 份独立缺陷报告，正式认定 22 个安全漏洞（14 个高危、7 个中危、1 个低危），运行总成本约 4000 美元。这 14 个高危漏洞相当于 2025 年全年 Firefox 高危漏洞总数的 1/5，已全部在 Firefox 148 中完成修补。",
+      "importance": "critical",
+      "reasoning": "Anthropic 将旗舰 AI 模型用于大规模真实安全审计并取得量化成果（22 个 CVE / 4000 美元 / 2 周），是 AI 应用于关键基础设施安全的里程碑案例，对全行业软件安全实践具有示范意义。TechCrunch、The Register、Hacker News 均在 3 月 6 日重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "keywords": ["Anthropic", "Mozilla", "Firefox", "安全漏洞", "Claude Opus 4.6"],
+      "category": "AI 安全"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 军事合同漏洞曝光",
+      "content": "The Intercept 与 EFF 相继发文，逐条拆解 OpenAI 五角大楼合同文本：「不得故意用于国内监控」的「故意」一词为非故意侵权留下豁免空间；援引「适用法律（含第四修正案和 FISA 法案）」的表述并不禁止政府以「合法授权」方式监控美国公民。EFF 指出：「技术层面的保证从未足够约束情报机构，必须有法律层面的强制性限制。」",
+      "importance": "critical",
+      "reasoning": "两家主流媒体（The Intercept、EFF）以具体合同条款为证，指出 OpenAI 五角大楼协议存在可供滥用的文本漏洞，引发 AI 军事部署规范的全行业讨论，是此前 Anthropic-五角大楼争议事件的重要舆论延伸。3 月 8 日发布。",
+      "source": "The Intercept",
+      "url": "https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/",
+      "keywords": ["OpenAI", "五角大楼", "合同漏洞", "监控", "EFF"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "五角大楼争议波及 AI 创业圈",
+      "content": "TechCrunch 调查显示，Anthropic 被列为供应链风险事件引发连锁反应：多家 AI 创业公司已暂停或重新评估与美国国防部的合同谈判，担忧一旦条款谈判破裂同样遭受采购封锁。一位初创公司高管透露团队正「重新考量所有政府项目」，标志着五角大楼 AI 合作的不确定性已从头部公司蔓延至整个创业生态。",
+      "importance": "high",
+      "reasoning": "五角大楼封锁 Anthropic 的后续影响已超出单一公司范畴，开始系统性抑制整个 AI 创业生态与国防市场的合作，具有行业层面的政策影响。TechCrunch 3 月 8 日独立报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+      "keywords": ["五角大楼", "AI创业", "国防合同", "Anthropic", "供应链风险"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "Grammarly 克隆已故学者审稿",
+      "content": "Grammarly 旗下 Expert Review 功能被曝在未获授权的情况下，以真实学者名义生成论文审稿意见，其中包括 2026 年 1 月刚刚去世的历史学家 David Abulafia——他从未同意参与该项目，其家属亦未被告知。该功能调用学者公开著作模拟其评审风格，以本人名义呈现输出；Grammarly 未公开回应是否持有版权授权，学术界普遍将此行为定性为「令人反感」。",
+      "importance": "high",
+      "reasoning": "AI 公司未经授权克隆已故学者身份并用于商业产品，触发学术界和法律界关于版权、肖像权和逝者数字身份的争议，是 AI 伦理高话题性事件。Futurism、Decrypt、SF Weekly 等持续报道，最新报道于 3 月 8 日发出。",
+      "source": "Futurism",
+      "url": "https://futurism.com/artificial-intelligence/grammarly-ai-reviews",
+      "keywords": ["Grammarly", "学者克隆", "AI伦理", "版权", "数字身份"],
+      "category": "AI 伦理"
+    },
+    {
+      "id": 6,
+      "title": "Oracle 裁 3 万押注 AI 基建",
+      "content": "Oracle 计划裁员 2-3 万人（占全球约 16 万员工的 12-18%），以缓解 AI 数据中心扩张的现金压力，其中包括与 OpenAI 共同承诺的价值 1560 亿美元、需部署 300 万颗 GPU 的五年基础设施协议。TD Cowen 预计此轮裁员可节省 80-100 亿美元；Oracle 近 2 个月已举债 580 亿美元，华尔街预测现金流将连续多年为负。",
+      "importance": "high",
+      "reasoning": "Oracle 以史上最大规模裁员（2-3 万人）为 AI 数据中心筹资，是 AI 军备竞赛对传统科技岗位造成直接冲击的典型案例，规模和影响超过此前 Block 裁员 4000 人等事件。Bloomberg 3 月 5-6 日报道，CIO、The Week India 等媒体 3 月 6 日确认。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/oracle-layoffs-to-impact-thousands-in-ai-cash-crunch",
+      "keywords": ["Oracle", "裁员", "AI数据中心", "OpenAI", "基础设施"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "谷歌给 Pichai 6.92 亿薪酬",
+      "content": "谷歌披露 CEO Sundar Pichai 未来 3 年薪酬方案：最高总额 6.92 亿美元，含 1.75 亿美元绑定 Waymo 和 Wing 估值增长的激励单元、1.26 亿美元目标股票单元（若 Alphabet 总股东回报跑赢 S&P 100 可翻倍至 2.52 亿）及 8400 万美元受限股票。",
+      "importance": "medium",
+      "reasoning": "谷歌 CEO 薪酬方案与 Waymo、Wing 两大 AI 及自动化业务直接挂钩，是巨头将高管利益与 AI 业务绑定的典型案例，具有行业薪酬结构参考价值。TechCrunch 3 月 7 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "keywords": ["谷歌", "Pichai", "薪酬", "Waymo", "Wing"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "ChatGPT 成人模式二度延期",
+      "content": "OpenAI 3 月 6 日宣布再次推迟 ChatGPT 成人内容功能上线，这是 Sam Altman 去年 10 月首次预告后的第 2 次延期，官方理由是优先完成智能提升和个性化改造。该功能原定 2026 年 Q1 落地，上线后将允许通过年龄验证的用户访问成人创作内容，同时严禁非自愿内容、深度伪造及涉及未成年人内容。",
+      "importance": "medium",
+      "reasoning": "ChatGPT 成人内容功能是 OpenAI 商业化布局的重要组成部分，连续 2 次延期反映 AI 公司在内容安全与市场扩张间的持续张力，具有行业参考价值。Axios、TechCrunch 3 月 6-7 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/",
+      "keywords": ["ChatGPT", "成人模式", "延期", "OpenAI", "内容安全"],
+      "category": "产品更新"
+    },
+    {
+      "id": 9,
+      "title": "Gemini 3 Pro Preview 今日停用",
+      "content": "谷歌 Gemini 3 Pro Preview 于 3 月 9 日正式关停，开发者须迁移至 Gemini 3.1 Pro Preview，后者在 ARC-AGI-2 推理评测中得分 77.1%，是前版本的 2 倍以上。谷歌 3 月 3 日发出停用通知，仅提供 6 天迁移窗口，短于其官方承诺的 2 周最低告知期，引发开发者不满，部分用户反映 3.1 Pro 当前存在频繁错误和高达 104 秒的延迟。",
+      "importance": "medium",
+      "reasoning": "Gemini 3 Pro Preview 正式停用标志着谷歌 Gemini 3.x 系列版本迭代提速，6 天通知期违反自身政策引发开发者社区争议，对依赖该版本的应用有直接运营影响。今日（3 月 9 日）生效。",
+      "source": "Google AI Developers Forum",
+      "url": "https://discuss.ai.google.dev/t/migrate-from-gemini-3-pro-preview-to-gemini-3-1-pro-preview-before-march-9-2026/127062",
+      "keywords": ["谷歌", "Gemini 3", "停用", "模型迁移", "开发者"],
+      "category": "产品更新"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-09T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "The Intercept", "EFF", "Futurism", "Bloomberg", "Axios", "CNBC", "NPR", "Fortune", "AIBase", "Google AI Forum", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 540
+  }
+}

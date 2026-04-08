@@ -1,0 +1,141 @@
+{
+  "date": "2025-12-02",
+  "date_formatted": "25/12/02",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "DeepSeek V3.2 开源模型达 GPT-5 水平",
+      "content": "DeepSeek 发布 V3.2 开源 AI 模型，在国际数学奥林匹克 2025 等竞赛中达到金牌级水平，性能首次与 GPT-5 持平。模型已在 GitHub 开源，为开发者提供与顶级商业模型相当的免费替代方案。",
+      "importance": "critical",
+      "reasoning": "重大技术突破：开源模型首次达到 GPT-5 水平，IMO 2025 金牌级，全面开源，对 AI 开源生态有重大推动，昨天（12 月 1 日）发布。",
+      "source": "Hacker News",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "keywords": ["DeepSeek", "开源", "GPT-5", "数学推理"],
+      "category": "技术突破"
+    },
+    {
+      "id": 2,
+      "title": "Google Gemini 3 扩展至全球 120 国",
+      "content": "Google 宣布将 Gemini 3 AI 模型扩展至全球近 120 个国家和地区，用户可在 Google 搜索的 AI Mode 中使用。Gemini 3 Pro 和 Nano Banana Pro 已开始向全球英语用户推广，标志着 Google 最强 AI 模型的大规模全球部署。",
+      "importance": "critical",
+      "reasoning": "巨头产品全球扩张：Google 最强 AI 模型扩展至 120 国，AI Mode 大规模部署，对全球 AI 应用市场有重大影响，昨天（12 月 1 日）宣布。",
+      "source": "Google Blog",
+      "url": "https://blog.google/products/search/gemini-3-ai-mode-more-countries/",
+      "keywords": ["Google", "Gemini 3", "全球扩展", "120国家"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Black Forest Labs 获 3 亿美元融资",
+      "content": "AI 图像生成公司 Black Forest Labs 昨天宣布完成 3 亿美元 B 轮融资，估值达 32.5 亿美元，由 Salesforce Ventures 和 AMP 联合领投。公司创始团队曾开发 Stable Diffusion，其 FLUX 模型已被 Adobe、Canva、Meta 等企业集成。",
+      "importance": "critical",
+      "reasoning": "重大融资事件：3 亿美元 B 轮，估值 32.5 亿美元，Stable Diffusion 团队打造，Adobe、Canva、Meta 已集成，对 AI 图像生成市场有重要影响，昨天（12 月 1 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation/",
+      "keywords": ["Black Forest Labs", "融资", "3亿美元", "图像生成"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Apple AI 主管 John Giannandrea 退休",
+      "content": "Apple 宣布 AI 主管 John Giannandrea 将于明年春季退休，任命前 Microsoft AI 副总裁 Amar Subramanya 接任。Subramanya 曾在 Google 工作 16 年，担任 Gemini 助手工程主管。此次调整正值 Apple 在 AI 领域追赶竞争对手的关键时期。",
+      "importance": "critical",
+      "reasoning": "巨头高层变动：Apple AI 主管退休，新任主管来自 Microsoft 和 Google，正值 Apple AI 战略调整期，对 Apple Intelligence 发展有重要影响，昨天（12 月 1 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/01/apple-just-named-a-new-ai-chief-with-google-and-microsoft-expertise-as-john-giannandrea-steps-down/",
+      "keywords": ["Apple", "AI主管", "John Giannandrea", "领导层"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "NVIDIA 20 亿美元入股 Synopsys",
+      "content": "NVIDIA 昨天宣布以 20 亿美元购入芯片设计软件巨头 Synopsys 2.6% 股份，双方达成战略合作加速 AI 芯片设计。合作将把原本需要数周的工作负载缩短至数小时。Synopsys 股价当天上涨 4.85%，NVIDIA 涨 1.65%。",
+      "importance": "critical",
+      "reasoning": "重大战略投资：NVIDIA 20 亿美元入股 EDA 巨头，工作负载从数周缩短至数小时，对 AI 芯片设计和产业链有重大影响，昨天（12 月 1 日）宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/12/01/nvidia-takes-2-billion-stake-in-synopsys.html",
+      "keywords": ["NVIDIA", "Synopsys", "20亿美元", "芯片设计"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "OpenAGI Lux 超越 OpenAI Operator",
+      "content": "MIT 发布 OpenAGI Lux 桌面自动化模型，成功率 83.6%，超越 OpenAI Operator（61.3%），速度快 3 倍、成本低 10 倍。",
+      "importance": "high",
+      "reasoning": "重要技术突破：83.6% 成功率超越 OpenAI 和 Anthropic，速度快 3 倍成本低 10 倍，对计算机操作 AI 有重要推动，昨天（12 月 1-2 日）发布。",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/openagi-releases-lux-the-most-performant-computer-use-model-302628745.html",
+      "keywords": ["OpenAGI", "Lux", "桌面自动化", "MIT"],
+      "category": "技术突破"
+    },
+    {
+      "id": 7,
+      "title": "AI 智能体发现 460 万美元区块链漏洞",
+      "content": "Anthropic AI 智能体从 34 个智能合约中发现 460 万美元漏洞，成功率 55.8%。Claude Opus 4.5 利用 17 个漏洞（50%）。",
+      "importance": "high",
+      "reasoning": "重要安全研究：AI 智能体发现 460 万美元漏洞，成功率 55.8%，展示 AI 在网络安全领域的快速进展，对区块链安全有重要警示，近期发布。",
+      "source": "Anthropic Research",
+      "url": "https://red.anthropic.com/2025/smart-contracts/",
+      "keywords": ["Anthropic", "AI智能体", "区块链", "安全漏洞"],
+      "category": "技术研究"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 宣布红色警报暂停广告计划",
+      "content": "OpenAI CEO Sam Altman 今天宣布红色警报，暂停广告计划，集中资源改进 ChatGPT 以应对 Google 等竞争对手。",
+      "importance": "high",
+      "reasoning": "重要战略调整：OpenAI CEO 宣布红色警报，暂停广告转而专注产品改进，应对 Google 竞争压力，对 AI 行业竞争格局有重要影响，今天（12 月 2 日）报道。",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort",
+      "keywords": ["OpenAI", "Sam Altman", "红色警报", "ChatGPT"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "马斯克称人类活在虚拟世界概率极高",
+      "content": "马斯克 39 秒采访视频病毒传播，称人类活在真实世界的概率只有十亿分之一，大多数人是 NPC（游戏角色），引发广泛讨论。",
+      "importance": "high",
+      "reasoning": "高话题性事件：马斯克模拟世界论视频病毒传播，称真实世界概率仅十亿分之一，引发 AI 时代对现实本质的哲学讨论，昨天（12 月 1 日）传播。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3576753932630917",
+      "keywords": ["马斯克", "虚拟世界", "模拟论", "NPC"],
+      "category": "行业观点"
+    },
+    {
+      "id": 11,
+      "title": "蚂蚁 Agentar 进入 IDC Leaders 象限",
+      "content": "蚂蚁 Agentar 平台在 IDC 2025 中国 AI 智能体评估中进入 Leaders 象限。",
+      "importance": "medium",
+      "reasoning": "区域性认可：蚂蚁 Agentar 进入 IDC Leaders 象限，展示中国 AI 智能体平台发展，对国内金融科技有参考价值，近期发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23282",
+      "keywords": ["蚂蚁集团", "Agentar", "IDC", "智能体"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-02T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "Google Blog",
+      "NVIDIA Blog"
+    ],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 1800
+  }
+}
+
+
+echo -e "\nexport ANTHROPIC_API_KEY=sk-WEy0jPl0dGRtB9vvgZoh1arntD3BkaraJ7Qelwhm8YHaIw5j" >> ~/.bash_profile 
+
+echo -e "\nexport ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic" >> ~/.bash_profile 
+source ~/.bash_profile
+

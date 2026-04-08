@@ -1,0 +1,183 @@
+{
+  "date": "2025-10-17",
+  "date_formatted": "25/10/17",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Claude Skills 功能发布",
+      "content": "Anthropic 发布 Claude Skills 功能，允许用户创建可重复使用的专业知识包，包含指令、脚本和资源文件。该功能将企业 AI 自动化推向模块化时代，支持跨平台使用。",
+      "importance": "critical",
+      "reasoning": "主流公司产品重大更新：Anthropic 核心产品 Claude 的重要功能发布，改变企业 AI 应用范式，从一次性提示转向可复用专业知识包，影响整个开发者生态，10-16 刚发布。",
+      "source": "Hacker News",
+      "url": "https://www.anthropic.com/news/skills",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Skills",
+        "企业 AI"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Gemini 3.0 内测曝光",
+      "content": "Google Gemini 3.0 通过 A/B 测试被用户发现，改进推理能力和多模态处理，支持文本、图像、音频、视频，采用 Deep Think 推理架构。预计 10 月 22 日正式发布。",
+      "importance": "critical",
+      "reasoning": "主流公司重大产品发布：Google 核心模型 Gemini 3.0 即将发布，推理能力和多模态能力显著提升，将影响整个 AI 竞争格局，今天刚被发现内测。",
+      "source": "Hacker News",
+      "url": "https://ricklamers.io/posts/gemini-3-spotted-in-the-wild/",
+      "keywords": [
+        "Google",
+        "Gemini 3.0",
+        "多模态",
+        "推理能力"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "李飞飞 RTFM 世界模型",
+      "content": "李飞飞团队发布 RTFM 实时世界生成模型，仅需单张 H100 GPU 即可实时渲染持久且 3D 一致的世界，直接从 2D 图像生成新视角图像，实现实时 3D 世界生成和交互。",
+      "importance": "critical",
+      "reasoning": "范式转变级技术突破：首次实现单卡实时 3D 世界生成，大幅降低算力门槛，在世界模型领域具有突破性意义，为 AI 生成式交互开辟新路径，今天发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3512599772454023",
+      "keywords": [
+        "李飞飞",
+        "世界模型",
+        "RTFM",
+        "3D 生成"
+      ],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "英伟达中国份额降至 0%",
+      "content": "英伟达 CEO 黄仁勋表示，由于美国出口管制，英伟达在中国市场份额从 95% 降至接近 0%。黄仁勋强调「伤害中国的事情往往也可能伤害美国，甚至更严重」，凸显地缘政治对 AI 产业链的深远影响。",
+      "importance": "critical",
+      "reasoning": "行业级影响：地缘政治因素导致全球最大 AI 芯片厂商在中国市场份额归零，对全球 AI 供应链和算力格局产生重大影响，引发行业深度震荡，今天发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3512943289867397",
+      "keywords": [
+        "英伟达",
+        "黄仁勋",
+        "出口管制",
+        "芯片"
+      ],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "豆包大模型 1.6 发布",
+      "content": "字节跳动推出豆包大模型 1.6，国内首个支持「可调节思考深度」功能。轻量版面向企业场景，采用分层机制解决资源浪费问题，提升推理效率和成本控制能力，日均处理量超 30 万亿次。",
+      "importance": "high",
+      "reasoning": "国内主流厂商重要更新：字节跳动首次实现可调节思考深度，在推理效率和资源优化方面具有创新性，对国内 AI 应用市场有重要影响，昨天发布。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/daily/22064",
+      "keywords": [
+        "字节跳动",
+        "豆包",
+        "大模型",
+        "思考深度"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "百度 PaddleOCR-VL 登顶全球第一",
+      "content": "百度发布 PaddleOCR-VL 文档解析模型并开源，仅 0.9B 参数登顶全球第一，超越 GPT-4o 和 Gemini-2.5 Pro。支持 109 种语言，每秒可识别 1881 个字符。",
+      "importance": "high",
+      "reasoning": "垂直领域重要突破：百度发布全球第一的文档解析模型，超轻量级（0.9B）却超越大型闭源模型，OCR 是关键应用场景，对文档智能化有重要推动作用，昨天发布。",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2025/10/17/baidus-paddlepaddle-team-releases-paddleocr-vl-0-9b-a-navit-style-ernie-4-5-0-3b-vlm-targeting-end-to-end-multilingual-document-parsing/",
+      "keywords": [
+        "百度",
+        "PaddleOCR-VL",
+        "OCR",
+        "文档解析"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "蚂蚁万亿参数模型开源",
+      "content": "蚂蚁集团发布万亿参数 AI 模型 Ling-1T 并开源，在 AIME 25 数学测试中以 70.42% 准确率超越 Gemini-2.5-Pro 的 70.10%，采用 FP8 混精度训练，支持 128K 上下文窗口。",
+      "importance": "high",
+      "reasoning": "重要产品发布：国内金融科技巨头推出万亿参数开源模型，代表国内大模型技术的最新进展，对金融和企业 AI 应用有重要影响，10-9 发布。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/trillion-parameter-ai-model-ant-group-ling-1t/",
+      "keywords": [
+        "蚂蚁集团",
+        "万亿参数",
+        "Ling-1T",
+        "开源"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "清华长庚药学大模型",
+      "content": "清华长庚医院联合北京电子信息智能研究院推出中国首个药学专用大模型，专注于老年人、儿童、孕妇等特殊人群的用药安全评估，提升临床用药决策智能化水平。",
+      "importance": "high",
+      "reasoning": "垂直领域突破：首个国产药学专用大模型，针对特殊人群用药安全的细分场景，对医疗 AI 垂直应用有重要意义，今天发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22071",
+      "keywords": [
+        "清华",
+        "医疗 AI",
+        "药学模型",
+        "用药安全"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Zed 集成 Codex",
+      "content": "Zed 编辑器正式集成 OpenAI Codex 代码生成功能，通过 Agent Client Protocol 提供 AI 辅助编程能力。同时发布 Windows 稳定版，已开源 codex-acp 适配器。",
+      "importance": "medium",
+      "reasoning": "产品功能更新：重要开发工具集成 AI 能力，对开发者有实际应用价值，但属于预期内的功能整合，几天前发布。",
+      "source": "Hacker News",
+      "url": "https://zed.dev/blog/codex-is-live-in-zed",
+      "keywords": [
+        "Zed",
+        "Codex",
+        "代码生成",
+        "开发工具"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "OpenAI 限制历史人物生成",
+      "content": "OpenAI 被要求暂停 Sora 生成马丁·路德·金相关视频的功能，在言论自由与公众人物肖像权之间寻求平衡，引发 AI 伦理讨论。",
+      "importance": "medium",
+      "reasoning": "伦理政策调整：涉及 AI 生成内容边界和公众人物权益保护，对行业政策制定有参考价值，今天发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22069",
+      "keywords": [
+        "OpenAI",
+        "Sora",
+        "伦理",
+        "肖像权"
+      ],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-17T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "AIBase Daily",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "Web Search"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 245.8
+  }
+}

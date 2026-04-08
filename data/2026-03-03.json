@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-03",
+  "date_formatted": "26/03/03",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 军方合约引发抵制",
+      "content": "OpenAI 宣布与美国国防部签约，允许军方在限定范围内使用其 AI 工具，填补 Anthropic 被封禁后的空缺。协议引发用户强烈反弹，ChatGPT 单日卸载量激增 295%，「Cancel ChatGPT」运动迅速扩散至多国。CEO 山姆·奥特曼 3 月 3 日公开承认此举「仓促草率」，当日宣布修订条款，明确禁止情报机构访问并强化自主武器使用限制。",
+      "importance": "critical",
+      "reasoning": "OpenAI 替代被封禁的 Anthropic 与美国国防部签约，引发 ChatGPT 卸载量单日激增 295%，Altman 今天（3 月 3 日）公开道歉并修订条款——是 AI 行业与政府关系最受瞩目的事件之一，直接影响全球最大 AI 产品的用户信任与行业政策走向。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html",
+      "keywords": ["OpenAI", "五角大楼", "用户抵制", "ChatGPT", "山姆·奥特曼"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "Cursor 营收达 20 亿美元",
+      "content": "AI 编程工具 Cursor 年化营收突破 20 亿美元（约合 146 亿人民币），过去 3 个月内收入翻倍，成立仅 4 年跻身 AI 开发工具赛道营收标杆。据 Bloomberg 报道，其商业增速已超越 Microsoft GitHub Copilot 同期节奏，标志着独立 AI 工具首次在营收规模上压制大厂内嵌产品。",
+      "importance": "critical",
+      "reasoning": "Cursor 是 AI 编程工具市场增速最快的独立产品，20 亿美元年化营收且 3 个月翻倍是显著商业里程碑，体现 AI 开发工具市场正进入爆发期。TechCrunch 3 月 2 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "keywords": ["Cursor", "AI编程", "年化营收", "20亿美元", "开发工具"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Meta 上线 AI 购物助手",
+      "content": "Meta 开始内测 AI 购物功能，依托旗下 30 亿活跃用户的社交档案，综合性别、位置、消费历史生成个性化商品推荐，以图文卡片形式展示价格与购买链接。CEO 扎克伯格将其定义为「个性化超级智能」的电商落地，直接挑战 ChatGPT 购物功能与 Google Gemini 的搜索入口地位。",
+      "importance": "critical",
+      "reasoning": "Meta 以 30 亿用户社交数据为差异化优势进入 AI 购物赛道，正面挑战 OpenAI 与 Google，是 AI 从内容创作向电商消费场景延伸的关键信号。AIBase 今日（3 月 3 日）报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25892",
+      "keywords": ["Meta", "AI购物", "扎克伯格", "电商AI", "个性化推荐"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Ars 解雇 AI 造假记者",
+      "content": "科技媒体 Ars Technica 解雇资深 AI 编辑 Benj Edwards，起因为其在 2 月 13 日的报道中采用 ChatGPT 生成的虚假引言。Edwards 承认 AI 工具报错后改用 ChatGPT 导致采访对象原话被编造替换，报道随后撤稿。此案成为新闻业 AI 辅助采编规范争论的标志性事件。",
+      "importance": "high",
+      "reasoning": "知名科技媒体因记者使用 ChatGPT 伪造引言解雇员工，Hacker News 获 278 分，是媒体行业 AI 工具使用的重大负面案例，推动行业制定规范进程。Futurism 今日（3 月 3 日）报道。",
+      "source": "Futurism",
+      "url": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
+      "keywords": ["Ars Technica", "AI造假", "新闻伦理", "ChatGPT", "媒体规范"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "AWS 向西班牙追投 180 亿欧元",
+      "content": "Amazon Web Services 在 MWC 2026 宣布向西班牙追加 180 亿欧元（约 1400 亿人民币）数据中心投资，2035 年前总承诺达 337 亿欧元，覆盖阿拉贡地区三省新建设施，预计年均创造 2.99 万个就业岗位，是 Amazon 对欧洲单一国家的最大技术投资。",
+      "importance": "high",
+      "reasoning": "337 亿欧元规模是 Amazon 对欧洲单一国家的最大投资，体现美国科技巨头在欧洲 AI 算力基础设施的战略加速布局。Amazon 官方新闻稿 3 月 2 日（昨天）发布。",
+      "source": "Amazon",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-spain-investment",
+      "keywords": ["AWS", "数据中心", "西班牙", "云计算", "AI基础设施"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 6,
+      "title": "中国发布机器人国家标准",
+      "content": "中国于 发布首版《人形机器人与具身智能标准体系（2026 版）》，覆盖核心技术、整机系统、应用场景及安全伦理全链路，是全球首个国家级人形机器人综合标准框架。全国人大将于 3 月 5 日开幕，分析师预计工作报告将把 AI 与机器人写入 2026-2030 五年规划工业化路线图。",
+      "importance": "high",
+      "reasoning": "全球首个国家级人形机器人综合标准发布，加上人大即将布局五年规划，标志着中国将人形机器人从研发推向工业化量产的政策信号全面落地。TechNode 2 月 28 日（三天内）报道。",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/02/28/china-releases-first-national-standard-framework-for-humanoid-robots-and-embodied-ai/",
+      "keywords": ["中国", "人形机器人", "国家标准", "具身智能", "五年规划"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "工作者联名敦促撤销封禁",
+      "content": "数百名科技从业者联署公开信，敦促美国国防部及国会撤销对 Anthropic 的「供应链风险」标签，信中援引五角大楼 2 亿美元 AI 合约作为争议核心，认为此举将削弱美国 AI 竞争力，并呼吁以静默谈判代替公开对抗解决合规分歧。",
+      "importance": "high",
+      "reasoning": "科技工作者从基层角度集体反击五角大楼对 Anthropic 的封禁，与公司层面声明形成互补，反映行业对政府干预 AI 商业模式的系统性担忧。TechCrunch 3 月 2 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
+      "keywords": ["Anthropic", "供应链风险", "科技工作者", "国防部", "AI监管"],
+      "category": "政策监管"
+    },
+    {
+      "id": 8,
+      "title": "韩新 AI 联盟 3 亿美元",
+      "content": "韩国与新加坡宣布 AI 战略合作，韩方承诺 2030 年前在新加坡设立 3 亿美元联合基金，共同推进 AI 研发与产业化，将两国定位为亚太 AI 合作核心枢纽。",
+      "importance": "medium",
+      "reasoning": "区域 AI 战略联盟，3 亿美元基金规模属于中等投资，具体项目方向未披露，主要意义在于亚太地缘 AI 合作格局重组。Channel NewsAsia 3 月 2 日（昨天）报道。",
+      "source": "Channel NewsAsia",
+      "url": "https://techstartups.com/2026/03/02/top-tech-news-today-march-2-2026/",
+      "keywords": ["韩国", "新加坡", "AI联盟", "亚太", "3亿美元基金"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "阿里 AI 癌症筛查技术出海",
+      "content": "阿里巴巴旗下 AI 多癌种筛查技术正式在巴基斯坦上线，可辅助诊断胰腺癌、胃癌、结直肠癌、食道癌及脂肪肝 5 种病症，是该技术首次大规模海外商业部署。",
+      "importance": "medium",
+      "reasoning": "中国医疗 AI 出海具体案例，覆盖 5 种癌症筛查是量化亮点，标志着国产医疗 AI 开始向「一带一路」国家扩张。AIBase 今日（3 月 3 日）报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25885",
+      "keywords": ["阿里巴巴", "医疗AI", "癌症筛查", "AI出海", "巴基斯坦"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-03T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "CNBC", "AIBase", "Futurism", "Amazon", "TechNode", "Hacker News", "AI News", "Tech Startups", "WebSearch", "Channel NewsAsia"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 720
+  }
+}

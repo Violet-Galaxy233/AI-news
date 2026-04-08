@@ -1,0 +1,132 @@
+{
+  "date": "2025-12-31",
+  "date_formatted": "25/12/31",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "ChatGPT 集成 DoorDash、Spotify 等主流应用",
+      "content": "OpenAI 推出 ChatGPT 应用集成功能，支持 DoorDash、Spotify、Uber、Booking.com、Canva 等主流服务。用户可直接在 ChatGPT 中创建歌单、订餐、打车，美国用户还可将食材清单一键加入 DoorDash 购物车。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重大产品更新，集成多个主流应用，改变 AI 助手使用方式。昨天（12 月 29 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/29/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+      "keywords": ["ChatGPT", "OpenAI", "应用集成", "DoorDash", "Spotify"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Hinton 警告 2026 年 AI 失业潮",
+      "content": "诺贝尔奖得主、\"AI 教父\" Hinton 警告 2026 年将现失业潮，AI 能力每 7 个月翻倍。AI 已从 \"1 分钟编码\" 进化到 \"1 小时项目\"，世界经济论坛调查显示 40% 企业计划削减可自动化岗位。",
+      "importance": "critical",
+      "reasoning": "诺贝尔奖得主 Hinton 重要警告，AI 能力指数级增长，40% 企业计划裁员，对就业市场影响深远。昨天（12 月 29-30 日）发布。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3616946615939588",
+      "keywords": ["Hinton", "AI 教父", "失业潮", "2026", "40%"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "美国程序员就业率暴跌 27.5%",
+      "content": "美国劳工统计局数据显示，2023-2025 年程序员就业率下降 27.5%，22-25 岁年轻开发者降 20%。今年 AI 相关失业达 5.5 万人。前 OpenAI 联合创始人 Karpathy 称震惊于 AI 冲击。",
+      "importance": "critical",
+      "reasoning": "程序员就业率暴跌 27.5%，年轻开发者降 20%，AI 直接冲击就业市场。今天（12 月 31 日）报道。",
+      "source": "36 氪 / 新浪财经",
+      "url": "https://36kr.com/p/3616030348772357",
+      "keywords": ["程序员", "就业率", "27.5%", "Karpathy", "AI 失业"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "迅策科技上市成实时数据第一股",
+      "content": "腾讯持股 7% 的迅策科技昨天在港交所上市，市值 155 亿港元。公司提供实时数据分析方案，在资产管理行业市占率 11.6% 排名第一。2025 年前 9 个月营收 5.76 亿元，同比增长 40%。",
+      "importance": "critical",
+      "reasoning": "腾讯持股公司上市，市值 155 亿港元，营收增长 40%，实时数据分析赛道重要里程碑。昨天（12 月 30 日）上市。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3617414593168649",
+      "keywords": ["迅策科技", "腾讯", "港交所", "155 亿", "数据分析"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "a16z 复盘消费 AI：赢家通吃格局形成",
+      "content": "硅谷风投 a16z 复盘显示，2025 年消费 AI 呈赢家通吃。2026 年机会在深度伙伴、多模态理解、小程序生态三个方向。",
+      "importance": "high",
+      "reasoning": "顶级风投年终复盘，揭示消费 AI 格局和 2026 年机会，对创业者和投资者有重要参考价值。今天（12 月 31 日）发布。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3617288649536004",
+      "keywords": ["a16z", "消费 AI", "赢家通吃", "2026", "年终复盘"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "TechCrunch：2025 年 AI 经历现实检验",
+      "content": "TechCrunch 年度评估显示 2025 年 AI 从乐观转向现实检验，泡沫担忧上升。OpenAI 以 3000 亿估值融资 400 亿美元。",
+      "importance": "high",
+      "reasoning": "TechCrunch 年度总结，揭示 AI 行业从炒作到现实的转变，OpenAI 巨额融资显示资本仍在押注。昨天（12 月 29 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
+      "keywords": ["TechCrunch", "2025", "AI", "现实检验", "OpenAI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "VCs 预测 2026 年企业 AI 支出增加",
+      "content": "风投预测 2026 年企业 AI 支出增加但供应商减少，市场走向整合。企业倾向选择少数头部供应商。",
+      "importance": "high",
+      "reasoning": "风投预测企业 AI 市场整合趋势，对 AI 创业公司和大厂竞争格局有重要影响。昨天（12 月 30 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/30/vcs-predict-enterprises-will-spend-more-on-ai-in-2026-through-fewer-vendors/",
+      "keywords": ["VCs", "企业 AI", "2026", "市场整合", "供应商"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "豆包和 DeepSeek 需学习 ChatGPT 小程序模式",
+      "content": "36 氪评论指出，ChatGPT 应用集成定义新模式，豆包和 DeepSeek 需推小程序生态，否则将错失分发机会。",
+      "importance": "high",
+      "reasoning": "AI 应用生态战略分析，指出中国 AI 产品需学习 ChatGPT 应用模式，对行业发展有启示。今天（12 月 31 日）发布。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3616470940168712",
+      "keywords": ["豆包", "DeepSeek", "ChatGPT", "小程序", "应用生态"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "三星 Exynos 2600 AI 优化减少模型 90%",
+      "content": "三星 Exynos 2600 芯片集成 AI 优化，模型大小减少 90% 同时保持精度。",
+      "importance": "medium",
+      "reasoning": "三星芯片 AI 优化技术，模型压缩 90% 保持精度，推动移动端 AI 发展。昨天（12 月 30 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24131",
+      "keywords": ["三星", "Exynos 2600", "AI 优化", "90%", "模型压缩"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "OpenAI 现金消耗成 2026 泡沫焦点",
+      "content": "The Economist 报道，OpenAI 现金消耗速度将成 2026 年 AI 泡沫关键问题之一。",
+      "importance": "medium",
+      "reasoning": "The Economist 关注 OpenAI 财务可持续性，对 AI 泡沫讨论有重要参考价值。今天（12 月 31 日）报道。",
+      "source": "Hacker News / The Economist",
+      "url": "https://news.ycombinator.com",
+      "keywords": ["OpenAI", "现金消耗", "2026", "AI 泡沫", "The Economist"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-31T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 2400
+  }
+}

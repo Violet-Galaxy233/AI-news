@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-04",
+  "date_formatted": "26/04/04",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic收购制药AI公司",
+      "content": "Anthropic 以 4 亿美元全股票完成对生物科技初创公司 Coefficient Bio 的收购，为其史上规模最大的收购案。Coefficient Bio 团队仅 10 人，成立 8 个月，全员来自基因泰克计算药物发现实验室，专注 AI 辅助新药研发规划与临床监管策略；团队将并入 Anthropic 医疗生命科学部门，是其去年启动「Claude for Life Sciences」战略以来最重磅的落地行动，标志 Anthropic 正式押注 AI 加速药物研发赛道。",
+      "importance": "critical",
+      "reasoning": "4月3日 TechCrunch、The Information、PYMNTS、NextWeb 广泛报道。4 亿美元全股票是 Anthropic 史上最大单笔收购；方向是药物研发 AI——一个全新垂直赛道；团队全员来自 Genentech 计算生物实验室，技术含量高；与去年 Claude for Life Sciences 战略形成战略闭环，critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "keywords": ["Anthropic", "Coefficient Bio", "生物科技", "药物研发", "4亿美元", "医疗AI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "SpaceX秘密提交万亿IPO文件",
+      "content": "SpaceX 于 4 月 1 日向美国证券交易委员会秘密递交 IPO 申请，目标估值 1.75 万亿美元，拟融资 750 亿美元，若成功将超越沙特阿美 2019 年 290 亿美元的纪录，成为史上最大单次 IPO；计划 2026 年 6 月在纳斯达克挂牌，21 家银行联合承销，内部代号「Project Apex」。本次上市叠加今年 2 月完成的 xAI 合并（合并估值 1.25 万亿美元），Starlink 目前覆盖 150 个国家、920 万用户，年收入约 160 亿美元。",
+      "importance": "critical",
+      "reasoning": "4月1日 CNBC/Bloomberg/TechCrunch 均独立核实（非愚人节玩笑），4月3日 FinancialContent 进一步更新估值细节。1.75万亿估值 + 750亿融资 + xAI算力合并，直接重塑 AI 生态资本格局，critical 级。发布于4月1日，属3天边界，因规模重大仍纳入。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html",
+      "keywords": ["SpaceX", "IPO", "1.75万亿", "xAI", "Elon Musk", "纳斯达克", "750亿融资"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI三高管同日离岗",
+      "content": "OpenAI 于 4 月 3 日同日宣布三名高管职务变动：AGI 产品 CEO Fidji Simo 因神经免疫疾病寻求新疗法而请假数周，Greg Brockman 临时代管产品；COO Brad Lightcap 转任「特别项目」负责人，聚焦复杂交易与对外投资，直接向 Sam Altman 汇报，原商务职责由新任 CRO Denise Dresser 接手；CMO Kate Rouch 以专注癌症康复为由离职，前 Meta CMO Gary Briggs 临时接替。三名核心高管同日离岗，为 OpenAI 史上最大规模高层集中变动。",
+      "importance": "critical",
+      "reasoning": "4月3日 TechCrunch、Bloomberg、CNBC、Axios 多家同日确认。Fidji Simo（AGI CEO）医疗请假 + COO 转岗 + CMO 离职，三人同日变动，规模史无前例；AGI 部门 CEO 缺席直接影响 OpenAI 核心产品路线，critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "keywords": ["OpenAI", "Fidji Simo", "Brad Lightcap", "Kate Rouch", "高层变动", "AGI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "Claude发现23年Linux内核漏洞",
+      "content": "安全研究员 Nicholas Carlini 借助 Claude Opus 4.6 发现 Linux 内核中潜藏 23 年的安全漏洞：文件锁模块在拒绝锁请求时，仅分配 112 字节缓冲区，但锁所有者标识符最长可达 1024 字节，攻击者可借此覆写内核内存。Carlini 通过同一方法另外识别数百个潜在漏洞并全部提交官方维护团队修复，显示 AI 辅助漏洞挖掘已在大型真实开源项目中具备批量实战能力。",
+      "importance": "high",
+      "reasoning": "4月3日 mtlynch.io 博客首发，HN 70分，The Decoder 等跟进报道。AI 主动发现潜藏 23 年的真实内核安全漏洞，可批量复制（识别数百个潜在漏洞），具备 AI 辅助安全研究的范式意义，high 级。",
+      "source": "mtlynch.io",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "keywords": ["Claude Opus 4.6", "Linux", "安全漏洞", "内核安全", "Nicholas Carlini", "AI安全研究"],
+      "category": "技术研究"
+    },
+    {
+      "id": 5,
+      "title": "谷歌微软争建天然气数据中心",
+      "content": "谷歌与 Crusoe Energy 合作在德克萨斯州北部建设「Goodnight」AI 数据中心园区，总投资约 300 亿美元，配套 933 兆瓦天然气发电站，每年碳排放预计 450 万吨；微软与雪佛龙联手在德克萨斯州西部规划 5000 兆瓦天然气电厂项目。目前全美新建数据中心 75% 配套电力依赖天然气，涡轮机供应短缺已导致设备价格年内上涨 195%，新订单最早 2028 年交付。",
+      "importance": "high",
+      "reasoning": "4月2日 Axios 确认谷歌「Goodnight」计划，4月3日 TechCrunch 深度报道行业趋势。谷歌+微软同时宣布吉瓦级天然气项目、总投资超 300 亿美元；75% 新建数据中心依赖天然气 + 195% 涡轮价格涨幅揭示 AI 能源供应链危机规模，high 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/ai-energy-microsoft-meta-google-natural-gas-mining-fomo/",
+      "keywords": ["谷歌", "微软", "数据中心", "天然气", "Crusoe Energy", "雪佛龙", "AI能源"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Anthropic二级市场估值升至3800亿",
+      "content": "Anthropic 二级市场估值升至 3800 亿美元，年化营收接近 200 亿美元；机构投资者明显从 OpenAI 转向 Anthropic，主因包括相对偏低的估值起点、更透明的公司治理结构，以及 Claude 系列持续领先的竞争力评测表现。Bloomberg 报道 OpenAI 二级需求同期降温，是 2026 年以来首次出现两家头部 AI 公司在二级市场资金方向明显分化的信号。",
+      "importance": "high",
+      "reasoning": "4月3日 Bloomberg、TechCrunch 报道二级市场动态，Hiive/Forge 等交易平台数据印证。Anthropic 估值 3800 亿美元 + 年化营收接近 200 亿美元，机构资金明显从 OpenAI 转向 Anthropic，是 AI 市场格局出现系统性分化的重要信号，high 级。",
+      "source": "Bloomberg",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+      "keywords": ["Anthropic", "二级市场", "3800亿美元", "OpenAI", "投资者", "年化营收"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Anthropic设立竞选捐款委员会",
+      "content": "Anthropic 向联邦选举委员会申报设立员工捐款制政治行动委员会 AnthroPAC，将在 2026 年 11 月国会中期选举中向两党候选人提供竞选资金；委员会由两党联合理事会监督，员工每年最高出资 5000 美元，重点支持参与 AI 政策制定的现任议员及新晋候选人。",
+      "importance": "medium",
+      "reasoning": "4月3日 TechCrunch、The Hill、Axios、Washington Examiner 报道 FEC 申报文件。Anthropic 正式进入选举政治，成为继谷歌、微软、亚马逊之后设立企业 PAC 的主要 AI 公司，medium 级（行业跟随趋势，对 AI 政策格局有潜在长期影响）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+      "keywords": ["Anthropic", "AnthroPAC", "政治行动委员会", "中期选举", "AI政策", "FEC"],
+      "category": "政策法规"
+    },
+    {
+      "id": 8,
+      "title": "印度Sarvam获亚马逊英伟达投资",
+      "content": "印度 AI 初创公司 Sarvam AI 完成约 3.5 亿美元融资，估值达 15.5 亿美元，Bessemer Venture Partners 领投，NVIDIA 和 Amazon 参与。Sarvam AI 专注支持 22 种印度语言的语音优先 AI 系统，同时向企业提供 AI 自动化工具，是印度首家独立自研基础模型并获 NVIDIA/Amazon 双重战略背书的 AI 独角兽。",
+      "importance": "medium",
+      "reasoning": "4月2日 Bloomberg 最先报道，BW Businessworld 等印度媒体跟进。3.5 亿美元融资 + NVIDIA/Amazon 双重背书 + 22 种印度语言，是印度主权 AI 生态迄今最大单次融资，medium 级（区域性但战略意义显著，两大科技巨头投资代表全球 AI 生态布局）。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/india-ai-startup-sarvam-raises-funds-at-1-5-billion-valuation",
+      "keywords": ["Sarvam AI", "印度", "3.5亿美元", "NVIDIA", "Amazon", "印度语言AI", "独角兽"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "阿里Wan2.7视频模型全面开放",
+      "content": "阿里巴巴 Qwen App 上线 Wan2.7 视频生成模型，支持 1080P 高清输出，全用户免费；新增视频编辑（自然语言修改场景、人物、背景与风格）、动作模仿（基于参考视频复制人物动作）、视频续写三大功能，覆盖从生成到精细编辑的完整创作链路。",
+      "importance": "medium",
+      "reasoning": "4月3日 AIBase 及 Qwen App 官方发布。Wan2.7 是阿里巴巴视频生成系列最新迭代，主要面向消费端创作场景，全用户免费开放，medium 级（产品迭代，功能实用但属预期内升级）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26850",
+      "keywords": ["Wan2.7", "阿里巴巴", "Qwen App", "视频生成", "1080P", "视频编辑"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-04T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "Axios", "The Information", "AIBase", "Hacker News", "AI News", "mtlynch.io", "FinancialContent", "The Hill", "BW Businessworld", "Washington Examiner"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 510
+  }
+}

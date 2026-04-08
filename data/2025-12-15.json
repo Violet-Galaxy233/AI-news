@@ -1,0 +1,135 @@
+{
+  "date": "2025-12-15",
+  "date_formatted": "25/12/15",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Oracle 股价暴跌 40%",
+      "content": "Oracle 股价从 9 月高点暴跌 40%，蒸发超 3600 亿美元。季度资本支出达 120 亿美元，远超预期 82.5 亿美元，全年支出从 350 亿上调至 500 亿美元。OpenAI 占其客户承诺 3000 亿美元，但支付能力存疑，Oracle 债券收益率飙升至 2009 年最高。",
+      "importance": "critical",
+      "reasoning": "重大市场事件：Oracle 股价暴跌 40%，蒸发 3600 亿美元，季度支出超预期 40 亿美元，OpenAI 支付能力存疑，对 AI 基础设施投资信心有重大影响，12 月 11-13 日发生",
+      "source": "Fortune / CNBC / Bloomberg",
+      "url": "https://fortune.com/2025/12/13/oracle-stock-collapse-ai-boom-debt-data-centers-delayed/",
+      "keywords": ["Oracle", "股价暴跌", "AI 支出", "OpenAI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Google 创始人承认 AI 战略失误",
+      "content": "Google 联合创始人 Sergey Brin 在斯坦福承认，Google 2017 年发布 Transformer 论文后投资不足。他表示 8 年前应该更认真对待，因担心聊天机器人出错过于谨慎，前员工 Ilya Sutskever 离开后在 OpenAI 实现突破。",
+      "importance": "critical",
+      "reasoning": "行业级反思：Google 联合创始人公开承认 AI 战略失误，发明 Transformer 却输给 OpenAI，凸显大公司创新困境，对行业有重要警示意义，12 月 12 日演讲",
+      "source": "Stanford / OfficeChai",
+      "url": "https://stvp.stanford.edu/videos/sergey-brin-google-alphabet-google-origins-and-ai-futures-entire-talk/",
+      "keywords": ["Google", "Sergey Brin", "Transformer", "OpenAI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Meta 大幅削减元宇宙投资",
+      "content": "Meta 计划削减元宇宙部门 Reality Labs 预算最多 30%，裁员最早 2026 年 1 月开始。Reality Labs 2024 年亏损 160 亿美元，累计亏损超 700 亿美元。Meta 将投资重心从元宇宙转向 AI 眼镜，消息公布后股价盘后涨超 5%。",
+      "importance": "critical",
+      "reasoning": "重大战略转变：Meta 削减元宇宙预算 30%，2024 年亏损 160 亿美元，累计 700 亿美元，转向 AI 眼镜，标志元宇宙泡沫破裂，12 月 4-5 日报道",
+      "source": "Bloomberg / Eastern Herald",
+      "url": "https://www.bloomberg.com/news/articles/2025-12-04/meta-s-zuckerberg-plans-deep-cuts-for-metaverse-efforts",
+      "keywords": ["Meta", "元宇宙", "Reality Labs", "裁员"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "Google 推出实时音频翻译",
+      "content": "Google 推出 Google Translate 实时音频翻译功能，支持超 70 种语言，可将任意耳机变为实时翻译器，并保留说话者语气和语调。功能已在美国、墨西哥和印度的 Android 版上线，计划 2026 年扩展至 iOS 和更多国家。",
+      "importance": "critical",
+      "reasoning": "重大产品功能：Google 推出 70+ 语言实时音频翻译，保留语气语调，覆盖 Android 和 iOS，对跨语言交流有重大推动，12 月 12 日发布",
+      "source": "TechCrunch / Google Blog",
+      "url": "https://techcrunch.com/2025/12/12/google-translate-now-lets-you-hear-real-time-translations-in-your-headphones/",
+      "keywords": ["Google", "实时翻译", "70 种语言", "音频"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "微软 AI 强制安装引发争议",
+      "content": "LG TV 更新自动安装 Microsoft Copilot 且无法删除，仅能隐藏，引发隐私和控制权争议。",
+      "importance": "high",
+      "reasoning": "高话题性争议：微软 AI 强制安装到电视且无法删除，Reddit 获 3.5 万点赞，引发隐私和用户控制权讨论，对 AI 推广策略有警示，12 月 15 日报道",
+      "source": "TechPowerUp / Reddit",
+      "url": "https://www.techpowerup.com/344075/microsoft-copilot-ai-comes-to-lg-tvs-and-cant-be-deleted",
+      "keywords": ["Microsoft", "Copilot", "LG TV", "隐私争议"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Google 整合笔记工具到 Gemini",
+      "content": "Google 在 Gemini 中集成 NotebookLM，用户可直接附加笔记本获得上下文。功能正在服务器端小范围推出，尚未完全覆盖所有账户。",
+      "importance": "high",
+      "reasoning": "重要产品整合：Google 将 NotebookLM 集成到 Gemini，提升上下文理解能力，改善 AI 助手工作流，12 月 13 日开始推出",
+      "source": "Android Authority / 9to5Google",
+      "url": "https://www.androidauthority.com/google-gemini-notebooklm-shortcut-3625157/",
+      "keywords": ["Google", "Gemini", "NotebookLM", "整合"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "AI 芯片公司 Tenstorrent 裁员",
+      "content": "AI 芯片公司 Tenstorrent 裁员 7.5%，降至约 1000 人。CEO Jim Keller 称裁员因技能和团队适配，第三代芯片推迟至 2026 年 Q1 流片。",
+      "importance": "high",
+      "reasoning": "重要行业动态：AI 芯片公司裁员 7.5%，CEO 强调技能适配而非财务原因，芯片推迟流片，反映 AI 硬件行业调整，12 月报道",
+      "source": "EE Times / OpenTools",
+      "url": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/",
+      "keywords": ["Tenstorrent", "裁员", "AI 芯片", "Jim Keller"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "蚂蚁健康应用更名阿福",
+      "content": "蚂蚁集团将 AI 健康应用 AQ 更名为蚂蚁阿福，定位从工具升级为健康伙伴。月活超 1500 万，日均回答 500 万问题，55% 用户来自三线城市。",
+      "importance": "high",
+      "reasoning": "重要产品升级：蚂蚁健康应用更名并升级定位，月活 1500 万，日均 500 万问题，55% 来自下沉市场，展示中国 AI 健康应用进展，12 月 13-15 日宣布",
+      "source": "腾讯新闻 / 新浪财经",
+      "url": "https://news.qq.com/rain/a/20251215A05CMI00",
+      "keywords": ["蚂蚁集团", "AI 健康", "蚂蚁阿福", "AQ"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Claude API 出现服务中断",
+      "content": "Anthropic Claude API 出现服务中断，Opus 4.5 和 Sonnet 模型因网络路由配置错误导致流量丢失，中断持续约 1 小时 18 分钟后恢复。",
+      "importance": "high",
+      "reasoning": "服务质量问题：Claude API 中断 1 小时 18 分钟，影响 Opus 4.5 和 Sonnet 模型，对依赖 Claude 的企业有影响，12 月 14 日发生",
+      "source": "Claude Status / StatusGator",
+      "url": "https://status.claude.com/",
+      "keywords": ["Anthropic", "Claude", "服务中断", "API"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "首个纯 AI 生成游戏发布",
+      "content": "首个 100% AI 生成游戏 Codex Mortis 在 Steam 发布 Demo，代码、美术、音乐均由 AI 完成，耗时 3 个月。",
+      "importance": "medium",
+      "reasoning": "创新应用案例：首个 100% AI 生成游戏发布，展示 AI 在游戏开发的完整应用，耗时仅 3 个月，对游戏行业有参考价值，12 月 9 日发布",
+      "source": "Insider Gaming / PC Gamer",
+      "url": "https://insider-gaming.com/ai-game-playable-demo-codex-mortis/",
+      "keywords": ["AI 游戏", "Codex Mortis", "Steam", "游戏开发"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-15T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "Fortune",
+      "Bloomberg",
+      "CNBC"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1800
+  }
+}

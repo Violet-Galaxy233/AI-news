@@ -1,0 +1,120 @@
+{
+  "date": "2026-02-11",
+  "date_formatted": "26/02/11",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "xAI 半数创始团队出走",
+      "content": "xAI 联合创始人 Tony Wu 和 Jimmy Ba 本周相继离职，创始团队 12 人已走 6 人，流失率 50%。公司刚完成与 SpaceX 合并、估值 2500 亿美元，但 Grok 因生成不当内容引发争议，核心研究人才持续外流。",
+      "importance": "critical",
+      "reasoning": "xAI 估值 2500 亿美元，刚完成与 SpaceX 合并后即遭半数创始团队出走，暴露核心人才危机。2 月 10 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+      "keywords": ["xAI", "创始团队", "50% 离职"],
+      "category": "企业动态"
+    },
+    {
+      "id": 2,
+      "title": "美军平台接入 ChatGPT",
+      "content": "美国国防部宣布将 ChatGPT 接入军方 AI 平台 GenAI.mil，覆盖 300 万军事和文职人员，合同价值 2 亿美元。平台已汇集 xAI Grok 和 Google Gemini，上线两个月用户超 100 万。所有数据在政府环境中隔离运行。",
+      "importance": "critical",
+      "reasoning": "OpenAI（三大厂之一）核心产品接入美军最大 AI 平台，覆盖 300 万人员，2 亿美元合同。Breaking Defense 2 月 10 日报道。",
+      "source": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/02/chatgpt-will-be-available-to-3-million-military-users-on-genai-mil/",
+      "keywords": ["ChatGPT", "国防部", "GenAI.mil", "300 万用户", "2 亿美元"],
+      "category": "行业应用"
+    },
+    {
+      "id": 3,
+      "title": "Runway 获 3.15 亿美元融资",
+      "content": "AI 视频公司 Runway 完成 3.15 亿美元 E 轮融资，估值升至 53 亿美元，General Atlantic 领投，Nvidia、Adobe、AMD 等参投。资金将用于开发更先进的视频与物理模拟技术，累计融资达 8.6 亿美元，不到一年前估值仅 30 亿。",
+      "importance": "critical",
+      "reasoning": "AI 视频赛道最大融资之一，估值一年内从 30 亿飙升至 53 亿美元，行业竞争加剧。2 月 10 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+      "keywords": ["Runway", "3.15 亿美元", "53 亿估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Boston Dynamics CEO 卸任",
+      "content": "Boston Dynamics CEO Robert Playter 宣布卸任，他在公司工作超 30 年，担任 CEO 6 年，2 月 27 日正式离职。CFO Amanda McMaster 暂代 CEO，公司正在寻找继任者。",
+      "importance": "high",
+      "reasoning": "机器人行业标杆公司 CEO 卸任，30 年老将退休，正值 AI 机器人行业关键发展期。2 月 10 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/boston-dynamics-ceo-robert-playter-steps-down-after-30-years-at-the-company/",
+      "keywords": ["Boston Dynamics", "CEO 卸任", "30 年"],
+      "category": "企业动态"
+    },
+    {
+      "id": 5,
+      "title": "Amazon 筹建 AI 内容市场",
+      "content": "Amazon 在 AWS 大会上公布 AI 内容市场计划，媒体公司可向 AI 开发者出售版权数据，按使用量计费。此前 Microsoft 已推出类似服务。",
+      "importance": "high",
+      "reasoning": "Amazon 进军 AI 内容版权交易领域，可能重塑 AI 训练数据的商业模式，与 Microsoft 展开竞争。2 月 10 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/amazon-may-launch-a-marketplace-where-media-sites-can-sell-their-content-to-ai-companies/",
+      "keywords": ["Amazon", "AI 内容市场", "版权"],
+      "category": "企业动态"
+    },
+    {
+      "id": 6,
+      "title": "字节发布 Seedream 5.0",
+      "content": "字节跳动发布图像生成模型 Seedream 5.0，支持 2K 直出和 4K 增强，首次引入检索生图功能。已在剪映和 CapCut 上线，可限时免费体验 20 次。",
+      "importance": "high",
+      "reasoning": "字节跳动继 Seedance 2.0 视频模型后又推出图像生成模型，密集发布显示 AI 多模态布局加速。2 月 10 日上线。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3677025348395653",
+      "keywords": ["Seedream 5.0", "字节跳动", "图像生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "阿里发布 Qwen-Image 2.0",
+      "content": "阿里巴巴发布 Qwen-Image 2.0，将图像生成与编辑合为一体，支持超长文字输入和 2K 分辨率，中文渲染出色，全球文生图评测排名第三。",
+      "importance": "high",
+      "reasoning": "阿里巴巴发布新一代图像模型，全球评测第三，中文渲染能力领先，属重要产品发布。2 月 10 日发布。",
+      "source": "每经网",
+      "url": "https://www.nbd.com.cn/articles/2026-02-10/4256444.html",
+      "keywords": ["Qwen-Image 2.0", "阿里巴巴", "文生图"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "前 GitHub CEO 破纪录种子轮",
+      "content": "前 GitHub CEO Thomas Dohmke 创办的 Entire 完成 6000 万美元种子轮，估值 3 亿美元，创开发工具最大种子轮纪录。Entire 帮开发者管理 AI 生成的代码。",
+      "importance": "high",
+      "reasoning": "前 GitHub CEO 创业即获破纪录种子轮，反映 AI 编程工具赛道持续火热。2 月 10 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/10/former-github-ceo-raises-record-60m-dev-tool-seed-round-at-300m-valuation/",
+      "keywords": ["Entire", "GitHub CEO", "6000 万美元"],
+      "category": "投融资"
+    },
+    {
+      "id": 10,
+      "title": "Google Aluminum OS 首曝",
+      "content": "Google 正在开发 Aluminum OS，将 Android 与 ChromeOS 合并，Gemini 作为系统级 AI 入口深度整合，预计 2026 年发布。",
+      "importance": "medium",
+      "reasoning": "Google 新操作系统首次曝光，Gemini 将成为系统级 AI 入口，影响桌面端 AI 交互方式。2 月 11 日报道。",
+      "source": "AIBase",
+      "url": "https://www.androidauthority.com/google-aluminium-os-gemini-integration-apk-teardown-3639334/",
+      "keywords": ["Google", "Aluminum OS", "Gemini"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-11T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 300
+  }
+}

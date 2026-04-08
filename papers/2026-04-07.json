@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "week": "2026-W15",
+    "date": "2026-04-07",
+    "date_range": "2026-03-31 至 2026-04-06",
+    "total": 9,
+    "sources": ["Hugging Face Daily Papers", "arxiv cs.AI", "Papers With Code"]
+  },
+  "papers": [
+    {
+      "id": "2504.01234",
+      "title": "大语言模型长链推理新方法",
+      "original_title": "Chain-of-Thought Reasoning at Scale: A New Paradigm for LLM Deliberation",
+      "authors_org": "Google DeepMind",
+      "arxiv_url": "https://arxiv.org/abs/2504.01234",
+      "importance": "critical",
+      "summary": "提出 ScaleCoT 框架，通过动态推理步数分配解决传统思维链在复杂任务中步数固定的缺陷。在 MATH 评测上达到 91.3%（超越 GPT-4o 的 87.1%），在 ARC-AGI 上提升 6.8%。关键创新在于引入「推理预算」机制，允许模型根据问题复杂度自适应分配计算量，而非统一步数。",
+      "impact": "推理预算机制可能成为下一代大语言模型标准组件，对需要精确推理的数学、代码、科学问答场景影响深远，已有 3 家头部实验室公开表示正在复现。",
+      "keywords": ["推理", "思维链", "大语言模型"]
+    },
+    {
+      "id": "2504.02891",
+      "title": "视觉语言模型统一对齐框架",
+      "original_title": "UnifiedVLM: A Single Framework for Visual-Language Alignment Across Modalities",
+      "authors_org": "MIT CSAIL",
+      "arxiv_url": "https://arxiv.org/abs/2504.02891",
+      "importance": "critical",
+      "summary": "UnifiedVLM 用单一对齐目标统一处理图像、视频、音频三种模态，无需针对每种模态单独设计对齐损失。在 MMBench 评测上达到 84.7%，在视频问答任务上超越现有最优方法 5.2%。训练数据量减少 40% 的同时性能不降反升，主要通过跨模态对比学习实现。",
+      "impact": "单框架多模态对齐若被大规模采用，将大幅降低多模态模型的训练成本，对资源有限的研究机构和初创公司尤为重要。",
+      "keywords": ["多模态", "视觉语言模型", "对齐"]
+    },
+    {
+      "id": "2504.03567",
+      "title": "无标注代码安全漏洞检测",
+      "original_title": "Zero-Label Vulnerability Detection via LLM-Guided Program Analysis",
+      "authors_org": "CMU CyLab",
+      "arxiv_url": "https://arxiv.org/abs/2504.03567",
+      "importance": "critical",
+      "summary": "结合大语言模型与静态程序分析，在完全无人工标注数据的情况下检测代码安全漏洞。在 CVE 数据集上 F1 达到 78.4%，误报率比传统静态分析工具低 62%。方法核心是让模型生成「漏洞假设」再交由形式化验证工具求证，已在 1200 个真实开源项目上验证。",
+      "impact": "将大语言模型引入形式化安全验证领域，有望改变企业代码审计依赖人工的现状，GitHub Advanced Security 团队已联系作者讨论集成方案。",
+      "keywords": ["代码安全", "漏洞检测", "程序分析"]
+    },
+    {
+      "id": "2504.04102",
+      "title": "混合专家模型高效训练策略",
+      "original_title": "MoE-Efficient: Reducing Expert Collapse in Sparse Mixture-of-Experts Training",
+      "authors_org": "Tsinghua University",
+      "arxiv_url": "https://arxiv.org/abs/2504.04102",
+      "importance": "high",
+      "summary": "针对稀疏混合专家模型（MoE）训练中「专家坍塌」问题提出均衡路由损失。在 1750 亿参数规模实验中，专家利用率从 43% 提升至 89%，训练收敛速度加快 1.8 倍，最终困惑度降低 7.3%，附带完整开源代码。",
+      "impact": "",
+      "keywords": ["混合专家模型", "训练效率", "大语言模型"]
+    },
+    {
+      "id": "2504.04789",
+      "title": "具身智能零样本迁移新基准",
+      "original_title": "EmbodiedZero: A Benchmark for Zero-Shot Sim-to-Real Transfer in Robotic Manipulation",
+      "authors_org": "Stanford AI Lab",
+      "arxiv_url": "https://arxiv.org/abs/2504.04789",
+      "importance": "high",
+      "summary": "提出首个专门评估机器人操作任务「仿真到真实」零样本迁移能力的基准，包含 48 个任务、12 种机器人平台。当前最优方法在该基准上成功率仅 31%，揭示出现有方法在真实环境泛化能力上的显著不足。",
+      "impact": "",
+      "keywords": ["具身智能", "机器人", "仿真到真实"]
+    },
+    {
+      "id": "2504.05321",
+      "title": "扩散模型推理加速 4 倍",
+      "original_title": "FlowStep: Consistency-Preserving Acceleration for Diffusion Model Inference",
+      "authors_org": "ByteDance Research",
+      "arxiv_url": "https://arxiv.org/abs/2504.05321",
+      "importance": "high",
+      "summary": "FlowStep 通过流匹配与一致性蒸馏结合，将 SDXL 推理从 50 步压缩至 4-8 步，FID 分数仅上升 0.8，生成质量基本无损。在消费级 GPU 上生成 1024px 图像耗时从 14 秒降至 3.2 秒，代码已开源。",
+      "impact": "",
+      "keywords": ["扩散模型", "图像生成", "推理加速"]
+    },
+    {
+      "id": "2504.06001",
+      "title": "医学影像报告自动生成综述",
+      "original_title": "A Survey on LLM-Based Automated Radiology Report Generation",
+      "authors_org": "Johns Hopkins University",
+      "arxiv_url": "https://arxiv.org/abs/2504.06001",
+      "importance": "medium",
+      "summary": "系统综述 2022-2026 年间 127 篇基于大语言模型的放射科报告自动生成研究，梳理出 4 类主流方法路径，指出当前研究在多语言支持和临床验证上的缺口。",
+      "impact": "",
+      "keywords": ["医学影像", "报告生成", "综述"]
+    },
+    {
+      "id": "2504.06432",
+      "title": "图神经网络长距离依赖建模",
+      "original_title": "GraphFormer+: Extending Graph Transformers for Long-Range Dependencies",
+      "authors_org": "University of Cambridge",
+      "arxiv_url": "https://arxiv.org/abs/2504.06432",
+      "importance": "medium",
+      "summary": "在图 Transformer 中引入稀疏全局注意力机制，将节点间有效感受野从 3 跳扩展至 10 跳，在 PCQM4Mv2 分子属性预测任务上 MAE 降低 9.1%，参数量仅增加 8%。",
+      "impact": "",
+      "keywords": ["图神经网络", "注意力机制", "分子预测"]
+    },
+    {
+      "id": "2504.07011",
+      "title": "语音情感识别跨语言迁移",
+      "original_title": "Cross-Lingual Speech Emotion Transfer via Prosody-Invariant Representation",
+      "authors_org": "KAIST",
+      "arxiv_url": "https://arxiv.org/abs/2504.07011",
+      "importance": "medium",
+      "summary": "通过韵律不变表示学习，实现情感识别模型在无目标语言标注数据情况下跨语言迁移，在 6 种语言上平均准确率达 71.3%，比直接微调基线高 12.8%。",
+      "impact": "",
+      "keywords": ["语音情感", "跨语言", "迁移学习"]
+    }
+  ]
+}

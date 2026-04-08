@@ -1,0 +1,132 @@
+{
+  "date": "2026-01-16",
+  "date_formatted": "26/01/16",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "GPT-5.2-Codex 7 天造出浏览器",
+      "content": "OpenAI 于 1 月 14 日开放 GPT-5.2-Codex API，定价每百万输入 1.75 美元、输出 14 美元。Cursor 团队让该模型连续运行 7 天，生成超 300 万行代码，从零构建了包含 Rust 渲染引擎、HTML 解析、CSS 布局和 JavaScript 虚拟机的完整浏览器，性能达 Chrome 级别。",
+      "importance": "critical",
+      "reasoning": "OpenAI 核心编程模型 API 开放，Cursor 案例展示 AI 自主完成人类需数月的复杂工程。今天（1 月 16 日）报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3640316487240838",
+      "keywords": ["OpenAI", "GPT-5.2-Codex", "300 万行代码", "浏览器", "Cursor"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "美国对 Nvidia H200 征收 25% 关税",
+      "content": "特朗普政府 1 月 15 日对出口中国的 Nvidia H200 等先进 AI 芯片征收 25% 关税。出口条件包括：中国客户采购量不得超美国客户的 50%、芯片须在美国进行第三方测试。英伟达表示欢迎该政策，称已重启 H200 生产，但中国市场能否接受仍存疑虑。",
+      "importance": "critical",
+      "reasoning": "美国对华 AI 芯片出口新政策落地，25% 关税 + 多项限制条件，影响全球 AI 芯片供应链。昨天（1 月 15 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/15/the-us-imposes-25-tariff-on-nvidias-h200-ai-chips-headed-to-china/",
+      "keywords": ["Nvidia", "H200", "25% 关税", "特朗普", "芯片出口"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "美团开源 LongCat-Flash-Thinking",
+      "content": "美团今日发布并开源 LongCat-Flash-Thinking-2601 模型，在工具调用和智能体搜索能力上达到开源最优水平。该模型在 AIME-25 数学评测中获满分 100 分，BrowseComp 搜索任务中以 73.1 分领先所有模型，采用 MIT 协议开源，支持蒸馏训练其他模型。",
+      "importance": "critical",
+      "reasoning": "美团发布首个完整开源「重思考模式」模型，多项评测达开源最优，数学满分，工具调用领先。今天（1 月 16 日）发布。",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/913/798.htm",
+      "keywords": ["美团", "LongCat", "开源", "满分", "工具调用"],
+      "category": "研究突破"
+    },
+    {
+      "id": 4,
+      "title": "Google Veo 3.1 支持 4K 竖屏视频",
+      "content": "Google 于 1 月 13 日更新视频生成模型 Veo 3.1，新增原生 9:16 竖屏输出和 4K 分辨率放大功能，改进角色一致性，支持最多 3 张参考图像生成视频。该模型已整合至 Gemini 应用和 YouTube Create。",
+      "importance": "critical",
+      "reasoning": "Google 核心视频生成模型重大更新，支持专业级 4K 和移动端竖屏格式，直接对标 Sora。1 月 13 日发布。",
+      "source": "GIGAZINE",
+      "url": "https://gigazine.net/gsc_news/en/20260114-google-veo-video-generation-ai/",
+      "keywords": ["Google", "Veo 3.1", "4K", "竖屏视频", "Gemini"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Higgsfield 估值 13 亿美元",
+      "content": "AI 视频生成公司 Higgsfield 完成 8000 万美元融资，估值达 13 亿美元。由前 Snap 生成式 AI 负责人创立，产品上线 9 个月用户超 1500 万，年化收入 2 亿美元，两个月内翻倍。计划年底将团队从 70 人扩至 300 人。",
+      "importance": "high",
+      "reasoning": "AI 视频生成独角兽诞生，9 个月用户 1500 万、年化收入 2 亿美元增速惊人。昨天（1 月 15 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/15/ai-video-startup-higgsfield-founded-by-ex-snap-exec-lands-1-3b-valuation/",
+      "keywords": ["Higgsfield", "13 亿美元", "AI 视频", "1500 万用户", "2 亿收入"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "豆包日活破亿成春晚 AI 合作伙伴",
+      "content": "字节跳动旗下豆包日活用户突破 1 亿，成为国内首个破亿的独立 AI 应用，大模型日均调用量达 63 万亿次。火山引擎成为 2026 央视春晚独家 AI 云合作伙伴，豆包将提供 AI 虚拟陪伴和实时问答等互动功能。",
+      "importance": "high",
+      "reasoning": "国内首个日活破亿独立 AI 应用，调用量 63 万亿次/日，春晚合作带来国民级曝光。今天（1 月 16 日）报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3638761286742784",
+      "keywords": ["豆包", "日活 1 亿", "字节跳动", "春晚", "63 万亿"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "支付宝发布 AI 助手开放协议",
+      "content": "支付宝今日发布国内首个 AI 助手商业开放协议 ACT，支持跨平台智能助手协作，内置信任机制，可应用于点餐、金融服务等场景。该协议旨在让不同平台的 AI 助手实现互联互通。",
+      "importance": "high",
+      "reasoning": "国内首个 AI 助手商业协议，支付宝推动 AI 助手生态标准化，与 Google UCP 形成东西呼应。今天（1 月 16 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["支付宝", "ACT 协议", "AI 助手", "跨平台", "开放协议"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 投资脑机接口公司",
+      "content": "OpenAI 投资了 Sam Altman 旗下的脑机接口初创公司 Merge Labs，显示 OpenAI 对神经接口技术的战略兴趣。具体投资金额未披露。",
+      "importance": "high",
+      "reasoning": "OpenAI 布局脑机接口领域，与 Neuralink 形成竞争，拓展 AI 应用边界。昨天（1 月 15 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/15/openai-backs-sam-altmans-brain-computer-interface-startup/",
+      "keywords": ["OpenAI", "Merge Labs", "脑机接口", "Sam Altman", "投资"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "腾讯混元 3D Studio 1.2 升级",
+      "content": "腾讯今日更新混元 3D Studio 至 1.2 版本，新增画笔交互功能，提升建模精度，支持专业级 3D 资产生成。",
+      "importance": "medium",
+      "reasoning": "腾讯 3D 生成工具常规升级，新增交互功能和精度提升。今天（1 月 16 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["腾讯", "混元", "3D Studio", "画笔交互", "建模"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "麦肯锡用 AI 进行校招初筛",
+      "content": "麦肯锡正在测试用 AI 聊天机器人进行研究生招聘的早期筛选，旨在简化候选人筛选流程。这是大型咨询公司首次公开采用 AI 进行招聘环节。",
+      "importance": "medium",
+      "reasoning": "顶级咨询公司首次公开用 AI 聊天机器人进行招聘筛选，反映 AI 在人力资源领域应用趋势。昨天（1 月 15 日）报道。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/mckinsey-tests-ai-chatbot-in-early-stages-of-graduate-recruitment/",
+      "keywords": ["麦肯锡", "AI 招聘", "聊天机器人", "校招", "筛选"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-16T10:30:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 300
+  }
+}

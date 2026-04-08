@@ -1,0 +1,133 @@
+{
+  "date": "2025-12-09",
+  "date_formatted": "25/12/09",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google 发布 Titans 长期记忆架构",
+      "content": "Google 发布 Titans 架构，实现 AI 模型超 200 万上下文长度的长期记忆能力，在检索任务中性能显著超越 GPT-4，可在运行中持续学习关键信息。",
+      "importance": "critical",
+      "reasoning": "重大技术突破：Google 推出 200 万上下文长度长期记忆架构，检索性能超越 GPT-4，实现运行中持续学习，对 AI 长上下文处理有重大推动，12 月 4 日发布。",
+      "source": "Google Research",
+      "url": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+      "keywords": ["Google", "Titans", "长期记忆", "AI 架构"],
+      "category": "技术突破"
+    },
+    {
+      "id": 1,
+      "title": "特朗普批准 Nvidia H200 对华出口",
+      "content": "特朗普批准 Nvidia 向中国「经批准客户」出售 H200 芯片，前提是美国政府获得销售额的 25% 分成。H200 性能是上一代 H20 的 6 倍，但最先进的 Blackwell 系列仍被禁止出口。习近平对该提议表示「积极回应」。",
+      "importance": "critical",
+      "reasoning": "芯片政策重大调整：特朗普批准 H200 对华出口并要求 25% 分成，性能是 H20 的 6 倍，习近平积极回应，昨天（12 月 8 日）宣布",
+      "source": "Bloomberg / Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2025/12/9/trump-clears-way-for-sale-of-powerful-nvidia-h200-chips-to-china",
+      "keywords": ["Nvidia", "H200", "特朗普", "对华出口"],
+      "category": "政策法规"
+    },
+    {
+      "id": 2,
+      "title": "DeepSeek 梁文锋入选 Nature 十大人物",
+      "content": "DeepSeek 创始人梁文锋入选 Nature 2025 年度十大科学人物，被称为「科技颠覆者」。其 R1 模型开源权重让科学家免费使用，今年 9 月研究论文登上 Nature 封面，打破主流 AI 模型不经独立同行评审的惯例。",
+      "importance": "critical",
+      "reasoning": "中国 AI 重大荣誉：DeepSeek 创始人入选 Nature 年度十大科学人物，被称为「科技颠覆者」，R1 模型开源并登上 Nature 封面，今天（12 月 9 日）发布",
+      "source": "Nature / 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20251209A02XIV00",
+      "keywords": ["DeepSeek", "梁文锋", "Nature", "十大人物"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "NVIDIA 团队赢得通用人工智能竞赛Kaggle ARC Prize 2025",
+      "content": "NVIDIA 团队在 ARC-AGI 2025 竞赛中夺冠，使用 40 亿参数模型在测试中准确率达 27.64%，超越 GPT-5 Pro，单次任务成本仅 0.20 美元，约为 GPT-5 Pro 的 1/36。",
+      "importance": "critical",
+      "reasoning": "重大技术突破：NVIDIA 小模型击败 GPT-5 Pro，成本仅 1/36，展示小模型优化潜力，对 AI 成本效率有重要影响。12 月发布。",
+      "source": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/nvidia-kaggle-grandmasters-win-artificial-general-intelligence-competition/",
+      "keywords": ["NVIDIA", "ARC-AGI", "成本效率", "小模型"],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 与德国电信签 20 万员工协议",
+      "content": "OpenAI 与德国电信达成合作，从 2026 年起为 20 万名员工部署 ChatGPT Enterprise，覆盖客服、IT、财务和人力资源。双方还将在德国数据中心共同部署 AI 集群。",
+      "importance": "high",
+      "reasoning": "重大企业部署：OpenAI 为德国电信 20 万员工部署 ChatGPT Enterprise，德国数据中心部署 AI 集群，今天（12 月 9 日）宣布",
+      "source": "Biztoc",
+      "url": "https://biztoc.com/x/11e3482dbbd70531",
+      "keywords": ["OpenAI", "德国电信", "ChatGPT Enterprise", "20万员工"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic Claude Code 集成 Slack",
+      "content": "Anthropic 推出 Claude Code 的 Slack 集成，用户可在 Slack 中标记 Claude 启动代码任务。Claude 自动收集上下文、选择代码仓库并执行，完成后提供会话和拉取请求链接。",
+      "importance": "critical",
+      "reasoning": "Anthropic 重大产品整合：Claude Code 集成 Slack 改变开发者工作流，自动收集上下文并执行代码任务，昨天（12 月 8 日）发布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/08/claude-code-is-coming-to-slack-and-thats-a-bigger-deal-than-it-sounds/",
+      "keywords": ["Anthropic", "Claude Code", "Slack", "集成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Instacart 在 ChatGPT 推出购物功能",
+      "content": "Instacart 成为首个在 ChatGPT 提供端到端购物的应用，覆盖 1800 家零售商，由 Stripe 提供支付。未来将支持 Apple Pay 和 Google Pay。",
+      "importance": "high",
+      "reasoning": "首个 ChatGPT 应用提供端到端购物和结账：覆盖 1800 家零售商，基于 Agentic Commerce 协议，昨天（12 月 8 日）发布",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/instacart-pilots-agentic-commerce-by-embedding-in-chatgpt/",
+      "keywords": ["Instacart", "ChatGPT", "购物", "Agentic Commerce"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "快手 Kling AI 推出角色库功能",
+      "content": "快手推出 Kling AI 角色库，实现一键跨场景使用角色，一致性超 96%，并支持长期记忆功能。",
+      "importance": "high",
+      "reasoning": "重要产品功能：快手 Kling AI 角色库实现 96% 一致性，解决视频生成一致性难题，对 AI 视频生成有重要推动。今天（12 月 8 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["快手", "Kling AI", "角色库", "视频生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "阿里 Qwen Code v0.3.0 提升效率",
+      "content": "阿里发布 Qwen Code v0.3.0，提升代码理解和自动化能力，新增双语界面和 Stream JSON 模式。",
+      "importance": "high",
+      "reasoning": "阿里开发工具升级：提升代码理解和自动化能力，双语界面支持，Stream JSON 模式，今天（12 月 9 日）发布",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23514",
+      "keywords": ["阿里巴巴", "Qwen Code", "代码", "开发工具"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Google Doppl 试衣应用加入购物",
+      "content": "Google 为 Doppl AI 虚拟试衣应用新增可购物发现功能，用户可直接购买试穿的商品。",
+      "importance": "high",
+      "reasoning": "Google AI 应用商业化扩展：虚拟试衣加入购物功能，对 AI 电商应用有参考价值，昨天（12 月 8 日）发布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/08/googles-ai-try-on-app-doppl-adds-a-shoppable-discovery-feed/",
+      "keywords": ["Google", "Doppl", "AI试衣", "购物"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-09T10:30:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "Bloomberg"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1800
+  }
+}

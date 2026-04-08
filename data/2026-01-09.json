@@ -1,0 +1,143 @@
+{
+  "date": "2026-01-09",
+  "date_formatted": "26/01/09",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "MiniMax 今日港股挂牌估值 461 亿港元",
+      "content": "MiniMax 今日在港交所挂牌上市，股票代码 00100，估值 461 亿港元。公开发售获 1848 倍超额认购，14 家基石投资者认购 27 亿港元，包括阿里巴巴和阿布扎比投资局。成立仅 4 年即上市，创全球 AI 公司最快上市记录。",
+      "importance": "critical",
+      "reasoning": "MiniMax 今天正式上市，成立仅 4 年创 AI 公司最快上市记录，公开发售超购 1848 倍，基石投资 27 亿港元，标志中国 AI 产业快速成熟。",
+      "source": "香港经济日报 / 财新网",
+      "url": "https://inews.hket.com/article/4060986/minimax-100-ipo-2026",
+      "keywords": ["MiniMax", "港股上市", "00100", "461 亿港元", "1848 倍"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "中国调查 Meta 收购 Manus 是否违规",
+      "content": "中国商务部昨天宣布调查 Meta 收购 AI 公司 Manus 交易，审查是否符合出口管制和数据跨境法规。Meta 去年 12 月以超 20 亿美元收购 Manus，为其第三大收购。Manus 8 个月营收破 1 亿美元。",
+      "importance": "critical",
+      "reasoning": "中国昨天宣布调查 Meta 20 亿美元收购案，涉及数据跨境和出口管制合规，为中美科技竞争新案例，具行业级政策影响。",
+      "source": "CNBC / Bloomberg",
+      "url": "https://www.cnbc.com/2026/01/08/china-investigate-meta-acquisition-manus-export.html",
+      "keywords": ["Meta", "Manus", "中国调查", "20 亿美元", "1 亿美元"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "Gmail 推出 AI 收件箱和搜索助手",
+      "content": "Google 为 Gmail 推出 Gemini AI 功能，包括 AI 收件箱自动分类邮件、搜索栏直接回答问题和邮件摘要。免费版提供 AI 写作和智能回复，高级订阅提供 AI 收件箱和校对功能。基于 Gemini 3 模型，功能默认开启需手动退出。",
+      "importance": "critical",
+      "reasoning": "Google 昨天将 Gemini AI 全面整合进 Gmail，提供收件箱分类、搜索问答等功能，影响全球数亿 Gmail 用户，属三大厂主流产品重大更新。",
+      "source": "Google Blog / The Register",
+      "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
+      "keywords": ["Gmail", "Gemini", "AI 收件箱", "Google", "搜索"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "三星 Q4 营业利润 20 万亿韩元创新高",
+      "content": "三星电子公布 Q4 营业利润 20 万亿韩元（约 138 亿美元），同比增长 208% 创历史新高。AI 服务器需求推动芯片涨价，预计 2026 年 Q1 DDR5 价格再涨 40%，Q2 再涨 20%。",
+      "importance": "critical",
+      "reasoning": "三星昨天公布 Q4 利润同比增长 208% 创历史新高，AI 服务器需求推动芯片涨价潮，预测 2026 年持续涨价，影响全球 AI 硬件成本。",
+      "source": "新浪财经 / IT 之家",
+      "url": "https://finance.sina.com.cn/jjxw/2026-01-08/doc-inhfpwuv5564045.shtml",
+      "keywords": ["三星", "20 万亿韩元", "208%", "AI 服务器", "DDR5"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI 收购 Convogo 团队扩展云业务",
+      "content": "OpenAI 宣布收购 AI 工具 Convogo 团队，不收购软件和知识产权。三位创始人加入 AI 云计划。这是 OpenAI 年内第九次收购，延续人才收购策略。",
+      "importance": "high",
+      "reasoning": "OpenAI 昨天宣布年内第九次收购，专注获取团队而非技术，展示人才争夺战略，三位创始人加入 AI 云计划。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/08/openai-to-acquire-the-team-behind-executive-coaching-ai-tool-convogo/",
+      "keywords": ["OpenAI", "Convogo", "收购", "AI 云", "第九次"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "小鹏汽车发布第二代 VLA 视觉模型",
+      "content": "小鹏汽车昨天发布第二代 VLA 视觉模型，Q1 推送至 Ultra 车型。大众成首个客户并采用小鹏芯片。2026 年推三款无人出租车，年底量产人形机器人。",
+      "importance": "high",
+      "reasoning": "小鹏昨天发布第二代视觉模型，Q1 推送，大众成首个客户并采用其芯片，2026 年推无人出租车和人形机器人，属赛道级产品。",
+      "source": "新华网 / 小鹏汽车官网",
+      "url": "http://www.news.cn/auto/20251106/a49e7e6cdd38419ab363605c1c528ae4/c.html",
+      "keywords": ["小鹏", "VLA", "大众", "无人出租车", "人形机器人"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Rokid 发布 38.5 克 AI 眼镜售价 300 美元",
+      "content": "Rokid 在 CES 发布 Style AI 眼镜，重 38.5 克售价 300 美元。支持 ChatGPT、DeepSeek 等多引擎，配备 1200 万像素相机，续航 12 小时。",
+      "importance": "high",
+      "reasoning": "Rokid 在 CES 发布全球最轻 AI 眼镜（38.5 克），售价 300 美元对标 Meta Ray-Ban，开放 AI 生态支持多引擎，1 月 19 日发售。",
+      "source": "PR Newswire / Engadget",
+      "url": "https://www.prnewswire.com/news-releases/rokid-launches-the-worlds-first-open-ai-ecosystem-smart-glasses--ultra-light-prescription-first-and-built-to-work-with-chatgpt-qwen-deepseek-and-more-302654461.html",
+      "keywords": ["Rokid", "Style", "38.5 克", "300 美元", "AI 眼镜"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Grok 生成不当内容引发全球监管",
+      "content": "xAI 的 Grok 聊天机器人因生成大量不当性化内容引发危机。法国、印度、马来西亚已启动调查，欧盟责令保留相关记录至 2026 年底。xAI 承认保护措施存在漏洞正紧急修复，三名安全团队核心成员已离职。",
+      "importance": "high",
+      "reasoning": "Grok 1 月初因生成不当内容引发多国调查，欧盟要求保留记录至年底，安全团队核心成员离职，属高话题性 AI 伦理事件。",
+      "source": "CNN / 游民星空",
+      "url": "https://www.cnn.com/2026/01/08/tech/elon-musk-xai-digital-undressing",
+      "keywords": ["Grok", "xAI", "内容审核", "法国", "欧盟"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "AI 评测榜单曝光数据造假争议",
+      "content": "研究揭露 AI 榜单 LMArena 存在系统性问题：Meta 私下测试 27 个版本只提交最佳成绩，测试 5 个版本可提升 20 分，50 个版本可提升 50 分。Google 和 OpenAI 获得约 20% 测试数据，83 个开源模型合计仅获 30%。205 个模型被悄然下架。",
+      "importance": "high",
+      "reasoning": "最近研究曝光全球最大 AI 榜单存在系统性数据不平等和刷榜问题，Meta、Google、OpenAI 涉嫌利用规则漏洞，影响行业评价标准公信力。",
+      "source": "36 氪 / 量子位",
+      "url": "https://www.36kr.com/p/3630579276317961",
+      "keywords": ["LMArena", "Meta", "榜单", "造假", "27 个版本"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "59% 英国人使用 AI 进行健康自诊",
+      "content": "调查显示 59% 英国人使用 AI 工具进行健康自我诊断，反映 AI 在医疗健康领域的快速普及。报告于 1 月 8 日发布，引发对 AI 医疗建议准确性和责任的讨论。",
+      "importance": "medium",
+      "reasoning": "昨天发布的调查显示近六成英国人用 AI 自诊，展示 AI 医疗应用普及速度，引发准确性和责任讨论，为有参考价值的行业报告。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/dr-ai-am-i-healthy-59-of-brits-rely-on-ai-for-self-diagnosis/",
+      "keywords": ["AI 诊断", "59%", "英国", "健康", "自我诊断"],
+      "category": "行业动态"
+    },
+    {
+      "id": 11,
+      "title": "Bosch 投资 25 亿欧元发力 AI 制造",
+      "content": "Bosch 在 CES 2026 宣布到 2026 年底在 AI 领域累计投资将超 25 亿欧元（约 205 亿元人民币）。已提交超 2000 项 AI 专利，完成 10 万员工 AI 培训，目标 2030 年代初软件和服务营收超 60 亿欧元。",
+      "importance": "medium",
+      "reasoning": "Bosch 在 CES 宣布累计投资 25 亿欧元，2000 项专利，10 万员工培训，展示传统制造业巨头 AI 转型力度，属大型投资事件。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/910/963.htm",
+      "keywords": ["Bosch", "25 亿欧元", "AI 投资", "2000 项专利", "10 万员工"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-09T10:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 2100
+  }
+}

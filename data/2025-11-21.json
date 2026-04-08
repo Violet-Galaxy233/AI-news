@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-21",
+  "date_formatted": "25/11/21",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google 发布 Nano Banana Pro 图像模型",
+      "content": "Google 深夜发布代号 Nano Banana Pro 的 Gemini 2.5 Flash Image 图像模型,支持快速图像生成和编辑。模型在图像质量和速度上超越同类产品,已集成到 Google AI Studio 和 Vertex AI 平台。产品名称引发广泛讨论。",
+      "importance": "critical",
+      "reasoning": "Google 核心产品发布:深夜发布 Gemini 2.5 Flash Image 图像模型,独特产品名称引发高话题性,已集成主流平台,对图像生成市场有重要影响,今天(11 月 21 日)发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3561985684159367",
+      "keywords": ["Google", "Nano Banana Pro", "Gemini", "图像生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 发布 GPT-5.1 Pro 回应 Gemini 3",
+      "content": "OpenAI 深夜紧急发布 GPT-5.1 Pro 和 GPT-5.1-Codex-Max 两款模型。Pro 版本在推理能力上全面提升,Codex-Max 首次采用压缩机制,可在数百万字符上连续编程超 24 小时。发布时间紧随 Google Gemini 3,被视为直接回应竞争。",
+      "importance": "critical",
+      "reasoning": "OpenAI 主流产品紧急发布:GPT-5.1 Pro 和 Codex-Max 同日发布,压缩机制支持 24 小时连续编程,紧随 Gemini 3 体现竞争激烈,对 AI 模型市场有重大影响,今天(11 月 21 日)发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3560848667671682",
+      "keywords": ["OpenAI", "GPT-5.1 Pro", "Codex-Max", "编程"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "ChatGPT 群聊功能全球开放",
+      "content": "OpenAI 正式向全球所有登录用户开放 ChatGPT 群聊功能,支持最多 20 人参与。用户可通过 @提及 触发 AI 回复,个人记忆数据完全加密且不在群聊中共享。功能由 GPT-5.1 Auto 驱动,可自动选择最适合的模型。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重要功能全球推送:群聊支持 20 人、加密个人数据、GPT-5.1 Auto 自动选模型,从区域测试到全球开放,对协作 AI 应用有重要推动,昨天(11 月 20 日)全球开放。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["OpenAI", "ChatGPT", "群聊", "协作"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 与富士康合作开发 AI 服务器",
+      "content": "OpenAI 与富士康签署非约束性协议,将共同开发 AI 服务器硬件和冷却系统。协议授予 OpenAI 评估和采购权,但不承诺具体采购量。双方将在美国本土进行硬件开发和制造。",
+      "importance": "critical",
+      "reasoning": "重要战略合作:OpenAI 与全球最大电子制造商富士康合作开发 AI 服务器,本土制造策略,虽为非约束性但显示硬件自研意图,对 AI 基础设施有重要影响,今天(11 月 21 日)宣布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["OpenAI", "富士康", "AI 服务器", "硬件"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Google Gemini 支持 AI 图像识别",
+      "content": "Google Gemini 新增 AI 生成图像识别功能,用户可通过查询识别图像是否由 AI 生成。功能计划扩展至视频和音频验证,并将集成到更多 Google 服务中。这是首个主流 AI 模型支持 AI 内容检测。",
+      "importance": "high",
+      "reasoning": "重要功能更新:Gemini 首个支持 AI 图像识别的主流模型,计划扩展至视频音频,对 AI 内容真实性验证有重要意义,今天(11 月 21 日)推出。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["Google", "Gemini", "AI 检测", "图像识别"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "OverDrive 起诉 OpenAI Sora 商标侵权",
+      "content": "教育科技公司 OverDrive 对 OpenAI 提起商标侵权诉讼,指控 Sora 品牌名称侵犯其 2018 年推出的学生阅读应用商标。OverDrive 服务覆盖美国 1.2 万个 K-12 学区,在教育领域具有先用权。",
+      "importance": "high",
+      "reasoning": "重要法律纠纷:OverDrive 起诉 OpenAI Sora 商标侵权,涉及 1.2 万学区教育市场,对 OpenAI Sora 品牌和推广有影响,今天(11 月 21 日)提起诉讼。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["OverDrive", "OpenAI", "Sora", "商标侵权"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Perplexity 推出 Comet 浏览器安卓版",
+      "content": "Perplexity 正式发布 Comet AI 浏览器安卓版,支持自定义默认搜索引擎、标签化查询和语音交互模式。浏览器深度集成 Perplexity AI 搜索能力,用户可在浏览过程中直接调用 AI 助手。",
+      "importance": "high",
+      "reasoning": "赛道级产品发布:Perplexity 推出 AI 原生浏览器安卓版,自定义搜索引擎、语音交互、深度 AI 集成,对 AI 浏览器市场有推动作用,今天(11 月 21 日)发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["Perplexity", "Comet", "浏览器", "安卓"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "前 Google 团队推出 Mixup AI 照片编辑器",
+      "content": "前 Google 团队发布 iOS 照片编辑应用 Mixup,采用创新的 Recipe 提示词机制。用户上传照片后可生成文艺复兴肖像等多种创意变体,提示词以食谱形式呈现降低使用门槛。应用已在 App Store 上线。",
+      "importance": "high",
+      "reasoning": "创新产品发布:前 Google 团队推出创新 Recipe 提示词机制的 AI 照片编辑器,降低使用门槛,对消费级 AI 应用有参考价值,今天(11 月 21 日)发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["Mixup", "照片编辑", "iOS", "前 Google"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Gemini 3 vs ChatGPT 能力差异分析",
+      "content": "36 氪分析指出,Gemini 3 与 ChatGPT 在产品理念上存在本质差异。Gemini 3 强调多模态统一和深度思考能力,而 ChatGPT 注重对话体验和应用生态。文章认为不应简单对比性能,应关注各自在产品层面的差异化价值。",
+      "importance": "high",
+      "reasoning": "重要行业分析:深度分析 Gemini 3 与 ChatGPT 产品理念差异,对理解 AI 产品方向有参考价值,今天(11 月 21 日)发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3561351991377024",
+      "keywords": ["Gemini 3", "ChatGPT", "产品分析", "对比"],
+      "category": "行业观点"
+    },
+    {
+      "id": 10,
+      "title": "马斯克与黄仁勋对话引发争议",
+      "content": "马斯克在与 Nvidia CEO 黄仁勋的对话中表示'钱会变得没用',黄仁勋回应'请提前告诉我一声'。对话涉及 AGI 时代的经济模式、算力价值等话题,引发行业关于 AI 未来经济形态的讨论。",
+      "importance": "high",
+      "reasoning": "高话题性对话:马斯克与黄仁勋关于 AGI 经济模式的争论,涉及算力价值和未来经济形态,引发广泛讨论,昨天(11 月 20 日)对话。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3560802985327746",
+      "keywords": ["马斯克", "黄仁勋", "AGI", "经济模式"],
+      "category": "行业观点"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-21T10:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1800
+  }
+}

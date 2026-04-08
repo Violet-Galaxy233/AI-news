@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-11",
+  "date_formatted": "25/11/11",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发布 Codex-Mini 使用量提升 4 倍",
+      "content": "OpenAI 发布 GPT-5-Codex-Mini 编程模型，使用量是标准版 4 倍，在 SWE-bench 测试达 71.3% 准确率。模型支持 CLI、IDE 插件，API 接口两周内上线。ChatGPT Plus 用户获 50% 更高调用限额，Pro 和企业账户享优先处理。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重大产品发布：编程模型使用量提升 4 倍，71.3% 测试准确率展示技术实力，Plus 用户 50% 限额提升影响广泛用户，11 月发布（本周）。",
+      "source": "Neowin",
+      "url": "https://www.neowin.net/news/openai-introduces-gpt-5-codex-mini-a-cost-efficient-coding-model-for-developers/",
+      "keywords": ["OpenAI", "GPT-5-Codex-Mini", "编程", "开发工具"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Lovable 接近 800 万用户估值或达 50 亿",
+      "content": "AI 编程平台 Lovable 用户接近 800 万，从 7 月的 230 万大幅增长。公司今年夏天完成 2 亿美元融资，估值 18 亿美元。每天有 10 万个产品在 Lovable 上构建,超过半数 Fortune 500 公司使用该平台。传闻新投资者希望以 50 亿美元估值投资。",
+      "importance": "critical",
+      "reasoning": "爆发式增长案例：用户从 230 万涨至 800 万，估值从 18 亿传闻涨至 50 亿，半数 Fortune 500 采用展示企业认可，对 AI 编程市场有重要指引，昨天（11 月 10 日）披露。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees/",
+      "keywords": ["Lovable", "AI 编程", "融资", "用户增长"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Meta 开源语音识别支持 1600 种语言",
+      "content": "Meta 发布 Omnilingual ASR 语音识别系统，支持超过 1600 种语言，包括 500 种此前从未被 AI 转录的低资源语言。70 亿参数模型在 78% 语言上字符错误率低于 10%。系统采用 Apache 2.0 许可开源，提供 3 亿参数轻量版到 70 亿参数完整版。",
+      "importance": "critical",
+      "reasoning": "历史性技术突破：1600 种语言覆盖是此前系统数倍，500 种低资源语言首次支持填补空白，78% 语言低于 10% 错误率，Apache 2.0 开源对社区有重大贡献，昨天（11 月 10 日）发布。",
+      "source": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/",
+      "keywords": ["Meta", "语音识别", "开源", "多语言"],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "Wikipedia 呼吁 AI 公司使用付费 API",
+      "content": "Wikimedia 基金会呼吁 AI 公司使用付费 API 而非抓取内容。基金会更新机器人检测系统后发现，5-6 月异常高流量来自试图规避检测的 AI 爬虫，同期真人页面浏览量同比下降 8%。基金会推广 Wikimedia Enterprise 付费服务，要求 AI 开发者提供内容归属。",
+      "importance": "critical",
+      "reasoning": "行业级政策变化：Wikipedia 作为最大知识库要求付费访问影响所有 AI 公司，8% 真人流量下降展示 AI 爬虫影响，对 AI 训练数据获取方式有重大影响，昨天（11 月 10 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/wikipedia-urges-ai-companies-to-use-its-paid-api-and-stop-scraping/",
+      "keywords": ["Wikipedia", "Wikimedia", "付费 API", "数据抓取"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Scribe 完成 7500 万美元融资估值 13 亿",
+      "content": "流程文档平台 Scribe 以 13 亿美元估值完成 7500 万美元 C 轮融资，由 StepStone 领投。公司过去一年营收翻倍，估值较上轮增长 5 倍。Scribe 拥有超 500 万用户，94% Fortune 500 公司内部团队使用，付费客户达 7.8 万家。融资将用于推出工作流优化平台。",
+      "importance": "critical",
+      "reasoning": "新晋独角兽诞生：13 亿美元估值，营收翻倍和估值涨 5 倍展示强劲增长，94% Fortune 500 采用证明企业价值，对 AI 工作流自动化赛道有重要意义，昨天（11 月 10 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/scribe-hits-1-3b-valuation-as-it-moves-to-show-where-ai-will-actually-pay-off/",
+      "keywords": ["Scribe", "融资", "独角兽", "工作流自动化"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Kaltura 以 2700 万美元收购 eSelf",
+      "content": "视频平台 Kaltura 以 2700 万美元收购 数字人公司 eSelf.ai，后者由 Snap AI 创造者 Alan Bekker 创立。交易包括 750 万美元现金、1250 万美元绩效付款和 469 万股股票。eSelf 提供支持 30 多种语言的对话式虚拟形象，团队全部加入 Kaltura。",
+      "importance": "high",
+      "reasoning": "重要并购交易：Snap AI 创造者创业公司被收购展示人才流动，2700 万美元交易额，30 种语言虚拟形象技术有应用价值，11 月 5 日签约（6 天前）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/",
+      "keywords": ["Kaltura", "eSelf", "收购", "虚拟形象"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Tesla 考虑与 Intel 合作成本仅 Nvidia 10%",
+      "content": "Tesla CEO Musk 表示正考虑与 Intel 合作生产第五代 AI 芯片，功耗是 Nvidia Blackwell 三分之一，制造成本仅 10%。Tesla 计划建设月产 10 万片晶圆的超大芯片厂。Musk 表态后 Intel 股价盘前上涨 3%。",
+      "importance": "high",
+      "reasoning": "重大硬件合作意向：成本仅 Nvidia 10% 和功耗三分之一展示技术优势，10 万片月产能规模巨大，Intel 股价涨 3% 反映市场认可，对 AI 芯片竞争格局有影响，11 月 6 日股东大会宣布（5 天前）。",
+      "source": "Reuters",
+      "url": "https://www.investing.com/news/stock-market-news/musk-plans-tesla-mega-ai-chip-fab-mulls-potential-intel-partnership-4341043",
+      "keywords": ["Tesla", "Intel", "AI 芯片", "Nvidia"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "美团 CatPaw 编程工具进入公测",
+      "content": "美团推出 CatPaw AI 编程工具进入公测，提供 Ask 和 Agent 两种模式，支持 Python、Java、JavaScript、Go、Rust 等主流语言。数据显示美团研发团队 AI 生成代码占 50%，周活跃率超 80%。新用户获 500 次免费调用。",
+      "importance": "high",
+      "reasoning": "赛道级产品发布：美团作为中国互联网大厂推出编程工具，内部 50% 代码 AI 生成和 80% 周活证明实用性，对国内 AI 编程工具市场有推动作用，昨天（11 月 10 日）开放公测。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22674",
+      "keywords": ["美团", "CatPaw", "AI 编程", "IDE"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "韩国延世大学数百学生 AI 作弊",
+      "content": "韩国延世大学数百名学生在自然语言处理课程期中考试中使用 ChatGPT 作弊。教师取消考试可能影响 600 名注册学生中超 50%。事件引发对 AI 时代学术诚信和评估方式改革的广泛讨论。",
+      "importance": "high",
+      "reasoning": "高话题性事件：600 名学生超 50% 涉及作弊展示 AI 对教育的冲击，NLP 课程学生用 AI 作弊颇具讽刺，对学术评估体系改革有警示作用，昨天（11 月 10 日）曝光。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22675",
+      "keywords": ["延世大学", "ChatGPT", "学术诚信", "AI 作弊"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "月之暗面开源轻量级智能体框架",
+      "content": "月之暗面发布开源智能体框架 Kosong，采用统一工具抽象、异步编排和插件化设计，简化 AI 模型与实际应用的连接。框架支持主流编程语言，降低开发者构建智能体应用的门槛。",
+      "importance": "medium",
+      "reasoning": "实用开源工具：月之暗面作为国内头部 AI 公司推出轻量级框架，降低智能体开发门槛，对开发者社区有帮助，今天（11 月 11 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/22680",
+      "keywords": ["月之暗面", "Kosong", "智能体", "开源框架"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-11T09:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "Web Search"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1800
+  }
+}

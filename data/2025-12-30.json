@@ -1,0 +1,121 @@
+{
+  "date": "2025-12-30",
+  "date_formatted": "25/12/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Meta 数十亿美元收购 AI 智能体公司 Manus",
+      "content": "Meta 宣布以数十亿美元收购 AI 智能体公司 Manus，为 Meta 史上第三大收购。Manus 创始人肖弘将出任 Meta 副总裁，领导全球通用 AI 业务。Manus 自 3 月推出以来处理量超 147 万亿次，年营收达 1.25 亿美元。",
+      "importance": "critical",
+      "reasoning": "Meta 史上第三大收购，数十亿美元交易额，Manus 年营收 1.25 亿美元、处理量 147 万亿次，展示 AI 智能体赛道价值。今天（12 月 30 日）发布。",
+      "source": "新浪财经 / 虎嗅",
+      "url": "https://finance.sina.com.cn/roll/2025-12-30/doc-inhepqvr7445594.shtml",
+      "keywords": ["Meta", "Manus", "收购", "AI 智能体"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "腾讯混元开源翻译模型 1.5 手机可运行",
+      "content": "腾讯混元开源翻译模型 1.5，包含 1.8B 和 7B 两个版本。1.8B 模型仅需 1GB 内存即可在手机离线运行，处理 50 个字符仅需 0.18 秒，效果超越多数商用翻译 API。",
+      "importance": "high",
+      "reasoning": "腾讯混元开源翻译模型，1GB 内存手机可运行，0.18 秒处理速度，超越商用 API，推动端侧 AI 发展。今天（12 月 30 日）发布。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/909/247.htm",
+      "keywords": ["腾讯混元", "翻译模型", "1GB 内存", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI 发布 300+ 职业提示词包",
+      "content": "OpenAI 发布 300+ 个职业提示词包，覆盖销售、工程、产品、人力、教育等所有职业角色。每个包含约 25 个高质量提示词，用户可通过 OpenAI Academy 免费获取。",
+      "importance": "high",
+      "reasoning": "OpenAI 发布 300+ 提示词包，覆盖所有职业角色，每包 25 个提示词，免费提供，降低 AI 使用门槛。昨天（12 月 29 日）发布。",
+      "source": "AI Breakfast",
+      "url": "https://aibreakfast.beehiiv.com/p/openai-drops-curated-prompt-packs-for-every-role",
+      "keywords": ["OpenAI", "提示词包", "300+", "职业"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "前字节技术负责人创业获数千万融资",
+      "content": "前字节技术负责人创业成立 词元无限 公司，推出企业级 AI 编程平台，已获数千万元融资。项目专注企业级场景应用，为企业提供代码生成和协作工具。",
+      "importance": "high",
+      "reasoning": "前字节技术负责人创业，企业级 AI 编程平台获数千万融资，展示企业级 AI 工具创业热度。今天（12 月 30 日）报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3616436553696514",
+      "keywords": ["字节", "创业", "AI 编程", "数千万融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 7,
+      "title": "66% 程序员称 AI 工具调试比自写更费时",
+      "content": "调查显示 84% 开发者使用 AI 编程工具，但 66% 表示修复 AI 生成代码的 bug 比自己编写更耗时。开发者对 AI 工具好感度下降，调试成本成为主要痛点。",
+      "importance": "high",
+      "reasoning": "84% 开发者使用 AI 工具但 66% 认为调试更费时，反映 AI 编程工具实际效果与预期差距。今天（12 月 30 日）报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3616019999196418",
+      "keywords": ["AI 工具", "程序员", "66%", "调试成本"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "开发者称 AI 强制写出更好代码",
+      "content": "Hacker News 热议 AI 如何提升代码质量标准，开发者认为 AI 工具正推动更好的编程实践和代码规范。",
+      "importance": "medium",
+      "reasoning": "Hacker News 热门话题，196 点赞，讨论 AI 如何提升代码质量，反映开发者对 AI 影响的思考。今天（12 月 30 日）讨论。",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "keywords": ["AI", "代码质量", "Hacker News", "编程实践"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "开源工具解决 Claude Code 记忆问题",
+      "content": "开发者推出工具解决 Claude Code 上下文记忆限制。",
+      "importance": "medium",
+      "reasoning": "开源工具解决 Claude Code 痛点，Hacker News 156 点赞，展示开发者对 AI 工具改进的需求。今天（12 月 30 日）发布。",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "keywords": ["Claude Code", "记忆", "GitHub", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Loomi 推出 AI 内容创作平台",
+      "content": "Loomi 推出 AI 内容创作平台，支持网页搜索、深度研究和文件整理，提供从研究到输出的系统化工作流。",
+      "importance": "medium",
+      "reasoning": "新 AI 内容创作平台上线，提供系统化工作流，丰富 AI 创作工具生态。今天（12 月 30 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24139",
+      "keywords": ["Loomi", "AI 创作", "平台", "工作流"],
+      "category": "产品发布"
+    },
+    {
+      "id": 11,
+      "title": "WitNote 推出离线 AI 笔记工具",
+      "content": "WitNote 推出离线 AI 笔记工具，支持 Windows 和 macOS，本地运行 AI 模型，无需订阅，保护隐私。",
+      "importance": "medium",
+      "reasoning": "新离线 AI 笔记工具，本地运行保护隐私，无需订阅，满足隐私保护需求。今天（12 月 30 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24137",
+      "keywords": ["WitNote", "离线 AI", "笔记", "隐私"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-30T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 0,
+    "generation_time_seconds": 1800
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-03",
+  "date_formatted": "26/04/03",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "谷歌Gemma 4全系发布",
+      "content": "谷歌发布 Gemma 4 开源系列，Apache 2.0 完整商用无限制；旗舰 31B Dense 在 AIME 2026 数学测评得分 89.2%（上代仅 20.8%，提升 4 倍），编程 ELO 从 110 升至 2150，Arena AI 全球第 3；轻量 26B MoE 仅激活 3.8B 参数即达 88.3%；支持 256K 上下文、140 种语言，含原生视觉与音频理解能力。",
+      "importance": "critical",
+      "reasoning": "4月2日 Google DeepMind 官方发布，HN 1378分（今日全站最高分）。Apache 2.0无限制商用是重大授权变化；AIME 2026数学89.2%（较上代提升4倍）、编程ELO从110升至2150均属范式级进步；Arena AI全球第3名首次与顶尖闭源模型同台竞争。谷歌核心开源产品系列，critical级。",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "keywords": ["Gemma 4", "谷歌", "开源", "Apache 2.0", "AIME 2026", "Arena AI", "256K上下文"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Qwen3.6-Plus发布",
+      "content": "阿里巴巴发布 Qwen3.6-Plus，国内最强编程智能体模型：在 SWE-bench 和 Terminal-Bench 2.0 两项自主编程测评中媲美 Claude Opus 4.5；默认 100 万字符上下文，支持复杂跨文件工程任务；原生多模态，可直接读取截图或设计草图输出可运行代码，即日通过 API 向企业和开发者开放。",
+      "importance": "critical",
+      "reasoning": "4月2日阿里云官方及 Caixin Global 报道，HN 503分。国内首个在 SWE-bench 和 Terminal-Bench 2.0 上媲美 Claude Opus 4.5 的编程智能体模型，100万字符上下文+截图转代码面向真实工程场景，是中国 AI 编程赛道的重大突破，critical级。",
+      "source": "Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/blog/qwen3-6-plus-towards-real-world-agents_603005",
+      "keywords": ["Qwen3.6-Plus", "阿里巴巴", "编程智能体", "SWE-bench", "截图转代码", "100万字符"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "微软发布MAI三款自研模型",
+      "content": "微软通过 Azure AI Foundry 发布三款自研 MAI 模型：MAI-Transcribe-1 语音识别在 25 种语言平均错误率 3.8%，全面超越 OpenAI Whisper 和谷歌 Gemini 3.1 Flash，推理成本降低 50%，起价 $0.36/小时；MAI-Voice-1 在 1 秒内完成 60 秒语音生成；MAI-Image-2 在全球图像排行 Arena 位列第 3；三款模型标志微软首次全面进入基础模型自研竞争。",
+      "importance": "critical",
+      "reasoning": "4月2日微软官方、VentureBeat、TechCrunch 广泛报道。MAI-Transcribe-1在25种语言WER全面超越Whisper/Gemini，加上MAI-Voice-1和MAI-Image-2，三款同日发布标志微软从依赖 OpenAI 转向完全自研基础模型，是 AI 格局的重大变化，critical级。",
+      "source": "Microsoft",
+      "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+      "keywords": ["MAI-Transcribe-1", "MAI-Voice-1", "MAI-Image-2", "微软", "语音识别", "WER 3.8%", "Azure Foundry"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Cursor 3升级智能体平台",
+      "content": "AI 代码编辑器 Cursor 发布 3.0 版，从 IDE 全面升级为「智能体优先」开发平台：支持多仓库并行工作区、本地与云端智能体无缝切换，可从手机、Slack、GitHub、Linear 直接发起任务；新增 Cursor Marketplace，提供数百款 MCP 插件扩展，标志 AI 编程工具全面进入自主智能体时代。",
+      "importance": "high",
+      "reasoning": "4月2日 Cursor 官方发布，HN 377分。Cursor 估值 290 亿美元，3.0 版从 IDE 到智能体平台的转型是产品范式转变，多平台智能体协同和 Marketplace 生态是实质突破，high级。",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/cursor-3",
+      "keywords": ["Cursor 3.0", "智能体", "代码编辑器", "多工作区", "MCP", "Marketplace"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "微软宣布百亿美元日本投资",
+      "content": "微软宣布 2026-2029 年向日本投入 100 亿美元（约 1.6 万亿日元）建设 AI 算力与网络安全基础设施，联合 SoftBank 和 Sakura Internet 部署 GPU 集群；由微软总裁 Brad Smith 访日期间宣布，2030 年前培训 100 万名工程师与开发者，并支持日本开发本土语言模型。",
+      "importance": "high",
+      "reasoning": "4月3日 Bloomberg、Reuters、Nikkei Asia 同日报道。100亿美元是单次对日AI基础设施承诺中规模最大，涵盖算力、人才和本土模型三条线，是美日AI战略合作的重要信号，high级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-03/microsoft-drafts-10-billion-investment-plan-in-ai-hungry-japan",
+      "keywords": ["微软", "日本", "100亿美元", "SoftBank", "GPU算力", "Brad Smith", "100万工程师"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "AMD发布开源本地AI服务器",
+      "content": "AMD 发布开源本地 AI 推理服务器 Lemonade，轻量 C++ 实现，兼容 OpenAI API，自动选用 GPU/NPU/CPU 最优组合；覆盖 4 大平台（Windows/Linux/macOS/Docker），支持 LLaMA、DeepSeek、Qwen、Gemma 等 7 种以上主流模型框架，内置桌面应用可管理模型库、文生图和语音工作流；AMD 正式进军本地 AI 推理市场，挑战 Apple MLX 和 llama.cpp。",
+      "importance": "high",
+      "reasoning": "今日 HN 热门，500+分，AMD 官方发布。AMD 作为全球顶级芯片公司首次推出完整本地 AI 推理软件栈，OpenAI API 兼容大幅降低迁移门槛，GPU/NPU 联合推理是技术亮点，是本地 AI 推理生态格局变化的重要节点，high级。",
+      "source": "AMD",
+      "url": "https://lemonade-server.ai",
+      "keywords": ["AMD", "Lemonade", "本地推理", "开源", "OpenAI API", "NPU", "llama.cpp"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "OpenAI收购播客TBPN",
+      "content": "OpenAI宣布收购硅谷知名创业者科技播客 TBPN，由首席政治官 Chris Lehane 主导，TBPN 保持独立运营；这是 OpenAI 首次收购媒体内容平台，外界认为意在强化 AI 叙事影响力布局。",
+      "importance": "medium",
+      "reasoning": "4月2日 TechCrunch 及 OpenAI 官方宣布，HN 203分。收购媒体播客对 AI 公司而言是新动向，无具体收购金额，战略意义以影响力为主而非技术，medium级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+      "keywords": ["OpenAI", "TBPN", "媒体收购", "Chris Lehane", "内容影响力"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "美国AI立法多州同步推进",
+      "content": "田纳西州签署 SB 1580，禁止 AI 系统将自身定性为合格心理健康专业人士；乔治亚州 3 项 AI 法案（儿童安全、保险决策限制、AI 研究委员会）同日提交州长，美国州级 AI 立法本周进入密集期。",
+      "importance": "medium",
+      "reasoning": "4月3日 Transparency Coalition 报道。田纳西州 SB 1580 是心理健康 AI 合规立法的新里程碑，乔治亚州 3 项法案同步推进，多州同步是美国 AI 立法节奏加快的缩影，medium级（区域政策，多州同步有全国意义）。",
+      "source": "Transparency Coalition",
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026",
+      "keywords": ["AI立法", "田纳西州", "乔治亚州", "心理健康AI", "儿童安全", "SB 1580"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "谷歌Vids开放头像提示词控制",
+      "content": "谷歌为 Vids 视频创作应用新增提示词操控数字头像功能，用户可用自然语言指令实时控制虚拟主持人动作与表情，面向无需摄像头的营销及在线教育视频制作场景。",
+      "importance": "medium",
+      "reasoning": "4月2日 TechCrunch 报道。谷歌 Vids 是 Google Workspace 的视频创作工具，提示词驱动的数字头像是面向普通用户的实用功能更新，medium级（常规产品迭代）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
+      "keywords": ["谷歌", "Vids", "数字头像", "提示词", "Google Workspace", "视频创作"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-03T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Google DeepMind", "Alibaba Cloud", "Microsoft", "Cursor", "AMD", "Hacker News", "AI News", "Caixin Global", "VentureBeat", "Bloomberg", "Reuters", "Nikkei Asia", "Transparency Coalition"],
+    "duplicates_removed": 10,
+    "generation_time_seconds": 520
+  }
+}

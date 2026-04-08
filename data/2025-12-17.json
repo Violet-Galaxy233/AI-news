@@ -1,0 +1,134 @@
+{
+  "date": "2025-12-17",
+  "date_formatted": "25/12/17",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 雇佣前英国财政大臣主导Stargate 项目",
+      "content": "OpenAI 任命前英国财政大臣 George Osborne 为董事总经理，领导 5000 亿美元 Stargate 项目的全球扩张，负责与各国政府合作推进主权 AI 建设。Osborne 曾任英国财政大臣 6 年（2010-2016），将于明年 1 月正式上任并常驻伦敦。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重大高管任命：前英国财政大臣领导 5000 亿美元全球项目，主权 AI 战略加速，对全球 AI 基础设施有重大影响。12 月 16 日宣布。",
+      "source": "OpenAI / WebPronews",
+      "url": "https://www.webpronews.com/george-osborne-joins-openai-to-lead-sovereign-ai-and-500b-stargate-project/",
+      "keywords": ["OpenAI", "George Osborne", "Stargate", "5000 亿美元"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Databricks 融资 40 亿美元估值破千亿",
+      "content": "数据分析公司 Databricks 完成 40 亿美元 L 轮融资，估值达 1340 亿美元，较今年夏季上涨 34%。公司年度经常性收入达 48 亿美元，同比增长 55%。本轮由 Insight Partners、富达管理和摩根大通资产管理领投。",
+      "importance": "critical",
+      "reasoning": "重大融资里程碑：40 亿美元融资，估值 1340 亿美元，年收入 48 亿美元增长 55%，数据分析赛道头部企业。12 月 17 日宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/12/16/databricks-funding-valuation.html",
+      "keywords": ["Databricks", "40 亿美元", "1340 亿估值", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 发布免费图像生成 GPT Image 1.5",
+      "content": "OpenAI 发布免费图像生成模型 GPT Image 1.5，生成速度提升 4 倍，新增指令理解和局部编辑功能。用户可在 ChatGPT 中免费使用，无需付费订阅。",
+      "importance": "critical",
+      "reasoning": "重大产品发布：OpenAI 免费图像生成工具，4 倍速度提升，向 8 亿用户开放，降低 AI 图像生成门槛。12 月 17 日发布。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+      "keywords": ["OpenAI", "GPT Image 1.5", "免费", "4 倍速度"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "图灵奖得主 LeCun 离职前警告",
+      "content": "Meta 首席 AI 科学家、图灵奖得主 Yann LeCun 在离职倒计时 3 周前警告，硅谷对不断堆大对大语言模型的痴迷是一条死路，过度炒作 AI 能力。",
+      "importance": "high",
+      "reasoning": "行业级警示：图灵奖得主离职前警告硅谷集体幻觉，深度学习先驱反思 AI 炒作，对行业有重要警示意义。12 月 17 日报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3597860436983809",
+      "keywords": ["LeCun", "图灵奖", "Meta", "离职"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Adobe Firefly 支持文字提示视频编辑",
+      "content": "Adobe 发布 Firefly 视频编辑器公测版，支持文字提示精确编辑，无需重新生成整个视频。新增相机运动控制和 4K 视频放大功能，集成第三方模型 FLUX.2。订阅用户可在 2026 年 1 月 15 日前无限生成。",
+      "importance": "critical",
+      "reasoning": "重大产品更新：Adobe 推出 prompt-based 视频编辑，相机控制和 4K 放大，改变视频创作工作流。12 月 16 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/16/adobe-firefly-now-supports-prompt-based-video-editing-adds-more-third-party-models/",
+      "keywords": ["Adobe", "Firefly", "视频编辑", "4K"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "小米开源3090亿参数MiMo-V2-Flash大模型，推理速度超越主流竞争对手",
+      "content": "小米开源 MiMo-V2-Flash 模型，总参数 309B，活跃参数 15B，每秒处理 150 次。支持 256K 上下文长度。API 定价 0.1 美元/百万次调用。昨天发布。",
+      "importance": "critical",
+      "reasoning": "重大开源发布：小米 309B 参数模型开源，代码任务全球第一，API 定价极低，中国企业在开源 AI 模型领域的重要突破，昨天（12月16日）发布",
+      "source": "IT之家 / GitHub",
+      "url": "https://www.ithome.com/0/905/520.htm",
+      "keywords": ["小米", "MiMo-V2-Flash", "开源", "309B 参数"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Allen AI 开源视频模型 Molmo 2",
+      "content": "Allen AI 研究所发布开源视频模型 Molmo 2，包含 40 亿和 80 亿参数两个版本，基于 Qwen3 构建。同时发布完全开源的 70 亿参数版本，所有训练数据公开可用。",
+      "importance": "high",
+      "reasoning": "重要开源发布：Allen AI 开源视频模型，多规模版本，训练数据公开，推动开源视频 AI 发展。12 月 17 日发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23756",
+      "keywords": ["Allen AI", "Molmo 2", "开源", "视频模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Mozilla 任命新 CEO 进军 AI 时代",
+      "content": "Mozilla 任命 Anthony Enzor-DeMeo 为 CEO，强调「浏览器是 AI 的下一个战场」。Enzor-DeMeo 曾任 Firefox 总经理和 Roofstock 首席产品官，将推动 Firefox 的 AI 转型。",
+      "importance": "high",
+      "reasoning": "重要领导层变动：Firefox 任命新 CEO 进军 AI 浏览器，强调信任和透明，对浏览器 AI 竞争有重要影响。12 月 16 日宣布。",
+      "source": "Mozilla Blog",
+      "url": "https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/",
+      "keywords": ["Mozilla", "Firefox", "CEO", "AI 浏览器"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "AI 视频音效公司 Mirelo 融资 4100 万美元",
+      "content": "视频音效生成公司 Mirelo 完成 4100 万美元种子轮融资，由 Index Ventures 和 Andreessen Horowitz 领投。Mirelo 可为视频自动生成同步音效，速度快于实时播放。",
+      "importance": "high",
+      "reasoning": "重要种子轮融资：a16z 和 Index 领投，视频音效自动生成，实时速度快于播放，AI 音频新应用。12 月 15 日宣布。",
+      "source": "FinSMEs",
+      "url": "https://www.finsmes.com/2025/12/mirelo-raises-41m-in-seed-funding.html",
+      "keywords": ["Mirelo", "融资", "a16z", "视频音效"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "法国巴黎银行推出投资银行 AI 工具",
+      "content": "法国巴黎银行（BNP Paribas）推出投资银行 AI 工具，简化投资银行业务流程。这是欧洲大型银行在 AI 应用方面的重要进展。",
+      "importance": "high",
+      "reasoning": "重要行业应用：欧洲大型银行推出投资银行 AI 工具，金融业 AI 落地加速。12 月 16 日发布。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/bnp-paribas-introduces-ai-tool-for-investment-banking/",
+      "keywords": ["BNP Paribas", "投资银行", "AI 工具", "金融"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "CNBC",
+      "OpenAI"
+    ],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 1800
+  }
+}

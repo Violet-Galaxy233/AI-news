@@ -1,0 +1,132 @@
+{
+  "date": "2026-01-14",
+  "date_formatted": "26/01/14",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Salesforce 发布 Slackbot AI 助手",
+      "content": "Salesforce 宣布 Slackbot AI 助手正式上线,从简单通知工具升级为可搜索企业数据、起草文档、代表员工执行操作的 AI 助手。新版本由 Anthropic 的 Claude 驱动,面向 Business+ 和 Enterprise+ 客户开放。",
+      "importance": "critical",
+      "reasoning": "Salesforce 发布由 Claude 驱动的 Slackbot AI 助手正式版,从工具升级为全能助手,面向企业客户,属主流生产力工具重大更新。昨天（1 月 13 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/slackbot-is-an-ai-agent-now/",
+      "keywords": ["Salesforce", "Slackbot", "Anthropic", "Claude", "企业客户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "DeepSeek 发布 Engram 记忆架构",
+      "content": "DeepSeek 发布 Engram 论文,提出条件记忆架构,通过记忆与计算分离机制提升性能。Engram 模块负责知识存储和毫秒级检索,在知识检索、推理、代码和数学任务中显著提升性能。业界预测 Engram 将成为 DeepSeek V4 核心技术。",
+      "importance": "critical",
+      "reasoning": "DeepSeek 发布 Engram 架构,梁文锋署名,创新记忆-计算分离机制,预计成为 V4 核心,属范式转变技术。昨天（1 月 13 日）发布。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3637163406624008",
+      "keywords": ["DeepSeek", "Engram", "V4", "梁文锋", "记忆架构"],
+      "category": "研究突破"
+    },
+    {
+      "id": 3,
+      "title": "百川智能发布医疗模型 Baichuan-M3",
+      "content": "百川智能发布开源医疗 AI 模型 Baichuan-M3,在医疗评测中超越 GPT-5.2,在专业任务中表现超过普通医生平均水平。该模型标志着垂直领域 AI 的重大突破。",
+      "importance": "critical",
+      "reasoning": "百川智能发布开源医疗模型,超越 GPT-5.2,表现超过普通医生,属垂直领域 AI 重大突破。昨天（1 月 13 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["百川智能", "Baichuan-M3", "医疗", "GPT-5.2", "开源"],
+      "category": "研究突破"
+    },
+    {
+      "id": 4,
+      "title": "Deepgram 融资 1.3 亿成独角兽",
+      "content": "语音 AI 平台 Deepgram 完成 1.3 亿美元 C 轮融资,估值 13 亿美元,达到独角兽地位。融资由 AVP 领投,现有投资者全部跟投,累计融资超 2.15 亿美元。同时宣布收购 YC 孵化的语音 AI 平台 OfOne。",
+      "importance": "critical",
+      "reasoning": "Deepgram 完成 1.3 亿美元融资,估值 13 亿美元,达独角兽地位,同时收购 YC 初创企业,属语音 AI 重大融资。昨天（1 月 13 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup/",
+      "keywords": ["Deepgram", "1.3 亿美元", "13 亿美元", "独角兽", "OfOne"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "ElevenLabs 年收入突破 3.3 亿美元",
+      "content": "语音 AI 公司 ElevenLabs CEO 宣布年度经常性收入（ARR）突破 3.3 亿美元,超过此前设定的 3 亿美元目标。目前 41% 的财富 500 强企业使用该平台,保持盈利状态。",
+      "importance": "high",
+      "reasoning": "ElevenLabs 年收入突破 3.3 亿美元,超过预期目标,41% 财富 500 强使用,属语音 AI 重要商业里程碑。昨天（1 月 13 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/elevenlabs-ceo-says-the-voice-ai-startup-crossed-330-million-arr-last-year/",
+      "keywords": ["ElevenLabs", "3.3 亿美元", "ARR", "41%", "财富 500 强"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "消费者组织警告 Google 购物协议风险",
+      "content": "消费者权益组织对 Google 的通用商务协议（UCP）发出警告,担心存在监控定价风险。Google 回应称该担忧是错误的。UCP 于 1 月 11 日发布,旨在为 AI 购物助手建立行业统一标准。",
+      "importance": "high",
+      "reasoning": "消费者组织对 Google UCP 协议发出警告,Google 反驳,属 AI 购物协议后续争议,引发隐私和定价讨论。昨天（1 月 13 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/a-consumer-watchdog-issued-a-warning-about-googles-ai-agent-shopping-protocol-google-says-shes-wrong/",
+      "keywords": ["Google", "UCP", "消费者组织", "监控定价", "隐私"],
+      "category": "政策法规"
+    },
+    {
+      "id": 7,
+      "title": "Vercel 发布 Agent Browser 工具",
+      "content": "Vercel 发布 Agent Browser,这是专为 AI 助手设计的浏览器自动化命令行工具。该工具让 AI 模型能直接与网站交互,通过点击和表单填写操作网页,无需配置即可使用。",
+      "importance": "high",
+      "reasoning": "Vercel 发布 Agent Browser,让 AI 助手能直接操作网页,零配置使用,提升 AI 助手能力,属开发工具重要更新。昨天（1 月 13 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/24556",
+      "keywords": ["Vercel", "Agent Browser", "浏览器自动化", "AI 助手", "零配置"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "DeepSeek 母公司年收入 50 亿元",
+      "content": "DeepSeek 母公司幻方量化去年收入达 50 亿元人民币,足以支撑 2380 个 R1 模型的训练成本,无需外部融资或商业化即可持续 AGI 研究。",
+      "importance": "high",
+      "reasoning": "DeepSeek 母公司年收入 50 亿元,能支撑 2380 个 R1 训练,展示自给自足研发能力,属重要财务信息。今天（1 月 14 日）报道。",
+      "source": "36 氪",
+      "url": "https://36kr.com/p/3637677974471689",
+      "keywords": ["DeepSeek", "幻方量化", "50 亿元", "2380 个", "R1"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "Microsoft 扩建数据中心承诺不涨电价",
+      "content": "Microsoft 宣布大规模扩建数据中心,同时承诺不会导致用户电价上涨。",
+      "importance": "medium",
+      "reasoning": "Microsoft 宣布扩建数据中心并承诺不涨电价,属常规基础设施更新。昨天（1 月 13 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/microsoft-announces-glut-of-new-data-centers-but-says-it-wont-let-your-electricity-bill-go-up/",
+      "keywords": ["Microsoft", "数据中心", "电价", "基础设施", "扩建"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "腾讯微信 AI 团队发布 WeDLM 模型",
+      "content": "腾讯微信 AI 团队发布 WeDLM 扩散语言模型,结合扩散模型与因果注意力机制,通过拓扑重排提升运行效率,解决双向注意力的性能问题。",
+      "importance": "medium",
+      "reasoning": "腾讯微信发布 WeDLM 扩散模型,解决运行效率问题,属技术优化更新。昨天（1 月 13 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["腾讯", "微信", "WeDLM", "扩散模型", "运行效率"],
+      "category": "研究突破"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-14T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 180
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2025-11-07",
+  "date_formatted": "25/11/07",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 年收入 200 亿美元承诺投资 1.4 万亿美元",
+      "content": "OpenAI CEO Sam Altman 宣布公司年收入达 200 亿美元，未来 8 年将投资 1.4 万亿美元建设数据中心，相当于 30 吉瓦算力。Altman 表示 OpenAI 不寻求政府救助，计划转型为「AI 云」提供商向企业售卖算力。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重大财务和战略披露：年收入 200 亿美元，8 年投资 1.4 万亿美元展示 OpenAI 规模和野心，转型 AI 云提供商对行业格局有重大影响，昨天（11-06）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/sam-altman-says-openai-has-20b-arr-and-about-1-4-trillion-in-data-center-commitments/",
+      "keywords": ["OpenAI", "Sam Altman", "数据中心", "年收入"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "月之暗面开源 Kimi K2 Thinking 击败 GPT-5",
+      "content": "月之暗面发布开源模型 Kimi K2 Thinking，拥有 1 万亿参数，激活 320 亿参数处理单个任务。支持 256K 上下文长度可一次处理整个代码库。测试显示性能超越 GPT-5 和 Claude Sonnet 4.5，支持 200-300 次连续工具调用。",
+      "importance": "critical",
+      "reasoning": "重大开源模型发布：1 万亿参数规模和超越 GPT-5 性能展示中国 AI 实力，256K 上下文和 200+ 工具调用开创新能力，对开源生态有重要影响，昨天（11-06）发布。",
+      "source": "Hacker News",
+      "url": "https://moonshotai.github.io/Kimi-K2/thinking.html",
+      "keywords": ["月之暗面", "Kimi K2", "开源模型", "1万亿参数"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Perplexity 支付 Snap 4 亿美元接入 Snapchat",
+      "content": "Perplexity 与 Snap 达成 4 亿美元合作，将 AI 搜索引擎整合到 Snapchat 聊天界面，覆盖 9.4 亿用户。Snap 股价单日上涨 25%，协议包括现金和股权支付。新功能 2026 年初推出，收入将在 2026 年开始贡献。",
+      "importance": "critical",
+      "reasoning": "重大商业合作：4 亿美元交易额和 9.4 亿用户覆盖展示 AI 搜索价值，Snap 股价涨 25% 反映市场认可，对社交媒体 AI 化有重要影响，11-05 至 11-06 宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/perplexity-to-pay-snap-400m-to-power-search-in-snapchat/",
+      "keywords": ["Perplexity", "Snap", "Snapchat", "AI 搜索"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "AI 科学家 Kosmos 12 小时完成 6 个月研究",
+      "content": "科研公司发布 AI 科学家 Kosmos，运行 12 小时可完成人类科学家 6 个月的研究工作。系统可阅读 1500 篇论文、编写 42000 行代码，报告准确率达 79.4%。已在神经科学、材料科学等领域完成 7 项新发现，售价 200 美元每次运行。",
+      "importance": "critical",
+      "reasoning": "范式转变技术：12 小时完成 6 个月工作展示 AI 对科研的革命性影响，79.4% 准确率和 7 项新发现证明实用性，对科学研究方法有重大影响，近日发布。",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2511.02824",
+      "keywords": ["Kosmos", "AI 科学家", "自动研究", "科研自动化"],
+      "category": "技术突破"
+    },
+    {
+      "id": 5,
+      "title": "Google 发布 Magika 1.0 用 Rust 重写",
+      "content": "Google 发布文件检测工具 Magika 1.0，用 Rust 语言完全重写提升速度和安全。支持 200 多种文件类型",
+      "importance": "high",
+      "reasoning": "重要开源工具发布：Rust 重写提升性能和安全性，200+ 文件类型和每秒 1000 文件处理速度展示技术实力，100 万月下载量显示广泛采用，今天（11-07）发布。",
+      "source": "Google Blog",
+      "url": "https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html",
+      "keywords": ["Google", "Magika", "Rust", "文件检测"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "SK 海力士 HBM4 售价 560 美元涨价超 50%",
+      "content": "SK 海力士与 NVIDIA 敲定 HBM4 内存售价 560 美元，较上代涨价超 50%。新内存拥有 2048 个数据通道是上代 2 倍，利润率预计达 60%。首批供货 2026 年下半年。",
+      "importance": "high",
+      "reasoning": "重要供应链动态：560 美元和 50% 涨价展示 AI 芯片需求强劲，60% 利润率反映 SK 海力士议价能力，对 AI 硬件成本有重要影响，近日宣布。",
+      "source": "Digitimes",
+      "url": "https://www.digitimes.com/news/a20251106PD236/sk-hynix-hbm4-price-nvidia-market.html",
+      "keywords": ["SK 海力士", "HBM4", "NVIDIA", "内存价格"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Inception 融资 5000 万美元研发扩散模型",
+      "content": "Inception 获 5000 万美元种子轮融资开发扩散模型 Mercury，速度比 OpenAI 等主流模型快 5-10 倍，每秒生成超 1000 词。由 Menlo Ventures 领投，Andrew Ng 和 Andrej Karpathy 参投。",
+      "importance": "high",
+      "reasoning": "重要融资和技术突破：5-10 倍速度提升展示扩散模型技术优势，Andrew Ng 和 Karpathy 投资增加可信度，对 AI 模型架构有推动作用，昨天（11-06）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/",
+      "keywords": ["Inception", "融资", "扩散模型", "Mercury"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 发布青少年 AI 安全标准蓝图",
+      "content": "OpenAI 发布青少年 AI 安全蓝图，提出 5 项行业原则包括识别未成年用户、禁止自残内容和提供家长控制工具。此举回应多起青少年自残诉讼和加州新法监管压力。",
+      "importance": "high",
+      "reasoning": "重要行业标准提案：OpenAI 推动 5 项安全原则应对监管压力，回应诉讼和新法展示社会责任，对 AI 行业监管方向有重要影响，昨天（11-06）发布。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2025/11/06/openai-blueprint-teen-ai-safety-standards",
+      "keywords": ["OpenAI", "青少年安全", "AI 监管", "安全标准"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "Amazon 推出 Kindle Translate AI 翻译服务",
+      "content": "Amazon 推出 Kindle Translate AI 翻译服务，支持英西互译和德译英，作者几天内可发布多语言版本。目前免费使用，平台仅 5% 图书有多语言版。",
+      "importance": "medium",
+      "reasoning": "实用工具发布：AI 翻译降低多语言出版门槛，5% 现有多语言比例显示市场空间，对独立作者有帮助，昨天（11-06）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/amazon-launches-an-ai-powered-kindle-translate-service-for-ebook-authors/",
+      "keywords": ["Amazon", "Kindle Translate", "AI 翻译", "电子书"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Meta 将 AI 视频工具 Vibes 推向欧洲",
+      "content": "Meta 将 AI 视频产品 Vibes 引入欧洲 Meta AI 应用，用户可用文本生成和混剪短视频并分享。美国推出后媒体生成量增长 10 倍，已产生超 200 亿张图片。",
+      "importance": "medium",
+      "reasoning": "产品区域扩展：Vibes 引入欧洲扩大 AI 视频工具覆盖，美国 10 倍增长和 200 亿图片显示用户需求，对社交媒体内容生态有影响，昨天（11-06）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/06/meta-brings-its-short-form-video-feed-of-ai-slop-to-europe/",
+      "keywords": ["Meta", "Vibes", "AI 视频", "欧洲"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-07T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "AI News",
+      "36kr",
+      "Web Search",
+      "arXiv"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1450
+  }
+}

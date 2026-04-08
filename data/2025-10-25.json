@@ -1,0 +1,182 @@
+{
+  "date": "2025-10-25",
+  "date_formatted": "25/10/25",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 与 Google 达成数百亿美元 TPU 协议",
+      "content": "Anthropic 于 10 月 23 日与 Google 签署数百亿美元协议,获得 100 万个 TPU 使用权,算力超 1 千兆瓦。公司服务 30 万企业客户,年化收入 70 亿美元,大客户数一年增长 7 倍。",
+      "importance": "critical",
+      "reasoning": "主流公司重大基础设施协议:Anthropic 获得 100 万个 TPU,是 AI 行业最大算力采购协议之一,支撑 70 亿美元年化收入和 30 万企业客户,对 AI 基础设施市场有重大影响,10-23 宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/10/23/anthropic-google-cloud-deal-tpu.html",
+      "keywords": [
+        "Anthropic",
+        "Google",
+        "TPU",
+        "云服务"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 推出企业知识库集成功能",
+      "content": "OpenAI 于 10 月 23 日为 ChatGPT 企业版推出知识库功能,连接 Slack、Google Drive、GitHub 等应用。采用 GPT-5 训练的专用模型,回答提供原始来源引用,尊重企业权限,服务超 30 万客户。",
+      "importance": "critical",
+      "reasoning": "主流公司核心产品重大更新:OpenAI 推出企业知识库集成功能,采用 GPT-5 训练的专用模型,统一多个孤岛应用的数据,对企业 AI 应用有重要推动作用,10-23 发布。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-company-knowledge/",
+      "keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "企业服务",
+        "知识库"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Lightricks 开源 4K AI 视频模型",
+      "content": "Lightricks 于 10 月 23 日发布首个完整开源视频模型 LTX-2,支持原生 4K 和 50 帧每秒。5 秒生成 6 秒视频,快于实时,成本降低 50%。支持音视频同步,可在消费级显卡运行。",
+      "importance": "critical",
+      "reasoning": "重要开源模型发布:首个完整开源 4K 视频模型,5 秒生成 6 秒视频快于实时,成本降低 50%,可在消费级硬件运行,对视频生成工具的普及有重要推动作用,10-23 发布。",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/lightricks-releases-ltx-2-the-first-complete-open-source-ai-video-foundation-model-302593012.html",
+      "keywords": [
+        "Lightricks",
+        "LTX-2",
+        "视频生成",
+        "开源"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Microsoft 拒绝开发成人内容 AI",
+      "content": "Microsoft AI 负责人 Mustafa Suleyman 于 10 月 23 日表示,公司不会开发情色或成人内容 AI,要创建「可以放心让孩子使用」的 AI。与 OpenAI 一周前允许成人角色扮演政策形成对比。",
+      "importance": "critical",
+      "reasoning": "主流公司重要政策声明:Microsoft 明确拒绝开发成人内容 AI,与 OpenAI 形成战略分化,强调企业级可信赖定位,对 AI 伦理规范有重要影响,10-23 宣布。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2025/10/24/microsoft-no-erotica-chatbots-openai-chatgpt-xai-grok/",
+      "keywords": [
+        "Microsoft",
+        "AI 伦理",
+        "OpenAI",
+        "内容政策"
+      ],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "松岩动力推出 9998 元人形机器人",
+      "content": "松岩动力于 10 月 23 日在京东开启布米机器人预售,售价 9998 元,首款万元以下人形机器人。高 94 厘米,重 12 千克,支持双足行走和舞蹈。",
+      "importance": "high",
+      "reasoning": "消费级机器人价格突破:首次将高性能人形机器人价格降至万元以下,94 厘米高度和 12 千克重量适合家庭使用,标志人形机器人进入消费时代,10-23 开启预售。",
+      "source": "TechNode",
+      "url": "https://technode.com/2025/10/22/chinas-noetix-robotics-unveils-1370-humanoid-robot-bumi/",
+      "keywords": [
+        "松岩动力",
+        "人形机器人",
+        "布米",
+        "消费级"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "智元机器人发布零代码创作平台",
+      "content": "智元机器人于 10 月 24 日发布灵创零代码平台,上传动作视频即可生成机器人动作。内置 180+ 动作和 140+ 表情,支持多机器人协同。",
+      "importance": "high",
+      "reasoning": "机器人创作工具创新:零代码平台大幅降低机器人内容创作门槛,180+ 动作和 140+ 表情模板丰富,支持多机器人协同,对机器人应用推广有重要作用,10-24 发布。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2025/10/345600.html",
+      "keywords": [
+        "智元机器人",
+        "灵创",
+        "零代码",
+        "动作捕捉"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "百度 PaddleOCR-VL 连续 5 天登顶榜首",
+      "content": "百度 PaddleOCR-VL 在 OmniDocBench V1.5 测试获 92.56 分,超越 DeepSeek-OCR,连续 5 天占据 Huggingface 榜首。仅 0.9B 参数,已开源。",
+      "importance": "high",
+      "reasoning": "开源模型持续领先:百度 OCR 模型连续 5 天 Huggingface 榜首,0.9B 小参数实现 92.56 分,展示国产模型在文档智能领域的竞争力,10-24 数据更新。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news",
+      "keywords": [
+        "百度",
+        "PaddleOCR-VL",
+        "文档解析",
+        "开源"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "中科大与字节跳动发布 MoGA 视频模型",
+      "content": "中科大与字节跳动于 10 月 21 日发布 MoGA 模型,可端到端生成分钟级 480p 视频,24 帧每秒,支持多镜头切换。上下文长度约 58 万。",
+      "importance": "high",
+      "reasoning": "视频生成技术突破:首次实现端到端分钟级长视频生成,58 万上下文长度创新高,采用高效稀疏注意力机制,对长视频生成有重要技术推动,10-21 论文发布。",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2510.18692",
+      "keywords": [
+        "中科大",
+        "字节跳动",
+        "MoGA",
+        "视频生成"
+      ],
+      "category": "技术突破"
+    },
+    {
+      "id": 9,
+      "title": "中国脑机接口市场 2027 年将达 55.8 亿元",
+      "content": "报告显示中国脑机接口市场 2027 年将达 55.8 亿元,年均增长 20%。数百所高校参与,从实验室向医疗和消费领域扩展。",
+      "importance": "high",
+      "reasoning": "新兴技术市场预测:脑机接口市场 2027 年达 55.8 亿元,年增长 20%,数百机构参与,展示新兴技术产业化进展,对医疗和消费市场有参考价值,10-24 发布。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news",
+      "keywords": [
+        "脑机接口",
+        "市场规模",
+        "产业化",
+        "中国"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "Kimi For Coding 会员计划上线新功能",
+      "content": "Kimi 于 10 月 24 日升级编程会员,兼容 Kimi CLI、Claude Code 和 RooCode。会员获每 5 小时 100 次请求额度。",
+      "importance": "medium",
+      "reasoning": "开发工具会员升级:Kimi 编程会员新增多工具兼容性,提供 100 次请求额度,对开发者工具生态有补充作用,10-24 上线。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news",
+      "keywords": [
+        "Kimi",
+        "编程工具",
+        "会员计划",
+        "开发者"
+      ],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-25T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "Web Search"
+    ],
+    "duplicates_removed": 15,
+    "generation_time_seconds": 425.3
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2026-02-09",
+  "date_formatted": "26/02/09",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "超级碗成 AI 广告主战场",
+      "content": "今天举行的超级碗 LX 迎来 AI 行业首次广告大战，OpenAI、Anthropic、Google、Amazon 等 7 家公司同场竞技。Anthropic 主打「广告不会进入 Claude」嘲讽 OpenAI 将在 ChatGPT 插入广告的计划，Sam Altman 回击称其「不诚实」。",
+      "importance": "critical",
+      "reasoning": "7 家 AI 公司同台竞争超级碗广告位属行业级事件，标志 AI 从技术圈走向大众消费品牌。2 月 9 日（今天）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
+      "keywords": ["超级碗", "AI 广告", "Anthropic", "OpenAI", "7 家公司"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "AI 智能体引发 SaaS 股价暴跌",
+      "content": "Anthropic 发布 Claude Cowork 智能体平台后，全球云软件板块蒸发约 3000 亿美元市值，Salesforce、Adobe 等跌约 7%，Intuit 跌近 11%。分析师称此次抛售类似 2025 年 DeepSeek 冲击。",
+      "importance": "critical",
+      "reasoning": "AI 智能体引发 SaaS 行业 3000 亿美元级市值波动，触发「SaaS 末日」讨论，属行业级重大事件。2 月 3-6 日持续发酵。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/what-s-behind-the-saaspocalypse-plunge-in-software-stocks",
+      "keywords": ["SaaS", "3000 亿美元", "Claude Cowork", "智能体", "股价暴跌"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "高盛部署 Claude 自动化核心业务",
+      "content": "高盛与 Anthropic 合作部署 Claude 智能体，自动化交易记账和客户准入审查，覆盖 2.5 万亿美元资产。Anthropic 工程师驻场 6 个月，客户准入速度提升 30%，开发效率提升超 20%。",
+      "importance": "critical",
+      "reasoning": "华尔街顶级投行大规模部署 AI 智能体处理核心业务，管理 2.5 万亿美元资产，属重大企业 AI 落地案例。2 月 6-7 日报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/06/anthropic-goldman-sachs-ai-model-accounting.html",
+      "keywords": ["高盛", "Claude", "2.5 万亿美元", "自动化", "智能体"],
+      "category": "行业应用"
+    },
+    {
+      "id": 4,
+      "title": "Blackstone 领投 Firmus 100 亿美元建 AI 工厂",
+      "content": "澳大利亚 AI 基建公司 Firmus 今天获得 Blackstone 和 Coatue 领投的 100 亿美元债务融资，创澳大利亚最大私募债纪录之一。项目联合英伟达，计划 2028 年前部署 1.6 吉瓦算力。",
+      "importance": "critical",
+      "reasoning": "100 亿美元级 AI 基建融资为澳大利亚企业史上最大私募债交易之一，显示全球 AI 算力竞赛持续升温。2 月 9 日（今天）。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/blackstone-coatue-grant-10-billion-loan-to-australia-ai-firm",
+      "keywords": ["Blackstone", "Firmus", "100 亿美元", "AI 基建", "1.6 吉瓦"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "AI.com 以 7000 万美元创域名纪录",
+      "content": "Crypto.com 创始人以 7000 万美元加密货币购入 AI.com 域名，刷新全球域名交易纪录。平台在超级碗首发，提供个人 AI 智能体服务。",
+      "importance": "high",
+      "reasoning": "创纪录的 7000 万美元域名交易显示 AI 品牌价值飙升，结合超级碗首发具有高话题性。2 月 8 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/08/crypto-com-places-70m-bet-on-ai-com-domain-ahead-of-super-bowl/",
+      "keywords": ["Crypto.com", "AI.com", "7000 万美元", "域名纪录", "超级碗"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Claude Opus 4.6 登顶多项 AI 评测",
+      "content": "Anthropic 发布 Claude Opus 4.6，知识工作评测领先 GPT-5.2 约 144 分，推理测试从 37.6% 跃升至 68.8%，首次支持 100 万上下文长度。",
+      "importance": "high",
+      "reasoning": "Anthropic（三大厂之一）旗舰模型发布，多项评测领先竞品，上下文长度翻 5 倍，属重要产品发布。2 月 5-6 日发布。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25314",
+      "keywords": ["Claude Opus 4.6", "100 万上下文", "68.8%", "GPT-5.2", "144 分"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "字节跳动发布 Seedance 2.0 视频模型",
+      "content": "字节跳动今天发布 Seedance 2.0，可生成 2 分钟 1080P 多镜头视频并支持口型同步，评测超越 Sora 2，阅文集团股价涨 9%。",
+      "importance": "high",
+      "reasoning": "字节跳动发布视频生成模型超越多个竞品，带动相关股票上涨，属赛道级产品发布。2 月 9 日（今天）。",
+      "source": "36氪",
+      "url": "https://www.donews.com/news/detail/4/6420910.html",
+      "keywords": ["字节跳动", "Seedance 2.0", "2 分钟视频", "多镜头", "超越 Sora 2"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "纽约州提议暂停数据中心建设三年",
+      "content": "纽约州议员提出法案暂停 20 兆瓦以上数据中心审批至少三年，成为全美第六个提出类似立法的州。",
+      "importance": "high",
+      "reasoning": "纽约成为第六个提出数据中心限制法案的州，对 AI 基础设施扩张具有重大政策影响。2 月 7 日提出。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/07/new-york-lawmakers-propose-a-three-year-pause-on-new-data-centers/",
+      "keywords": ["纽约州", "数据中心", "暂停三年", "20 兆瓦", "第六个州"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "智谱 GLM-5 匿名测试曝光",
+      "content": "OpenRouter 上线匿名模型 Pony Alpha，经验证疑为智谱 GLM-5，编程能力接近顶级闭源模型。",
+      "importance": "medium",
+      "reasoning": "中国 AI 公司旗舰模型以匿名方式测试引发关注，若确认为 GLM-5 将成开源领域重要进展。2 月 7-8 日曝光。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/02/378068.html",
+      "keywords": ["智谱", "GLM-5", "Pony Alpha", "开源", "20 万上下文"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "OpenAI 超级碗硬件泄露为精心骗局",
+      "content": "展示 OpenAI「首款硬件」的超级碗广告视频走红后，Greg Brockman 证实完全造假。",
+      "importance": "medium",
+      "reasoning": "围绕 OpenAI 的精心策划虚假营销事件具有高话题性，涉及付费推广假新闻。2 月 8-9 日发酵。",
+      "source": "Geo.tv",
+      "url": "https://www.geo.tv/latest/649847-openais-leaked-super-bowl-ad-with-ear-buds-exposed-as-fake",
+      "keywords": ["OpenAI", "硬件泄露", "造假", "超级碗", "Greg Brockman"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-09T10:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "AIBase",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "Bloomberg",
+      "CNBC",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 360
+  }
+}

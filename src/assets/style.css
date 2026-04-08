@@ -1,0 +1,77 @@
+/* 全局样式 - 高级金色主题 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F5F5F5;
+  color: #2C2416;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#app {
+  min-height: 100vh;
+  background: #F5F5F5;
+}
+
+/* 移除所有默认的外边距和内边距 */
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* 优化文本渲染 */
+body, input, textarea, button {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 链接样式 */
+a {
+  color: #B8924D;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #C9A86A;
+}
+
+/* 选中文本样式 */
+::selection {
+  background: rgba(201, 168, 106, 0.2);
+  color: #2C2416;
+}
+
+::-moz-selection {
+  background: rgba(201, 168, 106, 0.2);
+  color: #2C2416;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 106, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 168, 106, 0.5);
+}

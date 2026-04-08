@@ -1,0 +1,102 @@
+{
+  "date": "2026-01-02",
+  "date_formatted": "26/01/02",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "月之暗面完成 5 亿美元 C 轮融资",
+      "content": "月之暗面完成 5 亿美元 C 轮融资，估值 43 亿美元，现金超 100 亿元。IDG 领投 1.5 亿美元，阿里、腾讯跟投。资金将用于扩展算力芯片和开发 K3 模型，Kimi 全球付费用户月增 170%。",
+      "importance": "critical",
+      "reasoning": "明星 AI 公司 5 亿美元融资，估值 43 亿美元，现金储备 100 亿元，付费用户增长 170%，展示中国 AI 公司强劲增长。12 月 31 日发布。",
+      "source": "新浪财经 / 36 氪",
+      "url": "https://finance.sina.com.cn/tech/roll/2025-12-31/doc-inhestek9056885.shtml",
+      "keywords": ["月之暗面", "Kimi", "5 亿美元", "C 轮融资", "43 亿美元"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "NVIDIA 谈判收购 AI21 Labs",
+      "content": "NVIDIA 正洽购以色列 AI 公司 AI21 Labs，交易额 20-30 亿美元，为去年估值的 2 倍以上。NVIDIA 主要看重其约 200 人团队，多数拥有高级学位。AI21 年营收约 5000 万美元，若成交将成 NVIDIA 在以色列第四笔收购。",
+      "importance": "critical",
+      "reasoning": "NVIDIA 20-30 亿美元收购，溢价 2 倍，重点获取 200 人 AI 团队，为以色列第四笔收购，展示 NVIDIA AI 人才战略。12 月 30-31 日报道。",
+      "source": "SiliconANGLE / 新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2025-12-31/doc-inhesahu3856334.shtml",
+      "keywords": ["NVIDIA", "AI21 Labs", "20-30 亿美元", "以色列", "收购"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 押注音频技术备战无屏设备",
+      "content": "TechCrunch 今日报道，OpenAI 大力投入音频 AI，为明年推出首款无屏设备做准备。新音频模型将于 2026 年 Q1 发布，能处理对话中断和同步对话。文字转语音服务定价每分钟 0.015 美元。",
+      "importance": "high",
+      "reasoning": "OpenAI 战略转向音频，备战无屏硬件设备，2026 Q1 发布新模型，展示 AI 产品形态创新方向。今天（1 月 2 日）7 小时前报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/01/openai-bets-big-on-audio-as-silicon-valley-declares-war-on-screens/",
+      "keywords": ["OpenAI", "音频 AI", "无屏设备", "2026 Q1", "0.015 美元"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "稚晖君发布全球首款背包人形机器人",
+      "content": "稚晖君 发布启元 Q1，全球首个可装背包的人形机器人，身高 0.8 米，可装入 30L 双肩包，完全开源。关联股票上纬新材涨幅 1820%，成 2025 年 A 股涨幅冠军，市值超 530 亿元。",
+      "importance": "critical",
+      "reasoning": "全球首个背包式人形机器人，完全开源，关联股票涨幅 1820% 成 A 股冠军，市值 530 亿元，展示中国机器人产业突破。昨天（12 月 31 日）发布。",
+      "source": "新浪财经 / 腾讯新闻",
+      "url": "https://finance.sina.com.cn/stock/t/2026-01-01/doc-inheumps3151383.shtml",
+      "keywords": ["稚晖君", "启元 Q1", "人形机器人", "1820%", "530 亿元"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "DeepSeek 发布 mHC 架构论文梁文锋署名",
+      "content": "DeepSeek 发布 mHC 架构论文，创始人梁文锋署名。mHC 解决大模型训练不稳定问题，硬件开销仅 6.27%。测试的 30 亿、90 亿、270 亿参数模型在 8 项评测中均超越传统架构。",
+      "importance": "critical",
+      "reasoning": "DeepSeek 创始人梁文锋署名论文，提出全新 mHC 架构，硬件开销仅 6.27%，三个模型 8 项评测全面领先，可能改变未来模型训练方式。昨天（1 月 1 日）发布。",
+      "source": "新浪财经 / IT 之家",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-01/doc-inheuwcr2983577.shtml",
+      "keywords": ["DeepSeek", "mHC", "梁文锋", "6.27%", "架构"],
+      "category": "研究突破"
+    },
+    {
+      "id": 7,
+      "title": "小米 MiMo 免费期延至 1 月 20 日",
+      "content": "小米 MiMo 模型免费期延至 1 月 20 日。该模型 3090 亿参数（激活 150 亿），擅长推理和代码。付费后输入 0.7 元/百万次、输出 2.1 元/百万次。",
+      "importance": "high",
+      "reasoning": "小米延长免费期 20 天至 1 月 20 日，3090 亿参数大模型，定价具竞争力，推动开发者生态。12 月 31 日发布。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/909/621.htm",
+      "keywords": ["小米", "MiMo", "1 月 20 日", "3090 亿参数", "免费"],
+      "category": "产品发布"
+    },
+    {
+      "id": 12,
+      "title": "MiniMax 开源 M2.1 编程模型",
+      "content": "MiniMax 开源编程模型 M2.1，规模 2300 亿参数（激活 100 亿）。测试得分超越 Gemini 3 Pro 和 Claude 4.5，支持 Rust、Java、Go、C++ 等多种语言。",
+      "importance": "medium",
+      "reasoning": "MiniMax 开源 2300 亿参数编程模型，性能超越主流闭源模型，推动开源 AI 编程工具发展。12 月 31 日发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["MiniMax", "M2.1", "2300 亿参数", "开源", "编程"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-02T08:00:00Z",
+    "total_news": 12,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36 氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "新浪财经",
+      "腾讯新闻",
+      "IT 之家"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 2500
+  }
+}

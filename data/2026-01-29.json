@@ -1,0 +1,136 @@
+{
+  "date": "2026-01-29",
+  "date_formatted": "26/01/29",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google Chrome 集成 Gemini 3 支持自动化任务",
+      "content": "Google 发布 Chrome 重大更新，集成 Gemini 3 并推出 Auto Browse 功能，可自动跨网站搜索公寓、比较价格、申请优惠券。该功能基于 Google 与 Shopify、Etsy、Wayfair、Target 共同开发的通用商业协议，目前向美国 AI Pro 和 Ultra 订阅用户开放。",
+      "importance": "critical",
+      "reasoning": "Google 核心浏览器产品重大升级，Gemini 3 成为默认模型，支持智能体自动化购物等任务，属三大厂主流产品发布。昨天（1 月 28 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/28/chrome-takes-on-ai-browsers-with-tighter-gemini-integration-agentic-features-for-autonomous-tasks/",
+      "keywords": ["Google", "Chrome", "Gemini 3", "Auto Browse", "智能体"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "阿里巴巴发布自研 AI 芯片真武 810E",
+      "content": "阿里巴巴平头哥今天发布高端 AI 芯片真武 810E，单芯片互联带宽 700GB/s，配备 96GB 内存，性能对标英伟达 H20。已在阿里云部署多个万卡集群，服务超 400 家客户包括国家电网和小鹏。阿里成为继 Google 后全球第二家拥有大模型、云、芯片全栈自研能力的公司。",
+      "importance": "critical",
+      "reasoning": "阿里巴巴自研高端 AI 芯片正式发布，已部署万卡集群服务 400 家客户，性能对标英伟达 H20，成为全球第二家全栈自研公司，属巨头硬件重大发布。今天（1 月 29 日）发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3659875869483649",
+      "keywords": ["阿里巴巴", "真武 810E", "700GB/s", "400 家客户", "全栈自研"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Nvidia、Amazon、Microsoft 洽谈向 OpenAI 投资 600 亿美元",
+      "content": "The Information 报道，Nvidia、Amazon、Microsoft 正洽谈向 OpenAI 投资最高 600 亿美元，其中 Nvidia 拟投资 300 亿、Amazon 超 200 亿、Microsoft 低于 100 亿。加上软银拟投资的 300 亿，总融资规模可能达 1000 亿美元，用于应对 AI 训练和运营成本激增。",
+      "importance": "critical",
+      "reasoning": "三大科技巨头洽谈向 OpenAI 投资最高 600 亿美元，总融资规模可能达 1000 亿美元，属史上最大 AI 投资之一。昨天至今天（1 月 28-29 日）报道。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/nvidia-others-in-talks-for-openai-investment-information-says",
+      "keywords": ["OpenAI", "Nvidia", "Amazon", "Microsoft", "600 亿美元"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "美国 Arcee AI 发布 4000 亿参数开源模型",
+      "content": "美国 Arcee AI 昨天发布 Trinity Large，4000 亿参数稀疏混合专家模型，单次激活 130 亿参数。在 2048 块英伟达 B300 GPU 上训练，使用 17 万亿次数据。性能可媲美 Meta Llama 4 Maverick，基于 Apache 2.0 开源，2 月前在 OpenRouter 免费。",
+      "importance": "critical",
+      "reasoning": "美国创业公司发布 4000 亿参数开源模型，2048 块 GPU 训练，性能对标 Meta Llama 4，展示美国开源 AI 竞争力。昨天（1 月 28 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://tech.yahoo.com/ai/meta-ai/articles/tiny-startup-arcee-ai-built-173000680.html",
+      "keywords": ["Arcee AI", "Trinity Large", "4000 亿参数", "2048 块 GPU", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Meta 扎克伯格预告 2026 智能体商业工具",
+      "content": "Meta CEO 扎克伯格昨天在财报会上宣布，2026 年将推出智能体购物工具和全自动广告功能，商家仅需提供产品链接即可生成全部创意。公司 2026 年资本支出预计达 1050 亿至 1170 亿美元，较 2025 年的 700 亿大幅增长，用于建设智能体基础设施。",
+      "importance": "critical",
+      "reasoning": "Meta CEO 在财报会上预告 2026 年智能体商业工具重大升级，资本支出从 700 亿美元增至最高 1170 亿美元，属行业巨头重大战略转向。昨天（1 月 28 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/",
+      "keywords": ["Meta", "扎克伯格", "智能体", "1170 亿美元", "全自动广告"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "ServiceNow 与 Anthropic 合作 Claude 成默认模型",
+      "content": "ServiceNow 昨天宣布与 Anthropic 合作，Claude 成为 Build Agent 默认模型。已向 2.9 万员工部署 Claude 简化销售准备，效率提升 95%，目标将客户实施时间缩短 50%。",
+      "importance": "high",
+      "reasoning": "企业软件巨头与 Anthropic 达成重要合作，Claude 成为默认模型，内部部署显示效率提升 95%，属重要企业级 AI 合作。昨天（1 月 28 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/28/servicenow-inks-another-ai-partnership-this-time-with-anthropic/",
+      "keywords": ["ServiceNow", "Anthropic", "Claude", "95%", "2.9 万员工"],
+      "category": "合作"
+    },
+    {
+      "id": 7,
+      "title": "Apple 发布 Creator Studio Pro 订阅套装",
+      "content": "Apple 昨天推出 Creator Studio 订阅服务，月费 12.99 美元，包含 Final Cut Pro、Logic Pro 等 6 款专业应用，新增 AI 自动剪辑和合成器演奏功能。学生教师优惠价 2.99 美元/月。",
+      "importance": "high",
+      "reasoning": "Apple 推出创作者工具订阅套装，整合 6 款专业应用，月费 12.99 美元，教育优惠价 2.99 美元，新增多项 AI 功能，属重要产品策略调整。昨天（1 月 28 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/28/with-apples-new-creator-studio-pro-ai-is-a-tool-to-aid-creation-not-replace-it/",
+      "keywords": ["Apple", "Creator Studio", "12.99 美元", "6 款应用", "AI 剪辑"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "LM Studio 0.4 支持命令行运行本地 AI",
+      "content": "LM Studio 昨天发布 0.4 版本，新增 lms 命令行工具，用户可无需图形界面下载模型并交互，支持 Linux 和云环境，显著扩展本地部署场景。",
+      "importance": "high",
+      "reasoning": "本地 AI 工具 LM Studio 重大版本更新，新增命令行功能，支持 Linux 和云环境，扩展本地部署场景，属重要工具更新。昨天（1 月 28 日）发布。",
+      "source": "LM Studio Blog",
+      "url": "https://lmstudio.ai/blog/0.4.0",
+      "keywords": ["LM Studio", "0.4", "命令行", "Linux", "本地 AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "开源 AI 助手 Clawdbot 一天获 9000 星",
+      "content": "开发者 Peter Steinberger 于 1 月 26 日发布开源 AI 助手 Clawdbot，GitHub 首日获 9000 星，目前超 3 万星。支持本地部署，可监控邮件日历、执行命令、管理文件和 Git，通过 Telegram 远程控制计算机。",
+      "importance": "high",
+      "reasoning": "开源个人 AI 助手首日获 9000 星，目前超 3 万星，支持本地部署和远程控制，展示开源 AI 工具热度。1 月 26 日发布（3 天前）。",
+      "source": "BusinessToday",
+      "url": "https://www.businesstoday.in/technology/news/story/meet-clawdbot-the-open-source-ai-assistant-taking-over-social-media-feeds-512921-2026-01-27",
+      "keywords": ["Clawdbot", "开源", "9000 星", "本地部署", "Telegram"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Deloitte 预测 40% 智能体项目将失败",
+      "content": "Deloitte 报告显示，仅 14% 组织有可部署智能体方案，11% 已投产。Gartner 预测到 2027 年超过 40% 项目将因传统系统无法支持而失败。全球智能体市场预计从 2026 年的 85 亿美元增至 2030 年的 350 亿美元。",
+      "importance": "high",
+      "reasoning": "Deloitte 和 Gartner 预测 40% 智能体项目将失败，反映企业部署面临重大挑战，市场规模 2030 年达 350 亿美元，属重要行业趋势报告。近期发布。",
+      "source": "Deloitte Insights",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+      "keywords": ["Deloitte", "智能体", "40%", "85 亿美元", "350 亿美元"],
+      "category": "研究报告"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-29T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "Bloomberg",
+      "BusinessToday",
+      "LM Studio Blog",
+      "Deloitte Insights"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 480
+  }
+}

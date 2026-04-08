@@ -1,0 +1,110 @@
+{
+  "date": "2025-12-01",
+  "date_formatted": "25/12/01",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 3,
+      "title": "ChatGPT 迎来三周年",
+      "content": "ChatGPT 于今天迎来发布三周年纪念日。自 2022 年 11 月 30 日发布以来，ChatGPT 已成为全球最流行的 AI 应用，月活用户超过 2 亿，引发了全球 AI 应用热潮。",
+      "importance": "critical",
+      "reasoning": "OpenAI 核心产品重要里程碑：ChatGPT 三周年，月活超 2 亿用户，是 AI 应用爆发的标志性事件，昨天（11 月 30 日）达成。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/30/chatgpt-launched-three-years-ago-today/",
+      "keywords": ["ChatGPT", "OpenAI", "三周年", "里程碑"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "字节 Vidi2 视频理解超越 Gemini 3 Pro",
+      "content": "字节跳动发布 Vidi2 多模态 AI 模型，在 60 分钟以上视频理解中，时空定位准确率达 38.65%，远超 GPT-5 的 12.49% 和 Gemini 3 Pro。模型可精准标注物体时空轨迹，支持超长视频智能检索与编辑。",
+      "importance": "critical",
+      "reasoning": "重要技术突破：Vidi2 准确率 38.65% 是 GPT-5 的 3 倍多，在超长视频理解上超越 Gemini 3 Pro，对视频 AI 应用有重大推动，今天（12 月 1 日）发布",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/23235",
+      "keywords": ["字节跳动", "Vidi2", "视频理解", "多模态"],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "欧盟达成首部 AI 监管法案",
+      "content": "欧盟 27 国达成首部综合性 AI 监管法案，采用基于风险的分级监管体系。这是全球首个系统性 AI 监管框架，将影响所有在欧洲运营的 AI 公司。",
+      "importance": "critical",
+      "reasoning": "行业级政策法规：欧盟首部 AI 法案，27 国共识，全球首个系统性监管框架，对全球 AI 监管有重大示范意义，今天（12 月 1 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["欧盟", "AI 法案", "监管", "政策"],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "ChatGPT 测试版代码曝光引入广告",
+      "content": "OpenAI 在 ChatGPT Android 测试版 1.2025.329 中被发现包含广告相关代码字段，包括'搜索广告'和'广告轮播'。富国银行预测 2030 年 ChatGPT 广告收入将达 1000 亿美元，占全球搜索广告市场 30%。",
+      "importance": "critical",
+      "reasoning": "OpenAI 核心产品重大商业模式转变：测试版代码曝光广告功能，富国银行预测 2030 年广告收入 1000 亿美元，对 AI 行业商业化有重大影响，前天（11 月 29 日）曝光。",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/901/291.htm",
+      "keywords": ["ChatGPT", "OpenAI", "广告", "商业化"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "字节中兴 AI 手机 12 月初发布",
+      "content": "字节跳动与中兴合作的 AI 原生手机将于 12 月初发布，首发 3 万台。核心特色是高权限 Agent 能力，AI 助手可跨应用执行复杂指令。字节负责豆包大模型集成，中兴负责硬件设计与制造，第二代明年推出。",
+      "importance": "high",
+      "reasoning": "重要产品即将发布：首批 3 万台，高权限 Agent 可跨应用操作，字节中兴战略合作，11 月 30 日报道，12 月初发布",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3573644282861958",
+      "keywords": ["字节跳动", "中兴", "AI 手机", "豆包"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Google TPU 引发价格战 OpenAI 砍价 30%",
+      "content": "Google 第七代 TPU v7 开始对外销售，算力达 4.6 petaFLOPS 超越英伟达 B200，完整配置成本比 GB200 低 44%。OpenAI 仅听闻 TPU 对外销售消息，就向英伟达砍价 30%，降低采购成本。",
+      "importance": "critical",
+      "reasoning": "重大行业竞争：Google TPU 成本优势明显，OpenAI 砍价 30%，对 AI 芯片市场和成本结构有重大影响，11 月 24-27 日报道",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3570116669865096",
+      "keywords": ["Google", "TPU v7", "OpenAI", "价格战"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "17 岁辍学生靠 ChatGPT 成 OpenAI 科学家",
+      "content": "17 岁高中辍学生通过 ChatGPT 自学编程和机器学习，最终加入 OpenAI 成为科学家。",
+      "importance": "high",
+      "reasoning": "高话题性案例：17 岁辍学生靠 ChatGPT 自学成为 OpenAI 科学家，引发教育变革讨论，展示 AI 对学习方式的颠覆，今天（12 月 1 日）报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3576377782909824",
+      "keywords": ["OpenAI", "ChatGPT", "教育", "辍学"],
+      "category": "行业动态"
+    },
+    {
+      "id": 11,
+      "title": "人形机器人行业出现倒闭潮",
+      "content": "36 氪研究发现人形机器人行业出现倒闭潮，6 大高危方向包括资金链断裂、技术路径错误等。",
+      "importance": "medium",
+      "reasoning": "行业趋势分析：人形机器人出现倒闭潮，6 大高危方向，反映行业从炒作到落地的挑战，对机器人行业有参考价值，今天（12 月 1 日）发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3574072311790723",
+      "keywords": ["人形机器人", "倒闭", "行业", "趋势"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-01T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 1800
+  }
+}

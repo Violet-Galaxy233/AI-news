@@ -1,0 +1,143 @@
+{
+  "date": "2025-11-13",
+  "date_formatted": "25/11/13",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "CSAIA 与字节跳动联合举办 TRAE 黑客松，11 月 15 日开赛，奖金池超万元",
+      "content": "中新人工智能协会 CSAIA 将联合字节跳动 于 11 月 15 日在新加坡管理大学举办 TRAE Friends Hackathon。活动包括 TRAE 团队产品与技术分享、全天 Vibe 编程挑战赛，参赛者将使用 TRAE 工具设计、构建并展示 AI 驱动项目，现场配备工程师指导，冠军奖金 800 新币，所有参赛者获 TRAE 独家周边。活动面向新加坡顶尖高校开发者、学生和 AI 爱好者。",
+      "importance": "critical",
+      "reasoning": "AI 开发工具行业活动：TRAE 在新加坡举办黑客松，展示 AI 驱动开发理念，面向高校开发者，奖金池丰厚，对 AI 开发工具社区建设和推广有重要意义，11 月 15 日举办（后天）。",
+      "source": "TRAE",
+      "url": "https://trae.ai",
+      "keywords": ["TRAE", "黑客松", "新加坡", "AI 开发工具"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 发布 GPT-5.1 提升对话体验",
+      "content": "OpenAI 发布 GPT-5.1，分为 Instant 和 Thinking 两个版本。新模型在数学和编程测试中表现更强，Instant 版本引入自适应推理功能，可在复杂问题前先思考。新增专业、坦率、古怪等多种对话风格选项，付费用户优先获得访问权限。",
+      "importance": "critical",
+      "reasoning": "OpenAI 核心模型发布：GPT-5.1 改进对话体验和推理能力，新增多种对话风格，对主流 AI 产品有重要影响，昨天（11 月 12 日）发布。",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2025/11/12/openai-chatgpt-5-1-launch/",
+      "keywords": ["OpenAI", "GPT-5.1", "对话 AI", "模型更新"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic 投资 500 亿美元建设 AI 数据中心",
+      "content": "Anthropic 宣布，计划投资 500 亿美元打造美国 AI 数据中心网络，首批设施将在德克萨斯州和纽约州建设，2026 年投入运营。项目预计创造 800 个永久岗位和 2000 多个建筑岗位。CEO Dario Amodei 表示这是支持前沿 AI 发展的必要基础设施。",
+      "importance": "critical",
+      "reasoning": "巨头重大基础设施投资：500 亿美元投资规模，德州和纽约首批数据中心 2026 年启用，创造 2800 个岗位，对 AI 算力格局有重大影响，昨天（11 月 12 日）宣布。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2025-11-12/doc-infxemns6035562.shtml",
+      "keywords": ["Anthropic", "数据中心", "AI 基础设施", "投资"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "李飞飞 World Labs 推出首款商业产品 Marble",
+      "content": "李飞飞创立的 World Labs 发布首款商业世界模型 Marble，用户可通过一张图片或文本提示生成可无限探索的 3D 环境。产品已全面兼容 Apple Vision Pro 和 Meta Quest 3 头显，支持免费增值和付费订阅两种模式。",
+      "importance": "critical",
+      "reasoning": "重要 AI 研究者商业化产品：李飞飞创业公司首款产品，生成可探索 3D 世界，兼容主流 VR 头显，对空间智能和世界模型领域有重要推动，昨天（11 月 12 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/12/fei-fei-lis-world-labs-speeds-up-the-world-model-race-with-marble-its-first-commercial-product/",
+      "keywords": ["李飞飞", "World Labs", "Marble", "3D 生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "德国法院裁定 OpenAI 侵犯音乐人版权",
+      "content": "德国慕尼黑法院裁定，OpenAI 未经授权使用德国音乐人歌词训练 ChatGPT 构成侵权，需支付赔偿金。涉及 9 首德国歌曲歌词，包括畅销歌手 Herbert Grönemeyer 的作品。OpenAI 回应称不同意判决并考虑上诉，这是欧洲 AI 版权监管的重要判例。",
+      "importance": "critical",
+      "reasoning": "行业级法律事件：首例 AI 训练数据版权判决，OpenAI 需支付赔偿，涉及德国音乐版权协会代表音乐人起诉，对 AI 训练数据获取方式有重大影响，11 月 11 日判决（2 天前）。",
+      "source": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/articles/2025-11-12/4139346.html",
+      "keywords": ["OpenAI", "德国法院", "版权", "ChatGPT"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "百度世界大会 2025 今日举办聚焦 AI 应用",
+      "content": "百度世界大会在北京举办，主题为效果涌现。李彦宏发表主题演讲，展示文心大模型最新进展。数据显示文心大模型日均 API 调用超 15 亿次，较 2024 年增长 30 倍，妙搭工具已帮助用户开发 20 万个零代码应用。",
+      "importance": "critical",
+      "reasoning": "国内大厂主流产品展示：百度世界大会今日举办，李彦宏展示文心大模型，15 亿日均调用量和 30 倍增长展示应用规模，20 万零代码应用显示生态繁荣，今天（11 月 13 日）举办。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2025/11/350112.html",
+      "keywords": ["百度", "百度世界大会", "李彦宏", "文心大模型"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "前 DeepSeek 研究员罗福莉加入小米 AGI 团队",
+      "content": "前 DeepSeek 研究员罗福莉官宣加入小米，将在小米 MiMo 团队致力于 AGI 研究。罗福莉表示将与富有创造力的研究员团队一起，推动智能从语言迈向物理世界。此前有传闻称雷军希望以千万元年薪挖角，罗福莉曾参与 DeepSeek-V2 等模型开发。",
+      "importance": "critical",
+      "reasoning": "重大人事变动：DeepSeek 核心研究员罗福莉加入小米 AGI 团队，传闻千万年薪，曾参与 DeepSeek-V2 开发，对小米 AI 战略和人才竞争有重要意义，昨天（11 月 12 日）官宣。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2025-11-12/doc-infxcqie4891668.shtml",
+      "keywords": ["罗福莉", "小米", "DeepSeek", "AGI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "荷兰 AI 云公司 Nebius 与 Meta 签 30 亿美元协议",
+      "content": "荷兰 AI 云服务商 Nebius 宣布与 Meta 签订 5 年期、总价值 30 亿美元的 AI 基础设施服务协议。这是 Nebius 继与 Microsoft 签订 174 亿美元合同后的第二份超大型订单。公司 2025 年第三季度营收同比增长 355%。",
+      "importance": "high",
+      "reasoning": "重大商业合作：30 亿美元 5 年期协议，Nebius 第二份超大型订单，第三季度营收涨 355% 展示增长势头，对 AI 云服务市场有重要影响，11 月 11 日宣布（2 天前）。",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/2198886",
+      "keywords": ["Nebius", "Meta", "AI 云", "合作协议"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "ElevenLabs 与迈克尔·凯恩等名人合作 AI 配音",
+      "content": "AI 语音公司 ElevenLabs 本周宣布与演员迈克尔·凯恩、马修·麦康纳等名人签约，推出授权 AI 语音市场，支持品牌使用名人 AI 配音。该市场还包括莉莎·明尼里、玛雅·安吉洛等名人声音。ElevenLabs 2025 年营收突破 1 亿美元。",
+      "importance": "high",
+      "reasoning": "赛道级产品发布：ElevenLabs 与多位知名演员签约授权 AI 语音，推出名人声音市场，营收破亿美元展示商业成功，对 AI 语音授权模式有重要影响，11 月 12 日宣布（昨天）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/12/elevenlabs-strike-deals-with-celebs-to-create-ai-audio/",
+      "keywords": ["ElevenLabs", "AI 语音", "名人配音", "授权"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "百度发布 ERNIE 多模态模型声称超越竞品",
+      "content": "百度发布 ERNIE-4.5-VL-28B 多模态模型，在 MathVista、ChartQA 等测试中声称超越 Gemini 2.5 Pro 和 GPT-5。模型采用混合专家架构，总参数 280 亿，运行时激活 30 亿参数，在保持性能同时降低计算消耗。",
+      "importance": "high",
+      "reasoning": "重要技术发布：百度 ERNIE 多模态模型声称超越国际竞品，280 亿总参数激活 30 亿，混合专家架构优化计算效率，对国内多模态 AI 发展有推动作用，昨天（11 月 12 日）发布。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/baidu-ernie-multimodal-ai-gpt-and-gemini-benchmarks/",
+      "keywords": ["百度", "ERNIE", "多模态模型", "测试成绩"],
+      "category": "产品发布"
+    },
+    {
+      "id": 11,
+      "title": "OpenAI 开发健康相关 AI 助手工具",
+      "content": "AI Breakfast 报道，OpenAI 正在开发健康相关 AI 助手工具，旨在成为用户的下一代健康助手，具体功能和发布时间尚未披露。",
+      "importance": "high",
+      "reasoning": "赛道级应用探索：OpenAI 进入健康助手领域，对医疗健康 AI 应用有探索意义，具体细节待披露，昨天（11 月 12 日）报道。",
+      "source": "AI Breakfast",
+      "url": "https://aibreakfast.beehiiv.com/p/openai-is-quietly-building-your-next-health-assistant",
+      "keywords": ["OpenAI", "健康助手", "AI 应用", "医疗"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-13T10:50:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 2,
+    "generation_time_seconds": 2400
+  }
+}

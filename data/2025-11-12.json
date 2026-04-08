@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-12",
+  "date_formatted": "25/11/12",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 2,
+      "title": "字节发布豆包编程模型成本降 62.7%",
+      "content": "字节火山引擎发布豆包编程模型，成本较行业平均降 62.7% 为国内最低价。模型支持 256K 长度处理复杂代码，测试表现超越国内竞品，可通过 UI 设计稿直接生成代码。",
+      "importance": "critical",
+      "reasoning": "重大产品发布：成本降 62.7% 为国内最低价展示竞争力，支持 256K 长度和 UI 生成代码展示技术实力，对国内 AI 编程工具市场有重要影响，11 月 11 日发布。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/tob/2025-11-11/doc-infwzfah5888619.shtml",
+      "keywords": ["字节跳动", "豆包", "编程模型", "降成本"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "软银出售全部英伟达股份 58.3 亿美元",
+      "content": "软银宣布 10 月已出售全部 3210 万股英伟达股份，获 58.3 亿美元。资金将用于 OpenAI 投资和 Stargate AI 制造项目。消息公布后英伟达股价跌 1.7%。",
+      "importance": "critical",
+      "reasoning": "重大市场事件：软银清仓 58.3 亿美元英伟达股份引发市场震动，英伟达股价跌 1.7% 反映影响，资金转向 OpenAI 展示 AI 投资策略转变，11 月 11 日宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html",
+      "keywords": ["软银", "英伟达", "股票", "AI 投资"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "图灵奖得主杨立昆计划离开 Meta 创业",
+      "content": "图灵奖得主、Meta 首席 AI 科学家杨立昆计划数月内离职创业，专注世界模型研发。此前 Meta 将 AI 战略从长期研究转向快速发布，杨立昆所领导的基础研究实验室受影响。",
+      "importance": "critical",
+      "reasoning": "行业重磅人事：图灵奖得主、深度学习先驱杨立昆离职 Meta 创业，专注世界模型研发，反映 Meta AI 战略调整，对 AI 行业人才流动和研究方向有重要影响，11 月 11 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/11/metas-chief-ai-scientist-yann-lecun-reportedly-plans-to-leave-to-build-his-own-startup/",
+      "keywords": ["杨立昆", "Meta", "离职", "世界模型"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "李飞飞万字长文定义 AI 下一个十年",
+      "content": "斯坦福教授李飞飞发表长文，提出空间智能是 AI 下一个前沿。她指出当前 AI 缺乏对三维物理世界的理解，空间智能需具备想象力、物理一致性和多模态处理三大能力。",
+      "importance": "critical",
+      "reasoning": "行业前瞻观点：李飞飞作为 AI 领域领军人物提出 AI 未来十年方向，空间智能概念对行业研究方向有重要指引，文章在业界引发广泛讨论，11 月 10-11 日发表。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3548078081093508",
+      "keywords": ["李飞飞", "空间智能", "AI 未来", "世界模型"],
+      "category": "行业观点"
+    },
+    {
+      "id": 6,
+      "title": "Wonderful 完成 1 亿美元 A 轮估值 7 亿",
+      "content": "以色列 AI 客服公司 Wonderful 完成 1 亿美元 A 轮融资估值 7 亿，4 个月前刚完成 3400 万种子轮。",
+      "importance": "high",
+      "reasoning": "高速增长融资：1 亿美元 A 轮和 7 亿估值，4 个月内连续两轮融资展示增长速度，对 AI 客服赛道有参考价值，11 月 11 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/",
+      "keywords": ["Wonderful", "融资", "AI 客服", "估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 7,
+      "title": "Majestic Labs 获 1 亿美元研发超大内存服务器",
+      "content": "Majestic Labs 获 1 亿美元融资，研发内存容量是顶级 GPU 1000 倍的 AI 服务器，单台可替代 10 个机架。",
+      "importance": "high",
+      "reasoning": "重要硬件突破：1000 倍内存容量和单台替代 10 个机架展示技术创新，1 亿美元融资，对 AI 数据中心成本优化有重要意义，11 月 10 日宣布。",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20251110896482/en/",
+      "keywords": ["Majestic Labs", "AI 服务器", "融资", "内存"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "AMD 收购 AI 推理公司 MK1",
+      "content": "AMD 收购 AI 推理公司 MK1，其技术每日处理超 1 万亿次，这是 AMD 自 2023 年第九次 AI 收购。",
+      "importance": "high",
+      "reasoning": "重要战略收购：AMD 持续收购 AI 公司（第九次），MK1 技术每日处理 1 万亿次，对 AMD 在 AI 推理市场竞争力有提升，11 月 11 日宣布。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/896/478.htm",
+      "keywords": ["AMD", "收购", "MK1", "AI 推理"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "字节推出 InfinityStar 视频生成 58 秒",
+      "content": "字节跳动推出 InfinityStar 框架，生成 5 秒 720p 视频仅需 58 秒，支持图像和文本生成视频等任务。",
+      "importance": "high",
+      "reasoning": "重要技术进展：58 秒生成 5 秒视频展示生成速度，支持多种任务，对视频生成效率有提升，11 月 11 日发布。",
+      "source": "OSCHINA",
+      "url": "https://www.oschina.net/news/382980",
+      "keywords": ["字节跳动", "InfinityStar", "视频生成", "效率"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "紫荆智康获近亿元加速 AI 医院落地",
+      "content": "紫荆智康完成近亿元天使轮，AI 医院系统拥有 21 科室 42 位 AI 医生，覆盖 300 余种疾病。",
+      "importance": "high",
+      "reasoning": "重要行业应用：清华孵化项目获近亿元融资，42 位 AI 医生覆盖 300 种疾病展示应用广度，对 AI 医疗落地有推动作用，11 月 12 日报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3542784904753282",
+      "keywords": ["紫荆智康", "AI 医院", "融资", "医疗"],
+      "category": "投融资"
+    },
+    {
+      "id": 11,
+      "title": "Eternos 获 1030 万转型个人 AI 语音",
+      "content": "Eternos 获 1030 万美元融资，转型个人 AI 语音，可复刻用户声音。",
+      "importance": "medium",
+      "reasoning": "产品转型融资：1030 万美元融资，从数字永生转型个人 AI 语音，技术可复刻用户声音特征，对个人 AI 助手有参考价值，11 月 11 日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/11/immortality-startup-eternos-pivots-to-a-personal-ai-that-sounds-like-you/",
+      "keywords": ["Eternos", "融资", "AI 语音", "语音复刻"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-12T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 1920
+  }
+}

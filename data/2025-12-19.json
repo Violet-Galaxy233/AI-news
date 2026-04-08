@@ -1,0 +1,122 @@
+{
+  "date": "2025-12-19",
+  "date_formatted": "25/12/19",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发布 GPT-5.2-Codex 编码模型",
+      "content": "OpenAI 于 12 月 18 日发布 GPT-5.2-Codex 编码模型，专为复杂软件工程任务优化。该模型在 SWE-Bench Pro 测试中准确率达 56.4%，Terminal-Bench 2.0 得分 64%。现已向所有 ChatGPT 付费用户开放，支持代码生成、重构和漏洞检测。",
+      "importance": "critical",
+      "reasoning": "三大厂主流产品发布：OpenAI 发布专业编码模型，性能数据优异（56.4% 和 64% 测试分数），向所有付费用户开放，对软件工程领域有重大影响。昨天（12 月 18 日）发布。",
+      "source": "OpenAI / SiliconANGLE",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "keywords": ["OpenAI", "GPT-5.2-Codex", "编码", "软件工程"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "ChatGPT 移动应用消费支出突破 30 亿美元",
+      "content": "ChatGPT 移动应用（iOS 和 Android）全球消费支出突破 30 亿美元，仅用 31 个月即达成这一里程碑，而全球收入最高的应用 TikTok 耗时 58 个月。2025 年预计支出达 24.8 亿美元，较 2024 年激增 408%。数据来自 Appfigures。",
+      "importance": "critical",
+      "reasoning": "行业里程碑：ChatGPT 移动应用 31 个月达成 30 亿美元消费支出，速度是 TikTok 的近 2 倍，2025 年增长 408%，展示 AI 应用的强劲商业化能力。12 月 18 日报道。",
+      "source": "TechCrunch / Appfigures",
+      "url": "https://techcrunch.com/2025/12/18/chatgpts-mobile-app-hits-new-milestone-of-3b-in-consumer-spending/",
+      "keywords": ["ChatGPT", "30 亿美元", "移动应用", "消费支出"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Lovable 融资 3.3 亿美元估值 66 亿",
+      "content": "AI 编码工具 Lovable 于 12 月 18 日完成 3.3 亿美元 B 轮融资，估值达 66 亿美元，较 7 月的 18 亿美元增长 267%。公司年度经常性收入超 2 亿美元。本轮由 Alphabet 旗下 CapitalG 和 Menlo Ventures 领投，英伟达、Salesforce 等参投。",
+      "importance": "critical",
+      "reasoning": "巨额融资：3.3 亿美元 B 轮，估值 66 亿美元（5 个月增长 267%），年收入超 2 亿美元，顶级投资机构参与，AI 编码赛道热度持续。12 月 18 日宣布。",
+      "source": "TechCrunch / SiliconANGLE",
+      "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+      "keywords": ["Lovable", "融资", "3.3 亿美元", "66 亿估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Luma AI 发布 Ray3 Modify 视频编辑工具",
+      "content": "Luma AI 于 12 月 18 日发布 Ray3 Modify 视频编辑工具，支持设定起止帧生成中间内容，可保留演员动作和情感的同时改变场景、服装等元素。现已在 Dream Machine 平台上线。",
+      "importance": "high",
+      "reasoning": "赛道级产品更新：Luma AI 推出起止帧视频编辑功能，可保留表演细节同时改变视觉元素，改变视频创作工作流。12 月 18 日发布。",
+      "source": "TechCrunch / Business Wire",
+      "url": "https://techcrunch.com/2025/12/18/luma-releases-a-new-ai-model-that-lets-users-generate-a-video-from-a-start-and-end-frame/",
+      "keywords": ["Luma AI", "Ray3 Modify", "视频编辑", "起止帧"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Kimi 月活用户暴跌 73%",
+      "content": "Kimi 月活用户从 2024 年底峰值 3600 万跌至 9 月的 967 万，降幅达 73%，仅为豆包的 5.6%。主要原因包括 DeepSeek 崛起和产品创新不足。",
+      "importance": "high",
+      "reasoning": "高话题性事件：Kimi 月活从 3600 万跌至 967 万（降幅 73%），与豆包、DeepSeek 差距巨大，反映中国 AI 竞争格局剧变。12 月 18 日报道。",
+      "source": "36氪 / 界面新闻",
+      "url": "https://36kr.com/p/3600659451904519",
+      "keywords": ["Kimi", "月活", "73% 下降", "DeepSeek"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Anthropic 推出 Claude 组织技能管理",
+      "content": "Anthropic 于 12 月 18 日推出 Claude 组织技能管理功能，企业可集中管理可复用指令集。同时开放技能标准支持跨平台使用，Notion、Canva、Figma 等成为首批合作伙伴。",
+      "importance": "high",
+      "reasoning": "重要产品更新：Anthropic 推出企业级技能管理和开放标准，支持跨平台使用（包括 ChatGPT、Cursor），首批合作伙伴包括 Notion、Canva 等知名工具。12 月 18 日发布。",
+      "source": "Anthropic / VentureBeat",
+      "url": "https://claude.com/blog/organization-skills-and-directory",
+      "keywords": ["Claude", "组织技能", "开放标准", "跨平台"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Firefox 将提供 AI 功能完全关闭选项",
+      "content": "Firefox 于 12 月 18 日宣布将提供 AI 功能完全关闭选项，用户可一键永久禁用所有 AI 功能。此举与 Chrome 强制集成 Gemini 形成对比。",
+      "importance": "high",
+      "reasoning": "高话题性决策：Firefox 提供 AI 功能完全关闭选项，与 Chrome 强制集成 AI 形成鲜明对比，反映用户隐私保护诉求。12 月 18 日宣布。",
+      "source": "9to5Linux / GamingOnLinux",
+      "url": "https://9to5linux.com/firefox-will-ship-with-an-ai-kill-switch-to-completely-disable-all-ai-features",
+      "keywords": ["Firefox", "AI 关闭", "隐私", "用户选择"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "白犀牛 2025 年累计融资超 1 亿美元",
+      "content": "自动驾驶公司白犀牛于 12 月 18 日完成新一轮融资，2025 年累计融资超 1 亿美元，运营车辆已超 2000 台。",
+      "importance": "medium",
+      "reasoning": "中等融资规模：白犀牛 2025 年累计融资超 1 亿美元，运营车辆超 2000 台，自动驾驶物流领域持续发展。12 月 18 日宣布。",
+      "source": "36氪 / 新浪财经",
+      "url": "https://36kr.com/p/3597598153785352",
+      "keywords": ["白犀牛", "融资", "1 亿美元", "自动驾驶"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "Roblox 发布 OpenGameEval 评测框架",
+      "content": "Roblox 于 12 月 17 日发布 OpenGameEval，首个 Roblox Studio 原生 AI 助手评测框架。",
+      "importance": "medium",
+      "reasoning": "行业工具发布：Roblox 发布首个原生 AI 助手评测框架，推动游戏开发 AI 工具标准化。昨天（12 月 17 日）发布。",
+      "source": "Roblox",
+      "url": "https://corp.roblox.com/newsroom/2025/12/opengameeval-benchmark-agentic-ai-assistants-roblox-studio",
+      "keywords": ["Roblox", "OpenGameEval", "评测框架", "游戏开发"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-19T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "9to5Linux"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 1800
+  }
+}

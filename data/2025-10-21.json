@@ -1,0 +1,166 @@
+{
+  "date": "2025-10-21",
+  "date_formatted": "25/10/21",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Claude Code 登陆网页版",
+      "content": "Anthropic 将 Claude Code 从命令行工具扩展到网页端，允许开发者通过浏览器创建和管理多个 AI 编程代理。Pro 用户（$20/月）和 Max 用户（$100-200/月）可在 claude.ai 使用，支持连接 GitHub 仓库和实时进度追踪。自 5 月发布以来用户数增长 10 倍，年化收入超 5 亿美元。",
+      "importance": "critical",
+      "reasoning": "主流公司核心产品重大更新：Anthropic 将旗舰编程工具从 CLI 扩展到网页和移动端，大幅降低使用门槛，用户数增长 10 倍且年化收入超 5 亿美元，对开发者生态有重大影响，昨天（10-20）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/",
+      "keywords": [
+        "Anthropic",
+        "Claude Code",
+        "网页版",
+        "开发工具"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "OpenEvidence 融资 2 亿美元",
+      "content": "医疗 AI 平台 OpenEvidence 完成 2 亿美元 C 轮融资，估值达 60 亿美元，三个月内估值翻倍。该平台为医疗专业人员提供基于循证医学的 AI 助手，月度临床咨询量从 7 月的 750 万次增至 1500 万次，增长 100%。由 Google Ventures 领投，已累计融资近 5 亿美元。",
+      "importance": "critical",
+      "reasoning": "医疗 AI 赛道重大融资：估值 60 亿美元，三个月内估值翻倍，月度咨询量达 1500 万次，展示医疗 AI 的强劲需求和商业价值，对垂直领域 AI 应用有重要示范作用，昨天（10-20）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/20/openevidence-the-chatgpt-for-doctors-raises-200m-at-6b-valuation/",
+      "keywords": [
+        "OpenEvidence",
+        "医疗 AI",
+        "融资",
+        "循证医学"
+      ],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Adobe 推出 AI Foundry",
+      "content": "Adobe 发布 AI Foundry 企业服务，允许公司使用自有品牌资产训练定制化生成式 AI 模型，可生成文本、图像、视频和 3D 内容。基于 Firefly 平台构建，采用按使用量计费模式，迪士尼幻想工程和家得宝已成为首批客户。自 Firefly 发布以来，企业已创建超 250 亿个资产。",
+      "importance": "critical",
+      "reasoning": "Adobe 核心 AI 产品发布：面向企业的定制化生成式 AI 服务，基于完全合规的 Firefly 平台，改变企业内容生产方式，250 亿资产创建量证明市场需求，昨天（10-20）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/20/adobe-launches-a-foundry-service-that-builds-custom-generative-ai-models-for-enterprises/",
+      "keywords": [
+        "Adobe",
+        "AI Foundry",
+        "Firefly",
+        "企业 AI"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "DeepSeek 开源 OCR 模型",
+      "content": "DeepSeek 发布 3B 参数视觉语言模型 DeepSeek-OCR，专注文档解析和 Markdown 转换。在 10 倍压缩率下达到 97% 准确率，在 OmniDocBench 测试中仅用 100 个视觉符号即超越 GOT-OCR2.0 的 256 个符号表现。采用 MIT 许可开源，GitHub 获 1600+ 星标。",
+      "importance": "high",
+      "reasoning": "重要开源模型发布：3B 小参数模型在文档解析领域达到 97% 准确率，实现 7-20 倍压缩，技术创新性高且完全开源，对文档智能化有重要推动作用，昨天（10-20）发布。",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/",
+      "keywords": [
+        "DeepSeek",
+        "OCR",
+        "文档解析",
+        "开源"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "IBM 联手 Groq 加速企业 AI",
+      "content": "IBM 与 Groq 达成战略合作，将 Groq 的运行加速技术集成到 watsonx Orchestrate 平台。Groq 的 LPU 芯片处理速度比传统 GPU 快 5 倍且成本更低，IBM Granite 模型将支持 GroqCloud，即日起向医疗、金融、政府和零售客户开放。",
+      "importance": "high",
+      "reasoning": "企业 AI 加速重要合作：IBM 与 Groq 合作为企业客户提供 5 倍运行速度提升，针对医疗和金融等关键行业，有助于推动代理 AI 从试点到生产，昨天（10-20）宣布。",
+      "source": "IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2025-10-20-ibm-and-groq-partner-to-accelerate-enterprise-ai-deployment-with-speed-and-scale",
+      "keywords": [
+        "IBM",
+        "Groq",
+        "企业 AI",
+        "watsonx"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Arm 向初创企业开放边缘 AI",
+      "content": "Arm 将最强边缘 AI 平台 Armv9 纳入灵活访问计划，为初创企业提供低成本或免费使用权。该计划已吸引超 300 家企业加入，完成 400 个芯片设计。Cortex-A320 将于 11 月通过灵活访问计划推出，Ethos-U85 将于 2026 年初推出。",
+      "importance": "high",
+      "reasoning": "边缘 AI 生态建设：Arm 降低技术门槛吸引初创企业，300+ 企业参与和 400 个芯片设计证明计划成功，有助于扩大边缘 AI 市场份额，昨天（10-20）宣布。",
+      "source": "Arm Newsroom",
+      "url": "https://newsroom.arm.com/news/arm-flexible-access-armv9-edge-ai-platform",
+      "keywords": [
+        "Arm",
+        "边缘 AI",
+        "Armv9",
+        "初创企业"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Google Veo 新增精准编辑",
+      "content": "Google DeepMind 为 Veo 视频生成模型推出精准编辑功能，用户可通过文本提示添加或删除视频元素，AI 自动处理阴影和场景照明确保自然融合。该功能已集成到 Flow 视频编辑器，Veo 3.1 已通过 Gemini API 和 Vertex AI 提供付费预览。",
+      "importance": "high",
+      "reasoning": "AI 视频编辑能力提升：Google 为 Veo 3.1 新增精准编辑功能，提升视频创作灵活性，基于 10 月 15 日发布的 Veo 3.1 的重要功能增强，昨天（10-20）宣布。",
+      "source": "Blockchain News",
+      "url": "https://blockchain.news/ainews/veo-ai-video-editor-gains-new-precision-editing-features-for-seamless-scene-modification",
+      "keywords": [
+        "Google",
+        "Veo",
+        "视频编辑",
+        "生成式 AI"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Meta AI 应用下载激增",
+      "content": "Meta AI 应用在推出 Vibes AI 视频流功能后，下载量和日活用户显著增长。截至 10 月 17 日，Meta AI 日活用户全球增长 15.58%，而 ChatGPT、Grok 和 Perplexity 分别下降 3.51%、7.35% 和 2.29%。Vibes 由 Midjourney 和 Black Forest Labs 技术支持。",
+      "importance": "high",
+      "reasoning": "AI 应用市场格局变化：Meta AI 通过 Vibes 功能实现 15.58% 日活增长，竞品出现负增长，展示视频生成功能对用户吸引力，昨天（10-20）数据更新。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/20/meta-ais-app-downloads-and-daily-users-spiked-after-launch-of-vibes-ai-video-feed/",
+      "keywords": [
+        "Meta AI",
+        "Vibes",
+        "视频生成",
+        "用户增长"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "AWS 大规模中断",
+      "content": "10 月 20 日早晨，亚马逊云服务（AWS）美国东海岸数据中心发生重大故障，导致 Snapchat、Alexa、Venmo 等主流应用中断服务，凸显互联网对 AWS 的高度依赖和单点故障风险。",
+      "importance": "medium",
+      "reasoning": "基础设施事件：AWS 中断影响多个主流应用，反映云服务集中度风险，但非 AI 技术本身的突破或政策变化，昨天（10-20）发生。",
+      "source": "OpenTools AI",
+      "url": "https://opentools.ai/news/aws-outage-on-october-20-2025-sparks-global-panic-and-disrupts-major-apps-and-services",
+      "keywords": [
+        "AWS",
+        "云服务",
+        "故障",
+        "基础设施"
+      ],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-21T09:30:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "AI News",
+      "36氪 API",
+      "Web Search"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 285.6
+  }
+}

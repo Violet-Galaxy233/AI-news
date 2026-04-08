@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-20",
+  "date_formatted": "25/11/20",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Nvidia Q3 营收 570 亿美元超预期",
+      "content": "Nvidia 公布 2026 财年第三季度财报，营收 570 亿美元，同比增长 62%，每股收益 1.30 美元增长 60%。CEO 黄仁勋称 Blackwell 芯片销售超出预期，预计下季度营收将达 650 亿美元。毛利率为 73.6%，略低于去年同期的 75%。",
+      "importance": "critical",
+      "reasoning": "三大厂财报发布：Nvidia 营收 570 亿美元超预期，同比增长 62%，Blackwell 芯片销售强劲，预计下季度 650 亿美元，对 AI 芯片市场有重要信号，昨天（11 月 19 日）发布。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/live-blog/2025-11-19/nvidia-third-quarter-earnings",
+      "keywords": ["Nvidia", "财报", "AI 芯片", "Blackwell"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Adobe 19 亿美元收购 Semrush 布局 AI 搜索",
+      "content": "Adobe 宣布以 19 亿美元现金收购 SEO 平台 Semrush，每股 12 美元，较前一交易日溢价 77%。Semrush 近期投资生成式引擎优化技术，可针对 ChatGPT、Claude 等 AI 工具优化网站内容。交易预计 2026 年上半年完成，Semrush 股价暴涨 74%。",
+      "importance": "critical",
+      "reasoning": "重大收购事件：Adobe 19 亿美元收购 Semrush，溢价 77%，布局 AI 时代搜索引擎优化，Semrush 股价涨 74%，对营销科技和 AI 搜索有重要影响，昨天（11 月 19 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/19/adobe-to-buy-semrush-for-1-9-billion/",
+      "keywords": ["Adobe", "Semrush", "收购", "AI 搜索"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Meta 发布 SAM 3 支持开放词汇分割",
+      "content": "Meta 发布 Segment Anything Model 3，可通过文本或视觉提示检测、分割和追踪图像与视频中的物体。相比 SAM 2，新增开放词汇概念分割能力，支持 270K 种概念，达人类水平 75-80%。模型包含 8.48 亿参数，代码已开源至 GitHub。",
+      "importance": "critical",
+      "reasoning": "重要技术突破：Meta 发布 SAM 3 支持开放词汇分割，覆盖 27 万种概念，达人类水平 75-80%，8.48 亿参数已开源，对计算机视觉和 AI 研究有重要推动，昨天（11 月 19 日）发布。",
+      "source": "Meta AI",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "keywords": ["Meta", "SAM 3", "图像分割", "开源"],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 向美国 K-12 教师免费开放 ChatGPT",
+      "content": "OpenAI 推出 ChatGPT for Teachers，向美国 K-12 认证教师免费开放至 2027 年 6 月。产品包含无限次对话、文件上传、图像生成等功能，支持与 Google Workspace 和 Microsoft 365 集成。首批合作学区覆盖近 15 万名教师。",
+      "importance": "critical",
+      "reasoning": "赛道级应用推广：OpenAI 向美国 K-12 教师免费开放 ChatGPT 至 2027 年 6 月，覆盖近 15 万名教师，支持 Google 和 Microsoft 集成，对教育 AI 应用有重要推动，昨天（11 月 19 日）宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/11/19/openai-chatgpt-for-teachers-k-12-educators.html",
+      "keywords": ["OpenAI", "ChatGPT", "教育", "免费"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "瑞典 Lovable 4 个月营收翻倍达 2 亿美元",
+      "content": "瑞典 SaaS 初创公司 Lovable 年度经常性收入在 4 个月内从 1 亿美元翻倍至 2 亿美元，创欧洲 SaaS 增长记录。公司完成 2.25 亿美元融资，估值达 18 亿美元。",
+      "importance": "critical",
+      "reasoning": "爆发式增长案例：Lovable 4 个月营收从 1 亿翻倍至 2 亿美元，创欧洲 SaaS 记录，2.25 亿融资和 18 亿估值，对 SaaS 和欧洲创业有重要参考，今天（11 月 20 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["Lovable", "SaaS", "欧洲", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 6,
+      "title": "Larry Summers 因爱泼斯坦丑闻辞去 OpenAI 董事",
+      "content": "前美国财长 Larry Summers 因与 Jeffrey Epstein 往来邮件曝光辞去 OpenAI 董事职务。他曾于 2023 年加入董事会并主导 Sam Altman 复职调查。纽约时报宣布不再续约其专栏作家合同。",
+      "importance": "high",
+      "reasoning": "重要人事变动：前财长 Larry Summers 因爱泼斯坦丑闻辞去 OpenAI 董事，曾主导 Altman 复职调查，纽约时报终止合作，对 OpenAI 治理有影响，昨天（11 月 19 日）宣布。",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2025/11/19/business/larry-summers-openai-board-epstein",
+      "keywords": ["Larry Summers", "OpenAI", "董事会", "辞职"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "TikTok 测试 AI 内容密度控制滑块",
+      "content": "TikTok 测试新功能，允许用户调节推荐流中 AI 生成内容的比例，并试验隐形水印技术标记 AI 生成内容。功能将在未来几周内推送。",
+      "importance": "high",
+      "reasoning": "平台治理新举措：TikTok 测试 AI 内容密度滑块和隐形水印技术，让用户控制 AI 内容比例，对平台内容治理有参考价值，昨天（11 月 19 日）报道。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/898/564.htm",
+      "keywords": ["TikTok", "AI 内容", "控制", "水印"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "AI 配置错误致 Cloudflare 全球崩盘",
+      "content": "Cloudflare 因 AI 配置更新错误导致全球服务崩盘，影响大量网站。公司称为常规更新失误，相关责任人已被解雇。事故引发对 AI 系统稳定性的关注。",
+      "importance": "high",
+      "reasoning": "高话题性事故：Cloudflare AI 更新导致全球崩盘，影响半个互联网，责任人被解雇，对 AI 系统风险管理有警示意义，今天（11 月 20 日）报道。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3559666808241026",
+      "keywords": ["Cloudflare", "崩盘", "AI", "事故"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "OpenAI 发布 GPT-5.1-Codex-Max 编程版本",
+      "content": "OpenAI 推出 GPT-5.1-Codex-Max，专注代码生成能力增强。",
+      "importance": "high",
+      "reasoning": "编程工具更新：OpenAI 发布专注代码生成的 Codex-Max 版本，Hacker News 获 339 点赞显示开发者关注，对编程辅助工具有参考价值，8 小时前（今天）发布。",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "keywords": ["OpenAI", "GPT-5.1", "代码生成", "Codex"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "美国共和党再推法案限制州 AI 监管",
+      "content": "共和党在 2026 国防法案中再次提议禁止各州制定 AI 法律，旨在统一联邦监管。此前类似提案已多次失败，法案引发州权与联邦权力争议。",
+      "importance": "high",
+      "reasoning": "政策法规动向：共和党再次提议禁止州 AI 法律，收归联邦统一监管，此前多次失败，引发州权争议，对美国 AI 监管格局有影响，今天（11 月 20 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["美国", "共和党", "AI 法规", "州权"],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-20T10:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1800
+  }
+}

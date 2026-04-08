@@ -1,0 +1,133 @@
+{
+  "date": "2026-01-26",
+  "date_formatted": "26/01/26",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 向 Shopify 商家收 4% 交易佣金",
+      "content": "从 1 月 26 日起，通过 ChatGPT 即时结账功能在 Shopify 平台完成的交易，OpenAI 将向商家收取 4% 佣金，30 天免费试用后生效。这标志着 ChatGPT 从工具向平台转型，与 Shopify 原有费用分开收取。Google AI Mode 和微软 Copilot 暂不收取此类费用。",
+      "importance": "critical",
+      "reasoning": "OpenAI 商业模式重大转变，ChatGPT 从工具转向平台收取交易佣金，开启新营收模式，属三大厂核心产品战略调整。今天（1 月 26 日）开始实施。",
+      "source": "TechCrunch",
+      "url": "https://www.pymnts.com/news/ecommerce/2026/shopify-merchants-to-pay-4percent-fee-on-sales-made-through-chatgpt-checkout/",
+      "keywords": ["OpenAI", "ChatGPT", "Shopify", "4%", "交易佣金"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Apple 2 月发布 Google Gemini 版 Siri",
+      "content": "Apple 计划于 2 月下半月发布基于 Google Gemini 的全新 Siri，功能将包含更好的个人情境理解、屏幕感知和深度应用控制。新版将随 iOS 26.4 发布，2 月进入测试版，3-4 月向公众开放。Apple 为此每年向 Google 支付约 10 亿美元。此前 Apple 与 Anthropic 谈判因费用过高而终止。",
+      "importance": "critical",
+      "reasoning": "两大科技巨头 Apple 和 Google 正式宣布多年合作，Siri 将基于 Gemini 重构，涉及每年 10 亿美元费用，属行业格局重大变化。1 月 25 日报道，2 月发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/25/apple-will-reportedly-unveil-its-gemini-powered-siri-assistant-in-february/",
+      "keywords": ["Apple", "Siri", "Google", "Gemini", "10 亿美元"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Synthesia 估值翻倍至 40 亿美元",
+      "content": "AI 视频生成平台 Synthesia 融资 2 亿美元，估值从 1 年前的 21 亿美元翻倍至 40 亿美元，Nvidia 和 Alphabet 风投部门参投。公司将通过纳斯达克进行 40 亿美元估值的员工股票出售。资金将用于在 AI 生成视频中加入智能体交互功能，支持用户实时互动。",
+      "importance": "critical",
+      "reasoning": "AI 视频赛道独角兽估值 1 年翻倍至 40 亿美元，获 Nvidia 和 Alphabet 支持，展示视频生成市场快速增长。今天（1 月 26 日）宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/26/nvidia-alphabet-vc-arms-back-synthesia.html",
+      "keywords": ["Synthesia", "40 亿美元", "Nvidia", "Alphabet", "AI 视频"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT 引用 AI 生成维基引发担忧",
+      "content": "测试发现 OpenAI 的 GPT-5.2 模型开始引用马斯克的 Grokipedia 作为信息来源，包括伊朗政治结构、大屠杀否认等敏感话题。Grokipedia 于 2025 年 10 月推出，内容完全由 AI 生成。误导信息研究者担心这会让不可靠的 AI 生成内容获得合法性。",
+      "importance": "critical",
+      "reasoning": "全球最流行 AI 聊天机器人 ChatGPT 被发现引用 AI 生成的不可靠来源 Grokipedia，涉及敏感话题，引发误导信息和学术诚信担忧，属行业级伦理争议。1 月 25 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/25/chatgpt-is-pulling-answers-from-elon-musks-grokipedia/",
+      "keywords": ["ChatGPT", "Grokipedia", "GPT-5.2", "误导信息", "马斯克"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "腾讯混元图像 3.0 上线图生图功能",
+      "content": "腾讯混元图像 3.0 图生图模型正式上线，总参数 80 亿（激活参数 13 亿），采用专家混合架构。用户可在元宝平台通过单句指令编辑图片，支持图像理解、多图融合、表情包制作、电商海报设计等场景。",
+      "importance": "high",
+      "reasoning": "腾讯混元图像 3.0 新增图生图功能，80 亿参数规模，在元宝平台落地多场景应用，属重要产品更新。今天（1 月 26 日）上线。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-01-26/doc-inhircnv9356807.shtml",
+      "keywords": ["腾讯", "混元图像 3.0", "80 亿参数", "图生图", "元宝"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Meta 全球暂停青少年访问 AI 角色",
+      "content": "Meta 宣布全球暂停青少年访问其 AI 角色功能，直到开发完成新版安全功能。该措施针对提供青少年生日的账户以及年龄预测技术判定的疑似青少年账户。此前有报告显示该功能对敏感话题过滤不足。",
+      "importance": "high",
+      "reasoning": "Meta 在全球范围暂停青少年访问 AI 角色功能，涉及未成年人保护和 AI 安全，属高话题性社会责任事件。1 月 24 日宣布。",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/technology/meta-suspend-teens-access-ai-characters-amid-safety-overhaul",
+      "keywords": ["Meta", "青少年", "AI 角色", "安全", "暂停"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Harvey 收购竞争对手 Hexus 加强市场地位",
+      "content": "法律 AI 创业公司 Harvey 收购成立 2 年的竞争对手 Hexus，后者专注产品演示、视频和指南工具开发。此举是 Harvey 在法律科技市场激烈竞争中的扩张动作。",
+      "importance": "high",
+      "reasoning": "法律 AI 赛道头部公司 Harvey 收购竞争对手强化市场地位，反映法律科技竞争加剧。1 月 24 日报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/23/legal-ai-giant-harvey-acquires-hexus-as-competition-heats-up-in-legal-tech/",
+      "keywords": ["Harvey", "Hexus", "收购", "法律 AI", "竞争"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "阿里通义千问 AI 语音可打电话订餐",
+      "content": "阿里巴巴通义千问推出 AI 语音通话功能，可通过自然流畅的语音拨打电话预订餐厅，挑战机器人通话的刻板印象。该功能基于实时语音合成技术，端到端延迟低至 1 秒。",
+      "importance": "medium",
+      "reasoning": "阿里通义千问推出 AI 语音通话订餐功能，展示实时语音技术应用场景，属常规产品更新。今天（1 月 26 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["阿里巴巴", "通义千问", "语音通话", "餐厅预订", "1 秒延迟"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "腾讯元宝春节发 10 亿红包",
+      "content": "腾讯 CEO 马化腾宣布元宝将在春节期间（2 月 1 日起）发放 10 亿元红包，单人最高可获 1 万元，模仿微信红包策略推广 AI 产品。",
+      "importance": "medium",
+      "reasoning": "腾讯投入 10 亿元通过红包推广 AI 产品元宝，采用微信红包成功策略，属市场营销动作。今天（1 月 26 日）宣布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["腾讯", "元宝", "10 亿", "春节", "红包"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "AI 芯片需求激增致供应链涨价",
+      "content": "AI 热潮推动算力需求大增，导致半导体封装测试环节供应紧张并提价。存储芯片行业面临供应短缺和价格波动，反映 AI 硬件供应链承压。",
+      "importance": "medium",
+      "reasoning": "AI 芯片供应链紧张导致涨价，反映 AI 硬件需求持续高涨，属行业供应链动态。今天（1 月 26 日）报道。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["AI 芯片", "供应链", "涨价", "算力", "存储"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-26T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "CNBC",
+      "Fox Business"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 240
+  }
+}

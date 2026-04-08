@@ -1,0 +1,142 @@
+{
+  "date": "2026-03-18",
+  "date_formatted": "26/03/18",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "新加坡首个OpenClaw一键安全部署产品发布",
+      "content": "新加坡中新人工智能协会（CSAIA）推出首个 OpenClaw 安全一键部署工具（www.distribrain.com），配备 VM 用户隔离、Cloudflare Tunnel 无公网 IP、密钥预算限额、数据行级隔离、行为显式授权五层防御架构，解决企业部署中 API 密钥泄露与越权执行等安全痛点，同时解决macbook合盖休眠的问题。第二场课程超过50人报名参与。",
+      "importance": "critical",
+      "reasoning": "3 月 15 日发布。新加坡社区组织率先推出安全生产级 OpenClaw 一键部署工具，五层防御架构填补生态安全空白，是 OpenClaw 从极客玩具走向企业可用系统的代表性实践，属区域性事件（medium）。",
+      "source": "CSAIA",
+      "url": "https://www.distribrain.com/",
+      "keywords": [
+        "OpenClaw",
+        "CSAIA",
+        "新加坡",
+        "安全部署",
+        "distribrain"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 1,
+      "title": "微软威胁起诉OpenAI",
+      "content": "微软向 OpenAI 和亚马逊发出正式违约警告，称 OpenAI 与亚马逊签署的 500 亿美元「Frontier」AWS 企业平台，借助「有状态运行环境」技术手段绕过了 2019 年签订的 Azure 独家云协议；微软内部人士向《金融时报》表态：「若违约，我们将起诉他们。」双方目前仍在谈判，OpenAI 计划中的 2026 年 IPO 面临被迫推迟风险。",
+      "importance": "critical",
+      "reasoning": "3 月 18 日报道（Financial Times）。微软与 OpenAI 关系决裂：500 亿美元 AWS 独家合同直接冲击微软 Azure 核心权益，且涉及 OpenAI 2026 年 IPO 前景。三方（微软/OpenAI/亚马逊）均为行业顶级玩家，属行业级冲突，符合 critical 标准。",
+      "source": "Financial Times",
+      "url": "https://www.neowin.net/news/microsoft-is-threatening-to-sue-openai-over-its-50-billion-amazon-deal/",
+      "keywords": ["微软", "OpenAI", "亚马逊", "AWS", "500亿", "Azure违约", "IPO"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "GPT-5.4双小模型发布",
+      "content": "OpenAI 发布 GPT-5.4 mini 和 nano 两款轻量模型，定位「迄今最强小模型」：mini 接近全尺寸 GPT-5.4 性能、运行速度提升 2 倍，即日向免费用户全面开放；nano 专攻低延迟批量任务，调用价格约为全模型 1/3（输入 0.20 美元/百万次），处理 7.6 万张图片仅需 52 美元，覆盖代码辅助子智能体场景。",
+      "importance": "critical",
+      "reasoning": "3 月 17 日发布（OpenAI 官方）。OpenAI 推出旗舰模型 GPT-5.4 的轻量双版本，免费用户即日可用、覆盖面极广，nano 低至 1/3 价格大幅降低使用门槛，符合「三大厂主流产品发布」critical 标准。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "keywords": ["OpenAI", "GPT-5.4", "mini", "nano", "小模型", "免费用户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "DeepMind定义AGI评测标准",
+      "content": "谷歌 DeepMind 发布全球首个 AGI 进展衡量框架，从认知科学与神经科学提炼出感知、注意力、学习等 10 项核心认知维度，系统定义「何为真正的通用人工智能」；同步在 Kaggle 启动全球评测黑客马拉松（3 月 17 日至 4 月 16 日），聚焦差距最大的 5 项能力，奖金池 20 万美元，6 月 1 日公布结果。",
+      "importance": "critical",
+      "reasoning": "3 月 16 日发布（Google DeepMind Blog）。谷歌首次为 AGI 建立系统性认知维度框架，填补行业多年来缺乏统一评测标准的空白；配套 20 万美元全球竞赛，影响学界与产业界对 AGI 进展的定义方式，属「范式转变技术」级别事件。",
+      "source": "Google DeepMind",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/",
+      "keywords": ["谷歌", "DeepMind", "AGI", "认知框架", "20万美元", "Kaggle"],
+      "category": "技术研究"
+    },
+    {
+      "id": 4,
+      "title": "Mistral发布企业自训AI平台",
+      "content": "Mistral 在英伟达 GTC 大会发布 Forge 企业平台，支持金融、政府、制造业等行业从头用内部数据训练专属 AI 模型，数据无需外传至第三方；区别于 OpenAI 和 Anthropic 的 API 租用模式，企业可完全掌控并持续优化，是 Mistral 针对大型企业「真正自主 AI」的核心竞争棋子。",
+      "importance": "high",
+      "reasoning": "3 月 17 日发布（TechCrunch 独家，Mistral 官网确认）。Forge 代表 Mistral 进入高价值企业市场的战略转变，直接对标 OpenAI/Anthropic；在 GTC 大会发布增大曝光。属「赛道级产品」high 标准。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "keywords": ["Mistral", "Forge", "企业AI", "自训模型", "GTC2026"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "五角大楼寻Anthropic替代方案",
+      "content": "美国国防部开始评估 Anthropic 替代供应商，双方自 2 月供应链封锁争议后关系持续恶化；承包商被要求对比其他 AI 厂商，Anthropic 数亿美元在谈军事合同面临流失，OpenAI 和谷歌有望借此进入军事 AI 核心采购市场。",
+      "importance": "high",
+      "reasoning": "3 月 17 日报道（TechCrunch）。五角大楼主动启动替代方案评估，是 Anthropic-DOD 关系的重大恶化节点，同时影响整个军事 AI 市场格局，是持续追踪的重大政策事件。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "keywords": ["五角大楼", "Anthropic", "国防合同", "替代方案", "军事AI"],
+      "category": "政策法规"
+    },
+    {
+      "id": 6,
+      "title": "日本最强AI被曝源自DeepSeek",
+      "content": "乐天（Rakuten）AI 子公司陷入开源风波：其宣称的「日本最强 AI」Rakuten AI 3.0 基于 DeepSeek-V3 开发，首发版本却删除了原始 MIT 开源授权声明；日本社区批评其动用政府算力补贴却对外宣传「自主研发」，乐天随后补发声明恢复原始署名，但社区认为处理方式「缺乏诚意」。",
+      "importance": "high",
+      "reasoning": "3 月 18 日报道（AIBase）。乐天「自研」AI 被揭基于 DeepSeek、且删除开源协议，涉及政府算力补贴不透明问题，引发广泛争议；是 AI 开源合规与国家级模型声称真实性的重要案例，具高话题性。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26347",
+      "keywords": ["Rakuten", "乐天", "DeepSeek", "开源争议", "日本AI", "MIT许可证"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "美财政部发金融AI风险指南",
+      "content": "美国财政部发布首份面向金融机构的 AI 风险治理手册，覆盖银行、保险、证券等行业，提供数据安全、模型偏差、系统稳定性 3 大风险维度的监管合规框架，是美国联邦层面首份专门针对金融行业 AI 应用的系统性指导文件。",
+      "importance": "high",
+      "reasoning": "3 月 16 日发布（AI News）。美国财政部首次专门为金融机构发布 AI 风险指南，具有政策先例意义，将直接影响银行等金融机构的 AI 采购与合规决策，属「行业级政策法规」high 标准。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/",
+      "keywords": ["美国财政部", "金融机构", "AI风险", "合规框架", "监管指南"],
+      "category": "政策法规"
+    },
+    {
+      "id": 8,
+      "title": "阿里云AI算力最高涨34%",
+      "content": "阿里云起上调 AI 算力产品价格，部分计算卡涨幅 5%—34%，智能计算文件存储涨幅最高达 30%；官方称因全球算力需求激增、供应链成本上升，旗下百炼平台调用量指数级增长迫使资源重新分配。",
+      "importance": "medium",
+      "reasoning": "3 月 18 日生效（AIBase 报道）。阿里云是主要云厂商，涨价信号对整个 AI 应用行业成本有参考意义，但属常规价格调整，归 medium 级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26333",
+      "keywords": ["阿里云", "算力涨价", "34%", "百炼平台", "供应链"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "六大科技公司联资开源安全",
+      "content": "谷歌、微软、OpenAI 等 6 家科技公司联合向 Linux 基金会 Alpha-Omega 项目注资 1250 万美元，专项用于帮助开源维护者过滤大量低质量 AI 生成的安全漏洞报告，以应对 AI 工具滥用正在系统性污染开源安全生态的问题。",
+      "importance": "medium",
+      "reasoning": "3 月 18 日宣布（AIBase）。六大厂商罕见联合出资解决 AI 生成内容污染开源安全生态的问题，具有一定行业信号意义，但规模有限，归 medium 级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26346",
+      "keywords": ["Linux基金会", "开源安全", "谷歌", "微软", "OpenAI", "1250万"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-18T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "TechCrunch",
+      "OpenAI Blog",
+      "Google DeepMind Blog",
+      "Mistral",
+      "AIBase",
+      "AI News",
+      "Hacker News",
+      "36kr",
+      "Financial Times",
+      "Neowin",
+      "WebSearch"
+    ],
+    "duplicates_removed": 14,
+    "generation_time_seconds": 540
+  }
+}

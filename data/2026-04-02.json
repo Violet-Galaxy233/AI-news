@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-02",
+  "date_formatted": "26/04/02",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic禁令正式生效",
+      "content": "联邦法官颁布的初步禁令今日（4月2日）正式生效：特朗普政府被禁止执行将 Anthropic 列为「供应链风险」的行政令，合同状态须恢复至2月27日之前；政府已宣布将在今日截止前向第九巡回上诉法院申请紧急搁置；核心争议仍是 Anthropic 坚守的两条红线——拒绝用于本土大规模公民监控及全自主致命武器系统。",
+      "importance": "critical",
+      "reasoning": "4月2日是禁令宽限期截止当日，法律效力实质生效，政府上诉第九巡回的动向今日落定。这是美国首例AI公司凭第一修正案阻止政府供应链禁令的历史性裁决，在AI行业与政府关系上具有里程碑意义，critical级。CNBC/TechCrunch/NPR等广泛报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html",
+      "keywords": ["Anthropic", "五角大楼", "联邦禁令", "第九巡回", "供应链风险", "第一修正案", "4月2日"],
+      "category": "政策法规"
+    },
+    {
+      "id": 2,
+      "title": "Q1全球风投破纪录",
+      "content": "Crunchbase 4月1日报告：2026年第一季度全球风险投资规模达2,970亿美元，同比激增150%，超过2018年前任意全年总额；其中81%（约2,390亿美元）流入 AI 创业公司；OpenAI（1,220亿）、Anthropic（300亿）、xAI（200亿）、Waymo（160亿）四大前沿实验室合计1,880亿，独揽全球风投总量64%，美国公司占全球总量83%。",
+      "importance": "critical",
+      "reasoning": "4月1日 Crunchbase 发布 Q1 2026 全球风投报告。单季度2970亿美元创历史纪录，AI吸引81%资金，四大实验室独揽64%——这意味着全球风险资本正以史无前例的速度向少数AI前沿公司高度集中，是AI行业结构性变化的重要信号，critical级。",
+      "source": "Crunchbase",
+      "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+      "keywords": ["Q1 2026", "2970亿美元", "风险投资", "AI创业", "OpenAI", "Anthropic", "xAI", "Waymo"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI史上最大融资",
+      "content": "OpenAI 完成史上最大 AI 私募融资，总规模 1,220 亿美元，估值升至 8,520 亿美元；首次向散户开放 30 亿美元定向配股（经三大银行私募渠道），标志 IPO 进程实质启动；由 SoftBank、a16z 领投，Amazon、英伟达、微软参投；月收入 20 亿美元，增速是谷歌、Meta 创立初期的 4 倍；ARK Invest 同步将其纳入旗下多只 ETF。",
+      "importance": "critical",
+      "reasoning": "3月31日 TechCrunch/CNBC/OpenAI官方宣布。史上最大AI私募融资122亿美元，首次向散户开放，估值8520亿美元接近万亿，ARK ETF纳入标志IPO进程明确，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "keywords": ["OpenAI", "1220亿美元", "8520亿估值", "散户", "IPO", "SoftBank", "a16z"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "LiteLLM供应链攻击爆发",
+      "content": "开源 AI 网关工具 LiteLLM 遭黑客劫持 PyPI 账户，恶意版本 1.82.7 和 1.82.8 已推送至公开注册表，波及每日下载量达数百万次的数千家企业；黑客组织 Lapsus$ 借此入侵估值 100 亿美元的 AI 招聘独角兽 Mercor，声称窃取 4TB 数据，含 OpenAI 和 Anthropic 承包商资料；这是 AI 开发生态迄今规模最大的软件供应链安全攻击。",
+      "importance": "critical",
+      "reasoning": "3月31日 TechCrunch 报道，Mercor官方确认。LiteLLM每日下载量数百万，波及数千家企业；Lapsus$声称从估值百亿美元的Mercor窃取4TB数据含OpenAI/Anthropic承包商资料，是AI基础设施供应链安全的范式级事件，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "keywords": ["LiteLLM", "Mercor", "供应链攻击", "Lapsus$", "4TB", "PyPI", "恶意版本"],
+      "category": "AI安全"
+    },
+    {
+      "id": 3,
+      "title": "Perplexity隐私问题遭诉讼",
+      "content": "一名犹他州用户在旧金山联邦法院对 Perplexity AI 提起集体诉讼（案号：3:26-cv-02803），指控其在用户登录时即秘密下载追踪器，将搜索记录和对话全文实时传输给 Meta 与谷歌用于广告定向及数据转售；即便开启「隐身模式」，数据共享依然持续；Perplexity 称尚未收到诉状，无法核实。",
+      "importance": "critical",
+      "reasoning": "4月1日 Bloomberg 独家报道，案号已登录联邦法院公开系统。Perplexity 月活数千万，隐身模式形同虚设的指控属极严重隐私违规；这是AI搜索领域首起大规模用户数据共享集体诉讼，对整个AI搜索行业隐私合规具有判例意义，critical级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/perplexity-ai-machine-accused-of-sharing-data-with-meta-google",
+      "keywords": ["Perplexity", "隐私诉讼", "Meta", "谷歌", "数据共享", "隐身模式", "加州隐私法"],
+      "category": "AI安全"
+    },
+    {
+      "id": 4,
+      "title": "专家联名保护儿童AI",
+      "content": "由 Fairplay 牵头，135个机构（含美国教师联合会、美国辅导协会）及约100名专家——包括《焦虑的一代》作者 Jonathan Haidt——联署公开信，要求 YouTube 强制标注所有 AI 生成内容，并在 YouTube Kids 全面禁止推荐；调查显示，头部「AI垃圾」频道年收入已超425万美元。",
+      "importance": "high",
+      "reasoning": "4月1日 Fortune/Fast Company 报道，联署机构超200家。Jonathan Haidt等权威专家背书，要求YouTube禁止向未成年人推荐AI生成视频，涉及儿童安全与平台责任，是AI内容监管领域的重要舆论施压行动，high级。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/04/01/ai-slop-200-organizations-letter-youtube-google/",
+      "keywords": ["YouTube", "AI垃圾视频", "儿童保护", "Jonathan Haidt", "Fairplay", "内容标注"],
+      "category": "AI伦理"
+    },
+    {
+      "id": 5,
+      "title": "Seedance 2.0开放API",
+      "content": "字节跳动今日正式向开发者开放 Seedance 2.0 公共 API：业内首款原生音视频同步生成模型，视频与配音一次完成（非后期合成），单次最长生成15秒并自动切换多镜头；支持8种语言口型精准同步，文本、图像、音频混合输入最多支持12个参考文件。",
+      "importance": "high",
+      "reasoning": "4月2日 ByteDance 官方及 AIBase（ID 26788）确认开放公共 API。首款原生音视频联合生成是技术范式突破（区别于后期配音），多镜头+多语言口型同步具备商业影视制作潜力，high级。",
+      "source": "ByteDance",
+      "url": "https://seed.bytedance.com/en/seedance2_0",
+      "keywords": ["Seedance 2.0", "字节跳动", "音视频生成", "多镜头", "口型同步", "开发者API"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Cognichip获6000万融资",
+      "content": "AI 芯片设计创企 Cognichip 完成6,000万美元 A 轮融资（累计9,300万美元），由 Seligman Ventures 领投，英特尔 CEO Lip-Bu Tan 出任董事会成员；其物理感知基础模型可辅助工程师自主完成芯片设计，号称压低75%开发成本、缩短一半周期，目前已服务30余家半导体公司。",
+      "importance": "high",
+      "reasoning": "4月1日 TechCrunch 独家报道，BusinessWire 同日发布官方新闻稿。英特尔 CEO 亲自入董事会，覆盖TOP 20半导体公司，是「AI设计AI芯片」方向的重要融资里程碑，高话题性，high级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+      "keywords": ["Cognichip", "6000万美元", "AI芯片设计", "英特尔", "Lip-Bu Tan", "半导体", "A轮"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Meta开源混凝土AI模型",
+      "content": "Meta 开源混凝土配方优化模型 BOxCrete，实测将 Rosemount 数据中心工程的混凝土强度达标速度提升43%、开裂风险降低10%，代码已上传 GitHub；美国当前约20%-25%水泥依赖进口，Meta 希望以此推动本土水泥和混凝土产业效率提升。",
+      "importance": "medium",
+      "reasoning": "3月30日 Meta Engineering Blog 发布，4月1日 Hacker News 热门推送（168分）。Meta开源工业AI模型，实测数据扎实，对建筑、数据中心基础设施行业有参考价值，medium级。",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+      "keywords": ["Meta", "BOxCrete", "混凝土AI", "开源", "数据中心", "建材优化"],
+      "category": "技术研究"
+    },
+    {
+      "id": 8,
+      "title": "Qwen眼镜首次OTA升级",
+      "content": "通义千问 AI 眼镜发布首次 OTA 系统升级，新增「多人对话 AI 分身同声传译」功能：会议场景下可实时识别多个说话人声音，并以用户本人声音克隆风格完成同步翻译，面向跨语言商务场景优化。",
+      "importance": "medium",
+      "reasoning": "4月2日 AIBase（ID 26792）报道。Qwen AI眼镜是国内头部AI可穿戴设备，首次OTA升级具有产品里程碑意义，「多人+声音克隆同传」功能较为新颖，medium级（消费级AI硬件更新）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26792",
+      "keywords": ["通义千问", "AI眼镜", "OTA升级", "同声传译", "声音克隆", "可穿戴AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "智谱视觉模型转设计代码",
+      "content": "智谱 GLM-5V-Turbo 视觉模型正式发布，可直接读取设计草图或产品原型截图，输出对应的可运行代码，面向设计师和前端开发者提供从视觉稿到可执行界面的一键生成能力。",
+      "importance": "medium",
+      "reasoning": "4月2日 AIBase（ID 26773）报道。智谱是国内主要AI实验室，视觉稿转代码功能具有明确的前端开发降本价值，是多模态视觉模型实用化落地的典型案例，medium级（常规产品发布，区域性关注）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26773",
+      "keywords": ["智谱", "GLM-5V-Turbo", "视觉模型", "设计转代码", "前端开发", "多模态"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-02T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Bloomberg", "Crunchbase", "Fortune", "CNBC", "Fast Company", "Meta Engineering", "ByteDance", "AIBase", "Hacker News"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 480
+  }
+}

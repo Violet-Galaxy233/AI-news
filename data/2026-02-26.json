@@ -1,0 +1,174 @@
+{
+  "date": "2026-02-26",
+  "date_formatted": "26/02/26",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "英伟达季报破历史纪录",
+      "content": "英伟达公布 2026 财年 Q4 财报：营收 684 亿美元（同比 +73%），数据中心营收 623 亿美元（同比 +75%）占总营收 91%，连续刷新季度纪录。全年累计营收 2159 亿美元（同比 +65%）。下季指引 780 亿美元，超出市场预期约 50 亿美元。CEO 黄仁勋表示，AI 算力需求已进入“彻底指数级爆发”阶段，英伟达股价盘后走高。",
+      "importance": "critical",
+      "reasoning": "英伟达（全球市值最高公司）Q4 营收 684 亿美元刷新单季历史纪录，数据中心板块贡献 91% 营收，全年翻倍级增长，下季指引再度超预期，是 AI 算力投资周期景气度最权威的量化证据。CNBC、Fortune 于 2026 年 2 月 25 日（昨天）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/25/nvidia-nvda-earnings-report-q4-2026.html",
+      "keywords": [
+        "英伟达",
+        "财报",
+        "684亿美元",
+        "数据中心",
+        "AI算力"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "五角大楼启动封锁 Anthropic",
+      "content": "美国国防部向波音和洛克希德·马丁发出调查问卷，要求评估两家军工巨头对 Anthropic 技术的依赖程度，正式启动将其列入“供应链风险”的认定程序——即行业封锁的法定第一步。国防部长 Hegseth 要求 Anthropic 于（2 月 28 日）前解除 Claude 所有使用限制，否则援引《国防生产法》强制介入或全面断供。Anthropic 坚守禁止用于自主武器及大规模监控的两条红线，拒绝让步。",
+      "importance": "critical",
+      "reasoning": "五角大楼已从口头施压升级为正式法律动作——向波音/洛马发起供应链调查是启动封锁认定的法定程序，一旦认定成立将令 Anthropic 丧失所有联邦合作资格。Axios 于 2 月 25 日（昨天）独家披露，是昨日 $2 亿合同威胁的重大升级。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude",
+      "keywords": [
+        "Anthropic",
+        "五角大楼",
+        "供应链风险",
+        "Claude",
+        "国防生产法"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 3,
+      "title": "Grok 正式进入军事机密系统",
+      "content": "xAI 与美国国防部签署正式协议，Grok 成为首款在五角大楼最高机密网络内获授权运行的商用 AI 产品，使用范围涵盖武器开发分析与情报研判，取代此前仅有的 Anthropic Claude。xAI 接受国防部“所有合法用途不设限”要求，而 Anthropic 因坚守自主武器与大规模监控两条红线被排挤出军事 AI 核心系统。",
+      "importance": "critical",
+      "reasoning": "首款获准进入美军最高机密系统的商用 AI，标志 AI 军事化从探索阶段正式进入授权运营；与 Anthropic 被启动封锁程序同步发生，是 AI 治理格局分化的里程碑事件。Axios 于 2 月 24 日（2 天前）报道，持续发酵。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
+      "keywords": [
+        "xAI",
+        "Grok",
+        "五角大楼",
+        "军事AI",
+        "机密系统"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic 收购计算机操控创企",
+      "content": "Anthropic 完成对西雅图 AI 创业公司 Vercept 的收购，后者核心技术是能模仿人类操作计算机的自主 AI 智能体，可在各类软件界面内独立完成任务。收购价未披露。Meta 此前已挖走 Vercept 1 位联合创始人，此次收购将为 Anthropic 的 Claude 智能体功能补充核心团队与专项技术。",
+      "importance": "high",
+      "reasoning": "能自主操控计算机的 AI 智能体是 2026 年企业 AI 应用最热门赛道，Anthropic 通过收购快速获取核心人才。TechCrunch 于 2 月 25 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/",
+      "keywords": [
+        "Anthropic",
+        "Vercept",
+        "AI智能体",
+        "收购",
+        "计算机操控"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Claude Cowork 上线 13 个企业插件",
+      "content": "Anthropic 为企业知识工作平台 Claude Cowork 新增 13 个插件，合作方包括 Google Workspace、FactSet、LSEG、S&P Global、DocuSign、Slack 等，覆盖投资银行尽调、股票研究、财富管理、人力资源文件生成等场景。发布当日，FactSet 股价涨 5%、DocuSign 涨 6%、Salesforce 涨 4%。",
+      "importance": "high",
+      "reasoning": "Anthropic 将 Claude 从对话工具深度嵌入金融与企业核心工作流，与 13 个主流企业平台绑定，市场以合作股价大涨直接验证商业价值。CNBC 于 2 月 24 日（2 天前）报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html",
+      "keywords": [
+        "Anthropic",
+        "Claude Cowork",
+        "企业插件",
+        "FactSet",
+        "LSEG"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "两大 AI 实验室毛利率双告急",
+      "content": "OpenAI 与 Anthropic 2026 年 Q1 均未达到各自内部毛利率目标，持续攀升的算力采购与数据中心运营成本侵蚀盈利空间，两家公司商业化收入增长仍落后于基础设施支出节奏，向下游创业公司的降价空间因此受限。",
+      "importance": "high",
+      "reasoning": "两家顶级 AI 实验室同步确认盈利压力，是 2026 年 AI 商业模式可持续性的重要信号，直接影响投资人对整个赛道估值逻辑的判断。2 月 25 日（昨天）多家媒体报道。",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/02/25/top-tech-news-today-february-25-2026/",
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "毛利率",
+        "算力成本",
+        "商业化"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "白宫要求 AI 公司自担电费",
+      "content": "白宫要求主要 AI 企业自行承担因数据中心扩张引发的电价上涨成本，不得转嫁普通用户。OpenAI、Meta、微软、Anthropic 等 4 家主要科技企业已提前公开承诺承担相关电费，据估算美国 AI 数据中心用电量 2026 年将占全国电力消耗的 3% 以上。",
+      "importance": "medium",
+      "reasoning": "联邦政府首次明确要求 AI 公司为能源成本负责，对企业运营成本结构具有长期约束意义。TechCrunch 于 2 月 25 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/",
+      "keywords": [
+        "白宫",
+        "AI能源",
+        "电价",
+        "监管",
+        "数据中心"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 8,
+      "title": "Profound 获融资 9600 万美元",
+      "content": "AI 搜索分析平台 Profound 完成 9600 万美元融资，帮助品牌追踪在 ChatGPT、Perplexity 等 AI 搜索引擎中的曝光与引用情况，应对传统 SEO 工具失效的“答案引擎时代”新挑战。",
+      "importance": "medium",
+      "reasoning": "AI 搜索替代传统搜索引擎已催生品牌监测新赛道，资本以 9600 万美元验证市场空间。2 月 25 日（昨天）报道。",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/02/25/top-tech-news-today-february-25-2026/",
+      "keywords": [
+        "Profound",
+        "AI搜索",
+        "融资",
+        "品牌监测",
+        "答案引擎"
+      ],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "Google 将机器人公司并入旗下",
+      "content": "Alphabet 旗下机器人软件公司 Intrinsic 正式并入 Google，结束独立运营状态。Intrinsic 成立于 2021 年，专注工业机器人软件平台，并入后将与 Google 的 AI 研发资源整合，减少 Alphabet 旗下 AI 子公司的资源分散。",
+      "importance": "medium",
+      "reasoning": "Google 整合旗下机器人研发力量，是科技大厂收缩散布 AI 子公司、集中发力的策略调整信号。TechCrunch 于 2 月 25 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/",
+      "keywords": [
+        "Google",
+        "Intrinsic",
+        "机器人",
+        "Alphabet",
+        "AI整合"
+      ],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-26T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Axios",
+      "Fortune",
+      "Tech Startups",
+      "WebSearch"
+    ],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 510
+  }
+}

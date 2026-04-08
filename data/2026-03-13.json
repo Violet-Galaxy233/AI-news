@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-13",
+  "date_formatted": "26/03/13",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic登时代封面",
+      "content": "Anthropic 登上《时代》周刊封面，被冠以「全球最颠覆性公司」，最新估值 3800 亿美元（超越高盛），高于 6 个月前的 610 亿美元。报道披露，Claude 现已自主撰写训练代码的 90%，新版本发布间隔已从数月压缩至数周；首席科学官 Jared Kaplan 表示，AI 完全自主推进自身研发的临界点或在 1 年内到来。",
+      "importance": "critical",
+      "reasoning": "3 月 11 日发布，3 月 12-13 日广泛报道。全球顶级媒体封面背书 Anthropic，同时披露 AI 递归自我改进已成正在发生的现实（Claude 自写 90% 训练代码、全自动 AI 研发或 1 年内实现），是 AI 范式转变的重要里程碑，符合「三大厂主流信息 + 范式转变技术」的 critical 标准。",
+      "source": "Time Magazine",
+      "url": "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/",
+      "keywords": ["Anthropic", "时代封面", "递归自改进", "3800亿估值", "Claude"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "英伟达GTC2026本周开幕",
+      "content": "英伟达旗舰年会 GTC 2026 将在圣何塞开幕，逾 3 万名来自 190 国的业界人士出席。CEO 黄仁勋届时将发布其承诺「震惊世界」的全新 AI 芯片，并同步推出开源企业 AI 智能体平台 NemoClaw——该平台可在任意芯片（包括非英伟达产品）上运行，已向 Salesforce、Google、Adobe 等企业提供早期测试。",
+      "importance": "critical",
+      "reasoning": "3 月 10-12 日确认报道。英伟达确认将于本周一 GTC 上发布全新 AI 芯片（黄仁勋原话：「震惊世界」）和 NemoClaw 开源智能体平台，CNBC、VideoCardz、NVIDIA 官方均已确认；属于巨头硬件/平台重大发布预告范畴，是本周 AI 产业最受瞩目的事件。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html",
+      "keywords": ["英伟达", "GTC2026", "NemoClaw", "AI芯片", "黄仁勋"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Gemini跨应用自动化上线",
+      "content": "Google 在 Pixel 10 和三星 Galaxy S26 设备上正式开放 Gemini 多步骤任务自动化测试版：AI 可在用户授权的独立安全窗口内，自主打开 Uber、DoorDash、Grubhub 等应用，完成叫车及外卖下单的全流程操作，用户全程可在旁监看。首批开放地区为美国和韩国。",
+      "importance": "critical",
+      "reasoning": "3 月 11-12 日正式 beta 上线。Google 核心 AI 产品在 Galaxy S26 和 Pixel 10 两大旗舰设备上落地跨应用自主操作能力，是 AI 智能体从对话走向操控真实应用的关键里程碑；Pixel Drop 和 Galaxy S26 同步推出标志大规模用户级落地，符合三大厂核心产品重大功能发布的 critical 标准。",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
+      "keywords": ["Google", "Gemini", "Android自动化", "Pixel10", "GalaxyS26"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Grammarly被诉AI冒名",
+      "content": "美国记者 Julia Angwin 对 Grammarly 提起集体诉讼，指控其「Expert Review」功能在未获授权的情况下，将数百位知名作家和记者的名义包装为付费 AI 编辑服务牟利，索赔不低于 500 万美元。Grammarly CEO 随即宣布紧急下架该功能。",
+      "importance": "high",
+      "reasoning": "3 月 11-12 日发生。AI 工具未授权使用媒体人身份信息的集体诉讼，是 AI 伦理和肖像权争议的典型案例，功能被迫下架进一步提升事件影响力；注：Grammarly 昨日已被披露克隆已故学者，今日升级为集体诉讼并下架，属于有实质新进展的跟进报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/",
+      "keywords": ["Grammarly", "集体诉讼", "AI伦理", "肖像权", "Expert Review"],
+      "category": "法律争议"
+    },
+    {
+      "id": 5,
+      "title": "Bumble推出AI助手Bee",
+      "content": "Bumble 宣布推出 AI 约会助手 Bee：通过对话深度学习用户的价值观、交友目标和沟通风格后，主动为双方推荐高度匹配的对象，并提供约会建议及匿名前任反馈服务。发布公告带动公司股价单日上涨 25%，产品现处于内测阶段，即将开放 beta。",
+      "importance": "high",
+      "reasoning": "3 月 11-12 日发布。消费级约会应用首次推出主动式 AI 匹配助手，发布当日带动股价 +25%，市场反应强烈；Bloomberg 和 TechCrunch 均重点报道，是 AI 向社交消费场景深度渗透的代表性案例。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/",
+      "keywords": ["Bumble", "AI约会", "Bee", "股价+25%", "消费AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Gumloop获5000万B轮",
+      "content": "无代码企业 AI 智能体平台 Gumloop 完成 5000 万美元 B 轮融资，由 Benchmark 领投，Shopify 与 YC 参投。平台允许非技术员工无需工程师介入即可自行部署 AI 智能体，现客户涵盖 Shopify、Ramp、Gusto、Instacart 等知名企业；尽职调查显示，6 个月后企业员工使用频率远超竞品。",
+      "importance": "high",
+      "reasoning": "3 月 12 日发布。Benchmark 领投 5000 万美元 B 轮，是无代码 AI 智能体平台赛道的最大融资之一；6 个月实证数据显示产品粘性显著强于竞品，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
+      "keywords": ["Gumloop", "Benchmark", "无代码", "AI智能体", "B轮融资"],
+      "category": "融资"
+    },
+    {
+      "id": 7,
+      "title": "Meta AI进驻买卖平台",
+      "content": "Facebook Marketplace 上线 Meta AI 卖家自动回复功能：AI 可根据商品描述自动草拟买家询问回复，卖家可预览和修改后发送；同步上线 AI 生成商品标题及智能定价建议，功能向全球 30 亿 Facebook 月活用户推出。",
+      "importance": "high",
+      "reasoning": "3 月 12-13 日发布。Meta AI 首次切入 C2C 电商场景，功能面向 30 亿月活的 Facebook Marketplace，规模庞大；是 Meta 将 AI 工具嵌入核心商业流量的战略动作，TechCrunch 和 Meta 官方博客同步发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
+      "keywords": ["Meta", "Facebook Marketplace", "AI自动回复", "30亿用户", "电商AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Rox AI销售智能体独角兽",
+      "content": "销售自动化创企 Rox AI 完成新轮融资，General Catalyst 领投，估值达 12 亿美元，成立仅 2 年；AI 智能体可自主监控客户账户、调研潜在客户并同步更新客户数据库，现客户含 Ramp、MongoDB。",
+      "importance": "medium",
+      "reasoning": "3 月 12 日发布。成立 2 年即达独角兽估值（12 亿美元），是 B2B 销售 AI 智能体赛道快速成熟的代表性案例，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "keywords": ["Rox AI", "销售自动化", "独角兽", "AI智能体", "General Catalyst"],
+      "category": "融资"
+    },
+    {
+      "id": 9,
+      "title": "美多州AI立法集中通过",
+      "content": "美国华盛顿州通过 3 项 AI 法案（信息披露、聊天机器人安全、医保 AI 审查），犹他州同期通过 9 项，佛罗里达州 AI 权利法案以 35-2 通过参议院，多州立法明显提速。",
+      "importance": "medium",
+      "reasoning": "3 月 12-13 日通过并报道。多州同期集中通过 AI 法案，显示美国州级 AI 立法正加速推进；属于区域性政策事件（最高 medium），Transparency Coalition 3 月 13 日立法动态报告确认。",
+      "source": "Transparency Coalition",
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march13-2026",
+      "keywords": ["AI立法", "美国", "华盛顿州", "州级监管", "佛罗里达"],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-13T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Time Magazine", "CNBC", "Bloomberg", "AI News", "AIBase", "36kr", "Hacker News", "Google Blog", "VideoCardz", "Transparency Coalition", "WebSearch"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 520
+  }
+}

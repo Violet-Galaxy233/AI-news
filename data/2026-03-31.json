@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-31",
+  "date_formatted": "26/03/31",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "阿里通义全感官AI发布",
+      "content": "阿里巴巴 3 月 30 日正式发布 Qwen3.5-Omni，可同时处理文字、图片、音频和视频并实时语音回应，在 215 项独立测试中拿下全球最优成绩；语音识别支持 113 种语言，单次可处理超 10 小时连续音频；API 调用定价低于 Gemini 3.1 Pro 十分之一，并新增用户声音克隆功能，直接挑战谷歌在多模态 AI 领域的领先地位。",
+      "importance": "critical",
+      "reasoning": "3月30日 Decrypt/AIBase 报道。阿里旗舰多模态AI发布，215项SOTA测试全胜、113语言语音识别、价格不足Gemini十分之一，是继Gemini 3.1 Pro后最强全能AI挑战者，范式转变级产品，critical级。",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/362742/alibaba-qwen-omni-major-upgrade-review",
+      "keywords": ["阿里巴巴", "Qwen3.5-Omni", "多模态AI", "215项测试", "113种语言", "声音克隆"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Mistral欧洲AI超级园区",
+      "content": "法国 Mistral AI 完成 8.3 亿美元债务融资，由 7 家银行联合提供，用于在巴黎郊区部署 1.38 万张英伟达 GB300 显卡（44 兆瓦容量）；同日宣布联合英伟达、阿布扎比千亿美元主权基金 MGX 共建 1.4 吉瓦 AI 超级园区，2028 年投产，成为欧洲首个吉瓦级 AI 算力里程碑，打破美国对超大规模 AI 基础设施的垄断。",
+      "importance": "critical",
+      "reasoning": "3月30日 TechCrunch + Bloomberg + CNBC 多方报道。$830M债务融资+1.4GW AI超级园区双重里程碑，阿布扎比主权基金+英伟达联合押注欧洲AI基础设施，是AI算力军备竞赛扩散至欧洲的重要节点，critical级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "keywords": ["Mistral AI", "8.3亿美元", "巴黎", "1.4吉瓦", "英伟达GB300", "MGX", "欧洲AI基础设施"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic筹备Q4上市",
+      "content": "Anthropic 正就第四季度 IPO 与高盛、摩根大通、摩根士丹利展开初步谈判，目标募资超 600 亿美元；公司当前估值已达 3800 亿美元，若成功上市将成近年规模最大科技股 IPO；OpenAI 同样争取在 Anthropic 之前完成上市，两家顶级 AI 公司的公开市场竞速正式开启。",
+      "importance": "critical",
+      "reasoning": "3月27-28日 The Information + Bloomberg 曝光，持续发酵中。Anthropic $60B目标IPO + $380B估值，OpenAI竞速，是AI行业从私有资本转向公开市场的关键节点，critical级（持续发酵重大商业动态）。",
+      "source": "Bloomberg",
+      "url": "https://winbuzzer.com/2026/03/30/anthropic-ipo-q4-2026-60-billion-target-xcxwbn/",
+      "keywords": ["Anthropic", "IPO", "600亿美元", "3800亿估值", "高盛", "摩根大通", "OpenAI"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "加州拟推最严AI监管",
+      "content": "加利福尼亚州宣布计划推行全美最严格 AI 监管法规，要求头部 AI 企业提交详细合规报告，覆盖模型训练透明度与灾难性风险防控；此举直接对抗特朗普政府宽松监管路线，加州官员明确表示将为全国乃至全球 AI 治理树立标准。",
+      "importance": "high",
+      "reasoning": "3月31日 AIBase 报道。加州史上最严AI监管法规动议，与联邦政策形成直接对抗，对OpenAI/Google/Anthropic等加州AI企业均有重大合规影响，high级（行业级政策，具体条款待立法落地）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26688",
+      "keywords": ["加利福尼亚", "AI监管", "合规报告", "训练透明度", "特朗普", "AI治理"],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "Kimi年化营收破亿美元",
+      "content": "月之暗面 Kimi K2.5 上线仅一个月，推动公司年化营收突破 1 亿美元；发布 24 小时内登顶全球开源模型评测榜首，企业客户已为争夺 API 配额提前垫付数百万美元，标志中国 AI 公司商业化进入规模变现阶段。",
+      "importance": "high",
+      "reasoning": "近日 AIBase 报道。Kimi K2.5上线一个月ARR破1亿美元+24小时登顶全球开源榜，是中国AI公司商业化里程碑，high级（企业级AI商业化重要节点）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26684",
+      "keywords": ["月之暗面", "Kimi K2.5", "年化营收", "1亿美元", "开源模型", "AI商业化"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "韩AI芯片商融4亿冲IPO",
+      "content": "韩国 AI 芯片设计公司 Rebellions 完成 4 亿美元上市前融资，估值 23 亿美元，专注 AI 推理芯片以挑战英伟达，计划 2026 年内 IPO，成为继 Cerebras 之后第二家冲击公开市场的专业 AI 芯片公司。",
+      "importance": "high",
+      "reasoning": "3月30日 TechCrunch 报道。$400M pre-IPO + $2.3B估值，韩国AI芯片正面挑战英伟达推理芯片市场，high级（大型融资+赛道级产品）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "keywords": ["Rebellions", "韩国", "4亿美元", "AI推理芯片", "英伟达", "IPO", "23亿估值"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "苹果下架AI编程工具",
+      "content": "苹果以「应用不得执行外部下载代码」规定从 App Store 下架 AI 编程工具 Anything，并拒绝 Replit、Vibe Code 等更新；AI 代码生成工具与平台合规要求的矛盾全面激化，开发者社区强烈反弹。",
+      "importance": "high",
+      "reasoning": "近日 AIBase/TechCrunch 报道。苹果打压「环境编程」类AI工具，直接影响Replit等高估值AI编程公司的iOS生态，高话题性，high级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26677",
+      "keywords": ["苹果", "App Store", "Replit", "AI编程", "Anything", "Vibe Code", "平台合规"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "苹果AI中国版意外上线",
+      "content": "Apple Intelligence 于 3 月 31 日凌晨意外推送至中国 iOS 26.4 Beta 用户，因监管批准未到位且 Google 插件无法连接，苹果紧急回滚；中国正式上线时间至今未披露。",
+      "importance": "medium",
+      "reasoning": "3月31日今日曝光（Bloomberg Mark Gurman确认）。苹果中国AI意外上线，暴露监管审批与系统部署脱节，medium级（区域性事件）。",
+      "source": "Bloomberg",
+      "url": "https://news.aibase.com/news/26675",
+      "keywords": ["Apple Intelligence", "苹果", "中国", "iOS 26.4", "监管", "意外上线"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "国内AI模型用量超海外",
+      "content": "中国国产 AI 大模型调用量连续第二个月超过海外模型，字节、阿里、百度均录得明显增长，国产 AI 替代加速势头延续。",
+      "importance": "medium",
+      "reasoning": "3月31日 AIBase 报道。国产AI模型调用量连续超海外，是中国AI独立生态加速成型的重要数据节点，medium级（区域性行业报告）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26685",
+      "keywords": ["国产AI", "大模型", "调用量", "字节", "阿里", "百度", "国产替代"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "DoorDash骑手转型数据员",
+      "content": "DoorDash 向美国 800 万配送员推出 AI 训练视频采集任务，按视频质量计费，将骑手转化为 AI 数据采集员，开创「人力即数据管道」新商业模式。",
+      "importance": "medium",
+      "reasoning": "3月31日 AIBase 报道。DoorDash将800万配送员转化为AI数据采集员，是「人力数据化」新兴商业模式代表案例，medium级（行业创新趋势）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26687",
+      "keywords": ["DoorDash", "800万", "配送员", "AI数据采集", "训练数据", "众包"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-31T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "AIBase", "Bloomberg", "CNBC", "Decrypt", "Hacker News", "WebSearch"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 540
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2025-11-06",
+  "date_formatted": "25/11/06",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Apple 向 Google 支付年费 10 亿美元升级 Siri",
+      "content": "Apple 将向 Google 支付年费 10 亿美元，使用定制版 Gemini 模型升级 Siri。该模型拥有 1.2 万亿参数，是当前的 8 倍。新版 Siri 计划 2026 年春季推出，数据在 Apple 服务器处理不发送 Google。",
+      "importance": "critical",
+      "reasoning": "三大厂主流产品合作：Apple 支付 10 亿美元年费使用 Google Gemini 升级 Siri，1.2 万亿参数模型是当前 8 倍，2026 年春季推出，对语音助手市场有重大影响，昨天（11-05）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/apple-nears-deal-to-pay-google-1b-annually-to-power-new-siri-report-says/",
+      "keywords": ["Apple", "Google", "Siri", "Gemini"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Google Maps 集成 Gemini 支持对话式导航",
+      "content": "Google 宣布 Maps 集成 Gemini AI，支持导航时用自然语言提问如「沿途有便宜的日料店吗」。系统交叉对比 2.5 亿地点与街景，提供地标导航。功能已向美国推送，将扩展至 160 个国家。",
+      "importance": "critical",
+      "reasoning": "Google 主流产品重大更新：Maps 集成 Gemini 实现对话式导航，交叉对比 2.5 亿地点，扩展至 160 个国家，对地图导航体验有重大提升，昨天（11-05）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/google-maps-bakes-in-gemini-to-improve-navigation-and-hands-free-use/",
+      "keywords": ["Google Maps", "Gemini", "对话式导航", "AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Google 计划 2027 年发射太空 AI 计算卫星",
+      "content": "Google 宣布 Project Suncatcher，计划 2027 年初发射 2 颗搭载 AI 芯片的原型卫星。太空太阳能板效率比地球高 8 倍。未来计划部署 81 颗卫星组成 1 公里集群，通过光学链路连接。",
+      "importance": "critical",
+      "reasoning": "范式转变技术：Google 开创太空 AI 计算，太阳能效率高 8 倍，计划 81 颗卫星 1 公里集群，2027 年发射原型，对 AI 基础设施有重大影响，11-04 宣布。",
+      "source": "Google Blog",
+      "url": "https://blog.google/technology/research/google-project-suncatcher/",
+      "keywords": ["Google", "太空计算", "卫星", "AI 芯片"],
+      "category": "技术突破"
+    },
+    {
+      "id": 4,
+      "title": "SoftBank 与 OpenAI 成立日本合资公司",
+      "content": "SoftBank 与 OpenAI 于 11-05 成立合资公司，推出企业 AI 解决方案 Crystal Intelligence，旨在为日本企业提供人工智能解决方案，产品将于 2026 年在日本独家销售。",
+      "importance": "critical",
+      "reasoning": "OpenAI 重大商业合作：与 SoftBank 成立日本合资公司，2026 年独家销售 Crystal Intelligence，对日本企业 AI 市场有重大影响，昨天（11-05）宣布。",
+      "source": "SoftBank",
+      "url": "https://group.softbank/en/news/press/20251105",
+      "keywords": ["SoftBank", "OpenAI", "合资公司", "日本"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "小鹏发布人形机器人 IRON 计划 2026 年量产",
+      "content": "小鹏汽车发布 IRON 人形机器人，高 1.78 米重 70 千克，配备 22 自由度灵巧手，计划 2026 年量产。",
+      "importance": "high",
+      "reasoning": "重要产品发布：小鹏发布 IRON 人形机器人，1.78 米 70 千克配备 22 自由度灵巧手，2026 年量产用于展厅和工业，对国产人形机器人市场有推动作用，昨天（11-05）发布。",
+      "source": "36kr",
+      "url": "https://36kr.com/p/3540115335721097",
+      "keywords": ["小鹏", "人形机器人", "IRON", "量产"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Microsoft 测试显示 AI 代理易被操控",
+      "content": "Microsoft发布研究，在模拟市场测试发现 AI 代理存在选择过载和协作困难，GPT-4o 等模型易受提示注入攻击。",
+      "importance": "high",
+      "reasoning": "重要研究发现：Microsoft 模拟市场测试揭示 AI 代理选择过载、协作困难和提示注入漏洞，对 AI 代理安全性有重要警示，昨天（11-05）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/microsoft-built-a-synthetic-marketplace-for-testing-ai-agents/",
+      "keywords": ["Microsoft", "AI 代理", "安全测试", "GPT-4o"],
+      "category": "研究发现"
+    },
+    {
+      "id": 7,
+      "title": "科大讯飞发布全国产算力训练的 Spark X1.5",
+      "content": "科大讯飞发布 Spark X1.5 模型，基于全国产算力训练，性能达国际竞品 93% 以上，支持 130+ 语言。",
+      "importance": "high",
+      "reasoning": "赛道级产品：科大讯飞 Spark X1.5 全国产算力训练达国际 93% 性能，支持 130+ 语言，解决出海卡脖子问题，对国产 AI 有重要意义，今天（11-06）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["科大讯飞", "Spark X1.5", "国产算力", "多语言"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Tinder 推出 AI 功能分析相册照片",
+      "content": "Match Group 宣布 Tinder 测试 Chemistry 功能，在授权下分析相册照片，匹配兴趣相似用户，已在澳新试点。",
+      "importance": "high",
+      "reasoning": "赛道级产品：Tinder 推出 Chemistry 分析相册照片匹配兴趣，应对 9 个季度付费用户下降，已在澳新试点，对约会应用有重要影响，昨天（11-05）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/tinder-to-use-ai-to-get-to-know-users-tap-into-their-camera-roll-photos/",
+      "keywords": ["Tinder", "Match Group", "AI 匹配", "相册分析"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Chrome 在移动端新增 AI Mode 快捷入口",
+      "content": "Google 为 Chrome 移动端新增 AI Mode 按钮，支持复杂问题和追问。功能将扩展至 160 个国家和多语言。",
+      "importance": "high",
+      "reasoning": "重要功能更新：Chrome 移动端新增 AI Mode 快捷入口支持复杂问题和追问，扩展至 160 个国家和多语言，提升移动搜索体验，昨天（11-05）推出。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/google-makes-it-easier-to-access-ai-mode-in-chrome-on-ios-and-android/",
+      "keywords": ["Chrome", "AI Mode", "移动端", "Gemini"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Replika 创始人 Wabi 获 2000 万美元融资",
+      "content": "Replika 创始人新公司 Wabi 获 2000 万美元融资，平台支持用提示创建应用。",
+      "importance": "medium",
+      "reasoning": "中等融资：Replika 创始人 Eugenia Kuyda 新公司 Wabi 获 2000 万美元种子融资，打造用提示创建应用平台，投资人包括 Y Combinator CEO 等，昨天（11-05）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/05/replika-founder-raises-20m-pre-seed-for-wabi-the-youtube-of-apps/",
+      "keywords": ["Wabi", "Replika", "融资", "应用平台"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-06T14:30:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "AI News",
+      "36氪",
+      "Web Search"
+    ],
+    "duplicates_removed": 0,
+    "generation_time_seconds": 1200
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-02-05",
+  "date_formatted": "26/02/05",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "SpaceX 收购 xAI",
+      "content": "马斯克旗下 SpaceX 完成对 xAI 的合并，合并后公司估值达 1.25 万亿美元，成为全球最大非上市企业。交易以全股票形式进行，xAI 股份按 7:1 比例转换为 SpaceX 股票，xAI 估值 2500 亿美元。公司计划 6 月 28 日前后 IPO，旨在整合 AI 技术加速太空探索。",
+      "importance": "critical",
+      "reasoning": "马斯克完成史上最大 AI 并购交易，诞生 1.25 万亿美元非上市巨头并计划 6 月 IPO，属行业级重大事件。2 月 2 日完成交易（2 天前）。",
+      "source": "央视新闻",
+      "url": "https://www.nbd.com.cn/articles/2026-02-03/4246771.html",
+      "keywords": ["SpaceX", "xAI", "1.25 万亿美元", "马斯克", "IPO"],
+      "category": "投融资"
+    },
+    {
+      "id": 1,
+      "title": "Anthropic 投放超级碗广告对标 OpenAI",
+      "content": "Anthropic 宣布斥资数百万美元在超级碗投放 60 秒赛前广告和 30 秒赛中广告，主打「广告正在进入 AI，但不会进入 Claude」。公司承诺 Claude 永久无广告，对话不受第三方影响，直接回应 OpenAI 上月宣布在 ChatGPT 免费版测试广告的决定。Anthropic 企业市场份额达 40%，领先 OpenAI（27%）和 Google（21%）。",
+      "importance": "critical",
+      "reasoning": "Anthropic（三大厂之一）首次投放超级碗广告直接对标 OpenAI，企业市场份额达 40% 领先行业，属重大竞争事件。2月4日宣布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html",
+      "keywords": ["Anthropic", "Claude", "超级碗", "OpenAI", "40% 市场份额"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Google 宣布今年投资 1800 亿美元建设 AI",
+      "content": "Google 母公司 Alphabet 昨天在财报中宣布，2026 年资本支出预计达 1750 亿至 1850 亿美元（中位数 1800 亿），较 2025 年的 915 亿几乎翻倍，主要投向 AI 服务器、数据中心和网络设备。这一数字远超华尔街分析师预期的 1195 亿美元，显示 Google 在 AI 基础设施竞赛中的激进投入。",
+      "importance": "critical",
+      "reasoning": "Google（三大厂之一）宣布 2026 年 AI 投资翻倍至 1800 亿美元，远超预期，属行业巨头重大战略投入。2月4日宣布。",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/alphabet-2026-spending-forecast-soars-past-wall-street-expectations-as-google-parent-goes-all-in-on-ai-195254701.html",
+      "keywords": ["Google", "Alphabet", "1800 亿美元", "AI 基础设施", "翻倍投资"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "ElevenLabs 以 110 亿美元估值完成 5 亿美元融资",
+      "content": "AI 语音公司 ElevenLabs 昨天宣布完成 5 亿美元融资，由 Sequoia 领投，估值达 110 亿美元，较 2025 年 1 月的估值增长超 3 倍。现有投资者 Andreessen Horowitz 将投资额增加 4 倍，ICONIQ 增加 3 倍。公司成立于 2022 年，至今累计融资 7.81 亿美元，正为 IPO 做准备。",
+      "importance": "critical",
+      "reasoning": "AI 语音独角兽完成 5 亿美元大额融资，估值 110 亿美元较去年增长 3 倍，正筹备 IPO，属重大融资事件。2月4日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
+      "keywords": ["ElevenLabs", "5 亿美元", "110 亿估值", "Sequoia", "AI 语音"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "Apple Xcode 26.3 深度集成 OpenAI 和 Anthropic",
+      "content": "Apple 发布 Xcode 26.3，支持 AI 智能体自主编程，深度集成 Anthropic Claude Agent 和 OpenAI Codex。开发者可在 Xcode 中让 AI 创建文件、构建项目、运行测试、查看项目结构和访问完整 Apple 开发文档。Xcode 还通过开放标准 Model Context Protocol 支持任何兼容智能体。",
+      "importance": "critical",
+      "reasoning": "Apple 核心开发工具重大升级，深度集成 OpenAI 和 Anthropic，支持 AI 智能体自主编程，属三大厂主流产品发布。2月3日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/03/agentic-coding-comes-to-apples-xcode-26-3-with-agents-from-anthropic-and-openai/",
+      "keywords": ["Apple", "Xcode 26.3", "Claude Agent", "OpenAI Codex", "智能体编程"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Google Gemini 月活用户突破 7.5 亿",
+      "content": "Google 在 2025 年第四季度财报中披露，Gemini 应用月活用户已突破 7.5 亿，较上季度的 6.5 亿增长 1 亿。这一增长主要受 Gemini 3 模型发布推动，该模型提供更深层推理和细腻响应。目前 ChatGPT 月活约 8.1 亿，Meta AI 约 5 亿，Gemini 稳居全球第二。",
+      "importance": "critical",
+      "reasoning": "Google Gemini 月活用户突破 7.5 亿，单季增长 1 亿，稳居全球第二，属三大厂主流产品重要里程碑。2月4日披露。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
+      "keywords": ["Google", "Gemini", "7.5 亿月活", "Gemini 3", "全球第二"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Amazon Alexa+ 在美国全面推出",
+      "content": "Amazon 宣布 Alexa+ AI 助手在美国全面推出，Prime 会员免费使用，非会员每月 19.99 美元。Alexa+ 基于多个 AI 模型驱动，支持自然对话、旅行规划、日程管理和智能家居控制。副总裁透露已有数千万用户使用，退出率仅个位数，经过一年测试后正式发布。",
+      "importance": "high",
+      "reasoning": "Amazon 核心 AI 助手正式全面推出，Prime 会员免费使用，已有数千万用户，属重要产品发布。2月4日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
+      "keywords": ["Amazon", "Alexa+", "19.99 美元", "Prime", "数千万用户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Positron 以超 10 亿美元估值完成 2.3 亿美元融资",
+      "content": "AI 芯片公司 Positron 昨天宣布完成 2.3 亿美元 B 轮融资，估值超 10 亿美元，卡塔尔投资局领投。公司首款芯片 Atlas 在亚利桑那州制造，声称性能可匹敌英伟达 H100，但功耗仅三分之一。Positron 专注推理任务而非训练，累计融资超 3 亿美元。",
+      "importance": "high",
+      "reasoning": "AI 芯片公司完成 2.3 亿美元融资，估值超 10 亿美元，对标英伟达 H100，属重要融资事件。2月4日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips/",
+      "keywords": ["Positron", "2.3 亿美元", "10 亿估值", "Atlas", "对标英伟达"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "Mistral 发布开源语音模型 Voxtral Transcribe 2",
+      "content": "Mistral AI 发布 Voxtral Transcribe 2，包含两款开源语音模型，支持 13 种语言转文字和说话人识别，延迟低于 200 毫秒。可在手机端运行，成本仅几美分，采用 Apache 2.0 协议。",
+      "importance": "high",
+      "reasoning": "Mistral 发布开源语音模型，延迟低于 200 毫秒，支持 13 种语言，可在手机端运行，属重要开源 AI 工具发布。2月4日发布。",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-transcribe-2",
+      "keywords": ["Mistral", "Voxtral", "200 毫秒", "13 种语言", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "a16z 为 AI 基础设施筹集 17 亿美元",
+      "content": "Andreessen Horowitz（a16z）宣布为 AI 基础设施筹集 17 亿美元专项基金，投向 AI 芯片、云计算和数据中心等领域。a16z 是 ElevenLabs 和 Anthropic 的重要投资者，此次基金显示其对 AI 基础设施长期看好。",
+      "importance": "high",
+      "reasoning": "顶级风投 a16z 为 AI 基础设施筹集 17 亿美元专项基金，属重要投资趋势信号。2月4日宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
+      "keywords": ["a16z", "17 亿美元", "AI 基础设施", "Andreessen Horowitz", "专项基金"],
+      "category": "投融资"
+    },
+    {
+      "id": 10,
+      "title": "Resolve AI 完成 1.25 亿美元融资达独角兽估值",
+      "content": "AI 运维公司 Resolve AI 昨天确认完成 1.25 亿美元融资，估值超 10 亿美元成为独角兽。公司提供 AI 驱动的站点可靠性工程服务，帮助企业自动化运维和故障排查，已服务多家大型科技公司。",
+      "importance": "high",
+      "reasoning": "AI 运维公司完成 1.25 亿美元融资达独角兽估值，属重要垂直领域融资事件。2月4日确认。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
+      "keywords": ["Resolve AI", "1.25 亿美元", "独角兽", "AI 运维", "站点可靠性"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-05T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Yahoo Finance",
+      "Mistral AI",
+      "36氪",
+      "Hacker News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 2,
+    "generation_time_seconds": 480
+  }
+}

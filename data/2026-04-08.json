@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-08",
+  "date_formatted": "26/04/08",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic推Glasswing安全计划",
+      "content": "Anthropic正式启动「Project Glasswing」网络安全计划，联合 Apple、Google、Microsoft、Amazon、英伟达等 12 家科技巨头，共同部署尚未公开发布的 Claude Mythos 前沿模型用于防御性安全工作；Mythos Preview 已在主流操作系统和浏览器中发现数千个高危零日漏洞，首次漏洞复现成功率 83.1%（对比 Claude Opus 4.6 为 66.6%）；Anthropic 向合作方提供价值 $1 亿模型使用额度，另向开源安全基金会捐款 $400 万；因模型攻击能力过强，Anthropic 拒绝公开发布，直至建立足够防护机制。",
+      "importance": "critical",
+      "reasoning": "4月7日 Anthropic 官方发布 + TechCrunch/CNBC/Fortune/Axios 等多家顶级媒体同日大篇幅报道，HN System Card 帖子 558 分热度。Anthropic 联合 12 家全球顶级科技公司，首次以协作模式部署前沿模型，且因攻击能力过强暂不公开——这是 AI 安全能力边界的历史性节点。83.1% 零日漏洞复现成功率是可量化的安全基准突破。Critical 级。",
+      "source": "Anthropic / TechCrunch",
+      "url": "https://www.anthropic.com/glasswing",
+      "keywords": ["Anthropic", "Project Glasswing", "Claude Mythos", "网络安全", "零日漏洞", "Apple", "Google", "Microsoft", "英伟达"],
+      "category": "安全研究"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic营收3个月翻三倍",
+      "content": "Anthropic披露，年化营收已突破 300 亿美元（2025 年底为 90 亿美元，3 个月内增长超 3 倍）；同期与谷歌、Broadcom 签署算力扩展协议，2027 年起新增 3.5 吉瓦计算力（在现有 1 吉瓦基础上追加），成为迄今签署单笔最大算力协议的 AI 公司；年付超 100 万美元的企业客户已超 1,000 家，不足 2 个月内翻倍；Broadcom 另单独与谷歌签约，承诺提供定制 AI 芯片至 2031 年。",
+      "importance": "critical",
+      "reasoning": "4月7日 TechCrunch + Bloomberg + CNBC 等同日报道，Anthropic 官方博客确认。300亿美元年化营收（从90亿增至300亿，3个月翻3倍）是 AI 行业史上增速最快的商业化案例之一；3.5 吉瓦算力扩展是单一 AI 公司历史最大算力采购协议，对行业竞争格局有决定性影响。Critical 级。",
+      "source": "Anthropic Blog / TechCrunch",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "keywords": ["Anthropic", "300亿营收", "3.5吉瓦", "谷歌", "Broadcom", "TPU", "企业客户", "算力协议"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "英特尔加入Terafab",
+      "content": "英特尔宣布加入马斯克主导的 Terafab 项目，与 SpaceX、xAI、Tesla 共建位于德克萨斯 Giga Texas 的超级芯片工厂（总规模 200–250 亿美元）；该工厂将整合芯片设计、晶圆制造、先进封装和存储全流程于一体，目标年产 1 太瓦计算力，主要服务于 AI 训练、人形机器人和太空探索；英特尔将贡献旗下代工业务提供超高性能芯片制造；消息发布后英特尔股价上涨超 3%，收至 $52.28。",
+      "importance": "critical",
+      "reasoning": "4月7日英特尔官方声明 + TechCrunch/Bloomberg/Tom's Hardware/SiliconAngle 等多家媒体同日报道。Terafab 是美国本土最大 AI 芯片制造整合项目，1 太瓦/年计算力目标远超当前全球顶级数据中心集群，英特尔加入标志其代工业务获得马斯克生态全面背书，对 AI 算力供给和美国半导体自主格局影响深远。Critical 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
+      "keywords": ["英特尔", "Terafab", "马斯克", "SpaceX", "xAI", "Tesla", "德克萨斯", "1太瓦", "半导体工厂"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 4,
+      "title": "GLM-5.1代码评测全球第三",
+      "content": "智谱 AI 旗下国际品牌 Z.AI发布 GLM-5.1 详细技术文档，该模型在 SWE-bench Pro 代码评测中以 58.4 分排名全球第三、开源模型第一，超越 GPT-5.4 和 Claude Opus 4.6；模型可连续自主运行 8 小时，完成从规划、执行到测试修复的完整工程循环，无需人工干预；整个模型在 10 万块华为昇腾 910B 芯片上训练，证明中国本土算力可支撑顶级 AI 工程能力。",
+      "importance": "high",
+      "reasoning": "Z.AI 4月7日发布英文博客，HN 440分热度。模型本身3月27日国内发布，但国际社区4月7日才广泛关注。SWE-bench Pro 58.4分超越 GPT-5.4 和 Claude Opus 4.6 是可量化的编程能力突破；完全在华为昇腾芯片上训练具有地缘政治意义；开源第一的定位影响全球开发者生态。High 级。",
+      "source": "Z.AI Blog / Hacker News",
+      "url": "https://z.ai/blog/glm-5.1",
+      "keywords": ["GLM-5.1", "智谱AI", "Z.AI", "SWE-bench Pro", "华为昇腾", "开源", "代码评测", "8小时自主运行"],
+      "category": "模型发布"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI模型个性负责人离职",
+      "content": "OpenAI 模型行为负责人 Joanne Jang通过内部 Slack 宣布离职，任职 4.5 年，主导 GPT-4o 人格塑造及 ChatGPT 心理健康危机回应等核心行为设计；她将创立新团队，聚焦人机交互新形式探索；相关团队并入训练主管 Max Schwarzer 负责。Jang 曾入选 Time 2025 年「AI 最具影响力 100 人」。",
+      "importance": "high",
+      "reasoning": "4月6日内部 Slack 宣布，多家媒体4月7日跟进报道。Joanne Jang 是 OpenAI 模型「人格」的核心设计者，在 OpenAI 商业化加速、安全承诺存疑的背景下，负责模型行为与价值观的高管离职具有信号意义。High 级。",
+      "source": "AIBase / Scale By Tech",
+      "url": "https://news.aibase.com/news/26926",
+      "keywords": ["OpenAI", "Joanne Jang", "模型行为", "GPT-4o", "离职", "人机交互", "Max Schwarzer"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Firmus数据中心估值55亿",
+      "content": "英伟达支持的亚洲 AI 数据中心商 Firmus 完成新一轮融资，估值达 $55 亿；自 2025 年 10 月以来 6 个月内累计融资 $13.5 亿，重点布局亚太地区算力短缺市场，增速位居全球 AI 基础设施领域前列。",
+      "importance": "high",
+      "reasoning": "4月7日 TechCrunch 报道。$55亿估值、6个月$13.5亿融资超过10亿美元门槛，英伟达背书验证技术路线。亚太算力基础设施投资持续加速，Firmus 是该区域代表性标的，High 级（大型融资）。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+      "keywords": ["Firmus", "英伟达", "AI数据中心", "亚太算力", "$55亿估值", "$13.5亿融资"],
+      "category": "融资动态"
+    },
+    {
+      "id": 7,
+      "title": "Uber采用亚马逊自研AI芯片",
+      "content": "Uber 扩大与 AWS 的合作，将网约车核心调度、定价和配送预测功能迁至亚马逊自研 Trainium3（训练）和 Graviton4（运行）芯片，每日处理超 2,000 万次行程，预计运行成本降低 20% 以上；Uber 由此成为继 Anthropic、Apple 之后又一大规模采用亚马逊自研芯片的头部科技公司。",
+      "importance": "medium",
+      "reasoning": "4月7日 TechCrunch 报道，亚马逊官方博客同日确认。Uber 加入 AWS 自研芯片阵营，反映 AI 芯片市场去英伟达化趋势进入企业生产部署阶段，具有行业趋势参考价值。Medium 级（常规扩展合作）。",
+      "source": "TechCrunch / Amazon Newsroom",
+      "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+      "keywords": ["Uber", "AWS", "Trainium3", "Graviton4", "亚马逊芯片", "去英伟达化", "调度系统"],
+      "category": "产品动态"
+    },
+    {
+      "id": 8,
+      "title": "谷歌开源多智能体编排框架",
+      "content": "谷歌开源实验性多 AI 智能体编排框架 Scion，支持 Claude Code、Gemini CLI、Codex 等主流 AI 编程工具并行协同，每个智能体在独立容器中运行，支持 Docker/Kubernetes 部署；框架定位为「智能体运行层」，专为测试多智能体复杂任务协作设计。",
+      "importance": "medium",
+      "reasoning": "4月7日 Google 官方开源，InfoQ 报道，HN 163分关注。随着 AI 编程智能体迅速普及，基础设施层工具的开源对开发者生态有实质影响，但属于开发者工具范畴，非大众突破性事件。Medium 级。",
+      "source": "InfoQ / Google",
+      "url": "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/",
+      "keywords": ["谷歌", "Scion", "多智能体", "开源", "Claude Code", "Gemini CLI", "Docker", "Kubernetes"],
+      "category": "开发者工具"
+    },
+    {
+      "id": 9,
+      "title": "中国AI概念股领涨",
+      "content": "受 GLM-5.1 代码评测全球第三的消息带动， A 股 AI 概念板块整体走强，智谱 AI 相关股票单日涨幅达 15%，领涨大模型板块；GLM-5.1 完全依托华为昇腾 910B 芯片训练的特性，同步推升国产算力概念股。",
+      "importance": "medium",
+      "reasoning": "4月8日 AIBase 报道（当日实时新闻）。15% 单日涨幅具体量化，与 GLM-5.1 技术突破和昇腾芯片直接挂钩，反映中国 AI 市场对本土编程能力的信心，具有行业参考价值。Medium 级（区域市场反应）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26925",
+      "keywords": ["智谱AI", "A股", "AI概念股", "15%涨幅", "华为昇腾", "国产算力", "GLM-5.1"],
+      "category": "市场动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-08T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Anthropic Blog", "Hacker News", "AIBase", "Bloomberg", "CNBC", "Fortune", "Axios", "InfoQ", "Z.AI Blog", "Tom's Hardware", "SiliconAngle", "Amazon Newsroom", "Scale By Tech", "9to5Mac"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 195
+  }
+}

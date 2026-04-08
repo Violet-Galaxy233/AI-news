@@ -1,0 +1,23 @@
+{
+  "name": "ai-news-viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "build-index": "node scripts/build-index.js",
+    "trim": "python3 trim.py",
+    "capture": "python3 capture.py",
+    "shoot": "zsh shoot.sh",
+    "caption": "python3 gen_caption.py"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-03-06",
+  "date_formatted": "26/03/06",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发布 GPT-5.4",
+      "content": "OpenAI 发布旗舰新模型 GPT-5.4，分标准版、推理增强版（Thinking）和旗舰版（Pro）三档，为 OpenAI 迄今最强通用模型。新模型首次集成原生电脑操控功能，可截图识别后跨应用自主执行任务；API 上下文长度首次扩至 100 万字符，错误生成率较前代降低 33%，电脑操控主流评测综合得分 83% 创全球最高纪录。当前已向 ChatGPT Plus/Team/Pro 用户及 API 开发者全面开放。",
+      "importance": "critical",
+      "reasoning": "OpenAI（三大核心 AI 公司之一）发布迄今最强通用模型，原生电脑操控能力属范式级功能突破，100 万字符上下文与 33% 错误率降低等量化改进显著。TechCrunch 昨日（3 月 5 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "keywords": ["GPT-5.4", "OpenAI", "电脑操控", "旗舰模型", "原生智能体"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 正式提起诉讼",
+      "content": "Anthropic CEO Amodei 宣布将就国防部（DOD）「供应链风险」指定提起联邦诉讼，称该决定「不具法律依据」，表示「别无选择只能法庭见」。争议核心：国防部要求对 Claude 所有合法军事用途不受限制，Anthropic 坚守拒绝将 Claude 用于大规模国内监控和全自主武器两条红线。Anthropic 由此成为美国史上首家被公开列为供应链风险的本土公司，此前该标签仅针对中俄等外国对手。",
+      "importance": "critical",
+      "reasoning": "Anthropic 将军方争议升级至联邦诉讼，是美国 AI 行业与政府关系的历史性节点。DOD 供应链风险标签从未针对本土公司，此案将对 AI 企业与军方合规关系产生深远影响。TechCrunch/CNBC 昨日（3 月 5 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+      "keywords": ["Anthropic", "五角大楼", "DOD", "诉讼", "供应链风险"],
+      "category": "政策监管"
+    },
+    {
+      "id": 3,
+      "title": "Cursor 推出后台编程智能体",
+      "content": "Cursor 发布 Automations 功能，允许开发者以代码变更、 Slack 消息或定时器为触发条件，在后台自动启动 AI 编程智能体，完成静态分析、集成测试、依赖检查等任务，仅在需要人工判断时才中断等待确认。Cursor 估算该功能每小时已执行数百次自动化任务，标志着 AI 编程工具从「交互式对话」转向「事件驱动全托管智能体」，重新定义软件开发工作流。",
+      "importance": "critical",
+      "reasoning": "Cursor（年化营收超 20 亿美元，全球最主流 AI 代码编辑器）推出事件驱动后台智能体，以每小时数百次自动化任务的实测数据证明范式转变：软件开发将从「人机对话」转为「人机委托」，是改变技术路径的关键里程碑。TechCrunch 昨日（3 月 5 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "keywords": ["Cursor", "智能体编程", "Automations", "后台智能体", "开发者工具"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "AI 就业冲击指数上线",
+      "content": "Anthropic 发布「AI 曝险指数」，系统追踪 AI 对白领职业的冲击风险：计算机程序员 75% 的工作任务可被 AI 替代，客服、数据录入人员同属高危群体。颠覆性发现：受冲击最大的往往是高学历、高薪、年长从业者，而非低技能工人。目前整体失业率无明显变化，但初步证据显示高曝险职业中年轻从业者的招聘已开始放缓。",
+      "importance": "high",
+      "reasoning": "Anthropic 首次基于真实 Claude 使用数据发布就业冲击指数，程序员 75% 可替代率等量化发现极具传播力；研究方法领先，是 AI 经济影响领域的重要参考基准。Axios/SiliconAngle 昨日（3 月 5 日）报道。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/03/05/anthropic-ai-jobs-claude",
+      "keywords": ["Anthropic", "就业", "AI冲击", "程序员", "经济指数"],
+      "category": "行业研究"
+    },
+    {
+      "id": 5,
+      "title": "Netflix 收购 AI 电影工具公司",
+      "content": "Netflix 宣布收购由 Ben Affleck 创立的 AI 电影制作公司 InterPositive，交易金额未披露，旗下 16 名员工并入 Netflix，Affleck 出任高级顾问主导整合。InterPositive 的 AI 系统可基于已有拍摄素材训练专属模型，在后期剪辑阶段修复缺失画面、纠正灯光错误和背景瑕疵，以及执行调色、视觉特效等任务。",
+      "importance": "high",
+      "reasoning": "Netflix 以全球最大流媒体平台的体量入场 AI 电影制作工具，将 AI 系统性引入内容生产全流程，是好莱坞与 AI 工具结合的标志性收购事件。TechCrunch/Variety/Bloomberg 昨日（3 月 5 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/netflix-buys-ben-afflecks-ai-filmmaking-company-interpositive/",
+      "keywords": ["Netflix", "AI电影", "InterPositive", "Ben Affleck", "影视制作"],
+      "category": "并购动态"
+    },
+    {
+      "id": 6,
+      "title": "Luma 发布多模态创意智能体",
+      "content": "Luma 正式推出 Luma Agents，搭载自研「统一智能」模型，可跨文字、图像、视频、音频四种媒体协同生成完整创意内容，一个指令完成全流程输出，无需分别调用多套工具。Luma 此前以视频生成模型 Dream Machine 知名，本次将能力扩展为全媒体 AI 创意平台，定价未披露，目前面向创意团队优先开放体验。",
+      "importance": "high",
+      "reasoning": "Luma 是视频生成赛道领先产品，将单模态视频生成扩展至文图视音四合一创意智能体，是创意 AI 领域首个涵盖全媒体类型的智能体平台，对 Sora、Runway 等竞品构成正面竞争压力。TechCrunch 昨日（3 月 5 日）独家报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+      "keywords": ["Luma", "创意AI", "多模态", "视频生成", "统一智能"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "AWS 上线医疗 AI 平台",
+      "content": "AWS 发布 Amazon Connect Health，面向医疗机构提供患者预约、病历整理、身份核验三类 AI 智能体服务，帮助医院自动化行政流程，定价未披露，3 月 5 日正式上线。",
+      "importance": "medium",
+      "reasoning": "AWS 专为医疗场景推出垂直 AI 智能体平台，是继微软、谷歌之后又一科技巨头进入医疗行政自动化赛道，对医疗 AI 市场格局有参考意义。TechCrunch 昨日（3 月 5 日）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+      "keywords": ["AWS", "医疗AI", "智能体", "Amazon Connect", "行政自动化"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-06T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "CNBC", "Axios", "SiliconAngle", "TechNode", "AIBase", "36kr", "Hacker News", "Fortune", "AI News"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 960
+  }
+}

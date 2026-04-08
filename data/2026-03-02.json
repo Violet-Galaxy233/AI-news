@@ -1,0 +1,102 @@
+{
+  "date": "2026-03-02",
+  "date_formatted": "26/03/02",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "三星 2030 AI 工厂战略",
+      "content": "三星电子于MWC 2026 宣布，计划到 2030 年将全球 200 余座制造设施全面转型为「AI 驱动工厂」，覆盖进料物流、生产制造、品质检测与出货全链路。战略核心是将 Galaxy S26 引入的 AI 智能体能力部署至工业场景，并在所有工厂实施数字孪生系统；委托代工工厂同步纳入，AI 自主扩展治理策略将在年内公布。",
+      "importance": "critical",
+      "reasoning": "全球最大电子制造商之一将 AI 智能体从消费品延伸至全产业链生产，覆盖 200 余座全球工厂并设定 2030 年具体目标，是 AI 从产品走向制造基础设施的标志性承诺。三星官方新闻室与 Korea Times 于 3 月 1 日（昨天）确认。",
+      "source": "Samsung Newsroom",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-strategy-to-transition-global-manufacturing-into-ai-driven-factories-by-2030",
+      "keywords": ["三星", "AI工厂", "数字孪生", "制造业AI", "2030战略"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "AMD 发布 AI PC 芯片",
+      "content": "AMD 于 MWC 2026 正式发布 Ryzen AI 400 系列 AI PC 处理器全系，台式版多线程性能较竞品最高提升 30%，移动版集成专属 AI 运算单元，在全天续航条件下可本地运行 AI 智能体任务。惠普与联想将于 2026 年第二季度率先推出搭载机型，是 AMD 直接回应英特尔 Panther Lake 的正面竞争动作。",
+      "importance": "critical",
+      "reasoning": "AMD（三大 AI 芯片厂之一）在全球最大移动展 MWC 2026 发布 AI PC 处理器全系，30% 性能提升有具体量化数据，直接关系到全球 AI PC 出货节奏。AMD 官方新闻稿于今天（3 月 2 日）发布。",
+      "source": "AMD",
+      "url": "https://www.amd.com/en/newsroom/press-releases/2026-3-2-amd-gives-consumers-and-businesses-more-ai-pc-opti.html",
+      "keywords": ["AMD", "Ryzen AI 400", "AI PC", "MWC 2026", "芯片"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 3,
+      "title": "Honor 发布机器人手机",
+      "content": "荣耀（Honor）于 MWC 2026 发布全球首款机器人手机，机背搭载 2 亿像素四自由度机械云台摄像头，可自动追踪拍摄对象、随音乐韵律摆动，现场还展示了首款人形机器人原型——完成后空翻、与真人共舞并同 CEO 握手。Robot Phone 计划今年下半年在中国首发，售价暂未披露。",
+      "importance": "high",
+      "reasoning": "全球首款将机械臂与摄像头集成在量产手机的产品，荣耀同场亮相人形机器人原型是中国消费硬件公司进军「具身 AI」赛道的首次公开亮相。TechCrunch / CNBC 3 月 1 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/01/honor-says-its-robot-phone-with-moving-camera-can-dance-to-music/",
+      "keywords": ["Honor", "机器人手机", "MWC 2026", "人形机器人", "具身AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Nokia 6G 生态大扩张",
+      "content": "Nokia 于 MWC 2026（宣布与 NVIDIA 深化 AI 无线接入网合作，新增 BT、NTT DOCOMO、Vodafone、Elisa 四家运营商客户；同日，Nokia 与爱立信宣布联合推进跨厂商智能化自主网络，Nokia 与德国电信亦扩大 AI 原生网络战略合作，三份协议同步落地，标志着全球顶级运营商正式在 5G 向 AI 原生 6G 过渡节点集中押注。",
+      "importance": "high",
+      "reasoning": "Nokia、爱立信、NVIDIA 三巨头同日在 MWC 集中公布合作，BT / NTT DOCOMO / Vodafone 等全球顶级运营商同时入局，是全球电信基础设施向 AI 原生 6G 演进的集体背书信号。GlobeNewswire 3 月 1 日（昨天）发布。",
+      "source": "Nokia",
+      "url": "https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-momentum-with-new-partnerships-driving-path-to-ai-native-6g-mwc26/",
+      "keywords": ["Nokia", "NVIDIA", "AI-RAN", "6G", "MWC 2026"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 5,
+      "title": "MiniMax 年报海外超七成",
+      "content": "中国 AI 公司 MiniMax 发布 2025 年度报告，全年营收 7900 万美元、同比增长 159%，海外收入占比 71%，覆盖全球 200 多个国家，个人用户 2.36 亿、企业与开发者客户 21.4 万家；公司正推进港交所上市申请，但全年净亏损 18.7 亿美元（同比扩大 302%），主因为算力租赁与多模态模型研发支出。",
+      "importance": "high",
+      "reasoning": "中国 AI 公司「出海反向输出」的最新量化样本：海外收入已超国内，在国产 AI 公司中属领先地位。港交所上市申请是重要资本市场节点，AIBase 3 月 2 日（今天）报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25848",
+      "keywords": ["MiniMax", "年报", "海外营收", "IPO", "中国AI出海"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "禁令冲击 M365 企业生态",
+      "content": "自 2026 年 1 月 7 日起，微软 365 Copilot 已对多数商业客户默认启用 Anthropic Claude 模型。特朗普封禁令落地后，法律分析机构指出所有有五角大楼业务敞口的企业须在 M365 管理后台手动关闭 Claude 授权，部分《财富》500 强法务团队已启动企业范围 Claude 合规全面审查。",
+      "importance": "high",
+      "reasoning": "微软 365 商业客户默认启用 Claude，加上特朗普封禁令的扩大适用范围，给大量企业带来合规不确定性，是禁令向企业软件生态传导的具体信号。BuckleyPLANET 3 月 2026 年分析报告。",
+      "source": "BuckleyPLANET",
+      "url": "https://buckleyplanet.com/2026/03/the-anthropic-ban-and-what-it-means-for-microsoft-partners-and-customers/",
+      "keywords": ["Anthropic", "微软365", "合规风险", "企业AI", "M365 Copilot"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "高通 X105 AI 基带亮相",
+      "content": "高通（Qualcomm）于 MWC 2026 发布 X105 调制解调器，内置专用 AI 运算引擎，首款为 AI 智能体场景专项设计的 5G Advanced 基带，电路板面积缩减 15%、功耗降低 30%，支持卫星直连通信，面向智能手机、工业物联网与自动驾驶市场。",
+      "importance": "medium",
+      "reasoning": "首款将 AI 智能体能力写入基带芯片设计目标的 5G 调制解调器，15%/30% 为量化数据。AIBase 3 月 2 日（今天）报道，MWC 2026 发布。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25845",
+      "keywords": ["高通", "X105", "5G调制解调器", "AI智能体", "MWC 2026"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 8,
+      "title": "AI.com 七千万美元成交",
+      "content": "域名 AI.com 以 7000 万美元成交，由马来西亚投资人 Arsyan Ismail 于 1993 年注册，持有 32 年后约增值 7 万倍出售，创 AI 相关域名历史最高成交纪录，买方身份暂未披露。",
+      "importance": "medium",
+      "reasoning": "7000 万美元创 AI 域名成交纪录，折射出 AI 相关资产在资本市场的溢价热度。AIBase 3 月 2 日（今天）报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/25847",
+      "keywords": ["AI.com", "域名", "7000万美元", "成交纪录", "AI资产"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-02T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["Samsung Newsroom", "AMD Newsroom", "TechCrunch", "CNBC", "Nokia", "GlobeNewswire", "AIBase", "BuckleyPLANET", "WebSearch", "Hacker News"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 600
+  }
+}

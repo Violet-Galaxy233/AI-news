@@ -1,0 +1,122 @@
+{
+  "date": "2025-12-22",
+  "date_formatted": "25/12/22",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "智谱启动 IPO 冲刺大模型第一股",
+      "content": "智谱披露香港 IPO 招股书，估值 243 亿元，成为中国首家上市的大模型公司。2024 年营收 3.1 亿元，年增长率 130%，亏损 29.6 亿元。拥有超 1.2 万企业客户，11 月日均处理量 4.2 万亿次。",
+      "importance": "critical",
+      "reasoning": "中国首家大模型公司 IPO，估值 243 亿元，年营收增长 130%，拥有 1.2 万企业客户，对中国 AI 行业有重大意义。12 月 19 日披露招股书。",
+      "source": "东方财富 / 36氪",
+      "url": "https://finance.eastmoney.com/a/202512203597208752.html",
+      "keywords": ["智谱", "IPO", "大模型第一股", "243 亿估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 谈判千亿美元融资",
+      "content": "OpenAI 正洽谈高达 1000 亿美元融资，估值可能达 8300 亿美元，亚马逊洽谈投资至少 100 亿美元。公司年化营收已达 190 亿美元，计划 2026 年第一季度前完成。12 月 19 日报道。",
+      "importance": "critical",
+      "reasoning": "OpenAI 寻求千亿美元级融资，估值 8300 亿美元，年营收 190 亿美元，亚马逊等参与，对 AI 行业投资格局有重大影响。12 月 19 日报道。",
+      "source": "TechCrunch / 36氪",
+      "url": "https://techcrunch.com/2025/12/19/openai-is-reportedly-trying-to-raise-100b-at-an-830b-valuation/",
+      "keywords": ["OpenAI", "融资", "1000 亿美元", "8300 亿估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "纽约州签署 AI 安全法案",
+      "content": "纽约州长于签署 RAISE Act，要求大型 AI 开发商公开安全协议，72 小时内报告安全事故。违规罚款 100 万美元，再犯 300 万美元。纽约成为美国第二个 AI 安全立法州。",
+      "importance": "critical",
+      "reasoning": "纽约州成为美国第二个 AI 安全立法州，要求 72 小时报告事故，违规罚款 100-300 万美元，对 AI 监管有重要影响。12 月 20 日签署。",
+      "source": "TechCrunch / Axios",
+      "url": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/",
+      "keywords": ["纽约", "RAISE Act", "AI 安全", "监管"],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "字节发布音视频联合生成模型",
+      "content": "字节跳动发布 Seedance 1.5 Pro，首次实现音视频联合生成，支持精准口型同步和方言识别（粤语、川话、沪语等）。已在豆包和即梦 AI 平台上线内测，面向影视制作和广告场景。",
+      "importance": "critical",
+      "reasoning": "字节首个音视频联合生成模型，支持精准口型同步和多种方言，已在豆包等平台内测，对视频创作有重大推动。12 月 16 日发布。",
+      "source": "Seed ByteDance / 光明网",
+      "url": "https://seed.bytedance.com/en/blog/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布",
+      "keywords": ["字节跳动", "Seedance 1.5 Pro", "音视频生成", "方言"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Claude 测试任务模式",
+      "content": "Anthropic 开测 Claude 任务模式，支持多步骤规划和进度追踪，遇不明指令会主动提问。计划 12 月内公开发布。",
+      "importance": "high",
+      "reasoning": "Anthropic 推出任务模式，支持复杂任务规划和主动澄清，改变 AI 助手交互方式，计划 12 月内公开。12 月 18 日开测。",
+      "source": "新浪科技 / IT之家",
+      "url": "https://finance.sina.com.cn/tech/digi/2025-12-19/doc-inhciinf7298675.shtml",
+      "keywords": ["Claude", "任务模式", "Anthropic", "多步骤规划"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Mistral 发布 OCR 3 文档识别",
+      "content": "Mistral AI 发布 OCR 3 模型，性能提升 74%，擅长表格和手写识别。定价 2 美元/千页，批量降至 1 美元。",
+      "importance": "high",
+      "reasoning": "Mistral OCR 3 性能提升 74%，定价极具竞争力（2 美元/千页），对文档处理自动化有重要推动。12 月 19 日发布。",
+      "source": "Mistral AI / MarkTechPost",
+      "url": "https://mistral.ai/news/mistral-ocr-3",
+      "keywords": ["Mistral", "OCR 3", "文档识别", "74% 提升"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "字节跳动全球员工涨薪",
+      "content": "字节跳动宣布全球涨薪，2025 年奖金投入提升 35%，调薪投入提升 1.5 倍，确保薪酬领先行业头部。",
+      "importance": "high",
+      "reasoning": "字节跳动全球涨薪，奖金投入提升 35%，调薪投入提升 1.5 倍，展示 AI 企业人才竞争加剧。12 月 19 日宣布。",
+      "source": "21经济网 / 新浪财经",
+      "url": "https://www.21jingji.com/article/20251219/herald/f72e0544ce9fc43beff7cc5df5360e00.html",
+      "keywords": ["字节跳动", "涨薪", "35% 奖金", "人才竞争"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "北京人形开源机器人模型 XR-1",
+      "content": "北京人形 开源 XR-1 模型，成为中国首个通过具身智能国标测试的视觉-语言-行动模型。",
+      "importance": "high",
+      "reasoning": "技术突破：中国首个通过国标测试的具身智能模型开源，对机器人产业发展有重要推动作用。12 月 18 日开源。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/906/311.htm",
+      "keywords": ["北京人形", "XR-1", "具身智能", "开源"],
+      "category": "产品发布"
+    },
+
+    {
+      "id": 10,
+      "title": "字节跳动推进 AI 手机合作",
+      "content": "字节跳动被曝与 vivo、联想、传音等厂商合作，预装 AIGC 插件，目标覆盖 15-20 亿台设备。",
+      "importance": "high",
+      "reasoning": "重要战略合作：字节跳动与多家手机厂商合作预装 AI 功能，目标覆盖 15-20 亿台设备，构建 AI 生态入口。12 月 19 日报道。",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/digi/2025-12-19/doc-inhcicer2396825.shtml",
+      "keywords": ["字节跳动", "AI 手机", "vivo", "联想"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-22T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 3,
+    "generation_time_seconds": 2400
+  }
+}

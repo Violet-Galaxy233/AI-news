@@ -1,0 +1,137 @@
+{
+  "date": "2026-01-28",
+  "date_formatted": "26/01/28",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 融资规模扩至 200 亿美元",
+      "content": "Anthropic 新一轮融资出现超额认购，总规模从原计划 100 亿美元增至超 200 亿美元，公司估值跃升至 3500 亿美元，较 4 个月前翻倍。新加坡主权基金 GIC 和美国 Coatue 各注资 15 亿美元领投，红杉资本首次入局。公司年化收入已突破 90 亿美元，自去年夏天以来翻了一倍多。",
+      "importance": "critical",
+      "reasoning": "Anthropic 融资规模翻倍至 200 亿美元，估值达 3500 亿美元，年化收入 90 亿美元，属三大厂级别重大融资。1 月下旬报道。",
+      "source": "澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32440217",
+      "keywords": ["Anthropic", "200 亿美元", "3500 亿估值", "90 亿收入", "红杉"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 推出免费科研工作空间 Prism",
+      "content": "OpenAI 发布 Prism，基于 GPT-5.2 的免费科研协作平台，支持无限项目和实时多人编辑。可将手写公式照片转为 LaTeX 代码，自动推荐相关论文，协助撰写和修订学术文稿。任何拥有 ChatGPT 个人账号的用户均可免费使用，企业和大学版本将稍后推出。",
+      "importance": "critical",
+      "reasoning": "OpenAI 发布免费科研工作平台 Prism，GPT-5.2 驱动，支持无限项目和实时协作，属三大厂核心产品发布。昨天（1 月 27 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/27/openai-launches-prism-a-new-ai-workspace-for-scientists/",
+      "keywords": ["OpenAI", "Prism", "GPT-5.2", "免费", "科研"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "DeepSeek 发布 OCR 2 视觉模型",
+      "content": "DeepSeek 于 发布开源 OCR 2 模型，首创「因果流查询」机制，用 0.5B 轻量级语言模型替代传统 CLIP 编码器。在使用最少视觉标记的情况下达到 91.09% 性能，较基线版本提升 3.73%。文档解析精度优于 Gemini 3 Pro，研究团队认为该架构有潜力演变为统一全模态编码器。",
+      "importance": "critical",
+      "reasoning": "DeepSeek 发布开源视觉模型架构突破，首创因果流查询，性能超越 Gemini 3 Pro，属范式转变级别技术。昨天（1 月 27 日）发布。",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3657314948211078",
+      "keywords": ["DeepSeek", "OCR 2", "因果流", "Gemini 3", "开源"],
+      "category": "研究突破"
+    },
+    {
+      "id": 4,
+      "title": "AI 在 OpenSSL 发现 12 个安全漏洞",
+      "content": "AISLE 公司使用 AI 系统在 OpenSSL 加密库中发现 12 个新安全漏洞，于 1 月 27 日协调发布补丁。其中 CVE-2025-15467 被评为高危，可能导致远程代码执行。这些漏洞从 2025 年 8 月开始通过负责任渠道披露，加上此前 3 个，AISLE 共发现 15 个 OpenSSL 漏洞。OpenSSL 基金会对报告质量和合作态度表示感谢。",
+      "importance": "critical",
+      "reasoning": "AI 系统发现 OpenSSL 12 个漏洞包括 1 个高危，展示 AI 在网络安全领域突破性应用。昨天（1 月 27 日）发布。",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/01/27/3226775/0/en/AISLE-Researchers-Identify-12-New-Security-Vulnerabilities-in-OpenSSL-Using-AI-Driven-Discovery.html",
+      "keywords": ["AISLE", "OpenSSL", "12 个漏洞", "高危", "网络安全"],
+      "category": "研究突破"
+    },
+    {
+      "id": 5,
+      "title": "Pinterest 裁员 15% 将资源转向 AI",
+      "content": "Pinterest 宣布裁员 15%，影响约 700 名员工，预计 9 月前完成。公司将节省的人力和办公成本重新分配到 AI 产品开发和团队。此举将产生 3500 万至 4500 万美元重组成本，消息公布后股价下跌超 9%。",
+      "importance": "high",
+      "reasoning": "Pinterest 裁员 15% 约 700 人专注 AI 转型，重组成本达 4500 万美元，股价跌 9%，属重大企业战略调整。昨天（1 月 27 日）宣布。",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/pinterest-lay-off-15-workforce-171121442.html",
+      "keywords": ["Pinterest", "裁员 15%", "700 人", "4500 万美元", "转型"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Google AI Plus 计划扩展至35个国家和地区",
+      "content": "Google 宣布将 AI Plus 订阅计划扩展至包括美国在内的 35 个国家和地区。美国定价为 7.99 美元/月，仅为现有 AI Pro 计划 19.99 美元的 40%，为用户提供更经济的 Gemini 升级服务访问选项。",
+      "importance": "high",
+      "reasoning": "Google 推出低价 AI 订阅扩展到 35 国包括美国，价格仅为 Pro 版 40%，属重要产品策略调整。昨天（1 月 27 日）宣布。",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/01/27/google-ai-plus-plan-expansion/",
+      "keywords": ["Google", "AI Plus", "7.99 美元", "35 国", "Gemini"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "腾讯元宝内测 AI 群聊功能元宝派",
+      "content": "腾讯于开启元宝派内测，融合微信社交、腾讯会议协同与 AI 能力。用户可创建或加入「派」，在群聊中让元宝总结对话、创建打卡活动并担任监督员。后续将开放「一起看」「一起听」功能，接入腾讯会议音视频能力，支持分享到微信朋友圈和 QQ。",
+      "importance": "high",
+      "reasoning": "腾讯推出 AI 群聊社交新玩法元宝派，打通微信 QQ 生态，探索 AI 嵌入社交网络新模式。1 月 26 日内测。",
+      "source": "21经济网",
+      "url": "https://www.21jingji.com/article/20260126/herald/bfd1c315746f5882d09b4b59a719ac73.html",
+      "keywords": ["腾讯", "元宝派", "AI 群聊", "微信", "社交"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Google Search 升级 Gemini 3 为默认",
+      "content": "Google 日宣布 Search 升级，AI 概述功能支持后续追问，保持对话上下文。Gemini 3 成为全球默认模型，提供更互动的搜索体验，用户可直接向 AI 生成的摘要提问而无需重新搜索。",
+      "importance": "high",
+      "reasoning": "Google Search 重大升级，Gemini 3 成为全球默认模型，支持对话式追问，影响数亿用户搜索体验。今天（1 月 28 日）宣布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/25027",
+      "keywords": ["Google Search", "Gemini 3", "默认模型", "对话式", "AI 概述"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "OpenAI 高管预测 2026 科学研究突破",
+      "content": "OpenAI 产品副总裁 Kevin Weil 预测 2026 年将成为 AI 科学研究突破年。他表示 GPT-5.2 正演变为「数字头脑风暴伙伴」，在研究效率测试中达到接近人类专家水平，将显著加速科学发现进程。",
+      "importance": "high",
+      "reasoning": "OpenAI 高管预测 2026 年 AI 科学突破，GPT-5.2 达人类专家水平，属三大厂重要前瞻。今天（1 月 28 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/25023",
+      "keywords": ["OpenAI", "Kevin Weil", "2026", "GPT-5.2", "科学研究"],
+      "category": "行业动态"
+    },
+    {
+      "id": 10,
+      "title": "设计工具 Flora 获 4200 万美元融资",
+      "content": "设计工具 Flora 完成 4200 万美元 A 轮融资，采用节点式工作流和多模态生成技术，已被阿里巴巴和狮门影业等大型企业采用。",
+      "importance": "medium",
+      "reasoning": "设计工具 Flora 获 A 轮融资 4200 万美元，客户包括阿里巴巴和狮门影业，属中等融资。今天（1 月 28 日）宣布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news/25024",
+      "keywords": ["Flora", "4200 万美元", "A 轮", "设计工具", "阿里巴巴"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-28T08:00:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "澎湃新闻",
+      "MacRumors",
+      "21经济网",
+      "GlobeNewswire",
+      "Yahoo Finance"
+    ],
+    "duplicates_removed": 4,
+    "generation_time_seconds": 450
+  }
+}

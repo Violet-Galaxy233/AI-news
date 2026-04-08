@@ -1,0 +1,112 @@
+{
+  "date": "2025-12-23",
+  "date_formatted": "25/12/23",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "智谱发布 GLM-4.7 编程国内第一",
+      "content": "智谱于今天发布 GLM-4.7 模型,编程能力位列国内第一、开源第一,超越 GPT-5.2。模型规模达 309B,每秒处理 150 次调用,支持 256K 记忆容量,API 定价 0.1 美元/百万次。",
+      "importance": "critical",
+      "reasoning": "智谱发布新旗舰模型,编程能力超越 GPT-5.2 达到国内第一,定价极具竞争力,对中国 AI 编程工具市场有重大影响。今天（12 月 23 日）发布。",
+      "source": "东方财富 / 新浪财经",
+      "url": "https://finance.eastmoney.com/a/202512233598882356.html",
+      "keywords": ["智谱", "GLM-4.7", "编程", "国内第一"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "ChatGPT 推出年终回顾功能",
+      "content": "OpenAI 于今天推出 ChatGPT 年终回顾功能,类似 Spotify Wrapped。AI 基于用户全年对话数据,生成个性化诗歌、像素艺术和专属称号。用户可通过 3 种方式访问:主页横幅、提示词调用或应用内菜单。",
+      "importance": "critical",
+      "reasoning": "OpenAI 推出首个年度总结功能,面向数亿用户,创新互动方式,展示 AI 个性化应用新方向。今天（12 月 23 日）发布。",
+      "source": "XenoSpectrum / TechCrunch",
+      "url": "https://techcrunch.com/2025/12/22/openai-launches-chatgpt-year-in-review/",
+      "keywords": ["ChatGPT", "年终回顾", "OpenAI", "个性化"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "MiniMax 通过港交所聆讯冲刺上市",
+      "content": "MiniMax 通过港交所聆讯,成为第二家冲刺大模型第一股的中国企业。2025 年前九个月营收 5344 万美元,增长 175%,付费用户达 177 万,计划 2026 年 1 月上市。",
+      "importance": "critical",
+      "reasoning": "MiniMax 成为第二家通过港交所聆讯的大模型企业,营收增长 175%,付费用户 177 万,中国 AI 商业化进程加速。12 月 17 日通过。",
+      "source": "新华网 / 36氪",
+      "url": "http://www.news.cn/tech/20251218/9b1c9967d4e543939fd9c6e36d2a324f/c.html",
+      "keywords": ["MiniMax", "港交所", "IPO", "大模型第一股"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "字节 2026 年前投资 1600 亿建 AI",
+      "content": "字节跳动计划 2026 年前投资 1600 亿人民币建设 AI 基础设施,其中 900 亿用于算力采购,700 亿用于数据中心。2024 年投入已达 800 亿,接近百度、阿里、腾讯三家总和。",
+      "importance": "critical",
+      "reasoning": "字节跳动 1600 亿投资规模创中国企业之最,2024 年已投入 800 亿接近 BAT 总和,展示 AI 基础设施竞赛白热化。12 月报道。",
+      "source": "华尔街见闻 / 新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2024-12-19/doc-inczzcmr6692878.shtml",
+      "keywords": ["字节跳动", "1600 亿", "AI 基础设施", "算力"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI 承认 AI 浏览器存在漏洞",
+      "content": "OpenAI 承认 AI 浏览器 Atlas 存在提示注入漏洞且难以完全解决。测试显示 Atlas 仅拦截 5.8% 的钓鱼攻击,远低于 Chrome 的 47-53%,用户安全风险高 90%。",
+      "importance": "critical",
+      "reasoning": "OpenAI 首次承认 AI 浏览器安全漏洞难以解决,拦截率仅 5.8% 远低于传统浏览器,对 AI 浏览器发展有重要警示。昨天（12 月 22 日）承认。",
+      "source": "TechCrunch / FreeBuf",
+      "url": "https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks/",
+      "keywords": ["OpenAI", "Atlas", "提示注入", "安全漏洞"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "腾讯混元发布世界模型 1.5",
+      "content": "腾讯混元发布世界模型 1.5,国内首个免费 3D 世界生成工具,支持 24 FPS 实时输出。",
+      "importance": "high",
+      "reasoning": "腾讯推出国内首个免费实时 3D 世界生成模型,响应李飞飞 World Labs,推动空间智能国产化。昨天（12 月 22 日）发布。",
+      "source": "36氪 / 量子位",
+      "url": "https://36kr.com/p/3606477075940614",
+      "keywords": ["腾讯混元", "世界模型", "3D 生成", "免费"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "SoftBank 筹集 225 亿美元支持 OpenAI",
+      "content": "SoftBank 正筹集 225 亿美元兑现对 OpenAI 承诺,已出售英伟达股份并扩大 65 亿美元信贷,需在年底前完成。",
+      "importance": "high",
+      "reasoning": "SoftBank 筹集 225 亿美元支持 OpenAI,出售英伟达股份展示对 AI 的全力投入,年底截止时间紧迫。12 月 19-22 日报道。",
+      "source": "Tech Startups / Reuters",
+      "url": "https://techstartups.com/2025/12/22/softbank-rushes-to-raise-22-5b-to-meet-openai-funding-deadline-as-ai-compute-costs-surge/",
+      "keywords": ["SoftBank", "OpenAI", "225 亿美元", "融资"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "Claude Code 获得语言服务器支持",
+      "content": "Anthropic 为 Claude Code 增加语言服务器支持,增加底层能力,改善代码理解,提升大型项目开发效率。",
+      "importance": "medium",
+      "reasoning": "Anthropic 为 Claude Code 增加底层能力,改善代码理解,开发工具持续优化。12 月 22 日上线。",
+      "source": "Hacker News / Habr",
+      "url": "https://news.ycombinator.com",
+      "keywords": ["Claude Code", "Anthropic", "语言服务器", "开发工具"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-23T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "新浪财经",
+      "东方财富"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 2100
+  }
+}

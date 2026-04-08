@@ -1,0 +1,121 @@
+{
+  "date": "2025-11-18",
+  "date_formatted": "25/11/18",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "马斯克 Grok 4.1 登顶全球第一",
+      "content": "xAI 今天发布 Grok 4.1，在 LMArena 登顶第一，得分 1483 领先第二名 31 分。错误生成率从 12.09% 降至 4.22%，降幅 65%。盲测显示 64.78% 回复优于前代，情商测试获第一。已在 X 平台免费开放。",
+      "importance": "critical",
+      "reasoning": "马斯克 xAI 主流产品发布：Grok 4.1 登顶 LMArena 第一名，错误率降低 65%，盲测优于前代 64.78%，情商测试第一，对 AI 竞争格局有重要影响，今天（11 月 18 日）发布。",
+      "source": "GIGAZINE",
+      "url": "https://gigazine.net/gsc_news/en/20251118-xai-grok-4-1/",
+      "keywords": ["xAI", "Grok 4.1", "马斯克", "排行榜"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "贝索斯 62 亿美元创办 AI 硬件公司",
+      "content": "亚马逊创始人贝索斯昨天宣布创办 AI 硬件公司 Project Prometheus，自任联合 CEO，融资 62 亿美元。公司聚焦制造、航空领域，团队近 100 人来自 Meta、OpenAI、DeepMind。这是贝索斯 2021 年离开亚马逊后首次复出。",
+      "importance": "critical",
+      "reasoning": "巨头创业重大事件：贝索斯自 2021 年离开亚马逊后首次复出任 CEO，62 亿美元融资规模，团队来自顶级 AI 公司，聚焦物理世界 AI，对行业有重大影响，昨天（11 月 17 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/17/jeff-bezos-reportedly-returns-to-the-trenches-as-co-ceo-of-new-ai-startup-project-prometheus/",
+      "keywords": ["贝索斯", "Project Prometheus", "AI 硬件", "创业"],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "亚马逊发行 150 亿美元债券投资 AI",
+      "content": "亚马逊今天完成 150 亿美元债券发行，三年来首次。原计划 120 亿，因认购需求达 800 亿而上调。资金将用于 AI 基础设施、收购和回购。谷歌、Meta、甲骨文近期也分别发债 250 亿、300 亿、180 亿美元。",
+      "importance": "critical",
+      "reasoning": "科技巨头大规模融资：150 亿美元规模，三年来首次发债，800 亿认购需求展示市场信心，与谷歌、Meta、甲骨文形成科技巨头 AI 投资浪潮，今天（11 月 18 日）完成。",
+      "source": "新浪财经",
+      "url": "https://cj.sina.com.cn/articles/view/5835524730/15bd30a7a020021w3e",
+      "keywords": ["亚马逊", "债券", "AI 投资", "基础设施"],
+      "category": "投融资"
+    },
+    {
+      "id": 4,
+      "title": "阿里千问 App 正式上线对标 ChatGPT",
+      "content": "阿里昨天正式推出千问独立应用，对标 ChatGPT。应用基于 Qwen 模型，将覆盖办公、地图、健康、购物等场景。阿里管理层将此定位为 AI 时代的未来之战，全球版将很快上线。此前阿里主要提供企业服务。",
+      "importance": "critical",
+      "reasoning": "国内大厂主流产品发布：阿里首次推出消费级独立 AI 应用，对标 ChatGPT，管理层定位为未来之战，将推全球版，标志阿里从 B 端转向 C 端，对国内 AI 竞争有重要影响，昨天（11 月 17 日）发布。",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/digi/2025-11-17/doc-infxspkn3830824.shtml",
+      "keywords": ["阿里", "千问", "ChatGPT", "独立应用"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Google WeatherNext 2 速度提升 8 倍",
+      "content": "Google DeepMind 昨天发布 WeatherNext 2 天气预测模型，速度提升 8 倍，1 分钟生成数百种场景。飓风路径预测准确期从 2 天延长至 3 天，99.9% 变量超越前代。已集成至 Google 搜索、Gemini、Pixel Weather。",
+      "importance": "critical",
+      "reasoning": "谷歌 DeepMind 重要产品发布：速度提升 8 倍，飓风预测准确期延长 50%，99.9% 变量超越前代展示技术进步，已集成主流谷歌产品，对天气预测和能源行业有重要影响，昨天（11 月 17 日）发布。",
+      "source": "Google DeepMind",
+      "url": "https://blog.google/technology/google-deepmind/weathernext-2/",
+      "keywords": ["Google", "DeepMind", "WeatherNext 2", "天气预测"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Sakana AI 成日本最大独角兽",
+      "content": "Sakana AI 昨天完成 1.35 亿美元 B 轮，估值 26.5 亿美元成为日本最大独角兽。公司由前 Google 研究员创立，专注日语优化模型。",
+      "importance": "high",
+      "reasoning": "重要融资事件：1.35 亿美元 B 轮，26.5 亿估值成为日本最大独角兽，前 Google 研究员创立，专注日语市场，对亚洲 AI 发展有参考价值，昨天（11 月 17 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/17/sakana-ai-raises-135m-series-b-at-a-2-65b-valuation-to-continue-building-ai-models-for-japan/",
+      "keywords": ["Sakana AI", "日本", "融资", "独角兽"],
+      "category": "投融资"
+    },
+    {
+      "id": 7,
+      "title": "Windows 11 添加 AI 代理引隐私担忧",
+      "content": "微软在 Windows 11 测试 AI 代理，可访问桌面、音乐、图片等文件夹并后台运行。功能默认关闭，引发隐私担忧。",
+      "importance": "high",
+      "reasoning": "高话题性功能：微软在 Windows 11 添加可访问个人文件夹的后台 AI 代理，引发隐私和安全担忧，对操作系统 AI 集成方式有警示，今天（11 月 18 日）报道。",
+      "source": "Windows Latest",
+      "url": "https://www.windowslatest.com/2025/11/18/windows-11-to-add-an-ai-agent-that-runs-in-background-with-access-to-personal-folders-warns-of-security-risk/",
+      "keywords": ["微软", "Windows 11", "AI 代理", "隐私"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "微博 15 亿参数模型超越大模型",
+      "content": "微博今天发布 Vibe Thinker 开源模型，模型规模仅 15 亿参数，在数学测试超越 DeepSeek R1，训练成本仅 7800 美元。",
+      "importance": "high",
+      "reasoning": "重要技术突破：15 亿小规模模型在数学测试超越大型模型，训练成本仅 7800 美元展示效率优势，已开源对社区有贡献，今天（11 月 18 日）发布。",
+      "source": "AIBase News",
+      "url": "https://news.aibase.com/news",
+      "keywords": ["微博", "Vibe Thinker", "开源", "小模型"],
+      "category": "技术突破"
+    },
+    {
+      "id": 10,
+      "title": "Luminal 获 530 万美元优化 GPU 框架",
+      "content": "AI 基础设施公司 Luminal 获 530 万美元融资，专注开发改进的 GPU 代码框架用于机器学习应用。",
+      "importance": "medium",
+      "reasoning": "中等融资事件：Luminal 获 530 万美元融资，专注 GPU 框架优化，对 AI 基础设施有参考价值，昨天（11 月 17 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/17/luminal-raises-5-3-million/",
+      "keywords": ["Luminal", "融资", "GPU", "机器学习"],
+      "category": "投融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-18T11:30:00Z",
+    "total_news": 11,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 15,
+    "generation_time_seconds": 1800
+  }
+}

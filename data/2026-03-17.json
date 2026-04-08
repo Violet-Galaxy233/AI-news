@@ -1,0 +1,198 @@
+{
+  "date": "2026-03-17",
+  "date_formatted": "26/03/17",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "新加坡首个OpenClaw一键安全部署产品发布",
+      "content": "新加坡中新人工智能协会（CSAIA）推出首个 OpenClaw 安全一键部署工具（www.distribrain.com），配备 VM 用户隔离、Cloudflare Tunnel 无公网 IP、密钥预算限额、数据行级隔离、行为显式授权五层防御架构，解决企业部署中 API 密钥泄露与越权执行等安全痛点，同时解决macbook合盖休眠的问题。第二场课程超过50人报名参与。",
+      "importance": "critical",
+      "reasoning": "3 月 15 日发布。新加坡社区组织率先推出安全生产级 OpenClaw 一键部署工具，五层防御架构填补生态安全空白，是 OpenClaw 从极客玩具走向企业可用系统的代表性实践，属区域性事件（medium）。",
+      "source": "CSAIA",
+      "url": "https://www.distribrain.com/",
+      "keywords": [
+        "OpenClaw",
+        "CSAIA",
+        "新加坡",
+        "安全部署",
+        "distribrain"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "英伟达Rubin平台发布",
+      "content": "英伟达在 GTC 2026 年会正式发布 Vera Rubin 全栈 AI 平台，含 7 款全新芯片与 5 套机架级系统；旗舰配置 Rubin Ultra 最多连接 144 块 GPU，较上代 Blackwell 实现跨代性能飞跃，并同步预告下下代架构 Feynman。黄仁勋预计 Blackwell 与 Vera Rubin 两代平台将为英伟达贡献约 1 万亿美元累计营收，公司 FY2026 全年营收已达 2159 亿美元。",
+      "importance": "critical",
+      "reasoning": "3 月 16-17 日发布。英伟达 GTC 年会核心主题演讲正式发布 Vera Rubin 全栈平台（7 款芯片、5 套机架系统），同步披露约 1 万亿美元营收预期，是英伟达年度最重要的硬件和平台发布。注：2026-03-13 简报为开幕预告，今日为实际发布内容，属实质新进展。CNBC、Tom's Hardware、NVIDIA Blog 全程报道。符合「巨头硬件发布」critical 标准。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "keywords": [
+        "英伟达",
+        "Vera Rubin",
+        "GTC2026",
+        "AI芯片",
+        "黄仁勋"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Meta签270亿算力协议",
+      "content": "Meta 与荷兰 AI 算力公司 Nebius 签署 5 年基础设施协议，总规模最高 270 亿美元（120 亿美元专属算力 + 150 亿美元可选扩展额度），首批交付将包含英伟达 Vera Rubin 芯片，预计 2027 年初开始。协议签署后 Nebius 股价单日涨 14%，是迄今规模最大的单笔 AI 算力采购合同之一。",
+      "importance": "critical",
+      "reasoning": "3 月 16 日发布。270 亿美元是史上最大单笔 AI 算力采购合同之一，同时是全球首批 Vera Rubin 芯片的大规模早期部署合同，体现 Meta 在 AI 基础设施的超大规模押注，Bloomberg 和 CNBC 同步报道。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html",
+      "keywords": [
+        "Meta",
+        "Nebius",
+        "270亿",
+        "AI算力",
+        "Vera Rubin"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI洽谈百亿合资",
+      "content": "OpenAI 正与私募巨头 TPG、Bain Capital、Advent International 及 Brookfield 洽谈成立合资公司，目标估值 100 亿美元，聚焦向各 PE 机构被投企业推广 OpenAI 企业级产品。应用业务 CEO Fidji Simo 将其定位为「技术部署臂膀」，是 OpenAI 首次以合资形式大规模渗透企业市场。",
+      "importance": "critical",
+      "reasoning": "3 月 16 日 Bloomberg 独家报道。OpenAI 联合全球顶级 PE 机构成立 100 亿美元合资公司，是 OpenAI 企业市场战略的结构性转变，也是 PE 行业首次以合资形式大规模参与 AI 企业化推广，影响深远。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-16/openai-discusses-10-billion-venture-with-pe-firms-reuters-says",
+      "keywords": [
+        "OpenAI",
+        "私募",
+        "合资公司",
+        "企业AI",
+        "Fidji Simo"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "百科全书词典联控OpenAI",
+      "content": "大英百科全书与韦氏词典联合起诉 OpenAI，指控其未经授权抓取近 10 万篇版权文章用于训练 ChatGPT，并在输出中逐字复现内容；同时依据《兰汉姆法》指控错误生成内容被冒名标注来自两家机构。OpenAI 回应称基于公开数据训练属于合理使用。",
+      "importance": "high",
+      "reasoning": "3 月 16 日报道（3 月 13 日于纽约联邦法院提交）。两大历史最悠久的权威知识机构联手起诉 OpenAI，指控范围同时覆盖版权侵权与商标滥用，是迄今最具代表性的 AI 训练数据版权争议之一，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+      "keywords": [
+        "大英百科全书",
+        "韦氏词典",
+        "OpenAI",
+        "版权诉讼",
+        "合理使用"
+      ],
+      "category": "法律争议"
+    },
+    {
+      "id": 6,
+      "title": "xAI遭未成年人联邦诉讼",
+      "content": "3 名田纳西州原告（含 2 名未成年人）在加州联邦法院起诉 xAI，指控 Grok 图像生成器通过「Spicy 模式」将真实照片人物强制生成露骨内容，且 xAI 未采取行业通行的基本安全防护措施；原告寻求提起覆盖所有受害未成年人的集体诉讼。",
+      "importance": "high",
+      "reasoning": "3 月 16 日发布。针对 xAI Grok 的首起联邦级儿童性虐待图像集体诉讼，涉及 AI 图像生成安全责任，是 AI 内容安全监管的里程碑性事件，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/",
+      "keywords": [
+        "xAI",
+        "Grok",
+        "诉讼",
+        "内容安全",
+        "集体诉讼"
+      ],
+      "category": "法律争议"
+    },
+    {
+      "id": 7,
+      "title": "Meta旗舰模型推迟至5月",
+      "content": "Meta 下一代旗舰模型 Avocado（内部代号）因内部评测落后于 Google、OpenAI、Anthropic 最新模型（推理、代码、写作三项均落后）而推迟至至少 5 月发布；公司内部曾讨论临时授权 Gemini 为旗下 AI 产品提供支持，是 Meta 首次考虑采用竞争对手的模型能力。",
+      "importance": "high",
+      "reasoning": "3 月 13-16 日报道。Meta 旗舰模型内部评测全面落后于竞品而延期，并讨论借用 Gemini，是大厂竞争格局的重要信号，显示 Meta AI 能力建设面临关键挑战，Bay Area Times 和 Fortune 报道。",
+      "source": "Bay Area Times",
+      "url": "https://www.bayareatimes.com/p/meta-said-to-delay-avocado-model-to-at-least-may-weighs-gemini-licensing",
+      "keywords": [
+        "Meta",
+        "Avocado",
+        "模型延期",
+        "Gemini",
+        "AI竞争"
+      ],
+      "category": "模型发布"
+    },
+    {
+      "id": 8,
+      "title": "美陆军签200亿AI合同",
+      "content": "美国陆军与 AI 自主武器公司 Anduril Industries 签署最高 200 亿美元合同，是美国政府迄今规模最大的 AI 军事合同之一，标志五角大楼加速将 AI 自主决策能力纳入核心武器系统的战略意图。",
+      "importance": "high",
+      "reasoning": "3 月 14 日发布（在 3 天窗口期内）。200 亿美元是美国政府历史上最大的 AI 军事合同之一，标志 AI 自主武器从实验室走向实战部署的关键节点，持续追踪的 AI 军事化议题，TechCrunch 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+      "keywords": [
+        "美国陆军",
+        "Anduril",
+        "AI自主武器",
+        "200亿",
+        "国防合同"
+      ],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "英伟达AI算力进入轨道",
+      "content": "英伟达 GTC 发布 Space-1 Vera Rubin 芯片模组，专为近地轨道数据中心设计，相比 H100 提供最高 25 倍 AI 运算算力，合作伙伴包括 Axiom Space 和 Planet Labs，标志 AI 算力首次系统性延伸至太空环境。",
+      "importance": "medium",
+      "reasoning": "3 月 17 日 GTC 发布。英伟达首次推出面向轨道数据中心的专用 AI 芯片，25 倍于 H100 的太空算力是新兴方向，但整体商业规模有限，属于新赛道开创性事件，NVIDIA Newsroom 发布。",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/space-computing",
+      "keywords": [
+        "英伟达",
+        "Space-1",
+        "轨道数据中心",
+        "太空AI",
+        "Vera Rubin"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "微软AI助手进入Xbox",
+      "content": "微软在 GDC 2026 确认 Gaming Copilot AI 助手将于年内扩展至 Xbox Series X|S，支持语音与文字问询攻略及游戏推荐。内测数据显示 30% 场景为游戏辅导，25% 为游戏发现。",
+      "importance": "medium",
+      "reasoning": "3 月 15-16 日 GDC 2026 宣布。微软首次将 AI 助手扩展至 Xbox 主机平台，是 AI 进入游戏消费终端的标志性事件，内测数据显示主要用途为辅导和游戏发现，Winbuzzer 和 Kotaku 报道。",
+      "source": "Winbuzzer",
+      "url": "https://winbuzzer.com/2026/03/16/microsoft-gaming-copilot-ai-xbox-consoles-2026-xcxwbn/",
+      "keywords": [
+        "微软",
+        "Gaming Copilot",
+        "Xbox",
+        "游戏AI",
+        "GDC2026"
+      ],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-17T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Bloomberg",
+      "NVIDIA Blog",
+      "NVIDIA Newsroom",
+      "Bay Area Times",
+      "Winbuzzer",
+      "AIBase",
+      "Hacker News",
+      "36kr",
+      "Tom's Hardware",
+      "Fortune",
+      "WebSearch"
+    ],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 510
+  }
+}

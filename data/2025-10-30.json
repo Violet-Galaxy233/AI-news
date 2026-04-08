@@ -1,0 +1,133 @@
+{
+  "date": "2025-10-30",
+  "date_formatted": "25/10/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "NVIDIA 成为首家市值突破 5 万亿美元公司",
+      "content": "NVIDIA 于 10-29 市值达 5 万亿美元，成为全球首家突破该里程碑的上市公司。公司股价一周内上涨 14.5%，主要受 AI 芯片需求推动。NVIDIA 从 2023 年 5 月的 1 万亿美元增长至 5 万亿美元，仅用 17 个月。",
+      "importance": "critical",
+      "reasoning": "行业里程碑事件：NVIDIA 成为首家 5 万亿美元市值公司，从 1 万亿到 5 万亿仅用 17 个月，一周涨 14.5% 展示 AI 芯片需求强劲，对全球科技市场有重大影响，昨天（10-29）达成。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/10/29/nvidia-on-track-to-hit-historic-5-trillion-valuation-amid-ai-rally.html",
+      "keywords": ["NVIDIA", "市值", "5万亿美元", "AI芯片"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Cursor 2.0 发布自研 Composer 模型速度提升 4 倍",
+      "content": "AI 编程工具 Cursor 发布 2.0 版本，推出首个自研 Composer 模型，运行速度比同类快 4 倍，多数任务 30 秒内完成。新版本支持多代理并行，允许 8 个 AI 代理同时处理不同编程任务。",
+      "importance": "critical",
+      "reasoning": "重要产品发布：Cursor 发布首个自研模型 Composer，4 倍速度提升和 8 代理并行展示技术突破，对 AI 编程工具市场有重要推动，昨天（10-29）发布。",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/2-0",
+      "keywords": ["Cursor", "Composer", "AI编程", "多代理"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Alphabet 季度收入首次突破 1000 亿美元",
+      "content": "Alphabet 公布 Q3 财报，季度收入达 1023 亿美元，同比增长 16%，公司历史首次突破千亿美元。Google Cloud 收入增长 34% 至 152 亿美元，公司将资本支出提升至 910-930 亿美元。",
+      "importance": "critical",
+      "reasoning": "主流公司重要里程碑：Alphabet 首次单季收入破千亿美元，Cloud 增长 34% 展示 AI 业务强劲，资本支出提升至 910-930 亿美元显示长期投入，对科技行业有重要影响，昨天（10-29）公布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/10/29/alphabet-google-q3-earnings.html",
+      "keywords": ["Alphabet", "Google", "财报", "Cloud"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 计划上市估值目标 1 万亿美元",
+      "content": "OpenAI 计划最早 2026 年下半年提交上市申请，目标 2027 年上市，估值 1 万亿美元。公司预期融资至少 600 亿美元，将成为史上最大 IPO，超越沙特阿美 2019 年的 256 亿美元纪录。",
+      "importance": "critical",
+      "reasoning": "重大 IPO 计划披露：OpenAI 目标 1 万亿美元估值上市，融资 600 亿美元将创史上最大 IPO 纪录，对 AI 行业资本市场有重大影响，昨天（10-29）曝光。",
+      "source": "Reuters",
+      "url": "https://finance.yahoo.com/news/exclusive-openai-lays-groundwork-juggernaut-232125990.html",
+      "keywords": ["OpenAI", "IPO", "估值", "上市"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "GitHub 发布 Agent HQ 统一多家 AI 代理",
+      "content": "GitHub  在 Universe 大会发布 Agent HQ，将 OpenAI、Google、Anthropic、xAI 等公司的 AI 代理整合到统一平台。付费用户可在统一控制中心管理多个代理。首个合作代理 OpenAI Codex 已开放使用。",
+      "importance": "critical",
+      "reasoning": "重要平台发布：GitHub 统一 OpenAI/Google/Anthropic 等主流 AI 代理到一个平台，开创多代理协作新模式，对 AI 开发生态有重要影响，10-28 发布。",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/news-insights/company-news/welcome-home-agents/",
+      "keywords": ["GitHub", "Agent HQ", "OpenAI", "多代理"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Microsoft 披露 OpenAI 季度亏损 115 亿美元",
+      "content": "Microsoft 于近日公布财报披露，OpenAI 季度净亏损 115 亿美元，导致 Microsoft 净利润减少 31 亿美元。",
+      "importance": "high",
+      "reasoning": "重要财务披露：OpenAI 季度亏损 115 亿美元规模惊人，Microsoft 因持股 27% 被影响 31 亿美元，反映 AI 行业高投入现状，昨天（10-29）披露。",
+      "source": "The Register",
+      "url": "https://www.theregister.com/2025/10/29/microsoft_earnings_q1_26_openai_loss/",
+      "keywords": ["OpenAI", "Microsoft", "亏损", "财报"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "Character.AI 将禁止 18 岁以下用户聊天",
+      "content": "Character.AI 宣布 11 月 25 日起禁止 18 岁以下用户开放式聊天，回应青少年自杀案件引发的监管压力。",
+      "importance": "high",
+      "reasoning": "重要政策调整：Character.AI 因青少年自杀案件完全禁止未成年人聊天功能，对 AI 聊天行业监管和安全标准有重要影响，昨天（10-29）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/character-ai-is-killing-the-chatbot-experience-for-minors/",
+      "keywords": ["Character.AI", "未成年人", "监管", "安全"],
+      "category": "行业动态"
+    },
+    {
+      "id":8,
+      "title": "Grammarly 更名 Superhuman 整合三大产品",
+      "content": "Grammarly 宣布收购 Superhuman 邮件客户端后更名为 Superhuman，整合 Grammarly 写作助手、Coda 工作空间和 Superhuman 邮箱三大产品。推出新 AI 助手 Superhuman Go，连接 100 多个应用包括 Google Workspace、Outlook、Jira，提供实时建议和数据拉取。现有用户在 2026 年 2 月前免费使用所有新功能。",
+      "importance": "critical",
+      "reasoning": "主流公司重大品牌重组：Grammarly 收购并更名为 Superhuman 整合三大产品线，推出连接 100+ 应用的 Superhuman Go 创建统一生产力平台，2026 年 2 月前免费吸引用户迁移，对 AI 生产力工具市场有重大影响，昨天（10-29）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/29/grammarly-rebrands-to-superhuman-launches-a-new-ai-assistant/",
+      "keywords": ["Grammarly", "Superhuman", "品牌重组", "AI 助手"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "1X 推出 2 万美元人形机器人 NEO",
+      "content": "OpenAI、NVIDIA、三星投资的 1X Technologies 开启 NEO 机器人预售，售价 2 万美元（约 14.5 万元）或月租 499 美元（约 3600 元）。机器人高 1.68 米重 30 千克，可完成基本家务。首批面向美国用户，2027 年扩展全球。",
+      "importance": "high",
+      "reasoning": "重要消费级机器人发布：1X NEO 2 万美元售价和月租模式降低家用机器人门槛，OpenAI 等投资背景提升技术可信度，1.68 米和 30 千克适合家庭场景，对消费级机器人市场有推动作用，今天（10-30）开启预售。",
+      "source": "36kr",
+      "url": "https://36kr.com/p/3530005109857154",
+      "keywords": ["1X", "NEO", "人形机器人", "家用机器人"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "TikTok 发布 AI 自动剪辑功能",
+      "content": "TikTok 在美国创作者峰会发布 Smart Split 功能，可将长视频自动剪辑成多个短片，支持自动竖屏重构、生成字幕和建议时长。同时发布 AI Outline 内容规划工具，并将创作者订阅分成提升至 90%。",
+      "importance": "high",
+      "reasoning": "重要创作工具发布：TikTok Smart Split 自动剪辑长视频降低创作门槛，竖屏重构和字幕生成提升效率，90% 分成激励创作者，对短视频创作生态有重要影响，昨天（10-29）发布。",
+      "source": "Social Media Today",
+      "url": "https://www.socialmediatoday.com/news/tiktok-adds-ai-creation-tools-creator-subscription-revenue-share-update/804050/",
+      "keywords": ["TikTok", "Smart Split", "AI 剪辑", "创作者工具"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-10-30T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "Hacker News",
+      "AI News",
+      "36氪",
+      "Web Search",
+      "CNBC"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 850.2
+  }
+}

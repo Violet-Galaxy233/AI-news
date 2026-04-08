@@ -1,0 +1,135 @@
+{
+  "date": "2026-02-25",
+  "date_formatted": "26/02/25",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 撤安全红线承诺",
+      "content": "Anthropic 修订《负责任扩展政策》，撤回坚守 3 年的核心承诺——不再强制要求在训练 AI 前预先设立安全门槛。首席科学官 Kaplan 表示，若竞争对手不停训则单边暂停只会削弱自身地位。新政策改为：仅当 Anthropic 领跑全球且面临灾难性风险时才延缓训练，安全投入与同行持平即可。此举引发 AI 安全研究社区强烈担忧。",
+      "importance": "critical",
+      "reasoning": "Anthropic（三大厂之一）撤回创立以来最核心的安全承诺（RSP 中「训练前必须预设安全门槛」条款），将标准从「主动设限」降为「不低于同行」，是影响全行业安全标准预期的重大政策逆转。Time 杂志 2 月 24 日（昨天）独家披露。",
+      "source": "Time",
+      "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+      "keywords": ["Anthropic", "负责任扩展政策", "AI安全", "Kaplan", "安全政策逆转"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "Meta 千亿美元签约 AMD",
+      "content": "Meta 与 AMD 签署多年采购协议，最高总额 1000 亿美元，并附 1.6 亿股 AMD 认购权证。协议旨在降低 Meta 对英伟达的高度依赖，支撑其追求「个人超级智能」愿景的数据中心扩张计划。这是 AMD 迄今收到的最大单一客户承诺，标志科技巨头主动重构 AI 芯片供应链的开端。",
+      "importance": "critical",
+      "reasoning": "Meta 以最高 1000 亿美元承诺向 AMD 采购 AI 芯片，规模史无前例，直接冲击英伟达在 AI 算力硬件的垄断地位，是全球 AI 芯片供应链格局的标志性转折点。TechCrunch 于 2 月 24 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "keywords": ["Meta", "AMD", "1000亿美元", "AI芯片", "英伟达"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 使命悄删「安全」",
+      "content": "OpenAI 完成营利化转制后，悄然修改坚守 9 年的使命宣言——删除「安全（safely）」一词，措辞由「安全造福全人类」变为「造福全人类」，并同步删除「不受盈利约束」表述。Platformer 披露 OpenAI 已同步解散负责 AI 价值观监督的 Mission Alignment 团队。Fortune 指出，随着亚马逊 500 亿、软银 300 亿、英伟达 200 亿美元相继入场，安全与股东回报之间的冲突已被制度化。",
+      "importance": "critical",
+      "reasoning": "OpenAI（三大厂之一）在完成营利转制后明确削减安全承诺，不仅修改核心使命宣言，还解散专责对齐团队，是影响全行业安全标准和监管预期的重大信号事件。Fortune 于 2 月 23 日（昨天）发布深度分析，引发业界广泛关注。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/23/openai-mission-statement-changed-restructuring-forprofit-business/",
+      "keywords": ["OpenAI", "使命宣言", "AI安全", "Mission Alignment", "营利转型"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic 指控中国企业",
+      "content": "Anthropic 公开指控 DeepSeek、MiniMax、Moonshot 通过约 2.4 万个账号向 Claude 发起逾 1600 万次查询，重点复制推理、代码及工具调用能力，已将此行为认定为国家安全威胁并向美国政府汇报。三家企业暂未公开回应。",
+      "importance": "critical",
+      "reasoning": "三家中国 AI 企业通过大规模伪造账号系统性提取 Claude 核心能力，涉及 1600 万次查询及国家安全定性，是中美 AI 竞争中首次被主流厂商公开披露的工业级能力窃取事件。Bloomberg 2 月 23 日首发，CNBC 于 2 月 24 日（昨天）跟进确认。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html",
+      "keywords": ["Anthropic", "DeepSeek", "MiniMax", "Moonshot", "能力提取"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "Google 测试 AI 音频广告",
+      "content": "据 MediaPost 报道，Google 正测试 AI 生成音频广告功能，广告商输入产品简介可自动生成 30 秒音频并投放于 AI 应用、搜索及 YouTube 平台，预计 2026 年下半年正式商业化。此前 Google Lyria 3 已支持消费者免费创作音乐，AI 音频能力现向 B2B 广告市场延伸。",
+      "importance": "high",
+      "reasoning": "Google 将 AI 音频生成从消费端（Lyria 3）扩展至广告变现端，覆盖 YouTube 数亿月活用户的广告生态系统，商业价值可观。昨日（2 月 23 日）MediaPost 报道。",
+      "source": "MediaPost",
+      "url": "https://www.mediapost.com/publications/article/412974/google-ai-generated-audio-could-become-new-ad-fron.html",
+      "keywords": ["Google", "AI广告", "音频生成", "YouTube", "Lyria"],
+      "category": "行业应用"
+    },
+    {
+      "id": 5,
+      "title": "五角大楼向 Anthropic 施压",
+      "content": "美国国防部长 Hegseth 向 Anthropic CEO Dario Amodei 施压，要求本周五前放开 Claude 军事使用限制，否则中止价值 2 亿美元的合同。Anthropic 拒绝修改立场，已成 OpenAI、Google、xAI 全面开放军事权限后唯一坚守红线的主流 AI 厂商。",
+      "importance": "high",
+      "reasoning": "五角大楼对 Anthropic 设定明确截止日期（本周五），以 2 亿美元合同为筹码，是 AI 军事化博弈中的重大政策摊牌事件。本轮具体截止日期升级为 TechCrunch 于 2 月 24 日（昨天）新确认的信息，较 2 月 22 日初报有显著进展。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/anthropic-wont-budge-as-pentagon-escalates-ai-dispute/",
+      "keywords": ["Anthropic", "五角大楼", "Hegseth", "2亿美元合同", "AI军事化"],
+      "category": "政策监管"
+    },
+    {
+      "id": 6,
+      "title": "MatX 完成 5 亿美元融资",
+      "content": "英伟达挑战者芯片公司 MatX 完成 5 亿美元 B 轮融资，由 Jane Street 和前 OpenAI 研究员 Leopold Aschenbrenner 创立的基金共同领投。MatX 由两位前谷歌 TPU 芯片工程师于 2023 年创立，目标推出性能超越英伟达旗舰 AI 加速卡的专用芯片。",
+      "importance": "high",
+      "reasoning": "前谷歌 TPU 核心工程师创立的英伟达替代方案公司完成 5 亿美元 B 轮融资，投资方含策略立场鲜明的 Leopold Aschenbrenner（前 OpenAI 安全研究员），AI 芯片竞争格局持续深化。TechCrunch 于 2 月 24 日（昨天）报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+      "keywords": ["MatX", "5亿美元", "英伟达", "AI芯片", "Jane Street"],
+      "category": "投融资"
+    },
+    {
+      "id": 9,
+      "title": "美多州推进 AI 立法",
+      "content": "美国各州 AI 立法提案数量持续攀升，涵盖 AI 输出内容透明度标注、就业影响评估及高风险系统审批要求，加州、德克萨斯、纽约三州提案最为密集，多项法案将于 3 月进入审查表决阶段。",
+      "importance": "medium",
+      "reasoning": "美国各州级 AI 立法浪潮是 2026 年监管格局的重要补充（联邦缺位背景下的分散立法），2 月 23 日（昨天）Troutman Amin 发布最新提案追踪，信息时效明确。",
+      "source": "Troutman Amin",
+      "url": "https://www.troutmanprivacy.com/2026/02/proposed-state-ai-law-update-february-23-2026/",
+      "keywords": ["AI立法", "美国各州", "监管", "加州", "AI透明度"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "SK Hynix 扩产 AI 内存",
+      "content": "SK Hynix 宣布将大幅扩大高带宽内存（HBM）芯片产能，以满足数据中心快速增长的 AI 算力需求。内存带宽与功耗效率已成为 AI 系统的新性能瓶颈，SK Hynix 目标年内加快交付第四代 HBM4 规格产品。",
+      "importance": "medium",
+      "reasoning": "AI 内存供应链扩产是支撑整个 AI 算力生态的基础，SK Hynix 是全球 HBM 最大供应商，此消息于 2 月 23 日（昨天）发布。",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/02/23/top-tech-news-today-february-23-2026/",
+      "keywords": ["SK Hynix", "HBM内存", "AI芯片", "数据中心", "供应链"],
+      "category": "硬件基础设施"
+    },
+    {
+      "id": 7,
+      "title": "企业 AI 渗透率仍偏低",
+      "content": "OpenAI 首席运营官 Brad Lightcap 坦言，AI 真正融入企业核心业务流程的案例目前仍然罕见，当前部署主要停留在辅助提效工具层面，距离替代 SaaS 核心软件仍有较大距离。",
+      "importance": "medium",
+      "reasoning": "OpenAI（三大厂之一）COO 公开承认企业 AI 渗透程度远低于市场预期，是对当前 AI 商业化进展的罕见坦诚评估，有行业参考价值。TechCrunch 于 2 月 24 日（昨天）发布专访。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/",
+      "keywords": ["OpenAI", "Brad Lightcap", "企业AI", "商业化", "SaaS"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "开源语音识别超越 Whisper",
+      "content": "Moonshine AI 发布开源语音转文字模型，中型版（2.45 亿参数）词错率 6.65%，超越 OpenAI Whisper Large v3 的 7.44%，仅用后者六分之一的参数量。支持流式实时转写，可在 Raspberry Pi 等边缘设备本地运行，代码全开源。",
+      "importance": "medium",
+      "reasoning": "开源模型以 1/6 参数量超越 OpenAI 旗舰语音识别模型，同时支持边缘设备本地部署，是语音 AI 领域「效率超越规模」的典型案例。GitHub 今日（2 月 25 日）发布，Hacker News 以 229 分迅速登上前列。",
+      "source": "GitHub (Moonshine AI)",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "keywords": ["Moonshine", "语音识别", "Whisper", "开源", "边缘计算"],
+      "category": "技术研究"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-25T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["Time", "TechCrunch", "Samsung Newsroom", "Android Central", "CNBC", "Bloomberg", "Fortune", "AI News", "Hacker News", "GitHub", "WebSearch"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 540
+  }
+}

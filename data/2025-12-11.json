@@ -1,0 +1,111 @@
+{
+  "date": "2025-12-11",
+  "date_formatted": "25/12/11",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Adobe 三大工具集成 ChatGPT",
+      "content": "Adobe宣布将 Photoshop、Express 和 Acrobat 集成到 ChatGPT，向全球 8 亿用户免费开放。用户可在 ChatGPT 中直接编辑图片、制作设计和处理 PDF，支持桌面、网页、iOS 和 Android 平台。Android 端 Photoshop 和 Acrobat 功能即将上线。",
+      "importance": "critical",
+      "reasoning": "重大产品整合：Adobe 将旗舰产品集成到 ChatGPT 8 亿用户平台，免费开放专业工具，改变创意工作流，昨天（12 月 10 日）宣布",
+      "source": "Adobe News",
+      "url": "https://news.adobe.com/news/2025/12/adobe-photoshop-express-acrobat-chatgpt",
+      "keywords": ["Adobe", "ChatGPT", "Photoshop", "8 亿用户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "阿里发布 Qwen3-Omni-Flash 全模态模型",
+      "content": "阿里发布 Qwen3-Omni-Flash 全模态 AI 模型，支持文本、图片、音频、视频输入，实时流式输出响应。模型覆盖 119 种文本语言、19 种语音识别和 10 种语音合成语言。API 定价输入 1 元/百万次、输出 3 元/百万次，逻辑推理提升 5.6 分、代码生成提升 9.3 分。",
+      "importance": "critical",
+      "reasoning": "重大模型发布：阿里全模态模型支持 119 种语言，逻辑推理提升 5.6 分，代码生成提升 9.3 分，对多模态 AI 有重要推动，12 月 9 日发布",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/904/055.htm",
+      "keywords": ["阿里巴巴", "Qwen3-Omni-Flash", "多模态", "119 种语言"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "腾讯发布混元 2.0 推理增强模型",
+      "content": "腾讯发布混元 2.0，包含推理增强版（Think）和指令遵循版（Instruct）。模型总参数 406B、激活 32B，支持 256K 上下文长度，采用混合专家架构在单张 A100 卡上推理提速 40%，数学竞赛 IMO 2025 公开题准确率达 83.1%。",
+      "importance": "critical",
+      "reasoning": "重大模型发布：腾讯混元 2.0 总参数 406B，推理提速 40%，数学竞赛准确率 83.1%，对国产 AI 模型发展有重要推动，12 月 10 日发布",
+      "source": "WebSearch",
+      "url": "https://news.qq.com/rain/a/20251208A07E8P00",
+      "keywords": ["腾讯", "混元 2.0", "406B 参数", "推理模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Harness 融资 2.4 亿美元估值 55 亿",
+      "content": "软件交付平台 Harness 今天完成 2.4 亿美元 E 轮融资，估值 55 亿美元，其中高盛投资 2 亿美元。公司年度经常性收入超 2.5 亿美元，年增长超 50%，服务超 1000 家企业客户。",
+      "importance": "high",
+      "reasoning": "重要融资事件：2.4 亿美元 E 轮，估值 55 亿美元，年收入 2.5 亿美元增长 50%，服务 1000+ 企业，对 AI 开发工具市场有重要影响，今天（12 月 11 日）宣布",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/12/11/harness-raises-240m-at-5-5b-valuation/",
+      "keywords": ["Harness", "融资", "2.4 亿美元", "55 亿估值"],
+      "category": "投融资"
+    },
+    {
+      "id": 5,
+      "title": "Figma 推出 AI 图像编辑工具",
+      "content": "Figma 推出 AI 图像编辑功能，支持对象移除、隔离和图像扩展。用户可用套索工具选择对象进行移除或移动，图像扩展功能可自动填充背景。已在 Figma Design 和 Draw 上线，明年扩展至其他产品。",
+      "importance": "high",
+      "reasoning": "重要产品更新：Figma 推出 AI 图像编辑功能，支持对象移除和图像扩展，影响设计师工作流，昨天（12 月 10 日）发布",
+      "source": "Figma / TechCrunch",
+      "url": "https://techcrunch.com/2025/12/10/figma-launches-new-ai-powered-object-removal-and-image-extension/",
+      "keywords": ["Figma", "AI 图像编辑", "对象移除", "设计工具"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Meta 新模型被曝基于阿里 Qwen 开发",
+      "content": "多家媒体报道，Meta 正开发代号 Avocado 的付费 AI 模型，基于阿里 Qwen 系列进行优化训练，预计明年春季推出。Meta 放弃完全开源策略，转向商业闭源模式。消息传出后阿里美股盘前涨 4%。",
+      "importance": "high",
+      "reasoning": "重要战略转变：Meta 基于阿里 Qwen 开发付费模型，放弃完全开源，阿里美股涨 4%，对开源 AI 生态和中国模型国际影响力有重要意义，12 月报道",
+      "source": "CSDN",
+      "url": "https://blog.csdn.net/code1994/article/details/155821238",
+      "keywords": ["Meta", "Qwen", "Avocado", "阿里巴巴"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "智谱 AI 开源 GLM-4.6V 视觉模型",
+      "content": "智谱 AI 开源 GLM-4.6V 系列，包含 106B-A12B 基础版和 9B 轻量版，支持 128K 上下文长度。API 价格下调 50%，降低企业使用成本。",
+      "importance": "high",
+      "reasoning": "重要开源发布：智谱 GLM-4.6V 开源 106B 参数模型，API 降价 50%，支持 128K 上下文，对开源视觉模型有重要推动，12 月 10 日发布",
+      "source": "WebSearch",
+      "url": "https://news.qq.com/rain/a/20251208A07E8P00",
+      "keywords": ["智谱 AI", "GLM-4.6V", "开源", "106B 参数"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "前字节视觉 AI 负责人加入美团",
+      "content": "前字节跳动视觉模型 AI 平台负责人潘欣 12 月 10 日加入美团，负责多模态 AI 创新，向技术委员会汇报。美团今年密集发布多个基础模型和应用。",
+      "importance": "medium",
+      "reasoning": "重要人事变动：字节视觉 AI 负责人加入美团，负责多模态创新，美团今年密集发布多个模型，对 AI 人才流动有参考价值，12 月 10 日报道",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3589320428879873",
+      "keywords": ["美团", "潘欣", "字节跳动", "多模态 AI"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-11T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "IT之家"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 1800
+  }
+}

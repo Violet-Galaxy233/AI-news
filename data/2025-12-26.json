@@ -1,0 +1,133 @@
+{
+  "date": "2025-12-26",
+  "date_formatted": "25/12/26",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "迪士尼投资 OpenAI 10 亿美元授权 Sora",
+      "content": "迪士尼投资 OpenAI 10 亿美元，授权超 200 个迪士尼、漫威、皮克斯、星战角色给 Sora 视频生成平台。双方达成 3 年授权协议，用户可生成粉丝短视频并在 Disney+ 观看。迪士尼成为首个与生成式 AI 公司达成大规模授权的娱乐巨头。",
+      "importance": "critical",
+      "reasoning": "迪士尼 10 亿美元投资 + 200+ 角色授权，娱乐产业与 AI 融合的里程碑事件，影响整个内容创作行业。12 月 11 日发布。",
+      "source": "OpenAI / The Information",
+      "url": "https://openai.com/index/disney-sora-agreement/",
+      "keywords": ["迪士尼", "OpenAI", "Sora", "10 亿美元"],
+      "category": "投融资"
+    },
+    {
+      "id": 2,
+      "title": "Nvidia 授权 Groq 技术并聘用 CEO 团队",
+      "content": "Nvidia 与 AI 芯片公司 Groq 达成技术授权协议，Groq 创始人 Jonathan Ross 及团队加入 Nvidia。交易价值约 200 亿美元，为 Nvidia 史上最大规模交易，重点布局 AI 推理市场。Groq 继续独立运营，新任 CEO Simon Edwards 接管。",
+      "importance": "critical",
+      "reasoning": "Nvidia 200 亿美元史上最大交易，获取 Groq 推理技术和核心团队，AI 芯片市场格局重大变化。12 月 24 日宣布。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/",
+      "keywords": ["Nvidia", "Groq", "200 亿美元", "AI 芯片"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "豆包日活破亿成字节推广费最低产品",
+      "content": "字节跳动豆包日活用户突破 1 亿，成为字节史上推广费用最少的破亿产品。豆包大模型日均处理量突破 50 万亿次，排名中国第一、全球第三，仅次于 OpenAI 和 Google Cloud。",
+      "importance": "critical",
+      "reasoning": "豆包 DAU 破亿且推广成本最低，日均 50 万亿次处理量全球第三，展示中国 AI 应用商业化成功路径。12 月 24-25 日报道。",
+      "source": "36氪 / 新浪财经",
+      "url": "https://36kr.com/p/3609313072153862",
+      "keywords": ["豆包", "字节跳动", "1 亿 DAU", "50 万亿次"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "LangChain 曝严重漏洞可泄露密钥",
+      "content": "AI 开发框架 LangChain 曝出严重漏洞 CVE-2025-68664），攻击者可窃取环境变量密钥。已发布补丁修复，使用该框架的开发者需立即更新。",
+      "importance": "critical",
+      "reasoning": "LangChain 广泛使用的 AI 开发框架曝出 9.3 分严重漏洞，影响大量 AI 应用安全，需紧急修复。12 月 23 日公开披露。",
+      "source": "Cyata / GitHub Advisory",
+      "url": "https://cyata.ai/blog/langgrinch-langchain-core-cve-2025-68664/",
+      "keywords": ["LangChain", "CVE-2025-68664", "安全漏洞", "9.3 分"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "灵光用户一个月创建 1200 万应用",
+      "content": "蚂蚁集团 AI 助手灵光宣布用户创建 1200 万个闪应用，用户输入一句话即可在 30 秒内生成可编辑应用。灵光 11 月 18 日上线，4 天下载量破百万，一个月创建量达 1200 万，显示 AI 应用生态快速爆发。",
+      "importance": "critical",
+      "reasoning": "灵光一个月 1200 万应用创建量，4 天破百万下载，展示 AI 应用生成平台的巨大潜力和用户需求。12 月 26 日发布。",
+      "source": "36氪 / 量子位",
+      "url": "https://36kr.com/newsflashes/3611804811166980",
+      "keywords": ["灵光", "蚂蚁集团", "1200 万应用", "AI 生成"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "MiniMax 开源 M2.1 编程模型",
+      "content": "MiniMax 发布开源编程模型 M2.1，规模 230B 参数（激活 10B）。测试得分 72.5% 和 88.6%，超越 Gemini3Pro 和 Claude4.5，支持 Rust、Java、Go、C++ 等多种编程语言。",
+      "importance": "high",
+      "reasoning": "MiniMax 开源大规模编程模型，性能超越主流闭源模型，推动开源 AI 编程工具发展。12 月 23 日发布。",
+      "source": "MiniMax / AIBase News",
+      "url": "https://www.minimaxi.com/news/minimax-m21",
+      "keywords": ["MiniMax", "M2.1", "开源", "编程模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "OpenAI 计划 2026 年 ChatGPT 加广告",
+      "content": "OpenAI 计划 2026 年在 ChatGPT 中加入广告。员工正测试展示方式，用户提问时可能看到赞助内容。ChatGPT 周活用户近 9 亿，付费用户占比仅 5%。",
+      "importance": "high",
+      "reasoning": "OpenAI 商业化重大转变，ChatGPT 9 亿周活用户将接触广告，改变免费 AI 产品盈利模式。12 月 25 日报道。",
+      "source": "The Information / 36氪",
+      "url": "https://36kr.com/p/3610402296497153",
+      "keywords": ["ChatGPT", "OpenAI", "广告", "2026"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "意大利要求 Meta 解除 WhatsApp AI 限制",
+      "content": "意大利反垄断机构要求 Meta 停止限制竞品 AI 接入 WhatsApp，认为 Meta 滥用市场主导地位排除第三方服务商，损害消费者利益。欧盟委员会上月也对同一指控展开调查。",
+      "importance": "high",
+      "reasoning": "意大利反垄断重要案例，限制科技巨头 AI 垄断行为，欧盟同步调查，对 AI 市场竞争有重要影响。12 月 24 日发布。",
+      "source": "TechCrunch / 新浪财经",
+      "url": "https://techcrunch.com/2025/12/24/italy-tells-meta-to-suspend-its-policy-that-bans-rival-ai-chatbots-from-whatsapp/",
+      "keywords": ["意大利", "Meta", "WhatsApp", "反垄断"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "光帆科技发布带摄像头 AI 耳机",
+      "content": "光帆科技发布带摄像头 AI 耳机 Lightwear，内置 200 万像素双摄像头，每只耳机重 11 克，续航 9 小时，支持 4G 独立联网。计划 2026 年第一季度上市。",
+      "importance": "high",
+      "reasoning": "AI 硬件创新，耳机集成视觉感知能力，轻量化设计（11 克）+ 独立联网，探索 AI 可穿戴新形态。12 月 23 日发布。",
+      "source": "新浪财经 / 深圳湾",
+      "url": "https://finance.sina.com.cn/roll/2025-12-25/doc-inhcznyf3403499.shtml",
+      "keywords": ["光帆科技", "AI 耳机", "摄像头", "可穿戴"],
+      "category": "产品发布"
+    },
+    {
+      "id": 10,
+      "title": "Anthropic 发布 50+ Claude 可定制技能",
+      "content": "Anthropic 发布 50+ 个 Claude 可定制技能，用户可按需加载模块化组件，支持项目共享和跨平台使用。技能仅面向 Claude Pro、Team 和企业用户开放。",
+      "importance": "high",
+      "reasoning": "Claude 推出可定制技能系统，支持跨平台使用，增强 AI 助手可定制性和实用性。12 月 24 日发布。",
+      "source": "AI Breakfast / InfoQ",
+      "url": "https://aibreakfast.beehiiv.com/p/50-customizable-claude-skills-just-dropped",
+      "keywords": ["Claude", "Anthropic", "技能", "可定制"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-26T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch",
+      "新浪财经"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 1920
+  }
+}

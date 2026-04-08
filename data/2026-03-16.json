@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-16",
+  "date_formatted": "26/03/16",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "英伟达GTC推出智能体平台",
+      "content": "英伟达 GTC 2026 主题演讲，黄仁勋正式推出开源企业 AI 智能体平台 NemoClaw（可在任意芯片上运行），并首次公开展示下下代推理芯片 Feynman（1.6nm 工艺，2028 年量产）和人形机器人模型 Isaac GR00T N1.6。Vera Rubin 平台同步进入商业化阶段，Rubin GPU 推理成本较上代降低 10 倍，AWS、Google Cloud 等合作云厂商产品下半年上市。",
+      "importance": "critical",
+      "reasoning": "今日发布。英伟达 GTC 2026 主题演讲正式落幕，NemoClaw 开源智能体平台、Feynman 芯片首次亮相、Vera Rubin 商业化路线图明确；是本年度 AI 硬件与平台最重大的发布事件，符合「巨头硬件发布」的 critical 标准，NVIDIA 官方同步公布。",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+      "keywords": ["英伟达", "GTC2026", "NemoClaw", "Feynman", "Vera Rubin"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "ChatGPT接入外卖音乐叫车",
+      "content": "OpenAI 为 ChatGPT 上线多项应用集成：用户可在对话中直接操控 DoorDash 下外卖、Spotify 创建播放列表、Uber 叫车；同步开放 Google Docs/Sheets 和 Microsoft Outlook/Teams 写入权限，支持在 ChatGPT 内起草邮件、创建文件及安排会议，首批面向美国和加拿大用户开放。",
+      "importance": "critical",
+      "reasoning": "3 月 14 日发布。OpenAI 核心产品向消费级和企业级第三方应用双向打通，标志 ChatGPT 从对话工具升级为可执行操作的 AI 智能体，是 OpenAI 在应用生态层的关键布局，符合「三大厂主流产品」的 critical 标准，TechCrunch 重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+      "keywords": ["ChatGPT", "OpenAI", "应用集成", "DoorDash", "Uber"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "特斯拉Terafab芯片厂启动",
+      "content": "特斯拉 CEO 埃隆·马斯克宣布，价值 250 亿美元的 Terafab AI 芯片工厂项目将正式启动。工厂采用 2 纳米制程工艺，初始月产能目标 10 万片晶圆，远期目标扩至 100 万片（约为台积电当前产能的 70%），首批用于生产特斯拉第五代 AI 芯片 AI5，是美国有史以来规模最大的本土芯片制造项目。",
+      "importance": "critical",
+      "reasoning": "3 月 14 日宣布，3 月 21 日启动。250 亿美元 2nm 芯片工厂是美国史上规模最大的本土芯片项目，直接挑战台积电在先进制程的主导地位，并打破 AI 芯片供应链单一依赖台湾的格局，符合「巨头硬件发布」的 critical 标准，Tom's Hardware 报道。",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-his-terafab-project-chipmaking-venture-will-launch-in-seven-days-musks-latest-moonshot-multi-billion-project-launches-on-a-saturday",
+      "keywords": ["特斯拉", "Terafab", "AI芯片", "250亿", "2纳米"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "美军签200亿AI国防合同",
+      "content": "美国陆军与 AI 国防创企 Anduril 签署价值最高 200 亿美元的 10 年企业级合同，整合此前分散的 120 项单独采购为统一框架，集中部署 AI 战场协同平台 Lattice。Anduril 年营收约 20 亿美元，目前估值传闻达 600 亿美元。",
+      "importance": "high",
+      "reasoning": "3 月 14 日发布。200 亿美元是迄今最大的单笔 AI 国防采购合同，整合 120 项碎片化采购标志美军 AI 现代化进入规模化阶段，Bloomberg 和 TechCrunch 均重点报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+      "keywords": ["Anduril", "美国陆军", "AI国防", "200亿", "Lattice"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "Meta考虑裁员两万抵AI费",
+      "content": "Meta 被曝正考虑裁员约 20%（约 16,000 人），以抵消 AI 基础设施的高昂成本；消息由路透社援引知情人士披露，Meta 方面称系「推测性报道」。若属实，将是 Meta 2022 年以来规模最大的裁员，当时的「效率年」共裁员 21,000 人。",
+      "importance": "high",
+      "reasoning": "3 月 14 日报道。路透社援引知情人士，CNBC 跟进确认；约 16,000 人的潜在裁员规模是 AI 成本压力对大厂用人结构冲击的最新案例，话题性极高。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html",
+      "keywords": ["Meta", "裁员", "AI成本", "16000人", "效率优化"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "字节视频AI停止海外发布",
+      "content": "字节跳动 AI 视频生成产品 Seedance 2.0 在中国首发后迅速遭好莱坞强烈反弹：迪士尼、华纳、派拉蒙、Netflix、索尼五大制片公司相继发出版权警告信，美国电影协会发表谴责声明。字节跳动随即宣布暂停全球发布，承诺加装版权保护机制后再推进。",
+      "importance": "high",
+      "reasoning": "3 月 15-16 日发布。五大制片公司同时发出版权警告、字节跳动被迫叫停全球发布，是继 Sora 版权风波后最重大的 AI 视频版权事件，TechCrunch 和 The Information 报道。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/",
+      "keywords": ["ByteDance", "Seedance", "好莱坞", "版权", "视频生成AI"],
+      "category": "法律争议"
+    },
+    {
+      "id": 7,
+      "title": "马斯克诉OpenAI4月开庭",
+      "content": "马斯克起诉 OpenAI 案将于 2026 年 4 月正式开庭，索赔金额 134 亿美元，指控 OpenAI 背离非营利使命将技术商业化牟利。这是 AI 行业迄今规模最大的民事索赔案。",
+      "importance": "medium",
+      "reasoning": "3 月 16 日确认。庭审日期落定标志这一 AI 行业最受关注的法律案件进入实质阶段，134 亿美元索赔创 AI 行业民事赔偿纪录，AIBase 报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26232",
+      "keywords": ["马斯克", "OpenAI", "诉讼", "134亿", "开庭"],
+      "category": "法律争议"
+    },
+    {
+      "id": 8,
+      "title": "云巨头20年来首次涨价",
+      "content": "腾讯云与亚马逊 AWS 相继宣布上调云服务价格，是两家平台约 20 年来首次涨价，业界认为 AI 基础设施建设成本激增是主要推手。",
+      "importance": "medium",
+      "reasoning": "3 月 16 日发布。两大云平台同步涨价，直接将 AI 算力成本压力传导至企业用户，是 AI 基础设施经济学转折的信号性事件，AIBase 报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26237",
+      "keywords": ["腾讯云", "AWS", "云价格", "AI成本", "基础设施"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "智谱GLM-5-Turbo发布",
+      "content": "智谱 AI 发布 GLM-5-Turbo，专为复杂 AI 智能体任务场景优化，在国内主流模型评测中排名第一，是智谱首款以智能体任务为核心定位的旗舰模型。",
+      "importance": "high",
+      "reasoning": "3 月 16 日发布。国内头部 AI 厂商聚焦智能体场景的旗舰更新，评测排名国内第一，是国产 AI 智能体赛道竞争加剧的代表，AIBase 报道。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/26235",
+      "keywords": ["智谱AI", "GLM-5-Turbo", "AI智能体", "国产AI", "模型发布"],
+      "category": "模型发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-03-16T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "NVIDIA Newsroom", "CNBC", "Bloomberg", "Tom's Hardware", "AIBase", "Hacker News", "AI News", "36kr", "The Information", "WebSearch", "官方活动通知"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 490
+  }
+}

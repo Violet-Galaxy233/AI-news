@@ -1,0 +1,102 @@
+{
+  "date": "2026-02-23",
+  "date_formatted": "26/02/23",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Siri 接入 Gemini 测试",
+      "content": "Apple 本周向开发者推送搭载 Google Gemini 的 iOS 26.4 测试版，Siri 将首次获得跨应用感知与邮件日历联动能力，正式版预计 3-4 月推送。此次为 Apple 与 Google 多年合作协议首次落地。",
+      "importance": "critical",
+      "reasoning": "Apple（重大 AI 硬件/软件）携 Google Gemini 进入大众端测试，是两家科技巨头 AI 合作的里程碑节点，影响全球逾 10 亿 iPhone 用户。本周（2 月 23 日）正式开始分发开发者测试版。",
+      "source": "Prism News",
+      "url": "https://www.prismnews.com/news/ios-264-developer-beta-arrives-week-of-feb-23-brings-siri-upgrades",
+      "keywords": ["Apple", "Siri", "Google Gemini", "iOS 26.4", "AI助手"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Claude Code 扫描代码漏洞",
+      "content": "Anthropic 推出 Claude Code Security，AI 可自主扫描代码库漏洞并提出修复方案，已在开源项目中识别出逾 500 个长期未被发现的安全漏洞。消息公布后，多家网络安全上市公司股价当日应声下跌。",
+      "importance": "critical",
+      "reasoning": "Anthropic（三大厂之一）推出颠覆传统安全扫描市场的新产品，导致同类网络安全公司股价下跌，属范式转变级别。已发现 500 个实际漏洞，有量化证据支撑。2 月 20 日（3 天前）发布。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/20/exclusive-anthropic-rolls-out-ai-tool-that-can-hunt-software-bugs-on-its-own-including-the-most-dangerous-ones-humans-miss/",
+      "keywords": ["Anthropic", "Claude Code Security", "代码安全", "漏洞扫描", "企业安全"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Google 封禁开发者账号",
+      "content": "Google 未经警告封禁数千名通过 OpenClaw 接入 Gemini 的月费 250 美元订阅用户，OpenClaw 随即宣布停止支持 Google 接入，仅 OpenAI 明确允许第三方工具。Anthropic 此前已有同类封禁行动。",
+      "importance": "high",
+      "reasoning": "Google（三大厂之一）与开发者社区产生正面冲突，波及数千付费高端用户，OpenClaw 宣布放弃 Google 支持，涉及 AI 生态控制权争议。2 月 22-23 日（今日）持续发酵。",
+      "source": "PiunikaWeb",
+      "url": "https://piunikaweb.com/2026/02/23/google-antigravity-openclaw-ban/",
+      "keywords": ["Google", "OpenClaw", "Gemini", "封禁", "开发者生态"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "AI 资本押注中期选举",
+      "content": "Meta 投入 6500 万美元、a16z 支持的超级 PAC 追加 1 亿美元，逾 1.65 亿美元 AI 资金涌入 2026 年美国中期选举，目标是推动联邦统一 AI 监管立法，阻止各州分别制定冲突法规。",
+      "importance": "high",
+      "reasoning": "AI 行业史上最大规模政治资金投入，Meta 与 a16z 联手布局立法格局，若推动成功将影响全美 AI 监管走向。2 月 19-23 日持续报道，今日（2 月 23 日）有新聚合文章发布。",
+      "source": "Startup News",
+      "url": "https://startupnews.fyi/2026/02/23/how-ai-money-is-flooding-into-the-midterm-elections/",
+      "keywords": ["Meta", "a16z", "AI监管", "中期选举", "超级PAC"],
+      "category": "政策监管"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI 印度三大合作",
+      "content": "OpenAI 在印度 AI 峰会宣布与 TCS、流媒体平台 JioHotstar 及旅行平台 MakeMyTrip 达成合作，在娱乐与旅行场景部署对话 AI，并计划在孟买与班加罗尔新设 2 处办公室。",
+      "importance": "high",
+      "reasoning": "OpenAI（三大厂之一）首次在印度消费端大规模落地合作，JioHotstar 覆盖数亿流媒体用户，属赛道级商业展开。2 月 22 日（昨天）在峰会期间宣布。",
+      "source": "Medianama",
+      "url": "https://www.medianama.com/2026/02/223-openai-partnerships-tcs-jiohotstar-makemytrip/",
+      "keywords": ["OpenAI", "TCS", "JioHotstar", "MakeMyTrip", "印度AI"],
+      "category": "企业动态"
+    },
+    {
+      "id": 7,
+      "title": "印地语教育 AI 升级",
+      "content": "Tech Mahindra 与 NVIDIA 推出 80 亿参数印地语教育 AI，较前版 12 亿参数升级近 7 倍，目标覆盖 5 亿印地语学生，可自主辅导，基于 NVIDIA NeMo 框架训练。",
+      "importance": "medium",
+      "reasoning": "印度区域性教育 AI 发布，覆盖 5 亿人口但属于区域事件，常规产品迭代，最高定为 medium。2 月 20 日（3 天前）在峰会宣布。",
+      "source": "Startup News",
+      "url": "https://startupnews.fyi/2026/02/22/india-ai-impact-summit-2026-tech-mahindra-launches-education-focused-hindi-ai-model/",
+      "keywords": ["Tech Mahindra", "NVIDIA", "印地语AI", "教育", "Project Indus"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "美官员警示 Grok 风险",
+      "content": "美国情报官员警告医疗机构禁向 Grok 上传患者数据，已记录多起诊断错误（具体案例数量未披露），指出系统存在数据外泄风险，建议改用合规医疗 AI 平台。",
+      "importance": "medium",
+      "reasoning": "政府安全警告针对广泛使用的 xAI 产品，属于政策提醒性事件，高话题性但影响范围局限于医疗领域。2 月 23 日（今日）发布。",
+      "source": "opentools.ai",
+      "url": "https://opentools.ai/news/senior-intel-officer-sounds-alarm-on-elon-musks-grok-ai-for-medical-use",
+      "keywords": ["Grok", "xAI", "医疗安全", "数据隐患", "情报官员"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "中国 BCI 竞速全球",
+      "content": "中国超 50 项脑机接口临床试验同步进行，市场规模预计从 2025 年 5.3 亿美元增至 2040 年 1200 亿元，国内创企正面挑战 Neuralink 全球地位。",
+      "importance": "medium",
+      "reasoning": "中国在脑机接口领域系统性布局，临床试验数量已超越美国，属区域性行业报告，有参考价值但非突发事件。2 月 23 日（今日）报道。",
+      "source": "opentools.ai",
+      "url": "https://opentools.ai/news/chinas-brain-computer-interface-leap-racing-towards-a-smarter-future",
+      "keywords": ["脑机接口", "中国", "Neuralink", "临床试验", "BCI"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-23T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AI News", "Hacker News", "36kr", "llm-stats.com", "opentools.ai", "Prism News", "CNBC", "PiunikaWeb", "Medianama", "Startup News", "Google Blog", "WebSearch"],
+    "duplicates_removed": 16,
+    "generation_time_seconds": 620
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "date": "2025-11-14",
+  "date_formatted": "25/11/14",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "CSAIA 与字节跳动联合举办 TRAE 黑客松，11 月 15 日开赛，奖金池超万元",
+      "content": "中新人工智能协会 CSAIA 将联合字节跳动 于 11 月 15 日在新加坡管理大学举办 TRAE Friends Hackathon。活动包括 TRAE 团队产品与技术分享、全天 Vibe 编程挑战赛，参赛者将使用 TRAE 工具设计、构建并展示 AI 驱动项目，现场配备工程师指导，所有参赛者获 TRAE 独家周边。活动面向新加坡顶尖高校开发者、学生和 AI 爱好者。",
+      "importance": "critical",
+      "reasoning": "AI 开发工具行业活动：TRAE 在新加坡举办黑客松，展示 AI 驱动开发理念，面向高校开发者，奖金池丰厚，对 AI 开发工具社区建设和推广有重要意义，11 月 15 日举办（后天）。",
+      "source": "TRAE",
+      "url": "https://trae.ai",
+      "keywords": ["TRAE", "黑客松", "新加坡", "AI 开发工具"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "Cursor 完成 23 亿美元融资估值涨 3 倍",
+      "content": "Cursor 完成 23 亿美元 D 轮融资,估值达 293 亿美元,较 5 个月前增长 3 倍。谷歌、英伟达参与投资。公司年化收入突破 10 亿美元,成为 AI 编程工具领域增长最快的独角兽之一。",
+      "importance": "critical",
+      "reasoning": "重大融资事件:23 亿美元 D 轮和 293 亿估值,5 个月内估值涨 3 倍展示爆发式增长,年化收入破 10 亿美元,谷歌、英伟达等科技巨头参投,对 AI 编程工具市场有重要影响,昨天(11 月 13 日)宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/13/cursor-ai-startup-funding-round-valuation",
+      "keywords": ["Cursor", "融资", "AI 编程", "谷歌", "英伟达"],
+      "category": "投融资"
+    },
+    {
+      "id": 3,
+      "title": "Google NotebookLM 新增深度研究功能",
+      "content": "Google NotebookLM 新增深度研究功能,可自动浏览网站生成研究报告。支持快速和深度两种模式,新增 Google Sheets、Word 和 Google Drive 文件支持。功能将在一周内向所有用户推送。",
+      "importance": "critical",
+      "reasoning": "谷歌主流产品重大更新:NotebookLM 新增深度研究功能可自动生成报告,支持多种文件格式,一周内推送所有用户,对知识工作者和研究人员有重要价值,昨天(11 月 13 日)宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/13/googles-notebooklm-adds-deep-research-tool-support-for-more-file-types/",
+      "keywords": ["Google", "NotebookLM", "深度研究", "AI 助手"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Google SIMA 2 性能提升 1 倍可自我学习",
+      "content": "Google DeepMind 发布 SIMA 2,由 Gemini 2.5 驱动的 3D 虚拟世界代理,性能较前代提升 1 倍。可在 8 款游戏中导航解决问题,支持表情符号指令,能通过试错自我学习。",
+      "importance": "critical",
+      "reasoning": "重要技术突破:谷歌 DeepMind 发布 Gemini 驱动的 3D 虚拟世界代理,性能翻倍,可在 8 款游戏自主导航和自我学习,对通用 AI 和具身智能发展有重要意义,昨天(11 月 13 日)发布。",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+      "keywords": ["Google", "DeepMind", "SIMA 2", "Gemini", "虚拟世界"],
+      "category": "技术突破"
+    },
+    {
+      "id": 5,
+      "title": "马斯克起诉苹果 OpenAI 案获法院支持",
+      "content": "德克萨斯州法官拒绝驳回马斯克 xAI 对苹果和 OpenAI 的垄断诉讼。马斯克指控两家公司合谋垄断 AI 市场,要求数十亿美元赔偿。法官认为需澄清 ChatGPT 在 Siri 的独家集成是否排挤竞争对手。",
+      "importance": "critical",
+      "reasoning": "重大法律事件:德州法官拒绝驳回马斯克对苹果和 OpenAI 的垄断诉讼,涉及数十亿美元赔偿,关乎 AI 市场竞争格局和反垄断监管,对行业竞争有重要影响,昨天(11 月 13-14 日)裁决。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/897/339.htm",
+      "keywords": ["马斯克", "苹果", "OpenAI", "反垄断"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "小米发布 Miloco 智能家居 AI 方案",
+      "content": "小米发布 Miloco 智能家居 AI 方案,用户可用自然语言定义家居规则。基于 70 亿参数模型,已在 GitHub 开源。",
+      "importance": "high",
+      "reasoning": "赛道级产品发布:小米发布智能家居 AI 方案支持自然语言控制,70 亿参数模型,GitHub 开源对智能家居行业有推动作用,今天(11 月 14 日)发布。",
+      "source": "IT 之家",
+      "url": "https://www.ithome.com/0/897/450.htm",
+      "keywords": ["小米", "智能家居", "Miloco", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "WisdomAI 获 5000 万美元 A 轮融资",
+      "content": "WisdomAI 完成 5000 万美元 A 轮融资,Kleiner Perkins 和英伟达参与。6 个月内企业客户从 2 家增至 40 家。",
+      "importance": "high",
+      "reasoning": "重要融资事件:5000 万美元 A 轮,Kleiner Perkins 和英伟达参投,6 个月内客户从 2 家涨至 40 家展示快速增长,对 AI 数据分析赛道有参考价值,前天(11 月 12 日)宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/12/ai-data-startup-wisdomai-has-raised-another-50m-led-by-kleiner-nvidia/",
+      "keywords": ["WisdomAI", "融资", "数据分析", "英伟达"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "AI 虚拟歌手连续 3 周登顶 Billboard",
+      "content": "AI 虚拟歌手 Breaking Rust 连续 3 周登顶 Billboard 乡村榜。每天有 5 万首 AI 生成歌曲上传至流媒体平台,引发音乐行业关注。",
+      "importance": "high",
+      "reasoning": "高话题性事件:AI 生成音乐首次连续 3 周登顶 Billboard,每天 5 万首 AI 歌曲上传展示规模,对音乐行业和 AI 内容生成有重要影响,前天(11 月 12 日)报道。",
+      "source": "Digital Music News",
+      "url": "https://www.digitalmusicnews.com/2025/11/12/country-ai-artists-top-charts/",
+      "keywords": ["AI 音乐", "Breaking Rust", "Billboard", "流媒体"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-14T10:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36kr",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 2100
+  }
+}

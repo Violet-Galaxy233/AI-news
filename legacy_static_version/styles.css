@@ -1,0 +1,536 @@
+/* 全局样式 */
+:root {
+    --color-primary: #6366f1;
+    --color-secondary: #8b5cf6;
+    --color-critical: #ef4444;
+    --color-high: #f59e0b;
+    --color-medium: #6b7280;
+    --color-text: #1f2937;
+    --color-text-light: #6b7280;
+    --color-bg: #f9fafb;
+    --color-card: #ffffff;
+    --color-border: #e5e7eb;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+        'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* 容器 */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    background: var(--color-card);
+    border-radius: var(--radius-xl);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-xl);
+    animation: slideDown 0.5s ease-out;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
+/* 日期选择器 */
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.current-date {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    min-width: 180px;
+    text-align: center;
+}
+
+.date-btn,
+.today-btn {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.date-btn {
+    padding: 0.5rem 0.75rem;
+}
+
+.date-btn:hover:not(:disabled),
+.today-btn:hover {
+    background: var(--color-secondary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.date-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* 主内容区 */
+.main-content {
+    background: var(--color-card);
+    border-radius: var(--radius-xl);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-xl);
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* 新闻容器 */
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* 新闻卡片 */
+.news-card {
+    border-left: 4px solid var(--color-medium);
+    padding: 1.25rem;
+    border-radius: var(--radius-md);
+    background: var(--color-bg);
+    transition: all 0.3s;
+    animation: slideIn 0.4s ease-out;
+}
+
+.news-card:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+}
+
+/* 重要性样式 */
+.news-card.importance-critical {
+    border-left-color: var(--color-critical);
+    background: linear-gradient(to right, rgba(239, 68, 68, 0.05), transparent);
+}
+
+.news-card.importance-high {
+    border-left-color: var(--color-high);
+    background: linear-gradient(to right, rgba(245, 158, 11, 0.05), transparent);
+}
+
+.news-card.importance-medium {
+    border-left-color: var(--color-medium);
+}
+
+/* 新闻内容 */
+.news-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.news-text {
+    font-size: 1rem;
+    color: var(--color-text);
+    line-height: 1.7;
+}
+
+.news-icon {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+/* 重要新闻样式（前几条） */
+.news-card.importance-critical .news-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.news-card.importance-high .news-text {
+    font-weight: 500;
+}
+
+/* 标签 */
+.news-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.news-card.importance-critical .tag {
+    background: var(--color-critical);
+}
+
+.news-card.importance-high .tag {
+    background: var(--color-high);
+}
+
+/* 新闻底部 */
+.news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.875rem;
+}
+
+.news-source {
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.news-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.news-link:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
+/* 元数据 */
+.metadata {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--color-border);
+}
+
+.metadata-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-light);
+    font-size: 0.875rem;
+}
+
+.metadata-icon {
+    font-size: 1.25rem;
+}
+
+/* 操作按钮 */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-card);
+    color: var(--color-text);
+    border: 2px solid var(--color-border);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    box-shadow: var(--shadow-md);
+}
+
+.action-btn:hover {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.action-btn span {
+    font-size: 1.25rem;
+}
+
+/* 加载状态 */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    color: var(--color-text-light);
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid var(--color-border);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.loading p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* 错误状态 */
+.error {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--color-critical);
+    font-size: 1rem;
+}
+
+.no-news {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+}
+
+/* Toast 提示 */
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: rgba(31, 41, 55, 0.95);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* 动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+
+    .header {
+        padding: 1.5rem 1rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .date-selector {
+        justify-content: center;
+    }
+
+    .main-content {
+        padding: 1.5rem 1rem;
+    }
+
+    .news-card {
+        padding: 1rem;
+    }
+
+    .news-text {
+        font-size: 0.9375rem;
+    }
+
+    .metadata {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .metadata-item {
+        justify-content: center;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+
+    .date-selector {
+        flex-wrap: wrap;
+    }
+
+    .current-date {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .header {
+        box-shadow: none;
+        border-bottom: 2px solid var(--color-border);
+    }
+
+    .date-selector,
+    .actions {
+        display: none;
+    }
+
+    .main-content {
+        box-shadow: none;
+    }
+
+    .news-card {
+        page-break-inside: avoid;
+    }
+
+    .news-link {
+        color: var(--color-text);
+    }
+}
+
+/* 暗色模式支持（可选） */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #f9fafb;
+        --color-text-light: #d1d5db;
+        --color-bg: #1f2937;
+        --color-card: #374151;
+        --color-border: #4b5563;
+    }
+
+    body {
+        background: linear-gradient(135deg, #1e3a8a 0%, #312e81 100%);
+    }
+
+    .news-card {
+        background: #1f2937;
+    }
+
+    .news-card.importance-critical {
+        background: linear-gradient(to right, rgba(239, 68, 68, 0.15), transparent);
+    }
+
+    .news-card.importance-high {
+        background: linear-gradient(to right, rgba(245, 158, 11, 0.15), transparent);
+    }
+}

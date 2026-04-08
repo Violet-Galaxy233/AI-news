@@ -1,0 +1,121 @@
+{
+  "date": "2026-01-12",
+  "date_formatted": "26/01/12",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Google 发布 AI 购物统一协议",
+      "content": "Google 在 NRF 大会发布通用商务协议 (UCP),联合 Shopify、Etsy、Walmart、Target 等 20+ 家企业,为 AI 购物助手建立统一标准。McKinsey 预测该市场 2030 年将达 3 至 5 万亿美元。用户可在 Google 搜索和 Gemini 应用内直接下单。",
+      "importance": "critical",
+      "reasoning": "Google 联合 20+ 头部企业发布行业级标准协议,McKinsey 预测 3-5 万亿美元市场规模,属于改变电商购物范式的技术平台。1 月 11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/",
+      "keywords": ["Google", "UCP", "20+ 企业", "3-5 万亿美元", "AI 购物"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Motional 重启无人出租车计划",
+      "content": "现代旗下 Motional 宣布重启无人出租车计划,采用 AI 端到端自动驾驶系统,将小型模型整合为统一架构。公司计划 2026 年底在拉斯维加斯推出商业化服务,TechCrunch 已在 30 分钟自动驾驶测试中体验该技术。",
+      "importance": "critical",
+      "reasoning": "Motional 采用 AI 端到端架构重启商业化,2026 年底拉斯维加斯上线,标志无人出租车从研发转向商业部署。1 月 11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/11/motional-puts-ai-at-center-of-robotaxi-reboot-as-it-targets-2026-for-driverless-service/",
+      "keywords": ["Motional", "无人出租车", "2026 年底", "拉斯维加斯", "端到端"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Meta 签订 20 年核电协议供 AI 数据中心",
+      "content": "Meta 与 TerraPower、Oklo、Vistra 签订 20 年核电协议,2035 年前提供 6.6 吉瓦清洁能源。协议将为俄亥俄州 Prometheus AI 超级集群供电,该集群预计 2026 年上线,耗电至少 1 吉瓦。",
+      "importance": "critical",
+      "reasoning": "Meta 签订 6.6 吉瓦核电协议,为 AI 超级集群提供能源,展示科技巨头为 AI 基础设施的长期投资。1 月 9 日发布,3 天前。",
+      "source": "Meta Newsroom",
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "keywords": ["Meta", "核电", "6.6 吉瓦", "Prometheus", "2035 年"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Google 移除医疗查询 AI 概述功能",
+      "content": "Google 移除肝功能测试等医疗查询的 AI 概述功能,此前 Guardian 调查发现其提供的数值未考虑性别、年龄,可能误导患者。英国肝脏信托基金警告这未解决根本问题。",
+      "importance": "high",
+      "reasoning": "Google 因 Guardian 调查移除医疗 AI 功能,涉及患者安全和 AI 伦理争议,引发行业对 AI 健康建议的关注。1 月 11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/11/google-removes-ai-overviews-for-certain-medical-queries/",
+      "keywords": ["Google", "AI 概述", "医疗查询", "Guardian", "患者安全"],
+      "category": "政策法规"
+    },
+    {
+      "id": 5,
+      "title": "印尼马来西亚封禁 Grok 应用",
+      "content": "印尼和马来西亚封禁 xAI 的 Grok,成为首批封禁该应用的国家,因用户利用其生成女性和未成年人虚假性化图像。印尼数字部长称这严重侵犯人权和尊严。",
+      "importance": "high",
+      "reasoning": "两个东南亚国家政府封禁 Grok,涉及 AI 伦理和深度伪造监管,展示各国对 AI 生成有害内容的强硬态度。1 月 10-11 日发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/11/indonesia-blocks-grok-over-non-consensual-sexualized-deepfakes/",
+      "keywords": ["印尼", "马来西亚", "Grok", "深度伪造", "封禁"],
+      "category": "政策法规"
+    },
+    {
+      "id": 6,
+      "title": "Anthropic 封禁竞争对手访问 Claude",
+      "content": "Anthropic 封禁 xAI 访问 Claude 模型。xAI 联合创始人内部备忘录确认这是针对主要竞争对手的新政策,承认生产力将受影响。此前 xAI 员工通过 Cursor IDE 使用 Claude 加速开发。",
+      "importance": "high",
+      "reasoning": "Anthropic 执行竞争对手限制政策,影响 xAI 等公司开发效率,展示 AI 行业竞争格局变化和平台封闭趋势。1 月 9-10 日执行。",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-cracks-down-on-unauthorized-claude-usage-by-third-party-harnesses",
+      "keywords": ["Anthropic", "xAI", "Claude", "竞争对手", "封禁"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "MiniMax 港股上市首日涨 109%",
+      "content": "MiniMax 港股上市首日收涨 109%,募资 6.19 亿美元,估值 137 亿美元。零售投资者认购 1830 倍,机构认购 36.76 倍,为阿里巴巴支持的生成式 AI 初创企业。",
+      "importance": "high",
+      "reasoning": "MiniMax 上市首日涨幅超 100%,认购倍数超千倍,展示市场对中国 AI 企业的热情,成立仅 4 年创全球 AI 公司最快上市记录。1 月 9 日上市,3 天前。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-08/ai-firm-minimax-set-for-hong-kong-debut-after-619-million-ipo",
+      "keywords": ["MiniMax", "109%", "6.19 亿美元", "1830 倍", "港股"],
+      "category": "投融资"
+    },
+    {
+      "id": 8,
+      "title": "CNBC 调查科技领袖对 AI 泡沫看法分歧",
+      "content": "CNBC 调查 40 位科技领袖和分析师对 AI 是否泡沫看法分歧。Nvidia CEO 驳斥泡沫论,而《大空头》投资者 Michael Burry 警告类似互联网泡沫。",
+      "importance": "medium",
+      "reasoning": "CNBC 调查 40 位行业领袖,反映 AI 行业对投资泡沫的分歧看法,具参考价值但非突发事件。1 月 10 日发布。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/10/are-we-in-an-ai-bubble-tech-leaders-analysts.html",
+      "keywords": ["CNBC", "AI 泡沫", "40 位领袖", "Nvidia", "Michael Burry"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "亚洲 AI 科技股开局强劲",
+      "content": "亚洲科技股 2026 年开局强劲,Goldman Sachs 超配该板块,Citigroup 看好其在半导体供应链的关键地位。MiniMax 和智谱 AI 上市带动 AI IPO 热潮。",
+      "importance": "medium",
+      "reasoning": "亚洲科技股市场表现强劲,投行看好,但属于区域性市场动态,影响范围有限。1 月 11 日报道。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/global-ai-race-shows-asia-leading-as-stocks-start-2026-with-bang",
+      "keywords": ["亚洲", "科技股", "Goldman Sachs", "半导体", "IPO"],
+      "category": "行业动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-12T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 2150
+  }
+}

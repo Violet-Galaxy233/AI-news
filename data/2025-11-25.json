@@ -1,0 +1,182 @@
+{
+  "date": "2025-11-25",
+  "date_formatted": "25/11/25",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 发布 Claude Opus 4.5",
+      "content": "Anthropic 发布 Claude Opus 4.5，在软件工程测试中达到 80.9% 准确率，超越所有人类候选者分数。定价为每百万次输入 5 美元、输出 25 美元。模型在编程、智能体和电脑控制方面表现最佳，已在 API 和三大云平台上线。",
+      "importance": "critical",
+      "reasoning": "三大厂 Anthropic 核心模型发布：在 SWE-bench Verified 达到 80.9% 创纪录，超越所有人类候选者，已部署至 API 和三大云平台，对 AI 编程和智能体市场有重大影响，昨天（11 月 24 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/24/anthropic-releases-opus-4-5-with-new-chrome-and-excel-integrations/",
+      "keywords": [
+        "Anthropic",
+        "Claude Opus 4.5",
+        "编程",
+        "智能体"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "AWS 投资 500 亿美元建政府 AI 基础设施",
+      "content": "Amazon Web Services 宣布投资 500 亿美元为美国政府建设 AI 基础设施，新增 1.3 吉瓦电力容量，2026 年开工。超过 1.1 万个政府机构将获得 AI 工具和 Claude 模型支持。",
+      "importance": "critical",
+      "reasoning": "行业级重大投资：AWS 500 亿美元投资政府 AI 基础设施，1.3 吉瓦电力容量，服务 1.1 万个政府机构，对 AI 基础设施和政府数字化有重大推动，昨天（11 月 24 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/24/aws-is-spending-50b-build-ai-infrastructure-for-the-us-government/",
+      "keywords": [
+        "AWS",
+        "Amazon",
+        "政府",
+        "基础设施"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 与 Jony Ive 合作 AI 设备完成原型",
+      "content": "OpenAI CEO Sam Altman 透露与前 Apple 设计师 Jony Ive 合作的 AI 设备已完成首批原型，计划 2 年内发布。Altman 形容设备比 iPhone「更平静」，无屏幕、可放入口袋。",
+      "importance": "critical",
+      "reasoning": "重要产品方向：OpenAI 与 Jony Ive 合作 AI 硬件已有原型，2 年内发布，无屏幕设计展示新交互方式，对 AI 硬件市场有重要探索意义，昨天（11 月 24 日）透露。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/24/altman-describes-openais-forthcoming-ai-device-as-more-peaceful-and-calm-than-the-iphone/",
+      "keywords": [
+        "OpenAI",
+        "Sam Altman",
+        "Jony Ive",
+        "AI 设备"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Google 承诺 4-5 年增加 1000 倍 AI 容量",
+      "content": "Google 云端负责人宣布未来 4-5 年将增加 1000 倍 AI 服务容量，需每 6 个月翻倍。Google 三季度资本支出预测提高至 910-930 亿美元，2026 年将进一步增加。",
+      "importance": "critical",
+      "reasoning": "巨头基础设施重大扩张：Google 未来 4-5 年增加 1000 倍 AI 容量，每 6 个月翻倍，资本支出 910-930 亿美元，展示 AI 算力竞赛激烈，11 月 21 日报道。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/google-commits-to-1000x-more-ai-infrastructure-in-next-4-5-years/",
+      "keywords": [
+        "Google",
+        "AI 基础设施",
+        "算力",
+        "投资"
+      ],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "ChatGPT 推出购物研究功能",
+      "content": "OpenAI 推出 ChatGPT 购物研究功能，可对比实时价格、过滤虚假评论，假期期间对所有用户免费无限使用。",
+      "importance": "high",
+      "reasoning": "赛道级应用发布：ChatGPT 进军电商搜索领域，实时价格对比和虚假评论过滤，假期免费无限使用展示推广力度，对电商和搜索市场有重要影响，昨天（11 月 24 日）发布。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-shopping-research/",
+      "keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "购物",
+        "电商"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "阿里巴巴 Qwen 应用一周破 1000 万下载",
+      "content": "阿里巴巴 Qwen 应用公测一周内突破 1000 万下载，成为中国增长最快的 AI 产品之一。",
+      "importance": "high",
+      "reasoning": "高增长应用：阿里 Qwen 公测一周破 1000 万下载，展示国内 AI 应用需求旺盛，对中国 AI 应用市场有重要参考，11 月 24 日达成。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-ai-app-10-million-downloads/",
+      "keywords": [
+        "阿里巴巴",
+        "Qwen",
+        "下载量",
+        "中国"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Samsung 将 Perplexity AI 整合至 Bixby",
+      "content": "Samsung 将 Perplexity AI 整合至 Bixby，随 Galaxy S26 发布。基础任务由 Bixby 处理，复杂查询交给 Perplexity。",
+      "importance": "high",
+      "reasoning": "重要战略合作：Samsung 整合 Perplexity AI 至 Bixby，多模型策略对标 Apple Intelligence，Galaxy S26 将首发，对 AI 语音助手市场有重要影响，昨天（11 月 24 日）确认。",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2025/11/24/samsung-perplexity-powered-bixby/",
+      "keywords": [
+        "Samsung",
+        "Perplexity",
+        "Bixby",
+        "Galaxy S26"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "AMD GPU 成功训练大规模 AI 模型",
+      "content": "AMD、Zyphra 和 IBM 完成一年测试，成功用 AMD GPU 训练大规模 AI 模型 ZAYA1，打破 NVIDIA 垄断。",
+      "importance": "high",
+      "reasoning": "重要技术突破：AMD GPU 成功训练大规模 AI 模型，一年测试验证可行性，打破 NVIDIA 垄断，对 AI 芯片市场竞争有重要推动，昨天（11 月 24 日）宣布。",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/zaya1-ai-model-using-amd-gpus-for-training-hits-milestone/",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "ZAYA1",
+        "AI 训练"
+      ],
+      "category": "技术突破"
+    },
+    {
+      "id": 9,
+      "title": "Momentic 获 1500 万美元自动化测试融资",
+      "content": "AI 软件测试公司 Momentic 完成 1500 万美元融资，使用 AI 自动化测试流程。",
+      "importance": "high",
+      "reasoning": "重要融资事件：Momentic 1500 万美元融资，AI 自动化软件测试赛道获资本关注，对开发工具市场有参考价值，昨天（11 月 24 日）宣布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/24/momentic-raises-15m-to-automate-software-testing/",
+      "keywords": [
+        "Momentic",
+        "融资",
+        "软件测试",
+        "自动化"
+      ],
+      "category": "投融资"
+    },
+    {
+      "id": 10,
+      "title": "新 AI 安全测试框架评估聊天机器人福祉保护",
+      "content": "新的 AI 安全测试框架发布，评估聊天机器人是否保护人类福祉，填补安全性评估空白。",
+      "importance": "high",
+      "reasoning": "重要工具发布：新 AI 安全测试框架专注人类福祉保护评估，填补现有测试空白，对 AI 安全和伦理有重要参考，昨天（11 月 24 日）发布。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/24/a-new-ai-benchmark-tests-whether-chatbots-protect-human-wellbeing/",
+      "keywords": [
+        "AI 安全",
+        "测试",
+        "聊天机器人",
+        "伦理"
+      ],
+      "category": "技术标准"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-25T09:33:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "AI Breakfast",
+      "TechCrunch",
+      "AIBase News",
+      "36氪",
+      "Hacker News",
+      "AI News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1800
+  }
+}
