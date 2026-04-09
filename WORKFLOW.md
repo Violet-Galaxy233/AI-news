@@ -289,9 +289,50 @@
 
 ---
 
+## Step 7: 更新 index.json 并推送 🚀
+
+**Step 6 全部通过后执行本步。**
+
+### 7.1 更新 index.json
+
+将本次生成的所有新闻条目追加到 `data/index.json`（格式与已有条目一致，每条包含 `date`、`id`、`title`、`keywords`、`category`、`importance`，不含 `content`/`reasoning`/`url`/`source`）：
+
+```bash
+# 用 python3 读取现有 index.json，追加新条目，写回
+python3 -c "
+import json, sys
+with open('data/index.json', 'r', encoding='utf-8') as f:
+    index = json.load(f)
+with open('data/YYYY-MM-DD.json', 'r', encoding='utf-8') as f:
+    today = json.load(f)
+new_entries = [{'date': today['date'], 'id': n['id'], 'title': n['title'], 'keywords': n['keywords'], 'category': n['category'], 'importance': n['importance']} for n in today['news']]
+index.extend(new_entries)
+with open('data/index.json', 'w', encoding='utf-8') as f:
+    json.dump(index, f, ensure_ascii=False, separators=(',', ':'))
+print('index.json updated, total entries:', len(index))
+"
+```
+
+### 7.2 Git 提交并推送
+
+```bash
+git add data/YYYY-MM-DD.json data/index.json
+git commit -m "news: YYYY-MM-DD AI 新闻简报（X条）"
+git push
+```
+
+**验证标准**：
+- ✅ `git push` 返回成功（无报错）
+- ✅ 终端显示 `data/YYYY-MM-DD.json` 已上传
+
+**🚨 阻断规则**：
+- 如果 `git push` 失败 → 报告错误信息，不重试，等待用户处理
+
+---
+
 ## 🎓 使用说明
 
 1. **用户说**："按照 WORKFLOW.md 生成今天（YYYY-MM-DD）的 AI 新闻简报"
-2. **Claude Code 自动执行** Step 1-6
+2. **Claude Code 自动执行** Step 1-7
 3. **关键验证点**：Step 2（时效性）和 Step 4（无术语）会严格检查
-4. **生成结果**：`data/YYYY-MM-DD.json`
+4. **生成结果**：`data/YYYY-MM-DD.json` 自动推送到远端，Vercel 触发部署
