@@ -6,7 +6,7 @@
     {
       "id": 1,
       "title": "Meta超智能实验室首款模型",
-      "content": "Meta发布超级智能实验室（Meta Superintelligence Labs）首款模型 Muse Spark，由前 Scale AI CEO Alexandr Wang（以 140 亿美元加盟）领衔，标志 Meta 正式放弃 Llama 开源路线、转向闭源旗舰战略；模型支持多模态视觉感知，可同时调度多个子智能体并行处理复杂任务，目前免费面向全球用户开放，将在数周内接入 WhatsApp、Instagram、Facebook Messenger 及 AI 眼镜，预计触达逾 40 亿活跃用户。",
+      "content": "Meta 发布超级智能实验室（Meta Superintelligence Labs）首款模型 Muse Spark，由前 Scale AI CEO Alexandr Wang（以 140 亿美元加盟）领衔，标志 Meta 正式放弃 Llama 开源路线、转向闭源旗舰战略；模型支持多模态视觉感知，可同时调度多个子智能体并行处理复杂任务，目前免费面向全球用户开放，将在数周内接入 WhatsApp、Instagram、Facebook Messenger 及 AI 眼镜，预计触达逾 40 亿活跃用户。",
       "importance": "critical",
       "reasoning": "4 月 8 日 TechCrunch、Bloomberg、CNBC、Fortune、Axios 五大媒体同步报道，Meta 官方博客确认。Meta 旗下超级智能实验室发布首款模型，且彻底放弃 Llama 系列以来的开源路线转向闭源，是 Meta AI 有史以来最重大的战略转向；Alexandr Wang 以史上最高薪酬加盟后的首次正式亮相，将直接影响 40 亿+ 用户的 AI 体验。Critical 级。",
       "source": "TechCrunch",
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "title": "OpenAI发布儿童安全蓝图",
-      "content": "OpenAI联合美国失踪与被剥削儿童全国中心（NCMEC）及多位州检察长，发布首份 AI 儿童安全蓝图，提出三大方向：立法扩展以涵盖 AI 生成儿童性剥削内容（2025 年上半年检出逾 8,000 起，同比增 14%）、优化向执法机构的报案机制、在 AI 系统内嵌预防性过滤与合成内容标注工具；这是美国首份由顶级 AI 公司牵头、联合多个州政府机构制定的 AI 儿童保护框架。",
+      "content": "OpenAI 联合美国失踪与被剥削儿童全国中心（NCMEC）及多位州检察长，发布首份 AI 儿童安全蓝图，提出三大方向：立法扩展以涵盖 AI 生成儿童性剥削内容（2025 年上半年检出逾 8,000 起，同比增 14%）、优化向执法机构的报案机制、在 AI 系统内嵌预防性过滤与合成内容标注工具；这是美国首份由顶级 AI 公司牵头、联合多个州政府机构制定的 AI 儿童保护框架。",
       "importance": "critical",
       "reasoning": "4 月 8 日 TechCrunch、Yahoo Finance 报道，OpenAI 官网同步发布。OpenAI 为 AI 领域「三大厂」之一，首次以公司名义牵头联合 NCMEC 及多州检察长制定 AI 儿童保护框架，属于「行业首例 + 政府合作 + 影响全行业监管走向」的政策性节点事件；8,000 起 AI 生成儿童性剥削内容（同比 +14%）数据为立法依据。Critical 级。",
       "source": "TechCrunch",
@@ -61,7 +61,7 @@
     {
       "id": 6,
       "title": "ACM奖得主：AGI已然存在",
-      "content": "Databricks 联合创始人、Apache Spark 发明者 Matei Zaharia荣获计算机最高荣誉 ACM 计算奖，并在获奖访谈中向 TechCrunch 表示「AGI 已然存在，只是形态与行业预期不同」；他认为当前 AI 已能胜任需要智能的核心任务，行业问题在于持续移动目标定义、而非技术本身缺乏能力；Databricks 2026 年估值逾 550 亿美元，是企业 AI 数据平台领域的最高估值公司。",
+      "content": "Databricks 联合创始人、Apache Spark 发明者 Matei Zaharia 荣获计算机最高荣誉 ACM 计算奖，并在获奖访谈中向 TechCrunch 表示「AGI 已然存在，只是形态与行业预期不同」；他认为当前 AI 已能胜任需要智能的核心任务，行业问题在于持续移动目标定义、而非技术本身缺乏能力；Databricks 2026 年估值逾 550 亿美元，是企业 AI 数据平台领域的最高估值公司。",
       "importance": "high",
       "reasoning": "4 月 8 日 TechCrunch 发布，Zaharia 获 ACM 最高奖同日作出 AGI 已至声明。计算机领域顶级荣誉得主以学术权威身份宣称「AGI 已到来」，与 OpenAI/Anthropic 官方立场不同，叠加 Databricks 550 亿估值背景，是高话题性的行业观点事件。High 级。",
       "source": "TechCrunch",
@@ -83,7 +83,7 @@
     {
       "id": 8,
       "title": "AI医疗记录工具推高账单",
-      "content": "《STAT News报道：美国保险公司与医院双方均承认 AI 医疗记录工具（自动将医患对话转为结构化病历）使诊断编码趋于完整、账单金额随之上涨，但就新增成本由谁承担无法达成共识；具体涨幅因机构而异，行业尚无统一数据披露。",
+      "content": "《STAT News》报道：美国保险公司与医院双方均承认 AI 医疗记录工具（自动将医患对话转为结构化病历）使诊断编码趋于完整、账单金额随之上涨，但就新增成本由谁承担无法达成共识；具体涨幅因机构而异，行业尚无统一数据披露。",
       "importance": "medium",
       "reasoning": "4 月 8 日 STAT News 多方采访报道。AI 医疗记录工具普遍推高账单已成行业共识性问题，保险方与医疗机构责任归属分歧深刻，是 AI 进入核心医疗流程后带来的系统性支付矛盾，具有政策讨论参考价值。Medium 级。",
       "source": "STAT News",
