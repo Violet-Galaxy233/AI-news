@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-10",
+  "date_formatted": "26/04/10",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "AI最强攻击模型遭封存",
+      "content": "Anthropic 发布旗下最强模型 Claude Mythos Preview，可完全自主发现并利用所有主流操作系统及浏览器零日漏洞，包括独立挖掘出一个存在 17 年的 FreeBSD 远程执行漏洞；Anthropic 随即决定拒绝公开发布，仅向 40 家机构定向开放，并联合 AWS、苹果、思科、CrowdStrike、谷歌、摩根大通、Linux 基金会、微软、英伟达、Palo Alto Networks 共 11 家公司成立 Project Glasswing 网络安全联盟，承诺 135 天内披露已修复漏洞细节；这是 AI 实验室首次以自身进攻性能力过强为由主动拒绝公开旗舰模型。",
+      "importance": "critical",
+      "reasoning": "4 月 7 日 Anthropic 官网及 TechCrunch 首发，4 月 9 日 AI News、The Hacker News 深度跟进，今日持续发酵（3 天内）。Anthropic 为三大顶级 AI 实验室之一，Claude Mythos 首次证明 AI 系统可完全自主攻击真实生产环境零日漏洞，且实验室主动拒绝发布旗舰模型——这在 AI 发展史上尚属首次；Project Glasswing 11 家公司安全联盟标志 AI 网络安全治理进入结构化协作阶段。Critical 级。",
+      "source": "TechCrunch / Anthropic",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "keywords": ["Anthropic", "Claude Mythos", "Project Glasswing", "零日漏洞", "FreeBSD", "网络安全", "11家企业联盟"],
+      "category": "安全研究"
+    },
+    {
+      "id": 2,
+      "title": "佛州检察长调查OpenAI",
+      "content": "佛罗里达州检察长 James Uthmeier 宣布对 OpenAI 展开正式调查，法庭记录已确认 2025 年 4 月 17 日佛罗里达州立大学枪击案（致 2 死 5 伤）嫌疑人当日多次使用 ChatGPT 询问枪击时机、地点选择及大规模枪击惯例，枪击前数小时仍在对话；检察长将向 OpenAI 发出传票，OpenAI 声明将配合调查；这是美国首次由州检察长就 AI 工具在暴力事件中的角色发起正式司法调查，或推动全美 AI 安全责任立法提速。",
+      "importance": "critical",
+      "reasoning": "4 月 9 日 TechCrunch、NBC News、UPI、WCTV、WFTV 多媒体同步报道，昨日重大新闻。美国首起州检察长针对 AI 在暴力事件中角色的正式调查，且有法庭聊天记录作为实证；涉及 OpenAI（三大顶级 AI 实验室之一）产品责任认定，对全美 AI 监管立法走向具有系统性影响。Critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/",
+      "keywords": ["OpenAI", "ChatGPT", "佛罗里达", "FSU枪击案", "州检察长", "AI责任", "司法调查"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "xAI起诉科罗拉多AI法",
+      "content": "Elon Musk 旗下 xAI 于今日向联邦法院起诉科罗拉多州，要求宣告该州 AI 反歧视法违宪并申请禁令阻止执法；该法规定 AI 系统开发者须对就业、住房、信贷等核心决策中的自动化歧视承担风险管理举证义务；xAI 援引白宫行政令，主张碎片化州级 AI 立法将损害美国 AI 国际竞争力；此案为顶级 AI 公司首次直接诉诸联邦法院挑战州 AI 立法合宪性，将影响全美 30 余个州正在推进的 AI 治理法案走向。",
+      "importance": "critical",
+      "reasoning": "4 月 10 日 Bloomberg 首发，今日重大新闻。xAI 为 Elon Musk 旗下顶级 AI 公司，此次联邦诉讼为 AI 公司首次以违宪为由直接挑战州级 AI 法——比此前 Anthropic 的行政诉讼走的是更激进的宪法路线；科罗拉多 AI 法若被宣告违宪，将为全美 30+ 州 AI 立法提供司法先例，属于「影响全行业」的监管节点事件。Critical 级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-10/elon-musk-s-xai-sues-colorado-over-ai-anti-discrimination-law",
+      "keywords": ["xAI", "Elon Musk", "科罗拉多", "AI法律", "违宪诉讼", "AI反歧视", "州级监管"],
+      "category": "政策法规"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI百元编程套餐",
+      "content": "OpenAI 发布定价 100 美元/月的新订阅层，填补 20 美元 Plus 与 200 美元旧 Pro 之间的空白；新层级提供比 Plus 多 5 倍的 Codex 编程额度，5 月 31 日前可享 10 倍额度，并附带 GPT-5.4 Pro 优先访问及扩展记忆容量；OpenAI 官方明确此举针对 Anthropic Claude Code 用户群，意在争夺 AI 辅助编程高价值专业市场。",
+      "importance": "high",
+      "reasoning": "4 月 9 日 TechCrunch、CNBC、9to5Mac、MacRumors、VentureBeat 同步报道，昨日重大新闻。OpenAI 新增定价层是对 Claude Code 迅速扩张的直接市场响应，5 倍/10 倍 Codex 额度差异化明确针对编程场景，将直接影响开发者对两大平台的采购决策。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+      "keywords": ["OpenAI", "ChatGPT Pro", "100美元订阅", "Codex", "Claude Code", "AI编程", "定价竞争"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Meta冻结Mercor合同",
+      "content": "AI 数据外包商 Mercor（估值 100 亿美元）LiteLLM 供应链攻击事件持续发酵：Meta 宣布无限期暂停与 Mercor 的全部合同；5 名承包商提起集体诉讼，指控 Mercor 未尽基本安全保护义务；此次攻击共泄露逾 4 万名承包商个人信息及 4TB 专有数据，Mercor 年化营收事发前已逼近 10 亿美元；此案暴露多家顶级 AI 实验室集中依赖同一数据供应商的系统性供应链脆弱性。",
+      "importance": "high",
+      "reasoning": "4 月 9 日 TechCrunch 独家跟进报道，较 3 月 31 日原始事件有实质新进展（Meta 合同冻结 + 集体诉讼）。Meta 无限期暂停合同是 Mercor 事件升级的关键转折，集体诉讼确立法律责任追究路径；这一组合将对整个 AI 数据供应链生态产生深远影响。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/",
+      "keywords": ["Mercor", "Meta", "供应链攻击", "LiteLLM", "集体诉讼", "数据泄露", "4万承包商"],
+      "category": "安全研究"
+    },
+    {
+      "id": 6,
+      "title": "谷歌英特尔扩大AI芯片合作",
+      "content": "谷歌与英特尔宣布扩大多年期 AI 基础设施合作：谷歌承诺在 Google Cloud 数据中心部署多代英特尔 Xeon 6 处理器用于 AI 训练及运行，双方还将延续自 2022 年起的 IPU（基础设施处理单元）联合研发，将网络路由、存储加密等开销任务从主 CPU 卸载以提升效率；协议未披露金额，英特尔股价当日上涨，被视为挑战英伟达在 AI 数据中心主导地位的关键布局。",
+      "importance": "high",
+      "reasoning": "4 月 9 日 TechCrunch、CNBC、Bloomberg 同步报道，英特尔官方新闻稿确认，昨日重大新闻。在英伟达主导 AI 芯片市场的背景下，谷歌（全球最大 AI 数据中心运营商之一）公开承诺采购多代英特尔 Xeon 6 CPU，是英特尔重返 AI 基础设施核心赛道的重要信号，对 AI 芯片市场格局具有实质影响。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+      "keywords": ["谷歌", "英特尔", "Xeon 6", "IPU", "AI数据中心", "芯片合作", "英伟达竞争"],
+      "category": "行业动态"
+    },
+    {
+      "id": 7,
+      "title": "字节Seed团队70人出走",
+      "content": "字节跳动 Seed AI 研究团队过去一年约 70 名技术人才离职，近 30 人转赴腾讯，前员工已创立 30 余家 AI 初创公司；字节 2025 年 9 月推出每月最高 13.5 万元股权激励方案，仍未能阻止核心人才持续外流。",
+      "importance": "medium",
+      "reasoning": "4 月 10 日 AIBase 今日报道。Seed 团队是字节跳动 AI（豆包大模型）的核心研发力量，70 人规模外流（含 30 人直接投奔腾讯）加上 30+ 初创公司，是中国 AI 头部公司人才战格局的显著信号，对豆包模型竞争力有潜在影响。Medium 级（区域事件）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/27024",
+      "keywords": ["字节跳动", "Seed团队", "人才流失", "腾讯", "豆包", "AI人才战", "70人"],
+      "category": "行业动态"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI宣称算力领先对手",
+      "content": "彭博社报道 OpenAI 本周向投资者表示其算力储备规模「领先 Anthropic」，以此为潜在 IPO 估值造势；Anthropic 正同步扩充谷歌与 Broadcom 算力资源，预计 2027 年首次实现盈利。",
+      "importance": "medium",
+      "reasoning": "4 月 9 日 Bloomberg 独家报道，昨日新闻。OpenAI 主动向投资者发布算力优势声明，背景是 Anthropic 估值持续上升、IPO 讨论升温，是两大顶级 AI 实验室竞争态势的最新信号，对行业投资预期具有参考价值。Medium 级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-09/openai-tells-investors-it-has-computing-advantage-over-anthropic",
+      "keywords": ["OpenAI", "Anthropic", "算力竞争", "IPO", "投资者", "Bloomberg", "谷歌Broadcom"],
+      "category": "行业动态"
+    },
+    {
+      "id": 9,
+      "title": "小米MiMo加入Hermes",
+      "content": "小米自研 AI 模型 MiMo-V2 系列正式加入全球顶级开源智能体框架 Hermes，开发者可通过统一接口调用小米模型处理多步骤复杂任务；MiMo-V2 此前上线 OpenRouter 首周即登顶调用量排行。",
+      "importance": "medium",
+      "reasoning": "4 月 10 日 AIBase 今日报道。MiMo-V2 加入 Hermes 框架是中国自研模型进入主流开源智能体生态的新进展，对开发者生态版图有一定参考价值。Medium 级（常规产品更新）。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/27027",
+      "keywords": ["小米", "MiMo-V2", "Hermes", "OpenRouter", "开源智能体", "自研模型", "开发者生态"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-10T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "AI News", "The Hacker News", "NBC News", "Axios", "AIBase", "Hacker News", "WebSearch", "Anthropic Blog", "9to5Mac", "MacRumors", "VentureBeat", "UPI", "Fortune"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 680
+  }
+}
