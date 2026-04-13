@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-13",
+  "date_formatted": "26/04/13",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Altman住所一周两袭",
+      "content": "OpenAI CEO Altman 旧金山住所一周内遭两次袭击：4月10日凌晨一名20岁男子投掷燃烧瓶后前往 OpenAI 办公室威胁纵火，当场被捕；4月12日凌晨又有两人驾车向住所方向开枪，同日被捕；三名嫌疑人均已被起诉，无人受伤；事件发生在《纽约客》发表 Altman 深度调查报道数日后，Altman 发文回应质疑，AI 行业高管人身安全问题引发全美关注。",
+      "importance": "critical",
+      "reasoning": "4月10日 CNN/CNBC/Al Jazeera 多媒体同步报道首次燃烧瓶袭击，4月12日 SF Standard/ABC/AP 报道第二次枪击。OpenAI 为全球估值最高的 AI 公司，其 CEO 在一周内遭两次暴力袭击是 AI 行业史无前例的人身安全事件，折射 AI 快速发展引发的社会对立情绪已从线上蔓延至线下暴力。Critical 级。",
+      "source": "SF Standard / CNN / CNBC",
+      "url": "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
+      "keywords": ["Altman", "OpenAI", "燃烧瓶", "枪击", "旧金山", "AI安全", "纽约客"],
+      "category": "行业动态"
+    },
+    {
+      "id": 2,
+      "title": "美联储紧急应对Mythos",
+      "content": "美联储主席 Powell 与财政部长 Bessent 上周紧急召集花旗、美国银行、富国银行等大型银行 CEO，就 Anthropic Mythos 模型的网络攻击能力发出警告；高盛、摩根士丹利、花旗等已开始内部部署该模型用于漏洞检测；白宫同步鼓励金融机构主动测试以加固防御，这是美国货币与财政最高决策者首次因单一 AI 模型的进攻能力直接约见金融业领袖。",
+      "importance": "critical",
+      "reasoning": "4月10日 Bloomberg 首发、CNBC 跟进 Powell+Bessent 召集银行 CEO 消息，4月12日 TechCrunch 报道白宫主动鼓励银行测试，4月13日 Claims Journal 持续跟进。美联储主席与财长联合介入单一 AI 模型的安全响应史无前例，涉及高盛/花旗/摩根士丹利/美国银行/富国等系统性重要银行，标志 AI 网络安全正式上升至国家金融安全层级。Critical 级。",
+      "source": "CNBC / Bloomberg",
+      "url": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
+      "keywords": ["Powell", "Bessent", "Anthropic", "Mythos", "高盛", "花旗", "网络安全", "银行"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "日本四巨头合资建AI",
+      "content": "软银、NEC、本田、索尼4月12日宣布成立合资公司开发日本国产 AI 基础模型，四方各持股超10%，三菱 UFJ、瑞穗银行及新日铁等为少数股东；软银与 NEC 主导模型研发，索尼与本田负责汽车、机器人、游戏等场景落地，重点方向为可操控机器人的物理 AI；日本经济产业省计划通过 NEDO 在5年内投入1万亿日元（约70亿美元）支持国产 AI 开发。",
+      "importance": "critical",
+      "reasoning": "4月12日 Japan Times、Nikkei Asia、Benzinga、Nippon.com 等多媒体同步报道，昨日重大新闻。软银+NEC+本田+索尼组合覆盖通信/半导体/汽车/娱乐四大产业，加上日本政府1万亿日元财政支持，是日本迄今最大规模的国家级 AI 基础模型开发计划，直接挑战美中在 AI 基础模型领域的主导地位。Critical 级。",
+      "source": "Japan Times / Nikkei Asia",
+      "url": "https://www.japantimes.co.jp/business/2026/04/12/companies/softbank-ai-new-firm/",
+      "keywords": ["软银", "NEC", "本田", "索尼", "日本", "AI基础模型", "1万亿日元", "NEDO"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "苹果AI主管本周离职",
+      "content": "苹果 AI 主管 John Giannandrea 本周正式离职，结束8年任期，离职时间定在4月15日股票归属日；其职权因 Apple Intelligence 推出不顺及 Siri 升级延迟于2025年被大幅削减；Giannandrea 不会加入竞争对手，将转向董事会及创业顾问；苹果正同步推进 AI 智能眼镜研发。",
+      "importance": "high",
+      "reasoning": "4月12日 Bloomberg 独家披露、iClarified/AppleInsider 跟进，昨日新闻。Giannandrea 2018年从谷歌加入苹果主导 Siri 和机器学习，其离职标志苹果 AI 战略领导层完成重组；苹果是全球市值最高的科技公司，AI 战略转向信号对行业具有参考价值。High 级。",
+      "source": "Bloomberg / iClarified",
+      "url": "https://www.iclarified.com/100527/apple-ai-chief-john-giannandrea-to-depart-this-week-after-role-cutback",
+      "keywords": ["苹果", "Giannandrea", "Apple Intelligence", "Siri", "AI主管", "智能眼镜", "离职"],
+      "category": "行业动态"
+    },
+    {
+      "id": 5,
+      "title": "HumanX大会聚焦Claude",
+      "content": "旧金山 HumanX AI 大会6500名高管与投资人齐聚，Anthropic 的 Claude Code 取代 ChatGPT 成为讨论最多的 AI 产品；Anthropic 估值已达3800亿美元，Claude Code 年化收入超25亿美元；近三分之一美国企业已付费采购 Anthropic 产品，较上月增长超6个百分点。",
+      "importance": "high",
+      "reasoning": "4月11日 CNBC 报道、4月12日 TechCrunch 发表专题，本周重要行业信号。HumanX 是年度最大 AI 行业会议之一，Claude Code 取代 ChatGPT 成为话题中心标志 AI 行业竞争格局正在发生实质性转变，企业采购数据（30% vs OpenAI 35%）为这一判断提供了量化支撑。High 级。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "keywords": ["HumanX", "Anthropic", "Claude Code", "3800亿估值", "企业采购", "ChatGPT", "行业竞争"],
+      "category": "行业动态"
+    },
+    {
+      "id": 6,
+      "title": "美三州同步通过AI立法",
+      "content": "内布拉斯加州通过《对话式 AI 安全法》要求 AI 向未成年人主动声明非人类身份并禁止冒充心理健康从业者；缅因州通过法案禁止无执照者通过 AI 提供治疗服务；马里兰州推进深度伪造防护与监控定价等7项 AI 法案；三州均于本周休会，法案将分别签署生效。",
+      "importance": "high",
+      "reasoning": "4月13日 Troutman Pepper 发布立法追踪更新，今日新闻。三个州在同一周通过或推进 AI 立法形成立法集群效应，尤其内布拉斯加《对话式 AI 安全法》和缅因 AI 治疗禁令直接针对近期 AI 伴侣/AI 心理咨询引发的社会争议，加速美国 AI 监管碎片化格局成型。High 级。",
+      "source": "Troutman Pepper",
+      "url": "https://www.troutmanprivacy.com/2026/04/proposed-state-ai-law-update-april-13-2026/",
+      "keywords": ["内布拉斯加", "缅因", "马里兰", "AI立法", "未成年人", "心理健康", "深度伪造"],
+      "category": "政策法规"
+    },
+    {
+      "id": 7,
+      "title": "伯克利攻破8大AI评测",
+      "content": "加州大学伯克利分校研究团队开发自动化扫描工具 BenchJack，发现 SWE-bench、WebArena、OSWorld 等8大主流 AI 智能体评测基准全部可被利用获得近满分成绩，引发行业对现有评测体系可信度的广泛质疑。",
+      "importance": "medium",
+      "reasoning": "4月11-12日 Hacker News 热门（507分），Berkeley RDI 博客发布。8大评测基准被系统性攻破意味着当前 AI 智能体的能力排名可能存在根本性偏差，对行业和投资者评估 AI 系统的方式构成挑战。Medium 级（学术研究，尚未引发行业实际变化）。",
+      "source": "Berkeley RDI",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "keywords": ["伯克利", "BenchJack", "SWE-bench", "AI评测", "智能体", "漏洞", "可信度"],
+      "category": "技术研究"
+    },
+    {
+      "id": 8,
+      "title": "中国发布AI教育行动计划",
+      "content": "教育部等五部门联合印发《「人工智能+教育」行动计划》，目标2030年实现 AI 与教育深度融合，覆盖中小学至高等教育全学段，推动 AI 成为高校公共基础课并新设一批 AI 相关学科专业。",
+      "importance": "medium",
+      "reasoning": "4月10日教育部官网发布，3天内新闻。五部门联合发文覆盖全学段的 AI 教育行动计划，对中国 AI 人才供给长期影响深远，但属于政策规划而非突发事件。Medium 级。",
+      "source": "中国教育部",
+      "url": "http://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+      "keywords": ["教育部", "AI教育", "2030", "公共基础课", "全学段", "人才培养", "行动计划"],
+      "category": "政策法规"
+    },
+    {
+      "id": 9,
+      "title": "中国规范拟人化AI服务",
+      "content": "国家网信办等五部门发布《人工智能拟人化互动服务管理暂行办法》，7月15日起施行；禁止向未成年人提供虚拟恋人和虚拟家人服务，14岁以下须获家长同意，并要求设置使用时长限制与定时提醒。",
+      "importance": "medium",
+      "reasoning": "4月10日新浪财经、第一财经等多媒体同步报道，3天内新闻。这是全球首部专门针对拟人化 AI 互动的国家级法规，直接回应 AI 伴侣/情感陪伴对青少年的潜在风险；对国内 AI 社交产品影响直接。Medium 级（区域性法规）。",
+      "source": "新浪财经 / 第一财经",
+      "url": "https://finance.sina.com.cn/roll/2026-04-10/doc-inhtzhty0266418.shtml",
+      "keywords": ["网信办", "拟人化AI", "虚拟恋人", "未成年人保护", "情感互动", "管理办法", "7月施行"],
+      "category": "政策法规"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-13T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "CNN", "SF Standard", "Japan Times", "Nikkei Asia", "iClarified", "AppleInsider", "Troutman Pepper", "Berkeley RDI", "Hacker News", "AIBase", "WebSearch", "中国教育部", "新浪财经", "第一财经"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 540
+  }
+}
