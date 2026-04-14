@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-14",
+  "date_formatted": "26/04/14",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "斯坦福发布AI指数年报",
+      "content": "斯坦福大学人类中心 AI 研究所发布2026年度 AI 指数报告：中国已基本抹平与美国的 AI 性能差距，两国模型自2025年起多次交替登顶；截至3月 Anthropic 以2.7%优势领跑全球；全球生成式 AI 采用率3年内达53%，超越个人电脑和互联网的同期普及速度；超90%前沿模型由私营企业开发，主要实验室已全部停止公开训练数据规模。",
+      "importance": "critical",
+      "reasoning": "4月13日 Stanford HAI 官网发布，MIT Technology Review、SiliconANGLE、IEEE Spectrum、TechCrunch 同步报道，昨日重大新闻。Stanford AI Index 是全球最权威的年度 AI 产业报告，中国抹平美国差距、Anthropic 全球第一、53%采用率超 PC/互联网、90%+模型来自私企等发现将直接影响全球 AI 政策与投资方向。Critical 级。",
+      "source": "Stanford HAI / MIT Technology Review",
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+      "keywords": ["斯坦福", "AI指数", "中美差距", "Anthropic", "53%采用率", "私营企业", "年度报告"],
+      "category": "行业报告"
+    },
+    {
+      "id": 2,
+      "title": "半数美国员工使用AI",
+      "content": "盖洛普对23717名美国员工的调查显示，50%的在职美国人现已在工作中使用 AI，为该调查历史上首次过半；其中13%每日使用，28%每周数次；在已部署 AI 的企业中，65%员工表示效率提升，但23%担心5年内岗位被取代；约四成企业已正式采用 AI 工具。",
+      "importance": "critical",
+      "reasoning": "4月13日 Gallup 官网发布，ABC News、Washington Times、Boston Globe、Axios 等多媒体同步报道，昨日重大新闻。Gallup 是美国最权威的民调机构，50%过半是历史性里程碑——标志 AI 从早期采纳跨入主流职场工具，23717人样本量确保统计可信度。Critical 级。",
+      "source": "Gallup / ABC News",
+      "url": "https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx",
+      "keywords": ["盖洛普", "50%", "美国员工", "AI采用", "职场", "效率提升", "岗位替代"],
+      "category": "行业研究"
+    },
+    {
+      "id": 3,
+      "title": "Vercel三成应用由AI创建",
+      "content": "Vercel CEO Rauch 在 HumanX 大会宣布公司已做好上市准备，年化营收从2024年初1亿美元增至3.4亿美元（+240%）；最具标志性的数据是平台上30%的应用已由 AI 智能体而非人类开发者创建，标志软件生产方式正在发生结构性转变；公司估值93亿美元，但软件板块抛售已冻结 IPO 通道。",
+      "importance": "critical",
+      "reasoning": "4月13日 TechCrunch 发表专题报道，BitcoinWorld 等跟进。30%应用由 AI 智能体创建是迄今最具说服力的「AI 替代人类开发者」量化证据，叠加240%营收增长和 IPO 信号，Vercel 已成为 AI 驱动软件开发范式转变的标杆案例。Critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "keywords": ["Vercel", "IPO", "30%AI应用", "智能体", "240%增长", "93亿估值", "HumanX"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "AI收益高度集中",
+      "content": "普华永道对25个行业1217名高管的全球调查发现，74%的 AI 经济收益被仅20%的企业获取；领先企业 AI 投入为同行的2.5倍，创造7.2倍价值回报，利润率高出4个百分点；关键差异在于领先者将 AI 用于增长和商业模式重塑，而非仅追求效率提升。",
+      "importance": "high",
+      "reasoning": "4月13日 PwC 官网发布，APAC Outlook 等多媒体报道。普华永道作为全球四大咨询公司之一，1217名高管/25行业的样本具有代表性；74%/20%的悬殊比例揭示 AI 红利分配的严重不均，对企业 AI 战略决策具有直接参考价值。High 级。",
+      "source": "PwC",
+      "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+      "keywords": ["普华永道", "74%", "20%企业", "AI收益", "7.2倍", "商业模式", "全球调查"],
+      "category": "行业研究"
+    },
+    {
+      "id": 5,
+      "title": "OpenAI收购理财创企",
+      "content": "OpenAI 收购 AI 个人理财初创公司 Hiro Finance，创始人 Ethan Bloch 及约10名员工加入；Bloch 此前创立的储蓄应用 Digit 曾以超2亿美元出售；Hiro 擅长金融数学精算及结果验证，将为 ChatGPT 增加财务规划能力，Hiro 产品4月20日关闭。",
+      "importance": "high",
+      "reasoning": "4月13日 TechCrunch 独家报道，Yahoo Finance、AIBase 跟进，昨日新闻。OpenAI 收购金融科技团队标志其正式将 ChatGPT 扩展至个人理财领域，Bloch 的 Digit 成功退出（$2亿+）证明其金融产品经验；虽为小型收购但战略方向明确。High 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "keywords": ["OpenAI", "Hiro Finance", "Ethan Bloch", "Digit", "ChatGPT", "理财", "收购"],
+      "category": "企业并购"
+    },
+    {
+      "id": 6,
+      "title": "AI假报告拖垮漏洞赏金",
+      "content": "HackerOne 于3月底暂停互联网漏洞赏金计划新提交，原因是 AI 生成的虚假漏洞报告泛滥令开源维护者不堪重负；Node.js 因资金依赖 HackerOne 随后同步暂停赏金计划；AI 将安全漏洞的瓶颈从「发现」转向「修复」，开源安全生态遭受系统性冲击。",
+      "importance": "high",
+      "reasoning": "4月6日 Slashdot 报道 HackerOne 暂停，近日 Node.js 官方博客确认同步暂停，Dark Reading 深度分析。HackerOne 是全球最大漏洞赏金平台，其暂停新提交直接影响数千个开源项目的安全维护；AI 生成虚假报告导致的「分诊疲劳」是 AI 对开源生态的负面影响典型案例。High 级。",
+      "source": "Node.js / Dark Reading",
+      "url": "https://nodejs.org/en/blog/announcements/discontinuing-security-bug-bounties",
+      "keywords": ["HackerOne", "Node.js", "漏洞赏金", "AI虚假报告", "开源安全", "分诊疲劳", "暂停"],
+      "category": "开发者生态"
+    },
+    {
+      "id": 7,
+      "title": "最大太空算力集群商用",
+      "content": "加拿大 Kepler Communications 宣布全球最大在轨计算集群正式面向客户开放，包含分布在10颗卫星上的40颗英伟达 Orin 处理器，通过光学星间链路实现低延迟协同，已服务18家客户。",
+      "importance": "medium",
+      "reasoning": "4月13日 TechCrunch、Dataconomy 等同步报道，昨日新闻。全球最大在轨 GPU 集群开放商用是太空计算基础设施的里程碑，但40颗边缘处理器的规模仍属早期验证阶段。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+      "keywords": ["Kepler", "太空算力", "在轨计算", "英伟达Orin", "10颗卫星", "光学链路", "18客户"],
+      "category": "基础设施"
+    },
+    {
+      "id": 8,
+      "title": "微软研发全天候AI智能体",
+      "content": "TechCrunch 报道微软正在组建新团队开发类似 OpenClaw 的企业级自主智能体，目标实现 M365 Copilot 的24小时全天候自动执行任务，由副总裁 Omar Shahine 领导，预计6月 Build 大会展示。",
+      "importance": "medium",
+      "reasoning": "4月13日 TechCrunch 报道，Tech Startups 跟进。微软将 OpenClaw 式自主能力引入 M365 Copilot 是对 Anthropic Claude Code 和 OpenAI Codex 的直接竞争回应，但目前仍处探索阶段，具体功能未公布。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "keywords": ["微软", "OpenClaw", "M365 Copilot", "自主智能体", "Build大会", "24小时", "企业级"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "OpenAI今日下架6款旧模型",
+      "content": "OpenAI 4月14日从 Codex 编程工具中正式移除 GPT-5、GPT-5.1、GPT-5.2-codex 等6款旧模型，用户统一迁移至 GPT-5.3-Codex-Spark（每秒超1000字符输出速度）。",
+      "importance": "medium",
+      "reasoning": "4月14日 The Tech Outlook 报道，OpenAI 开发者文档确认，今日生效。6款模型同时退役是 OpenAI 近期最大规模的模型生命周期清理，但属于预期内的常规迭代。Medium 级。",
+      "source": "The Tech Outlook / OpenAI",
+      "url": "https://www.thetechoutlook.com/new-release/software-apps/openai-retiring-older-models-in-codex-from-14th-april/",
+      "keywords": ["OpenAI", "GPT-5", "Codex", "模型退役", "GPT-5.3-Codex-Spark", "迁移", "6款"],
+      "category": "产品更新"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-14T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "Stanford HAI", "MIT Technology Review", "SiliconANGLE", "IEEE Spectrum", "Gallup", "ABC News", "PwC", "Node.js Blog", "Dark Reading", "Slashdot", "AIBase", "Hacker News", "CNBC", "Dataconomy", "The Tech Outlook", "WebSearch"],
+    "duplicates_removed": 5,
+    "generation_time_seconds": 480
+  }
+}
