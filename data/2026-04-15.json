@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-15",
+  "date_formatted": "26/04/15",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI发网络安全专用模型",
+      "content": "OpenAI 发布 GPT-5.4-Cyber 网络安全专用模型，可在无源代码条件下逆向分析已编译软件、检测恶意行为与漏洞；该模型不向公众开放，仅通过「可信网络访问」计划向审核通过的安全厂商和研究人员限量部署，计划扩展至数千名认证防御者，是 Anthropic Mythos 发布后的直接竞争回应。",
+      "importance": "critical",
+      "reasoning": "4月14日 OpenAI 官方博客发布，9to5Mac、The Hacker News、SiliconANGLE、Axios、XDA 等同步报道，昨日重大新闻。GPT-5.4-Cyber 是 OpenAI 首款专门面向网络安全的受限模型，具备二进制逆向工程能力，直接回应 Anthropic Mythos 的攻防能力，标志前沿 AI 模型正式进入网络安全军备竞赛。Critical 级。",
+      "source": "OpenAI / 9to5Mac",
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "keywords": ["OpenAI", "GPT-5.4-Cyber", "网络安全", "逆向分析", "可信访问", "受限部署", "Mythos"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Claude Code推云端自动化",
+      "content": "Anthropic 发布 Claude Code Routines 云端自动化功能（研究预览），用户可设置定时任务、API 触发或 GitHub 事件响应，无需保持电脑在线即可自动执行代码修复和 PR 创建等工作流；Pro 用户每日5次、Max 15次、Team 与 Enterprise 25次，Hacker News 获635点热议。",
+      "importance": "critical",
+      "reasoning": "4月14日 Anthropic 官方博客发布，9to5Mac、SiliconANGLE、The Register、The New Stack 等同步报道，Hacker News 635点/367评论，昨日重大新闻。Routines 是 Claude Code 首次支持无人值守的云端自动化执行，支持定时/API/GitHub 三种触发方式，标志 AI 编程工具从辅助模式向自主执行模式的范式转变。Critical 级。",
+      "source": "Anthropic / SiliconANGLE",
+      "url": "https://claude.com/blog/introducing-routines-in-claude-code",
+      "keywords": ["Anthropic", "Claude Code", "Routines", "云端自动化", "定时任务", "GitHub", "研究预览"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic营收首超OpenAI",
+      "content": "TechCrunch 报道 Anthropic 年化营收飙升至300亿美元，首次超越 OpenAI 的240亿美元；部分 OpenAI 投资者信心动摇，二级市场其股份折价交易，而 Anthropic 股份需求「几乎无法满足」；Iconiq Capital 合伙人向 Anthropic 投入逾10亿美元后公开表态「市场领导者赢得不成比例份额，我们已做出选择」，OpenAI 8520亿美元估值承压。",
+      "importance": "critical",
+      "reasoning": "4月14日 TechCrunch 发表深度报道，Bloomberg、PYMNTS、BitcoinWorld 等多媒体跟进。Anthropic 年化营收从2025年底90亿飙至300亿首次超过 OpenAI，叠加二级市场数据和 Iconiq Capital 等重量级投资者公开表态，构成 AI 行业竞争格局的历史性转折点。Critical 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "keywords": ["Anthropic", "OpenAI", "300亿", "投资者", "二级市场", "8520亿估值", "Iconiq Capital"],
+      "category": "行业动态"
+    },
+    {
+      "id": 4,
+      "title": "美财政部求测Mythos",
+      "content": "Bloomberg 报道美国财政部首席信息官 Corcos 正寻求本周内获得 Anthropic Mythos 模型访问权限，以主动排查联邦系统网络漏洞；同日报道显示高盛已实际部署 Mythos 并与 Anthropic 合作评估攻防风险，Mythos 对金融和政府基础设施的影响持续扩大。",
+      "importance": "high",
+      "reasoning": "4月14日 Bloomberg 独家报道美财政部 CIO 寻求 Mythos 访问权，同日另一篇 Bloomberg 报道确认高盛已在使用 Mythos。虽然4月13日已报道过美联储/财长召集银行 CEO，但财政部主动寻求技术访问和高盛实际部署是重要新进展，表明 Mythos 影响从预警阶段进入实操阶段。High 级。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws",
+      "keywords": ["美财政部", "Mythos", "Anthropic", "高盛", "网络安全", "联邦系统", "Bloomberg"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "谷歌Chrome推AI一键工具",
+      "content": "谷歌为 Chrome 浏览器推出 AI Skills 功能，用户可将常用 Gemini 提示词保存为一键工具，输入斜杠即可跨标签页执行购物比价、文档摘要、营养计算等工作流，今日起面向英文版桌面用户推出。",
+      "importance": "high",
+      "reasoning": "4月14日谷歌官方博客发布，TechCrunch、9to5Google、MacRumors、MarkTechPost 等同步报道，Hacker News 获171点。Skills 将 Gemini 能力直接嵌入全球市占率最高的浏览器，用户无需切换应用即可执行 AI 工作流，是谷歌将 AI 融入日常生产力工具的重要一步。High 级。",
+      "source": "Google Blog / TechCrunch",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "keywords": ["谷歌", "Chrome", "AI Skills", "Gemini", "一键工具", "工作流", "桌面用户"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "欧盟AI法案宽限期争议",
+      "content": "EuroISPA 牵头15家行业协会联名要求欧盟将生成式 AI 标注规则宽限期从6个月延长至12个月，覆盖8月2日截止日后新上市的 AI 系统；签署方包括 AmCham EU、BSA、CCIA 等横跨欧美的主要科技贸易组织。",
+      "importance": "high",
+      "reasoning": "4月12日 EuroISPA 官网发布联合声明，The Legal Wire 等法律媒体跟进，3天内新闻。15家行业协会联名施压是 EU AI Act 实施以来最大规模的行业集体行动，若延期成功将影响所有在欧盟运营的 AI 公司合规节奏，8月截止日迫近使此事具有紧迫性。High 级。",
+      "source": "EuroISPA / The Legal Wire",
+      "url": "https://thelegalwire.ai/industry-associations-request-extension-for-eu-ai-rulebook-implementation/",
+      "keywords": ["欧盟", "AI法案", "EuroISPA", "宽限期", "12个月", "标注规则", "行业协会"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "阿里视频模型登顶全球",
+      "content": "阿里黑马模型 HappyHorse-1.0 在 LM Arena 全球视频编辑评测中登顶第一，展示中国 AI 视频生成技术的全球竞争力。",
+      "importance": "medium",
+      "reasoning": "4月15日 AIBase 报道，今日新闻。HappyHorse-1.0 在权威视频编辑排行榜夺冠，是中国 AI 在视频生成领域的标志性突破，但具体技术细节和商用计划尚未充分披露。Medium 级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/27149",
+      "keywords": ["阿里巴巴", "HappyHorse", "视频编辑", "LM Arena", "全球第一", "视频生成"],
+      "category": "技术突破"
+    },
+    {
+      "id": 8,
+      "title": "天猫AI产品展示新规",
+      "content": "天猫4月14日起实施 AI 软件及应用类产品展示新规，规范商品功能描述、能力标注和体验标准，旨在提升消费者对 AI 产品的购买透明度。",
+      "importance": "medium",
+      "reasoning": "4月15日 AIBase 报道，4月14日正式生效。天猫作为中国最大 B2C 电商平台率先为 AI 产品制定展示规范，对规范国内 AI 应用市场有参考意义，但影响范围限于电商渠道。Medium 级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/27135",
+      "keywords": ["天猫", "AI产品", "展示新规", "消费者", "功能标注", "电商规范"],
+      "category": "政策监管"
+    },
+    {
+      "id": 9,
+      "title": "Gemini个人智能进入印度",
+      "content": "谷歌将 Gemini 个人智能功能扩展至印度市场，为当地用户提供 AI 驱动的个性化日程管理和信息整合服务，加速全球第二大互联网市场的 AI 渗透。",
+      "importance": "medium",
+      "reasoning": "4月14日 TechCrunch 报道，昨日新闻。谷歌 Gemini 进入拥有超8亿互联网用户的印度市场具有战略意义，但属于现有功能的地区扩展，非全新产品发布。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
+      "keywords": ["谷歌", "Gemini", "印度", "个人智能", "新兴市场", "日程管理"],
+      "category": "产品更新"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-15T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AIBase", "Hacker News", "Bloomberg", "OpenAI Blog", "Anthropic Blog", "Google Blog", "9to5Mac", "SiliconANGLE", "The Register", "Axios", "The Hacker News", "EuroISPA", "The Legal Wire", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 420
+  }
+}
