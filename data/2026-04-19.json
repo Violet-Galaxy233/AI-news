@@ -1,0 +1,113 @@
+{
+  "date": "2026-04-19",
+  "date_formatted": "26/04/19",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Opus 4.7 登顶编程",
+      "content": "Anthropic 4月16日发布 Claude Opus 4.7，SWE-bench Verified 得分 87.6% 超越 GPT-5.4 的 80.6% 和 Gemini 3.1 Pro 同分登顶编程智能体；SWE-bench Pro 64.3% 较前代 4.6 版 53.4% 大幅提升，100 万字符上下文，定价 $5/$25 每百万字符，Amazon Bedrock 与 Vertex AI、Microsoft Foundry 同步上线。",
+      "importance": "critical",
+      "reasoning": "4月16日 Anthropic 官方发布，TheNextWeb、Amazon AWS 博客、Vellum AI、LLM-Stats 等数十家同步报道，3天内重大新闻。Opus 4.7 是 Anthropic 旗舰模型重大版本升级，在真实工程编程评测上显著领先 OpenAI 和 Google 旗舰模型，同时驱动同日发布的 Claude Design 新产品，是当前最强的编程 AI 模型。Critical 级。",
+      "source": "Anthropic / Amazon AWS",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
+      "keywords": ["Anthropic", "Claude Opus 4.7", "SWE-bench", "编程智能体", "模型发布"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Cerebras 递交 IPO",
+      "content": "AI 芯片商 Cerebras 4月17日向 Nasdaq 递交 IPO 申请（代码 CBRS），摩根士丹利领投，目标募资 20 亿美元，估值 230 亿美元；OpenAI 已承诺三年采购超 200 亿美元芯片并获 3340 万股认股权证及 10 亿美元贷款；公司 2025 年营收 5.1 亿美元同比增 76%，从上年 4.85 亿美元净亏损扭亏为盈 8790 万美元。",
+      "importance": "critical",
+      "reasoning": "4月17日 Cerebras 官方递交招股书，TechCrunch、CNBC、Manila Times、Reuters、Mezha 等全球同步报道，昨日重大新闻。Cerebras 是英伟达最直接的挑战者，是2026年最受关注的 AI 硬件 IPO；OpenAI 承诺三年 200 亿采购与股权绑定标志 AI 实验室与替代芯片厂捆绑格局形成，营收扭亏展现 AI 推理芯片商业化拐点。Critical 级。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+      "keywords": ["Cerebras", "IPO", "Nasdaq", "OpenAI", "AI芯片", "承销"],
+      "category": "投资融资"
+    },
+    {
+      "id": 3,
+      "title": "Cursor 估值破 500 亿",
+      "content": "AI 编程工具 Cursor 4月17日传出融资 20 亿美元新一轮，估值升至 500 亿美元，较 6 个月前 293 亿估值近乎翻倍；Thrive 和 a16z 领投，英伟达和 Battery Ventures 参与；2026 年营收年化将突破 60 亿美元，从年初 1 亿到 2 月达 20 亿 ARR，被公认为史上增长最快 B2B 软件公司。",
+      "importance": "critical",
+      "reasoning": "4月17日 Bloomberg、TechCrunch、TheNextWeb、Benzinga、Yahoo Finance 等全球同步报道，昨日重大新闻。Cursor 6 个月估值翻倍至 500 亿美元是当前 AI 编程赛道最具代表性的估值事件，$6B ARR 预期改写 B2B SaaS 增长纪录，英伟达首次作为战略投资者参与表明硬件与 AI 编程工具的深度绑定趋势。Critical 级。",
+      "source": "Bloomberg / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+      "keywords": ["Cursor", "500亿估值", "Thrive", "a16z", "英伟达", "B2B SaaS"],
+      "category": "投资融资"
+    },
+    {
+      "id": 4,
+      "title": "Amodei 会见白宫",
+      "content": "Anthropic CEO Amodei 4月18日与白宫幕僚长 Susie Wiles 和财长 Scott Bessent 会面，就 Mythos 模型部署协商合作协议，数月对峙首次解冻；白宫称会谈「富有成效」，Mythos 强大网络安全能力既是战略优势又构成国安风险，迫使双方回到谈判桌。",
+      "importance": "high",
+      "reasoning": "4月18日 TechCrunch、Yahoo、Investing、Crypto Briefing 等同步报道，今日新闻。Anthropic 与特朗普政府在2-3月经历了供应链风险认定和联邦禁令两次正面冲突，此次 CEO 亲自进入白宫与幕僚长和财长同席标志双方关系转折点，Mythos 模型成为关键筹码。High 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
+      "keywords": ["Anthropic", "Amodei", "白宫", "Mythos", "特朗普政府", "解冻"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "π0.7 机器人模型",
+      "content": "Physical Intelligence 4月16日发布机器人基础模型 π0.7，基于谷歌开源 Gemma3 语言模型 40 亿参数加 8.6 亿动作专家，首次展现组合泛化能力，双臂 UR5e 机械臂在完全无叠衣训练数据下成功折叠 T 恤，成功率达 80%。",
+      "importance": "high",
+      "reasoning": "4月16日 Physical Intelligence 发布，TechCrunch、The Decoder、Humanoids Daily、Digital Today、Mezha 等同步报道，3天内重大新闻。π0.7 展示机器人模型首次具备类大语言模型的跨任务迁移能力，无训练数据叠衣 80% 成功率是机器人通用能力的关键突破，但仍属研究成果未商用。High 级。",
+      "source": "TechCrunch / The Decoder",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "keywords": ["Physical Intelligence", "π0.7", "机器人", "Gemma3", "组合泛化", "UR5e"],
+      "category": "技术突破"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI 三高管辞职",
+      "content": "OpenAI 4月17日同日宣布三名高管离职：前 Sora 负责人 Bill Peebles、科研主管 Kevin Weil 和 B2B 应用部 Srinivas Narayanan；公司围绕企业 AI 与「超级应用」战略收缩，Sora 此前因每日 100 万美元算力亏损被关停，OpenAI for Science 团队并入其他研究组。",
+      "importance": "high",
+      "reasoning": "4月17日 TechCrunch、CNBC、Benzinga 等同步报道，昨日新闻。同日三名高管离职是 OpenAI 自 Altman 风波后最大规模的高层人事变动，明确释放公司战略聚焦信号；Peebles 是 Sora 核心研发、Weil 是产品灵魂人物，他们的离开与「副业清理」战略一致。High 级。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "keywords": ["OpenAI", "Kevin Weil", "Bill Peebles", "Srinivas Narayanan", "Sora", "超级应用"],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "Claude Design 上线",
+      "content": "Anthropic 4月17日发布 Claude Design 研究预览，由 Opus 4.7 驱动，可生成原型、幻灯片、海报等视觉稿，读取公司代码库自动套用设计系统，Pro/Max/Team/Enterprise 订阅可用。",
+      "importance": "medium",
+      "reasoning": "4月17日 TechCrunch、MacRumors、SiliconANGLE、The Register 等同步报道，昨日新闻。Claude Design 首次将 Opus 4.7 的编程和视觉能力整合为面向非设计师的产品，定位设计工具的「前置」而非替代 Canva，属于 Anthropic 产品矩阵扩展。Medium 级。",
+      "source": "TechCrunch / MacRumors",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "keywords": ["Anthropic", "Claude Design", "视觉创作", "设计系统", "Opus 4.7"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Perplexity Mac 助手",
+      "content": "Perplexity 4月17日向 Max 订阅用户（$200 每月）推出 Personal Computer Mac 应用，双 Command 键唤起，可跨本地文件、原生应用、连接器和网页执行连续智能体任务。",
+      "importance": "medium",
+      "reasoning": "4月17日 9to5Mac、eWeek、Thurrott、Dataconomy 等同步报道，昨日新闻。Personal Computer 是 Perplexity 从搜索向「AI 原生操作系统」转型的关键产品，但定价 $200/月且仅 Max 用户可用，受众有限。Medium 级。",
+      "source": "9to5Mac / eWeek",
+      "url": "https://9to5mac.com/2026/04/16/perplexitys-personal-computer-ai-assistant-feature-launches-on-mac-for-subscribers/",
+      "keywords": ["Perplexity", "Personal Computer", "Mac", "Max订阅", "智能体"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "DeepSeek 首次外部融资",
+      "content": "中国 AI 公司 DeepSeek 4月17日启动成立以来首次外部融资，目标至少 3 亿美元，估值 100 亿美元，主要面向国内投资者，此前仅靠母公司幻方量化出资。",
+      "importance": "medium",
+      "reasoning": "4月17日 The Information 首发，Reuters、Quartz、The Decoder、Tech Startups 等同步报道，昨日新闻。DeepSeek 首次对外融资标志其从对冲基金孵化项目转向独立运营，估值 100 亿美元反映中国 AI 公司资本化节奏，但规模远低于同期美国同行。Medium 级。",
+      "source": "Reuters / Quartz",
+      "url": "https://qz.com/deepseek-outside-funding-10-billion-valuation-041726",
+      "keywords": ["DeepSeek", "融资", "100亿估值", "幻方量化", "中国AI"],
+      "category": "投资融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-19T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AIBase", "Hacker News", "Bloomberg", "CNBC", "Amazon AWS", "Anthropic", "TheNextWeb", "MacRumors", "9to5Mac", "The Decoder", "Benzinga", "Manila Times", "Quartz", "SiliconANGLE", "The Register", "eWeek", "Investing.com", "Reuters", "WebSearch"],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 420
+  }
+}
