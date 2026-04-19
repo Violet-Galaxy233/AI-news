@@ -5,13 +5,13 @@
   "news": [
     {
       "id": 1,
-      "title": "Opus 4.7 登顶编程",
-      "content": "Anthropic 4月16日发布 Claude Opus 4.7，SWE-bench Verified 得分 87.6% 超越 GPT-5.4 的 80.6% 和 Gemini 3.1 Pro 同分登顶编程智能体；SWE-bench Pro 64.3% 较前代 4.6 版 53.4% 大幅提升，100 万字符上下文，定价 $5/$25 每百万字符，Amazon Bedrock 与 Vertex AI、Microsoft Foundry 同步上线。",
+      "title": "Claude Design 发布",
+      "content": "Anthropic 4月17日发布 Claude Design 研究预览，由同日上线的旗舰模型 Claude Opus 4.7 驱动（SWE-bench Verified 87.6% 登顶编程），用户用自然语言即可生成原型、幻灯片、海报等视觉稿，能读取公司代码库自动套用设计系统，面向创始人和产品经理等非设计师群体，Pro/Max/Team/Enterprise 订阅可用，定位设计前置工具而非替代 Canva。",
       "importance": "critical",
-      "reasoning": "4月16日 Anthropic 官方发布，TheNextWeb、Amazon AWS 博客、Vellum AI、LLM-Stats 等数十家同步报道，3天内重大新闻。Opus 4.7 是 Anthropic 旗舰模型重大版本升级，在真实工程编程评测上显著领先 OpenAI 和 Google 旗舰模型，同时驱动同日发布的 Claude Design 新产品，是当前最强的编程 AI 模型。Critical 级。",
-      "source": "Anthropic / Amazon AWS",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
-      "keywords": ["Anthropic", "Claude Opus 4.7", "SWE-bench", "编程智能体", "模型发布"],
+      "reasoning": "4月17日 Anthropic 发布，TechCrunch、MacRumors、SiliconANGLE、The Register、9to5Mac 等同步报道，昨日重大新闻。Claude Design 是 Anthropic 首款视觉创作产品，将最新 Opus 4.7 模型的编程与视觉能力整合为非技术用户可用的设计工作流，能读取代码库自动应用公司设计系统，是 AI 编程向 AI 创作范式扩展的关键一步。Critical 级。",
+      "source": "Anthropic / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "keywords": ["Anthropic", "Claude Design", "Opus 4.7", "视觉创作", "设计系统", "研究预览"],
       "category": "产品发布"
     },
     {
@@ -38,6 +38,17 @@
     },
     {
       "id": 4,
+      "title": "Opus 4.7 登顶编程",
+      "content": "Anthropic 4月16日发布 Claude Opus 4.7，SWE-bench Verified 87.6% 和 SWE-bench Pro 64.3% 双项超越 GPT-5.4 和 Gemini 3.1 Pro，较前代 4.6 版提升显著；100 万字符上下文，定价 $5/$25 每百万字符，Amazon Bedrock、Vertex AI、Microsoft Foundry 同步上线。",
+      "importance": "high",
+      "reasoning": "4月16日 Anthropic 官方发布，TheNextWeb、Amazon AWS 博客、Vellum AI、LLM-Stats 等数十家同步报道，3天内新闻。Opus 4.7 是 Anthropic 旗舰模型重大版本升级，在真实工程编程评测上显著领先 OpenAI 和 Google 旗舰模型，驱动同日发布的 Claude Design 新产品。High 级（与 Claude Design 同源事件，独立保留核心能力对比）。",
+      "source": "Anthropic / Amazon AWS",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
+      "keywords": ["Anthropic", "Claude Opus 4.7", "SWE-bench", "编程智能体", "模型升级"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
       "title": "Amodei 会见白宫",
       "content": "Anthropic CEO Amodei 4月18日与白宫幕僚长 Susie Wiles 和财长 Scott Bessent 会面，就 Mythos 模型部署协商合作协议，数月对峙首次解冻；白宫称会谈「富有成效」，Mythos 强大网络安全能力既是战略优势又构成国安风险，迫使双方回到谈判桌。",
       "importance": "high",
@@ -48,7 +59,7 @@
       "category": "政策监管"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "π0.7 机器人模型",
       "content": "Physical Intelligence 4月16日发布机器人基础模型 π0.7，基于谷歌开源 Gemma3 语言模型 40 亿参数加 8.6 亿动作专家，首次展现组合泛化能力，双臂 UR5e 机械臂在完全无叠衣训练数据下成功折叠 T 恤，成功率达 80%。",
       "importance": "high",
@@ -59,7 +70,7 @@
       "category": "技术突破"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "OpenAI 三高管辞职",
       "content": "OpenAI 4月17日同日宣布三名高管离职：前 Sora 负责人 Bill Peebles、科研主管 Kevin Weil 和 B2B 应用部 Srinivas Narayanan；公司围绕企业 AI 与「超级应用」战略收缩，Sora 此前因每日 100 万美元算力亏损被关停，OpenAI for Science 团队并入其他研究组。",
       "importance": "high",
@@ -68,17 +79,6 @@
       "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
       "keywords": ["OpenAI", "Kevin Weil", "Bill Peebles", "Srinivas Narayanan", "Sora", "超级应用"],
       "category": "公司动态"
-    },
-    {
-      "id": 7,
-      "title": "Claude Design 上线",
-      "content": "Anthropic 4月17日发布 Claude Design 研究预览，由 Opus 4.7 驱动，可生成原型、幻灯片、海报等视觉稿，读取公司代码库自动套用设计系统，Pro/Max/Team/Enterprise 订阅可用。",
-      "importance": "medium",
-      "reasoning": "4月17日 TechCrunch、MacRumors、SiliconANGLE、The Register 等同步报道，昨日新闻。Claude Design 首次将 Opus 4.7 的编程和视觉能力整合为面向非设计师的产品，定位设计工具的「前置」而非替代 Canva，属于 Anthropic 产品矩阵扩展。Medium 级。",
-      "source": "TechCrunch / MacRumors",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-      "keywords": ["Anthropic", "Claude Design", "视觉创作", "设计系统", "Opus 4.7"],
-      "category": "产品发布"
     },
     {
       "id": 8,
