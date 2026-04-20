@@ -1,0 +1,102 @@
+{
+  "date": "2026-04-20",
+  "date_formatted": "26/04/20",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "机器人破半马纪录",
+      "content": "荣耀机器人「闪电号」4 月 19 日在北京人形半马赛以 50 分 26 秒夺冠，打破人类世界纪录（乌干达 Kiplimo 57 分），较去年冠军 2 小时 40 分大幅提速；112 支队伍参赛含 5 支国际队，40% 采自主导航，是全球首次机器人在耐力赛击败人类纪录。",
+      "importance": "critical",
+      "reasoning": "4月19日（今日）北京人形机器人半马赛举行，荣耀「闪电号」以自主导航完赛50分26秒破人类世界纪录，CNN、CNBC、Al Jazeera、PBS NewsHour、Fox News、NBC、Fortune等全球主流媒体广泛报道。机器人首次在有记录的耐力赛事中超越人类最佳成绩，较去年冠军缩短近2小时，是中国人形机器人技术的里程碑；112队参赛规模及5国国际队出席兼具技术和地缘意义，属范式转变技术。Critical级。",
+      "source": "CNBC / CNN / Al Jazeera",
+      "url": "https://www.cnbc.com/2026/04/19/a-non-human-race-beijing-half-marathon-shows-how-far-robots-have-come.html",
+      "keywords": ["人形机器人", "北京半马", "荣耀", "闪电号", "世界纪录", "中国机器人"],
+      "category": "技术突破"
+    },
+    {
+      "id": 2,
+      "title": "DeepSeek V4 华为独跑",
+      "content": "DeepSeek V4 预计本月底发布，将完全在华为昇腾 950PR 芯片运行，参数达 1 万亿（实际激活 370 亿），是首款不依赖英伟达 GPU 的前沿 AI 模型；英伟达 CEO 黄仁勋称若完成优化「对美国是巨大威胁」，阿里、字节已批量采购华为芯片备货。",
+      "importance": "critical",
+      "reasoning": "4月16日Dataconomy、TechBriefly、HuaweiCentral、Reuters等同步报道，英伟达CEO黄仁勋当日公开回应，属持续发酵的战略性重大事件（时间略超3天，依WORKFLOW例外规则保留）。DeepSeek V4以华为芯片运行标志中国AI首次实现对英伟达GPU的完全独立，1万亿参数规模与前沿模型竞争，若实现量产将重塑全球AI算力供应格局，是改变技术路径的范式转变。Critical级。",
+      "source": "Dataconomy / Reuters / HuaweiCentral",
+      "url": "https://dataconomy.com/2026/04/16/deepseek-v4-ai-model-to-debut-using-only-huawei-chips/",
+      "keywords": ["DeepSeek", "V4", "华为", "英伟达", "芯片独立", "中美AI"],
+      "category": "技术突破"
+    },
+    {
+      "id": 3,
+      "title": "欧盟AI招聘审计开幕",
+      "content": "欧盟 8 月 2 日起将 AI 招聘工具列为高风险系统，全球凡向欧盟求职者使用 AI 筛选的雇主须年度接受独立第三方审计，不合规最高罚 1500 万欧元或全球营收 3%；目前认证审计机构供不应求，距截止日仅余 105 天。",
+      "importance": "critical",
+      "reasoning": "4月19日asanify.com「AI Hiring Bias Audit」专栏及Eversheds-Sutherland全球AI法规月报重点报道，今日新闻。8月2日强制生效的AI招聘审计条款是全球首项对AI就业决策的法定监管，覆盖所有向欧盟招聘的全球雇主，€1500万罚款上限及认证审计机构供不应求的现实使合规压力空前，符合「首例监管·影响全行业」的Critical标准。Critical级。",
+      "source": "asanify.com / Eversheds-Sutherland",
+      "url": "https://asanify.com/blog/news/ai-hiring-bias-audit-april-19-2026/",
+      "keywords": ["欧盟AI法案", "招聘审计", "高风险AI", "合规", "8月截止日", "全球雇主"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "Codex 接管 Mac 桌面",
+      "content": "OpenAI 4 月 16 日更新 Codex，新增 Mac 电脑操控（可自行点击）、90+ 插件和图片生成，300 万开发者适用，并推出 100 美元 / 月 Pro 订阅。",
+      "importance": "high",
+      "reasoning": "4月16日OpenAI官方发布，MacRumors、9to5Mac、ghacks、helpnetsecurity、SmartScope等同步报道，3天内重要新闻。Codex Mac电脑操控是AI编程工具首次具备桌面自主执行能力，90+插件扩展远超前代，面向300万周活开发者；与4月15日已报道的Claude Code Routines形成正面竞争，推动AI编程工具从辅助向自主执行演进。High级。",
+      "source": "OpenAI / MacRumors / 9to5Mac",
+      "url": "https://openai.com/index/codex-for-almost-everything/",
+      "keywords": ["OpenAI", "Codex", "Mac电脑操控", "90插件", "图片生成", "Pro订阅"],
+      "category": "产品更新"
+    },
+    {
+      "id": 5,
+      "title": "Grok 4.3 Beta 上线",
+      "content": "xAI 4 月 17 日为 Grok 4.3 Beta 限 300 美元 / 月用户，新增 PDF / PPT 原生输出、视频输入；马斯克称当前 0.5 万亿参数，1 万亿参数版 5 天内完成训练。",
+      "importance": "high",
+      "reasoning": "4月17日PiunikaWeb、Phemex、buildfastwithai等同步报道，3天内重要新闻。Grok 4.3 Beta引入PDF、PowerPoint原生生成和视频输入，是xAI首次在文档创作赛道发力；马斯克公开确认1万亿参数版训练进度表明xAI算力储备显著提升，但仅限$300/月高端订阅者，受众有限。High级。",
+      "source": "PiunikaWeb / Phemex",
+      "url": "https://piunikaweb.com/2026/04/17/xai-grok-4-3-beta-supergrok-heavy/",
+      "keywords": ["xAI", "Grok 4.3", "Beta", "PDF生成", "视频输入", "马斯克"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "AI 智能体可刷卡",
+      "content": "Mastercard 与 Lobster.cash 合作，AI 智能体首次可用持卡人银行卡在 OpenClaw 平台自主购物，每笔交易经 Mastercard 网络认证，接入全球超 100 万部智能体。",
+      "importance": "high",
+      "reasoning": "4月16日fintech.global、theblock.co、prnewswire等同步报道，3天内重要新闻（4月16日=4天，属持续发酵的重要行业事件保留）。Mastercard是全球最大卡组织之一，此次开放AI智能体代理消费是主流支付网络首次正式支持自主AI购物，将激活全球百万级智能体经济场景，是智能体经济从概念走向主流支付体系的标志性节点。High级。",
+      "source": "fintech.global / The Block",
+      "url": "https://fintech.global/2026/04/16/lobster-cash-partners-with-mastercard-for-ai-agent-payments/",
+      "keywords": ["Mastercard", "AI智能体", "支付", "Lobster.cash", "OpenClaw", "代理消费"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Chrome AI 并排浏览",
+      "content": "谷歌 4 月 17 日上线 Chrome AI Mode 并排浏览，点链接可同屏对比网页与 AI 回答，美国先发。",
+      "importance": "medium",
+      "reasoning": "4月16日TechCrunch发布，4月17日resultsense、dataconomy、fonearena等跟进报道，3天内新闻。Chrome AI Mode并排浏览降低用户在AI问答和网页之间切换的摩擦，但属于现有功能的体验升级而非全新产品，美国先行区域有限。Medium级。",
+      "source": "Google Blog / TechCrunch",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+      "keywords": ["谷歌", "Chrome", "AI Mode", "并排浏览", "搜索体验", "美国先行"],
+      "category": "产品更新"
+    },
+    {
+      "id": 8,
+      "title": "Slash 推出 AI 财务管家",
+      "content": "AI 银行平台 Slash 融资 1 亿美元达 14 亿估值，同步上线 AI 财务管家 Twin 处理支付和发票。",
+      "importance": "medium",
+      "reasoning": "4月16日SiliconANGLE、fintech.global、finopotamus等同步报道，3天内新闻。Slash 24个月从1000万飙至2.5亿年化营收晋升独角兽，Twin是AI财务自主执行的新兴案例，但1亿美元融资低于「10亿美元以上大型融资」High门槛，受众限企业金融场景。Medium级。",
+      "source": "SiliconANGLE / fintech.global",
+      "url": "https://siliconangle.com/2026/04/16/slash-raises-100m-1-4b-valuation-expand-ai-powered-banking-platform-online-businesses/",
+      "keywords": ["Slash", "AI银行", "Twin", "1亿美元", "独角兽", "AI财务"],
+      "category": "投资融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-20T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["CNBC", "CNN", "Al Jazeera", "PBS NewsHour", "Fox News", "NBC", "Fortune", "Dataconomy", "TechBriefly", "HuaweiCentral", "Reuters", "asanify.com", "Eversheds-Sutherland", "OpenAI", "MacRumors", "9to5Mac", "ghacks", "helpnetsecurity", "PiunikaWeb", "Phemex", "fintech.global", "The Block", "Google Blog", "TechCrunch", "SiliconANGLE", "WebSearch"],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 960
+  }
+}
