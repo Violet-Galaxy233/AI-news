@@ -1,0 +1,139 @@
+{
+  "date": "2026-04-21",
+  "date_formatted": "26/04/21",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "亚马逊加码 Anthropic",
+      "content": "Amazon 4月20日 宣布对 Anthropic 追加 50 亿美元投资、累计达 130 亿美元，未来与商业里程碑挂钩可再注资 200 亿；Anthropic 承诺未来 10 年向 AWS 采购 1000 亿美元以上算力、获得 5GW 新增容量跑 Trainium2 至 Trainium4 芯片，2026 年底前部署近 1GW；合作对标亚马逊 2 月 500 亿投资 OpenAI 的 1100 亿联合融资。",
+      "importance": "critical",
+      "reasoning": "4月20日 TechCrunch、Bloomberg、CNBC、GeekWire、Engadget、Yahoo Finance、Data Center Knowledge 等全球同步报道，今日头条新闻。Amazon-Anthropic 结构性绑定升级：Anthropic 以 1000 亿美元 AWS 支出承诺换 5GW 算力与自研芯片优先权，重塑云厂 +AI 实验室的资本 - 算力循环结构；VC 最新估值触及 8000 亿美元。Critical 级。",
+      "source": "TechCrunch / Bloomberg / CNBC",
+      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+      "keywords": ["Anthropic", "Amazon", "AWS", "Trainium", "算力承诺", "130亿投资"],
+      "category": "投资融资"
+    },
+    {
+      "id": 2,
+      "title": "NSA 使用 Mythos",
+      "content": "Axios、TechCrunch 4月19日 披露 NSA 正使用 Anthropic 上月发布的顶级网络安全模型 Mythos，尽管五角大楼仍将 Anthropic 定性为「供应链风险」；Mythos 仅向 40 家机构开放、用于扫描可利用漏洞，NSA 是未公开名单之一；Amodei 本周密会白宫幕僚长 Wiles 和财长 Bessent，对峙出现融冰信号。",
+      "importance": "critical",
+      "reasoning": "4月19-20日 Axios 首发，TechCrunch、Seeking Alpha、TechTimes、Business Today、Digitimes 等全球同步报道，今日热点新闻。NSA 暗中采纳与五角大楼黑名单形成强烈冲突，联同 Amodei 白宫密会，标志 Anthropic 与政府对峙路径从「政策公开战」转向「情报机构务实绕行」，对 AI 防务供应链政治经济走向有示范意义。Critical 级。",
+      "source": "Axios / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+      "keywords": ["NSA", "Anthropic", "Mythos", "五角大楼", "供应链风险", "Amodei"],
+      "category": "政策法规"
+    },
+    {
+      "id": 3,
+      "title": "通义千问 3.6 Max 登顶",
+      "content": "阿里巴巴 4月20日 发布 Qwen 3.6 Max Preview，在 SWE-Bench Pro、Terminal-Bench 2.0 等 6 项编程测试登顶；Artificial Analysis 智能指数 52 分挤进同价位推理模型前列，世界知识和指令跟随较 Plus 全面提升；API 同时兼容 OpenAI 和 Anthropic 规范，经 Qwen Studio 和阿里云模型工坊提供。",
+      "importance": "critical",
+      "reasoning": "4月20日 Decrypt、Artificial Analysis、Dataconomy、DataLearner 等同步报道，Hacker News 首页 525 点位居榜首，今日热点新闻。Qwen 3.6 Max Preview 6 项编程测试登顶+双协议 API 兼容是中国开放 AI 模型首次在规范层对标美国闭源巨头，对企业选型策略有实质影响。Critical 级。",
+      "source": "Decrypt / Artificial Analysis",
+      "url": "https://decrypt.co/364948/alibaba-qwen-3-6-max-preview-most-powerful-model",
+      "keywords": ["阿里巴巴", "Qwen 3.6 Max", "编程测试", "智能指数", "API兼容"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Kimi K2.6 开源发布",
+      "content": "月之暗面 4月20日 开源全量 Kimi K2.6：1 万亿参数混合专家架构（320 亿活跃）、256K 上下文、修改版 MIT 许可；SWE-Bench Verified 80.2% 持平 Claude Opus 4.6、BrowseComp 83.2% 超越 GPT-5.4、HLE 含工具 54.0% 超 GPT-5.4；支持 300 路智能体并行、4000 步协调编排，对标闭源顶级模型。",
+      "importance": "critical",
+      "reasoning": "4月20日 SiliconANGLE、The Decoder、Implicator、TestingCatalog、Phemex 等同步报道，Hacker News 首页 563 点。Kimi K2.6 4月13日 Preview 后今日全量开源权重，以 1T 参数+ 300 智能体编排+三项测试持平或超越闭源顶级模型，成为开源 AI 在代理化工作流的新基线，对开源生态格局有实质推动。Critical 级。",
+      "source": "SiliconANGLE / The Decoder",
+      "url": "https://siliconangle.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-model-1t-parameters-attention-optimizations/",
+      "keywords": ["月之暗面", "Kimi K2.6", "开源", "万亿参数", "SWE-Bench", "智能体编排"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Atlassian 默认训练",
+      "content": "Atlassian 4月18日 公告 8月17日 起 Jira/Confluence 数据默认用于训练 AI：免费和标准版元数据永远无法退订，高级版默认关闭应用内数据但元数据不能退订，仅企业版可完全退订；数据保留 7 年，HIPAA 及政府/金融客户豁免。",
+      "importance": "high",
+      "reasoning": "4月17-19日 The Register、gHacks、byteiota、Agent Wars 等同步报道，Hacker News 496 点热议，3 天内热点。Atlassian 按付费等级分层的「opt-out 税」模式引发开源社区和企业法务界强烈反弹，是 SaaS 巨头 AI 训练数据合规与付费隔离路线的首例公开分层政策，对 Notion、Confluence 竞争对手定价策略有参照意义。High 级。",
+      "source": "The Register / gHacks",
+      "url": "https://www.theregister.com/2026/04/18/atlassians_new_data_collection_policy/",
+      "keywords": ["Atlassian", "Jira", "Confluence", "默认训练", "opt-out", "数据合规"],
+      "category": "政策法规"
+    },
+    {
+      "id": 6,
+      "title": "Codex Chronicle 上线",
+      "content": "OpenAI 4月20日 推出 Mac 版 Codex 的 Chronicle 研究预览：后台自动截屏、OCR 文字和本地文件路径，用 Codex 提炼成 markdown 记忆文件存入本地目录；仅 ChatGPT Pro 订阅可用，欧盟英瑞暂未开放；截图 6 小时后删除但记忆未加密，易受提示词注入攻击。",
+      "importance": "high",
+      "reasoning": "4月20日 OpenAI 官方发布，9to5Mac、TheNextWeb、The Decoder、gHacks 等同步报道，今日新闻。Chronicle 是 OpenAI 首次将「记忆层」扩展至操作系统截屏级别，与 Codex 近期 Computer Use+90+插件+浏览器构成「屏幕 + 行为 + 工具」全栈智能体；存储未加密与提示词注入风险引发广泛讨论。High 级。",
+      "source": "OpenAI / 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/",
+      "keywords": ["OpenAI", "Codex", "Chronicle", "屏幕录制", "记忆层", "ChatGPT Pro"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Altman 进军演唱会",
+      "content": "Altman 旗下 Tools for Humanity 4月17日 在旧金山 Lift Off 大会发布 Concert Kit：艺人可将门票池专供完成虹膜扫描 Orb 验证的粉丝以防黄牛机器人，首发搭档 Bruno Mars 世界巡演+Anderson .Paak 旧金山专场；同步整合 Tinder 人类认证徽章、Zoom 会议验证、Docusign 签约核身。",
+      "importance": "high",
+      "reasoning": "4月17-18日 TechCrunch、Engadget、Axios、Hypebeast、Music Ally 等同步报道，3 天内热点。World ID 虹膜扫描从加密货币单一场景扩张至演唱会门票、约会、视频会议、合同签约全生活流，是 Altman 身份验证体系首次商业化突破；与其 OpenAI CEO 身份叠加形成独立庞大身份数据池，对隐私边界有长期影响。High 级。",
+      "source": "TechCrunch / Engadget",
+      "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+      "keywords": ["Sam Altman", "Tools for Humanity", "Concert Kit", "World ID", "Orb", "虹膜扫描"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "Deezer AI 歌曲 44%",
+      "content": "Deezer 4月20日 披露每日新上传歌曲 44% 由 AI 生成，日均 7.5 万首、月均 200 万首；消费端仅占 1-3% 流量、其中 85% 被判定为欺诈并取消分成。",
+      "importance": "medium",
+      "reasoning": "4月20日 TechCrunch、Slashdot、Billboard、Engadget、TechRadar、Music Business Worldwide 同步报道，今日新闻。Deezer 是首家平台级 AI 音乐标注方，44% 比例较 2025 年 1 月的 1 万首/日翻 7 倍，揭示 AI 音乐已逼近创作端临界点但消费端远未跟上；是流媒体行业 AI 治理和版税分配关键数据点。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+      "keywords": ["Deezer", "AI音乐", "44%", "75000首", "欺诈检测"],
+      "category": "行业报告"
+    },
+    {
+      "id": 9,
+      "title": "华为 AI 眼镜发布",
+      "content": "华为 4月20日 开启首款 AI 眼镜预售、4月25日 正式开售：起售价 2499 元、银色版 2899 元，35.5 克重自研芯片，支持支付宝「看一眼付」、第一视角直播通话和卡路里识别。",
+      "importance": "medium",
+      "reasoning": "4月20日 TechNode、South China Morning Post、Gizmodo、HuaweiCentral 等同步报道，今日新闻。华为首款 AI 眼镜是 HarmonyOS 生态向可穿戴智能延伸，35.5 克重量+支付宝整合+自研芯片组合对标 Meta Ray-Ban 和阿里/Rokid，是中国厂商在 Meta Ray-Ban Meta 已售 200 万副后的集体反击。Medium 级。",
+      "source": "TechNode / SCMP",
+      "url": "https://technode.com/2026/04/20/huawei-launches-harmonyos-ai-smart-glasses-with-camera-and-real-time-translation/",
+      "keywords": ["华为", "AI眼镜", "HarmonyOS", "支付宝", "2499元"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-21T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": [
+      "TechCrunch",
+      "Bloomberg",
+      "CNBC",
+      "Axios",
+      "9to5Mac",
+      "The Register",
+      "SiliconANGLE",
+      "The Decoder",
+      "Engadget",
+      "Decrypt",
+      "Artificial Analysis",
+      "GeekWire",
+      "Data Center Knowledge",
+      "TechNode",
+      "South China Morning Post",
+      "Billboard",
+      "Music Business Worldwide",
+      "TechRadar",
+      "Hacker News",
+      "AIBase",
+      "Hypebeast",
+      "Music Ally",
+      "gHacks",
+      "TheNextWeb",
+      "WebSearch"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 450
+  }
+}
