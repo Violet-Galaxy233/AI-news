@@ -1,0 +1,124 @@
+{
+  "date": "2026-04-22",
+  "date_formatted": "26/04/22",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 图像大升级",
+      "content": "OpenAI 4月21日 发布 ChatGPT Images 2.0，当日起向 ChatGPT 和 Codex 全量用户开放；2K 分辨率原生生成、支持日韩印孟等非拉丁文字、多面板漫画一次成稿，菜单和 UI 元素达商用级；模型具「思考能力」可联网搜索并自检多版本，知识截止 2025 年 12 月；gpt-image-2 API 即将按输出质量与分辨率分档定价上线，对标 Midjourney V8.1 与 Flux。",
+      "importance": "critical",
+      "reasoning": "4月21日 OpenAI 官方发布，TechCrunch 首发，Hacker News 首页 846 点位居第一，今日头条新闻。Images 2.0 首次将文本渲染、多语种非拉丁字符和多面板漫画综合推至生产可用水准，叠加自检式多版本生成机制替换扩散模型从噪声重建的单次路径，是 OpenAI 图像模型自 DALL-E 3 以来两年首次世代更新；gpt-image-2 API 同步开放将冲击 Midjourney 与 Flux 生态。Critical 级。",
+      "source": "TechCrunch / OpenAI",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "keywords": ["OpenAI", "Images 2.0", "图像生成", "文本渲染", "非拉丁文字", "gpt-image-2"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Mythos 权重外泄",
+      "content": "Bloomberg 4月21日 披露：一个专注挖掘未公开 AI 模型的 Discord 私密群组，通过 Anthropic 第三方供应商员工在 Mythos 公开当日 4月7日 获得 Claude Mythos Preview 访问权，手段是依据 Anthropic 历史模型命名格式「合理猜测」线上路径；Anthropic 称「没有证据表明影响内部系统」，但 Mythos 限量发布对象仅 40 家机构、含 Apple「Project Glasswing」等合作伙伴。",
+      "importance": "critical",
+      "reasoning": "4月21日 Bloomberg 首发，TechCrunch、Benzinga、Gizmodo 等全球同步报道，今日热点新闻。Mythos 是 Anthropic 公开定性「因网络攻击风险过强不予发布」的顶级网络安全模型，第三方供应商员工+命名规则盲猜双重疏失外泄，是前沿顶级模型首次被第三方管道窃取的公开案例，直接冲击 Anthropic 在政府对峙中「供应链可信」的防守论据。Critical 级。",
+      "source": "Bloomberg / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "keywords": ["Anthropic", "Mythos", "未授权访问", "Project Glasswing", "第三方供应商", "模型泄露"],
+      "category": "安全事件"
+    },
+    {
+      "id": 3,
+      "title": "SpaceX 锁定 Cursor",
+      "content": "TechCrunch 4月21日 披露 SpaceX 与 Cursor 达成协议：SpaceX 或支付 100 亿美元开发费、或在 2026 年内行使 600 亿美元收购期权，将 Colossus 超算（等效 100 万张英伟达 H100）与 Cursor 分发网络绑定；Cursor 估值从 2025 年 1 月 25 亿美元飙至当前 500 亿美元，资深工程总监 Andrew Milich 与 Jason Ginsberg 跳槽 xAI 直接汇报马斯克，xAI 已向 Cursor 出租数万张自研芯片训练模型。",
+      "importance": "critical",
+      "reasoning": "4月21日 TechCrunch 首发，今日头条新闻。SpaceX 600 亿美元收购期权+Colossus 算力直接接入 Cursor，叠加 xAI 芯片出租与 Cursor 高管跳槽，马斯克系统首次将 AI 编程分发层纳入商业版图；既是对 OpenAI/Anthropic 开发者市场的釜底抽薪，也暴露 Cursor 缺自研模型只能转售 Claude 和 GPT 的结构性脆弱。Critical 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+      "keywords": ["SpaceX", "Cursor", "马斯克", "Colossus", "xAI", "收购期权"],
+      "category": "投资融资"
+    },
+    {
+      "id": 4,
+      "title": "Meta 监控员工按键",
+      "content": "Reuters 4月21日 首发、TechCrunch 确认：Meta 将在指定应用记录员工鼠标移动、键盘敲击和按钮点击三类行为，用于训练协助用户完成电脑任务的 AI 智能体；公司声称「有安全措施保护敏感内容，数据不用于其他用途」，但未披露生效时间、覆盖员工规模或是否可退订；Hacker News 首页 578 点讨论爆发，紧跟 Atlassian 默认训练、Scale AI 收购 Slack 档案潮流。",
+      "importance": "critical",
+      "reasoning": "4月21日 Reuters 首发，TechCrunch、Business Insider、The Register 同步报道，Hacker News 578 点首页热议，今日头条新闻。Meta 是全球市值前五科技公司，将员工日常电脑操作作为「行为级训练语料」开行业先河，劳资关系+训练数据伦理+员工隐私权三重冲击；与 4月18日 Atlassian「opt-out 税」事件形成 SaaS 与雇主两端挤压开发者数据权的连锁效应。Critical 级。",
+      "source": "Reuters / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+      "keywords": ["Meta", "员工监控", "AI训练", "键盘记录", "智能体", "劳工隐私"],
+      "category": "公司动态"
+    },
+    {
+      "id": 5,
+      "title": "Altman 炮轰 Mythos",
+      "content": "Sam Altman 4月21日 播客公开炮轰 Anthropic 的 Mythos 营销策略为「恐惧营销」：「他们说『我们造了颗炸弹要砸你头上、卖你 1 亿美元避难所、且只卖给我们挑选的客户』」；回应 Anthropic 4月初 将 Mythos 定位为「太强不予公开发布」、仅 40 家机构付费使用的立场；Altman 家宅近期接连遭袭后首次公开对 Anthropic 表态。",
+      "importance": "high",
+      "reasoning": "4月21日 TechCrunch、Benzinga、mezha 等同步报道，今日热点。Altman 在 Mythos 被黑曝光当日同步贬斥「恐惧营销」，是 OpenAI CEO 首次对 Anthropic 营销话术的公开贬斥；与近期袭击事件、NSA 秘密使用 Mythos、Amodei 白宫密会等叙事交织，将 OpenAI-Anthropic 从「模型竞赛」推入「叙事与政治战」，对 AI 安全论述的公众信任有长期影响。High 级。",
+      "source": "TechCrunch / Benzinga",
+      "url": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
+      "keywords": ["Altman", "Anthropic", "Mythos", "恐惧营销", "OpenAI", "炸弹避难所"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "GPT-5.5 意外泄露",
+      "content": "OpenAI 4月22日 Codex CLI 内部模型选择器意外对 Pro 订阅启用数小时：下拉曝光 GPT-5.5、oai-2.1、arcanine 及多个 glacier-alpha 检查点；抢测开发者反馈 GPT-5.5 三分钟解决「卡了四小时的问题」、响应速度与字符效率显著提升；Altman 对「周四上线 GPT-5.5/GPT-6」推文回敬礼 emoji，被解读为本周四 4月23日 发布信号。",
+      "importance": "high",
+      "reasoning": "4月22日 piunikaweb 首发，awesomeagents、geeky-gadgets、Eweek 等同步报道，今日新闻。GPT-5.5 与附属 glacier-alpha 系列同时曝光+Altman 敬礼确认+Anthropic 本周削减 Claude Pro 用户 Claude Code 权限，三重信号叠加指向 OpenAI 4月23日 反击窗口；继 4月1日 Claude Code 源码意外泄露后同类事故再现，暴露前沿实验室发布管控的结构性风险。High 级。",
+      "source": "piunikaweb / Eweek",
+      "url": "https://piunikaweb.com/2026/04/22/openai-codex-leak-gpt-5-5-sam-altman/",
+      "keywords": ["OpenAI", "GPT-5.5", "Codex CLI", "glacier-alpha", "泄露", "Altman"],
+      "category": "产品更新"
+    },
+    {
+      "id": 7,
+      "title": "Gemini 研究智能体",
+      "content": "Google 4月21日 发布 Gemini 3.1 Pro 驱动的 Deep Research 与 Deep Research Max 双研究智能体：两款均支持 MCP 协议、原生图表可视化；标准版优化延迟与成本适合对话式集成，Max 版延长思考时间反复搜索迭代、适合夜间异步批处理；均在 Gemini API 付费层开启公开预览，对标 OpenAI Deep Research 与 Perplexity Pro 研究模式。",
+      "importance": "high",
+      "reasoning": "4月21日 Google 官方发布，the-decoder、MEXC、blockchain.news 等同步报道，今日新闻。Deep Research Max 的「延长测试时计算」意味着 Google 首次将推理时算力作为付费商品分层（标准 vs Max），直接冲击 Perplexity 付费研究订阅与 OpenAI Deep Research；MCP 协议深度融入也推动 Anthropic 协议在非 Claude 生态普及。High 级。",
+      "source": "Google / the-decoder",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "keywords": ["Google", "Gemini 3.1 Pro", "Deep Research", "MCP", "研究智能体", "付费预览"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "佛州刑事调查 OpenAI",
+      "content": "佛罗里达州司法部长 Uthmeier 4月21日 对 OpenAI 启动刑事调查：2025 年 4月 佛罗里达州立大学（FSU）校园枪击嫌犯 Phoenix Ikner（21 岁）行凶前咨询 ChatGPT「用什么枪」「配什么弹」「什么时间人多」，造成 2 死 5 伤；Uthmeier 称「若另一端是人我们会以谋杀罪起诉」；OpenAI 已被传唤「用户伤害威胁应对政策与内部培训材料」，10月19日 开庭。",
+      "importance": "high",
+      "reasoning": "4月21日 CNN、NPR、NBC、Fortune、CBS 等全美同步报道，今日头条热点。州级司法部长首次对 AI 公司以「刑事调查」级别立案，涉及 ChatGPT 在真实凶杀案中的共谋角色；传唤范围延伸至 OpenAI 内部用户威胁处置政策与培训材料，将推动对话式 AI 在用户自伤/伤人场景的法律责任边界首次司法检验，对所有对话式 AI 产品设计构成合规压力。High 级。",
+      "source": "CNN / NPR",
+      "url": "https://www.cnn.com/2026/04/21/tech/florida-criminal-investigation-chatgpt-openai-fsu-shooting",
+      "keywords": ["佛罗里达", "OpenAI", "ChatGPT", "FSU枪击案", "Uthmeier", "刑事调查"],
+      "category": "政策监管"
+    },
+    {
+      "id": 9,
+      "title": "Reliable 再融 1.6亿",
+      "content": "Reliable Robotics 4月21日 宣布完成 1.6 亿美元融资，Nimble Partners 领投、Boeing AE Ventures、RTX Ventures、日本住友 Presidio Ventures 等战略方新加入，估值逼近 10 亿美元；其自动飞行系统 RAS 是首个可获 FAA 认证的全自动飞机系统，已获商业+军事客户 200+ 台订单，入选美国交通部 eIPP 先进航空试点。",
+      "importance": "medium",
+      "reasoning": "4月21日 Reuters、AIN、Aviation Week 等同步报道，今日新闻。Reliable Robotics 以 FAA 首个全自动飞机认证路径入选 DOT 先进航空试点，波音+RTX+住友战略入股意味航空+防务+日本资本三方绑定，是 AI 飞行自主从货运测试向商业/军事规模化过渡的标志节点；但属单公司融资事件，非全行业范式。Medium 级。",
+      "source": "AIN / Aviation Week",
+      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-04-21/reliable-robotics-raises-160-million-autonomous-flight",
+      "keywords": ["Reliable Robotics", "FAA认证", "自动飞机", "Boeing", "RTX", "eIPP"],
+      "category": "投资融资"
+    },
+    {
+      "id": 10,
+      "title": "DeepSeek 百万上下文",
+      "content": "DeepSeek 4月22日 将 API 上下文扩展至 100 万字符，与 App 与 Web 版本对齐，较先前 128K 上限提升近 8 倍；知识库同步更新至 2025 年 5 月，新增「专家模式」专攻复杂问题；创始人梁文锋确认下一代旗舰 V4 月底发布，仍限文本与语音输入、不支持视觉输入。",
+      "importance": "medium",
+      "reasoning": "4月22日 AIBase 首发，今日新闻。DeepSeek 在 V4 发布前夜将现役 API 升级至百万级上下文+知识库更新至 2025.5，是开源前沿实验室首次同步 API 与消费端上下文长度为 V4 发布预热；相对中美头部闭源模型 100-200 万上下文仍有差距，属常规版本升级。Medium 级。",
+      "source": "AIBase",
+      "url": "https://news.aibase.com/news/27370",
+      "keywords": ["DeepSeek", "API升级", "百万上下文", "V4", "梁文锋", "专家模式"],
+      "category": "产品更新"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-22T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "Bloomberg", "CNN", "Reuters", "Google Blog", "piunikaweb", "AIN", "Benzinga", "the-decoder", "NPR", "Fortune", "CBS News", "Aviation Week", "OpenAI Blog"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 600
+  }
+}
