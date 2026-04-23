@@ -23,32 +23,45 @@
           <RouterLink to="/timeline" class="tracker-link">◈ 话题追踪</RouterLink>
         </div>
 
-        <!-- 头条区 -->
-        <section class="headlines-section">
-          <h2 class="section-title">H E A D L I N E S</h2>
-          <div class="news-list">
-            <NewsCard
-              v-for="(news, index) in headlineNews"
-              :key="news.id"
-              :news="news"
-              :type="'headline'"
-              :index="index + 1"
-            />
-          </div>
-        </section>
+        <!-- 加载中 -->
+        <div v-if="loading" class="state-msg">
+          <span class="loading-dots"><span>·</span><span>·</span><span>·</span></span>
+        </div>
 
-        <!-- 快讯区 -->
-        <section class="brief-section">
-          <h2 class="section-title">B R I E F</h2>
-          <div class="news-list">
-            <NewsCard
-              v-for="news in briefNews"
-              :key="news.id"
-              :news="news"
-              :type="'brief'"
-            />
-          </div>
-        </section>
+        <!-- 加载失败 -->
+        <div v-else-if="loadError" class="state-msg state-error">
+          <p>{{ loadError }}</p>
+          <button class="retry-btn" @click="loadLatest">重试</button>
+        </div>
+
+        <template v-else>
+          <!-- 头条区 -->
+          <section class="headlines-section">
+            <h2 class="section-title">H E A D L I N E S</h2>
+            <div class="news-list">
+              <NewsCard
+                v-for="(news, index) in headlineNews"
+                :key="news.id"
+                :news="news"
+                :type="'headline'"
+                :index="index + 1"
+              />
+            </div>
+          </section>
+
+          <!-- 快讯区 -->
+          <section class="brief-section">
+            <h2 class="section-title">B R I E F</h2>
+            <div class="news-list">
+              <NewsCard
+                v-for="news in briefNews"
+                :key="news.id"
+                :news="news"
+                :type="'brief'"
+              />
+            </div>
+          </section>
+        </template>
       </main>
 
       <!-- 底部 -->
@@ -79,6 +92,8 @@ import { RouterLink } from 'vue-router'
 import NewsCard from './NewsCard.vue'
 
 const newsData = ref(null)
+const loading = ref(true)
+const loadError = ref('')
 
 const formattedDate = computed(() => {
   if (!newsData.value?.date) return ''
@@ -94,8 +109,12 @@ const briefNews = computed(() =>
   (newsData.value?.news || []).filter(n => n.importance === 'high' || n.importance === 'medium')
 )
 
-onMounted(async () => {
-  // 先从 index.json 取最新日期
+const loadLatest = async () => {
+  loading.value = true
+  loadError.value = ''
+  newsData.value = null
+
+  // 1) 从 index.json 取最新日期
   try {
     const res = await fetch('/data/index.json')
     if (res.ok) {
@@ -103,12 +122,12 @@ onMounted(async () => {
       const dates = [...new Set(index.map(i => i.date))].sort((a, b) => b.localeCompare(a))
       if (dates.length) {
         const r = await fetch(`/data/${dates[0]}.json`)
-        if (r.ok) { newsData.value = await r.json(); return }
+        if (r.ok) { newsData.value = await r.json(); loading.value = false; return }
       }
     }
   } catch (e) { /* fallback */ }
 
-  // fallback：往前7天试探
+  // 2) fallback：往前 7 天试探（容忍客户端时区偏差）
   const pad = n => String(n).padStart(2, '0')
   for (let i = 0; i < 7; i++) {
     const d = new Date()
@@ -116,10 +135,15 @@ onMounted(async () => {
     const s = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
     try {
       const r = await fetch(`/data/${s}.json`)
-      if (r.ok) { newsData.value = await r.json(); return }
+      if (r.ok) { newsData.value = await r.json(); loading.value = false; return }
     } catch (e) { /* continue */ }
   }
-})
+
+  loading.value = false
+  loadError.value = '数据加载失败，请检查网络或稍后重试'
+}
+
+onMounted(loadLatest)
 </script>
 
 <style scoped>
@@ -336,6 +360,57 @@ onMounted(async () => {
 /* 新闻列表 */
 .news-list {
   /* 由子组件控制间距 */
+}
+
+/* 状态提示（加载中/加载失败） */
+.state-msg {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #9A876A;
+  font-size: 0.875rem;
+}
+
+.state-msg.state-error p {
+  margin: 0 0 1rem;
+  color: #8C7A5E;
+}
+
+.loading-dots {
+  display: inline-block;
+}
+
+.loading-dots span {
+  display: inline-block;
+  animation: loading-blink 1.2s infinite;
+  font-size: 1.6rem;
+  color: rgba(201, 168, 106, 0.5);
+  line-height: 1;
+  margin: 0 0.1rem;
+}
+
+.loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+.loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes loading-blink {
+  0%, 80%, 100% { opacity: 0.2; }
+  40% { opacity: 1; }
+}
+
+.retry-btn {
+  font-size: 0.8rem;
+  color: #B8924D;
+  background: rgba(201, 168, 106, 0.08);
+  border: 1px solid rgba(201, 168, 106, 0.25);
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.retry-btn:hover {
+  color: #C9A86A;
+  border-color: rgba(201, 168, 106, 0.5);
+  background: rgba(201, 168, 106, 0.14);
 }
 
 /* 底部 */

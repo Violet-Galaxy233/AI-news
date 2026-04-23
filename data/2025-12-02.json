@@ -132,10 +132,3 @@
     "generation_time_seconds": 1800
   }
 }
-
-
-echo -e "\nexport ANTHROPIC_API_KEY=sk-WEy0jPl0dGRtB9vvgZoh1arntD3BkaraJ7Qelwhm8YHaIw5j" >> ~/.bash_profile 
-
-echo -e "\nexport ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic" >> ~/.bash_profile 
-source ~/.bash_profile
-

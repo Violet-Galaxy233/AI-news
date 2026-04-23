@@ -6,26 +6,27 @@
 
 # 📐 第一层：配置层
 
-## 新闻源列表
+## 新闻源列表（2026-04 更新）
 
 从以下网站抓取最近 24-48 小时的 AI 新闻：
 
-| 新闻源          | URL                                                      | 抓取方式                       | 优先级 |
-| --------------- | -------------------------------------------------------- | ------------------------------ | ------ |
-| AI Breakfast    | https://aibreakfast.beehiiv.com                          | WebFetch                       | ⭐⭐⭐    |
-| TechCrunch AI   | https://techcrunch.com/category/artificial-intelligence/ | WebFetch                       | ⭐⭐⭐    |
-| AIBase News     | https://news.aibase.com/news                             | WebFetch（实时新闻）           | ⭐⭐⭐    |
-| AIBase 今日日报 | https://news.aibase.com/daily/{ID}                       | WebFetch（需推算 ID）          | ⭐⭐⭐    |
-| AIBase 昨日日报 | https://news.aibase.com/daily/{ID-1}                     | WebFetch（今日 ID - 1）        | ⭐⭐⭐    |
-| 36氪            | https://orz.ai/api/v1/dailynews/?platform=36kr           | GET 请求                       | ⭐⭐⭐    |
-| Hacker News     | https://news.ycombinator.com                             | WebFetch                       | ⭐⭐⭐    |
-| AI News         | https://www.artificialintelligence-news.com              | WebFetch                       | ⭐⭐     |
-| WebSearch       | -                                                        | 搜索"AI 最新新闻 2025年X月X日" | ⭐⭐⭐    |
+| 新闻源        | URL                                                      | 抓取方式                  | 优先级 |
+| ------------- | -------------------------------------------------------- | ------------------------- | ------ |
+| TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/ | WebFetch                  | ⭐⭐⭐    |
+| AIBase News   | https://news.aibase.com/news                             | WebFetch（实时列表）      | ⭐⭐⭐    |
+| Hacker News   | https://news.ycombinator.com                             | WebFetch                  | ⭐⭐⭐    |
+| CNBC Tech     | https://www.cnbc.com/technology/                         | WebFetch                  | ⭐⭐⭐    |
+| WebSearch     | -                                                        | 多轮关键词检索（最有效）  | ⭐⭐⭐    |
+| The Decoder   | https://the-decoder.com                                  | WebFetch                  | ⭐⭐     |
+| AI News       | https://www.artificialintelligence-news.com              | WebFetch（更新不稳定）    | ⭐⭐     |
 
-**AIBase Daily ID 推算**：
-- 基准：2025-10-17 = ID 22065
-- 公式：ID = 22065 + (今天 - 10月17日的天数)
-- 验证：检查页面标题日期，不对则 ±1 或 ±2 微调
+**🚫 已失效源**（不再尝试）：
+- AIBase Daily（`/daily/{ID}`）：2026-03 起全面停用，改用 `/news` 实时列表
+- 36kr API（orz.ai）：2026-04 起返回 403
+- AI Breakfast：页面无内容
+- Bloomberg / Reuters / The Information：直接 WebFetch 常 403，改用 WebSearch 引用
+
+**🎯 最有效的抓取方式**：WebSearch 多轮针对性查询（`"AI news April X 2026 [主题]"` / `"[公司名] announcement April X 2026"`），信息覆盖度优于单源 WebFetch。
 
 ---
 
@@ -40,19 +41,19 @@
 
 ### 🚨 禁用技术术语清单
 
-| ❌ 禁用术语     | ✅ 改为通俗表达           | 示例                                       |
-| -------------- | ------------------------ | ------------------------------------------ |
-| RAG            | 智能检索 / 删除          | "超越传统 RAG" → "支持智能检索"            |
-| tokens         | 处理量 / 字符 / 删除     | "30万亿 tokens" → "30万亿次处理"           |
-| LLM / VLM      | AI 模型 / 视觉模型       | "多模态 LLM" → "多模态 AI 模型"            |
-| benchmark      | 测试 / 评测              | "benchmark 分数" → "测试分数"              |
-| fine-tune      | 优化 / 训练              | "fine-tune 模型" → "优化模型"              |
-| inference      | 推理 / 运行              | "inference 速度" → "运行速度"              |
-| pre-training   | 预训练 / 基础训练        | "pre-training 数据" → "基础训练数据"       |
-| context window | 上下文长度 / 记忆容量    | "128K context" → "128K 上下文长度"         |
-| embedding      | 向量化 / 数据表示        | "embedding 技术" → "向量化技术"            |
-| hallucination  | 错误生成 / 虚构内容      | "减少 hallucination" → "减少错误生成"      |
-| parameter      | 参数（可保留，但需解释） | "0.9B parameter" → "0.9B 参数（模型规模）" |
+| ❌ 禁用术语     | ✅ 改为通俗表达           | 示例                                                  |
+| -------------- | ------------------------ | ----------------------------------------------------- |
+| RAG            | 智能检索 / 删除          | "超越传统 RAG" → "支持智能检索"                       |
+| tokens         | 处理量 / 字符 / 删除     | "30万亿 tokens" → "30万亿次处理" / "100万字符上下文"  |
+| LLM / VLM      | AI 模型 / 视觉模型       | "多模态 LLM" → "多模态 AI 模型"                       |
+| benchmark      | 测试 / 评测              | "benchmark 分数" → "测试分数"                         |
+| fine-tune      | 优化 / 训练              | "fine-tune 模型" → "优化模型"                         |
+| inference      | 推理 / 运行              | "inference 速度" → "运行速度"（"推理"单独可用）       |
+| pre-training   | 预训练 / 基础训练        | "pre-training 数据" → "基础训练数据"                  |
+| context window | 上下文长度 / 记忆容量    | "128K context" → "128K 上下文长度"（"上下文"单独可用）|
+| embedding      | 向量化 / 数据表示        | "embedding 技术" → "向量化技术"                       |
+| hallucination  | 错误生成 / 虚构内容      | "减少 hallucination" → "减少错误生成"                 |
+| parameter      | 参数（可保留，需解释）   | "0.9B parameter" → "0.9B 参数（模型规模）"            |
 
 ### ✅ 语言规范
 
@@ -61,25 +62,37 @@
 - **自然流畅**：避免翻译腔（"野外发现" → "内测曝光"）
 - **中英空格**：`OpenAI 发布`（正确）vs `OpenAI发布`（错误）
 
+### 🔤 JSON 引号规范（强制）
+
+content 和 reasoning 字段内如需引号，**必须使用中文引号「」**而非 ASCII 双引号 `"`——后者会导致 JSON 解析错误。
+
+- ❌ 错误：`"content": "公司称 "有安全措施""`
+- ✅ 正确：`"content": "公司称「有安全措施」"`
+
 ---
 
 ## 2. 写作规范清单
 
 ### ✅ DO（必须做）
 
-1. **量化数据**
+1. **量化数据**（每条 ≥ 3 个）
    - ✅ "提升 4 倍" "降低 66% 成本" "增长 150%"
    - ✅ "15 亿美元" "$1/$5 每百万次调用" "准确率 95%"
    - ✅ "市占率 35%" "月活 1 亿" "支持 109 种语言"
+   - 🚨 **数字不足时**：标注"具体 XX 未披露"满足要求，不虚构
 
-2. **完整信息**
+2. **多源印证**（每条 ≥ 2 个独立来源）
+   - source 字段用 "X / Y" 格式组合两个主要来源
+   - reasoning 列举 3+ 家同步报道（如 "TechCrunch、Bloomberg、CNBC 等同步报道"）
+
+3. **完整信息**
    - ✅ 包含主语："百度发布..." 而非 "发布..."
    - ✅ 独立完整：不依赖上下文就能理解
-   - ✅ 注明时间："昨天发布" "10-16 发布"
+   - ✅ 注明时间："4月21日 发布" / "昨日宣布"
 
-3. **自然表达**
+4. **自然表达**
    - ✅ "内测曝光" "登顶全球第一" "引发讨论"
-   - ✅ 中英文之间加空格：`AI 模型` `10 月 17 日`
+   - ✅ 中英文之间加空格
 
 ### ❌ DON'T（禁止做）
 
@@ -92,23 +105,24 @@
    - ❌ （参考上方"禁用术语清单"）
 
 3. **无关数据**
-   - ❌ "Hacker News 获 684 点赞"
-   - ❌ "微博转发量 1.2 万"
-   - ❌ 社交媒体互动数据
+   - ❌ "微博转发量 1.2 万"（互动数据仅可作 reasoning 的热度印证，不进 content）
+   - ❌ Hacker News 点赞数写 content（可写 reasoning 证明话题热度）
 
 4. **翻译腔**
    - ❌ "野外发现" "被发现" "在...方面"
    - ❌ "进行了...的操作" "实施了...的策略"
 
-### 字数要求
+### 字数要求（按字词计数）
 
-| 重要性   | 字数范围 | 包含内容                       |
-| -------- | -------- | ------------------------------ |
-| critical | 50-80 字 | 主体 + 内容 + 背景/原因 + 影响 |
-| high     | 35-50 字 | 主体 + 内容 + 简要影响         |
-| medium   | 20-35 字 | 主体 + 核心事实                |
+**计数口径**：汉字 1 个 = 1 词；英文单词（OpenAI / Anthropic）= 1 词；数字串（2026 / $380B）= 1 词。
 
-**原则**：信息密度优先，不为凑字数加废话
+| 重要性   | 字词范围    | 必含内容                                       |
+| -------- | ----------- | ---------------------------------------------- |
+| critical | 120-200 词  | 主体 + 事件 + ≥3 个量化 + 背景/原因 + 产业影响 |
+| high     | 80-120 词   | 主体 + 事件 + ≥3 个量化 + 简要影响             |
+| medium   | 40-80 词    | 主体 + 核心事实 + ≥2 个量化                    |
+
+**原则**：信息密度优先，不为凑字数加废话；信息不足时宁可降一档也不要注水。
 
 ---
 
@@ -122,26 +136,42 @@
 2. **行业级政策法规**：首例监管、重大法规、影响全行业
 3. **范式转变技术**：改变技术路径（需量化证据）
 4. **巨头硬件发布**：Apple / NVIDIA / AMD 重大 AI 硬件
+5. **结构性融资/收购**：100 亿美元以上，或关键战略绑定
 
 #### 🟡 High
 
 - 赛道级产品：影响特定领域（视频生成、代码助手）
 - 重要研究：已验证但未大规模应用
-- 高话题性：AI 伦理争议、法律纠纷
-- 大型融资：10 亿美元以上
+- 高话题性：AI 伦理争议、法律纠纷、公司动态
+- 大型融资：10-100 亿美元
 
 #### 🟢 Medium
 
 - 常规更新：预期内的版本迭代
 - 区域事件：仅影响特定地区
 - 行业报告：有参考价值但非突发
-- 中等融资：1 亿美元以下
+- 中等融资：1-10 亿美元
 
 ### 🚨 降级规则
 
 - ❌ **早期研究**（未验证）→ 最高 high
 - ❌ **信息模糊**（缺关键细节）→ 降一级
 - ❌ **区域性事件** → 最高 medium
+- ❌ **量化数据 < 2 个** → 降一级或舍弃
+
+### 选题平衡指南
+
+8-12 条应跨维度覆盖，避免单一话题堆积：
+
+| 维度              | 建议条数 |
+| ----------------- | -------- |
+| 产品发布/技术突破 | 2-3      |
+| 公司动态/融资     | 2-3      |
+| 安全事件/争议     | 1-2      |
+| 政策监管          | 1-2      |
+| 行业观察/区域事件 | 1-2      |
+
+**同话题限制**：同一实体（如 OpenAI、Anthropic）或同一事件（如 Mythos）相关条目不超过 2 条，即使都重要——保留主线一条 + 最佳补充角度一条。
 
 ---
 
@@ -152,13 +182,13 @@
 ## Step 1: 抓取新闻源 🚨
 
 **任务**：
-- 并行 WebFetch 所有配置的新闻源
+- 并行 WebFetch 所有配置的新闻源 + 至少 3 轮 WebSearch 关键词检索
 - 提取最近 24-48 小时的 AI 新闻
 
 **验证标准**：
 - ✅ 至少抓取到 20+ 条候选新闻
 - ✅ 涵盖 5+ 个不同新闻源
-- ❌ 未通过：增加新闻源或调整时间范围
+- ❌ 未通过：增加 WebSearch 轮次或调整时间范围
 
 ---
 
@@ -166,25 +196,29 @@
 
 **任务**：
 - **对每条候选新闻使用 WebSearch 验证发布时间**
-- 搜索：`新闻主题 + "2025年X月X日" + "发布"`
+- 搜索：`新闻主题 + "April X 2026" + "announced" / "发布"`
 
 **通过标准**：
 - ✅ 新闻发布时间在 **1-3 天内**
-- ✅ 在 reasoning 字段注明："今天发布" / "昨天发布" / "10-X 发布"
-- ❌ 超过 3 天的新闻：**直接移除**
+- ✅ 在 reasoning 字段注明："今日新闻" / "昨日新闻" / "4月X日 发布"
 
 **🚨 阻断规则**：
-- 如果无法验证时间 → 宁可舍弃
-- 如果是持续发酵的重大事件（如政策）→ 可例外保留并注明
+- 超过 3 天 → **必须移除**，不保留"但还在讨论"的借口
+- 无法验证时间 → 宁可舍弃，不凭印象
+- **唯一例外**：持续发酵的重大事件（政策诉讼、公司对峙），必须在 reasoning 明确注明"X 天前但持续发酵，因 [具体理由] 保留"
 
 ---
 
 ## Step 3: 去重与筛选
 
 **任务**：
-1. 读取 `data/` 目录最近 7 天的 JSON 文件
-2. 对比 content 和 keywords，过滤重复新闻
-3. 根据评估标准筛选 8-12 条最重要的新闻
+1. **读取最近 3 天的 JSON**：`data/{date-1}.json`、`{date-2}.json`、`{date-3}.json`
+2. **列出已覆盖主题清单**：提取所有 title + keywords，形成"禁选池"
+3. **对每条候选逐一比对**：
+   - 相同实体 + 相同事件 → 过滤
+   - 相同实体 + 不同事件角度 → 保留但在 reasoning 注明"昨日已报 X 角度，今日报 Y 角度"
+   - 不同实体 → 保留
+4. 根据评估标准筛选 8-12 条最重要的新闻
 
 **去重标准**：
 - 相似度 >85% → 直接过滤
@@ -196,26 +230,34 @@
 - ✅ High: 3-5 条
 - ✅ Medium: 0-4 条
 - ✅ 总计：8-12 条
+- ✅ 跨维度覆盖（产品+公司+安全+政策+区域）
 
 ---
 
 ## Step 4: 撰写内容 🚨
 
 **任务**：
-- 根据重要性撰写相应字数的内容
+- 根据重要性撰写相应字词数的内容
 - 严格遵循"受众与语言规范"
 
 **验证清单**：
 - ✅ **无技术术语**：检查禁用术语清单（RAG / tokens / LLM...）
-- ✅ **有量化数据**：每条新闻至少 1 个具体数字
+- ✅ **量化数据 ≥ 3 个**：每条 content 至少 3 个数字/日期/金额/百分比
+- ✅ **来源 ≥ 2 个**：source 字段 "X / Y"，reasoning 列举 3+ 家报道
 - ✅ **自然流畅**：无翻译腔（野外发现 / 被发现 / 在...方面）
 - ✅ **中英空格**：所有中英文交接处有空格
 - ✅ **独立完整**：包含主语，不依赖上下文
-- ✅ **字数符合**：critical 50-80 / high 35-50 / medium 20-35
+- ✅ **字词符合**：critical 120-200 / high 80-120 / medium 40-80
+
+**reasoning 标准结构**（三段式）：
+1. **时效 + 报道密度**："4月X日 [首发媒体] 首发，[3+ 家] 等同步报道，今日/昨日热点新闻。"
+2. **事件解读**：事件意义 + 产业影响 + 历史对比
+3. **分级理由**：以 `Critical 级。` / `High 级。` / `Medium 级。` 结尾
 
 **🚨 阻断规则**：
-- 如果任何一条新闻包含禁用术语 → 重写
-- 如果缺少量化数据 → 补充或注明"具体参数未披露"
+- 任何一条含禁用术语 → **必须重写**
+- 任何一条量化数据 < 3 个 → **必须补充**或降级
+- 任何一条 source 仅 1 家且非独家 → **必须补充**或降级
 
 ---
 
@@ -225,34 +267,36 @@
 
 ```json
 {
-  "date": "2025-10-17",
-  "date_formatted": "25/10/17",
+  "date": "2026-04-22",
+  "date_formatted": "26/04/22",
   "title": "AI 闪电快讯",
   "news": [
     {
       "id": 1,
       "title": "新闻标题（≤15字）",
-      "content": "新闻内容（20-80字，无技术术语）",
+      "content": "新闻内容（含多个量化数据，无技术术语，中英空格）",
       "importance": "critical",
-      "reasoning": "判断理由 + 发布日期（如"昨天发布"）",
-      "source": "TechCrunch",
+      "reasoning": "4月X日 [媒体] 首发，[多家] 同步报道，今日热点。[事件解读]。Critical 级。",
+      "source": "TechCrunch / Bloomberg",
       "url": "https://...",
       "keywords": ["关键词1", "关键词2", "关键词3"],
       "category": "产品发布"
     }
   ],
   "metadata": {
-    "generated_at": "2025-10-17T08:00:00Z",
+    "generated_at": "2026-04-22T08:00:00Z",
     "total_news": 10,
-    "sources_checked": ["AI Breakfast", "TechCrunch", ...],
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC"],
     "duplicates_removed": 5,
-    "generation_time_seconds": 120.5
+    "generation_time_seconds": 600
   }
 }
 ```
 
+**🔤 引号规范（强制）**：content 和 reasoning 内如需引号必须用「」，**严禁** ASCII `"`（会让 JSON 解析失败）。
+
 **验证标准**：
-- ✅ JSON 格式有效（用 `python3 -m json.tool` 验证）
+- ✅ JSON 格式有效：`python3 -m json.tool data/YYYY-MM-DD.json`
 - ✅ 所有 URL 有效
 - ✅ 新闻数组按 importance 排序（critical → high → medium）
 
@@ -262,18 +306,21 @@
 
 **全面检查清单**：
 
-| 检查项        | 标准                     | 通过 |
-| ------------- | ------------------------ | ---- |
-| 🚨 时效性      | 100% 新闻在 1-3 天内     | ✅    |
-| 🚨 中英空格    | 所有交接处有空格         | ✅    |
-| 量化数据      | 每条新闻需用具体数字     | ✅    |
-| 翻译腔        | 无"野外发现"等翻译腔表达 | ✅    |
-| 技术术语      | 0 个禁用术语             | ✅    |
-| 重复新闻      | 无高度相似的新闻         | ✅    |
-| Critical 数量 | 3-5 条                   | ✅    |
-| 总新闻数      | 8-12 条                  | ✅    |
-| 字数          | 符合重要性要求           | ✅    |
-| 独立完整性    | 每条都包含主语和上下文   | ✅    |
+| 检查项        | 标准                            | 通过 |
+| ------------- | ------------------------------- | ---- |
+| 🚨 时效性      | 100% 新闻在 1-3 天内            | ✅    |
+| 🚨 中英空格    | 所有交接处有空格                | ✅    |
+| 🚨 量化数据    | 每条 ≥ 3 个具体数字             | ✅    |
+| 🚨 多源        | 每条 ≥ 2 个独立来源             | ✅    |
+| 🚨 引号规范    | content/reasoning 用「」不用 `"` | ✅    |
+| 翻译腔        | 无"野外发现"等翻译腔表达        | ✅    |
+| 技术术语      | 0 个禁用术语                    | ✅    |
+| 重复新闻      | 无高度相似的新闻（含最近 3 天） | ✅    |
+| Critical 数量 | 3-5 条                          | ✅    |
+| 总新闻数      | 8-12 条                         | ✅    |
+| 字词          | 符合重要性字词范围              | ✅    |
+| 独立完整性    | 每条都包含主语和上下文          | ✅    |
+| 跨维度覆盖    | 产品/公司/安全/政策/区域        | ✅    |
 
 **🚨 阻断规则**：
 - 任何一项标记 🚨 的检查不通过 → **必须修正**才能完成
@@ -293,25 +340,15 @@
 
 **Step 6 全部通过后执行本步。**
 
-### 7.1 更新 index.json
+### 7.1 重建 index.json
 
-将本次生成的所有新闻条目追加到 `data/index.json`（格式与已有条目一致，每条包含 `date`、`id`、`title`、`keywords`、`category`、`importance`，不含 `content`/`reasoning`/`url`/`source`）：
+全量从 `data/*.json` 重建 `data/index.json`（每条含 `date`、`id`、`title`、`keywords`、`category`、`importance`，不含 `content`/`reasoning`/`url`/`source`）：
 
 ```bash
-# 用 python3 读取现有 index.json，追加新条目，写回
-python3 -c "
-import json, sys
-with open('data/index.json', 'r', encoding='utf-8') as f:
-    index = json.load(f)
-with open('data/YYYY-MM-DD.json', 'r', encoding='utf-8') as f:
-    today = json.load(f)
-new_entries = [{'date': today['date'], 'id': n['id'], 'title': n['title'], 'keywords': n['keywords'], 'category': n['category'], 'importance': n['importance']} for n in today['news']]
-index.extend(new_entries)
-with open('data/index.json', 'w', encoding='utf-8') as f:
-    json.dump(index, f, ensure_ascii=False, separators=(',', ':'))
-print('index.json updated, total entries:', len(index))
-"
+npm run build-index
 ```
+
+（底层脚本是 `scripts/build-index.js`，扫描 `data/YYYY-MM-DD.json` 全部文件；覆盖重写或多日补录场景都自动正确。）
 
 ### 7.2 Git 提交并推送
 
@@ -325,8 +362,14 @@ git push
 - ✅ `git push` 返回成功（无报错）
 - ✅ 终端显示 `data/YYYY-MM-DD.json` 已上传
 
-**🚨 阻断规则**：
-- 如果 `git push` 失败 → 报告错误信息，不重试，等待用户处理
+**🚨 阻断规则 / 冲突处理**：
+- 如 `git push` 被拒绝（远端有 scheduled agent 已生成的同日文件）：
+  ```bash
+  git pull --no-rebase -X ours origin main --no-edit
+  git push
+  ```
+  `-X ours` 策略在冲突时优先采用本地版本（本地是完整执行 WORKFLOW 的结果，质量更高）
+- 其他错误 → 报告错误信息，不重试，等待用户处理
 
 ---
 
@@ -334,5 +377,5 @@ git push
 
 1. **用户说**："按照 WORKFLOW.md 生成今天（YYYY-MM-DD）的 AI 新闻简报"
 2. **Claude Code 自动执行** Step 1-7
-3. **关键验证点**：Step 2（时效性）和 Step 4（无术语）会严格检查
+3. **关键验证点**：Step 2（时效性）、Step 3（去重）、Step 4（无术语+多量化+多源）、Step 6（引号规范）会严格检查
 4. **生成结果**：`data/YYYY-MM-DD.json` 自动推送到远端，Vercel 触发部署

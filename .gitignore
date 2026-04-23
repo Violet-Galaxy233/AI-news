@@ -7,12 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build artifacts
 node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# Editor directories
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -23,22 +24,14 @@ dist-ssr
 *.sln
 *.sw?
 
-# Generated news files (but keep example data)
-# *.json  # Commented out - keep example JSON for testing
-!package.json
-!package-lock.json
-# *.txt  # Commented out - keep example TXT for reference
-!README.md
-
-# Environment variables (kept for future use)
+# Environment variables
 .env
 .env.local
 
-# Generated data
-data/raw/          # 原始抓取数据不提交
-# data/*.json      # 可选：生成的 JSON 不提交（目前保留以便查看示例）
+# Generated raw data (not committed)
+data/raw/
 
-# Python (kept for future use)
+# Python
 __pycache__/
 *.py[cod]
 *.so
