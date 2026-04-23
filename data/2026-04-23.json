@@ -1,0 +1,124 @@
+{
+  "date": "2026-04-23",
+  "date_formatted": "26/04/23",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "谷歌云 Next 开幕",
+      "content": "Google Cloud Next 26 4月22日 在拉斯维加斯 Mandalay Bay 开幕：发布第八代 TPU 双型号——训练用 TPU 8t 以 ICI 互联把 9600 颗 TPU 与 2PB 高带宽内存整合为单一超级舱，推理用 TPU 8i 的 Boardfly 拓扑把 1152 颗 TPU 连入单舱；同步推出 Gemini Enterprise Agent Platform（含 Agent Designer、Inbox、长周期智能体、Skills）、7.5 亿美元合作伙伴基金覆盖 12 万成员生态、Agentic Data Cloud 与 Knowledge Catalog；CEO Kurian 在主题演讲中确认 Apple 采用 Gemini 驱动新 Siri。",
+      "importance": "critical",
+      "reasoning": "4月22日 Google Cloud 官方博客、TechCrunch、Bloomberg、SiliconANGLE、The Register 等全球同步报道，今日头条新闻。第八代 TPU 双型号是 Google 首次对训练与推理分别特化的芯片系列，TPU 8t 单舱 2PB 内存规模对标英伟达 GB200 NVL72 架构，7.5 亿美元合作伙伴基金是 Google 迄今最大单次生态投入；Gemini Enterprise Agent Platform 与 OpenAI Workspace Agents 同日发布，三大实验室企业级智能体正面对决。Critical 级。",
+      "source": "Google Cloud Blog / TechCrunch / Bloomberg",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+      "keywords": ["Google Cloud", "TPU 8t", "TPU 8i", "Gemini Enterprise", "7.5 亿基金", "智能体平台"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "苹果搭 Gemini 造 Siri",
+      "content": "Google Cloud CEO Thomas Kurian 4月22日 在 Cloud Next 主题演讲中公开确认：Gemini 将驱动 Apple 2026 年秋季 iOS 27 内全新个性化 Siri 体验；多年期合作协议下 Apple 每年支付约 10 亿美元使用 Google AI，Apple 称 Google 技术是「Apple Foundation Models 的最有能力基础」；新 Siri 将包含独立 app、持续对话记录与传统聊天机器人体验；MacRumors 披露首批功能将随 iOS 27 秋季发布一同推出。",
+      "importance": "critical",
+      "reasoning": "4月22日 MacRumors、9to5Mac、AppleInsider、TechCrunch、CNBC 等同步报道，今日头条新闻。Kurian 在 Cloud Next 主题演讲中公开确认，是 Google 首次正式承认 Apple 合作（1月12日 双方联合声明未披露实施细节），叠加 10 亿美元/年 许可费与 iOS 27 秋季上线节点，标志 Apple 放弃自研前沿 AI 基础模型转向外采，是 OpenAI 与 Anthropic 未能拿下 Apple Intelligence 订单后的格局反转。Critical 级。",
+      "source": "MacRumors / 9to5Mac / TechCrunch",
+      "url": "https://9to5mac.com/2026/04/22/google-teases-gemini-powered-siri-upgrade-during-cloud-next-keynote/",
+      "keywords": ["Apple", "Google Gemini", "Siri", "iOS 27", "Kurian", "10 亿美元"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic 撤回限制",
+      "content": "Anthropic 4月21日 下午 悄悄在 claude.com/pricing 与 Claude Code 支持文档中把工具从 20 美元 Pro 计划移除、仅保留 100 美元 Max 计划独享；4月22日 社区全面反弹后 4月23日 全面回退，增长主管 Amol Avasare 承认「定价页与文档改动本不属于 2% 新用户测试范围」；根因披露：Anthropic API uptime 跌至 98.95%、GPU 现货价涨 48%、企业客户 Retool 转投竞品；「现有订阅计划已不足以覆盖成本」成官方口径。",
+      "importance": "critical",
+      "reasoning": "4月21-23日 Where's Your Ed At、The Register、The Decoder、The New Stack、Simon Willison 等全球技术媒体同步报道，今日热点新闻。Anthropic 产品定价三天内全回合反复，暴露前沿 AI 实验室「20 美元订阅覆盖密集工具成本」商业模型的结构性失衡，叠加 4月20日 Uber CTO 披露 AI 预算爆表与 Anthropic API uptime 下滑，是 AI 编程工具定价秩序重构的先行信号，将推动 Cursor 与 GitHub Copilot 等竞品重新定价策略。Critical 级。",
+      "source": "The Register / The Decoder / Simon Willison",
+      "url": "https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/",
+      "keywords": ["Anthropic", "Claude Code", "Pro 计划", "订阅撤回", "API uptime", "Avasare"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "Qwen3.6-27B 开源",
+      "content": "阿里巴巴 Qwen 团队 4月22日 开源 Qwen3.6-27B——Qwen3.6 家族首款密集开源权重模型、Apache 2.0 许可；SWE-bench Verified 77.2 分、Terminal-Bench 2.0 59.3 分持平 Claude 4.5 Opus、QwenWebBench 1487 分；在多项任务超越自家 Qwen3.5-397B MoE（体积 15 倍大）；融合新颖「Thinking Preservation」机制与 Gated DeltaNet 线性注意力+传统自注意力混合架构；Hugging Face Hub 与 ModelScope 同步开放，Hacker News 首页 687 点位居第二。",
+      "importance": "critical",
+      "reasoning": "4月22日 MarkTechPost 首发，GitHub、Hugging Face、Alibaba Cloud Community、The Register 同步报道，Hacker News 首页 687 点，今日热点新闻。Qwen3.6-27B 以 1/15 参数量在 Terminal-Bench 2.0 持平 Claude 4.5 Opus，是密集开源权重模型在智能体编码测试首次对标闭源顶级模型，叠加 4月20日 Qwen 3.6 Max Preview 与 Kimi K2.6 连续开源攻势，标志中美开源-闭源差距在编程智能体赛道实质收窄。Critical 级。",
+      "source": "MarkTechPost / GitHub / Alibaba Cloud",
+      "url": "https://www.marktechpost.com/2026/04/22/alibaba-qwen-team-releases-qwen3-6-27b-a-dense-open-weight-model-outperforming-397b-moe-on-agentic-coding-benchmarks/",
+      "keywords": ["Qwen3.6", "27B", "Alibaba", "SWE-bench", "Apache 2.0", "Terminal-Bench"],
+      "category": "技术突破"
+    },
+    {
+      "id": 5,
+      "title": "小米 MiMo-V2.5 发布",
+      "content": "小米 4月23日 发布 MiMo-V2.5 与 Pro 版公测：原生视觉+音频双模态理解、跨模态推理、智能体能力超越 MiMo-V2-Pro；最大 100 万字符上下文，响应 100-150 字符/秒；API 定价 0.40 美元每百万字符输入、2.00 美元每百万字符输出，当日起取消 100 万字符上下文乘数收费；Pro 版主打复杂智能体任务。",
+      "importance": "high",
+      "reasoning": "4月23日 小米 MiMo 官方、Decrypt、VentureBeat、OpenRouter 同步报道，今日新闻。MiMo-V2.5 是小米继 3月19日 MiMo-V2-Pro 万亿参数后的多模态升级，取消 100 万字符上下文乘数收费+$0.40/$2 定价较 Gemini 3.1 Pro、Claude Opus 4.6 便宜 3-5 倍，是中国模型首次在原生视听多模态与百万字符定价上同步对标美国前沿；但非开源、国内渠道为主，影响区域有限。High 级。",
+      "source": "Xiaomi MiMo / Decrypt / VentureBeat",
+      "url": "https://mimo.xiaomi.com/mimo-v2-5",
+      "keywords": ["Xiaomi", "MiMo-V2.5", "多模态", "100 万上下文", "智能体", "$0.40"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Workspace Agents 上线",
+      "content": "OpenAI 4月22日 在 ChatGPT Business、Enterprise、Edu、Teachers 四档计划推出 Workspace Agents 研究预览——Codex 驱动的共享云端智能体可 24/7 自主运行：示例智能体持续监控网页用户反馈并编写结构化报告推送 Slack，另一智能体基于会议记录与 CRM 数据在 Gmail 草拟跟进邮件；企业级权限与监控控件开放管理员配置；5月6日 前免费使用，其后按积分计费。",
+      "importance": "high",
+      "reasoning": "4月22日 OpenAI 官方博客、9to5Mac、The Decoder、TechBuzz.AI、SeekingAlpha 同步报道，今日新闻。Workspace Agents 是 OpenAI 将 Codex 从开发者工具扩展至通用企业工作流的首次尝试，云端共享 24/7+多应用集成（Slack+Gmail+CRM）+企业权限分层，与 Google Cloud Next Gemini Enterprise 同日对打；5月6日 免费截止+积分计费模式，显著推动 ChatGPT 企业版从聊天工具向团队自动化平台转型。High 级。",
+      "source": "OpenAI / 9to5Mac / The Decoder",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "keywords": ["OpenAI", "ChatGPT", "Workspace Agents", "Codex", "企业版", "积分计费"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Kimi K2.6 首发崩溃",
+      "content": "月之暗面 4月23日 公告：Kimi K2.6 开源模型 4月20日 发布后流量激增，K2 思考服务中断、订阅额度被错误扣减；公司承诺全面重置所有受影响用户配额、补偿多扣时长；K2.6 以 1 万亿参数混合专家+320 亿活跃+256K 上下文、SWE-Bench Verified 80.2% 持平 Claude Opus 4.6 引爆需求。",
+      "importance": "high",
+      "reasoning": "4月23日 AIBase 首发，今日新闻。Kimi K2.6 开源 3 天内流量压垮服务+配额倒扣事件+全面重置补偿，是开源前沿模型首次因「开源反而被消费端拖垮」的公开案例，对 DeepSeek V4 月底发布与阿里 Qwen3.6-27B 等后续开源节奏有警示意义；月之暗面因 K2.6 获得的用户增量可能转为长期服务规划难题。High 级。",
+      "source": "AIBase / 月之暗面",
+      "url": "https://news.aibase.com/news/27382",
+      "keywords": ["Kimi K2.6", "月之暗面", "流量崩溃", "配额重置", "开源", "SWE-Bench"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "Clarifai 删 300 万人脸",
+      "content": "AI 视觉公司 Clarifai 4月21日 根据美国联邦贸易委员会（FTC）和解协议，删除 300 万张从约会应用 OkCupid 未经明确同意获取的用户面部识别训练照片；FTC 指控 Clarifai 早年向执法机构销售基于该数据训练的系统；300 万照片连带衍生模型权重与嵌入向量同步销毁；Clarifai 须未来 3 年提交合规报告。",
+      "importance": "high",
+      "reasoning": "4月21日 TechCrunch、FTC 官方公告、Engadget、The Register 同步报道，3 天内热点。FTC 对 AI 训练数据开具删除令+衍生模型销毁是美国联邦级监管首次同时处置「数据+模型+嵌入向量」三层产物，意味未来未经同意获取的训练数据无法通过「模型已训练完毕」规避；对 Stability AI、Midjourney 等面临版权诉讼的图像模型公司有直接参照意义。High 级。",
+      "source": "TechCrunch / FTC / Engadget",
+      "url": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
+      "keywords": ["Clarifai", "FTC", "OkCupid", "300 万人脸", "和解", "模型销毁"],
+      "category": "政策监管"
+    },
+    {
+      "id": 9,
+      "title": "Emily Hart AI 诈骗",
+      "content": "印度一名医学生 4月22日 被曝用 AI 工具创建虚拟美国网红「Emily Hart」账号：4 个月积累 Instagram 与 TikTok 逾 100 万粉丝、接品牌广告代言、部分粉丝已汇款「约会」；创建者用 AI 生成全套静图+短视频+语音+日常文案；事件引爆「AI 虚拟人商业变现」伦理争议。",
+      "importance": "medium",
+      "reasoning": "4月22日 AIBase、Times of India、India Today 等同步报道，今日新闻。Emily Hart 4 个月从零到 100 万粉丝+广告变现+情感诈骗全链路仅由一人 AI 工具完成，是 AI 虚拟网红跨境商业诈骗首个规模化公开案例，对 Meta、TikTok、Instagram 身份验证与变现审核机制构成实务压力；但属个案揭露、非政策或技术范式转变。Medium 级。",
+      "source": "AIBase / Times of India",
+      "url": "https://news.aibase.com/news/27381",
+      "keywords": ["Emily Hart", "AI 虚拟网红", "印度", "诈骗", "Instagram", "TikTok"],
+      "category": "行业观察"
+    },
+    {
+      "id": 10,
+      "title": "中国 Q1 备案 750 个",
+      "content": "中国工业和信息化部 4月22日 公布 2026 年 Q1 生成式 AI 备案数据：全国通过备案 750 个模型；北京以 225 个占全国 30% 居首，上海 128 个居次；通过备案的模型需满足数据安全、内容合规、年龄分级等要求，方可面向公众提供服务；Q1 备案较 2025 Q4 增 41%。",
+      "importance": "medium",
+      "reasoning": "4月22日 AIBase、新华社、工信部官方同步报道，今日新闻。2026 Q1 全国 750 个备案+北京 225 个占 30% 的地理集中度，显示中国生成式 AI 从野蛮扩张转向「备案-合规-上线」三步监管路径已稳定；Q1 增速 41% 表明市场端参与度未受合规要求抑制，但全部为区域性中国市场数据。Medium 级。",
+      "source": "AIBase / 工信部",
+      "url": "https://news.aibase.com/news/27380",
+      "keywords": ["中国备案", "生成式 AI", "北京", "工信部", "225 个", "30%"],
+      "category": "政策监管"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-23T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "Google Cloud Blog", "Bloomberg", "MacRumors", "9to5Mac", "AIBase", "Hacker News", "The Register", "The Decoder", "MarkTechPost", "Decrypt", "VentureBeat", "OpenAI Blog", "Simon Willison", "FTC"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 900
+  }
+}
