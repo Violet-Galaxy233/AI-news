@@ -1,0 +1,145 @@
+{
+  "date": "2026-04-24",
+  "date_formatted": "26/04/24",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "GPT-5.5 智能登顶",
+      "content": "OpenAI 发布 GPT-5.5 并向 ChatGPT 的 Plus、Pro、Business、Enterprise 四档订阅与 Codex 全量用户推送，免费用户暂不开放；新模型以 Artificial Analysis 智能指数 60 分登顶，超越 Claude Opus 4.7 与 Gemini 3.1 Pro Preview 的 57 分；Terminal-Bench 2.0 得 82.7%、SWE-Bench Pro 58.6%、BrowseComp 84.4%、FrontierMath Tier 4 35.4%；GPT-5.5 Pro 在 BrowseComp 取 90.1%、FrontierMath Tier 1-3 取 52.4%；API 定价为 5 美元每百万处理量输入、30 美元每百万处理量输出，是 GPT-5.4 价格的两倍，Pro 版 30/180 美元；100 万字符上下文、Codex 端 40 万字符。",
+      "importance": "critical",
+      "reasoning": "4月23日 OpenAI 官方博客首发，TechCrunch、The Decoder、Decrypt、Hacker News 首页 1166 点等全球同步报道，今日头条新闻。GPT-5.5 智能指数 60 分首次单独领先前沿闭源双雄 3 分，Terminal-Bench 2.0 82.7% 与 SWE-Bench Pro 58.6% 在智能体编码测试中反超 Claude Opus 4.7 与 Gemini 3.1 Pro，叠加 100 万字符上下文与两倍定价，是 OpenAI 自 GPT-5 以来最激进的一次智能密度/价格重定位，直接冲击 Anthropic 与 Google 的编程工具生态。Critical 级。",
+      "source": "OpenAI / TechCrunch / The Decoder",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "keywords": ["OpenAI", "GPT-5.5", "智能指数", "Terminal-Bench", "100 万上下文", "API 定价"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "DeepSeek V4 开源",
+      "content": "深度求索正式发布 DeepSeek V4——1.6 万亿参数混合专家 Pro 版与 2840 亿参数 Flash 版双型号、Apache 2.0 开源权重；最大支持 100 万字符上下文；融合 Compressed Sparse Attention 与 Heavily Compressed Attention 双重混合注意力、Manifold-Constrained Hyper-Connections 结构，32 万亿以上字符数据与 FP4+FP8 混合精度完成基础训练；API 同步上线 deepseek-v4-pro 与 deepseek-v4-flash；老 deepseek-chat、deepseek-reasoner 将于 7月24日 退役、当日起流量全部转入 Flash。与 GPT-5.5 同日发布。",
+      "importance": "critical",
+      "reasoning": "4月24日 DeepSeek 技术报告首发，Hugging Face、AIBase、Hacker News、OFox.ai 同步报道，今日头条新闻。V4 是 DeepSeek V3 以来隔 16 个月的世代更新，1.6 万亿参数 Pro 是中国实验室公开开源权重参数规模新高、与 GPT-5.5 同日发布形成正面对撞；Apache 2.0 许可叠加 100 万字符上下文和 32 万亿字符基础训练，在开源-闭源智能差距上较 V3 显著收窄，对 Qwen3.6-27B 与 Tencent Hy3 后续开源节奏构成压力。Critical 级。",
+      "source": "DeepSeek / Hugging Face / AIBase",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "keywords": ["DeepSeek V4", "1.6T 参数", "Apache 2.0", "100 万上下文", "Flash", "Pro"],
+      "category": "技术突破"
+    },
+    {
+      "id": 3,
+      "title": "白宫反中国蒸馏",
+      "content": "白宫科技政策办公室主任 Michael Kratsios 召开媒体吹风会，首次将中国 3 家实验室 DeepSeek、月之暗面、MiniMax 对美国前沿 AI 模型的大规模查询-复制行为定性为「刻意的、工业规模的窃取活动」；行政部门宣布 3 项反制：向私人企业共享蒸馏攻击情报、与业界制定最佳实践、研究追究境外行为者的法律路径；Anthropic 早前披露中方在 Claude 平台开设 24000 个虚假账号、获取 1600 万次对话用于训练竞品，单次蒸馏可复制成本低至正版 1/100。",
+      "importance": "critical",
+      "reasoning": "4月23日 CNBC、Axios、Bloomberg、CNN、The Washington Post、Nextgov 等全球同步报道，今日头条新闻。Kratsios 以白宫官方身份公开点名三家中国实验室并定性为工业规模窃取，是美国行政部门首次将中美 AI 模型蒸馏从企业版权纠纷升级为国家层面产业安全议题，为后续《Trump America AI Act》立法与出口管制提供政策铺垫，直接影响 DeepSeek V4 同日开源后全球监管格局。Critical 级。",
+      "source": "CNBC / Axios / Bloomberg",
+      "url": "https://www.cnbc.com/2026/04/23/trump-china-ai-technology.html",
+      "keywords": ["白宫", "Kratsios", "中国蒸馏", "DeepSeek", "月之暗面", "MiniMax"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "Claude Code 后事披露",
+      "content": "Anthropic 工程团队发布回顾报告，承认近两月 Claude Code 质量滑坡由三项独立改动叠加导致：3月4日 把默认推理强度从 high 降至 medium 换取降低延迟、3月26日 缓存机制 bug 导致每次会话都清除思考历史、4月16日 为压缩回答长度新增系统提示词反而损伤编码质量；分别于 4月7日、4月10日、4月20日 v2.1.116 全部修复，评测显示编码能力回落 3% 已恢复；公告当日全体付费订阅者使用额度重置，含前两天配额反复事件受影响账户。",
+      "importance": "critical",
+      "reasoning": "4月23日 Anthropic 官方工程博客首发，The Register、VentureBeat、GIGAZINE、Hacker News 首页 598 点等同步报道，今日头条新闻。Anthropic 首次公开承认自身基础设施改动导致付费用户长达两个月的体验下滑，是前沿 AI 实验室对「静默降级」质疑最正式的回应；叠加 4月21-23日 Claude Code 从 Pro 计划撤回又回退事件，形成「产品透明度」与「商业可持续性」双重信任考验，对 OpenAI 与 Google 面对类似质疑时的应对模板有示范意义。Critical 级。",
+      "source": "Anthropic / The Register / VentureBeat",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "keywords": ["Anthropic", "Claude Code", "后事分析", "缓存 bug", "推理强度", "额度重置"],
+      "category": "公司动态"
+    },
+    {
+      "id": 5,
+      "title": "Tencent Hy3 开源",
+      "content": "腾讯混元团队开源 Hy3 Preview——2950 亿参数混合专家架构、210 亿活跃参数、256K 上下文长度；前 OpenAI 研究员姚顺雨主导基础训练与强化学习栈重建，冷启动到发布不足 3 个月；权重在 Hugging Face、ModelScope、GitCode 同步开放；上线腾讯云等 9 个端侧产品，最低 28 元每月。",
+      "importance": "high",
+      "reasoning": "4月23日 Decrypt、SCMP、AIBase、Pandaily 同步报道，今日新闻。Hy3 Preview 是腾讯混元品牌重构后首款对外开源模型，210 亿活跃参数规模以 40% 效率提升对标业界主力 MoE 模型，叠加从冷启动到开源不足三个月的节奏，标志腾讯从产品集成 AI 转向自研开源前沿模型；与 DeepSeek V4 同日发布、与 Qwen3.6-27B 前后呼应，中国实验室开源产能进入密集释放期。High 级。",
+      "source": "Decrypt / SCMP / AIBase",
+      "url": "https://huggingface.co/tencent/Hy3-preview",
+      "keywords": ["Tencent", "Hy3", "混元", "295B", "姚顺雨", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "谷歌 75% 代码 AI 写",
+      "content": "Google CEO Sundar Pichai 在 Cloud Next 博文中披露：Google 内部 75% 的新增代码已由 AI 生成并经工程师审核通过；2024 年 10 月该比例约 25%、2025 年秋 50%，12 个月内翻 3 倍；Pichai 强调 AI 并未替代工程师，而是把人工专长从逐行编写转移至审查与方向引导阶段。",
+      "importance": "high",
+      "reasoning": "4月23日 Google 博客首发，Free Press Journal、Storyboard18、India Blooms、Analytics Drift 等同步报道，今日新闻。Pichai 把 Google 内部 AI 代码生成占比从 2024 年 10 月 25% 到 2026 年 4 月 75% 的 12 个月三倍跃迁公开数字化，是超大规模科技公司首个官方披露的「人+AI」软件工程比例基准；对 Anthropic「AI 就业曝险指数」程序员 75% 可替代的预测形成实践印证，将推动 Meta、微软、Amazon 跟进披露。High 级。",
+      "source": "Google Blog / Freepressjournal / Storyboard18",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+      "keywords": ["Google", "Pichai", "75% 代码", "AI 生成", "Cloud Next", "工程师"],
+      "category": "行业观察"
+    },
+    {
+      "id": 7,
+      "title": "OpenAI 联手微软",
+      "content": "OpenAI 宣布 Trusted Access for Cyber 项目向 Microsoft 开放，Microsoft CISO 办公室可使用 GPT-5.4-Cyber 等最具攻击能力模型用于安全防御；作为对价 Microsoft 将其整个网络安全团队投入保护 OpenAI 模型、基础设施与共享客户；项目同步扩容至数千名经身份验证防御者、数百支关键软件防御团队；GPT-5.4-Cyber 可完成二进制逆向分析。",
+      "importance": "high",
+      "reasoning": "4月23日 OpenAI 官方博客、The Decoder、CyberScoop、Windows Report 等同步报道，今日新闻。OpenAI 将内部网络安全专用模型以 Trusted Access 分级方式向 Microsoft 共享，是两家自 2025 年合作结构重组后首个公开联合安全项目；回应 Mythos 权重外泄后的「供应链可信」质疑，把 OpenAI 的安全模型与 Microsoft Secure Future 的防御堆栈捆绑，对 Anthropic-Google 组合下一步安全合作形成竞争压力。High 级。",
+      "source": "OpenAI / The Decoder / CyberScoop",
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "keywords": ["OpenAI", "Microsoft", "Trusted Access", "GPT-5.4-Cyber", "网络安全", "CISO"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "Cognition 估值翻倍",
+      "content": "AI 编程创企 Cognition（Devin 母公司）正接洽新一轮融资、估值从 2025 年 9 月的 102 亿美元拉升至 250 亿美元、翻倍有余；计划融资数亿美元甚至更多、条款仍在谈判中；本轮节点正值 SpaceX 以 600 亿美元收购期权锁定 Cursor、Anthropic Claude Code 定价反复、Amazon 加码 Anthropic 130 亿美元，AI 编程赛道连续爆发高价融资并购。",
+      "importance": "high",
+      "reasoning": "4月23日 Bloomberg 首发，TechCrunch、Yahoo Finance、PitchBook、Crunchbase 等同步报道，今日新闻。Cognition 估值 7 个月翻 2.5 倍至 250 亿美元，紧跟 Cursor 25→500 亿美元、Windsurf 被 OpenAI 并购传闻等节点，AI 编程赛道正从 2024 年探索期进入 2026 年资本密集争夺期；Devin 背靠 Anthropic 订阅计划反复，本轮融资规模与时点被视为企业方重注 AI 原生开发者工具的信号。High 级。",
+      "source": "Bloomberg / TechCrunch",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-23/ai-coding-firm-cognition-in-funding-talks-at-25-billion-value",
+      "keywords": ["Cognition", "Devin", "250 亿估值", "AI 编程", "融资", "翻倍"],
+      "category": "投资融资"
+    },
+    {
+      "id": 9,
+      "title": "Sony Ace 登 Nature",
+      "content": "Sony AI 乒乓球机器人 Ace 登 Nature 封面论文；9 台相机 200 帧/秒追踪、事件相机测 9000 转/分钟旋转；端到端反应 20.2 毫秒、仅人类的 1/10；回球 14 米/秒、命中率超 75%；是首台 ITTF 规则下达职业水平的物理 AI。",
+      "importance": "medium",
+      "reasoning": "4月23日 Sony AI 官方、Nature Volume 652 Issue 8111、TechCrunch、Fortune、ScienceAlert、Dexerto 等同步报道，今日新闻。Ace 是首个在 ITTF 规则下完整比赛中击败职业运动员的自主机器人，端到端 20 毫秒反应时与 230 毫秒人类基线的 10 倍优势，标志物理 AI 从示教式动作执行走向实时对抗；Nature 封面论文将强化学习+高频感知路径正式纳入一流期刊范畴，对特斯拉 Optimus、Figure 02 等商业人形机器人有技术路径参考。Medium 级。",
+      "source": "Nature / Sony AI / TechStartups",
+      "url": "https://www.nature.com/articles/s41586-026-10338-5",
+      "keywords": ["Sony", "Ace", "机器人", "Nature", "乒乓球", "物理 AI"],
+      "category": "技术突破"
+    },
+    {
+      "id": 10,
+      "title": "顶级律所 AI 翻车",
+      "content": "华尔街顶级律所 Sullivan & Cromwell 为 Prince Global 破产案中 AI 幻觉向纽约破产法官 Martin Glenn 正式道歉；附件 3 页订正清单含 1 条并不存在的判例，错误由对方律所 Boies Schiller Flexner 发现；S&C 承认内部 AI 协议被绕过。",
+      "importance": "medium",
+      "reasoning": "4月21日 Bloomberg 首发，4月23日 CNN、Above the Law、Legal Cheek、Decrypt 等持续追踪报道，3 天内热点。Sullivan & Cromwell 是华尔街合并与破产律所顶级机构，承认内部 AI 使用协议被绕过、向联邦法官书面道歉，是顶级白鞋所首次为 AI 幻觉公开认错，与此前数十起低端律所 AI 引用虚假判例案件形成质变对比；叠加 Anthropic 近期发布法律业务客户案例，法律行业对 AI 生成内容的治理框架将被迫加速。Medium 级。",
+      "source": "Bloomberg / CNN / Above the Law",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/top-law-firm-apologizes-to-bankruptcy-judge-for-ai-hallucination",
+      "keywords": ["Sullivan Cromwell", "AI 幻觉", "破产法院", "Prince Global", "律所", "Dietderich"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-24T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "OpenAI Blog",
+      "Anthropic Blog",
+      "Google Blog",
+      "Bloomberg",
+      "CNBC",
+      "Axios",
+      "CNN",
+      "The Decoder",
+      "The Register",
+      "Decrypt",
+      "Hacker News",
+      "Hugging Face",
+      "AIBase",
+      "VentureBeat",
+      "Fortune",
+      "Nature",
+      "Sony AI",
+      "CyberScoop",
+      "SCMP"
+    ],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 900
+  }
+}
