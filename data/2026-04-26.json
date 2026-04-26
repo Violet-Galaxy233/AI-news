@@ -1,0 +1,146 @@
+{
+  "date": "2026-04-26",
+  "date_formatted": "26/04/26",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "谷歌 400 亿砸 Anthropic",
+      "content": "Google 与 Anthropic 签署最高 400 亿美元投资协议——首笔 100 亿美元立即到账，剩余 300 亿美元随业绩里程碑解锁；本轮估值 3500 亿美元、与 2 月 Amazon 250 亿美元加码同价；Google Cloud 同步承诺 5 年内向 Anthropic 交付 5 吉瓦算力、未来可再追加；Anthropic 年化营收已从 2025 年底约 90 亿美元跃至本月 300 亿美元；本笔追加前 Google 累计已投约 30 亿美元、并承诺最多 100 万颗 TPU。",
+      "importance": "critical",
+      "reasoning": "4月24日 Bloomberg 首发，TechCrunch、CNBC、Axios、Yahoo Finance、PYMNTS、Storyboard18、The Decoder 等全球同步报道，今日头条新闻。Google 100 亿美元立刻到账+5 吉瓦多年算力承诺+300 亿美元业绩对赌，是 Big Tech 对 Anthropic 累计承诺规模超越 Amazon 130 亿美元上限的反超动作，叠加 Anthropic 年化营收 7 个月内从 90 亿到 300 亿美元 3 倍跃迁，标志三大云厂-三大实验室捆绑格局再深化；3500 亿美元估值与 4月23日 GPT-5.5 发布、4月22日 Cloud Next 智能体平台同周登场，AI 资本-产品双线竞速达到新高峰。Critical 级。",
+      "source": "Bloomberg / TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "keywords": ["Google", "Anthropic", "400 亿投资", "5 吉瓦算力", "3500 亿估值", "TPU"],
+      "category": "投资融资"
+    },
+    {
+      "id": 2,
+      "title": "Cohere 并 Aleph Alpha",
+      "content": "加拿大 AI 公司 Cohere 宣布与德国 Aleph Alpha 合并、合并后估值约 200 亿美元；Lidl 母公司 Schwarz Group 以 5 亿欧元（约 6 亿美元）结构化融资入局成为战略股东；新公司保留 Cohere 名称，加拿大与德国双总部运营；交易获德国与加拿大政府背书，主攻企业与公共部门主权 AI、对标美国超大规模云厂；待监管与股东批准后落地；面向欧洲对美国 AI 提供方依赖的退出选项；2025 年 Aleph Alpha 估值约 50 亿美元、本次合并较前估值翻 4 倍。",
+      "importance": "critical",
+      "reasoning": "4月24-25日 TechCrunch、Sifted、CNBC、Axios、Globe and Mail、TheNextWeb、The Logic 等全球同步报道，今日头条新闻。Cohere 与 Aleph Alpha 合并 200 亿美元跨大西洋 AI 公司+德加双政府背书+Schwarz Group 5 亿欧元结构融资，是首个由欧洲企业资本与北美 AI 实验室共建的「主权 AI」平台，直接挑战 OpenAI、Anthropic、Google 在欧洲企业市场的份额；Aleph Alpha 估值 50 亿→200 亿美元一步翻 4 倍，标志欧洲在监管驱动下重新成为 AI 资本焦点。Critical 级。",
+      "source": "TechCrunch / Sifted / CNBC",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "keywords": ["Cohere", "Aleph Alpha", "Schwarz Group", "200 亿合并", "主权 AI", "transatlantic"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Meta 锁 AWS CPU",
+      "content": "Meta 与 Amazon AWS 签署多年期协议、首阶段部署「数千万」颗 AWS Graviton 核心驱动 Meta 下一代 agentic AI；Graviton5 基于 3 纳米工艺、单芯片 192 核、缓存较上一代扩 5 倍、核间延迟降 33%、整体性能提升 25%；Meta 一举成为全球最大 Graviton 客户之一；协议反映 AI 硬件路线分化：GPU 继续承担基础训练、CPU 承担实时推理、智能体编排、多步骤任务；Meta 此前自研 MTIA 路线进展不顺。",
+      "importance": "critical",
+      "reasoning": "4月24日 Meta 官方+AWS 联合公告，TechCrunch、CNBC、Tweaktown、Mobigyaan 等同步报道，今日头条新闻。Meta「数千万」颗 Graviton5 核心规模采购+Meta 跃居全球最大客户，是超大规模科技公司首次公开把 CPU 列为 agentic AI 核心算力底座，叠加 4月22日 Google Cloud Next、4月23日 GPT-5.5 与 Workspace Agents 集中发布的「智能体周」节点，标志 AI 硬件竞争从单纯 GPU 算力争夺扩展到 GPU+CPU+专用芯片三条并行供应链；Meta 1350 亿美元 AI 投资有了具体执行路径。Critical 级。",
+      "source": "AWS / TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "keywords": ["Meta", "AWS", "Graviton5", "数千万核", "agentic AI", "CPU"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "阿联酋 50% 政府 AI",
+      "content": "阿联酋副总统兼总理、迪拜统治者 Sheikh Mohammed bin Rashid Al Maktoum 宣布：2 年内将阿联酋政府 50% 部门、服务与运营迁移至 Agentic AI 自主智能体执行；副总统 Sheikh Mansour bin Zayed 督导执行，内阁事务部长 Mohammad Al Gergawi 领导专项工作组；全部联邦员工须完成生成式 AI 工具培训；项目目标包含降低运营成本、提高生产力、提升服务速度；阿联酋自称为全球首个全面 agentic 政府。",
+      "importance": "critical",
+      "reasoning": "4月23日 Khaleej Times、The National 首发，4月24日 Gulf News、MIT Sloan ME、The Decoder、Filipino Times 等同步报道，今日头条新闻。Sheikh Mohammed 以阿联酋全国政府体系级目标承诺「全球首个 agentic 政府」+2 年 50% 部门覆盖+全员强制 AI 培训，是国家级行政机关首次将自主智能体上升为执政路径；与中国 Q1 750 个备案、欧盟 AI Act 即将强制执行、美国《Trump America AI Act》立法推进同期登场，全球 AI 治理格局从「监管约束」转向「政府自用」新阶段；产业层面对 OpenAI、Anthropic、G42 等 Agentic 平台带来主权采购订单想象空间。Critical 级。",
+      "source": "Khaleej Times / The National / Gulf News",
+      "url": "https://www.khaleejtimes.com/uae/government/sheikh-mohammed-announces-50-of-uae-govt-services-to-run-on-ai-agents-in-2-years",
+      "keywords": ["阿联酋", "Sheikh Mohammed", "agentic 政府", "50% 部门", "迪拜", "公共服务"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "Altman 致歉枪案",
+      "content": "OpenAI CEO Sam Altman 向加拿大 BC 省 Tumbler Ridge 社区发书面致歉信，承认公司未向警方通报枪手 ChatGPT 账号被标为「为暴力活动提供协助」；2 月 10 日 18 岁枪手在 Tumbler Ridge 中学打死 8 人，含 6 名学生与枪手母亲、同父异母弟；OpenAI 早在 2025 年 6 月已内部标记并暂停账号未通报；致歉信由 BC 省长 David Eby 公开转发并形容「必要但远远不够」。",
+      "importance": "high",
+      "reasoning": "4月23日 Altman 致歉信落款，4月24日 BC 省长 David Eby 公开转发，CNN、CBC、TechCrunch、Globe and Mail、Engadget、Al Jazeera 等同步报道，今日热点新闻。OpenAI 与 Anthropic 等前沿 AI 厂商内部账号标记机制是否需向执法主动通报，长期是行业灰色地带；Altman 首次以 CEO 身份公开承认未通报责任并公开致歉，叠加 4 月佛州对 OpenAI 启动刑事调查 FSU 校园枪击案，标志「AI 厂商对内容安全主动外报义务」从行业自律走向司法与公共问责。High 级。",
+      "source": "CNN / CBC / TechCrunch",
+      "url": "https://edition.cnn.com/2026/04/24/world/sam-altman-openai-apologize-tumbler-ridge",
+      "keywords": ["Altman", "OpenAI", "Tumbler Ridge", "致歉", "枪击案", "BC 省"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "Claude 智能体市场",
+      "content": "Anthropic 公布 Project Deal——闭门 Claude 智能体真实交易市场实验：69 名 Anthropic 员工各获 100 美元礼品卡预算，由 Claude 智能体代表买卖双方就同事提供的实物商品多轮议价；为期 1 周共促成 186 笔成交、合计逾 4000 美元；研究发现使用更强模型的用户客观上获得更优结果，但用户多半未察觉「智能体质量差距」。",
+      "importance": "high",
+      "reasoning": "4月25日 TechCrunch 首发，Anthropic 官方、TechBuzz、Cryptika、Storyboard18、Unite.ai、Let's Data Science 等同步报道，今日新闻。Project Deal 是 AI 厂商首次公开「智能体↔智能体」付费交易实验，69 人 1 周 186 单总额 4000+ 美元的真实金额验证 agentic commerce 落地路径；研究指出「使用低端模型的买家不知道自己亏」直接挑战 OpenAI Workspace Agents、Google Gemini Enterprise 等正在面市的智能体生态——智能体能力差距将转化为真实商业损失。High 级。",
+      "source": "TechCrunch / Anthropic / TechBuzz",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "keywords": ["Anthropic", "Project Deal", "智能体市场", "186 笔", "agentic commerce", "Claude"],
+      "category": "技术突破"
+    },
+    {
+      "id": 7,
+      "title": "美程序员招聘减半",
+      "content": "美国联邦储备委员会发布研究报告：ChatGPT 2022 年 11 月发布前美国程序员岗位年增长率近 5%、远高于整体劳动力市场；ChatGPT 上线约 1.5 年后即 2024 年中实际与预期就业拉开缺口、岗位增速近乎减半；同期初级工程师入门岗位 18 个月内额外下降 35%。",
+      "importance": "high",
+      "reasoning": "4月25日 The Decoder 引述美联储研究报告首发，AEI、Federal Reserve FEDS Notes、CNBC、Axios 等同步报道，今日新闻。美联储 FEDS Notes 是美国货币政策研究的官方渠道、首次以联邦数据论证 ChatGPT 直接抑制程序员就业增长且滞后 1.5 年才显现，叠加 4月23日 Pichai 披露 Google 内部 75% 代码 AI 写、Q1 全球 78557 个科技岗位裁撤 47.9% 与 AI 相关，AI 对软件工程岗位的就业影响从企业财报传闻升级为央行数据共识，将推动美国劳工部、欧盟 DG-EMPL 跟进结构性研究。High 级。",
+      "source": "Federal Reserve / The Decoder / AEI",
+      "url": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
+      "keywords": ["美联储", "程序员就业", "ChatGPT", "FEDS Notes", "岗位减半", "AI 就业"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "美团 LongCat 2.0",
+      "content": "美团发布 LongCat-2.0-Preview 万亿参数大模型、面向受邀用户开放测试；LongCat 2.0 是首个全程基于国产算力集群完成训练的万亿参数模型，使用数万张国产 GPU 联合调度；与 DeepSeek V4 同日推出、参数规模相当；前作 LongCat Flash 5600 亿参数混合专家架构、运行速度逾 100 字符/秒。",
+      "importance": "high",
+      "reasoning": "4月24日 美团技术博客+AIBase 首发，Phemex、AAStocks、VentureBeat、aibase 等同步报道，今日新闻。美团 LongCat 2.0-Preview 万亿参数+国产算力训练，是中国互联网巨头继 DeepSeek V4 同日开源之后第二款万亿参数模型，且明确强调「国产 GPU 集群训练」回应美国出口管制对中国 AI 训练算力封锁；与 Tencent Hy3、Qwen3.6 同周登场，标志中国万亿参数模型从「实验室项目」转入「大平台并行竞速」。High 级。",
+      "source": "美团 / AIBase / Phemex",
+      "url": "https://phemex.com/news/article/meituan-unveils-trillionparameter-ai-model-longcat20preview-for-testing-75727",
+      "keywords": ["美团", "LongCat 2.0", "万亿参数", "国产算力", "Preview", "DeepSeek 同日"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "AI 破 60 年数论",
+      "content": "23 岁业余数学家 Liam Price 用 ChatGPT Pro 单次提示 GPT-5.4 Pro，模型 80 分钟内给出 1968 年提出、悬置 60 年的 Erdős 问题 1196 完整渐近解；Fields 奖得主陶哲轩 24 小时内拓展为新数学理论雏形；牛津数学家 Lichtman 称之为首项达 Erdős「证明之书」级别 AI 证明。",
+      "importance": "medium",
+      "reasoning": "4月24-25日 Scientific American 首发，Hacker News 首页 345 点+205 评论、Yahoo Tech、Webiano、Abit.ee 同步报道，今日热点新闻。Erdős 问题 1196 由顶级数学家集体尝试 60 年未果、被 GPT-5.4 Pro 单次提示 80 分钟解出+陶哲轩 24 小时内拓展为新理论分支，是 AI 在纯数学突破的标志性事件，但属个体研究成果非工业范式转变。Medium 级。",
+      "source": "Scientific American / Hacker News / Yahoo Tech",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "keywords": ["Erdős", "GPT-5.4 Pro", "Liam Price", "陶哲轩", "1196", "数学证明"],
+      "category": "技术突破"
+    },
+    {
+      "id": 10,
+      "title": "中国首款专 robotaxi",
+      "content": "吉利联合曹操出行在 Auto China 2026 车展首发中国首款专用无人出租 EVA Cab，搭载千里浩瀚 G-ASD L4 自动驾驶；全球首套 2160 线数字 LiDAR、单秒 2592 万点成像、检测距离 600 米；预计 2027 年量产。",
+      "importance": "medium",
+      "reasoning": "4月24-25日 GlobeNewswire、AIBase、Auto China 2026 官方同步报道，今日新闻。EVA Cab 是中国首款从底盘平台向 robotaxi 专用化设计而非乘用车改装的 L4 车型，2160 线数字 LiDAR 与 600 米检测距离对标 Waymo Driver、Cruise Origin；2027 量产时间表与 Tesla Robotaxi、Zoox 量产节奏对齐；属中国汽车产业内部动态非全球范式变化。Medium 级。",
+      "source": "GlobeNewswire / AIBase / Auto China",
+      "url": "https://www.globenewswire.com/news-release/2026/04/25/3281124/0/en/China-s-First-Purpose-Built-Robotaxi-Customized-for-CaoCao-Debuts-at-Auto-China-2026-with-Mass-Production-Planned-for-2027.html",
+      "keywords": ["吉利", "EVA Cab", "robotaxi", "曹操出行", "L4", "2160 线 LiDAR"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-26T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "Bloomberg",
+      "CNBC",
+      "Axios",
+      "CNN",
+      "CBC",
+      "The Decoder",
+      "Sifted",
+      "Globe and Mail",
+      "Yahoo Finance",
+      "Khaleej Times",
+      "The National",
+      "Gulf News",
+      "Federal Reserve",
+      "Scientific American",
+      "Hacker News",
+      "Anthropic",
+      "AWS",
+      "AIBase",
+      "Phemex",
+      "GlobeNewswire"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 1200
+  }
+}
