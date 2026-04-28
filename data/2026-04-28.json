@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-28",
+  "date_formatted": "26/04/28",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Microsoft 解锁 OpenAI",
+      "content": "Microsoft 与 OpenAI 共同宣布重新签署合作协议、全面取消 OpenAI 必须使用 Azure 独家云服务的条款；OpenAI 此后可在 AWS、Google Cloud、Oracle 等任意云平台分发其 AI 产品；协议同时取消「AGI 条款」——原条款约定 OpenAI 实现通用人工智能时 Microsoft 知识产权许可立即终止；新协议 Microsoft 获得 OpenAI 模型与产品非独家许可至 2032 年；Microsoft 此后转售 OpenAI 产品不再向 OpenAI 支付营收分成；OpenAI 向 Microsoft 的营收分成则受总额上限约束、持续至 2030 年「与技术进展脱钩」；触发本次重谈的直接因素是 OpenAI 计划在 AWS 上线 500 亿美元规模合作产品；本次调整为 OpenAI 公司化重组扫清最大法律障碍、为公开募股铺平道路。",
+      "importance": "critical",
+      "reasoning": "4月27日 Bloomberg 首发，Microsoft 官方博客同步公告，TechCrunch、CNBC、The Decoder、Yahoo Finance、Unite.AI、WebProNews、TheTechPortal 等全球同步报道，今日头条新闻。Microsoft-OpenAI 同时取消「Azure 独家」+「AGI 条款」+引入营收分成上限，是 Microsoft 自 2019 年战略入股 OpenAI 以来 7 年间最大幅度合作重塑；与同日 OpenAI 与 AWS 500 亿美元合作、4月24日 Google 400 亿美元投资 Anthropic 同周登场，标志「单一云厂深度绑定单一 AI 实验室」黄金时代终结，三大云厂-三大 AI 实验室进入交叉持股+多线供应阶段；为 OpenAI IPO 与 1.4 万亿美元算力扩张提供资本结构保障。Critical 级。",
+      "source": "Bloomberg / Microsoft / TechCrunch",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+      "keywords": [
+        "Microsoft",
+        "OpenAI",
+        "AGI 条款",
+        "Azure 独家",
+        "2032 许可",
+        "IPO"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 2,
+      "title": "DeepMind 老将 11 亿种子",
+      "content": "前 DeepMind 强化学习负责人 David Silver 创立的英国 AI 实验室 Ineffable Intelligence 完成 11 亿美元种子轮融资、投后估值 51 亿美元、欧洲史上最大种子轮；Sequoia 与 Lightspeed 共同领投，Nvidia、Google、DST Global、Index Ventures 与英国主权 AI 基金等共同参与；Silver 在 DeepMind 工作逾 10 年、是 AlphaGo 与 AlphaZero 系列核心架构师、现仍兼任 University College London 教授；Ineffable 目标构建无需人类标注数据的「超级学习者」、依赖纯强化学习自行试错探索新知识；公司成立仅数月、单轮种子规模与估值已超过 OpenAI 与 Anthropic 同期种子；过去一年 OpenAI、DeepMind、Anthropic、xAI 离职老兵创办的 Periodic Labs、Humans& 等同类公司亦完成数亿美元融资。",
+      "importance": "critical",
+      "reasoning": "4月27日 TechCrunch 首发，CNBC、Bloomberg、Tech.eu、Mezha、Yahoo Finance、PYMNTS、digitado、BigGo Finance 等全球同步报道，今日热点新闻。Ineffable Intelligence 11 亿美元种子+51 亿美元估值+欧洲史上最大种子轮+Silver 个人品牌+Sequoia 与 Lightspeed 双领投，是 2026 年下注「无人类数据自学习」路线最大单笔种子；与 OpenAI、Anthropic 主流路径——海量人类语料+强化学习微调——形成路线分叉；与 4月24日 Google 400 亿美元 Anthropic、4月23日 GPT-5.5「Spud」同周登场，AI 投资从应用层全面回流到方法论级基础研究。Critical 级。",
+      "source": "TechCrunch / CNBC / Tech.eu",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "keywords": [
+        "David Silver",
+        "Ineffable Intelligence",
+        "11 亿种子",
+        "51 亿估值",
+        "强化学习",
+        "无人类数据"
+      ],
+      "category": "投资融资"
+    },
+    {
+      "id": 3,
+      "title": "中国封 Meta 20 亿并购",
+      "content": "中国国家发改委发布简短声明、正式否决 Meta 此前 20 亿美元收购原中国创立的 AI 智能体公司 Manus、并命令双方终止已交割交易；Manus 2024 年发布的 AI 智能体引发全球关注、之后法律主体迁至新加坡；Meta 2025 年底宣布收购、并已将 Manus 整合进内部系统、Manus 高管亦已加入 Meta 美国团队；2026 年 1 月起中国商务部启动出口管制、技术进出口与境外投资合规审查；分析人士指北京担忧关键 AI 智能体技术经新加坡外流美国；交易解除将使 Meta 必须从内部系统剥离已整合的 Manus 团队与代码资产；本案是中美科技战中首例对已交割 AI 并购案的强制回溯禁令。",
+      "importance": "critical",
+      "reasoning": "4月27日 Bloomberg 首发并配发分析报道「Xi Tests China's Reach by Blocking Already-Done Meta Deal」，CNBC、CNN、TechCrunch、The Information、Silicon Republic、Breitbart、Yahoo Finance 等同步报道，今日头条新闻。中国国家发改委正式否决 Meta 20 亿美元已交割并购+命令解除已整合团队，是中美科技战中首例对已完成交割 AI 并购案的回溯执行；叠加 4月24日 白宫指控 DeepSeek+月之暗面+MiniMax「工业规模窃取」、3 月美国封锁 NVIDIA 高端 GPU 对华出口，AI 跨境并购与人才流动正式进入双向高墙时代；对在新加坡注册的中国 AI 公司构成长期合规警示。Critical 级。",
+      "source": "Bloomberg / CNBC / TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+      "keywords": [
+        "Manus",
+        "Meta 收购",
+        "中国发改委",
+        "20 亿并购",
+        "AI 智能体",
+        "中美科技战"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 联手做 AI 手机",
+      "content": "OpenAI 据多家媒体报道与 Qualcomm、MediaTek 联合研发专用 AI 处理器、目标 2028 年量产「AI 智能体手机」；Luxshare 立讯精密为独家整机设计与制造合作伙伴；新设备核心理念是用 AI 智能体直接执行用户任务、取代传统 App 模型；首批目标年出货量 3-4 亿台；规格与供应商名单计划 2026 年底至 2027 年一季度敲定；本爆料源自 TF International Securities 分析师郭明錤研究报告、Qualcomm、OpenAI、MediaTek 三方均未官方确认；项目为 OpenAI 与前苹果设计师 Jony Ive 旗下 io 公司合作之外的第二条硬件路线、亦是 OpenAI 首次直接挑战 Apple 与 Android 阵营 App 商业模式；消息推动 Qualcomm 股价当日大涨约 11% 至 148.85 美元。",
+      "importance": "critical",
+      "reasoning": "4月27日 TechCrunch 首发，Seeking Alpha、TheNextWeb、Benzinga、Android Authority、24/7 Wall St、Schaeffer's Research、WinBuzzer 等全球同步报道，Qualcomm 股价同日 +11% 至 148.85 美元印证市场关注，今日热点新闻。OpenAI Qualcomm+MediaTek+Luxshare 三家供应链同时绑定+3-4 亿台年出货目标+智能体替代 App 范式，是 OpenAI 首次以硬件正面冲击 iOS+Android 应用经济；与 4月27日 Skye iPhone agentic 主屏 358 万种子、4月22日 Samsung Galaxy Glasses 50 克 Gemini 泄露同周登场，标志后智能机时代「AI 智能体直接驱动设备」竞争升级。Critical 级。",
+      "source": "TechCrunch / TheNextWeb / Benzinga",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "keywords": [
+        "OpenAI",
+        "AI 智能体手机",
+        "Qualcomm",
+        "MediaTek",
+        "Luxshare",
+        "2028 量产"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Meta 锁太空太阳能",
+      "content": "Meta 与初创公司 Overview Energy 签署最高 1 吉瓦太空太阳能采购协议、为全球首份商业空间太阳能容量预订；Overview 计划在地球同步轨道部署卫星阵列、收集 24 小时不间断阳光、以低强度近红外光束传送至地面现有光伏电站接收；首次入轨演示 2028 年 1 月、商业供电 2030 年开始；财务条款未披露；解决 AI 数据中心需 24 小时稳定电力但传统风光发电间歇的核心难题；项目延续 Meta 1350 亿美元年度 AI 投资中能源板块的多元探索；Overview Energy 此前融资规模未公开、本协议为其首张大客户订单。",
+      "importance": "high",
+      "reasoning": "4月27日 Bloomberg 首发，TechCrunch、Axios、TheNextWeb、Benzinga、PV Magazine USA、Yahoo Finance、New Space Economy、PV Magazine、The News PK 等同步报道，今日热点新闻。Meta-Overview Energy 1 吉瓦+全球首份商业空间太阳能预订+2030 商业上电时间表，是超大规模科技公司首次为 AI 算力扩张签署「太空发电」级别能源协议；叠加 4月24日 Maine 州长否决数据中心禁令、4月23日 OpenAI 30 吉瓦 1.4 万亿美元算力路线图、4月24日 Meta 锁 AWS Graviton5 数千万核，AI 数据中心电力供给从地面新能源进一步外溢至轨道空间。High 级。",
+      "source": "Bloomberg / TechCrunch / Axios",
+      "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+      "keywords": [
+        "Meta",
+        "Overview Energy",
+        "太空太阳能",
+        "1 吉瓦",
+        "2030 商业",
+        "AI 数据中心"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "Mercor 4 万人语音泄露",
+      "content": "安全研究机构 ORAVYS 公开针对 AI 数据标注平台 Mercor 4 月初大规模数据泄露的最新攻击面分析：Lapsus$ 黑客组织已在暗网拍卖约 4 TB 生物特征数据、覆盖逾 4 万名 AI 训练承包商、含人均 2-5 分钟工作室级语音样本与配套政府身份证件；当前商用语音克隆工具仅需 15 秒高质量语音即可生成可用克隆、足以绕过部分美英银行声纹双因素认证；Mercor 估值 100 亿美元、长期为 OpenAI、Anthropic、Meta 等头部 AI 公司供应训练数据；Meta 已暂停与 Mercor 全部合作、5 起承包商集体诉讼已立案。",
+      "importance": "high",
+      "reasoning": "4月27日 ORAVYS 安全分析博客首发深度剖析+Hacker News 首页 468 点 172+ 评论顶置，Strikegraph、Captain Compliance、Halborn、TheNextWeb、Staffing Industry Analysts、Jerusalem Post、PYMNTS 等同步报道，今日热点新闻。Mercor 4 TB 语音+证件双重泄露+4 万 AI 承包商规模+15 秒克隆即可绕过银行声纹+Meta 全面切断，是 AI 训练数据基础设施层级首次大规模生物特征泄露事件的可量化攻击面披露；与 4月25日 Cursor 9 秒清生产库共同构成 AI 智能体生产环境二次安全警钟；将推动 AI 数据标注与人才平台行业的合规与隔离标准重塑（4月初首次披露但 ORAVYS 攻击面分析与 Meta 切断为今日新进展保留）。High 级。",
+      "source": "Hacker News / ORAVYS / Fortune",
+      "url": "https://app.oravys.com/blog/mercor-breach-2026",
+      "keywords": [
+        "Mercor",
+        "Lapsus$",
+        "4 TB 泄露",
+        "语音克隆",
+        "AI 承包商",
+        "供应链攻击"
+      ],
+      "category": "安全事件"
+    },
+    {
+      "id": 7,
+      "title": "Adobe Firefly 智能体公测",
+      "content": "Adobe 正式宣布 Firefly AI Assistant 进入全球公测、面向 Creative Cloud Pro 与付费 Firefly Pro / Pro Plus / Premium 订阅用户开放；用户用自然语言描述目标、AI 助手即可调度 Photoshop、Lightroom、Premiere、Firefly 等多款应用、跨多步骤工作流自主执行；公测期内可调用 60+ 专业级工具、含自动调色、生成填充、自动抠图、矢量化、预设管理；订阅用户每日获得免费生成额度；Adobe 同时确认正在为第三方对话式 AI 接入轻量版本、Anthropic Claude 为首批集成对象。",
+      "importance": "high",
+      "reasoning": "4月27日 Adobe 官方博客首发，9to5Mac、Axios、Digital Trends、RedSharkNews、Thurrott、MSN 等同步报道，今日热点新闻。Adobe Firefly AI Assistant 4月15日 内部预览→4月27日 全球公测+60+ 跨应用工具调度+Claude 首批第三方集成，是创意软件厂商首次将 agentic AI 跨应用工作流交付付费用户使用；与 4月22日 Google Workspace Intelligence、4月23日 OpenAI Workspace Agents 同月登场，标志 SaaS 创意工具进入「智能体直接编排专业工具链」新阶段；亦是 Anthropic Claude 首次以「插件」形式嵌入 Big Tech 创意应用。High 级。",
+      "source": "Adobe / 9to5Mac / Axios",
+      "url": "https://blog.adobe.com/en/publish/2026/04/27/firefly-ai-assistant-public-beta",
+      "keywords": [
+        "Adobe",
+        "Firefly AI Assistant",
+        "公测",
+        "Creative Cloud",
+        "60+ 工具",
+        "Claude"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "苹果前 AI 主管落 CuspAI",
+      "content": "苹果前 AI 主管 John Giannandrea 离职两周后落定下一站、以兼职顾问身份加入英国剑桥材料科学 AI 实验室 CuspAI、协助公司在湾区开设办公室与高端人才招聘；Giannandrea 此前主管 Apple Intelligence、Siri 与机器人项目、苹果工龄 8 年；CuspAI 此前 Series A 融资 1 亿美元、含 Series A 延期合计逾 2 亿美元、新加坡 Temasek 领投、新一轮融资估值有望突破 10 亿美元；早期投资人含 NEA、Nvidia 风投、Samsung 风投；Giannandrea 不签独家排他、保留与其他 AI 实验室合作空间。",
+      "importance": "high",
+      "reasoning": "4月27日 9to5Mac 首发，UpStarts Media、Bloomberg、MacObserver、PitchBook、Let's Data Science、StartupHub.ai 等同步报道，今日热点新闻。Giannandrea CuspAI 兼职顾问+CuspAI 估值有望突破 10 亿美元+材料科学 AI 方向，是 4月13日 Giannandrea 离开苹果后首次公开亮相的下家信号，体现「Big Tech AI 高管→应用科学 AI 创业」流向；CuspAI 强化学习+材料发现路线与同日 Ineffable 11 亿种子的「无人类数据自学习」路线遥相呼应，AI 投资焦点从语言模型外溢至基础科学。High 级。",
+      "source": "9to5Mac / Bloomberg / UpStarts Media",
+      "url": "https://9to5mac.com/2026/04/27/john-giannandrea-has-found-a-new-role-after-leaving-apple/",
+      "keywords": [
+        "Giannandrea",
+        "CuspAI",
+        "苹果离职",
+        "兼职顾问",
+        "材料科学 AI",
+        "10 亿估值"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 9,
+      "title": "Sereact 机器人 AI 1.1 亿",
+      "content": "德国斯图加特工业机器人 AI 公司 Sereact 完成 1.1 亿美元 B 轮融资、Headline 领投，Bullhorn、Felix Capital、Daphni 与现有股东参与；公司 Cortex 平台为工业机器人提供任务推理与动作预测能力、可在执行前预演结果；目标客户为德国制造业与北美仓储物流行业；本轮为 2026 年欧洲机器人 AI 单笔最大融资。",
+      "importance": "medium",
+      "reasoning": "4月26-27日 Finsmes、PYMNTS 首发，TechCrunch、Crunchbase、Staffing Industry Analysts 等同步报道，今日新闻。Sereact 1.1 亿美元 B 轮+Cortex 任务预演执行+欧洲单笔最大，体现欧洲在物理 AI 方向的本土化探索；与 4月23日 Bezos Project Prometheus 100 亿美元同月发酵、中国 Robot Era 2 亿美元 C 轮共同构成全球物理 AI 资本节奏。Medium 级。",
+      "source": "Finsmes / PYMNTS / TechCrunch",
+      "url": "https://www.finsmes.com/2026/04/sereact-raises-110m-in-series-b-funding.html",
+      "keywords": [
+        "Sereact",
+        "1.1 亿 B 轮",
+        "Cortex 平台",
+        "工业机器人",
+        "Headline",
+        "斯图加特"
+      ],
+      "category": "投资融资"
+    },
+    {
+      "id": 10,
+      "title": "小米机器人 90% 上线",
+      "content": "小米发布最新版 CyberOne 人形机器人内部工厂实测报告：机器人在汽车自攻螺母装配环节连续 3 小时自主作业、成功率 90.2%、达成产线 76 秒节拍要求；新机型仿生手指自由度提升 83%、加入散热汗腺设计；公司总裁卢伟冰称机器人当前为「实习生」、99% 以上量产稳定性是下一目标；小米计划 5 年内大规模部署。",
+      "importance": "medium",
+      "reasoning": "4月26-27日 Technetbook、Mike Kalil、Origin of Bots、Interesting Engineering、Outlook Business、Assembly Magazine 等同步报道，今日新闻。CyberOne 90.2% 成功率+76 秒节拍达标+仿生手自由度 +83%，是中国头部消费电子厂商首次披露人形机器人在汽车产线连续作业的可量化成绩；与 Tesla Optimus、Figure 02 同期对标，体现「实习生→量产员工」过渡期物理 AI 的真实工程门槛。Medium 级。",
+      "source": "Technetbook / Mike Kalil / Origin of Bots",
+      "url": "https://www.technetbooks.com/2026/04/xiaomi-cyberone-humanoid-robot-features.html",
+      "keywords": [
+        "小米",
+        "CyberOne",
+        "90.2% 成功率",
+        "76 秒节拍",
+        "自由度 83%",
+        "仿生手"
+      ],
+      "category": "技术突破"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-04-28T12:00:00Z",
+    "total_news": 10,
+    "sources_checked": [
+      "TechCrunch",
+      "Bloomberg",
+      "Microsoft",
+      "CNBC",
+      "The Decoder",
+      "AIBase",
+      "Hacker News",
+      "ORAVYS",
+      "Adobe",
+      "9to5Mac",
+      "Axios",
+      "TheNextWeb",
+      "Benzinga",
+      "Tech.eu",
+      "Yahoo Finance",
+      "Finsmes",
+      "PYMNTS",
+      "Technetbook",
+      "Mike Kalil",
+      "Origin of Bots",
+      "Fortune",
+      "UpStarts Media"
+    ],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 1500
+  }
+}
