@@ -1,0 +1,129 @@
+{
+  "date": "2026-05-04",
+  "date_formatted": "26/05/04",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "AI 急诊诊断胜过医生",
+      "content": "Harvard 医学院与 Beth Israel Deaconess 医疗中心在 Science 期刊发表双盲随机对照试验，首次证明 AI 急诊分诊系统性优于人类医生。OpenAI o1 与两位内科主治医师对 76 名真实患者诊断对比：o1「精确或高度接近」准确率 67%、医师分别 55% 和 50%；信息充分时 AI 升至 82%、医师 70-79%；治疗推理含抗生素方案与临终关怀，o1 全面领先。负责人 Manrai 强调 AI 仅依赖文字、不具备影像与非语言判断，呼吁「迫切需要前瞻性临床试验」；急诊医师 Panthagani 质疑对比公平性——急诊首要目标是稳定患者而非精确诊断。本研究是 AI 首次以顶级期刊临床试验超越人类医生关键医疗决策。",
+      "importance": "critical",
+      "reasoning": "5月3日 Science 期刊发表，TechCrunch、NPR、The Guardian、Harvard Magazine、Science AAAS、Inc Magazine、TechSpot、Deccan Chronicle 等全球同步报道，HN 345 点 282 评论，今日头条新闻。OpenAI o1 急诊分诊 67% vs 医师 55%/50%+充分信息 82% vs 70-79%+治疗推理全面领先+76 名真实患者双盲 RCT+Science 正式发表+Manrai/Rodman 呼吁前瞻性临床试验+Panthagani 质疑对比公平性，是 AI 首次以顶级期刊随机对照试验在关键医疗决策上系统性超越人类专家；与 5月1日 黄仁勋反驳 AI 失业论、5月3日 中国法院判 AI 替员工违法同周登场，AI 能力边界扩展与社会应对机制加速形成。Critical 级。",
+      "source": "Science / TechCrunch / NPR",
+      "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+      "keywords": ["Harvard", "Science 期刊", "急诊诊断", "OpenAI o1", "67% vs 55%", "双盲试验"],
+      "category": "行业观察"
+    },
+    {
+      "id": 2,
+      "title": "小米万亿开源编程 AI",
+      "content": "小米正式开源旗舰编程 AI MiMo-V2.5-Pro，总参数 1.02 万亿（模型规模）、活跃参数 420 亿、支持 100 万字符上下文，权重以 Apache 2.0 在 Hugging Face 开放。编程评测 SWE-bench Verified 78.9、Terminal-Bench 2.0 68.4，逼近 Anthropic 旗舰 Claude Opus 4.6 的 77.1；核心优势在效率——完成同等智能体任务比 Claude Opus 4.6、Gemini 3.1 Pro 与 GPT-5.4 节省 40-60% 处理量。实测中 MiMo-V2.5-Pro 4.3 小时内用 672 次工具调用从零完成完整 Rust 编译器、测试覆盖率从 59% 推至 100%；另一演示用 11.5 小时独立开发 8192 行桌面视频编辑器。中国手机厂商首次发布万亿参数级开源编程 AI，直接挑战美国闭源阵营。",
+      "importance": "critical",
+      "reasoning": "5月3日 The Decoder 首发，VentureBeat、GSMArena、Medium、BuildFastWithAI、Artificial Analysis、Hugging Face 等全球同步报道，今日热点新闻。1.02 万亿参数+420 亿活跃+100 万字符+SWE-bench 78.9+Terminal-Bench 68.4 逼近 Opus 77.1+40-60% 处理量节省+4.3 小时完成 Rust 编译器+11.5 小时 8192 行视频编辑器+Apache 2.0 全开放，是继 DeepSeek V4 后又一中国万亿参数级开源模型挑战美国闭源前沿；小米作为手机厂商跨入前沿 AI 研究，与 4月29日 蚂蚁 Ling-2.6-flash、4月24日 DeepSeek V4 同月登场，中国开源 AI 在编程智能体领域密集崛起。Critical 级。",
+      "source": "Xiaomi / The Decoder / VentureBeat",
+      "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/",
+      "keywords": ["小米", "MiMo-V2.5-Pro", "1.02 万亿参数", "开源", "SWE-bench 78.9", "Rust 编译器"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "ChatGPT 默开广告追踪",
+      "content": "OpenAI 向美国免费 ChatGPT 用户默认开启营销追踪 Cookie，将 Cookie ID 与电子邮件地址等有限标识符共享给广告合作伙伴，对话内容不在共享范围。付费订阅用户不受影响。ChatGPT 全球周活跃 9.1 亿、超 90% 为免费用户，意味着 8 亿以上用户自动被纳入追踪。用户须手动进入「设置 > 数据控制 > 营销隐私」关闭。OpenAI 已在 ChatGPT 内投放广告，广告收入年度目标 25 亿美元、长期规划 2030 年达 1000 亿美元；公司当前年化营收约 250 亿美元，广告是 IPO 前多元化收入的核心支柱。全球最大 AI 聊天产品首次系统性引入默认广告追踪，标志 AI 助手从纯订阅向广告模式转轨。",
+      "importance": "critical",
+      "reasoning": "4月30日 OpenAI 邮件通知用户隐私政策变更，5月1-3日 The Decoder、WinBuzzer、Storyboard18、DNYUZ、Startup Fortune、Heise Online、TechBuzz 等全球密集报道，3 天内持续发酵。ChatGPT 9.1 亿周活+90%+ 免费用户默认追踪+Cookie ID/邮件共享+25 亿广告目标+2030 年 1000 亿规划+250 亿年化营收+IPO 前商业化转型，是全球用户量最大的 AI 产品首次以默认开启方式系统性引入广告追踪，设定 AI 助手隐私与商业化行业先例；与 4月29日 OpenAI 错失营收目标、5月2日 加拿大枪案诉讼同周登场，OpenAI 在营收压力与公众信任之间走钢丝。Critical 级。",
+      "source": "OpenAI / The Decoder / WinBuzzer",
+      "url": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/",
+      "keywords": ["ChatGPT", "广告追踪", "Cookie", "9.1 亿周活", "25 亿美元", "IPO"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "微软 Word 嵌法律智能体",
+      "content": "Microsoft 在 Word 内上线 Legal Agent，首款嵌入主流办公套件的 AI 法律智能体。可逐条对照客户 Playbook 审阅合同、识别风险条款与义务、生成带修订标记的协商修改版本并保留完整协商历史。采用确定性插入算法理解 Word 文档结构后精确编辑，避免 AI 重写全文导致格式错乱。核心团队来自 Microsoft 收购的 Robin AI。当前通过 Frontier 计划在美国 Windows 桌面端开放、需 365 Copilot 许可证。Microsoft 强调「不提供法律意见、不替代专业律师判断」。",
+      "importance": "high",
+      "reasoning": "4月30日 Microsoft 365 Copilot 官博首发，Artificial Lawyer、Neowin、Legal IT Insider、Digital Trends、Thurrott、Kingy AI、NewsBytesApp 等法律+科技媒体同步报道，3 天内持续发酵。Word 内嵌 AI 法律智能体+Playbook 逐条审阅+确定性红线算法+Robin AI 团队+Frontier 计划美国首发+365 Copilot 许可门槛+「不替代律师」声明，是主流办公软件首次将完整的合同审阅—修订—合规工作流打包为 AI 智能体；与 4月22日 Sullivan & Cromwell AI 幻觉事件形成「法律 AI 商用+法律 AI 风险」双线叙事。High 级。",
+      "source": "Microsoft / Artificial Lawyer / Neowin",
+      "url": "https://www.artificiallawyer.com/2026/04/30/microsoft-launches-its-own-legal-agent-for-word/",
+      "keywords": ["Microsoft", "Legal Agent", "Word", "合同审阅", "Robin AI", "Frontier"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "Musk v. Altman 首周收官",
+      "content": "Musk 诉 OpenAI 庭审首周在加州奥克兰联邦法院收官，九人陪审团已组建、Musk 连续三天作证后周四结束。核心主张围绕「你不能偷走一家慈善机构」：指控 Altman 将他 3800 万美元捐赠的非营利机构转化为商业工具。家族办公室负责人 Birchall 同周披露 Musk 去年主导的 974 亿美元收购要约被 Altman 当即拒绝。OpenAI 律师 Savitt 反驳称 Musk「从未真正致力于非营利使命」。Bloomberg 评价首周对 Musk「遇到棘手环节」，Altman 与 Brockman 预计本月晚些出庭。",
+      "importance": "high",
+      "reasoning": "5月2日 CNBC、Bloomberg、MIT Technology Review、Washington Post、ABC7 SF、Rolling Out 等全球同步报道首周庭审总结，今日热点新闻。5月1日 已报道 Musk 蒸馏承认角度，今日报道首周收官全局：九人陪审团+3 天连续作证+3800 万捐赠 vs 非营利转商业+Birchall 974 亿收购被拒+Savitt「从未致力非营利」反驳+Bloomberg「棘手」评价+Altman 将出庭，本案可能重塑 AI 公司治理与非营利转型法律框架；与 5月3日 ChatGPT 广告追踪、5月2日 加拿大枪案诉讼同周登场，OpenAI 同时面对商业化与治理双重考验。High 级。",
+      "source": "CNBC / Bloomberg / MIT Technology Review",
+      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "keywords": ["Musk v. Altman", "庭审首周", "974 亿收购被拒", "3800 万捐赠", "非营利", "陪审团"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "美评测：中国 AI 落后 8 月",
+      "content": "美国 AI 标准与创新中心 CAISI 发布报告，称中国 AI 在网络安全、软件开发、数学等五大领域综合落后美国约 8 个月。独立数据与此矛盾：Stanford 2026 AI 指数显示中美差距已收窄至 2.7%、较 2023 年 17.5-31.6 个百分点大幅压缩；中国 2025 年 AI 私人投资仅 124 亿美元、不及美国 2859 亿的二十三分之一，但性能差距未同比放大。DeepSeek V4 与 MiMo-V2.5-Pro 以极低成本逼近闭源前沿，持续动摇「中国落后」叙事。",
+      "importance": "high",
+      "reasoning": "5月3日 The Decoder 首发，Gnoppix Forum、Medium、TheNextWeb、Fortune、Digital in Asia、Nerd Level Tech 等同步报道，今日新闻。CAISI 五领域评测+落后 8 个月+Stanford 2.7% 差距+2023 年 17.5-31.6 大幅压缩+投资差距 23 倍 vs 性能差距不成比例+DeepSeek V4/MiMo-V2.5-Pro 反驳，是美国政府首次以专设 AI 标准机构发布中美竞争力评估、但独立数据明显矛盾；与 5月3日 MiMo-V2.5-Pro 逼近 Claude Opus、4月24日 DeepSeek V4 开源同月登场，中国开源 AI 的成本效率优势正实质性挑战「中国落后」叙事基础。High 级。",
+      "source": "The Decoder / Stanford HAI / Fortune",
+      "url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
+      "keywords": ["CAISI", "中美 AI 差距", "落后 8 个月", "Stanford 2.7%", "投资差距 23 倍", "DeepSeek V4"],
+      "category": "行业观察"
+    },
+    {
+      "id": 7,
+      "title": "DeepSeek V4 百倍降本潮",
+      "content": "DeepSeek V4 推出与 Anthropic 兼容的 API 端点，开发者切换一个 URL 即可在 Claude Code 工作流中用 DeepSeek 替代 Claude Opus，输入成本降约百分之一。开源项目 DeepClaude 在 Hacker News 获 312 点，实测开发者从年 1200 美元 Claude Max 订阅降至月 2-10 美元。V4-Pro 促销价持续至 5月31日、到期后仍比 Opus 便宜约 4 倍。",
+      "importance": "medium",
+      "reasoning": "5月3日 GitHub 发布+HN 312 点 120 评论登上首页，Frank's World、Popular AI Tools、DevTk、John Rodrigues Substack 等同步报道，今日热点新闻。DeepSeek V4 Anthropic 兼容 API+切换 URL 即替代+约 100 倍输入降本+1200 美元→2-10 美元+5月31日 促销+到期后 4 倍便宜，是前沿 AI「协议兼容层」催生低成本替代方案的首个规模化社区实践；与 5月4日 MiMo-V2.5-Pro 节省 40-60% 处理量、4月29日 Copilot 转用量计费同月登场，AI 编程工具成本结构进入「开源替代+协议兼容」重塑期。Medium 级。",
+      "source": "Hacker News / GitHub / Frank's World",
+      "url": "https://news.ycombinator.com/item?id=48002136",
+      "keywords": ["DeepSeek V4", "DeepClaude", "Anthropic 兼容", "百倍降本", "Claude Code", "开源替代"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Anthropic 9000 亿轮将定",
+      "content": "Anthropic 正在最终确定估值 9000 亿美元的新一轮融资，融资额约 500 亿美元，若落定将超越 OpenAI 8520 亿美元成为全球最高估值 AI 初创。公司年化营收从 2025 年底 90 亿美元飙升至 300 亿美元、3 个月翻逾 3 倍。Goldman Sachs、JPMorgan 与 Morgan Stanley 已启动 IPO 筹备，目标 10 月挂牌、融资 600 亿美元。",
+      "importance": "medium",
+      "reasoning": "4月29日 Bloomberg 与 CNBC 首发 9000 亿估值消息，4月30日 TechCrunch 报道「两周内落定」，5月3日 Caproasia 确认 IPO 10 月时间表与 600 亿目标，持续发酵中。9000 亿估值+500 亿融资+超越 OpenAI 8520 亿+营收 90 亿→300 亿 3 个月 3 倍+Goldman/JPMorgan/Morgan Stanley IPO 筹备+10 月上市+600 亿融资目标，是 AI 初创估值「14 个月从 610 亿到 9000 亿」史上最快增长轨迹；5月3日 已报道 Claude Security 产品角度，今日补充融资与 IPO 进程角度。Medium 级。",
+      "source": "Bloomberg / TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "keywords": ["Anthropic", "9000 亿估值", "500 亿融资", "IPO 10 月", "600 亿", "超越 OpenAI"],
+      "category": "投资融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-04T10:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "TechCrunch",
+      "Science",
+      "NPR",
+      "The Guardian",
+      "Harvard Magazine",
+      "The Decoder",
+      "VentureBeat",
+      "GSMArena",
+      "Hugging Face",
+      "OpenAI",
+      "WinBuzzer",
+      "Storyboard18",
+      "DNYUZ",
+      "Microsoft",
+      "Artificial Lawyer",
+      "Neowin",
+      "CNBC",
+      "Bloomberg",
+      "MIT Technology Review",
+      "Washington Post",
+      "Stanford HAI",
+      "Fortune",
+      "Hacker News",
+      "GitHub",
+      "Caproasia",
+      "AIBase"
+    ],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1200
+  }
+}
