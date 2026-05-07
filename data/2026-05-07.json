@@ -5,7 +5,7 @@
   "news": [
     {
       "id": 1,
-      "title": "Anthropic 锁 Colossus 1",
+      "title": "Anthropic 买断 Colossus 1",
       "content": "Anthropic 与 SpaceX 旗下 xAI 达成协议、买断田纳西州 Memphis 的 Colossus 1 数据中心全部 300 兆瓦算力、含 22 万张以上 NVIDIA H100/H200/GB200 GPU、本月内全量交付；外界估算年化金额约 50 亿美元、与 xAI Colossus 2 转向训练新一代模型同步发生。Anthropic 宣布 Claude Pro 与 Claude Max 用户 5 小时滑动配额翻倍、付费用户高峰时段限速取消、Opus API 速率上限大幅放宽；CEO Amodei 同步披露 Anthropic Q1 2026 年化营收增长 80 倍、远超内部 10 倍预期、年化营收已突破 300 亿美元。本协议把 xAI 半数以上 50 万张 GPU 出租给直接竞品、印证 xAI 正从模型公司转向新型云服务商；与 4月21日 Amazon 1000 亿 AWS 算力承诺、5月5日 Anthropic 5 年 2000 亿 Google Cloud 协议同月叠加，Anthropic 三云三芯算力生态雏形成型。",
       "importance": "critical",
       "reasoning": "5月6日 Anthropic 官方与 SpaceX/xAI 同步公告，Bloomberg、CNBC、Axios、Al Jazeera、TechCrunch、DCD、Cryptopolitan、Latent.space、Yahoo Finance、Invezz、TechXplore、Fox21 等全球同步首发，今日头条新闻。Anthropic 买断 Colossus 1 全部 300MW+22 万张 H100/H200/GB200+本月内交付+约 50 亿美元年化+xAI 转向 Colossus 2+Pro/Max 配额翻倍+Opus API 速率放宽+Amodei 披露 80 倍年化增长+300 亿 ARR+xAI 转新型云服务商，是 xAI 与 Anthropic 直接竞争对手间史上最大算力交换；与 4月21日 Amazon 1000 亿 AWS、5月5日 Anthropic 2000 亿 Google Cloud 同月叠加，前沿 AI 厂商算力供给从「单一云锁定」走向「多云对冲」结构性转向。Critical 级。",
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "title": "Kimi 锁 200 亿估值",
+      "title": "Kimi 估值冲 200 亿",
       "content": "中国 AI 初创月之暗面（Moonshot AI）即将完成 20 亿美元新一轮融资、估值升至 200 亿美元以上、成为中国大模型初创史上单轮规模最大、累计融资额最高纪录；本轮由美团旗下龙珠资本主导、单笔出资超 2 亿美元、中国移动、中信产业基金 CPE 跟投。月之暗面 4 月年化经常性营收突破 2 亿美元、由旗舰产品 Kimi 聊天机器人订阅与 AI 模型服务驱动；公司由清华校友杨植麟、周昕宇与吴育昕 2023 年 3 月联合创立、本轮后 6 个月内累计融资超 39 亿美元。本轮与 5月6日 DeepSeek 450 亿估值首轮谈判、5月5日 阿里 Hy3 与豆包付费战收官同月叠加、中国前沿 AI 实验室进入「主权基金+互联网巨头+主权运营商」三方共推的资本新阶段。",
       "importance": "critical",
       "reasoning": "5月7日 Bloomberg 首发，TechNode、TheNextWeb、SCMP、China Money Network、BigGo Finance、Yahoo Finance、KuCoin、AIBase 等全球同步首发，今日头条新闻。Moonshot AI 20 亿融资+200 亿估值+美团龙珠领投单笔超 2 亿+中国移动+CPE 跟投+4 月 ARR 2 亿美元+杨植麟/周昕宇/吴育昕 清华校友 2023.3 创立+累计 39 亿美元/6 个月+中国大模型初创单轮最大，是中国大模型初创单轮融资最大纪录；与 5月6日 DeepSeek 450 亿估值首谈、4月29日 Anthropic 9000 亿融资、5月4日 Cerebras 266 亿 IPO 同月叠加，全球 AI 资本结构进入「中美主权与互联网双轮驱动」并行阶段。Critical 级。",
