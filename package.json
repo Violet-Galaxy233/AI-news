@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "node scripts/build-index.js && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "build-index": "node scripts/build-index.js",
     "trim": "python3 trim.py",
