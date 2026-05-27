@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-27",
+  "date_formatted": "26/05/27",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Altman 撤回白领灭绝论",
+      "content": "Sam Altman 视频连线悉尼澳大利亚联邦银行 Accelerate AI 大会开幕演讲，公开撤回 2024 年「初级白领岗系统性消失」预测，是 OpenAI 首席执行官首次承认估错节奏。Altman 称团队对技术能力的预测精准，但社会经济冲击「我很高兴自己错了」，初级白领消解程度远低于此前推断，「人际交互那部分」短期无法外包给模型。CBA 借 Altman 开幕力推本地 70 亿澳元 AI 转型预算，直播触达 6000+ 澳新金融业高管，Reuters 与 Bloomberg 同步转载。",
+      "importance": "critical",
+      "reasoning": "5月26日 Cyber Daily+Bolnews+American Bazaar+Reuters+Bloomberg+Breaking the News 等十余家同步报道，今日热点新闻。Altman 自 2024 起多次预言「初级白领将被 AI 系统性取代」是大模型经济叙事的核心条目，本次首席执行官在公开场合明确撤回是基调反转，对全球白领就业焦虑、监管降温、AI 投资逻辑均有结构性意义。Critical 级。",
+      "source": "Reuters / Bloomberg",
+      "url": "https://americanbazaaronline.com/2026/05/26/altman-says-rapid-growth-of-ai-unlikely-to-lead-to-jobs-apocalypse-481576/",
+      "keywords": ["Sam Altman", "OpenAI", "悉尼演讲", "撤回白领灭绝论", "CBA Accelerate AI", "70 亿澳元 AI 预算"],
+      "category": "行业观察"
+    },
+    {
+      "id": 2,
+      "title": "OpenRouter $113M 估值 13 亿",
+      "content": "AI 模型路由平台 OpenRouter 完成 1.13 亿美元 B 轮，估值翻 2.4 倍至 13 亿美元，CapitalG 领投，NVIDIA 风投+ServiceNow+MongoDB+Snowflake+Databricks 五家企业战投联袂入局，Andreessen Horowitz 与 Menlo 增持。OpenRouter 周处理量 6 个月内由 5 万亿次飙升 5 倍至 25 万亿次，月触达 8 百万开发者，统一 API 接入 400+ AI 模型，年化营收约 5000 万美元。距上轮 5.47 亿美元估值仅 12 个月，企业 AI 资本下移至「编排控制层」格局成形。",
+      "importance": "critical",
+      "reasoning": "5月26日 BusinessWire 官方公告+TechCrunch+Ventureburn+Whalesbook+AInvest+Digg+BitcoinWorld 等十余家同步报道，今日热点新闻。CapitalG 领投+五家企业云战投同步入局是 AI 中间件层最完整资本背书，确认「模型选择不再单一押注，编排+治理是新中台」成为投资共识。Critical 级。",
+      "source": "BusinessWire / TechCrunch",
+      "url": "https://www.businesswire.com/news/home/20260526953416/en/OpenRouter-Raises-$113-Million-CapitalG-led-Series-B-as-Weekly-Volume-Explodes-to-25T-Tokens",
+      "keywords": ["OpenRouter", "1.13 亿美元 B 轮", "13 亿美元估值", "CapitalG 领投", "25 万亿次周处理", "编排控制层"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Fireworks AI 估值 150 亿",
+      "content": "AI 推理云平台 Fireworks AI 与 Index Ventures 启动新一轮融资谈判，目标估值 150 亿美元，较 2025 年 10 月 C 轮 40 亿美元在 7 个月内翻近 4 倍，Bloomberg 独家披露。Index 联领、原班资方 Lightspeed 与 Evantic 跟投，C 轮原 2.5 亿美元已是去年最大推理云单笔。同期 OpenRouter+Together+Replicate 均完成大额融资，推理基础设施进入与训练同等重要分水岭，独立推理云成 2026 最热门 AI 二级赛道。",
+      "importance": "critical",
+      "reasoning": "5月27日 Bloomberg 独家首发，Investing+CryptoBriefing+Value The Markets+AIBucket 等多家同步转引，今日热点新闻。推理云在 12 个月内连续三家独角兽估值跳跃式增长（Fireworks 40→150、OpenRouter 5→13、Together 33→？），与 NVIDIA Hopper/Blackwell 出货周期共振，标志「训练才是 AI 基建」叙事被推翻。Critical 级。",
+      "source": "Bloomberg / Investing",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/fireworks-ai-in-talks-for-funding-at-15-billion-valuation",
+      "keywords": ["Fireworks AI", "150 亿估值", "Index Ventures 联领", "AI 推理云", "Lightspeed 跟投", "C 轮 7 个月翻 4 倍"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "Mythos 临近 Claude Code 解禁",
+      "content": "Anthropic 反转 Mythos「不向公众开放」承诺，模型字符串 claude-mythos-1-preview 在 Claude Code 与 Claude Security 公开界面短暂亮相后被撤回，公测准备进入尾声。4 月时 Anthropic 因网络安全风险明确表态「不会公开」，5 月 22 日 Project Glasswing 官方更新转口「待安全护栏强化即面向通用渠道」。Cisco+Oracle+Microsoft+Apple+Amazon+JPMorgan+Palo Alto Networks 等 50 家伙伴已先期试用，已识别 23019 个开源高危漏洞、6202 个高危/严重级、530 个上游披露仅 75 个修复。分析师预测企业版下半年开放、通用版 2027 到位。",
+      "importance": "critical",
+      "reasoning": "5月25-26日 winbuzzer+BleepingComputer+CybersecurityNews+Cybernews+Yellow+InfoSecurity+LetsDataScience 等十余家同步报道，今日热点新闻。Mythos 从「军政 + 50 家白名单专属」转向「Claude Code 公开订阅可触达」是 AI 网络安全产品化首次进入消费侧分水岭。昨日已报 NSA Mythos 部署落地角度，今日报公开订阅松绑路径。Critical 级。",
+      "source": "winbuzzer / BleepingComputer",
+      "url": "https://winbuzzer.com/2026/05/26/anthropics-mythos-moves-closer-to-claude-code-xcxwbn/",
+      "keywords": ["Anthropic Mythos", "claude-mythos-1-preview", "Claude Code 解禁", "Project Glasswing", "23019 开源漏洞", "公测准备"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "DuckDuckGo 美区涨 30.5%",
+      "content": "DuckDuckGo 美区 App 安装量 5 月 20-25 日周环比均涨 18.1%，25 日单日峰 30.5%，iOS 单日峰值 69.9%，CEO Gabriel Weinberg 称用户对 Google「强行喂 AI」反弹明显。Google I/O 重写搜索为 AI 智能体后，noai.duckduckgo.com 无 AI 子页周流量也涨 22.7%，增长几乎全集中美国本土，与 I/O 美国侧发布严格对应。",
+      "importance": "high",
+      "reasoning": "5月26日 TechCrunch+Tom's Guide+Startup Fortune+Logical Indian+winbuzzer 等多家同步报道，今日热点新闻。Google 强推 AI 搜索引发可量化用户流失，是 AI 重写 Web 入口以来首次出现的规模级反弹证据，对其他搜索厂商「AI 默认开/关」决策有直接借鉴价值。High 级。",
+      "source": "TechCrunch / Tom's Guide",
+      "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "keywords": ["DuckDuckGo", "30.5% 单日峰值", "Google I/O 反弹", "Gabriel Weinberg", "强行喂 AI", "noai 子页"],
+      "category": "行业观察"
+    },
+    {
+      "id": 6,
+      "title": "印度头戴摄像头训机器人",
+      "content": "Human Archive 完成 820 万美元种子轮，Wing Venture Capital+NVP Capital 联领，Y Combinator+OpenAI+Nvidia+Google+Meta 高管天使跟投。公司向印度家政外卖工人配发头戴摄像头采集第一视角视频与动作数据训练实体 AI 机器人，已部署 1000+ 单元。工人时薪 1 美元远低于同业 2.63-4.20 美元，印度信息技术部启动调查。",
+      "importance": "high",
+      "reasoning": "5月26日 TechCrunch 首发，Inc42+BigGo+Gizmodo+Yahoo+Jingletree+Startup Fortune+MEXC 等十余家同步报道，今日热点新闻。物理 AI 模型对真实第一视角数据极度饥渴，硅谷资金在新兴市场低薪复制数据外包模式，监管/伦理张力为后续机器人数据采集留下样板争议。High 级。",
+      "source": "TechCrunch / Inc42",
+      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "keywords": ["Human Archive", "820 万种子", "印度家政外卖", "头戴摄像头", "1 美元时薪", "实体 AI 数据"],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "长鑫 295 亿科创板上会",
+      "content": "国产 DRAM 龙头长鑫科技科创板 IPO 上会，拟募资 295 亿元，2026 年第一季度营收 508 亿元同比 +719%，归母净利 330 亿元、日均盈利近 3.6 亿元，预计上半年净利 500-570 亿元。AI 算力基础设施需求拉动 DRAM 市场爆发是核心驱动，市值或冲击 2-3 万亿元。",
+      "importance": "high",
+      "reasoning": "5月27日 上交所官方安排上会，澎湃+证券时报+IT之家+新浪财经+财联社+大众证券报+DoNews+网易科技 等多家同步报道，今日热点新闻。AI 算力推动国产存储龙头爆发式盈利，「预先审阅」改革后首单意义为后续国产芯片企业加速上市铺路，对全球 HBM/DRAM 供需格局有直接影响。High 级。",
+      "source": "澎湃 / 证券时报",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33204055",
+      "keywords": ["长鑫科技", "科创板 IPO 上会", "295 亿募资", "DRAM 国产龙头", "营收同比 +719%", "市值 2-3 万亿"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "千问拍照问诊升级",
+      "content": "阿里通义千问「拍照问健康」走向医学图像理解，AI 圈出化验单异常结合年龄性别判断，13 岁血磷升高识别为生理性偏移，三类皮炎可分型，三甲医生实测认可。",
+      "importance": "medium",
+      "reasoning": "5月27日 站长之家+网易科技+AIBase 等同步报道，今日热点新闻。AI 健康问诊从文字回答跃迁至图像识别+推理，是国内主流大模型首批商用医学影像理解落地之一，三甲医生实测背书提升可信度。Medium 级。",
+      "source": "站长之家 / 网易科技",
+      "url": "https://www.chinaz.com/ainews/28379.shtml",
+      "keywords": ["通义千问", "拍照问健康", "医学图像理解", "临床推理", "皮损分型", "三甲医生认可"],
+      "category": "产品发布"
+    },
+    {
+      "id": 9,
+      "title": "Paul Graham 拒读 AI 邮件",
+      "content": "Y Combinator 创始人 Paul Graham 自 2005 年培育 5000+ 公司，公开声明拒读 AI 代写邮件，「硬派记者口吻」是 AI 模型痕迹「读起来像被骗」，俄亥俄州立研究印证此类文本被解读为懒惰。",
+      "importance": "medium",
+      "reasoning": "5月26日 The Decoder+Simon Willison 引用+AOL+BeInCrypto+Digg+Gnoppix+BTW 等多家同步报道，今日热点新闻。Y Combinator 是全球头部加速器，Graham 个人喜恶直接影响数万创业者沟通策略，是 AI 写作工具反噬「人际信任成本」首个有量化研究背书的公开吐槽。Medium 级。",
+      "source": "The Decoder / AOL",
+      "url": "https://the-decoder.com/y-combinator-founder-paul-graham-says-ai-written-founder-emails-feel-like-being-lied-to/",
+      "keywords": ["Paul Graham", "Y Combinator", "拒读 AI 邮件", "硬派记者口吻", "俄亥俄州立研究", "信任纽带"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-27T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "The Decoder", "Bloomberg", "Reuters", "BusinessWire", "Tom's Guide", "winbuzzer", "BleepingComputer", "Simon Willison", "Inc42", "澎湃", "证券时报", "WebSearch"],
+    "duplicates_removed": 7,
+    "generation_time_seconds": 1100
+  }
+}
