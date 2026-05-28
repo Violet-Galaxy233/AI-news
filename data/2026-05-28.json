@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-28",
+  "date_formatted": "26/05/28",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Cognition 融资破 10 亿",
+      "content": "AI 编程公司 Cognition 完成超 10 亿美元新一轮融资，投后估值飙至 260 亿美元，较 8 个月前 102 亿美元在不到一年内翻 2.5 倍。Lux Capital、General Catalyst、8VC 联合领投，Founders Fund、Ribbit Capital、Atreides 等新老资方跟投。旗下自主编程智能体 Devin 年化营收已达 4.92 亿美元，过去 6 个月企业用量月均增长 50%，客户涵盖 Mercedes-Benz、NASA、Goldman Sachs、Santander、Citi 等。本轮与同期 Anthropic 9000 亿、Cursor 500 亿估值叠加，AI 编程赛道资本估值集体跳升。",
+      "importance": "critical",
+      "reasoning": "5月27日 TechCrunch「AI coding startup Cognition raises $1B at $25B pre-money valuation」首发，Bloomberg、The Decoder、Yahoo Finance、The Tech Portal、digitaltoday 等十余家同步报道，今日热点新闻。AI 编程公司估值从去年 9 月 102 亿在 8 个月内冲至 260 亿、年化营收 4.92 亿且月增 50%，是智能体编程商业化兑现的最强信号；与 5月26日 Anthropic 9000 亿估值、George Hotz 公开质疑智能体编程同周叠加，资本押注与头部工程师的怀疑同时走向极端。Critical 级。",
+      "source": "TechCrunch / Bloomberg / The Decoder",
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "keywords": ["Cognition", "Devin", "10 亿融资", "260 亿估值", "4.92 亿年化营收", "AI 编程赛道"],
+      "category": "公司动态"
+    },
+    {
+      "id": 2,
+      "title": "英伟达年投台湾 1500 亿",
+      "content": "英伟达首席执行官黄仁勋在台北宣布，公司每年在台湾供应链支出将增至约 1500 亿美元，较 4-5 年前的 100-150 亿美元放大约 10 倍，并新建可容纳 4000 名员工的 Constellation 总部园区，年内动工、2030 年投用。黄仁勋称台湾是 AI 革命「震中」，并预计市值 5 万亿美元的英伟达 3-5 年内将更高。消息令台积电、鸿海等台湾芯片股集体上扬，凸显 AI 算力需求把单一地区供应链绑定推上新量级。",
+      "importance": "critical",
+      "reasoning": "5月27日 CNBC「Taiwan chip stocks climb after Nvidia announces $150 billion spending plans」与 Nikkei Asia、Slashdot、Benzinga、GuruFocus、Tradingpedia 等全球同步报道，今日热点新闻。单一公司年度供应链支出 4-5 年内从 100-150 亿冲至 1500 亿、放大 10 倍并落地 4000 人新园区，是 AI 硬件需求把地缘供应链集中度推上历史新高的标志；与 4月20日 谷歌联手 Marvell 定制芯片、5月27日 Snowflake 60 亿加码 AWS 同期叠加，算力底座军备竞赛从云厂蔓延至上游制造。Critical 级。",
+      "source": "CNBC / Nikkei Asia / Slashdot",
+      "url": "https://www.cnbc.com/2026/05/27/nvidia-taiwan-investment-150-billion-spending.html",
+      "keywords": ["英伟达", "黄仁勋", "台湾 1500 亿", "Constellation 园区", "供应链", "台积电股价"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Snowflake 加码 AWS 60 亿",
+      "content": "数据云厂商 Snowflake 宣布未来 5 年向亚马逊云 AWS 承诺投入 60 亿美元，采购 Graviton 自研处理器与 GPU 加速实例驱动企业智能体业务，为公司史上最大单笔云支出。该承诺较 2020 年上市时的 12 亿美元、2023 年的 25 亿美元逐级跃升。Snowflake 同日发布超预期季报，股价单日暴涨 36%。这笔交易加入 Anthropic、OpenAI、Meta 的 AWS 算力承诺序列，显示 AWS 自研芯片在企业 AI 推理与智能体编排上的承接力持续放大。",
+      "importance": "critical",
+      "reasoning": "5月27日 CNBC、TechCrunch、GeekWire、The Register、US News 与 AWS、Snowflake 官方公告同步首发，今日热点新闻。数据云龙头单笔云承诺从 2020 年 12 亿、2023 年 25 亿跃至 60 亿、并以季报超预期股价暴涨 36% 印证企业智能体需求落地，是 AWS Graviton 自研处理器在 AI 推理侧又一结构性绑定；与 4月24日 Meta 巨量采购 AWS Graviton、5月27日 英伟达年投台湾 1500 亿同期叠加，算力供给从训练 GPU 向推理处理器与自研芯片全面扩张。Critical 级。",
+      "source": "CNBC / TechCrunch / GeekWire",
+      "url": "https://www.cnbc.com/2026/05/27/snowflake-amazon-graviton-cloud-chips.html",
+      "keywords": ["Snowflake", "60 亿 AWS", "Graviton 处理器", "股价涨 36%", "企业智能体", "云支出"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "亚马逊 MGM AI 制片平台",
+      "content": "亚马逊 MGM 影业联手 AWS 推出 GenAI 创作者基金与自研 AI 制片平台 Project Nara，同步为 Prime Video 绿灯 3 部 AI 动画剧集。Project Nara 是端到端协作工作台，整合视频生成、剪辑、反馈与进度追踪，原生对接 Maya、Blender、Nuke、Unreal Engine、Adobe 等 5 款专业软件，并叠加用 MGM 自有版权内容训练的专有模型，支持动画与真人两类制作流程。3 部剧分别来自 BuzzFeed Studios、pocket.watch 与导演 Jorge Gutierrez，是好莱坞主流片厂首个 AI 原生量产管线。",
+      "importance": "critical",
+      "reasoning": "5月27日 Variety、Deadline、The Hollywood Reporter、TV Tech 与 Amazon MGM 官方新闻室在 Culver Studios「AI on the Lot」活动同步首发，今日热点新闻。好莱坞主流片厂首次以自研制片平台 + 专项基金 + 3 部绿灯剧集组合切入 AI 原生量产、并用自有版权训练专有模型，是影视工业从「工具辅助」迈向「AI 原生流水线」的范式转折；与 4月27日 Adobe Firefly 智能体、4月28日 Claude 进创意工具同线叠加，内容产业的 AI 化从单点工具升级为端到端制作中台。Critical 级。",
+      "source": "Variety / Deadline / The Hollywood Reporter",
+      "url": "https://variety.com/2026/tv/news/amazon-mgm-studios-genai-creators-fund-greenlights-series-1236759131/",
+      "keywords": ["亚马逊 MGM", "Project Nara", "GenAI 创作者基金", "Prime Video", "3 部 AI 动画", "AI 制片"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "ElevenLabs Music v2 发布",
+      "content": "语音 AI 公司 ElevenLabs 发布音乐生成模型 Music v2，可在单曲中途切换曲风，从歌剧跳到重金属仍连贯，支持按前奏、主歌、副歌分段创作再拼接、仅重做选定片段。模型基于授权数据训练、许可商用，已上线 ElevenCreative 与 ElevenMusic，API 约每分钟 0.15 美元，对标 Suno。",
+      "importance": "high",
+      "reasoning": "5月27日 TechCrunch、Decrypt、Mezha 与 ElevenLabs 官方博客同步首发，今日热点新闻。中途切换曲风 + 分段重做 + 授权数据商用，是 AI 音乐生成在可控性与版权合规上的实质进展，叠加同日 Stability AI 推 Stable Audio 3，AI 音乐赛道直接冲击 Suno 主导地位；与 4月21日 Deezer 44% AI 歌曲、3月20日 ElevenLabs AI 音乐交易市场同线叠加，音乐产业 AI 化进入工具与版权双线竞速。High 级。",
+      "source": "TechCrunch / Decrypt / Mezha",
+      "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/",
+      "keywords": ["ElevenLabs", "Music v2", "中途切换曲风", "分段创作", "0.15 美元每分钟", "对标 Suno"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "微软图像模型挤进前 3",
+      "content": "微软自研图像生成模型 MAI-Image-2.5 在 LM Arena 文生图榜单首发即列第 3，与谷歌 Nano Banana 2 并列，落后排名第一、得分 1388 的 OpenAI gpt-image-2。新模型较前代在文字渲染、风格化插画与商业图像上明显提升，未来两周内将上线 MAI Playground 与 Microsoft Foundry。",
+      "importance": "high",
+      "reasoning": "5月26日 Microsoft AI 官方公告与 Neowin、The Decoder、Windows Report、Archynewsy 等同步报道，近日热点新闻。微软自研图像模型首次冲进文生图前 3 并追平谷歌 Nano Banana 2，是其 MAI 自研模型族在多模态上对 OpenAI、谷歌缩小差距的关键一步；与 4月3日 微软 MAI 三款自研模型、4月22日 OpenAI 图像大升级同线叠加，巨头自研图像模型竞争白热化。High 级。",
+      "source": "Microsoft AI / Neowin / The Decoder",
+      "url": "https://microsoft.ai/news/mai-image-2-5-launches-at-no-3-on-arena-ai/",
+      "keywords": ["微软", "MAI-Image-2.5", "文生图第 3", "Nano Banana 2", "gpt-image-2", "Microsoft Foundry"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "MiniMax 营收两月翻倍",
+      "content": "中国 AI 公司 MiniMax（稀宇科技）年化营收过去两个月翻倍、超出自身预期，受新发布模型 M2.7 带动。总裁闫俊杰称企业级 AI 服务用户已突破 100 万、半年增长 5 倍；年化营收由此前 1.5 亿美元翻倍至约 3 亿美元，公司正筹备新旗舰模型。",
+      "importance": "high",
+      "reasoning": "5月28日 Bloomberg「China AI Upstart MiniMax Doubles Sales Ahead of New Model Launch」独家首发，kr-asia、BigGo、S&P Global 等同步引用，今日头条新闻。年化营收两月翻倍至约 3 亿美元、企业用户半年增 5 倍至 100 万，是中国 AI 应用层商业化加速的代表样本；与 5月27日 Cognition 估值跳升、4月29日 蚂蚁 Ling 开源同线叠加，中国 AI 厂商在企业服务与开发者生态上的营收兑现进入快车道。High 级。",
+      "source": "Bloomberg / kr-asia / BigGo",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/china-ai-upstart-minimax-doubles-sales-ahead-of-new-model-launch",
+      "keywords": ["MiniMax", "稀宇科技", "营收两月翻倍", "M2.7 模型", "企业用户 100 万", "闫俊杰"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "Robinhood 开放 AI 交易",
+      "content": "美国券商 Robinhood 上线 AI 智能体交易，智能体经独立账户与专属钱包、仅用预存余额下单，初期限股票 1 类，后续扩至期权、加密货币、期货等 4 类。",
+      "importance": "medium",
+      "reasoning": "5月27日 TechCrunch、Bloomberg、Axios、SiliconANGLE 等十余家同步报道，今日热点新闻。Robinhood 首次把 AI 智能体接入真实股票交易与信用卡支付、并以独立钱包和审批限额做风控，是消费级券商把智能体推进金融执行环节的早期样本；与 4月22日 Meta 监控员工按键、5月19日 Gemini Spark 24 小时智能体同线叠加，智能体从信息处理走向资金动用的边界争议升温。Medium 级。",
+      "source": "TechCrunch / Bloomberg / Axios",
+      "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "keywords": ["Robinhood", "AI 智能体交易", "MCP 协议", "专属钱包", "智能体信用卡", "agentic 金融"],
+      "category": "行业观察"
+    },
+    {
+      "id": 9,
+      "title": "恶意包窃 Claude 上传目录",
+      "content": "OX Security 披露 npm 仓库出现恶意包 mouse5212-super-formatter，专窃 Claude 工具的上传输出目录文件，代号 Malware-Slop。AI 工具数据目录连续第 2 次遭供应链投毒，前次为装机量 220 万的 Nx Console。",
+      "importance": "medium",
+      "reasoning": "5月27日 The Hacker News 与 OX Security 官方博客同步披露，今日热点新闻。AI 编程工具后台数据目录被恶意包专门盯上，是 Nx Console TeamPCP 投毒、Claude Code 凭证被窃后供应链攻击向 AI 工具的持续渗透；与 5月15日 OpenAI 设备被植入、5月23日 Nx 插件供应链链式毒同月叠加，AI 开发链路的凭证与数据目录成为攻击高发面。Medium 级。",
+      "source": "The Hacker News / OX Security",
+      "url": "https://thehackernews.com/",
+      "keywords": ["Malware-Slop", "npm 恶意包", "Claude 上传目录", "OX Security", "供应链攻击", "/mnt/user-data"],
+      "category": "安全事件"
+    },
+    {
+      "id": 10,
+      "title": "阿里云发布智能体生态",
+      "content": "阿里云在新加坡通义大会发布面向全球客户的智能体生态，推出 AI 原生云平台 Qwen Cloud 与企业级套件 JVS Agent Suite，基于 OpenClaw 框架、支持 7×24 云端运行。",
+      "importance": "medium",
+      "reasoning": "5月26日 Alibaba Cloud 官方新闻室与 The Paypers、Manila Times、Zawya 等同步报道，近日热点新闻。阿里云首届国际通义大会以 Qwen Cloud + JVS Agent Suite 切入全球智能体市场，是中国云厂把智能体平台推向海外企业客户的关键落子；与 4月29日 腾讯 ADP 智能体平台、5月19日 Gemini Spark 智能体同线叠加，云厂从模型供给转向智能体运行底座竞争。Medium 级。",
+      "source": "Alibaba Cloud / The Paypers / Manila Times",
+      "url": "https://www.alibabacloud.com/en/press-room/alibaba-cloud-unveil-advanced-agentic-ai-ecosystem",
+      "keywords": ["阿里云", "通义大会", "Qwen Cloud", "JVS Agent Suite", "OpenClaw 框架", "智能体生态"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-28T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "CNBC", "The Decoder", "Bloomberg", "Nikkei Asia", "Slashdot", "Benzinga", "GeekWire", "The Register", "Variety", "Deadline", "The Hollywood Reporter", "TV Tech", "Decrypt", "Mezha", "Microsoft AI", "Neowin", "kr-asia", "BigGo", "S&P Global", "Axios", "SiliconANGLE", "The Hacker News", "OX Security", "Alibaba Cloud", "The Paypers", "Manila Times", "Yahoo Finance", "WebSearch"],
+    "duplicates_removed": 11,
+    "generation_time_seconds": 1000
+  }
+}
