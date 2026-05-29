@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-29",
+  "date_formatted": "26/05/29",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Claude Opus 4.8 发布",
+      "content": "Anthropic 发布最新旗舰模型 Claude Opus 4.8，距 Opus 4.7 仅 41 天，刷新自身升级速度。新模型主打智能体能力：配套 Dynamic Workflows 工具，可由 Claude 统一规划后并行调度上百个子智能体、单次最多 1000 个，Claude Code 据此完成跨数十万行代码的整库迁移直至合并通过测试。同时新增「投入程度」控制面板与更便宜的快速模式。Opus 4.8 已在 Claude API、亚马逊 Bedrock、谷歌 Vertex AI、微软 Foundry 同步上线，定价与 4.7 持平，多数评测分数超过 GPT-5.5。",
+      "importance": "critical",
+      "reasoning": "5月28日 Anthropic 官博与 TechCrunch、Axios、9to5Mac、MarkTechPost、Slashdot、Business Standard 等十余家同步首发，今日头条新闻。距 4月19日 Opus 4.7 仅 41 天的高频迭代 + 1000 子智能体并行 + 整库级代码迁移 + 多数评测超 GPT-5.5，是三大实验室把「单模型」推向「智能体编排底座」的又一步；与同日 Anthropic 650 亿融资估值超 OpenAI、5月24日 微软 Webwright 同期叠加，前沿模型竞争焦点全面转向长程智能体执行。Critical 级。",
+      "source": "Anthropic / TechCrunch / Axios",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "keywords": ["Claude Opus 4.8", "Dynamic Workflows", "1000 子智能体", "整库迁移", "41 天迭代", "超 GPT-5.5"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 估值逼近万亿",
+      "content": "Anthropic 完成 650 亿美元 H 轮融资，投后估值达 9650 亿美元，史上首次超越 OpenAI 的 8520 亿、成全球最值钱 AI 创业公司，或为上市前最后一轮私募。Altimeter、Dragoneer、Greenoaks、Sequoia、Capital Group、Coatue、D1 等多家联席领投，三星、SK 海力士、美光等芯片厂战略入局，其中 150 亿美元来自亚马逊等云厂此前承诺（含亚马逊 50 亿）。Anthropic 月内年化营收已突破 470 亿美元，本轮较本月稍早披露的 300 亿在谈一轮规模再翻约一倍。",
+      "importance": "critical",
+      "reasoning": "5月28日 Bloomberg、CNBC、TechCrunch、Crunchbase、Investing.com 等全球同步首发，今日头条新闻。650 亿 H 轮 + 9650 亿估值首超 OpenAI 8520 亿 + 三星/SK 海力士/美光芯片厂入局 + 年化营收 470 亿，是 AI 实验室估值座次首次易主，且与同日 Claude Opus 4.8 发布形成「最强模型 + 最高估值」双响；5月26日 曾报该轮 300 亿在谈估值约 9000 亿，今日落定为 650 亿、9650 亿，规模与估值再上一台阶。Critical 级。",
+      "source": "Bloomberg / CNBC / TechCrunch",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-raises-at-965-billion-valuation-eclipsing-openai",
+      "keywords": ["Anthropic", "650 亿 H 轮", "9650 亿估值", "超越 OpenAI", "三星 SK 海力士", "470 亿营收"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "谷歌推 AI 威胁防御平台",
+      "content": "谷歌云发布企业安全平台 AI Threat Defense，应对攻击者借 AI 高速挖掘并利用漏洞的新威胁。平台整合 Gemini 推理、新近收购的 Wiz 云安全、CodeMender 自动修复与 Mandiant 应急响应，按准备、扫描定级、修复、监控四段式自治运转，不止告警还自动排定优先级并给出修复路径。谷歌称漏洞从被发现到遭攻击的「暴露窗口」已从数周压缩至数小时。该平台正面对标 Anthropic Mythos 与 OpenAI Daybreak 两款安全模型。",
+      "importance": "critical",
+      "reasoning": "5月28日 SecurityWeek、Help Net Security、CryptoBriefing、channellife、digit.in 等同步报道，今日热点新闻。谷歌把 Gemini + Wiz + CodeMender + Mandiant 打包成自治安全平台、把「暴露窗口」从数周压到数小时，是巨头在 AI 对抗 AI 网络战中的旗舰级落子；与 4月20日 MCP 架构漏洞、5月25日 谷歌认 AI 安全摸黑、Anthropic Mythos 及 OpenAI Daybreak 同线叠加，企业安全进入机器对机器的实时攻防范式。Critical 级。",
+      "source": "SecurityWeek / Help Net Security / CryptoBriefing",
+      "url": "https://www.securityweek.com/google-unveils-ai-threat-defense-platform-to-fight-ai-powered-cyberattacks/",
+      "keywords": ["谷歌云", "AI Threat Defense", "Wiz Mandiant", "CodeMender", "暴露窗口数小时", "对标 Mythos"],
+      "category": "安全事件"
+    },
+    {
+      "id": 4,
+      "title": "Asana 7500 万购 StackAI",
+      "content": "工作管理平台 Asana 以 7500 万美元收购无代码智能体公司 StackAI，意在成为「人机协作团队的操作系统」。StackAI 让智能体跨 Salesforce、Slack、ERP、CRM 等既有系统执行，自动化客服、IT 工单与合规。两名创始人将加入，StackAI 仍独立运营，交易随其一季度财报同日宣布。",
+      "importance": "high",
+      "reasoning": "5月28日 TechCrunch、SiliconANGLE、BusinessWire、Yahoo Finance 等同步报道，今日热点新闻。Asana 以 7500 万美元把无代码智能体编排能力收入囊中、定位「人机协作操作系统」，是 SaaS 工作平台抢占企业智能体执行层的代表动作；与 5月28日 Visa 投资 Replit、4月29日 腾讯 ADP 同线叠加，企业软件从「记录工具」向「智能体调度中台」转型。High 级。",
+      "source": "TechCrunch / SiliconANGLE / BusinessWire",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "keywords": ["Asana", "StackAI", "7500 万收购", "无代码智能体", "跨系统执行", "人机协作操作系统"],
+      "category": "公司动态"
+    },
+    {
+      "id": 5,
+      "title": "Glean 年经常营收破 3 亿",
+      "content": "企业 AI 搜索公司 Glean 年化经常性营收突破 3 亿美元，距上一 1 亿里程碑仅 15 个月、增长两倍，最新估值 72 亿美元，财富 500 强客户数一年近乎翻倍。CEO Arvind Jain 称接入 Glean 可让企业以更少处理量取数办公，省 AI 预算成为其核心增长卖点。",
+      "importance": "high",
+      "reasoning": "5月28日 TechCrunch、BusinessWire、KuCoin、Startup Fortune 等同步报道，今日热点新闻。Glean 15 个月内营收翻三倍至 3 亿、估值 72 亿，并把「省 AI 预算」做成卖点，恰逢企业 AI 开支进入纪律期；与 5月29日 Amazon 撤 AI 排行榜、5月26日 ClickUp 22% AI 裁员同线叠加，企业开始为 AI 投入算回报账。High 级。",
+      "source": "TechCrunch / BusinessWire / KuCoin",
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "keywords": ["Glean", "3 亿 ARR", "72 亿估值", "15 个月翻三倍", "省 AI 预算", "企业 AI 搜索"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "Liquid AI 端侧模型升级",
+      "content": "Liquid AI 发布端侧模型 LFM2.5-8B-A1B，总参数 83 亿但每次仅激活 15 亿，面向消费级硬件的快速工具调用，上下文长度扩至 128K。多项指标大幅提升：抗错误生成率从 7.46 跃至 63.47、IFEval 从 79.44 升至 91.84。模型首日即支持 llama.cpp、MLX、vLLM 等主流运行栈。",
+      "importance": "high",
+      "reasoning": "5月28日 MarkTechPost 与 Liquid AI 官方博客同步首发，今日热点新闻。83 亿总参数仅激活 15 亿、抗错误生成率从 7.46 飙至 63.47 且首日跑通 llama.cpp/MLX/vLLM，是端侧小模型在手机等消费硬件上逼近云端体验的代表；与 4月3日 谷歌 Gemma 4、本周谷歌 Coral Board 端侧板同线叠加，本地化与边缘 AI 运行竞争加速。High 级。",
+      "source": "MarkTechPost / Liquid AI",
+      "url": "https://www.marktechpost.com/2026/05/28/liquid-ai-releases-lfm2-5-8b-a1b-an-on-device-moe-model-with-8-3b-total-and-1-5b-active-parameters/",
+      "keywords": ["Liquid AI", "LFM2.5-8B-A1B", "83 亿参数", "激活 15 亿", "端侧模型", "抗错误生成率"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Meta 全球推付费 AI 订阅",
+      "content": "Meta 全球推出多档付费 AI 订阅：综合套餐 Meta One Plus 每月 7.99 美元、Meta One Premium 19.99 美元，并面向 Instagram、WhatsApp 单独推出 Instagram Plus 3.99 美元、WhatsApp Plus 2.99 美元。各档整合 AI 计算额度、创作工具与企业功能，是 Meta 把旗下数十亿用户的 AI 使用从免费转向直接收费的关键一步。",
+      "importance": "high",
+      "reasoning": "5月28日 The Decoder 与 TechCrunch 等同步报道，今日热点新闻。Meta 以 2.99 至 19.99 美元四档订阅把跨 App 的 AI 能力商业化、覆盖数十亿用户，是消费级 AI 从「免费引流」转向「直接付费」的标志；与 5月28日 Glean 省预算卖点、4月21日 Atlassian 默认训练同线叠加，AI 消费化进入规模变现期。High 级。",
+      "source": "The Decoder / TechCrunch",
+      "url": "https://the-decoder.com/",
+      "keywords": ["Meta", "付费 AI 订阅", "Meta One Plus", "7.99 美元", "Instagram WhatsApp", "AI 变现"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "Visa 投资 Replit 智能体支付",
+      "content": "支付巨头 Visa 向 AI 编程平台 Replit 投资（金额未披露），合推智能体支付：开发者及其 AI 智能体可经 Trusted Agent Protocol 核验身份后在平台内直接收款。Visa 已有 1000+ 员工用 Replit 做原型。",
+      "importance": "medium",
+      "reasoning": "5月28日 TechCrunch、PRNewswire、Finextra、Inc. 等同步报道，今日热点新闻。全球最大卡组织把支付能力嵌入 AI 编程平台、并用 Trusted Agent Protocol 核验智能体交易，是智能体支付基础设施竞赛的关键落子；与 5月28日 Asana 收购 StackAI、5月27日 Robinhood 开放智能体交易同线叠加，AI 代理动用真实资金的轨道加速铺设。Medium 级。",
+      "source": "TechCrunch / PRNewswire / Finextra",
+      "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+      "keywords": ["Visa", "Replit", "智能体支付", "Trusted Agent Protocol", "Intelligent Commerce", "1000+ 员工"],
+      "category": "行业观察"
+    },
+    {
+      "id": 9,
+      "title": "Amazon 撤 AI 用量排行榜",
+      "content": "Amazon 撤下内部 AI 排行榜 KiroRank，因部分员工为刷榜让 AI 智能体跑无意义任务、推高云成本，转而用「有效部署」指标考核真实产出。Amazon 2026 年计划砸约 2000 亿美元 AI 基建。",
+      "importance": "medium",
+      "reasoning": "5月29日 The Decoder、Tom's Hardware、GuruFocus、Newsbytes 等同步报道，今日热点新闻。员工「tokenmaxxing」刷 AI 用量推高云账单、迫使 Amazon 撤榜改用产出指标，是大厂强推 AI 反被 KPI 异化的典型；与 5月28日 Glean 省预算、5月26日 ClickUp AI 裁员同线叠加，企业从「用得多」转向「用得值」。Medium 级。",
+      "source": "The Decoder / Tom's Hardware / GuruFocus",
+      "url": "https://the-decoder.com/amazon-kills-internal-ai-leaderboard-after-employees-gamed-it-with-pointless-tasks/",
+      "keywords": ["Amazon", "KiroRank", "tokenmaxxing", "刷榜推高云成本", "有效部署指标", "2000 亿 AI 基建"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-29T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "CNBC", "The Decoder", "Bloomberg", "Anthropic", "Axios", "9to5Mac", "MarkTechPost", "Slashdot", "Crunchbase", "Investing.com", "SecurityWeek", "Help Net Security", "CryptoBriefing", "SiliconANGLE", "BusinessWire", "Yahoo Finance", "KuCoin", "Startup Fortune", "Liquid AI", "PRNewswire", "Finextra", "Tom's Hardware", "GuruFocus", "WebSearch"],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1100
+  }
+}
