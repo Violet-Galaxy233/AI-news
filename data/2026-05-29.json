@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-29",
+  "date_formatted": "26/05/29",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Opus 4.8 正式发布",
+      "content": "Anthropic 5 月 28 日 发布 Claude Opus 4.8，在 Claude API、Amazon Bedrock、Google Vertex AI、Microsoft Foundry 同步上线，定价不变（每百万字符输入 $5、输出 $25）。代码开发测试从 87.6% 升至 88.6%，SWE-bench Pro 从 64.3% 跃至 69.2%，模型主动上报代码缺陷概率提升约 4 倍；快速模式速度 2.5 倍、成本降至上代的 1/3。新增三项能力：Claude Code 动态工作流（研究预览）支持并行子智能体处理大规模任务；Messages API 支持任务中途注入系统指令；企业内网 MCP 隧道集成正式可用。Anthropic 披露本版诚实度评测接近尚未公开的 Mythos 标准，是能力与安全对齐双向跨越的里程碑版本。",
+      "importance": "critical",
+      "reasoning": "5 月 28 日 Anthropic 官网首发，VentureBeat、MacRumors、SD Times、9to5Mac 等同步报道，当日热点新闻。Opus 4.8 是 Anthropic 近 4 个月内第三次主要迭代，SWE-bench Pro 从 64.3% 升至 69.2% 及代码缺陷发现率 4 倍提升，直接强化企业级代码智能体可信度；快速模式 3 倍降价压缩调用成本。动态工作流打开 AI 自主完成超大任务的新维度，与 Cisco 同日曝出的安全研究形成攻防并举格局。Critical 级。",
+      "source": "Anthropic / VentureBeat",
+      "url": "https://www.anthropic.com/claude/opus",
+      "keywords": [
+        "Anthropic",
+        "Claude Opus 4.8",
+        "SWE-bench Pro",
+        "动态工作流",
+        "快速模式",
+        "代码开发"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "AI 安全评测严重高估",
+      "content": "Cisco 于 5 月 27 日 发布报告：对 OpenAI、Anthropic、Google、Amazon、xAI 共 15 款主流旗舰 AI 模型，完成约 3 万条单轮提问与近 7000 次多轮对话攻击测试（超 1400 个会话）。单轮攻击成功率为 2.2%—64.9%；一旦攻击者可跨轮次渐进施压，成功率最高飙至 88.3%。典型数据：xAI Grok 4.1 Fast 多轮达 88.3%（开启深度推理后降至 43.5%），Google Gemini 3 Pro 从 18% 升至 73%，GPT-5.4 从个位数升至 25%，Claude 系列多轮仍达 11%—16%。报告指出业界安全测评几乎全采用单轮标准，公开发布的安全得分系统性高估了模型真实防御能力。",
+      "importance": "critical",
+      "reasoning": "5 月 27 日 Cisco 安全博客首发，Help Net Security、SiliconANGLE、Cybersecurity Dive、SC Media 等同步报道，当日安全热点。Cisco 是首家以大规模测试量化多轮攻击威胁的主流厂商，88.3% 多轮成功率与个位数单轮成功率的落差，直接揭示现行安全评测标准的根本缺口，对所有基于公开评分做选型决策的企业构成系统性冲击。Critical 级。",
+      "source": "Help Net Security / SiliconANGLE",
+      "url": "https://www.helpnetsecurity.com/2026/05/28/cisco-multi-turn-ai-attacks/",
+      "keywords": [
+        "Cisco",
+        "多轮攻击",
+        "AI 安全评测",
+        "Grok",
+        "Gemini",
+        "安全基准失效"
+      ],
+      "category": "安全事件"
+    },
+    {
+      "id": 3,
+      "title": "Meta 全球上线 AI 订阅",
+      "content": "Meta 于 5 月 27 日 正式向全球逾 30 亿用户推出分层订阅：消费者层 Instagram Plus 与 Facebook Plus 各 $3.99/月、WhatsApp Plus $2.99/月；AI 增强层「Meta One Plus」$7.99/月、「Meta One Premium」$19.99/月，后者开放更高算力配额，支持复杂任务深度分析与跨应用图文视频生成；创作者与企业层 Meta One Essential $14.99/月（含认证标志与防冒充）、Meta One Advanced $49.99/月（含搜索优先展示）。此举是 Meta 首次将 AI 能力直接嵌入大众付费路径，也是 2026 年规模最大的 C 端 AI 变现试验。",
+      "importance": "critical",
+      "reasoning": "5 月 27 日 TechCrunch 首发，CNBC、Engadget、Benzinga、Neowin 等同步报道，当日商业热点。Meta 早在 2026 年 1 月宣布测试计划，本次为正式全球上线，30 亿用户覆盖规模与 8 档价格体系前所未有；$19.99/月 AI 深度分析层直接对标 ChatGPT Pro，$49.99/月 创作者层将商业保护嵌入变现闭环。全球最大社交平台完成 AI 商业化转型，直接改写赛道竞争格局。Critical 级。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "keywords": [
+        "Meta",
+        "AI 订阅",
+        "Meta One Premium",
+        "WhatsApp Plus",
+        "30 亿用户",
+        "AI 变现"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "YouTube AI 自动标签",
+      "content": "YouTube 5 月 27 日 推出强制 AI 内容标签新规：平台自动识别并标注含逼真 AI 内容的视频，无需创作者申报；标签移至播放器正下方，Shorts 以叠加层显示，不影响推荐与变现。使用 Veo、Dream Screen 生成内容及含 C2PA 元数据的视频无法撤标。YouTube 月活 20 亿，成为全球首家推行强制 AI 内容自动标注的视频平台。",
+      "importance": "high",
+      "reasoning": "5 月 27 日 YouTube 官方博客首发，TechCrunch、9to5Google、Variety、Social Media Today 等同步报道。申报义务从「创作者自愿」转为「平台主动识别」，较欧盟 AI 法案水印义务截止期提前落地，不影响变现的设计大幅降低执行阻力，有望成为行业透明度自律新基准。High 级。",
+      "source": "TechCrunch / YouTube 官方博客",
+      "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+      "keywords": [
+        "YouTube",
+        "AI 内容标签",
+        "强制标注",
+        "Veo",
+        "C2PA",
+        "内容透明度"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "Sesame 对话 AI 上线",
+      "content": "Sesame 5 月 28 日 在 39 国上线 iOS 应用，提供 4 个各具人格与长期记忆的对话 AI 角色（Maya、Miles、Simone、Charlie），目前全功能免费。Sesame 由 Oculus 联合创始人创立，2025 年 10 月 完成 2.5 亿美元 A 轮融资，研究预览阶段首周吸引逾百万用户；计划 2027 年将 AI 角色延伸至智能眼镜硬件。",
+      "importance": "high",
+      "reasoning": "5 月 28 日 TechCrunch 独家报道，NewsBytes 等同步跟进。Sesame 由 Oculus VR 头显核心团队创立，将「流动自然的对话 AI」定义为区别于问答模式的体验范式，4 个记忆型人格角色布局 AI 伴侣赛道；2027 年眼镜硬件计划直面 Meta Ray-Ban AI 眼镜竞争，值得持续追踪。High 级。",
+      "source": "TechCrunch / NewsBytes",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "keywords": [
+        "Sesame",
+        "对话 AI",
+        "iOS 应用",
+        "Oculus",
+        "AI 角色",
+        "穿戴设备"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "SK Hynix 市值破万亿",
+      "content": "SK Hynix 5 月 27 日 股价单日涨 11%，市值突破 1 万亿美元，成为继三星、台积电之后第 3 家万亿美元亚洲科技企业，年内累计涨幅约 250%。AI 训练对高宽带内存（HBM）的爆发需求是主因：SK Hynix 为英伟达首选 HBM 供应商，客户订单已超过未来 3 年全产能；三星与美光同样在 5 月内完成万亿美元市值突破。",
+      "importance": "high",
+      "reasoning": "5 月 27 日 CNBC 首发，Analytics Insight、Crypto Briefing 等同步报道，当日市场热点。SK Hynix 万亿美元突破是 AI 硬件供给瓶颈的最直接资本信号，与本周英伟达台湾 1500 亿年度投资、长鑫科创板上会形成同期 AI 硬件资本三浪叠加，反映 AI 基础设施扩张正从需求向供给端施压。High 级。",
+      "source": "CNBC / Analytics Insight",
+      "url": "https://www.cnbc.com/2026/05/27/sk-hynix-shares-ai-chip-rally-1-trillion.html",
+      "keywords": [
+        "SK Hynix",
+        "万亿市值",
+        "HBM",
+        "AI 芯片",
+        "英伟达",
+        "半导体"
+      ],
+      "category": "行业观察"
+    },
+    {
+      "id": 7,
+      "title": "AI 赋能制裁规避新威胁",
+      "content": "OFAC 已制裁 6 名个人与 2 家实体，因参与朝鲜工程师仿冒 IT 骗局。5 月 28 日 安全媒体披露，此类攻击已升级为「AI 全链路协调」，可自动伪造简历与面试，受害企业年损失数百万至数千万美元。",
+      "importance": "medium",
+      "reasoning": "5 月 28 日 CIO、CSO Online、Computerworld 三家同步发布，当日合规热点。OFAC 制裁案例为背景，聚焦 AI 助力制裁规避从「个别手段」升级为「全链路系统」的新威胁，不涉及新产品或政策法规，定性为行业观察事件。Medium 级。",
+      "source": "CIO / CSO Online",
+      "url": "https://www.cio.com/article/4177854/another-it-governance-headache-ai-enabled-sanction-evasion.html",
+      "keywords": [
+        "AI 制裁规避",
+        "OFAC",
+        "朝鲜 IT 工作者",
+        "企业合规",
+        "AI 身份伪造",
+        "安全威胁"
+      ],
+      "category": "安全事件"
+    },
+    {
+      "id": 8,
+      "title": "AI 医疗首获最高认证",
+      "content": "Diagens 5 月 27 日 宣布 AI AutoVision 获 NMPA Class III 注册证，成为全球出生缺陷 AI 筛查首款通过中国最高级医疗器械认证的产品。中国年均出生缺陷 90 万例，该软件即可在具资质机构合规推广。",
+      "importance": "medium",
+      "reasoning": "5 月 27 日 Globe Newswire 官方公告，医疗 AI 媒体同步报道。NMPA Class III 是中国医疗器械最高监管级别，全球在染色体遗传病 AI 筛查赛道为首例获批；90 万例年出生缺陷背景下，合规落地意义显著。区域性事件，按规则定级 Medium。Medium 级。",
+      "source": "Globe Newswire / Diagens 官方",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301744/0/en/World-s-First-Class-III-Approval-for-a-Breakthrough-Medical-Imaging-AI-Diagens-AI-AutoVision.html",
+      "keywords": [
+        "Diagens",
+        "AI 医疗",
+        "Class III 认证",
+        "NMPA",
+        "染色体核型",
+        "出生缺陷"
+      ],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-29T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Anthropic",
+      "Help Net Security",
+      "SiliconANGLE",
+      "YouTube Blog",
+      "Globe Newswire",
+      "Analytics Insight",
+      "VentureBeat",
+      "NewsBytes"
+    ],
+    "duplicates_removed": 6,
+    "generation_time_seconds": 1800
+  }
+}
