@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-30",
+  "date_formatted": "26/05/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 推生物防御模型",
+      "content": "OpenAI 5月29日 发布「Rosalind 生物防御」计划，以 DNA 先驱 Rosalind Franklin 命名新前沿 AI 模型，专为生物研究、药物研发与传染病应对设计。该模型仅向通过严格筛查的美国企业和政府合作方开放，须具明确公益科研目标并签反滥用协议；OpenAI 表示已向白宫及多家联邦机构汇报。平台覆盖生物威胁全生命周期，据报道可大幅压缩传统新药研发周期。这是 OpenAI 今年继 GPT-5.5 Instant（5月5日）和 Codex 税务（5月27日）之后的第 3 款专业领域 AI，标志着 AI 能力向国家安全与公共卫生领域系统渗透。",
+      "importance": "critical",
+      "reasoning": "5月29日 OpenAI 官博首发，Axios 独家披露、Seeking Alpha 与 Lab Manager 同步报道，今日头条新闻。首次向政府合作方推出专项 AI 模型并向白宫汇报，叠加同日发布的「前沿治理框架」，构成 OpenAI 向国家安全赛道双线推进的重要落子；「受控开放」模式为行业设立参照。Critical 级。",
+      "source": "OpenAI / Axios",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+      "keywords": ["OpenAI", "Rosalind 生物防御", "生物安全 AI", "国家安全", "药物研发", "政府合作"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "iOS 27 Siri 全面接入 Gemini",
+      "content": "苹果近 15 年最大 Siri 改版方案遭彭博社 5月28日 曝光：iOS 27 版 Siri 将以谷歌 Gemini（1.2 万亿参数定制版）为核心，运行于苹果自有私有云服务器，不依赖谷歌基础设施。新 Siri 获独立应用、Dynamic Island 入口、完整对话历史与跨应用多步执行能力，并支持菜单切换至 ChatGPT、Claude 或 Gemini 三大 AI。苹果与谷歌已于 1月12日 联合宣布该合作，全功能计划 6月8日 WWDC 揭幕、随 iPhone 18 Pro 于 9月面世。这是 OpenAI、谷歌、Anthropic 三大 AI 首次同时嵌入主流移动操作系统，苹果史上首次将 Siri 核心模型交由外部大厂支撑。",
+      "importance": "critical",
+      "reasoning": "5月28-29日 Bloomberg Mark Gurman 独家曝渲染图与架构细节，Digital Trends、TechGenyz、Decrypt 等多家跟进，今日头条。苹果 + 谷歌 Gemini 1.2 万亿参数 + OpenAI ChatGPT + Anthropic Claude 同时嵌入 iOS，移动端 AI 生态从单厂垄断走向多方共存，为行业格局重大转折点。Critical 级。",
+      "source": "Bloomberg / Digital Trends",
+      "url": "https://www.digitimes.com/news/a20260529VL211/apple-siri-gemini-google-wwdc.html",
+      "keywords": ["Apple iOS 27", "Siri 改版", "Gemini 接入", "WWDC 2026", "多 AI 集成", "iPhone 18 Pro"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "微软 Copilot 最大规模改版",
+      "content": "微软 5月28日 发布 Microsoft 365 Copilot 全新界面，为 2024年 上线以来最大规模重构。新版将固定对话框升级为任务感知工作区，应用加载速度提升超 50%，复杂提示响应缩短 10%，由 Work IQ 情境引擎驱动。内测数据显示新界面推动 Word 用量提升 27%、Excel 提升 33%、PowerPoint 提升 43%、Outlook 提升 30%。改版 6月 起面向定向用户开放，8月正式普及，覆盖全球数亿 Microsoft 365 用户。",
+      "importance": "critical",
+      "reasoning": "5月28日 微软官博首发，Neowin、HelpNetSecurity、WindowsForum 等同步报道，今日热点。Microsoft 365 是全球最广泛企业 AI 套件，Word/Excel/PowerPoint/Outlook 用量提升 27-43% 的内测数据，是迄今最大规模企业 AI 效果披露；加载提速 50% 加剧与 Google Workspace 竞争。Critical 级。",
+      "source": "Microsoft / Neowin",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "keywords": ["Microsoft 365 Copilot", "界面改版", "Work IQ", "加载提速 50%", "Office 用量提升", "企业 AI"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 发布前沿治理框架",
+      "content": "OpenAI 5月29日 发布首份「前沿治理框架」，将安全体系与加州《前沿 AI 透明度法》及欧盟 AI 法案对齐，覆盖 4 类高危领域：网络攻击、CBRN 威胁、恶意操纵及失控风险。模型触达新风险门槛须接受外部专家压力测试。欧盟 AI 法案合规截止 2026年8月2日，违规最高处以全球年营收 7% 罚款。",
+      "importance": "high",
+      "reasoning": "5月29日 OpenAI 官博发布，Techerati、StartupHub.ai、AI News 同步报道，今日热点。首次以结构化文件公开前沿模型风险评估逻辑，与欧盟法案 8月2日 合规截止相呼应，对谷歌、Anthropic 等形成参照压力。High 级。",
+      "source": "OpenAI / Techerati",
+      "url": "https://openai.com/index/openai-frontier-governance-framework/",
+      "keywords": ["OpenAI", "前沿治理框架", "CBRN 风险", "欧盟 AI 法案", "加州透明度法", "AI 安全合规"],
+      "category": "政策监管"
+    },
+    {
+      "id": 5,
+      "title": "DeepMind CEO：AGI 最早 2029",
+      "content": "Google DeepMind CEO Demis Hassabis 5月28日 接受 Axios 采访时将 AGI 预测从「5 至 10 年」收窄至「最早 2029 年、大概率 2030 年前后」，提前约 3 年。他将当前 AI 智能体定性为「正式 AGI 前的练兵场」，称社会仅剩约 3 至 4 年时间应对变革。这是顶级 AI 实验室 CEO 迄今最激进的公开时间预测。",
+      "importance": "high",
+      "reasoning": "5月28日 Gigazine 与 Axios 首发，Sherwood News、NewsBytesApp、Computerworld 等同步跟进，今日热点。DeepMind CEO 将 AGI 时间从「5-10 年」收窄至「3-4 年内」，叠加 OpenAI、Anthropic 持续加速的发布节奏，监管与行业准备时间正急剧压缩。High 级。",
+      "source": "Axios / Gigazine",
+      "url": "https://gigazine.net/gsc_news/en/20260528-google-deepmind-ceo-demis-hassabis-agi-2030/",
+      "keywords": ["Demis Hassabis", "AGI 2029", "DeepMind", "通用人工智能", "技术奇点", "时间预测"],
+      "category": "行业观察"
+    },
+    {
+      "id": 6,
+      "title": "AI 税务系统准确率达 97%",
+      "content": "OpenAI 与财税公司 Thrive Holdings 5月27日 公开联研成果：基于 Codex 的自优化税务 AI 在 30 余家事务所处理 7000 份申报，准确率 97%，处理量提升 50%，每份耗时缩短 1/3。系统将会计师每次纠错转化为优化依据，上线 6 周内字段准确率从 25% 跃至 86%。OpenAI 于 2025年12月 战略入股 Thrive，联合研发历时 6 个月。",
+      "importance": "high",
+      "reasoning": "5月27-28日 OpenAI 官博首发，CryptoBriefing、KuCoin 等同步报道，今日热点。97% 准确率 + 6 周从 25% 到 86% 的自优化曲线 + 7000 份真实申报，是专业 AI 领域有量化依据的最强落地数据之一；战略入股 + 联合研发的变现路径具行业参考价值。High 级。",
+      "source": "OpenAI / CryptoBriefing",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex/",
+      "keywords": ["OpenAI Codex", "Thrive Holdings", "税务 AI", "97% 准确率", "自优化系统", "专业服务 AI"],
+      "category": "技术突破"
+    },
+    {
+      "id": 7,
+      "title": "Groq 融资 6.5 亿转型云服务",
+      "content": "AI 芯片公司 Groq 5月29日 被曝向现有股东融资 6.5 亿美元，剥离芯片制造、转型 AI 运行云（Groq2）。此前 Groq 于 2025年12月 以约 200 亿美元向英伟达授权处理器技术。Groq 估值 69 亿美元（2025年9月），此次转型标志 AI 芯片赛道从「造芯片」向「卖算力」迁移。",
+      "importance": "high",
+      "reasoning": "5月28-29日 Axios 独家披露，TechCrunch、SeekingAlpha、PYMNTS 同步跟进，今日热点。英伟达 200 亿授权 Groq 技术 + Groq 以 6.5 亿转型云服务，是 AI 算力赛道「专利货币化 + 服务层转型」双向演化的典型案例，Groq2 将加剧 AI 运行云价格竞争。High 级。",
+      "source": "Axios / TechCrunch",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "keywords": ["Groq", "AI 运行云", "英伟达授权", "6.5 亿融资", "Groq2", "芯片赛道转型"],
+      "category": "融资并购"
+    },
+    {
+      "id": 8,
+      "title": "2026 科技裁员破 14.8 万",
+      "content": "据 5月29日 统计，2026年 全球科技行业累计裁员 148092 人，美国 AI 相关岗位裁撤逾 49135 人。裁员主体均为盈利企业：Meta 裁 8000 人、Cloudflare 裁员 1100 人（占 20%）、BILL 削减 30%、Upwork 削减 25%，各家均指向 AI 已替代「中间层」管理岗。四大巨头今年合计 AI 基建预算 7000 亿美元，「以人换 AI」成科技业最显性结构信号。",
+      "importance": "high",
+      "reasoning": "5月29日 TechTimes、Yahoo Finance 等多家同步报道，今日热点。14.8 万裁员 + 4.9 万 AI 相关岗位（美国）+ 盈利企业主动重组 + 7000 亿 AI 预算并行推进，是 AI 替代白领从「预测」走向「数据现实」的里程碑节点。High 级。",
+      "source": "TechTimes / Yahoo Finance",
+      "url": "https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm",
+      "keywords": ["科技裁员 14.8 万", "AI 岗位替代", "Cloudflare 裁员", "Meta 裁员", "7000 亿 AI 投资", "以人换 AI"],
+      "category": "公司动态"
+    },
+    {
+      "id": 9,
+      "title": "研究：AI 编程效率被高估",
+      "content": "METR 5月 发布报告：93% 开发者依赖 AI 编程工具，自评效率翻倍；但受控实验显示 AI 实际拖慢开发节奏，开发者花大量时间纠错与等待，净速度不升反降。TechCrunch 5月29日 推荐将 AI 视为「初级工程师」。",
+      "importance": "medium",
+      "reasoning": "5月29日 TechCrunch 报道引用 METR 研究，今日热点。93% 使用率 + 「感知翻倍 vs 实际变慢」的反差数据，是近期最具冲击性的 AI 生产效率研究结论，对企业 AI 投资回报率评估具参考价值。Medium 级。",
+      "source": "TechCrunch / METR",
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "keywords": ["AI 编程依赖", "METR 研究", "生产效率误判", "93% 使用率", "代码审查成本", "开发者调研"],
+      "category": "行业观察"
+    },
+    {
+      "id": 10,
+      "title": "ASIC 推理云获 1500 万种子轮",
+      "content": "AI 运行云初创 General Compute 5月28日 完成 1500 万美元种子轮，估值 6000 万美元，由 FUSE VC 领投。核心芯片 SN50 低延迟场景运行速度比 GPU 云快 5 至 7 倍；公司已预订 3 亿美元芯片，主攻智能体与语音场景。",
+      "importance": "medium",
+      "reasoning": "5月28日 TechCrunch 首发、Signalbase 同步追踪，今日新闻。ASIC 专用云与 Groq2 代表同赛道两种量级玩法；5-7 倍速度优势若验证，将对英伟达 GPU 运行云价格体系形成压力。Medium 级。",
+      "source": "TechCrunch / Signalbase",
+      "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
+      "keywords": ["General Compute", "ASIC 运行云", "SN50 芯片", "1500 万种子轮", "低延迟运行", "GPU 替代"],
+      "category": "融资并购"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-30T08:00:00Z",
+    "total_news": 10,
+    "sources_checked": ["OpenAI", "TechCrunch", "Bloomberg", "Axios", "Gigazine", "Microsoft", "Digitimes", "METR", "Neowin", "Seeking Alpha", "TechTimes", "Yahoo Finance", "Lab Manager", "Signalbase"],
+    "duplicates_removed": 15,
+    "generation_time_seconds": 720
+  }
+}
