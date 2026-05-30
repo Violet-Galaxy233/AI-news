@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-30",
+  "date_formatted": "26/05/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 获 360 亿芯片融资",
+      "content": "阿波罗(Apollo)、黑石(Blackstone) 牵头为 Anthropic 安排约 360 亿美元债务融资，专项买入谷歌自研 AI 芯片再租给 Anthropic，落地纽约、得州等四地数据中心。资金分 60 亿 A1、250 亿 A2、45 亿 B 级三档票据，博通为最大部分兜底还款。若落地将成史上最大芯片债务融资之一，凸显 AI 算力扩张已从股权募资转向重资产举债。",
+      "importance": "critical",
+      "reasoning": "5月28日 彭博首发，路透、Benzinga、Yahoo Finance 等同步报道，昨日热点。昨日已报 Anthropic 9650 亿估值 H 轮，今日报其算力举债角度，属不同事件。360 亿美元债务专为采购谷歌芯片、绕开股权稀释，反映前沿公司算力需求超出常规融资覆盖；博通兜底、四地布局显示供应链与电力同步绑定。Critical 级。",
+      "source": "Bloomberg / Reuters",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/apollo-shops-36-billion-debt-deal-to-buy-google-chips-for-anthropic",
+      "keywords": ["Anthropic", "Apollo 黑石", "360 亿芯片债", "谷歌芯片租赁", "博通兜底", "私募信贷"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 推生物防御与治理框架",
+      "content": "OpenAI 推出 Rosalind 生物防御计划，向通过审核的开发者及美国与盟友政府部门免费开放专用 AI 模型 GPT-Rosalind，支持疫情预警、响应、诊断和医疗对策四类工作流。同步发布前沿治理框架，为前沿 AI 模型的安全与生物威胁设定管控规则，门槛要求高于加州、欧盟现行法律。这是三大厂之一首次把生物安全程序与治理框架捆绑发布，具体资助规模未披露。",
+      "importance": "critical",
+      "reasoning": "5月29日 OpenAI 官网首发，Seeking Alpha、StartupHub、InsideHealthPolicy 等同步报道，今日热点。Rosalind 把前沿 AI 模型能力定向投入生物安全与疫情准备，治理框架主动设定高于加州、欧盟现行法的门槛，是三大厂在安全与监管自律上的标志性动作；恰逢 OpenAI 入选五角大楼八家国防 AI 合作之际，凸显其政府关系布局。Critical 级。",
+      "source": "OpenAI / Seeking Alpha",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+      "keywords": ["OpenAI", "Rosalind 生物防御", "GPT-Rosalind", "前沿治理框架", "高于加州欧盟", "政府合作"],
+      "category": "政策监管"
+    },
+    {
+      "id": 3,
+      "title": "阶跃 Step 3.7 Flash 开源",
+      "content": "阶跃星辰(StepFun) 开源高效模型 Step 3.7 Flash，采用稀疏专家架构，总参数 1960 亿、每次仅激活 110 亿，另配 18.8 亿参数视觉编码器，峰值生成速度每秒 400 字符。在评测真实环境多步任务的 ClawEval-1.1 测试中以 67.1 分登顶，大幅领先第二名 59.8 分，考核含规划、工具调用、错误恢复。模型以 Apache 2.0 协议开放权重，已上线 OpenRouter、英伟达 NIM 等平台，专为智能体、代码和检索场景设计。",
+      "importance": "critical",
+      "reasoning": "5月29日 阶跃官方与 MarkTechPost、Pandaily、BigGo、digg 等同步发布，今日热点。Step 3.7 Flash 以约 1/18 激活比例(总 1960 亿、激活 110 亿) 兼顾速度与成本，在真实环境智能体评测领先逾 7 分，且 Apache 2.0 开放权重，延续中国实验室开源冲击全球的路径；对标海外闭源旗舰，降低智能体落地门槛。Critical 级。",
+      "source": "MarkTechPost / Pandaily",
+      "url": "https://www.marktechpost.com/2026/05/29/stepfun-releases-step-3-7-flash-a-198b-moe-vision-language-model-for-coding-agents-and-search-workflows/",
+      "keywords": ["阶跃星辰", "Step 3.7 Flash", "开放权重", "稀疏专家架构", "ClawEval 登顶", "智能体模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Groq 融 6.5 亿转推理云",
+      "content": "AI 芯片公司 Groq 启动约 6.5 亿美元融资，由现有投资方 Disruptive、Infinitum 主导，新主体 Groq2 将重心从造芯转向推理云。此前英伟达以约 200 亿美元「非收购式」协议拿走其加速器架构与多数核心团队，留下推理云平台与客户合同，本轮是独立续命一搏。",
+      "importance": "high",
+      "reasoning": "5月28日 Axios 独家首发，TechCrunch、PYMNTS、GuruFocus 等同步报道，昨日热点。Groq 在被英伟达 200 亿美元抽走芯片团队后，靠 6.5 亿美元押注推理云存续，反映算力赛道从造芯转向卖推理服务的分工；现有投资方愿全额兜底，显示对其客户合同价值的信心。High 级。",
+      "source": "Axios / TechCrunch",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "keywords": ["Groq", "6.5 亿融资", "Groq2", "推理云", "英伟达 200 亿", "Disruptive"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 5,
+      "title": "CNN 起诉 Perplexity 侵权",
+      "content": "CNN 在联邦法院起诉 AI 搜索公司 Perplexity，指控其抓取、复制超过 17000 篇 CNN 报道与素材用于训练产品，并生成「高度近似」的竞争内容，还谎称双方仍有合作诱导用户付费。这是 CNN 首例 AI 版权诉讼，也是电视网络首例维权；Perplexity 回应称「事实不受版权保护」。",
+      "importance": "high",
+      "reasoning": "5月28日 CNN、Variety、NPR、半岛电视台 等同步报道，昨日热点。CNN 称去年谈授权未果后起诉，索赔金额未具体披露并要求禁令；作为电视网络首例 AI 版权诉讼，叠加纽约时报等既有诉讼，标志内容方对 AI 抓取的集体反扑，或重塑行业授权与训练数据规则。High 级。",
+      "source": "CNN / Variety",
+      "url": "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright",
+      "keywords": ["CNN", "Perplexity", "版权诉讼", "17000 篇报道", "Comet Plus", "内容授权"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 6,
+      "title": "Sesame 推语音 AI 应用",
+      "content": "Oculus 联合创始人 Brendan Iribe 创办的对话式 AI 公司 Sesame 推出 iOS 公测应用，在 39 个国家上线、完整功能免费。应用内置 Maya、Miles 等四个语音助手，各有独立音色、性格和记忆，主打对话不中断的自然体验。公司 2025 年曾融资 2.5 亿美元，计划 2027 年推出智能眼镜。",
+      "importance": "high",
+      "reasoning": "5月28日 TechCrunch 首发，IBTimes、Winbuzzer、Yahoo Tech 等同步报道，昨日热点。Sesame 由 Oculus 元老团队打造，押注语音交互自然度作为差异点，并以 iOS 应用作为通向 2027 年智能眼镜的入口；语音 AI 助手赛道竞争升温。High 级。",
+      "source": "TechCrunch / IBTimes",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "keywords": ["Sesame", "Brendan Iribe", "语音 AI", "四个助手", "39 国上线", "智能眼镜"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Cognition 否认替代程序员",
+      "content": "AI 编程公司 Cognition 创始人 Scott Wu 表示，从不把智能体 Devin 视为替代人类工程师，而是帮程序员分担长尾维护工作。表态正值其以 260 亿美元估值完成 10 亿美元融资。",
+      "importance": "medium",
+      "reasoning": "5月29日 TechCrunch 首发，Stripe、Colossus、Fyself 等同步报道，今日热点。在 AI 替代白领的舆论高点，头部 AI 编程公司 CEO 主动淡化替代论，并与其 10 亿美元融资、260 亿美元估值同步释放，反映行业对就业冲击叙事的修正与定位之争。Medium 级。",
+      "source": "TechCrunch / Stripe",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "keywords": ["Cognition", "Scott Wu", "Devin", "否认替代", "260 亿估值", "AI 就业"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 更新 5.5 退旧模型",
+      "content": "OpenAI 更新 GPT-5.5 Instant，提升可读性并移除 Canvas 功能，公布旧款退役表：o3 将于 8月26日 停用、GPT-4.5 于 6月27日 退役。GPT-5.5 Instant 已是 ChatGPT 默认模型，调整意在收敛产品线。",
+      "importance": "medium",
+      "reasoning": "5月29日 The Decoder 首发，OpenAI 帮助中心、社区等同步披露，今日动态。属常规产品线收敛：默认模型升级叠加 o3、GPT-4.5 定档退役，引导用户迁移至新一代，对开发者排期有直接影响。Medium 级。",
+      "source": "The Decoder / OpenAI",
+      "url": "https://the-decoder.com",
+      "keywords": ["OpenAI", "GPT-5.5 Instant", "o3 退役", "GPT-4.5", "Canvas 移除", "产品线收敛"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-30T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "CNBC", "The Decoder", "Bloomberg", "Reuters", "OpenAI", "Axios", "CNN", "Variety", "NPR", "MarkTechPost", "Pandaily", "Seeking Alpha", "GuruFocus", "Benzinga", "WebSearch"],
+    "duplicates_removed": 11,
+    "generation_time_seconds": 1000
+  }
+}
