@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-31",
+  "date_formatted": "26/05/31",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "欧盟 AI 法修订延期新规",
+      "content": "欧洲议会与欧盟理事会于 5月7日 达成 AI 法案 Omnibus 简化协议，5月28日 各大法律机构发布完整解析：高风险 AI 系统合规主要期限从 2026年8月2日 延至 2027年12月2日，整整后推 16 个月；AI 生成或篡改内容的水印标注义务推至 2026年12月2日。修订新增两类禁令：AI 生成儿童性剥削内容与非自愿亲密影像，违规从 2026年12月2日 起受罚，不设宽限期。占欧盟企业总数约 99% 的中小企业获简化技术文档要求、更低罚款上限及优先进入监管沙盒通道。正式批准预计 6月 完成，在 2026年8月2日 通用 AI 模型监管上线节点前全面生效，是 2024年 AI 法案正式通过以来规模最大的一次调整，直接影响全球在欧运营的 AI 开发商与部署商。",
+      "importance": "critical",
+      "reasoning": "5月28日 Inside Global Tech、EU Consilium、Mishcon、White & Case、Latham & Watkins 等多家法律机构同步发布完整分析，近日政策热点。Omnibus 修订把高风险 AI 合规期限整体后推 16 个月，同时引入 CSAM 与非自愿亲密影像两项新禁令并为中小企业大幅松绑——既减负又收紧责任边界，标志 EU AI 法案从「鸿图大略」进入「可执行细则」阶段；正式批准窗口在 6月，8月2日 通用 AI 模型监管上线前必须落地，时间节点紧迫。Critical 级。",
+      "source": "Inside Global Tech / EU Consilium",
+      "url": "https://www.insideglobaltech.com/2026/05/28/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/",
+      "keywords": ["EU AI法案", "Omnibus修订", "高风险AI延期16个月", "CSAM禁令", "中小企业合规", "2027年12月生效"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "华为 Tau 定律挑战摩尔定律",
+      "content": "华为于 5月25日 在上海 IEEE 国际电路与系统大会首发 τ（Tau）扩展定律，以信号传播时延（τ）取代晶体管几何尺寸缩小，作为芯片演进的核心优化指标，正面挑战业界遵循逾 60 年的摩尔定律。配套的 LogicFolding 技术通过折叠片上信号路径压缩时延，将在 2026年秋季 随华为麒麟旗舰芯片首次量产，对性能与功耗比带来实质提升。按规划，τ 定律路线将在 2031年 实现等效 1.4 纳米（14 Å）工艺的晶体管密度，填补美国出口管制切断 7 纳米及以下先进制程供给后形成的技术缺口。AI Magazine 于 5月30日 将其列入当周全球五大 AI 事件。此举标志中国在 AI 算力核心硬件上从「追赶现有路线」转向「自立新规则」，对全球芯片设计格局具有深远影响。",
+      "importance": "critical",
+      "reasoning": "5月25日 华为于 IEEE ISCAS 上海会议首发，CGTN、TrendForce、TechMarketer、SemiconAlpha 等 5月25-26日 同步报道；5月30日 AI Magazine 将其列入当周五大 AI 事件，持续发酵。在美国出口管制背景下华为以全新定律框架替代摩尔定律并已绑定 2026年秋季 麒麟量产，2031年 目标 1.4nm 等效密度——这是迄今最系统的中国片上架构突破；5日前首发但仍为当周国际头条，持续发酵。Critical 级。",
+      "source": "华为 / IEEE ISCAS / South China Morning Post",
+      "url": "https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling",
+      "keywords": ["华为", "Tau扩展定律", "LogicFolding", "1.4纳米等效2031年", "挑战摩尔定律", "麒麟芯片量产"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "微软自研编程 AI 将替换 OpenAI",
+      "content": "Seeking Alpha、Digit.in、CyberNews 等媒体 5月30日 同步报道：微软将在 6月2日 开幕的 Build 2026 大会发布自研编程 AI 模型 Project Polaris，取代 GitHub Copilot 现有的 OpenAI 模型，标志微软从「购买 AI」转向「自建 AI」的战略拐点。Polaris 采用稀疏专家架构，为 Rust、Haskell 等小众语言配置独立专家模块，内测中在 HumanEval 与 MBPP 代码评测上超越 GPT-4 Turbo。新版 Copilot 分免费、Pro、企业三档：Pro 版支持最多 10 万行跨文件上下文，企业版提供模型定制与合规审计。产品附带代码内容保证协议（Code Content Guarantee），为客户知识产权主张提供赔偿，正式上线计划 2026年8月。GitHub 拥有逾 1.5 亿注册开发者，此举将深度改变 AI 编程服务市场格局。",
+      "importance": "critical",
+      "reasoning": "5月30日 Seeking Alpha、Digit.in、CyberNews、WindowsNews.ai 多家同步爆料，今日热点新闻。微软以自研 Polaris 取代 Copilot 中的 OpenAI 模型，是全球最大软件公司首次在核心开发者产品上战略性切断对 OpenAI 的模型依赖；Code Content Guarantee 首次将 AI 编程工具的 IP 赔偿责任制度化；1.5 亿 GitHub 用户将在 2026年8月 起进入新格局，与 Cognition Devin、Claude Code 共同构建 AI 编程三角竞争。Critical 级。",
+      "source": "Seeking Alpha / Digit.in / CyberNews",
+      "url": "https://seekingalpha.com/news/4598018-microsoft-plans-to-showcase-new-coding-model-at-next-weeks-build-conference-report",
+      "keywords": ["微软", "Project Polaris", "GitHub Copilot", "Build 2026", "替换OpenAI", "自研编程模型"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT 摘要沦为钓鱼入口",
+      "content": "安全公司 Permiso 于 5月29日 公开「ChatGPhish」漏洞：ChatGPT 网页摘要功能对第三方页面内嵌的 Markdown 图片与链接默认信任并自动加载，攻击者只需在目标网页植入少量代码，即可让 ChatGPT 在受信界面内渲染钓鱼链接、欺诈告警与二维码，并自动捕获用户 IP 与浏览器指纹，全程用户仅发出一次摘要请求即中招。该漏洞可绕过桌面端 URL 过滤机制，扫描攻击者嵌入的二维码后可直达其控制的 AWS S3 存储桶。研究员于 4月29日 向 OpenAI Bugcrowd 提交报告，经 30 天多次跟进后于 5月29日 公开披露，影响全球数亿 ChatGPT 用户，目前修复方案尚未公布。",
+      "importance": "high",
+      "reasoning": "5月29日 The Hacker News 与 The Register 同步首发，Permiso Security 官方博客同步披露技术细节，今日热点新闻。ChatGPhish 利用 ChatGPT 自身可信界面作为钓鱼跳板，无需用户点击可疑链接，可绕过企业端点防护，是 AI 助手引入新型社会工程学攻击面的典型；30 天公开披露周期内 OpenAI 未发布补丁，说明修复复杂度较高，对数亿用户构成持续风险。High 级。",
+      "source": "The Hacker News / The Register / Permiso Security",
+      "url": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+      "keywords": ["ChatGPhish", "ChatGPT漏洞", "Markdown注入", "钓鱼攻击", "Permiso Security", "网页摘要风险"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 5,
+      "title": "Codex 登陆 Windows 可操控桌面",
+      "content": "OpenAI 于 5月29日 发布 Codex v26.527，将 Computer Use 扩展至 Windows：AI 编程智能体现在可直接在 Windows 桌面前台查看屏幕、点击并键入任意应用，实现完整 GUI 操控闭环；用户可同步通过 iPhone、Android 或 Mac 远程发起任务并实时监控进度。与 macOS 版不同，Windows 版需独占前台焦点，运行期间鼠标与键盘控制权交由 Codex 接管，不支持并行操作。该功能在上线时对欧盟、英国、瑞士三地区用户不可用。此前 Codex Computer Use 仅限 macOS，Windows 版上线意味着 AI 智能体正式覆盖全球超 14 亿台 Windows 活跃设备，是自主 AI 智能体桌面落地的关键一步。",
+      "importance": "high",
+      "reasoning": "5月29日 Neowin、The Tech Outlook 与 OpenAI 官方变更日志同步首发，今日热点新闻。Codex GUI 操控从 macOS 扩展至覆盖 14 亿台设备的 Windows 生态，并新增移动端远程操控能力，是自主 AI 智能体从服务器端向消费级桌面渗透的里程碑；欧盟三地区限制上线折射出监管摩擦对功能部署的实质影响。High 级。",
+      "source": "Neowin / The Tech Outlook / OpenAI",
+      "url": "https://www.neowin.net/news/openai-rolls-out-major-codex-for-windows-update-with-computer-use-and-mobile-access/",
+      "keywords": ["OpenAI", "Codex v26.527", "Windows桌面控制", "Computer Use", "移动端远程操控", "欧盟区域限制"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "DeepSeek 价格战今日永久定格",
+      "content": "DeepSeek V4-Pro 75% 促销折扣于今日（5月31日）到期，但公司宣布将促销价直接锁定为永久售价：输入每百万字符 $0.435、输出 $0.87，较原价低 75%，缓存输入低至每百万 $0.003625。100 万字符上下文长度保持不变。DeepSeek 此举将 AI 价格战逻辑从「临时让利」转为「永久定价基准」，是大规模促销活动首次以不回调方式结束，直接压缩 OpenAI、Claude API、Gemini 等同档产品的定价空间，势必引发竞争对手跟进降价，标志 AI 推理服务进入永久低价竞争阶段。",
+      "importance": "high",
+      "reasoning": "5月22日 DeepSeek 官方宣布将 5月31日 到期折扣升格为永久售价，Winbuzzer、Cryptopolitan、KuCoin、Apidog 等 5月25-31日 持续报道，今日价格正式锁定。促销结束不回调而是永久定价，是 AI 推理服务定价历史上的首例；$0.435/$0.87 per M 字符的价格基准将倒逼竞争对手在 2026年下半年前跟进降价，结构性重塑企业 AI 服务采购成本。High 级。",
+      "source": "Winbuzzer / Cryptopolitan / KuCoin",
+      "url": "https://winbuzzer.com/2026/05/25/deepseek-locks-in-v4-pros-75-percent-price-cut-xcxwbn/",
+      "keywords": ["DeepSeek", "V4-Pro", "永久降价75%", "AI价格战", "100万字符上下文", "定价基准重置"],
+      "category": "行业观察"
+    },
+    {
+      "id": 7,
+      "title": "SK 海力士市值迈入万亿美元",
+      "content": "SK 海力士于 5月27日 成为首家市值突破 1 万亿美元的韩国纯内存厂商，全球市值跻身第 12 位，仅次于三星成为亚洲第 3 家达此里程碑的企业。公司在 2025年Q4 占据全球高带宽内存（HBM）市场 57% 份额，预计 2026年 在下一代 HBM4 市场仍保持 50% 以上占有率。AI 数据中心对高带宽内存需求的持续激增是其估值主要驱动力。",
+      "importance": "medium",
+      "reasoning": "5月27日 首尔经济日报首发，5月30日 Motley Fool、Investingnews 等跟进分析，昨日热点。SK 海力士估值突破万亿是 AI 芯片供应链集中度的直观体现——57% HBM 市场份额与 HBM4 优势绑定 AI 数据中心需求，与同期 Anthropic 360 亿芯片债务、英伟达台湾 1500 亿供应链布局形成呼应。Medium 级。",
+      "source": "Seoul Economic Daily / Motley Fool / Investingnews",
+      "url": "https://en.sedaily.com/news/2026/05/27/breaking-news-sk-hynix-joins-1-trillion-market-cap-club",
+      "keywords": ["SK海力士", "万亿美元市值", "HBM市场57%", "HBM4", "AI芯片需求", "韩国科技里程碑"],
+      "category": "公司动态"
+    },
+    {
+      "id": 8,
+      "title": "马斯克与 SpaceX 招股书说法矛盾",
+      "content": "TechCrunch 5月28日 披露：Elon Musk 公开声称 Anthropic 与 SpaceX 的算力合同仅 180 天、90 天通知即可解约；但 SpaceX 递交美国证监会的上市招股书（S-1）白纸黑字注明合同持续至 2029年5月。合同涉及逾 22 万枚英伟达 GPU、300 兆瓦算力容量，Anthropic 每月支付 12.5 亿美元，若执行完整合同可为 xAI 带来约 450 亿美元收入。说法矛盾恰在 SpaceX 计划 6月12日 纳斯达克上市（目标估值 1.75 万亿美元）前两周曝光，外界质疑信披可信度。",
+      "importance": "medium",
+      "reasoning": "5月28日 TechCrunch「How long is Anthropic's lease with SpaceX? Opinions vary」独家分析，Data Center Dynamics、xAI 官网同步，昨日热点新闻。马斯克言论与 SpaceX S-1 法律文本存在实质矛盾，上市前 2 周曝光时机敏感；xAI 把过剩的 Grok 算力容量转租给 Anthropic，开创「新型算力云」盈利模式，与同期 Groq 转型推理云形成并行叙事。Medium 级。",
+      "source": "TechCrunch / Data Center Dynamics / xAI",
+      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
+      "keywords": ["Anthropic", "SpaceX xAI", "每月12.5亿美元", "合同期限争议", "马斯克矛盾", "SpaceX上市招股书"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-31T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "Seeking Alpha", "Digit.in", "CyberNews", "WindowsNews.ai", "Inside Global Tech", "EU Consilium", "Mishcon", "White & Case", "Huawei", "IEEE ISCAS", "South China Morning Post", "CGTN", "TrendForce", "AI Magazine", "SemiconAlpha", "The Hacker News", "The Register", "Permiso Security", "Neowin", "The Tech Outlook", "OpenAI", "Winbuzzer", "Cryptopolitan", "KuCoin", "Seoul Economic Daily", "Motley Fool", "Investingnews", "Data Center Dynamics", "WebSearch"],
+    "duplicates_removed": 9,
+    "generation_time_seconds": 1200
+  }
+}
