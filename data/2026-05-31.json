@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-31",
+  "date_formatted": "26/05/31",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "软银 750 亿欧建法国算力",
+      "content": "软银集团宣布在法国投资最高 750 亿欧元（约 870 亿美元）建设 AI 数据中心，规划新增最高 5 吉瓦算力，为其在欧洲最大的 AI 基建投入。第一期投入约 450 亿欧元，到 2031 年在法国北部上法兰西大区建成 3.1 吉瓦容量，落地敦刻尔克等三处站点。法国核电巨头 EDF 提供旧电厂厂址供电，软银还将携手施耐德电气建产业集群，凸显欧洲算力与电力争夺战。",
+      "importance": "critical",
+      "reasoning": "5月30日 软银官宣、彭博与 TechCrunch 等同步报道，5月31日 软银官网发布正式新闻稿，今日热点。这是软银在欧洲规模最大的 AI 基建承诺，绑定 EDF 核电与施耐德供电散热，反映算力扩张已与能源、制造深度捆绑；继其美国 Stargate 后把数据中心竞赛推向欧洲。Critical 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "keywords": ["软银", "750 亿欧元", "法国数据中心", "5 吉瓦", "EDF 施耐德", "AI 基建"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 2,
+      "title": "英伟达首推 Windows 主芯片",
+      "content": "英伟达将首次以自研芯片担任 Windows 电脑主处理器，与微软联合推出搭载 N1X 芯片的 Windows 11 AI 电脑，并在台湾 Computex 与微软 Build 大会首秀。N1X 采用 Arm 架构 20 核设计，含 10 个性能核与 10 个能效核，主打 Copilot 本地加速，性能有望超越高通骁龙、逼近英特尔与 AMD 的高端处理器。首批机型预计来自微软 Surface 与戴尔等厂商。此举标志英伟达正式杀入个人电脑芯片市场，直接挑战既有格局。",
+      "importance": "critical",
+      "reasoning": "5月30日 Axios 独家爆料，Windows Central、TechPowerUp、路透 等跟进，今日热点。属巨头硬件级动作：英伟达从数据中心延伸到 PC 主芯片，借微软 Copilot 生态切入数亿台 Windows 设备；20 核 Arm 设计若兑现，将重塑 Windows 处理器竞争。爆料级、正式机型下周亮相，因影响面广保留。Critical 级。",
+      "source": "Axios / Windows Central",
+      "url": "https://www.axios.com/2026/05/30/nvidia-microsoft-pcs-ai-surface-dell",
+      "keywords": ["英伟达", "N1X 芯片", "Windows 主处理器", "微软 Surface", "20 核 Arm", "PC 市场"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "自变量开源世界模型",
+      "content": "中国具身智能公司自变量机器人（X Square Robot）开源世界模型 WALL-WM，号称全球首个事件级预测的具身智能世界模型。不同于按固定时间窗逐帧预测，它围绕有意义的动作事件组织训练与监督，缓解语言、视觉与动作的错配，支持多视角、多形态感知。公司累计融资超 10 亿元、由字节跳动与红杉中国领投，为 2026 估值最高的具身智能企业之一，并传出拟赴港上市、募资约 5 亿美元，以开源推动机器人落地。",
+      "importance": "critical",
+      "reasoning": "5月29日 自变量官方与 PR Newswire、Pandaily、Yahoo Finance 等同步发布，昨日热点。WALL-WM 把世界模型的预测单元从固定帧改为语义动作事件，是具身智能技术路径的一次调整，并以开源降低落地门槛；中国机器人团队在世界模型方向抢跑。Critical 级。",
+      "source": "Pandaily / PR Newswire",
+      "url": "https://pandaily.com/x-square-robot-wall-wm-event-level-world-model-may2026",
+      "keywords": ["自变量机器人", "WALL-WM", "世界模型", "事件级预测", "具身智能", "开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Copilot 改计量收费惹议",
+      "content": "GitHub 宣布把 Copilot 从固定月费改为按处理量计费，6月1日 起按用户消耗扣费，引发不满，官方公告帖涌入 400 多条评论、近 900 个反对票。有开发者估算，一次智能体编程会话常消耗 30 至 40 美元，而每月仅 10 美元额度的 Pro 用户一次开发即触顶。",
+      "importance": "high",
+      "reasoning": "5月30日 TechCrunch 首发，GitHub 官方公告帖、Windows 论坛 等同步发酵，今日热点。计费从订阅制转向按量付费，戳破智能体编程能像健身房月卡一样定价的预期；影响数以百万计的开发者成本结构，是 AI 编程工具商业模式的拐点。High 级。",
+      "source": "TechCrunch / GitHub",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "keywords": ["GitHub Copilot", "按量计费", "开发者不满", "30-40 美元", "近 900 反对", "编程工具"],
+      "category": "行业观察"
+    },
+    {
+      "id": 5,
+      "title": "Codex 上 Windows 远程操作",
+      "content": "OpenAI 为 Windows 版 Codex 应用加入操作电脑能力，并支持从手机端 ChatGPT 应用远程控制：Codex 可读屏、点击、输入完成桌面任务，用户在 iPhone、安卓上即可新建任务、下指令、审批、查看代码差异。功能要求 Windows 11 系统 26100 及以上版本，并需 AI 处理单元本地运行。",
+      "importance": "high",
+      "reasoning": "5月29日 OpenAI 官方发布，Neowin、Thurrott、Windows 论坛 等同步报道，昨日热点。Codex 从写代码扩展到直接操作 Windows 桌面、并支持手机远程指挥，与谷歌、微软的智能体助手正面竞争；本地 AI 处理单元要求显示端侧算力成为入场券。High 级。",
+      "source": "OpenAI / Neowin",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "keywords": ["OpenAI", "Codex", "操作电脑", "手机远程控制", "Windows 11", "智能体桌面"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Meta 研发 AI 吊坠",
+      "content": "据 The Information 内部备忘录，Meta 正研发 AI 吊坠，计划明年测试。它可捕捉对话、总结会议并整理成可检索记忆，基于其 2025 年底收购的 Limitless。备忘录称 Meta 目标 2026 下半年售出约 1000 万台可穿戴设备，以扭转一季度亏损 40 亿美元的现实实验室部门。",
+      "importance": "high",
+      "reasoning": "5月30日 TechCrunch 援引 The Information 报道，Digital Trends、WIO 等跟进，今日热点。继 AI 眼镜后，Meta 把可穿戴 AI 押注扩展到吊坠与企业订阅，试图为持续亏损的现实实验室找增长点；属内部备忘录爆料，因路线图清晰、量级明确保留。High 级。",
+      "source": "TechCrunch / The Information",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "keywords": ["Meta", "AI 吊坠", "Limitless", "1000 万台", "可穿戴", "现实实验室"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "黑客借聊天分享链传毒",
+      "content": "安全公司 Push Security 披露 LLMShare 手法：攻击者滥用 ChatGPT、Claude 两大平台的对话分享功能，在官方域名渲染伪造的「服务繁忙」故障页，诱导用户下载窃密木马并买搜索广告导流。",
+      "importance": "medium",
+      "reasoning": "5月29日 Push Security 披露，The Decoder、BleepingComputer、Neowin 等同步报道，昨日热点。本周已报 npm 恶意包窃取 Claude 目录，今日报滥用聊天分享链投毒，属不同攻击面。手法借官方域名的可信度绕过用户警惕，标志攻击者把 AI 平台变成新的恶意软件分发渠道。Medium 级。",
+      "source": "Push Security / The Decoder",
+      "url": "https://the-decoder.com/attackers-abuse-shared-chatgpt-and-claude-chats-to-spread-malware/",
+      "keywords": ["LLMShare", "Push Security", "对话分享链", "窃密木马", "搜索广告", "AI 平台投毒"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 8,
+      "title": "谷歌 Gemini Spark 实测",
+      "content": "谷歌在 I/O 推出的 24/7 助手 Gemini Spark 实测能跨 Gmail、文档、Chrome 等应用代办，购物比价实用，但搜索暑期活动漏报费用。目前限美国公测，仅向每月 100 美元的 Ultra 用户开放。",
+      "importance": "medium",
+      "reasoning": "5月30日 TechCrunch 实测稿，今日热点；产品于 I/O 大会发布、本周进入实测。Gemini Spark 代表常驻云端的个人智能体方向，实测显示消费级 AI 代办初见实用但仍有疏漏；限美国 Ultra 用户，属渐进式落地。Medium 级。",
+      "source": "TechCrunch / Google",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "keywords": ["谷歌", "Gemini Spark", "24/7 助手", "100 美元", "美国公测", "智能体代办"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-05-31T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "AIBase News", "Hacker News", "CNBC", "The Decoder", "Bloomberg", "Axios", "Windows Central", "TechPowerUp", "OpenAI", "Neowin", "The Information", "Push Security", "Pandaily", "PR Newswire", "WebSearch"],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1050
+  }
+}
