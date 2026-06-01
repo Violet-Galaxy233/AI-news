@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-01",
+  "date_formatted": "26/06/01",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "英伟达 Computex 发新平台",
+      "content": "英伟达在台北 Computex 大会发布新一代 Vera Rubin 平台，接替 Grace Blackwell 并进入量产，供应链覆盖 30 国、超过 350 家伙伴。其中 Vera 是英伟达首款独立数据中心微处理器，正面叫板英特尔至强、AMD Epyc 与亚马逊自研芯片，Anthropic、OpenAI 已在试用。公司还推出面向物理 AI 的全模态模型 Cosmos 3，可用于训练自动驾驶与机器人的视觉智能体，并发布开放的人形机器人参考设计。黄仁勋称 AI 正迈入智能体时代。",
+      "importance": "critical",
+      "reasoning": "6月1日 英伟达 Computex 主题演讲首发，ServeTheHome、Techzine、路透 等同步报道，今日热点。Vera Rubin 量产与首款独立数据中心微处理器，把战火烧到至强、Epyc 与云厂自研芯片；Cosmos 3 与人形参考设计补齐物理 AI 拼图，是巨头硬件级动作。Critical 级。",
+      "source": "Reuters / ServeTheHome",
+      "url": "https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage/",
+      "keywords": ["英伟达", "Computex", "Vera Rubin", "Cosmos 3", "数据中心微处理器", "黄仁勋"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "MiniMax 发布 M3 旗舰模型",
+      "content": "MiniMax（稀宇科技）发布新一代通用模型 M3，号称国内首个同时具备前沿编程、100 万上下文长度与原生多模态三项能力的旗舰，采用自研稀疏注意力架构。在编程评测 SWE-Bench Pro 上，M3 超过主打编程的 GPT-5.5 与 Gemini 3.1 Pro、逼近 Opus 4.7；在智能体浏览评测中以 83.5 分胜过 Opus 4.7 的 79.3。100 万上下文规模下单次计算量约为上代的 1/20，预填充提速 9.7 倍、生成提速 15.6 倍。公司已与中信证券签约启动 A 股上市辅导。",
+      "importance": "critical",
+      "reasoning": "6月1日 MiniMax 官方发布，IT 之家、网易科技、AIHub 等同步报道，今日热点。本周已报其营收两月翻倍，今日报 M3 模型与 A 股上市为新事件。M3 把编程、超长上下文与多模态合于一体，部分评测超 GPT-5.5、逼近 Opus 4.7，并以稀疏注意力大幅压缩算力，是国产旗舰冲击全球第一梯队的标志。Critical 级。",
+      "source": "MiniMax / IT 之家",
+      "url": "https://www.minimaxi.com/blog/minimax-m3",
+      "keywords": ["MiniMax", "M3 模型", "稀疏注意力", "SWE-Bench Pro", "100 万上下文", "A 股上市"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "宇树人形机器人上会闯关",
+      "content": "中国人形机器人公司宇树科技发布 H2 Plus，成为英伟达 Isaac GR00T 平台首款参考机型：身高近 2 米、75 个自由度，配 Sharpa Wave 五指灵巧手与英伟达 Jetson Thor 芯片，10 月发售并面向所有人开放购买，已有 Ai2、苏黎世联邦理工、斯坦福、加州大学圣地亚哥分校等至少四家机构计划采用。同日宇树启动科创板 IPO，拟募资 42 亿元人民币（约 6.2 亿美元），交易所定于下周一审议其上市申请。",
+      "importance": "critical",
+      "reasoning": "6月1日 宇树官宣、英伟达 Newsroom 与 CNBC、PR Newswire 等同步报道，今日热点。宇树上市当日成为英伟达人形机器人参考平台，把硬件、软件栈与资本市场一并打通；42 亿元募资与四家顶尖机构采用，凸显中国具身智能从样机走向规模化与商业化。Critical 级。",
+      "source": "CNBC / PR Newswire",
+      "url": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+      "keywords": ["宇树科技", "H2 Plus", "Isaac GR00T", "Jetson Thor", "科创板 IPO", "人形机器人"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 重返机器人赛道",
+      "content": "OpenAI 重返机器人赛道，在旧金山新开 11 个岗位，多为执行器设计、电气工程等硬件工程岗，初期聚焦基础设施机器人。CEO 奥尔特曼描绘人人拥有个人机器人的愿景；此前以投资 Figure、1X 间接布局。负责机器人的前 Meta 硬件高管 Kalinowski 已于 3 月离职。",
+      "importance": "high",
+      "reasoning": "5月31日 The Information 报道，Startup Fortune、humanoid.guide 等跟进，昨日热点。在英伟达、宇树把物理 AI 推上风口之际，OpenAI 重建机器人自研团队、从投资转向亲自下场，押注个人机器人；高管离职也暴露其内部对国防与安全边界的分歧。High 级。",
+      "source": "The Information / Startup Fortune",
+      "url": "https://startupfortune.com/openai-is-hiring-its-way-back-into-robotics/",
+      "keywords": ["OpenAI", "机器人", "奥尔特曼", "Figure 1X", "个人机器人", "11 岗位"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 5,
+      "title": "活动家揭数据中心黑箱",
+      "content": "环保活动家 Erin Brockovich 上线一张全美数据中心地图，向受影响社区征集问题，首月收到近 4000 份反馈。她矛头指向数据中心的隐秘扩张：佐治亚 Fayette 县一处数据中心通过 2 条当地政府不知情的管道偷取 2900 万加仑水，直到居民水压骤降才曝光。",
+      "importance": "high",
+      "reasoning": "5月31日 TechCrunch 报道，Tom's Hardware、CNN、Cybernews 等同步报道，昨日热点。在 AI 算力扩张推高用水、用电之际，知名维权人士把数据中心透明度推上台面，近 4000 份社区反馈与偷水案例放大公众担忧，或推动选址与披露监管收紧。High 级。",
+      "source": "TechCrunch / Tom's Hardware",
+      "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+      "keywords": ["Erin Brockovich", "数据中心", "透明度", "偷水 2900 万加仑", "用电用水", "社区维权"],
+      "category": "行业观察"
+    },
+    {
+      "id": 6,
+      "title": "研究揭 AI 编程采用分化",
+      "content": "Anthropic 调查 1260 名社会科学家后发现，AI 编程智能体的采用出现分化：男性名字研究者采用率约为女性名字者的两倍；经济学家 39%、政治学 25%，而公共卫生仅 6%、教育 4%。整体仅 20% 受访者引入此类工具，顶尖高校研究者采用概率高出 40%。",
+      "importance": "high",
+      "reasoning": "5月31日 Anthropic 研究发布，The Decoder 等同步报道，昨日热点。这是少见的量化研究，揭示 AI 编程工具在性别、学科与院校之间的采用鸿沟，提示生产力红利分配不均；为讨论 AI 技能差距提供实证。High 级。",
+      "source": "Anthropic / The Decoder",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "keywords": ["Anthropic", "AI 编程智能体", "采用分化", "性别两倍", "经济学 39%", "技能差距"],
+      "category": "行业观察"
+    },
+    {
+      "id": 7,
+      "title": "小红书清理 120 万 AI 账号",
+      "content": "小红书披露 AI 治理成果：已系统处置超过 120 万个由 AI 托管的矩阵账号、限制 18 万篇涉嫌 AI 造假的笔记，遏制 AI 批量代运营对内容真实性的冲击。",
+      "importance": "medium",
+      "reasoning": "6月初 ITBear、站长之家 等报道，近日热点。在 AI 内容泛滥之际，头部社区平台出手清理 AI 托管账号与造假笔记，划出真实内容底线；对依赖 AI 矩阵刷量的灰产是直接打击。Medium 级。",
+      "source": "ITBear / 站长之家",
+      "url": "https://www.itbear.com.cn/html/2026-06/1370204.html",
+      "keywords": ["小红书", "AI 治理", "120 万账号", "18 万笔记", "内容真实性", "平台治理"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "AI 心理风险引发争论",
+      "content": "Box 创始人 Aaron Levie 称科技 CEO 尤其易陷入「AI 精神错乱」。据 OpenAI 数据，约 0.07% 的 ChatGPT 周活用户现精神病或躁狂迹象、0.15% 出现自杀倾向，研究警告聊天机器人或扭曲现实感。",
+      "importance": "medium",
+      "reasoning": "5月31日 TechCrunch 播客讨论，Decrypt、哥本哈根与埃克塞特研究等佐证，昨日热点。AI 聊天对心理健康的潜在影响成为新议题，OpenAI 自曝的周活风险比例换算为数十万人，把模型安全从内容扩展到精神健康层面。Medium 级。",
+      "source": "TechCrunch / Decrypt",
+      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "keywords": ["AI 精神错乱", "Aaron Levie", "ChatGPT", "0.07% 周活", "心理健康", "模型安全"],
+      "category": "安全事件/争议"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-01T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "AIBase News", "CNBC", "The Decoder", "Reuters", "ServeTheHome", "PR Newswire", "MiniMax", "IT 之家", "Anthropic", "The Information", "Tom's Hardware", "ITBear", "Decrypt", "WebSearch"],
+    "duplicates_removed": 13,
+    "generation_time_seconds": 1100
+  }
+}
