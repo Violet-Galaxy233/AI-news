@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-02",
+  "date_formatted": "26/06/02",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "Anthropic 递交上市申请",
+      "content": "AI 公司 Anthropic 已向美国证券交易委员会保密递交上市申请文件，率先在三大 AI 巨头中迈出公开上市第一步，抢在 OpenAI 与 SpaceX 之前。公司未披露发行规模与定价；其 5 月底完成的 650 亿美元 H 轮融资使估值逼近 1 万亿美元，已超过 OpenAI。Anthropic 旗下编程助手 Claude Code 是其企业市场主力。分析师称此举或打开沉寂数年的科技股 IPO 闸门，三巨头有望年内陆续登陆资本市场。",
+      "importance": "critical",
+      "reasoning": "6月1日 Anthropic 官宣，路透、NPR、彭博、US News 等同步报道，今日热点。这是头部前沿 AI 实验室冲刺公开市场的首张入场券，叠加近 1 万亿美元估值与三巨头上市竞速，影响整个 AI 一级、二级市场定价预期与资金流向。Critical 级。",
+      "source": "Reuters / NPR",
+      "url": "https://www.usnews.com/news/top-news/articles/2026-06-01/ai-giant-anthropic-confidentially-files-for-us-ipo",
+      "keywords": ["Anthropic", "保密递交 IPO", "近万亿估值", "650 亿 H 轮", "Claude Code", "上市竞速"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 2,
+      "title": "Alphabet 募 800 亿扩算力",
+      "content": "谷歌母公司 Alphabet 宣布合计 800 亿美元股权融资，专项扩建 AI 算力基础设施。其中 300 亿美元为公开发行、400 亿美元为按市价增发计划、100 亿美元来自伯克希尔哈撒韦的私募认购（A 类每股 351.81 美元、C 类 348.20 美元）。公司预计 2026 年资本开支达 1800 至 1900 亿美元，2027 年将显著增加。巴菲特旗下资本入局，为这轮罕见的巨头股权融资背书，凸显算力扩张已转向直接募资输血。",
+      "importance": "critical",
+      "reasoning": "6月1日 Alphabet 提交招股文件并公告，StreetInsider、SEC 文件等同步披露，今日热点。巨头罕见地以巨额股权融资为算力扩张输血，伯克希尔 100 亿美元入股更属标志性；1800 亿美元级资本开支显示 AI 基建军备竞赛进入新量级。Critical 级。",
+      "source": "StreetInsider / SEC",
+      "url": "https://www.streetinsider.com/Corporate+News/Alphabet+plans+$80+billion+equity+raise+to+fund+AI+infrastructure/26584482.html",
+      "keywords": ["Alphabet", "800 亿融资", "伯克希尔 100 亿", "AI 算力", "1800 亿资本开支", "股权融资"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 3,
+      "title": "佛州起诉 OpenAI 与 CEO",
+      "content": "佛罗里达州总检察长起诉 OpenAI 及其 CEO 奥尔特曼，成为首个就 AI 安全向该公司发难的州，并寻求让奥尔特曼个人担责。83 页诉状把 ChatGPT 与佛州州立大学一起大规模枪击案、多起自杀等暴力事件相关联，指控公司为赢得「AI 军备竞赛」漠视内外部安全警告、让危险产品在缺乏监管下触达数百万未成年人。佛州早在 4 月已就枪击案是否与 ChatGPT 有关展开刑事调查。",
+      "importance": "critical",
+      "reasoning": "6月1日 TechCrunch 首发，NBC、CNN、CNBC、CBS 等同步报道，今日热点。这是首个州级政府就 AI 安全起诉前沿大厂并追究 CEO 个人责任，把 ChatGPT 与枪击、自杀直接挂钩，或为全美 AI 安全监管与产品责任立下判例。Critical 级。",
+      "source": "TechCrunch / NBC",
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "keywords": ["佛罗里达州", "起诉 OpenAI", "奥尔特曼个人担责", "83 页诉状", "ChatGPT 安全", "首例州级诉讼"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "黑客诱骗 Meta 客服夺号",
+      "content": "黑客诱骗 Meta 的 AI 客服助手，劫持了包括奥巴马时期白宫（2017 年起停用）、美国太空军高级军士长、Sephora 等多个 Instagram 账号。攻击者用 VPN 伪装定位、诱导 AI 客服向新邮箱发送验证码，重置密码夺号。Meta 周一称已修复，并称开启多重验证即可防范。",
+      "importance": "high",
+      "reasoning": "6月1日 TechCrunch 首发，Gizmodo、IBTimes、Dataconomy 等同步报道，今日热点。AI 客服被社会工程攻破、连官方与军方账号都遭殃，暴露企业把 AI 接入敏感操作流程的风险；Krebs 指出多重验证可防，凸显基础防护仍是关键。High 级。",
+      "source": "TechCrunch / Gizmodo",
+      "url": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+      "keywords": ["Meta AI 客服", "社会工程", "奥巴马账号", "太空军", "夺号", "多重验证"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 5,
+      "title": "AI 气象初创超欧洲中心",
+      "content": "Palo Alto 创业公司 WindBorne 推出 AI 天气模型 WeatherMesh，按其自家评测，关键指标比欧洲中期天气预报中心准 8% 至 24%，能在单张显卡上 13 秒生成 14 天预报，成本远低于超算。其优势源于自有探空气球采集的海洋等稀缺数据；但评测未经独立同行评议。",
+      "importance": "high",
+      "reasoning": "6月1日 TechCrunch 报道，Gadget Review、Fast Company 等同步报道，今日热点。AI 气象模型以极低算力超越顶级政府超算，且数据壁垒成为胜负手；虽为自评待独立验证，仍标志 AI 在科学计算领域对传统范式的冲击。High 级。",
+      "source": "TechCrunch / Gadget Review",
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "keywords": ["WindBorne", "WeatherMesh", "天气预报", "超欧洲中心", "13 秒 14 天", "探空气球"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "Tripo AI 近 2 亿推世界模型",
+      "content": "中国公司 Tripo AI 完成 A+ 与 A++ 两轮融资、合计近 2 亿美元，继 3 月 5000 万美元后再加码，扩充三维生成与世界模型团队。公司同步推出世界模型计划 Project Eden，将状态与渲染解耦，以结构化状态层维护场景与逻辑，支持持久、可交互的虚拟环境。",
+      "importance": "high",
+      "reasoning": "6月2日 Tripo AI 官宣，GamesBeat、VoxelMatters、CryptoBriefing 等同步报道，今日热点。两轮近 2 亿美元加码，把三维生成推向世界模型，Project Eden 的状态与渲染解耦思路指向可持续、可交互的虚拟世界，是中国 3D 与世界模型赛道的关键一步。High 级。",
+      "source": "GamesBeat / VoxelMatters",
+      "url": "https://gamesbeat.com/tripo-ai-raises-nearly-200m-in-financing-for-ai-3d-and-world-model-tech/",
+      "keywords": ["Tripo AI", "近 2 亿融资", "Project Eden", "世界模型", "三维生成", "状态渲染解耦"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 7,
+      "title": "腾讯云 DeepSeek 大降价",
+      "content": "腾讯云宣布 6月3日 起下调 DeepSeek-V4 系列价格，最高降 97.5%：V4-Pro 推理输入、输出降 75%、缓存命中降 97.5%，V4-Flash 缓存命中降 90%，属官方 5 月永久降价后的再压价。",
+      "importance": "medium",
+      "reasoning": "6月2日 腾讯云公告，界面新闻、快科技、DoNews 等同步报道，今日热点。云厂商在官方降价后再压价，把推理与缓存成本拉至新低，加速国产大模型价格战，利好开发者但挤压厂商利润。Medium 级。",
+      "source": "界面新闻 / 快科技",
+      "url": "https://www.jiemian.com/article/14521722.html",
+      "keywords": ["腾讯云", "DeepSeek-V4", "降价 97.5%", "缓存命中", "价格战", "推理成本"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "OpenAI 模型上架亚马逊云",
+      "content": "OpenAI 把 GPT-5.5、GPT-5.4 与 Codex 上架亚马逊云 Bedrock，定价与官方一致、不收额外费用。亚马逊同时是 Anthropic 主要投资方，如今其云平台也分发竞品 OpenAI，凸显云厂商趋向中立分发。",
+      "importance": "medium",
+      "reasoning": "6月1日 OpenAI 与亚马逊云宣布，The Decoder 等同步报道，今日动态。亚马逊既重金押注 Anthropic、又上架 OpenAI，显示云厂商以中立平台姿态最大化模型流量；对开发者意味着多模型一站式接入更便利。Medium 级。",
+      "source": "The Decoder / AWS",
+      "url": "https://the-decoder.com",
+      "keywords": ["OpenAI", "Amazon Bedrock", "GPT-5.5", "Codex", "亚马逊云", "中立分发"],
+      "category": "公司动态/融资"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-02T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "AIBase News", "CNBC", "The Decoder", "Reuters", "NPR", "StreetInsider", "NBC", "Gizmodo", "GamesBeat", "VoxelMatters", "界面新闻", "快科技", "WebSearch"],
+    "duplicates_removed": 14,
+    "generation_time_seconds": 1150
+  }
+}
