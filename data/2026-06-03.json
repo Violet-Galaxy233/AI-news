@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-03",
+  "date_formatted": "26/06/03",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "特朗普签 AI 安全令",
+      "content": "特朗普总统 6月2日 签署行政令「推动先进 AI 创新与安全」，首次在联邦层面建立针对前沿 AI 模型的安全预审机制。核心规定：主要 AI 公司可在模型公开发布前 30 天自愿提交安全评估；财政部与国家网络主任联合设立 AI 网络安全信息共享中心，将漏洞情报定向推送给电网、金融等关键基础设施运营商；各联邦机构须在 90 天内制定专属 AI 网络安全评测标准，量化模型的攻防能力边界。行政令明文排除强制监管授权，早期草案要求的 90 天强制审查已全面改为 30 天自愿性质，回应了行业对「AI 版 FDA」的担忧。背景是 Anthropic 的 Mythos Preview 模型因可自主发现并利用软件安全漏洞而在华盛顿引发警觉，也是佛州起诉 OpenAI 一周内联邦层面的政策配套回应。OpenAI、Google、Anthropic 均被邀参与自愿框架，但无强制义务。",
+      "importance": "critical",
+      "reasoning": "6月2日 白宫官网发布，NPR、Roll Call、US News、Lawfare 等同步报道，今日热点。此令是特朗普政府首次就 AI 模型安全制定联邦级预审框架，将 Anthropic Mythos 漏洞警报与佛州起诉双重压力转化为可操作政策；以自愿机制平衡创新与安全、避免欧盟 AI 法案式强制监管争议，同时要求各机构独立建立评测标准，初步构建联邦 AI 安全防线。Critical 级。",
+      "source": "White House / NPR",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "keywords": ["特朗普", "AI 安全行政令", "自愿预审", "网络安全信息共享", "30天审查", "联邦监管"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "微软 Build 智能体化",
+      "content": "微软 6月2-3日 于旧金山举办 Build 2026 大会，宣布 Windows 全面进化为 AI 智能体运行平台。旗舰举措：自研 Project Polaris 编程 AI 模型将于 8月 取代 GitHub Copilot 中的 GPT-4 Turbo——混合专家架构在 HumanEval 与 MBPP 编程评测中超越 GPT-4，运行于自研 Maia 芯片以降低延迟与成本；专业版用户获 10 万行代码上下文 + 自动测试生成，设 3 个月回退期；微软公开将 Claude Code 列为直接竞争目标。平台层面：Windows Agent Framework 1.0 以 MIT 协议开源；GitHub Copilot App 推出智能体原生桌面，每项任务在独立 git 工作区运行，内置 Canvas 协作界面；Aion 1.0 Plan 模型（14B 参数、3.2 万字符上下文长度）随 Windows 内置，支持工具调用与多智能体调度；Foundry Local 正式推出，Windows、macOS、Linux 均可本地离线运行 AI；Azure Agent Mesh 跨云智能体调度计划第四季度推出；另发布 7 款新 MAI 模型。CEO 纳德拉宣告 AI 进入「异步共事者」时代。",
+      "importance": "critical",
+      "reasoning": "6月2日 微软 Build 2026 Satya Nadella 主题演讲首发，TechTimes、Tom's Guide、TechCrunch 等同步报道，今日旗舰事件。微软以 Polaris 打破对 OpenAI 的核心模型依赖，同时把 Windows 从传统操作系统升级为 AI 智能体运行时；WAF MIT 开源拉拢第三方开发者，Polaris 点名 Claude Code 标志 AI 编程工具赛道格局出现结构性转变，数千万 Copilot 用户与 Windows 开发者工作流将被直接重塑。Critical 级。",
+      "source": "TechTimes / Tom's Guide",
+      "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+      "keywords": ["微软 Build 2026", "Project Polaris", "Windows 智能体", "GitHub Copilot App", "Aion 1.0", "WAF 开源"],
+      "category": "产品发布"
+    },
+    {
+      "id": 3,
+      "title": "RTX Spark 设备发布",
+      "content": "英伟达与微软于 Build 2026 大会联合揭幕 RTX Spark 芯片驱动的首批 Windows AI PC：Surface Laptop Ultra（15 英寸 mini-LED 屏，搭载 RTX Spark 与最高 128GB 统一内存）和 RTX Spark 开发主机（1 拍次 AI 算力、最高 128GB 统一内存，支持本地运行高达 1200 亿参数的 AI 模型），两款均计划年内发货。RTX Spark 支持完整 CUDA 栈与英伟达全栈 AI 软件生态，专为个人 AI 智能体工作负载设计。英伟达将此定位为继数据中心 GPU 之后、把前沿 AI 算力从云端下沉至个人设备的关键一跃：此前 Copilot+ PC 仅具备有限的 AI 加速能力，RTX Spark 开发主机则把 1200 亿参数模型的本地运行化为现实，将数据中心级别的算力量级直接引入桌面，为 Windows 智能体平台提供了可靠的本地硬件支撑，也是 AI 个人计算从概念走向量产的标志性节点。",
+      "importance": "critical",
+      "reasoning": "6月2日 英伟达官方新闻稿发布，TechSpot、Thurrott、Windows Central 等同步报道，今日热点。英伟达是 AI 硬件领域的核心巨头，RTX Spark 是其首款专为个人 AI 智能体设计的消费级芯片，1 拍次算力与 128GB 统一内存把数据中心量级带入桌面；与微软 Windows 智能体平台形成硬件-软件完整闭环，属巨头级重大 AI 硬件发布。Critical 级。",
+      "source": "NVIDIA / TechSpot",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+      "keywords": ["NVIDIA RTX Spark", "Windows AI PC", "Surface Laptop Ultra", "RTX Spark 开发主机", "128GB 统一内存", "1 拍次算力"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Majorana 2 量子芯片",
+      "content": "微软于 Build 2026 大会发布 Majorana 2 量子芯片，声称量子比特稳定性较前代 Majorana 1 提升 1000 倍、平均寿命达 20 秒（最长约 1 分钟），并预计将 100 万量子比特集成于信用卡大小的芯片上。公司据此将实用量子计算机目标年份由约 2031 年提前至 2029 年，时间表压缩近一半。微软还披露，本次材料科学突破依赖 AI Discovery 平台完成了模拟与制造参数优化，属 AI 加速前沿研究的典型案例。然而，相关成果以预印本形式发布、尚未通过同行评议，多位外部物理学家对拓扑量子比特的基础物理有效性仍持保留意见。",
+      "importance": "high",
+      "reasoning": "6月2日 Bloomberg 首发，Tom's Hardware、Scientific American 等同步报道，今日热点。Majorana 2 把量子比特稳定性提升三个数量级，若声明属实将大幅缩短量子计算机商业化的时间表，且 AI 加速材料科学的路径本身具有示范意义；但物理学界对拓扑量子比特基础假设仍存争议，预印本未经同行评议，投资者与关注者应区别对待公告与经验证的科学成果。High 级。",
+      "source": "Bloomberg / Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/quantum-computing/microsoft-announces-majorana-2-quantum-computing-chip-claims-a-practical-machine-will-come-in-2029",
+      "keywords": ["Majorana 2", "量子芯片", "1000倍稳定", "2029年实用量子计算机", "拓扑量子比特", "AI 加速材料科学"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "苹果 WWDC Siri 升级",
+      "content": "苹果将于 6月8日 在库比蒂诺举办 WWDC 2026，以「AI 重大进展」为核心主题，预告 Siri 迎来历史性升级。Siri 2.0 预计具备理解当前屏幕内容、跨应用执行多步任务与持久对话记忆三项关键能力；苹果 1月 已确认与谷歌达成合作，由 Gemini 增强 Siri 的知识广度；届时还计划向 Claude、Gemini 等第三方 AI 开放接入，让 Siri 在力所不及时转交任务。此外，苹果据报将推出 Siri 专属独立应用，支持文字对话与历史记录。全新 AI 功能预计随 iOS 27 与 macOS 16 同步发布，直接影响全球逾 20 亿台苹果设备。",
+      "importance": "high",
+      "reasoning": "6月1-2日 Dataconomy、TechRepublic、Business Standard 等集中预告，WWDC 2026 开幕前 5 日热点。苹果 1月 宣布 Gemini 合作后时隔半年将在 6月8日 正式揭晓 Siri 2.0 具体路线——这是 Siri 问世十余年来规模最大的重构，将直接影响全球数亿 iPhone 用户与 AI 助手竞争格局；向第三方 AI 开放接入预示苹果从封闭走向开放 AI 生态的重要转向。High 级。",
+      "source": "Dataconomy / TechRepublic",
+      "url": "https://dataconomy.com/2026/06/01/apple-siri-ios-27-wwdc-2026/",
+      "keywords": ["苹果 WWDC 2026", "Siri 2.0", "Gemini 整合", "iOS 27", "第三方 AI", "Siri 独立应用"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 6,
+      "title": "ChatGPT 危机预警上线",
+      "content": "OpenAI 在 ChatGPT 个人账号中推出「信任联系人」（Trusted Contact）功能：用户可自主指定一位联系人，当 AI 检测到与严重自伤相关的危机对话时，将自动向对方发送通知，是 AI 聊天应用首次内置主动式心理危机预警机制。OpenAI 此前数据显示，约 0.07% 的 ChatGPT 周活用户出现精神病或躁狂迹象、0.15% 出现自杀倾向，按平台规模换算涉及数十万人。新功能完全自主设置，不影响其他对话，旨在把平台安全责任从被动响应升级为主动介入，也是对佛州起诉 OpenAI 涉及产品安全义务争议的产品层面回应。",
+      "importance": "high",
+      "reasoning": "6月初 OpenAI 官方功能更新日志发布，今周热点。在 AI 与心理健康争议持续升温的背景下，OpenAI 首次把主动式危机预警写入产品层——依托此前披露的 0.07% 周活用户心理风险数据，将平台安全责任从「遇到就回应」升级为「主动通知联系人」；时间上与佛州起诉 OpenAI 安全义务诉讼同步，是产品层面的具体回应。High 级。",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "keywords": ["ChatGPT", "Trusted Contact", "心理健康", "危机预警", "0.07%", "AI 安全功能"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 7,
+      "title": "欧洲 AI 主权峰会",
+      "content": "欧洲最大科技峰会 VivaTech 2026 将于 6月17-20日 在巴黎波旁宫举办，迎来第 10 周年。本届以欧洲 AI 主权为核心，展览面积扩大 30%，设超过 15,000 家初创展位与 1,500 场演示。德国为「年度国家」，携 200 家初创与政府高层设 800 平方米展馆出席，凸显欧盟科技协作加速。峰会是观察欧洲 AI 路线——监管优先、数据主权、自主算力——如何区别于硅谷模式的重要窗口。",
+      "importance": "medium",
+      "reasoning": "6月2日 TechCrunch 预告报道，今日热点。VivaTech 第 10 届聚焦欧洲 AI 主权，德国大型出席与 30% 扩容显示欧盟在 AI 战略独立性上的升温；对理解欧洲与美国、中国三方 AI 竞争格局的差异具有参考价值。Medium 级。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/why-vivatech-2026-is-the-place-to-see-europes-ai-strategy-take-shape/",
+      "keywords": ["VivaTech 2026", "欧洲 AI 战略", "AI 主权", "巴黎峰会", "德国", "欧盟科技"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "Tempus AI 药研平台",
+      "content": "肿瘤 AI 公司 Tempus AI（纳斯达克：TEM）5月31日 发布新一代 Lens 平台，将 AI 智能体引入肿瘤药物研发全流程。平台整合逾 10 年纵向真实世界多模态数据，配备两类专业智能体：生物标志物验证智能体（支持靶点筛选与有效性评估）和临床试验设计智能体（自动优化入组方案）。分析结果以可交互应用形式输出，用户可审查底层代码逻辑或导出至私有工作区扩展，加快数据洞察到研发决策的转化。",
+      "importance": "medium",
+      "reasoning": "5月31日 BusinessWire 新闻稿发布，BioSpace 等同步报道，近 3 日热点。Tempus AI 将 AI 智能体整合进肿瘤药物研发核心流程，以 10 年+真实世界数据为底层，两类专业智能体直接输出分析建议，代表 AI 在生命科学领域从辅助工具走向核心研发引擎。Medium 级。",
+      "source": "BioSpace / BusinessWire",
+      "url": "https://www.biospace.com/press-releases/tempus-unveils-the-next-generation-of-lens-expanding-its-agentic-ai-platform-for-oncology-drug-development",
+      "keywords": ["Tempus AI", "Lens 平台", "肿瘤药物研发", "AI 智能体", "临床试验", "生物标志物"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-03T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "White House", "NPR", "NVIDIA Newsroom", "TechSpot", "Dataconomy", "TechRepublic", "Bloomberg", "Tom's Hardware", "GitHub Blog", "Thurrott", "OpenAI", "BioSpace", "BusinessWire", "WebSearch", "Windows Central", "AI Weekly", "TechTimes"],
+    "duplicates_removed": 16,
+    "generation_time_seconds": 1400
+  }
+}
