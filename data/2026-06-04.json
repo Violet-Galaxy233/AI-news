@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-04",
+  "date_formatted": "26/06/04",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "DeepSeek 启动首轮融资",
+      "content": "中国 AI 公司 DeepSeek（深度求索）启动成立以来首轮外部融资，拟募资约 500 亿元人民币（74 亿美元），投后估值 3500 亿至 4000 亿元（约 520 亿至 590 亿美元），或为中国最大单笔创业融资之一。创始人梁文锋自掏 200 亿元领投，腾讯拟投 100 亿元、宁德时代约 50 亿元，国家级 AI 产业基金、网易、京东等在洽谈。一向不靠外部风投的 DeepSeek 转向资本化，加码算力与研发竞赛。",
+      "importance": "critical",
+      "reasoning": "6月3日 彭博首发，路透、南华早报、Tech Startups 等同步报道，今日热点。本周已报腾讯云为 DeepSeek 降价，今日报其首轮融资为新事件。一向不靠外部风投的 DeepSeek 转向资本化，500 亿元募资与近 590 亿美元估值或重塑中国一级市场 AI 定价；腾讯、宁德时代与国家基金入局，凸显产业与资本对国产前沿模型的押注升级。Critical 级。",
+      "source": "Bloomberg / SCMP",
+      "url": "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl",
+      "keywords": ["DeepSeek", "首轮融资", "74 亿美元", "590 亿估值", "腾讯宁德时代", "梁文锋"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 2,
+      "title": "特朗普签署 AI 行政令",
+      "content": "美国总统特朗普签署「促进先进人工智能创新与安全」行政令，确立美国首个面向前沿 AI 模型的安全审查框架。开发商须在模型公开发布前 30 天自愿提交联邦机构小组审查；各机构将建立「AI 网络安全信息交换所」、制定模型网络攻击能力评估标准，并加固政府系统防御。签署两个月内人事管理局须扩招网络安全专员。该令以自愿而非强制为基调，是联邦平衡 AI 创新与国家安全的关键一步。",
+      "importance": "critical",
+      "reasoning": "6月2日 白宫签署并发布事实清单，NPR、Lawfare、Inside Privacy 等同步解读，发布两天但持续发酵，因属行业级首例框架而保留。这是美国联邦首次为前沿 AI 模型设立发布前安全审查与网络安全交换所机制，虽采自愿制，仍为全行业模型发布流程与监管走向定调，影响三大厂在内的所有开发商。Critical 级。",
+      "source": "The White House / NPR",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "keywords": ["特朗普", "AI 行政令", "前沿模型审查", "发布前 30 天", "网络安全交换所", "自愿监管"],
+      "category": "政策监管"
+    },
+    {
+      "id": 3,
+      "title": "谷歌开源 Gemma 4",
+      "content": "谷歌 DeepMind 发布开源 AI 模型 Gemma 4 12B，采用无编码器统一架构，把图像与原始音频直接送入模型主干，是首个原生处理音频的中型开源模型。该模型约 119.5 亿参数（模型规模），支持 25.6 万字符上下文长度，可在 16GB 内存的普通笔记本本地运行，性能逼近谷歌更大的 260 亿参数版本。模型以 Apache 2.0 协议开放权重，已上线 Hugging Face、Kaggle，兼容 llama.cpp 等主流部署框架。",
+      "importance": "critical",
+      "reasoning": "6月3日 谷歌官方博客与开发者博客发布，VentureBeat、MarkTechPost、Tech Startups 等同步报道，今日热点。无编码器统一架构让中型开源模型首次原生吃下音频，且能在 16GB 笔记本本地跑出逼近 260 亿参数的表现，把接近前沿的多模态能力推向端侧设备，是谷歌在开源与本地化 AI 路线上的范式性动作。Critical 级。",
+      "source": "Google / VentureBeat",
+      "url": "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop",
+      "keywords": ["谷歌 DeepMind", "Gemma 4 12B", "无编码器架构", "原生音频", "16GB 本地运行", "Apache 2.0"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic 扩网安计划",
+      "content": "Anthropic 将网络安全计划 Project Glasswing 扩展至 15 个以上国家的约 150 家机构。其未公开前沿模型 Claude Mythos 一个月内在全球关键软件中发现逾 1 万个高危或严重漏洞，仅 Cloudflare 就查出 2000 个缺陷、400 个属高危。欧盟网络安全局 ENISA 也在洽谈接入。",
+      "importance": "high",
+      "reasoning": "6月2日 Anthropic 官宣扩张、TechCrunch、Engadget、CSO Online 等同步报道，今日热点；逾 1 万漏洞的核心成果 5月底首披露，本次扩张为新进展。AI 模型在发现并利用软件漏洞上逼近顶尖人类，既是防御利器也潜藏攻击风险；扩展至 150 家关键基础设施机构与欧盟 ENISA 洽谈，把 AI 网络安全推向国家级议题。High 级。",
+      "source": "Anthropic / TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "keywords": ["Anthropic", "Project Glasswing", "Claude Mythos", "1 万漏洞", "Cloudflare", "ENISA"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 5,
+      "title": "Suno 募 4 亿估值翻倍",
+      "content": "AI 音乐公司 Suno 完成 4 亿美元融资，估值升至 54 亿美元，较 7 个月前 24.5 亿美元翻倍。本轮由 OpenAI 投资方 Bond Capital 领投，多位知名艺人亦参投。付费订阅用户超 200 万、年化营收有望达 3 亿美元。Suno 仍面临环球音乐与索尼音乐的版权诉讼。",
+      "importance": "high",
+      "reasoning": "6月3日 Suno 官宣 D 轮，好莱坞报道、Variety、彭博 等同步报道，今日热点。AI 音乐赛道半年估值翻倍至 54 亿美元、付费用户破 200 万，显示生成式音乐进入规模商业化；但环球与索尼的版权诉讼悬而未决，知名艺人参投与诉讼并存，折射行业在版权争议中的撕裂。High 级。",
+      "source": "Variety / Bloomberg",
+      "url": "https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/",
+      "keywords": ["Suno", "4 亿融资", "54 亿估值", "200 万订阅", "Bond Capital", "版权诉讼"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 6,
+      "title": "Perplexity 推混合推理",
+      "content": "AI 搜索公司 Perplexity 在台北 Computex 推出号称首个本地与云端混合的推理调度系统：敏感的财务、医疗数据由设备端小模型本地处理，复杂运算实时路由到云端前沿模型。系统 7 月上线，支持英特尔酷睿 Ultra 3 与英伟达 RTX Spark。",
+      "importance": "high",
+      "reasoning": "6月2日 Perplexity 于 Computex 发布，VentureBeat、Decrypt、Business Standard 等同步报道，今日热点。本地与云端混合调度把隐私敏感数据留在端侧、复杂任务交云端，回应 AI 助手的隐私与算力成本痛点；与英特尔、英伟达端侧平台绑定，呼应本周 PC 主芯片与端侧 AI 热潮。High 级。",
+      "source": "VentureBeat / Decrypt",
+      "url": "https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026",
+      "keywords": ["Perplexity", "混合推理调度", "本地云端", "英特尔", "RTX Spark", "隐私数据"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "亚马逊上 AI 商品图",
+      "content": "亚马逊购物应用上线 AI 生成商品图：输入服饰、家居 2 类描述即生成 AI 图样，并非真实可购商品。向美国 iOS、安卓用户开放，调用 Claude Sonnet、Nova 等 3 个模型。",
+      "importance": "medium",
+      "reasoning": "6月3日 TechCrunch 首发，Digital Trends、Gizmodo、Thurrott 等同步报道，今日热点。电商巨头把生成式 AI 嵌入搜索入口、为记不住款式术语的用户生成想象图样，是 AI 进入消费购物链路的一步；但生成不可购买的虚构商品也引发误导争议。Medium 级。",
+      "source": "TechCrunch / Digital Trends",
+      "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+      "keywords": ["亚马逊", "AI 商品图", "购物搜索", "视觉搜索", "Claude Sonnet", "亚马逊 Nova"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Coralogix 募 2 亿监控智能体",
+      "content": "Coralogix 完成 2 亿美元 F 轮融资，投后估值 16 亿美元，押注 AI 智能体催生监控自主软件需求。距上轮仅 11 个月，累计融资 5.5 亿美元，已服务 IBM、JFrog 等逾 5000 家客户。",
+      "importance": "medium",
+      "reasoning": "6月3日 TechCrunch 报道，Coralogix 官宣、Business Standard、BigDATAwire 等同步披露，今日热点。AI 智能体走向自主执行，催生「监控智能体」的可观测性新赛道；11 个月内再融资、估值达 16 亿美元，反映资本对 AI 基础设施配套工具的加速押注。Medium 级。",
+      "source": "TechCrunch / Business Standard",
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "keywords": ["Coralogix", "2 亿融资", "16 亿估值", "监控智能体", "可观测性", "5000 客户"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 9,
+      "title": "中兴腾讯推 AI 云电脑",
+      "content": "中兴通讯与腾讯达成战略合作，联合推出搭载腾讯办公智能体 Work Buddy 的 AI 云电脑，软硬件深度融合。消息带动中兴 A 股单日涨超 5%、H 股涨近 8%。",
+      "importance": "medium",
+      "reasoning": "6月4日 双方官宣，AIBase、Bloomberg 等同步报道，今日热点。云电脑与原生办公智能体软硬一体，把 AI 助手嵌入终端入口；中兴 A 股、H 股双双跳涨印证资本对软硬件协同 AI 生态的看好，是国产 AI 终端落地的区域性动作。Medium 级。",
+      "source": "AIBase / Bloomberg",
+      "url": "https://www.aibase.com/news",
+      "keywords": ["中兴通讯", "腾讯", "AI 云电脑", "Work Buddy", "软硬件融合", "股价跳涨"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-04T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "AIBase News", "The Decoder", "CNBC", "Bloomberg", "SCMP", "Reuters", "The White House", "NPR", "VentureBeat", "MarkTechPost", "Variety", "Engadget", "Business Standard", "Digital Trends", "WebSearch"],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 1100
+  }
+}
