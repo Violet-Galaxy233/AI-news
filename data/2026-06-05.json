@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-05",
+  "date_formatted": "26/06/05",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "美国 AI 立法草案",
+      "content": "六名两党众议员（共和党 Obernolte、民主党 Trahan 领衔，另有 4 名共同发起人）于 6月4日 联合公布 269 页「大美国人工智能法案」讨论草案，提议建立美国史上首个系统性联邦 AI 治理框架，四大支柱涵盖前沿模型治理、劳动力影响监测、网络安全强化与 AI 研发促进。核心条款：3 年日落条款将暂停各州专门针对 AI 开发（不含部署）的立法，加利福尼亚 AB 2013 训练数据披露规定与 SB 942 水印部分被明确点名适用；将 AI 标准创新中心（CAISI）法定化，授权 2027—2029 年每年拨款 1 亿美元（三年合计 3 亿美元）；要求前沿 AI 开发商发布前制定可公开查阅的风险管理方案，重大安全事件须向 CAISI 报备；另设 AI 举报人保护与加重 AI 赋能欺诈处罚。消费者权益组织 Public Citizen 批评草案剥夺各州自主保护公民的权利；AI 开发商与科技行业协会整体欢迎以联邦统一标准取代碎片化州法规。草案目前为讨论稿，尚需行业征询与国会正式审议。",
+      "importance": "critical",
+      "reasoning": "6月4日 Roll Call 首发，The Hill、Axios、FedScoop、Broadband Breakfast 等同步报道，今日热点。继特朗普 6月2日 签署 AI 安全行政令后，国会本周推出同源但更全面的立法草案——269 页框架提议通过 3 年日落条款整合各州 AI 立法权、为 CAISI 注入 3 亿美元、要求大厂公开风险管理方案，构建从模型开发到安全事件披露的闭环监管体系。这是美国史上首份覆盖面最广的 AI 联邦综合立法草案，标志 AI 监管路径正从行政令向立法层演进，OpenAI、Google、Anthropic 等大厂均在影响范围内。Critical 级。",
+      "source": "Roll Call / The Hill",
+      "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+      "keywords": ["大美国 AI 法案", "国会立法草案", "3 年州法预赦", "CAISI 法定化", "Obernolte Trahan", "前沿模型治理"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "台积电供需缺口警告",
+      "content": "台积电（TSMC）CEO 魏哲家 6月4日 接受彭博专访表示，AI 对芯片的需求将在未来数年持续超出台积电供应能力，半导体供给短缺将成为全球 AI 发展的长期制约。关键数字：2026 年先进制程产能缺口约达需求量的 25-30%，预计至少 2027 年之后方能逐步缓解；即便台积电在美国亚利桑那州大幅扩产，仍难匹配美国客户需求增速。尽管如此，台积电维持 2026 年全年营收增长逾 30% 的预测——供应紧张为定价提供支撑，但公司明确承诺不跟随内存厂商骤然大幅提价以维护供应链稳定。此警告覆盖 OpenAI、Anthropic、谷歌、微软等顶尖 AI 研究机构，以及英伟达、AMD 等芯片设计商。25-30% 的量化缺口揭示 AI 算力扩张已逼近现有半导体制造业物理极限，未来 1-2 年内算力增速将受实际产能边界制约，迫使各 AI 公司在模型规模与资源效率之间重新取舍。",
+      "importance": "critical",
+      "reasoning": "6月4日 彭博首发，Yahoo Finance、CryptoBriefing、SDxCentral、Techzine 等同步报道，今日热点。台积电掌握全球绝大多数最先进制程产能，CEO 公开量化 25-30% 供需缺口并将缓解期推至 2027 年后，是全球 AI 产业半导体供应链的一级预警信号；供给侧的硬约束将改变 AI 公司的技术发展路线，属影响整个行业的结构性因素，且已有量化证据支撑。Critical 级。",
+      "source": "Bloomberg / Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-ceo-warns-chip-supply-024746123.html",
+      "keywords": ["台积电", "AI 芯片供应缺口", "25-30% 缺口", "2027 年缓解", "30% 营收增长", "魏哲家"],
+      "category": "行业观察"
+    },
+    {
+      "id": 3,
+      "title": "ChatGPT 广告转化上线",
+      "content": "OpenAI 6月5日 在 ChatGPT 自助广告平台上线转化优化投放功能，面向已配置转化追踪的 beta 广告主率先开放。自 5月5日 撤除 5 万美元最低投放门槛并向美国全量企业开放自助服务以来，26 天内该平台先后推出点击结算竞价（CPC）、自定义受众、每日预算上限、邮政编码定向与今日的转化优化，共完成 5 项重大功能迭代。美国程序化广告千次曝光均价（CPM）已因 ChatGPT 广告渗透上涨 34%。OpenAI 为该广告业务设定 2026 年 25 亿美元营收目标，远期目标 2030 年达 1000 亿美元，合作代理包括电通、宏盟、Publicis 等头部广告集团及 Adobe、Criteo 等广告科技平台。",
+      "importance": "high",
+      "reasoning": "6月5日 OpenAI 通知 beta 广告主正式上线，ppc.land、Search Engine Land 同步报道，今日动态。ChatGPT 自 5月5日 开放全量自助广告以来 26 天内密集迭代 5 项核心功能，显示 OpenAI 将广告业务从测试加速推向规模化；25 亿美元 2026 年目标与 1000 亿美元 2030 年目标，意味着广告将与订阅并立为核心营收支柱，对整个在线广告市场格局与 AI 助手商业路径均有示范效应。High 级。",
+      "source": "ppc.land / Search Engine Land",
+      "url": "https://ppc.land/chatgpt-launches-conversion-ads-june-5-us-programmatic-cpms-up-34/",
+      "keywords": ["ChatGPT 广告", "转化优化", "25 亿美元目标", "CPM 涨 34%", "自助广告平台", "OpenAI 商业化"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 4,
+      "title": "Claude 计费改革",
+      "content": "Anthropic 宣布 6月15日 起将 Claude 订阅用量拆分为「交互池」与「程序化池」：日常会话与 Claude Code 命令行操作维持现行订阅限额不变；通过 Agent SDK、GitHub Actions 及第三方 Claude 应用发起的调用切入独立信用池，按完整 API 价格计费。信用额度按订阅档位配发：Pro 每月 20 美元，Max 5x 每月 100 美元，Max 20x 每月 200 美元；企业 Team 标准席位每月 20 美元、高级席位 100 美元。月度配额耗尽且未开通超额计费时，程序化调用自动中断至下一账单周期；未用额度不结转。此次计费改革与 Anthropic 保密递交 IPO 申请同步推进，标志其加速对 AI 智能体工作流实施独立货币化。",
+      "importance": "high",
+      "reasoning": "6月2日 The Decoder 首发，InfoWorld、TechTimes、devtoolpicks 等同步报道，今日热点。Anthropic 正值保密递交 IPO 申请，在此节点将 Agent SDK 用量从订阅平摊成本中独立计费，是将 AI 智能体工作流货币化单独核算的关键信号；对于重度使用 Claude Code 与 Agent SDK 的企业开发者，6月15日 后实际月度成本将有实质影响，波及数万家企业用户。High 级。",
+      "source": "The Decoder / InfoWorld",
+      "url": "https://the-decoder.com/claude-subscriptions-get-separate-budgets-for-programmatic-use-billed-at-full-api-prices/",
+      "keywords": ["Anthropic", "Claude 计费改革", "Agent SDK 信用池", "6月15日", "Pro 20 美元", "程序化用量分离"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic 合作网络",
+      "content": "Anthropic 于 6月3日 正式推出「Claude 合作伙伴网络」服务赛道及合作伙伴门户（Partner Hub），将企业服务生态纳入三级认证体系：精选（Select）要求 10 名以上持证顾问并有 2 家以上投产联合客户；首选（Preferred）门槛升至 100 名顾问与 15 家客户；全球旗舰（Global Premier）需 1000 名顾问覆盖 3 个以上地区与 100 家联合客户。Anthropic 同步注入 1 亿美元专项资金用于合作伙伴培训、技术支持与联合营销。自计划公布以来，已有逾 4 万家企业提交申请、超过 1 万名顾问完成 Claude 认证。晋级审查每年举行两次，2026 年额外增设 10月1日 一轮。",
+      "importance": "high",
+      "reasoning": "6月3日 Anthropic 官方博客发布，PYMNTS、Channel Insider、Quartz、ChannelDive 等同步报道，今日热点。在 IPO 前夕，Anthropic 以 1 亿美元投入系统化建立三级企业服务认证体系，4 万家申请企业与 1 万名持证顾问揭示 Claude 在企业市场的高速渗透；与计费改革同步推进，构成 Anthropic 商业化路径从产品层向生态层跃升的完整布局。High 级。",
+      "source": "Anthropic / PYMNTS",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "keywords": ["Anthropic", "Claude 合作伙伴网络", "1 亿美元投资", "4 万家申请", "三级认证体系", "企业 AI 生态"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 6,
+      "title": "旧版模型集体退役",
+      "content": "OpenAI 6月3日 宣布旧版模型退役时间表：GPT-4.5 将于 6月27日（30 天过渡期届满）退役，推理模型 o3 将于 8月26日（90 天过渡期）退役；同步下线的还有 GPT-4o、GPT-4.1、GPT-4.1 mini 与 o4-mini。GPT-4.5 在各项核心评测中已被 GPT-5 全面超越，速度与成本双输；o3 则被速度更快、成本更低的 o4 接替。此次集中退役标志 GPT-4 时代完整产品线正式收官，开发者需在 30-90 天过渡期内完成迁移。",
+      "importance": "medium",
+      "reasoning": "6月3日 gHacks 首发，BleepingComputer、4sysops、Axios 等同步报道，今日动态。OpenAI 集中清退 GPT-4.5、o3 等上一代核心模型，给生产环境中调用上述版本的企业划定 30-90 天强制迁移窗口；GPT-4.5 于 6月27日 退役尤为紧迫，影响仍在使用该模型的 API 用户。Medium 级。",
+      "source": "gHacks / BleepingComputer",
+      "url": "https://www.ghacks.net/2026/06/03/openai-upgrades-gpt-5-5-instant-and-confirms-retirement-of-o3-and-gpt-4-5-models/",
+      "keywords": ["OpenAI", "GPT-4.5 退役", "o3 退役", "6月27日", "8月26日", "GPT-4 时代终结"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "MiniMax 开源挑战者",
+      "content": "中国 AI 公司 MiniMax 6月1日 发布开放权重模型 M3，集前沿代码能力、100 万字符上下文长度与原生图像及视频理解于一体。在代码评测 SWE-Bench Pro 中得分 59%，声称超越 GPT-5.5 与 Gemini 3.1 Pro，运行成本约为两者的 5-10%。MSA 架构在 100 万字符上下文场景下，运算量仅为上代模型的 1/20，读取速度提升 15 倍。开放权重与完整技术报告预计 6月10日 发布至 Hugging Face 与 GitHub。",
+      "importance": "medium",
+      "reasoning": "6月1日 VentureBeat 首发，The Decoder、MarkTechPost、Pandaily 等同步报道，4天前首发但开放权重约 6月10日 发布，持续发酵中保留。中国开源模型在代码能力与超长上下文上正面挑战 GPT-5.5、Gemini 3.1 Pro，且成本仅为 5-10%；MSA 架构的算力效率突破将「百万字符上下文」从商用专属推向开源生态，加速开源模型追赶前沿闭源模型进程。Medium 级。",
+      "source": "VentureBeat / The Decoder",
+      "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
+      "keywords": ["MiniMax M3", "开放权重模型", "100 万字符上下文", "SWE-Bench Pro 59%", "MSA 架构", "开源对标"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "美延伸 AI 芯片管制",
+      "content": "美国商务部 6月1日 发布出口管制指导意见，明确先进 AI 芯片出口许可管制适用于所有「以中国为总部或以中国企业为母公司」的企业，无论其实际注册国。管制范围因此从中国境内机构扩展至全球任何中资关联公司，在美国、欧洲等地注册但母公司为中国企业的 AI 公司同受限制。此次管制范围明确时间点恰与 DeepSeek 启动规模约 500 亿元人民币的首轮融资、台积电发出 25-30% 供需缺口警告同步，进一步压缩中资 AI 公司的境外算力获取渠道。",
+      "importance": "medium",
+      "reasoning": "6月1日 美国商务部官方指导意见，Al Jazeera、SDxCentral 等同步报道，4天前发布但属持续发酵的政策事件——全球中资关联 AI 企业正评估合规边界，与 TSMC 供应紧张叠加构成双重算力约束。Medium 级。",
+      "source": "Al Jazeera / SDxCentral",
+      "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
+      "keywords": ["美国芯片出口管制", "中资企业", "商务部", "中国母公司", "500 亿元融资", "AI 芯片限制"],
+      "category": "政策监管"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-05T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "Roll Call", "The Hill", "Axios", "FedScoop", "Bloomberg", "Yahoo Finance", "CryptoBriefing", "SDxCentral", "ppc.land", "Search Engine Land", "The Decoder", "InfoWorld", "TechTimes", "Anthropic Newsroom", "PYMNTS", "Channel Insider", "gHacks", "BleepingComputer", "VentureBeat", "MarkTechPost", "Al Jazeera", "WebSearch"],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 1300
+  }
+}
