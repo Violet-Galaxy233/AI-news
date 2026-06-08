@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-08",
+  "date_formatted": "26/06/08",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "苹果 WWDC 重建 Siri",
+      "content": "苹果在 WWDC 2026（6 月 8 日）开幕发布会上宣布，Siri 底层模型已替换为谷歌 Gemini 定制版，参数规模约 1.2 万亿，每年授权费估约 10 亿美元，是苹果史上规模最大的 AI 基础设施合约。新 Siri 随 iOS 27、macOS 27、iPadOS 27 全线上线，并引入多引擎扩展机制，允许用户自选 ChatGPT、Gemini 或 Claude 作为底层处理模型。照片应用新增「延伸」「增强」「重构」三项 AI 编辑工具；iOS 27 内置可折叠 iPhone 软件接口，对应硬件预计 9 月出货。大会主题定为「All Systems Glow」。首席执行官蒂姆·库克宣布这是其最后一届 WWDC，继任者约翰·特纳斯将于 9 月 1 日接任，苹果高管交接在 AI 转型关键节点落定。",
+      "importance": "critical",
+      "reasoning": "6 月 8 日苹果 WWDC 开幕，Bloomberg、MacRumors、TechTimes、Cryptobriefing 等数十家媒体同步直播，为今日头条。将 Siri 彻底替换为 Gemini 定制版是苹果 AI 战略最大押注，10 亿美元年授权费创其 AI 合约之最；多引擎扩展机制令用户首次可在三大 AI 平台间自由切换；叠加可折叠硬件接口预告与领导层更迭，是苹果生态近年最大系统级重构。Critical 级。",
+      "source": "Bloomberg / MacRumors",
+      "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/",
+      "keywords": ["苹果 WWDC 2026", "Siri 重建", "谷歌 Gemini 定制版", "多引擎扩展", "iOS 27", "蒂姆·库克交班"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "SpaceX 启动史上最大 IPO",
+      "content": "SpaceX 与 xAI 合并实体于 6 月 8 日正式启动 IPO 路演，定价每股 135 美元，目标融资 750 亿美元，对应总市值约 1.77 万亿美元，将超越 2014 年阿里巴巴 250 亿美元刷新史上最大 IPO 纪录。股票代码定为 SPCX，计划 6 月 11 日定价、6 月 12 日纳斯达克首日挂牌，约 5.556 亿股对外发行，马斯克保留 82% 投票权。xAI 于今年 2 月并入 SpaceX 后，2026 年第一季度营收达 8.18 亿美元、运营亏损 24.7 亿美元。约 1500 名散户投资者受邀参加 6 月 11 日路演活动。此次 IPO 集商业航天、国防与 AI 算力于一体，是硅谷「超级公司」模式首度进入公开资本市场的里程碑。",
+      "importance": "critical",
+      "reasoning": "6 月 8 日路演启动当天，CNBC、Yahoo Finance、彭博等主流财经媒体大篇幅头条报道，为今日最热事件。1.77 万亿美元估值与 750 亿美元融资目标双创 IPO 史上之最；xAI 与 SpaceX 合并将 AI 模型公司首次嫁接至商业航天公开上市，马斯克 82% 投票权结构引发广泛关注；定价窗口收紧在本周，持续性极强。Critical 级。",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+      "keywords": ["SpaceX IPO", "xAI 合并", "750 亿美元", "1.77 万亿估值", "SPCX", "史上最大 IPO"],
+      "category": "公司动态/融资"
+    },
+    {
+      "id": 3,
+      "title": "Anthropic 呼吁暂停 AI 开发",
+      "content": "Anthropic 联合创始人杰克·克拉克与研究负责人玛丽娜·法瓦罗联名发文，警告 AI 自主执行能力每 4 个月翻一番，已逼近「递归自我改进」临界点——即 AI 可在无人干预下持续提升自身性能。两人呼吁全球实验室协调暂停开发，为对齐研究争取时间。OpenAI 回应称，规则制定应由民主政府而非私营企业负责；白宫亦公开反驳，认为风险被夸大，且此举有阻碍竞争之嫌。该呼吁距 Anthropic 提交 IPO 申报文件不足 7 天发布，引发市场对其战略意图的质疑；OpenAI 与白宫 2 方同时公开反驳，揭示头部实验室间阵营分裂加剧，行业监管博弈进入新阶段。",
+      "importance": "critical",
+      "reasoning": "6 月 5 日半岛电视台、CNN、SiliconANGLE 首发并大规模转载，今日仍持续发酵。联创与研究负责人以「4 个月翻番」为量化锚点联名呼吁，是头部安全实验室首次以量化数据提出全球暂停倡议；OpenAI 与白宫双双公开反驳揭示阵营分裂；叠加 Anthropic IPO 时机，舆论热度极高。Critical 级。",
+      "source": "Al Jazeera / CNN",
+      "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control",
+      "keywords": ["Anthropic", "暂停 AI 开发", "递归自我改进", "4 个月翻番", "杰克·克拉克", "对齐研究"],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT 推出锁定模式",
+      "content": "OpenAI 向 ChatGPT 全部账户类型（Free、Plus、Pro、Business）推出「锁定模式」，启用后一键关闭实时网页浏览、智能体模式、文件下载、深度研究等六项外部数据通道，专为防范提示注入攻击与企业数据外泄而设计。已上传文件的缓存内容仍存在注入风险，属已知局限。该功能于 Meta AI 客服遭钓鱼利用事件（6 月 6 日）后 48 小时内上线，是对话式 AI 平台首次在产品层提供系统级隔离开关，企业用户无需额外配置即可按需关闭所有外部连接。",
+      "importance": "high",
+      "reasoning": "6 月 6 日 TechCrunch、Engadget 首发，今日仍为热点。六功能一键禁用的隔离机制正面回应企业安全顾虑，是 OpenAI 首次在平台层面内置系统性隔离开关；上线时间紧贴 Meta AI 钓鱼事件，行业安全关注度持续升温。High 级。",
+      "source": "TechCrunch / Engadget",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "keywords": ["ChatGPT", "锁定模式", "Lockdown Mode", "提示注入", "数据外泄", "企业安全"],
+      "category": "安全事件/争议"
+    },
+    {
+      "id": 5,
+      "title": "AI 编程工具账单失控",
+      "content": "Uber 在 2026 年 4 月耗尽全年 AI 编程预算，随即对每位员工每款工具设上限 1500 美元/月；微软撤销开发者 Claude Code 订阅授权；Priceline 续签 Cursor 合同时发现报价涨至原价 4 至 5 倍。核心矛盾在于：同等性能的模型推理单价两年内下降 98%（从每百万字符 20 美元降至 0.40 美元），企业 AI 账单同期却上涨约 320%。根本原因是 AI 智能体无上限地生成调用请求，而按用量计费模式使预算管控失灵。此现象正推动企业将 AI 工具采购从订阅制切换为预算封顶制。",
+      "importance": "high",
+      "reasoning": "6 月 5 日 TechCrunch 深度报道「账单到期」，Yahoo Finance 同步转载，今日持续发酵。单价降 98% 与总账单涨 320% 的反转对比揭示 AI 商业化核心张力；Uber、微软、Priceline 三家企业同期遭遇失控账单，说明这是结构性问题而非个例，将推动 AI 工具定价与企业采购策略重构。High 级。",
+      "source": "TechCrunch / Yahoo Finance",
+      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "keywords": ["AI 编程账单", "Uber 预算超支", "Claude Code", "Cursor 涨价", "按用量计费", "预算失控"],
+      "category": "行业观察"
+    },
+    {
+      "id": 6,
+      "title": "特朗普拟持 AI 公司股权",
+      "content": "美国总统特朗普表示，政府可能通过换股方式持有 OpenAI、Anthropic 与 xAI 的股权，由 AI 公司向政府捐股（无需纳税人出资），所得股权注入「公共财富基金」。奥尔特曼据报于 2025 年最先向政府提出此构想。Anthropic 明确声明「未与政府就提供股权展开任何磋商」。与此同时，参议员桑德斯另提对 AI 公司征收 50% 股票税方案，左右两党以截然不同的路径指向同一目标：让纳税人分享 AI 收益。",
+      "importance": "high",
+      "reasoning": "6 月 5 日 CNBC 首发，TechCrunch、TechTimes、Fortune 随后跟进，今日仍为热点。政府换股持股与桑德斯 50% 股票税案同时浮出，展示两党都在谋划公众分享 AI 红利的政策路径；若落地将深刻影响 AI 公司估值、治理结构与 IPO 策略，Anthropic 明确否认更凸显各方立场分歧。High 级。",
+      "source": "CNBC / TechCrunch",
+      "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
+      "keywords": ["特朗普", "AI 公司股权", "OpenAI", "Anthropic", "公共财富基金", "桑德斯股票税"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "谷歌 Gemini 3.5 Pro 将至",
+      "content": "谷歌确认 Gemini 3.5 Pro 将于本月正式向公众开放，目前已在 Vertex AI 进行限定预览。主要规格：支持 200 万字符上下文长度（业内当前最长），内置「深度思考」深度推理模式，预计定价为输入每百万字符 15 美元、输出 60 美元，约为 Flash 版的 10 倍。谷歌 CEO 皮查伊在 5 月 19 日 Google I/O 上表示「给我们到下个月的时间」引发现场哗然，本月发布将兑现该承诺。200 万字符上下文长度若落地，将超越当前主流模型，重塑长文档处理与多轮对话的能力边界。",
+      "importance": "high",
+      "reasoning": "6 月 6 日 TechTimes、codersera、ofox.ai 同步报道，今日持续发酵。200 万字符上下文长度是公开可用模型中业内最长，叠加「深度思考」模式与皮查伊 I/O 现场公开承诺，发布预期明确且窗口收紧至本月内；一旦正式上线将对主流模型形成直接竞争压力。High 级。",
+      "source": "TechTimes / Google",
+      "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm",
+      "keywords": ["谷歌", "Gemini 3.5 Pro", "200 万字符上下文", "深度思考", "Vertex AI", "皮查伊承诺"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-08T08:00:00Z",
+    "total_news": 7,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "MacRumors", "TechTimes", "Yahoo Finance", "Al Jazeera", "CNN", "SiliconANGLE", "Engadget", "Fortune", "Cryptobriefing", "WebSearch"],
+    "duplicates_removed": 10,
+    "generation_time_seconds": 1200
+  }
+}
