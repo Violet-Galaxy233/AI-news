@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-09",
+  "date_formatted": "26/06/09",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 递交上市申请",
+      "content": "OpenAI 向美国证监会保密递交 S-1 招股文件，投后估值 8520 亿美元，承销商为高盛与摩根士丹利，外界传闻最快 9 月挂牌，但公司强调尚未确定时间表，可能继续维持私有状态。此次申报紧随 Anthropic 同类动作，也在 OpenAI 赢得公益公司重组诉讼之后。其旗下 ChatGPT 周活跃用户已达 9 亿，高速增长的营收支撑起这一估值。两大 AI 巨头同期争夺同一机构投资者资金池，被视为今年规模最大的科技上市竞赛。",
+      "importance": "critical",
+      "reasoning": "6 月 8 日 多家媒体首发，NBC、TechCrunch、Bitcoin News 等同步报道，今日热点新闻。OpenAI 保密递交 S-1 标志其向公开资本市场迈出关键一步，估值 8520 亿美元仅次于 Anthropic 的 9650 亿美元；ChatGPT 周活跃 9 亿与公益公司重组诉讼五月胜诉共同铺平上市路。继昨日报道政府拟入股 OpenAI 角度后，今日报道其正式申报上市角度。Critical 级。",
+      "source": "NBC News / TechCrunch",
+      "url": "https://www.nbcnews.com/business/markets/openai-chatgpt-files-ipo-rcna349101",
+      "keywords": ["OpenAI", "S-1 招股文件", "8520 亿估值", "保密申报", "ChatGPT 9 亿周活", "高盛摩根士丹利"],
+      "category": "公司动态"
+    },
+    {
+      "id": 2,
+      "title": "SpaceX 冲刺史上最大 IPO",
+      "content": "马斯克旗下 SpaceX 启动上市路演，定价每股 135 美元，整体估值约 1.75 万亿美元，计划募资 750 亿美元，将成为史上最大规模 IPO，远超沙特阿美 2019 年创下的 294 亿美元纪录。该集团已并入 xAI，定价定于路演结束当晚，股票拟在纳斯达克以代码 SPCX 挂牌交易。不过晨星给出的估值仅 7800 亿美元，不足目标价一半，并警告 xAI 在与 OpenAI、Anthropic 的竞争中护城河尚不明朗，存在价值毁损风险。",
+      "importance": "critical",
+      "reasoning": "6 月 3 日 启动路演，CNBC、Bloomberg、晨星等持续追踪，定价定于 6 月 11 日 晚、拟 6 月 12 日 挂牌，因临近定价持续发酵，故保留。750 亿美元募资额远超沙特阿美 2019 年 294 亿美元，为史上最大 IPO；并入的 xAI 使其成为 AI 资本市场标志性事件，晨星 7800 亿估值与 1.75 万亿目标的落差凸显泡沫争议。Critical 级。",
+      "source": "CNBC / 晨星",
+      "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+      "keywords": ["SpaceX", "xAI", "1.75 万亿估值", "750 亿募资", "史上最大 IPO", "晨星质疑"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "谷歌英伟达押注 Intel 代工",
+      "content": "谷歌已向 Intel 代工部门下单超过 300 万颗 AI 芯片，用于 2028 年生产，成为该业务迄今最大的客户承诺；英伟达也在 Intel 的 18A 制程上试产下一代 Feynman 架构图形芯片，但尚未正式下单。台积电先进封装产能吃紧，正促使芯片设计商将 Intel 作为第二供应来源，以降低对单一代工厂的依赖。消息推动 Intel 股价单日跳涨约 12% 至 110.81 美元，市值升至约 5570 亿美元，过去一年累计上涨 441%。",
+      "importance": "critical",
+      "reasoning": "6 月 8 日 The Decoder、MLQ、TheNextWeb 等首发并同步报道，今日热点新闻。谷歌 300 万颗 TPU 大单是 Intel 代工业务迄今最大承诺，叠加英伟达试产，标志 AI 芯片供应链首次实质性打破对台积电的单一依赖，属结构性转变；Intel 股价单日 12% 跳涨、一年累涨 441% 印证市场对供应格局重塑的预期。Critical 级。",
+      "source": "The Decoder / MLQ News",
+      "url": "https://the-decoder.com/intel-gets-a-second-life-as-google-and-nvidia-explore-it-as-a-tsmc-backup-for-ai-chips/",
+      "keywords": ["Intel 代工", "谷歌 300 万颗芯片", "英伟达 18A 制程", "台积电备份", "Feynman 芯片", "供应链重塑"],
+      "category": "硬件发布"
+    },
+    {
+      "id": 4,
+      "title": "蠕虫攻陷 73 个微软仓库",
+      "content": "自我复制的 Miasma 蠕虫攻陷微软旗下 4 个组织的 73 个 GitHub 代码仓库，攻击者用盗来的贡献者凭证植入恶意提交，当开发者用 Claude Code、Cursor 等 AI 编码工具打开仓库时即触发凭证窃取并自我扩散。GitHub 在 105 秒内自动封禁，但 Azure Functions 部署流程一度中断。",
+      "importance": "high",
+      "reasoning": "6 月 5 日 The Hacker News、StepSecurity、Rescana 等首发并持续追踪，因仓库封禁与部署中断仍在处置、4 天内持续发酵，故保留。该攻击首次以 AI 编码工具为触发载体，凸显智能体开发工具链的新型安全风险；73 个仓库横跨 4 大组织、105 秒自动封禁的规模与速度，反映供应链攻击的烈度。High 级。",
+      "source": "The Hacker News / StepSecurity",
+      "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+      "keywords": ["Miasma 蠕虫", "73 个 GitHub 仓库", "AI 编码工具", "凭证窃取", "供应链攻击", "微软 Azure"],
+      "category": "安全事件"
+    },
+    {
+      "id": 5,
+      "title": "PhysicsX 募资 3 亿美元",
+      "content": "英国工业物理 AI 公司 PhysicsX 完成 3 亿美元 C 轮融资，估值约 24 亿美元，由淡马锡领投，英伟达、西门子参投。其平台用 AI 在数秒内完成原本耗时数天的工程仿真，加速硬件研发。公司过去一年确认营收翻倍、客户数翻倍，团队扩张至 300 多人。",
+      "importance": "high",
+      "reasoning": "6 月 8 日 SiliconANGLE、PitchBook、Tech.eu 等首发并同步报道，今日热点新闻。这轮 3 亿美元融资是工业 AI 赛道的标志性下注，将仿真从数小时压缩至数秒，瞄准制造与硬件设计的效率瓶颈；淡马锡领投、英伟达与西门子参投印证产业资本对物理 AI 的认可，24 亿美元估值与营收翻倍显示其商业化提速。High 级。",
+      "source": "SiliconANGLE / PitchBook",
+      "url": "https://siliconangle.com/2026/06/08/physicsx-reels-300m-speed-hardware-design-ai/",
+      "keywords": ["PhysicsX", "3 亿 C 轮", "24 亿估值", "工业物理 AI", "淡马锡领投", "工程仿真"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "Altman 旗下公司裁员",
+      "content": "Sam Altman 旗下虹膜扫描公司 Tools for Humanity 被曝裁员，因 Worldcoin 项目迟迟未能产生营收。该公司面临监管阻力，韩国罚款 83 万美元，肯尼亚以隐私为由封禁运营。",
+      "importance": "medium",
+      "reasoning": "6 月 8 日 TechCrunch 首发，TechBuzz、MEXC 等同步报道，今日热点新闻。同属 Altman 阵营的两家公司命运迥异：OpenAI 冲刺巨型上市，Tools for Humanity 却因营收乏力裁员，韩国 83 万美元罚款与肯尼亚封禁凸显其生物识别模式的监管困境。Medium 级。",
+      "source": "TechCrunch / TechBuzz",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "keywords": ["Tools for Humanity", "Worldcoin", "裁员", "Sam Altman", "韩国 83 万罚款", "虹膜扫描"],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "Perplexity 推 Search as Code",
+      "content": "Perplexity 推出 Search as Code，让 AI 模型自行用 Python 编写检索流程。在一项 200 个漏洞的研究任务中，该方案削减 85% 的处理量消耗，并在 5 项测试的 4 项上超越 OpenAI、Anthropic 接口。",
+      "importance": "medium",
+      "reasoning": "6 月 7 日 The Decoder、Winbuzzer 首发，Perplexity 官方研究博客同步发布，昨日热点新闻。Search as Code 把检索从固定接口转为模型自写流程，200 个漏洞任务削减 85% 消耗，反映智能体检索从「调接口」向「写代码」的范式演进。Medium 级。",
+      "source": "The Decoder / Winbuzzer",
+      "url": "https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/",
+      "keywords": ["Perplexity", "Search as Code", "智能体检索", "削减 85% 消耗", "Python 检索流程", "Agentic SDK"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "调查：AI 成本难掌控",
+      "content": "毕马威调查显示，仅 26% 的企业能完全掌控 AI 支出，50% 监管有限，另有 22% 缺乏成本透明度。分析师警告，许多财务负责人本季度看到 AI 账单时将大吃一惊。",
+      "importance": "medium",
+      "reasoning": "6 月 8 日 The Decoder 援引毕马威调查报道，今日行业观察新闻。仅 26% 企业完全掌控 AI 支出、22% 毫无成本透明度，揭示 AI 落地的隐性账单问题。与 6 月 5 日 报道的贝恩降本调查角度不同，今日聚焦成本可见性缺口角度。Medium 级。",
+      "source": "The Decoder / 毕马威",
+      "url": "https://the-decoder.com",
+      "keywords": ["毕马威", "AI 成本可见性", "26% 完全掌控", "22% 无透明度", "企业落地", "隐性账单"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-09T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "CNBC", "The Decoder", "AIBase", "NBC News", "SiliconANGLE", "The Hacker News", "WebSearch"],
+    "duplicates_removed": 9,
+    "generation_time_seconds": 600
+  }
+}
