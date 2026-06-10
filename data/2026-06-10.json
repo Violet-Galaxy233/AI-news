@@ -5,7 +5,7 @@
   "news": [
     {
       "id": 1,
-      "title": "Fable 5 一句话造游戏",
+      "title": "Anthropic 发布 Fable 5",
       "content": "Anthropic 把曾让监管层紧张的 Mythos 级能力首次交到普通人手里——新模型 Fable 5 只需一句话，就能在浏览器里生成一款可玩的 3D 游戏，画面和玩法一并搭好。它真正的杀手锏是「长跑」：能不间断自主编程约 12 小时，照多页需求文档独立完成复杂工程。研究者 Ethan Mollick 实测后直言，其表现把几乎所有公开模型甩在身后。调用定价每百万次输入 10 美元、输出 50 美元，即日通过 Anthropic、AWS Bedrock 与 GitHub Copilot 开放。",
       "importance": "critical",
       "reasoning": "6 月 9 日 Anthropic 发布，CNBC、NBC、TechCrunch、The Decoder 等同步报道，今日热点新闻。Fable 5 是首个公开的 Mythos 级模型，把曾让政府警觉的同源能力开放给大众，一句话生成可玩 3D 游戏、可自主编程约 12 小时，将长周期智能体编程推向消费级。继 6 月 6 日 报道 Anthropic 上市申报后，今日转向其旗舰模型公开角度。Critical 级。",
