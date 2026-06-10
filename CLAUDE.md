@@ -52,11 +52,11 @@ index.html → src/main.js → App.vue (<RouterView/>) → one of three pages:
 
 `WORKFLOW.md` is the authoritative reference. Key points:
 
-- **Active sources:** TechCrunch, AIBase News (`news.aibase.com/news`), Hacker News, CNBC, The Decoder; WebSearch multi-round queries are often the most effective. AIBase Daily, 36kr API (orz.ai), and AI Breakfast are deprecated — don't use.
+- **Active sources:** TechCrunch, AIBase News (`news.aibase.com/news`), Hacker News, CNBC, The Decoder, Bloomberg (cited via WebSearch — direct fetch usually 403s); WebSearch multi-round queries are often the most effective. AIBase Daily, 36kr API (orz.ai), and AI Breakfast are deprecated — don't use.
 - **Filtering:** 24-48 hour window, 85%+ similarity = duplicate, read `data/{date-1..-3}.json` to build a "do-not-re-cover" list.
-- **Content rules:** Chinese with mandatory Chinese-English spacing; forbidden technical terms (RAG → 智能检索, tokens → 处理量/字符, LLM → AI 模型, etc.); quantified metrics required (≥3 per item); ≥2 independent sources per item.
+- **Content rules:** Chinese with mandatory Chinese-English spacing; forbidden technical terms (RAG → 智能检索, tokens → 处理量/字符, LLM → AI 模型, etc.); quantified metrics required (≥3 per item); ≥2 independent sources per item; **no absolute dates (「X月X日」) inside `content`** — dates go in `reasoning` only; **plain factual news prose** (subject → verb → facts), not editorialized/colloquial flourishes.
 - **JSON quote rule:** inside `content` and `reasoning`, use CJK 「」 not ASCII `"` (the latter breaks JSON parsing).
-- **Length by importance (word count: 汉字=1, 英文单词=1, 数字串=1):** critical 120-200 words, high 80-120, medium 40-80.
+- **Length by importance (word count: 汉字=1, 英文单词=1, 数字串=1):** critical 96-160 words, high 64-96, medium 32-64. Count every item with Python immediately after writing — manual estimates run low.
 
 ## Key Files
 
