@@ -27,6 +27,17 @@
     },
     {
       "id": 3,
+      "title": "亚马逊借 175 亿投 AI",
+      "content": "亚马逊再向银行借入 175 亿美元加码 AI 基建，使其总借款突破 2250 亿美元。这笔由花旗牵头的定期贷款可按需分批提取；公司近期还发行创纪录的 140 亿加元枫叶债与 145 亿欧元欧债。亚马逊预计 2026 年资本支出约 2000 亿美元，大部分投向数据中心与自研芯片。摩根士丹利预计今年全行业 AI 相关债务将翻倍至约 5700 亿美元，债券正取代自有现金，成为算力扩张的主要融资工具。",
+      "importance": "critical",
+      "reasoning": "6 月 10 日 TechCrunch 报道，Yahoo Finance、The Next Web、Stocktwits 等同步覆盖，今日热点新闻。单笔 175 亿美元贷款叠加总借款破 2250 亿、年资本支出约 2000 亿美元，再加创纪录的加元与欧元债，显示巨头正以大规模举债支撑算力扩张；摩根士丹利预计全行业 AI 债务翻倍至 5700 亿美元，属结构性融资与产业风向事件。Critical 级。",
+      "source": "TechCrunch / Yahoo Finance",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "keywords": ["亚马逊", "借款 175 亿", "总借款 2250 亿", "资本支出 2000 亿", "AI 债务翻倍 5700 亿", "以债养算"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
       "title": "谷歌开源 DiffusionGemma",
       "content": "谷歌开源文本扩散模型 DiffusionGemma，参数 260 亿、激活 38 亿，基于 Gemma 4 改造，以并行出块替代逐词生成，速度最高提升 4 倍。在英伟达 H100 上每秒输出逾千词，采用 Apache 2.0 协议，支持 140 多种语言。代价是测试得分逊于标准版 Gemma 4，定位注重速度的本地场景。",
       "importance": "high",
@@ -37,7 +48,7 @@
       "category": "产品发布"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "摩根大通把 AI 当基建",
       "content": "摩根大通把 AI 投入从研发重新归类为核心基础设施，纳入 2026 年约 198 亿美元技术预算，其中 AI 年预算约 20 亿美元、视同网络安全不可削减。戴蒙称投入已被约 20 亿美元运营节省覆盖，惠及逾 15 万员工，工程与反欺诈环节提效 10% 至 11%。",
       "importance": "high",
@@ -48,22 +59,11 @@
       "category": "行业观察"
     },
     {
-      "id": 5,
-      "title": "亚马逊借 175 亿投 AI",
-      "content": "亚马逊再向银行借入 175 亿美元加码 AI 基建，使其总借款突破 2250 亿美元。公司预计 2026 年资本支出约 2000 亿美元，多投向数据中心与自研芯片。摩根士丹利预计今年 AI 相关债务翻倍至约 5700 亿美元，债券正成为算力扩张的主要融资工具。",
-      "importance": "high",
-      "reasoning": "6 月 10 日 TechCrunch 报道，Yahoo Finance、The Next Web、Stocktwits 等同步覆盖，今日热点新闻。单笔 175 亿美元贷款、总借款破 2250 亿美元、年资本支出约 2000 亿美元，叠加摩根士丹利对全行业 AI 债务翻倍至 5700 亿美元的预测，反映算力扩张正从自有现金转向大举举债。High 级。",
-      "source": "TechCrunch / Yahoo Finance",
-      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
-      "keywords": ["亚马逊", "借款 175 亿", "总借款 2250 亿", "资本支出 2000 亿", "AI 债务翻倍", "举债扩算力"],
-      "category": "公司动态"
-    },
-    {
       "id": 6,
       "title": "xAI 被诉解雇安全工程师",
-      "content": "马斯克旗下 xAI 被前工程师起诉，称其因就 Grok 安全示警遭非法解雇。原告 Devin Kim 于 2025 年 9 月离职，曾警告 Grok 或助长歧视等风险。诉讼赶在 SpaceX 1.75 万亿美元 IPO 前。",
-      "importance": "medium",
-      "reasoning": "6 月 10 日 TechCrunch 首发，Law360、Mezha、The Star 等同步报道，今日新闻。诉讼直指 xAI 在 Grok 上轻视安全、并在临近 SpaceX 1.75 万亿美元 IPO 的敏感节点曝光，叠加 Grok 此前多起安全争议，关乎 AI 安全文化与吹哨人保护。Medium 级。",
+      "content": "马斯克旗下 xAI 被前工程师起诉，称其因就 Grok 安全示警遭非法解雇。原告 Devin Kim 于 2025 年 9 月离职，曾警告 Grok 或助长歧视、甚至传播大规模杀伤性武器信息。诉讼赶在 SpaceX 1.75 万亿美元 IPO 前数日提出，而 Grok 此前已多次因安全与不当言论引发争议。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 TechCrunch 首发，Law360、Mezha、The Star 等同步报道，今日热点新闻。诉讼直指 xAI 在 Grok 上轻视安全，并在临近 SpaceX 1.75 万亿美元 IPO 的敏感节点曝光，叠加 Grok 多起安全与言论争议，属高话题性的 AI 安全与法律纠纷。High 级。",
       "source": "TechCrunch / Law360",
       "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
       "keywords": ["xAI", "Grok 安全", "工程师起诉", "非法解雇", "Devin Kim", "SpaceX IPO"],
@@ -72,9 +72,9 @@
     {
       "id": 7,
       "title": "NotebookLM 大升级",
-      "content": "谷歌升级研究工具 NotebookLM，改用 Gemini 3.5 Flash，给笔记本配备可执行代码的云端计算机与智能体检索。新版平均胜率超 65%、网页检索胜率达 78.2%，现面向 AI Ultra 用户开放。",
-      "importance": "medium",
-      "reasoning": "6 月 8 日 谷歌发布，The Decoder、PPC.land 等同步报道，今日新闻。NotebookLM 接入 Gemini 3.5 Flash 与编程工具后获得代码执行与智能体检索能力，平均胜率超 65%、网页检索胜率 78.2%，把研究助手从「读文档」推进到「自动取数 + 跑分析」。Medium 级。",
+      "content": "谷歌升级研究工具 NotebookLM，改用 Gemini 3.5 Flash，给每个笔记本配备可执行代码的云端计算机与智能体检索，并内置上百项软件技能。新版平均胜率超 65%、大文档分析胜率 69.9%、网页检索胜率 78.2%，现面向 AI Ultra 订阅用户全球开放。",
+      "importance": "high",
+      "reasoning": "6 月 8 日 谷歌发布，The Decoder、PPC.land 等同步报道，今日热点新闻。NotebookLM 接入 Gemini 3.5 Flash 与编程工具后获得代码执行与智能体检索，平均胜率超 65%、网页检索胜率 78.2%，把研究助手从「读文档」推进到「自动取数 + 跑分析」，是赛道级产品升级。High 级。",
       "source": "The Decoder / PPC.land",
       "url": "https://the-decoder.com/googles-notebooklm-now-runs-its-own-cloud-computer-with-code-execution-and-agent-based-research/",
       "keywords": ["谷歌 NotebookLM", "Gemini 3.5 Flash", "云端计算机", "代码执行", "胜率 65%", "智能体研究"],
