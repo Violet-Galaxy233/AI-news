@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-11",
+  "date_formatted": "26/06/11",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 租 10 吉瓦机房",
+      "content": "OpenAI 正商谈在美国俄亥俄州派克县租用一座 10 吉瓦的 AI 数据中心，由英伟达为租约提供财务担保，配套电力由软银旗下 SB Energy 建设。该园区若全面建成总投资可达 5000 亿美元，将成为全球最大单体 AI 算力设施，容量约为 2025 年整个北弗吉尼亚数据中心市场的两倍。交易为 20 年期租约，OpenAI 仅在投运后付款，首期 800 兆瓦预计 2028 年启用，项目落在能源部所属的前朴茨茅斯气体扩散厂旧址。",
+      "importance": "critical",
+      "reasoning": "6 月 10 日 The Information 首发，DCD、Tom's Hardware、Yahoo Finance 等同步报道，今日热点新闻。10 吉瓦、5000 亿美元的单体规模约为北弗吉尼亚全市场两倍，英伟达提供租约担保、软银配建电力，标志 AI 算力竞赛进入「国家级电厂 + 数据中心」一体化阶段，是结构性产业事件。Critical 级。",
+      "source": "The Information / DCD",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-in-talks-to-lease-10gw-data-center-from-sb-energy-in-ohio/",
+      "keywords": ["OpenAI", "俄亥俄 10 吉瓦", "5000 亿美元", "英伟达担保", "软银 SB Energy", "全球最大单体"],
+      "category": "公司动态"
+    },
+    {
+      "id": 2,
+      "title": "AI 数小时把补丁变漏洞",
+      "content": "Anthropic 安全团队研究显示，其 Mythos 预览模型能在数小时内把安全补丁逆向成攻击程序。火狐测试中，模型为 18 个补丁里的 14 个生成崩溃验证，并将其中 8 个做成可执行任意代码的完整攻击，首个攻击在补丁发布后不到 1 小时出现，而对应稳定版还要 18 天才推送。Windows 内核测试中最快 31 分钟产出首个验证，全部攻击约耗 1.57 万美元、平均每个 2000 美元。Anthropic 警告，传统「N 日漏洞」正让位于「N 小时漏洞」。",
+      "importance": "critical",
+      "reasoning": "6 月 8 日 Axios 独家首发，The Decoder、Help Net Security、IBTimes 等 9 日跟进，今日热点新闻。该研究以实测数据（火狐 18 选 14、Windows 31 分钟、约 2000 美元一个）证明 AI 把补丁逆向成漏洞从「周」压到「小时」，直接改变防御方的修补时间窗，是有量化证据的安全范式转变。继 6 月 10 日 报道 Anthropic 发布 Fable 5 后，今日转向其同源模型的攻防研究角度。Critical 级。",
+      "source": "Axios / The Decoder",
+      "url": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches/",
+      "keywords": ["Anthropic Mythos", "补丁逆向漏洞", "火狐 18 选 14", "Windows 31 分钟", "N 小时漏洞", "AI 安全"],
+      "category": "安全事件"
+    },
+    {
+      "id": 3,
+      "title": "谷歌开源 DiffusionGemma",
+      "content": "谷歌开源文本扩散模型 DiffusionGemma，参数 260 亿、激活 38 亿，基于 Gemma 4 改造，以并行出块替代逐词生成，速度最高提升 4 倍。在英伟达 H100 上每秒输出逾千词，采用 Apache 2.0 协议，支持 140 多种语言。代价是测试得分逊于标准版 Gemma 4，定位注重速度的本地场景。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 谷歌发布，MarkTechPost、SiliconANGLE、英伟达官博 等同步报道，今日热点新闻。文本扩散以并行出块替代逐词生成，把速度提到 4 倍、H100 上每秒逾千词，且开源可本地部署，为长期由自回归主导的生成路线提供另一条工程路径，虽测试分仍逊于标准版。High 级。",
+      "source": "MarkTechPost / SiliconANGLE",
+      "url": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
+      "keywords": ["谷歌 DiffusionGemma", "文本扩散", "260 亿参数", "提速 4 倍", "Apache 2.0", "开源本地部署"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "摩根大通把 AI 当基建",
+      "content": "摩根大通把 AI 投入从研发重新归类为核心基础设施，纳入 2026 年约 198 亿美元技术预算，其中 AI 年预算约 20 亿美元、视同网络安全不可削减。戴蒙称投入已被约 20 亿美元运营节省覆盖，惠及逾 15 万员工，工程与反欺诈环节提效 10% 至 11%。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 多家财经媒体报道，AI News、MLQ、Prism News 等同步覆盖，今日热点新闻。把 AI 与数据中心、支付系统并列为不可削减的核心基建，并以 20 亿美元运营节省自我覆盖、带来 10%-11% 效率提升，是大型金融机构对 AI 投入定性的标志性转变，具行业风向意义。High 级。",
+      "source": "AI News / MLQ",
+      "url": "https://www.artificialintelligence-news.com/news/jpmorgan-chase-treats-ai-spending-as-core-infrastructure/",
+      "keywords": ["摩根大通", "198 亿技术预算", "AI 核心基建", "20 亿运营节省", "15 万员工", "10-11% 提效"],
+      "category": "行业观察"
+    },
+    {
+      "id": 5,
+      "title": "亚马逊借 175 亿投 AI",
+      "content": "亚马逊再向银行借入 175 亿美元加码 AI 基建，使其总借款突破 2250 亿美元。公司预计 2026 年资本支出约 2000 亿美元，多投向数据中心与自研芯片。摩根士丹利预计今年 AI 相关债务翻倍至约 5700 亿美元，债券正成为算力扩张的主要融资工具。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 TechCrunch 报道，Yahoo Finance、The Next Web、Stocktwits 等同步覆盖，今日热点新闻。单笔 175 亿美元贷款、总借款破 2250 亿美元、年资本支出约 2000 亿美元，叠加摩根士丹利对全行业 AI 债务翻倍至 5700 亿美元的预测，反映算力扩张正从自有现金转向大举举债。High 级。",
+      "source": "TechCrunch / Yahoo Finance",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "keywords": ["亚马逊", "借款 175 亿", "总借款 2250 亿", "资本支出 2000 亿", "AI 债务翻倍", "举债扩算力"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "xAI 被诉解雇安全工程师",
+      "content": "马斯克旗下 xAI 被前工程师起诉，称其因就 Grok 安全示警遭非法解雇。原告 Devin Kim 于 2025 年 9 月离职，曾警告 Grok 或助长歧视等风险。诉讼赶在 SpaceX 1.75 万亿美元 IPO 前。",
+      "importance": "medium",
+      "reasoning": "6 月 10 日 TechCrunch 首发，Law360、Mezha、The Star 等同步报道，今日新闻。诉讼直指 xAI 在 Grok 上轻视安全、并在临近 SpaceX 1.75 万亿美元 IPO 的敏感节点曝光，叠加 Grok 此前多起安全争议，关乎 AI 安全文化与吹哨人保护。Medium 级。",
+      "source": "TechCrunch / Law360",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "keywords": ["xAI", "Grok 安全", "工程师起诉", "非法解雇", "Devin Kim", "SpaceX IPO"],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "NotebookLM 大升级",
+      "content": "谷歌升级研究工具 NotebookLM，改用 Gemini 3.5 Flash，给笔记本配备可执行代码的云端计算机与智能体检索。新版平均胜率超 65%、网页检索胜率达 78.2%，现面向 AI Ultra 用户开放。",
+      "importance": "medium",
+      "reasoning": "6 月 8 日 谷歌发布，The Decoder、PPC.land 等同步报道，今日新闻。NotebookLM 接入 Gemini 3.5 Flash 与编程工具后获得代码执行与智能体检索能力，平均胜率超 65%、网页检索胜率 78.2%，把研究助手从「读文档」推进到「自动取数 + 跑分析」。Medium 级。",
+      "source": "The Decoder / PPC.land",
+      "url": "https://the-decoder.com/googles-notebooklm-now-runs-its-own-cloud-computer-with-code-execution-and-agent-based-research/",
+      "keywords": ["谷歌 NotebookLM", "Gemini 3.5 Flash", "云端计算机", "代码执行", "胜率 65%", "智能体研究"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "德国设 AI 安全研究所",
+      "content": "德国国安委批准设立 AI 安全研究所，仿照英国 2023 年的 AISI，评估前沿模型能力与风险。由此德国加入国际 AI 安全研究所网络，推动统一评测标准，预算暂未披露。",
+      "importance": "medium",
+      "reasoning": "6 月 9 日 dpa 首发，Yahoo、TechXplore、Euro Security 等同步报道，今日新闻。德国循英国 AISI 模式设立国家级评测机构，正式加入国际 AI 安全研究所网络，意在以统一标准评估前沿模型风险，是欧洲 AI 治理走向机构化的一步。区域性政策事件，Medium 级。",
+      "source": "dpa / Yahoo News",
+      "url": "https://www.yahoo.com/news/science/articles/germany-set-national-ai-safety-125542122.html",
+      "keywords": ["德国 AI 安全研究所", "DE-AISI", "仿英国 AISI", "前沿模型评估", "国际网络", "AI 治理"],
+      "category": "政策监管"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-11T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "The Decoder", "The Information", "AIBase", "CNBC", "MarkTechPost", "Yahoo Finance", "WebSearch"],
+    "duplicates_removed": 12,
+    "generation_time_seconds": 900
+  }
+}
