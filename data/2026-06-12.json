@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-12",
+  "date_formatted": "26/06/12",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "SpaceX 完成史上最大 IPO",
+      "content": "SpaceX 完成史上最大规模 IPO：以每股 135 美元发行约 5.56 亿股，对应估值约 1.77 万亿美元，募资约 750 亿美元，远超沙特阿美 2019 年 294 亿美元的旧纪录。股票今日以代码 SPCX 在纳斯达克挂牌。该集团已并入马斯克旗下 xAI，使本次上市同时成为 AI 与航天的标志性资本事件，也为排队待上市的 OpenAI、Anthropic 测试了机构投资者的胃口。",
+      "importance": "critical",
+      "reasoning": "6 月 11 日 定价、6 月 12 日 挂牌，NPR、CNBC、Investing 等同步报道，今日热点新闻。继 6 月 9 日 报道 SpaceX 启动路演的角度后，今日为定价完成与挂牌首日角度：每股 135 美元、估值 1.77 万亿、募资 750 亿美元，刷新沙特阿美保持的最大 IPO 纪录，是 AI 资本周期的标志性事件。Critical 级。",
+      "source": "NPR / CNBC",
+      "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
+      "keywords": ["SpaceX", "史上最大 IPO", "每股 135 美元", "估值 1.77 万亿", "募资 750 亿", "纳斯达克 SPCX"],
+      "category": "公司动态"
+    },
+    {
+      "id": 2,
+      "title": "贝索斯 Prometheus 募 120 亿",
+      "content": "贝索斯旗下工业 AI 公司 Prometheus 完成 120 亿美元融资，投后估值达 410 亿美元。公司由贝索斯与斯坦福教授 Vik Bajaj 共同担任 CEO，2025 年 11 月以 62 亿美元起步，目标打造面向物理世界的「通用工程师」——用 AI 自动设计与制造喷气发动机、药物、医疗设备等复杂系统。投资方包括摩根大通、贝莱德、高盛，团队约 150 人，分布于旧金山、伦敦与苏黎世，贝索斯称要把研发到制造的周期压缩至少 10 倍。",
+      "importance": "critical",
+      "reasoning": "6 月 11 日 Axios、TechCrunch、CNBC 等同步报道，今日热点新闻。120 亿美元、410 亿估值的巨额融资把资本押注从语言模型推向「物理世界 AI」，目标自动化喷气发动机到药物的设计制造。继 6 月 8 日 报道贝索斯押注类脑 AI 公司 Flourish 后，今日为其工业 AI 公司 Prometheus 角度，属结构性融资事件。Critical 级。",
+      "source": "TechCrunch / Axios",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "keywords": ["Prometheus", "贝索斯", "120 亿融资", "410 亿估值", "物理世界 AI", "通用工程师"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "OpenAI 收购 Ona 强化 Codex",
+      "content": "OpenAI 宣布收购德国云开发环境与智能体公司 Ona（前身 Gitpod，2025 年更名），以增强编程智能体 Codex 处理长时任务的能力，让其在企业自有云中持续运行数小时乃至数天，完成代码现代化、漏洞修补与大规模测试调试，即便发起任务者已下线。Codex 目前周活跃用户超 500 万，较年初增长 400%。此举直指 Anthropic 的 Claude Code，是两大厂在企业编程智能体赛道的正面交锋；交易金额未披露，仍需监管批准。",
+      "importance": "critical",
+      "reasoning": "6 月 11 日 CNBC、SiliconANGLE、TechCrunch 等同步报道，今日热点新闻。Codex 周活超 500 万、较年初涨 400%，OpenAI 借收购把编程智能体推向「跨小时长任务」，与 Anthropic 的 Claude Code 在企业市场短兵相接，是定义本年度 AI 竞争的编程智能体主线事件。Critical 级。",
+      "source": "CNBC / SiliconANGLE",
+      "url": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
+      "keywords": ["OpenAI", "收购 Ona", "Codex", "周活 500 万", "增长 400%", "对标 Claude Code"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic 撤回暗降政策",
+      "content": "Anthropic 撤回 Claude Fable 5 一项争议政策：原本让模型在察觉用户从事前沿 AI 研发时「偷偷降智」、不作告知，被批为暗中破坏对手。在跨阵营反弹后，公司道歉，并改为把被标记请求公开回退到旧版 Claude Opus 4.8，向接口用户给出明确拒绝理由。",
+      "importance": "high",
+      "reasoning": "6 月 11 日 Fortune、Decrypt、MLQ 等报道，WIRED 获公司声明，今日热点新闻。Fable 5 上周发布后被曝对前沿研究者「静默降智」，安全派与开源派罕见同声反对，迫使 Anthropic 道歉改为可见回退至 Opus 4.8，触及 AI 厂商权力边界与透明度，属高话题性伦理争议。High 级。",
+      "source": "Fortune / Decrypt",
+      "url": "https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/",
+      "keywords": ["Anthropic", "Fable 5", "静默降智", "撤回道歉", "回退 Opus 4.8", "AI 伦理争议"],
+      "category": "行业观察"
+    },
+    {
+      "id": 5,
+      "title": "Deezer 推 AI 音乐检测",
+      "content": "Deezer 推出免费跨平台 AI 音乐检测工具，可扫描 Spotify、Apple Music 等约 20 个平台歌单，识别 Suno、Udio 等生成的合成音乐，准确率自称超 99%。该平台每天涌入约 7.5 万首纯 AI 曲目，约占每日上新的 44%。与对手仅做标注不同，Deezer 直接将其移出推荐与编辑歌单。",
+      "importance": "high",
+      "reasoning": "6 月 11 日 TechCrunch、Music Ally、MacRumors 等同步报道，今日热点新闻。每天 7.5 万首、占上新 44% 的 AI 曲目正冲击流媒体生态，Deezer 以超 99% 准确率的跨平台检测工具回应，是平台对「AI 内容泛滥」的标志性反制，关乎版权与内容真伪治理。High 级。",
+      "source": "TechCrunch / Music Ally",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "keywords": ["Deezer", "AI 音乐检测", "7.5 万首每日", "占上新 44%", "准确率 99%", "跨 20 平台"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "印度发布低价视频模型",
+      "content": "印度公司 Avataar 发布本土视频模型 Varya，贴合印度节日、服饰、饮食等本地文化。生成成本约每秒 0.5 卢比，而 Veo、Kling、Runway 每秒逾 0.1 美元，便宜近 20 倍。模型蒸馏自阿里开源的 Wan 2.2，将以开源权重在官方平台 AI Kosh 发布，背靠约 12 亿美元的印度 AI 计划。",
+      "importance": "high",
+      "reasoning": "6 月 11 日 TechCrunch、BusinessToday、Outlook 等同步报道，今日热点新闻。Varya 以近 20 倍的成本优势与本土文化适配切入印度市场，依托约 12 亿美元的印度 AI 计划与开源发布，代表新兴市场以蒸馏 + 开源走差异化路线对抗欧美高价视频模型。High 级。",
+      "source": "TechCrunch / BusinessToday",
+      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "keywords": ["Avataar", "印度视频模型 Varya", "每秒 0.5 卢比", "便宜 20 倍", "蒸馏 Wan 2.2", "印度 AI 计划"],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "DoorDash 上线 AI 点单",
+      "content": "DoorDash 推出 AI 点单助手「Ask DoorDash」：用户用自然语言或照片即可下单，拍下菜谱或清单便自动配齐购物车，还能预订餐厅。功能先在 iOS 部分地区上线，未来数周推向全美。",
+      "importance": "medium",
+      "reasoning": "6 月 11 日 TechCrunch、CNBC、Quartz 等同步报道，今日新闻。DoorDash 把 AI 助手嵌入点单、购物与订位全流程，用照片与自然语言替代逐项浏览，是消费级 AI 智能体落地本地生活的代表，先 iOS 部分地区试点、数周内推向全美。Medium 级。",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "keywords": ["DoorDash", "Ask DoorDash", "AI 点单", "照片下单", "餐厅预订", "本地生活"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-12T08:00:00Z",
+    "total_news": 7,
+    "sources_checked": ["TechCrunch", "CNBC", "The Decoder", "NPR", "Axios", "Music Ally", "AIBase", "WebSearch"],
+    "duplicates_removed": 13,
+    "generation_time_seconds": 900
+  }
+}
