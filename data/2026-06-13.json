@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-13",
+  "date_formatted": "26/06/13",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "苹果 Siri 换心谷歌",
+      "content": "苹果在 WWDC 2026 大会宣布将 Siri 底层迁移至谷歌定制的约 1.2 万亿参数 Gemini 模型，每年授权费用约 10 亿美元，是苹果有史以来规模最大的 AI 模型外采决策。iOS 27 同步引入 Extensions 功能，首次允许用户将 Claude、Gemini 或 ChatGPT 设为系统默认助手，使三家模型厂商均可进入 iPhone 核心交互层。Siri 轻量任务仍由苹果本地模型处理，复杂请求路由至谷歌云英伟达 B200 集群。开发者测试版已即时发布，正式版预计 9 月随新 iPhone 推出；这也是 CEO Tim Cook 担任掌门人逾 14 年来的最后一届 WWDC，9 月 1 日起由工程负责人 John Ternus 接任。",
+      "importance": "critical",
+      "reasoning": "WWDC 2026 于 6 月 8 日开幕、6 月 12 日昨日闭幕，TechCrunch、Bloomberg、CNBC 等同步报道，今日为闭幕次日，苹果-谷歌 Gemini 协议商业细节仍在持续深度分析中，属持续发酵的重大事件；因触及十亿级消费者 AI 路径转折点保留。苹果以每年 10 亿美元将 Siri 大脑外包给竞争对手谷歌，并把 Claude 与 ChatGPT 纳入 iOS 27 扩展层，彻底改写移动端 AI 竞争版图。Critical 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "keywords": ["苹果 WWDC 2026", "Siri Gemini", "1.2 万亿参数", "每年 10 亿美元", "iOS 27 Extensions", "Tim Cook 退休"],
+      "category": "产品发布"
+    },
+    {
+      "id": 2,
+      "title": "OpenAI 秘密提交上市申请",
+      "content": "OpenAI 向美国证券交易委员会（SEC）提交机密 S-1 上市申请，目标估值约 1 万亿美元，由高盛与摩根士丹利联合承销，CEO Sam Altman 表示上市时间尚未确定，最早可能今年秋季。公司目前月营收约 20 亿美元，但每赚 1 美元约需支出 1.22 美元，持续亏损。此次申请晚于竞争对手 Anthropic 约一周——后者估值约 3800 亿美元、年化营收约 300 亿美元已率先提交；叠加 SpaceX 本周以 1.77 万亿美元估值完成挂牌，三家头部公司同步冲刺公开资本市场，形成罕见的 AI IPO 浪潮。",
+      "importance": "critical",
+      "reasoning": "6 月 8–9 日 OpenAI 主动披露称「预计文件会泄露，故先行公告」，CBS News、NBC News、TechCrunch 等同步报道；叠加 Anthropic 6 月 1 日先发 S-1、SpaceX 6 月 12 日已挂牌，AI IPO 竞赛持续发酵，属今年资本市场最大主线，因定义本年度 AI 资本周期保留。OpenAI 1 万亿目标估值与每赚 1 美元亏 1.22 美元的财务对比持续引发机构讨论。Critical 级。",
+      "source": "CBS News / NBC News",
+      "url": "https://www.cbsnews.com/news/openai-files-confidential-initial-public-offering/",
+      "keywords": ["OpenAI", "S-1 上市申请", "1 万亿估值", "高盛摩根斯坦利", "月营收 20 亿", "AI IPO 浪潮"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Neura 融 14 亿刷机器人纪录",
+      "content": "德国人形机器人公司 Neura Robotics 完成最高 14 亿美元 C 轮融资，投后估值约 70 亿美元，刷新全栈机器人公司单轮融资纪录。本轮由稳定币发行方 Tether 领投，英伟达、亚马逊、博世、高通及欧洲投资银行联合参与。Neura 目标于 2030 年前实现年产数百万台机器人，聚焦制造、物流、医疗与消费四大场景，资本向物理 AI 持续集结，本周已有两笔逾 1 亿美元的机器人融资相继落地。",
+      "importance": "critical",
+      "reasoning": "6 月 11 日 Neura Robotics 官网首发，CNBC、Yahoo Finance、TechTimes 等同步报道，今日热点新闻。14 亿美元刷新全栈机器人单轮纪录，70 亿估值、英伟达与亚马逊战略入股叠加 Tether 跨界领投，反映物理 AI 已吸引科技巨头、传统制造商与金融资本全面押注，属结构性融资事件。继 6 月 12 日报道贝索斯 Prometheus 120 亿融资后，今日聚焦欧洲机器人，不同实体、不同赛道。Critical 级。",
+      "source": "CNBC / Yahoo Finance",
+      "url": "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html",
+      "keywords": ["Neura Robotics", "14 亿 C 轮", "70 亿估值", "英伟达亚马逊", "Tether 领投", "欧洲机器人纪录"],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "Visa 接入 ChatGPT 让 AI 代购",
+      "content": "Visa 将支付网络嵌入 ChatGPT，允许 AI 智能体在用户授权下自主完成购物，覆盖 Visa 全球约 4 亿签约商户、逾 200 个国家及地区。用户绑定 Visa 卡后可设定预算、时间与配送限制，由智能体自主搜索并付款；OpenAI 负责商品决策，Visa 提供支付授权与实时反欺诈监控。此次集成可供 ChatGPT 逾 10 亿月活用户使用，是首个在全球网络规模上将 AI 智能体与支付基础设施打通的商业落地案例。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 Axios 首发，ABC News、gHacks Tech News 等同步报道，今日热点新闻。Visa 约 4 亿商户接入 ChatGPT 把 AI 智能体从「推荐者」变为「执行者」，代理经济商业闭环首次在消费级网络规模实现。继 6 月 12 日报道 DoorDash Ask DoorDash 后，今日转向更深层的支付基础设施层，不同实体、不同技术层次。High 级。",
+      "source": "Axios / ABC News",
+      "url": "https://www.axios.com/2026/06/10/visa-chatgpt-agents-commerce",
+      "keywords": ["Visa", "ChatGPT", "AI 代购", "约 4 亿商户", "逾 200 国家", "代理经济"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "月之暗面开源万亿参数编程模型",
+      "content": "月之暗面（Moonshot AI）发布开源编程模型 Kimi K2.7-Code，含 1 万亿总参数（其中 320 亿激活），采用混合专家架构（384 专家节点），上下文长度 25.6 万字符，当日同步上传至 Hugging Face，采用修改版 MIT 协议允许商用。模型专为长时自主软件工程设计，相比前代减少约 30% 推理用量，代码专项评测提升 21.8%，API 定价每百万输入 0.95 美元、输出 4 美元，低于同量级主流竞品。",
+      "importance": "high",
+      "reasoning": "6 月 12 日 Moonshot AI 官方发布并同步 Hugging Face，CryptoBriefing、MarkTechPost 等同步报道，今日热点新闻。1 万亿参数全量开源、MIT 可商用、推理用量降 30% 是今年开源编程模型最大单次进展；API 定价 $0.95/$4 低于同量级竞争对手，持续拉低 AI 编程接入门槛，挤压闭源模型溢价空间。High 级。",
+      "source": "CryptoBriefing / MarkTechPost",
+      "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/",
+      "keywords": ["月之暗面", "Kimi K2.7-Code", "1 万亿参数", "320 亿激活", "MIT 开源", "评测提升 21.8%"],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI 模型进 Oracle 企业积分",
+      "content": "OpenAI 与 Oracle 合作，允许 OCI 企业客户使用 Oracle 通用积分（UCM）直接兑换 OpenAI 前沿模型与 Codex 调用额度，无需单独签约，预计数周内上线。Codex 目前每周活跃开发者逾 400 万，使用场景已从代码生成延伸至事故处理与业务自动化；双方已有 4.5 吉瓦 Stargate 数据中心协作框架，此次积分贯通进一步深化对大型企业的捆绑。",
+      "importance": "high",
+      "reasoning": "6 月 10 日 OpenAI 官网及 TechGenyz、StartupHub 等同步报道，今日热点新闻。借道 Oracle UCM 积分是 OpenAI 继 Dell 和 AWS 后的第三大企业通路扩张，把 Codex 从开发者直购推进到企业采购预算闭环，400 万周活跃开发者的体量说明 Codex 渗透率已具规模，4.5 吉瓦 Stargate 协作使合作更加深度捆绑。High 级。",
+      "source": "OpenAI / TechGenyz",
+      "url": "https://openai.com/index/openai-on-oracle-cloud/",
+      "keywords": ["OpenAI", "Oracle UCM", "企业积分购 Codex", "400 万开发者", "4.5 吉瓦 Stargate", "企业通路扩张"],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "ChatGPT 月活突破 10 亿",
+      "content": "ChatGPT 月活跃用户突破 10 亿，成为史上最快达成该里程碑的应用，仅用约 3 年，而 TikTok、Instagram、YouTube 均需 5 至 8 年。OpenAI 周活跃用户超 9 亿，每日处理逾 20 亿次查询，月访问量约为其他 AI 平台总和的 6 倍。竞争者 Claude 月活约 5600 万，但年增速达 640%，约是 ChatGPT 的 62% 增速的 10 倍，差距正加速收窄。",
+      "importance": "medium",
+      "reasoning": "6 月 12 日 Quartz、Dataconomy、PYMNTS 等多家媒体报道，Sensor Tower 数据证实，今日热点新闻。10 亿月活是消费 AI 普及的里程碑节点，3 年达成速度超越历史上所有应用；Claude 640% 增速说明消费级 AI 竞争进入加速收窄阶段，市场格局正在发生结构性变化。Medium 级。",
+      "source": "Quartz / Dataconomy",
+      "url": "https://qz.com/chatgpt-billion-monthly-users-rivals-gaining-061226",
+      "keywords": ["ChatGPT", "月活 10 亿", "3 年最快纪录", "Claude 640%", "9 亿周活", "20 亿每日查询"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "美国 AI 工业机器人融 2 亿",
+      "content": "美国工业机器人公司 Standard Bots 完成 2 亿美元 C 轮融资，估值达 10 亿美元，由 RoboStrategy 领投，General Catalyst 跟投。公司生产基于演示训练的 AI 原生机械臂，无需传统代码编程，目标一年内占领美国新增工业机器人市场的 10%，并将纽约州工厂扩建至约 6500 平方米以提升产能。",
+      "importance": "medium",
+      "reasoning": "6 月 9 日 Bloomberg、RoboticsAndAutomationNews 首发，4 天前；属于本周物理 AI 融资浪潮的组成部分（继 6 月 11 日 Neura Robotics 14 亿美元 C 轮之后），不同实体（美国工业机器人）、不同场景（制造业自动化），两者共同构成本周 AI 机器人融资核心叙事，因持续发酵的物理 AI 融资主线保留。Medium 级。",
+      "source": "Bloomberg / Robotics247",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/standard-bots-raises-200-million-to-manufacture-robots-in-us",
+      "keywords": ["Standard Bots", "2 亿美元 C 轮", "10 亿估值", "演示训练机械臂", "美国市场 10%", "工厂扩建 6500 平方米"],
+      "category": "公司动态"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-13T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "Bloomberg", "CNBC", "Axios", "CBS News", "NBC News", "Yahoo Finance", "CryptoBriefing", "MarkTechPost", "Quartz", "Dataconomy", "WebSearch"],
+    "duplicates_removed": 14,
+    "generation_time_seconds": 900
+  }
+}
