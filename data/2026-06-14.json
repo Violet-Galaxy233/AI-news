@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-14",
+  "date_formatted": "26/06/14",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "白宫发首个前沿 AI 框架",
+      "content": "特朗普签署《推进前沿人工智能创新与安全》行政令，建立全球首个面向前沿 AI 模型的联邦监管框架。开发商须在向受信任伙伴发布前提供最多 30 天政府预审窗口，并参与由 NSA 与 CISA 主导的「AI 网络安全信息交换中心」，但所有措施均为自愿性质，明确禁止创设任何强制许可或预审制度。受影响最大的是 OpenAI、Anthropic、Google 等持续发布千亿参数级以上模型的厂商；行政令同时要求 OMB 在 60 天内评估联邦 AI 漏洞检测资金，加速前沿模型安全测试标准化。这是美国首次以行政命令形式对 AI 安全链路作出系统性制度安排，结束长达数年的联邦监管空白。",
+      "importance": "critical",
+      "reasoning": "6月2日 White House 官网首发，Pillsbury Law、Inside Privacy、Global Policy Watch、Hogan Lovells 等法律媒体同步深度解析，12天前签署，行业合规落实正密集进行。行政令首次将「30天政府预审」写入前沿模型发布流程、要求 NSA/CISA 联合搭建 AI 安全信息中枢，是美国 AI 治理体系里程碑。因属首例联邦级前沿 AI 监管框架、各机构执行细则正陆续出台，持续发酵保留。Critical 级。",
+      "source": "White House / Inside Privacy",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "keywords": ["白宫行政令", "前沿 AI 框架", "30 天政府预审", "NSA CISA", "自愿监管", "AI 安全信息中枢"],
+      "category": "政策监管"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic 15 亿版权赔偿启动分配",
+      "content": "Anthropic 史上最大 AI 版权和解进入分配执行阶段：约 50 万名作者及出版商权利人可获赔，每部受侵作品约 3,000 美元，约 12 万名权利人已提交索赔申请。Anthropic 已先行支付 3 亿美元至托管账户，终审批准后再付 3 亿美元，余款分期足额支付，总计 15 亿美元。法院裁定「AI 训练本身可援引合理使用，但存储盗版副本不受保护」，为全行业训练数据使用划定法律红线，将直接影响 OpenAI、谷歌等同类诉讼的走势与谈判筹码。这是 AI 行业首次面对超 10 亿美元量级的版权赔偿裁决，先例效力覆盖所有主流训练数据集。",
+      "importance": "critical",
+      "reasoning": "2025年8月 Anthropic 与原告达成和解，2026年4月22日终审批准，6月11日分配计算截止——今日起进入支付准备期，Authors Guild、Copyright Alliance、Courthouse News、Fieldfisher 同步报道。15亿美元赔偿额与「存储盗版≠合理使用」双轨判定，是首个对 AI 公司大规模版权侵权作出量化惩处与法律定性的里程碑案例，行业版权谈判格局将发生根本变化。Critical 级。",
+      "source": "Authors Guild / Courthouse News",
+      "url": "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/",
+      "keywords": ["Anthropic 版权和解", "15 亿美元", "50 万作者", "每作品 3000 美元", "AI 训练版权", "合理使用边界"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Grok V9-Medium 进驻特斯拉与 X",
+      "content": "SpaceX 旗下 xAI 部门将 Grok V9-Medium 推送至全球特斯拉联网车队及 X 平台，1.5 万亿参数规模约为现有生产版本 3 倍。模型以 Anysphere（Cursor）平台上逾 100 万名开发者的真实编程会话为核心训练数据，专项编程评测目标全面超越 Claude Code，是迄今首个以开发者真实工作流为主导训练的万亿参数级 AI 模型。公开 API 版本预计本周内正式发布，强化学习已完成约 5 周；Grok Imagine 1.5 图生视频功能同步向开发者开放，最高支持 720p 输出、每分钟处理 60 次请求，发布首日登顶 Artificial Analysis 图生视频竞技场榜首。",
+      "importance": "critical",
+      "reasoning": "6月10日 TechTimes 首发「Grok V9 进入特斯拉与 X」，6月9日马斯克 X 帖确认训练完成，openpr.com、techloy.com、chatforest.com 等同步报道，今日为预期公开 API 发布窗口期内。1.5万亿参数+Cursor 真实开发者数据+Tesla/X 双平台同步推送，是 SpaceX/xAI 今年最重量级模型出击，直接挑战 Anthropic Claude Code 与 OpenAI Codex 在编程智能体赛道的领导地位。Critical 级。",
+      "source": "TechTimes / openpr.com",
+      "url": "https://www.techtimes.com/articles/318165/20260610/grok-v9-rolls-tesla-cars-x-why-musks-distribution-flywheel-worries-ai-rivals.htm",
+      "keywords": ["Grok V9-Medium", "1.5 万亿参数", "Tesla X 部署", "Cursor 开发者数据", "SpaceXAI", "Grok Imagine 1.5"],
+      "category": "产品发布"
+    },
+    {
+      "id": 4,
+      "title": "Anthropic 明日触发计费双截止",
+      "content": "Anthropic 明日（6 月 15 日）同时触发两项重大变更：其一，Claude Sonnet 4 与 Opus 4 的 API 全面退役，调用即报错，无宽限期，须迁移至 Sonnet 4.6 与 Opus 4.8；其二，Agent SDK 及 Claude -p 程序化调用脱离订阅，改为独立积分池按量计费——Pro 每月 20 美元、Max 5x 100 美元、Max 20x 200 美元，积分不跨月滚存。重度智能体工作负载实际成本涨幅达 12 至 175 倍，今日为迁移与积分激活最后窗口。",
+      "importance": "high",
+      "reasoning": "5月13日 Anthropic 邮件通知，6月8日二次提醒，Enterprise DNA、MindStudio、codersera、Level Up Coding 等今日密集报道，明日（6月15日）生效。Sonnet 4/Opus 4 退役与 Agent SDK 计费分离在同一天触发，重度用量成本涨幅超 12 倍，影响全球数百万使用 Claude Code 与 Agent SDK 的开发者及企业，今日为处置最后窗口。High 级。",
+      "source": "Enterprise DNA / MindStudio",
+      "url": "https://enterprisedna.co/resources/news/anthropic-claude-june-15-retirements-billing-2026/",
+      "keywords": ["Anthropic 计费变更", "Claude 4 退役", "Agent SDK 分计费", "Pro 20 美元", "Max 200 美元", "开发者迁移"],
+      "category": "产品发布"
+    },
+    {
+      "id": 5,
+      "title": "NAVER 携英伟达建吉瓦级主权 AI",
+      "content": "韩国互联网巨头 NAVER 与英伟达宣布共建主权 AI 工厂：首期在韩国世宗 GAK 数据中心部署 55 兆瓦，2027 年向海外扩展至 100 兆瓦、2028 年进一步扩至 200 兆瓦，最终目标达吉瓦级（1,000 兆瓦）规模。采用英伟达 DSX 全栈参考架构，支持 NAVER 自研 HyperCLOVA X 模型的训练与企业及政府服务，是英伟达 DSX 平台在亚太区的首个大规模主权落地案例，也是韩国以国家战略形式抢占本地 AI 算力主导权的重要信号。",
+      "importance": "high",
+      "reasoning": "6月7日英伟达官网及 NVIDIA 投资者关系同步首发，Korea Herald、DCD、TechRepublic、Digitimes 等同步报道，7天前事件。韩国整合英伟达 DSX 平台以 55MW 起步、1GW 为目标，是亚太主权 AI 基建的重量级里程碑，属全球 AI 算力地缘格局持续演进主线，因系 DSX 平台首个吉瓦级主权工厂落地且仍在各行业引发效仿讨论，持续发酵保留。High 级。",
+      "source": "NVIDIA Newsroom / Korea Herald",
+      "url": "https://nvidianews.nvidia.com/news/naver-ai-infrastructure",
+      "keywords": ["NAVER", "英伟达 DSX", "55 兆瓦", "1000 兆瓦目标", "HyperCLOVA X", "韩国主权 AI"],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "加拿大砸 23 亿推全民 AI 战略",
+      "content": "加拿大总理卡尼发布国家 AI 战略「AI for All」，承诺投入逾 23 亿加元：其中 7 亿追加至 AI 算力获取基金（总规模达 10 亿）、5 亿区域 AI 专项、5 亿科技增长基金、2 亿医疗 AI、5,000 万至 AI 安全研究所。目标 5 年内新增 25 万个 AI 就业岗位，AI 企业采用率从 12% 升至 2034 年 60%，带动额外 2,000 亿加元经济增长；同日与英国签署 AI 算力联合协议，加拿大成为七国集团中首个将 AI 算力列为国家战略资产的主要成员。",
+      "importance": "high",
+      "reasoning": "6月4日总理府发布，CBC News、Baker McKenzie、KPMG Canada 等同步报道，10天前事件。加拿大首次以全国战略形式将 AI 算力主权化，23亿加元量级、5年25万就业目标，与英国当日签署算力协议，标志七国集团成员国正以「AI 算力=国家资产」逻辑加速布局，属全球 AI 算力地缘格局持续重构主线，因政策后续落地仍在密集讨论中保留。High 级。",
+      "source": "Prime Minister of Canada / CBC News",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial",
+      "keywords": ["加拿大 AI for All", "23 亿加元", "25 万就业", "AI 采用率 60%", "主权 AI", "英国算力协议"],
+      "category": "政策监管"
+    },
+    {
+      "id": 7,
+      "title": "GPT-5.2 三变体全面下线",
+      "content": "OpenAI 将 GPT-5.2 Instant、GPT-5.2 Thinking、GPT-5.2 Pro 三个变体同步下线，现有 ChatGPT 对话自动迁移至对应 GPT-5.5 系列，无需开发者手动操作。GPT-5.5 于 4 月末成为 ChatGPT 默认模型，个性化增强功能上周已扩展至 Go 与 Free 2 个免费层级。此次退役距 GPT-5.2 首发不足 6 个月，是 OpenAI 加速统一向 GPT-5.5 平台迁移的组成部分。",
+      "importance": "medium",
+      "reasoning": "6月12日 OpenAI Model Release Notes 确认，TechCrunch、OpenAI Help Center 等同步更新，昨日新闻。GPT-5.2 三变体在不足 6 个月内退役，反映 OpenAI 模型迭代周期持续压缩，影响所有基于 GPT-5.2 API 的开发者被动切换至 GPT-5.5。Medium 级。",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "keywords": ["GPT-5.2 退役", "三个变体", "GPT-5.5 迁移", "OpenAI", "ChatGPT", "模型代际加速"],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "Grok Imagine 1.5 视频生成登顶",
+      "content": "xAI 图生视频工具 Grok Imagine 1.5 发布首日登顶 Artificial Analysis 图生视频竞技场，支持 720p 与 480p 双分辨率输出、内置音频生成，API 每分钟处理 60 次请求。马斯克在 X 上发布演示片段，静态图经自然语言提示生成电影感视频，多镜头拼接支持跨场景风格一致，与 Runway、Kling 形成直接竞争。",
+      "importance": "medium",
+      "reasoning": "6月11日马斯克 X 演示视频发布，PixVerse、Digital Applied、GenAI Intel 等同步报道，今日热点新闻。Grok Imagine 1.5 首日登顶竞技榜，720p+音频+60 RPM 在同价位视频生成工具中具备竞争力，是 xAI 在视频生成赛道的正式入场。继今日 Grok V9-Medium 报道其编程模型角度，本条聚焦视频生成赛道，不同技术层次。Medium 级。",
+      "source": "PixVerse / Digital Applied",
+      "url": "https://www.digitalapplied.com/blog/grok-imagine-1-5-image-to-video-brand-ad-production-2026",
+      "keywords": ["Grok Imagine 1.5", "图生视频", "720p", "60 RPM", "Artificial Analysis 榜首", "xAI 视频生成"],
+      "category": "产品发布"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-14T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": ["TechCrunch", "CNBC", "The Decoder", "White House", "Authors Guild", "Courthouse News", "TechTimes", "openpr.com", "Enterprise DNA", "MindStudio", "NVIDIA Newsroom", "Korea Herald", "Prime Minister of Canada", "CBC News", "OpenAI", "PixVerse", "Digital Applied", "WebSearch"],
+    "duplicates_removed": 18,
+    "generation_time_seconds": 900
+  }
+}
