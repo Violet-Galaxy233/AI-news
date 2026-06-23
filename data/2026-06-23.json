@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-23",
+  "date_formatted": "26/06/23",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 启动全球补漏计划",
+      "content": "OpenAI 联合 Trail of Bits、HackerOne 启动「Patch the Planet」计划，并升级网络安全模型 GPT-5.5-Cyber，用 AI 大规模发现并修复开源软件漏洞。该模型在 CyberGym 安全测试中得分 85.6%，高于上代 GPT-5.5 的 81.8%；它扫描了超 3000 万行 Linux 内核代码，生成 8 个内核信息泄露与 24 个本地提权验证样本，并在 FreeBSD 中确认 34 个漏洞。计划首周覆盖 cURL、Python、Go 等 19 个开源项目，提交 64 个修复、记录 51 个问题。这标志 AI 安全研究从演示走向规模化的实际防护。",
+      "importance": "critical",
+      "reasoning": "6月22日 OpenAI 与 Trail of Bits 同步发布，Axios、SecurityBrief、MLQ 等报道，今日热点新闻。升级版安全模型测试创新高，并以 AI 加人工复核的方式批量修复关键开源项目漏洞，把自动漏洞挖掘从实验推向产业级防护，影响全行业软件安全基线。Critical 级。",
+      "source": "OpenAI / Trail of Bits",
+      "url": "https://openai.com/index/patch-the-planet/",
+      "keywords": [
+        "OpenAI",
+        "Patch the Planet",
+        "GPT-5.5-Cyber",
+        "开源漏洞",
+        "得分 85.6%",
+        "19 个项目"
+      ],
+      "category": "安全事件"
+    },
+    {
+      "id": 2,
+      "title": "SpaceX 签 63 亿算力订单",
+      "content": "开源 AI 公司 Reflection 与 SpaceX 签署算力协议，自 7月1日 起每月支付 1.5 亿美元，租用 Colossus 2 数据中心的英伟达顶级 GB300 芯片，若执行至 2029 年总额约 63 亿美元，协议设三个月初始期与 90 天解约条款。估值 250 亿美元的 Reflection 借此锁定训练前沿开源模型所需的稀缺算力。SpaceX 近两月已签下逾 800 亿美元算力订单，并拿下 Anthropic、谷歌、Cursor 等客户，在毫无云业务基础下跻身大型 AI 基础设施供应商。",
+      "importance": "critical",
+      "reasoning": "6月22日 CNBC 首发，TechCrunch、Quartz 等同步报道，今日热点新闻。SpaceX 把 Colossus 数据中心转为对外商用算力平台，两月内签约超 800 亿美元，正以新进入者身份冲击 AWS、Azure、谷歌云的算力市场格局。Critical 级。",
+      "source": "CNBC / TechCrunch",
+      "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+      "keywords": [
+        "SpaceX",
+        "Reflection",
+        "63 亿美元",
+        "GB300 芯片",
+        "Colossus 2",
+        "月付 1.5 亿"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "中国筹 2950 亿建算力网",
+      "content": "中国正制定一项五年 2950 亿美元的全国 AI 基础设施计划，由国家发改委等牵头，将分散的数据中心连成统一算力网络，目标 2028 年前并网，并要求 AI 芯片等技术至少 80% 来自华为等本土供应商，实质把英伟达、AMD 挤出，由中国移动、中国电信等国企运营。该投入仍低于美国仅 Meta、微软等企业今年就规划的 7250 亿美元。这是中国以国家力量构建主权算力、应对芯片出口管制的关键一步。",
+      "importance": "critical",
+      "reasoning": "6月22日 Tech Times 就 80% 本土芯片强制比例的细节更新，源自彭博 6月9日 首发的方案，因属国家级主权算力战略且持续发酵，故保留。计划以 2950 亿美元规模重构中国算力供给、系统性替代英伟达，关乎全球 AI 产业链分化。Critical 级。",
+      "source": "Bloomberg / Tech Times",
+      "url": "https://www.techtimes.com/articles/318868/20260622/china-ai-data-center-grid-locks-out-nvidia-295-billion-domestic-chip-mandate.htm",
+      "keywords": [
+        "中国",
+        "2950 亿美元",
+        "算力网络",
+        "80% 本土芯片",
+        "挤出英伟达",
+        "主权算力"
+      ],
+      "category": "政策监管"
+    },
+    {
+      "id": 4,
+      "title": "Groq 融资 6.5 亿再起步",
+      "content": "AI 芯片公司 Groq 确认完成 6.5 亿美元融资，由 Disruptive 与 Infinitum 领投，未披露最新估值，去年 9月 上轮融资时估值 69 亿美元。在英伟达以 200 亿美元达成技术授权并挖走其创始人后，Groq 转向 AI 运行服务，目前运营 13 个数据中心、服务超 500 万开发者。",
+      "importance": "high",
+      "reasoning": "6月22日 Groq 官宣确认，TechCrunch、彭博等同步报道，今日热点新闻。在被英伟达 200 亿美元抽走核心团队后，Groq 以 6.5 亿美元重整旗鼓、转攻 AI 运行赛道，是芯片初创应对巨头挤压的标志性二次创业。High 级。",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "keywords": [
+        "Groq",
+        "融资 6.5 亿",
+        "AI 运行服务",
+        "13 个数据中心",
+        "500 万开发者",
+        "英伟达挖角"
+      ],
+      "category": "公司融资"
+    },
+    {
+      "id": 5,
+      "title": "谷歌 7500 万投 A24 拍片",
+      "content": "谷歌 DeepMind 向独立电影公司 A24 投资 7500 万美元，建立首例此类合作，共同开发 AI 电影制作工具，早期项目用 AI 生成分镜草图。协议为多年期、非独家，且不向谷歌开放 A24 的内容库与用户数据，双方称工具将保留创作主导权。",
+      "importance": "high",
+      "reasoning": "6月22日 TechCrunch、Variety、好莱坞报道者等同步报道，今日热点新闻。科技巨头与精品片商首次以 7500 万美元股权绑定共研 AI 制片工具，且明确划定数据边界，为 AI 进入好莱坞提供了一种保留创作权的新范式。High 级。",
+      "source": "TechCrunch / Variety",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "keywords": [
+        "谷歌 DeepMind",
+        "A24",
+        "7500 万美元",
+        "AI 制片",
+        "分镜生成",
+        "非独家"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 6,
+      "title": "双模型停用十天未恢复",
+      "content": "Anthropic 旗下 Fable 5、Mythos 5 因美国出口管制指令已全球停用 10 天未恢复。面向 Claude 付费用户的免费试用窗口关闭，自即日起需消耗付费额度。预测市场显示 7月1日 前恢复概率约 57%；一项 7月8日 生效的身份验证政策，或可先向本土用户恢复。",
+      "importance": "high",
+      "reasoning": "6月22日 多家媒体跟进，源自 6月12日 的管制停用，因政府强制关停前沿模型属重大事件且持续发酵，今日报道由停用本身转向 10 天后的商业与合规连锁影响，与 6月16日 的初始角度不同，故保留。High 级。",
+      "source": "Fortune / Tech Times",
+      "url": "https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm",
+      "keywords": [
+        "Anthropic",
+        "Fable 5",
+        "Mythos 5",
+        "停用 10 天",
+        "免费试用关闭",
+        "身份验证"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 7,
+      "title": "伪造报错可劫持编程助手",
+      "content": "安全公司 Tenet 披露名为 Agentjacking 的攻击：仅凭一个公开的 Sentry 凭证注入伪造报错，即可诱使 Claude Code、Cursor、Codex 等 AI 编程助手执行恶意命令，在 2388 家机构测试中成功率达 85%。",
+      "importance": "medium",
+      "reasoning": "6月初 Tenet 向 Sentry 报告，6月中经 The Hacker News、CSA 等披露并持续发酵至今日，因直接威胁主流 AI 编程助手且无需身份认证即可得手，故保留。85% 成功率、波及 2388 家机构，揭示 AI 智能体安全的系统性短板。Medium 级。",
+      "source": "Tenet Security / The Hacker News",
+      "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+      "keywords": [
+        "Agentjacking",
+        "Sentry",
+        "AI 编程助手",
+        "成功率 85%",
+        "2388 家机构",
+        "窃取凭证"
+      ],
+      "category": "安全事件"
+    },
+    {
+      "id": 8,
+      "title": "亚马逊测印地语 Alexa+",
+      "content": "亚马逊开始在印度内测对话式 AI 助手 Alexa+ 的印地语版本。该助手此前已在美国、英国、加拿大等国上线，印度面临数十种语言与中英混说挑战，上线时间未定。",
+      "importance": "medium",
+      "reasoning": "6月22日 TechCrunch 首发，The Next Web 等同步报道，今日热点新闻。亚马逊将 Alexa+ 推向印度并主攻印地语，瞄准多语言混说这一语音 AI 难点，是其消费级 AI 抢占新兴市场的关键试水。具体上线时间未披露，Medium 级。",
+      "source": "TechCrunch / The Next Web",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "keywords": [
+        "亚马逊",
+        "Alexa+",
+        "印地语",
+        "印度内测",
+        "多语言",
+        "新兴市场"
+      ],
+      "category": "区域事件"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-23T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Bloomberg",
+      "OpenAI",
+      "Variety",
+      "Fortune",
+      "The Hacker News",
+      "WebSearch"
+    ],
+    "duplicates_removed": 14,
+    "generation_time_seconds": 1080
+  }
+}
