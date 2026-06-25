@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-25",
+  "date_formatted": "26/06/25",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "OpenAI 发首款自研芯片",
+      "content": "OpenAI 与博通联合发布首款定制 AI 芯片 Jalapeño，专为 AI 模型推理打造，冲击英伟达的算力主导地位。该芯片由 OpenAI 设计、博通负责硅片实现，从设计到流片仅 9 个月，为高性能半导体史上最快的专用芯片开发之一。博通称其每瓦性能远超顶级产品、运行成本约为通用 AI 芯片的一半。Jalapeño 计划 2026 年底部署，支撑与微软等共建的吉瓦级数据中心，标志头部 AI 公司加速自研芯片、减少对英伟达的依赖。",
+      "importance": "critical",
+      "reasoning": "6月24日 OpenAI 与博通同步发布，CNBC、TechCrunch、Tom's Hardware 等报道，今日热点新闻。OpenAI 首款芯片以 9 个月最快流片、约半成本切入推理算力，是继亚马逊、高通后头部玩家自研芯片浪潮的关键一环，直指英伟达的定价权。Critical 级。",
+      "source": "CNBC / TechCrunch",
+      "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+      "keywords": [
+        "OpenAI",
+        "博通",
+        "Jalapeño",
+        "自研芯片",
+        "9 个月流片",
+        "成本减半"
+      ],
+      "category": "硬件发布"
+    },
+    {
+      "id": 2,
+      "title": "谷歌六天流失四名 AI 大将",
+      "content": "谷歌正加速流失顶尖 AI 人才。两名 Gemini 模型核心研究员 Jonas Adler 与 Alexander Pritzel 将转投 Anthropic，二人此前还参与 AlphaFold 研究。这是六天内谷歌第四位资深 AI 研究员出走：诺贝尔奖得主、AlphaFold 团队负责人 John Jumper 已加入 Anthropic，Transformer 论文作者 Noam Shazeer 转投 OpenAI。受双人离职消息冲击，谷歌母公司 Alphabet 股价盘中一度下挫 7.2%。在两家对手冲刺上市、以股权诱才的背景下，谷歌的人才护城河正受到严峻考验。",
+      "importance": "critical",
+      "reasoning": "6月24日 彭博、TechCrunch 等同步报道，今日热点新闻。六天内四名资深研究员、含一位诺贝尔奖得主从谷歌流向 Anthropic 与 OpenAI，并令 Alphabet 股价盘中跌 7.2%，反映上市预期下的人才争夺正重塑前沿模型竞争格局。Critical 级。",
+      "source": "Bloomberg / TechCrunch",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic",
+      "keywords": [
+        "谷歌",
+        "人才流失",
+        "Anthropic",
+        "Gemini 研究员",
+        "六天四人",
+        "Alphabet 跌 7.2%"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "人形机器人 25 亿借壳上市",
+      "content": "人形机器人公司 Agility Robotics 将通过与丘吉尔资本合并借壳上市，估值约 25 亿美元，预计募资逾 6.2 亿美元，其中含富士康领投的 2 亿美元定向增发。公司的双足机器人 Digit 已在丰田、GXO、Mercado Libre 等 9 个客户场景部署，新一代 Digit v5 已锁定逾 3 亿美元的多年期订单。交易预计 2026 年内完成，合并后以代码 AGLT 上市，是人形机器人企业迈向公开市场的标志性一步。",
+      "importance": "critical",
+      "reasoning": "6月24日 TechCrunch、The Robot Report、雅虎财经等同步报道，今日热点新闻。继 2015 年从俄勒冈州立大学孵化后，Agility 以 25 亿美元估值、逾 3 亿美元在手订单率先冲击公开市场，叠加富士康入股，标志人形机器人进入规模商用与资本化阶段。Critical 级。",
+      "source": "TechCrunch / The Robot Report",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "keywords": [
+        "Agility Robotics",
+        "借壳上市",
+        "估值 25 亿",
+        "Digit 机器人",
+        "富士康",
+        "3 亿订单"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 4,
+      "title": "Cerebras 上市首财报股价重挫",
+      "content": "AI 芯片公司 Cerebras 上市后首份财报令股价单日重挫约 15%。营收虽超预期，但其将全年核心毛利率指引降至 38% 至 41%、二季度更低至 36% 至 38%，远低于一季度的 47%；称因数据中心空间短缺被迫向大客户租回设备，拉低毛利率 10 至 15 个百分点。",
+      "importance": "high",
+      "reasoning": "6月24日 CNBC、TechCrunch、雅虎财经等同步报道，今日热点新闻。这家 5月 才上市的 AI 芯片商首份财报因毛利率指引大幅下滑而股价重挫，暴露算力扩张中数据中心空间短缺对盈利的挤压，给 AI 硬件热潮敲响估值警钟。High 级。",
+      "source": "CNBC / TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "keywords": [
+        "Cerebras",
+        "股价跌 15%",
+        "毛利率下调",
+        "数据中心短缺",
+        "租回设备",
+        "上市首财报"
+      ],
+      "category": "行业观察"
+    },
+    {
+      "id": 5,
+      "title": "印孚瑟斯前 CEO 创 AI 公司",
+      "content": "印孚瑟斯前 CEO 维沙尔·西卡创办 AI 公司 Hang Ten Systems，完成 3200 万美元种子融资，Mayfield 领投，目标用 AI 重塑规模 3000 亿美元的 IT 服务业。公司以智能体生成代码帮企业开发软件、摆脱按人头扩张的旧模式，成立约一个月已签下西门子歌美飒等客户。",
+      "importance": "high",
+      "reasoning": "6月24日 TechCrunch、Business Today、德干先驱报等同步报道，今日热点新闻。前印孚瑟斯掌门以 3200 万美元起步、剑指 3000 亿美元 IT 服务市场，用智能体生成代码替代按人头扩张的旧模式，折射 AI 对传统外包服务业的结构性冲击。High 级。",
+      "source": "TechCrunch / Deccan Herald",
+      "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+      "keywords": [
+        "维沙尔·西卡",
+        "Hang Ten Systems",
+        "种子 3200 万",
+        "IT 服务业",
+        "智能体生成代码",
+        "3000 亿市场"
+      ],
+      "category": "公司动态"
+    },
+    {
+      "id": 6,
+      "title": "英伟达发科研智能体工具包",
+      "content": "英伟达发布 BioNeMo 智能体工具包，把逾十年的生命科学模型与工具开放给 AI 智能体调用，覆盖生物、化学、基因组与新药发现。智能体可自动筛选候选化合物、预测结合强度，把虚拟筛选从数天压到数分钟，礼来、Anthropic 等逾 50 家机构已采用。",
+      "importance": "high",
+      "reasoning": "6月23日 英伟达官宣，制药科技、StockTitan、GlobeNewswire 等同步报道，今日热点新闻。英伟达把十余年生命科学积累封装为可被智能体调用的工具、并获逾 50 家机构采用，把新药虚拟筛选由数天压至数分钟，加速 AI 在科研与制药的规模落地。High 级。",
+      "source": "NVIDIA / Pharmaceutical Technology",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery",
+      "keywords": [
+        "英伟达",
+        "BioNeMo 工具包",
+        "科研智能体",
+        "新药发现",
+        "筛选数天压至数分钟",
+        "50 家机构"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 7,
+      "title": "Anthropic 推团队协作 Claude",
+      "content": "Anthropic 推出团队协作产品 Claude Tag，用户可在 Slack 频道标注 @Claude 委派任务、连接数据与代码库。该功能面向企业版与团队版，Anthropic 称其产品团队已有 65% 代码由内部版本生成。",
+      "importance": "medium",
+      "reasoning": "6月24日 Anthropic 发布，The Decoder 等报道，今日热点新闻。Claude 由单人对话走向多人协作与异步任务、并以内部 65% 代码自动生成佐证成效，反映 AI 编程助手向团队级工作流深入。Medium 级。",
+      "source": "Anthropic / The Decoder",
+      "url": "https://www.anthropic.com/news",
+      "keywords": [
+        "Anthropic",
+        "Claude Tag",
+        "团队协作",
+        "Slack",
+        "异步任务",
+        "内部 65% 代码"
+      ],
+      "category": "产品发布"
+    },
+    {
+      "id": 8,
+      "title": "工程岗位最抗 AI 替代",
+      "content": "数据显示工程岗位最抗 AI 替代。SignalFire 称 AI 多在提升软件工程师效率而非取代，23% 的工程岗位处于低替代风险区。全美 267 起裁员波及逾 18.5 万人，56% 提及 AI。",
+      "importance": "medium",
+      "reasoning": "6月24日 TechCrunch 报道，引 SignalFire 等就业数据，今日热点新闻。在 AI 裁员潮中，工程尤其需现场与执业资质的岗位显现最强抗替代性，23% 处于低风险区，与甲骨文等万人级裁员形成对照，为「AI 取代就业」叙事提供更细颗粒度的证据。Medium 级。",
+      "source": "TechCrunch / SignalFire",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "keywords": [
+        "工程岗位",
+        "抗 AI 替代",
+        "SignalFire",
+        "23% 低风险",
+        "267 起裁员",
+        "56% 提及 AI"
+      ],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-25T08:00:00Z",
+    "total_news": 8,
+    "sources_checked": [
+      "TechCrunch",
+      "CNBC",
+      "Bloomberg",
+      "NVIDIA",
+      "The Robot Report",
+      "Deccan Herald",
+      "SignalFire",
+      "WebSearch"
+    ],
+    "duplicates_removed": 14,
+    "generation_time_seconds": 1140
+  }
+}
