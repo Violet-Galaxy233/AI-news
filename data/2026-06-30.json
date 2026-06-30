@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-30",
+  "date_formatted": "26/06/30",
+  "title": "AI 闪电快讯",
+  "news": [
+    {
+      "id": 1,
+      "title": "韩国5900亿建芯群",
+      "content": "Samsung、SK Hynix 与韩国政府宣布约 5,900 亿美元半导体扩产计划，为全球最大单次芯片投资公告。其中 5,190 亿美元用于新建 4 座内存晶圆厂（两家各 2 座），另 700 亿美元投入封装集群和下一代研发，周期 15 年。AI 需求已推高内存价格：HBM3E 今年涨约 20%，第三季度普通内存预计再涨 40-50%，缺口最早 2028 年才有望收窄。全球前五大 AI 公司 2025-2026 年数据中心总投入预计突破 1 万亿美元，内存厂商已处于 AI 供应链核心。",
+      "importance": "critical",
+      "reasoning": "6月29日 KED Global 首发，The Decoder、Yahoo Finance、Ars Technica 等多家媒体同步跟进，今日重大投资公告。5,900 亿美元规模超越历史上任何单次芯片建厂承诺，直接对应 AI 算力扩张最大硬件瓶颈——内存供应。HBM 价格飙升已推高数据中心建设成本，而 2028 年前新产能有限，短期涨价压力不减。影响 OpenAI、Google、Microsoft 等全部主流 AI 厂商供应链成本，属结构性产业事件。Critical 级。",
+      "source": "The Decoder / KED Global",
+      "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-chip-demand-sends-memory-prices-soaring/",
+      "keywords": ["Samsung", "SK Hynix", "芯片投资", "内存价格", "AI基础设施"],
+      "category": "硬件发布"
+    },
+    {
+      "id": 2,
+      "title": "亚马逊复刻Claude降本",
+      "content": "亚马逊工程师正将 Anthropic 旗下 Claude 模型压缩复刻为轻量内部版本，以规避即将到来的计费改革。Anthropic 计划将收费从按算力小时改为按处理量计，新机制最早明年生效，亚马逊 AI 支出届时预计大幅攀升。亚马逊是 Anthropic 40 亿美元战略投资方，通过 AWS 分销 Claude；此次内部复刻表明这笔重磅投资的商业利益已出现裂痕。亚马逊同时评估至少 2 家外部替代方案及自研 Nova 系列，新价格涨幅尚未披露。",
+      "importance": "critical",
+      "reasoning": "6月29日 The Decoder 独家披露，TipRanks 等多家金融媒体同步跟进，今日重磅商业动态。亚马逊对 Anthropic 累计投资 40 亿美元并是其最重要云分销渠道；若亚马逊成功复刻或切换供应商，将对 Anthropic 营收造成结构性打击。模型蒸馏行为同时引发 AI 行业对知识产权边界的广泛讨论。该动态表明 AI 定价博弈已从口头博弈进入工程行动阶段。Critical 级。",
+      "source": "The Decoder / TipRanks",
+      "url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
+      "keywords": ["亚马逊", "Anthropic", "Claude", "AI定价", "模型蒸馏"],
+      "category": "公司动态"
+    },
+    {
+      "id": 3,
+      "title": "Coinbase转用中国AI",
+      "content": "Coinbase CEO Brian Armstrong 披露：将工程师默认工具切换为中国开源模型 GLM 5.2 和 Kimi K2.7 Code 后，公司 AI 支出降低约 50%。GLM 5.2 每百万次处理量收费约 1.4 美元，仅为 Anthropic 旗舰模型的约 28%；缓存命中率同步从 5% 提升至 60%，而工程师使用量仍在增长。两款模型已列入美国国会安全审查名单，Coinbase 将其部署于自有服务器以规避数据出境风险，成本差距超 3 倍折射出西方 AI 实验室面临的定价危机。",
+      "importance": "critical",
+      "reasoning": "6月28日 The Decoder 报道，TechTimes、Yahoo Finance 等多家媒体跟进，昨日重磅商业动态。Coinbase 是美国最大合规加密货币交易所，CEO 公开披露具体切换路径和省本比例，具有强烈示范效应。GLM（智谱 AI）和 Kimi（月之暗面）虽列入国会审查名单，但本地部署有效规避数据出境争议，显示出主流操作路径。西方 AI 实验室定价压力已进入实质博弈阶段。Critical 级。",
+      "source": "The Decoder / TechTimes",
+      "url": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/",
+      "keywords": ["Coinbase", "中国AI", "GLM", "Kimi", "AI定价"],
+      "category": "行业观察"
+    },
+    {
+      "id": 4,
+      "title": "Meta封锁竞对AI工具",
+      "content": "Meta 限制工程师使用 Claude Code 和 Codex 2 款编程工具，防止竞对 AI 能力通过工具输出渗入 Meta 训练数据。公司政策禁止将工具输出用于测试任务或代码分析，自研替代工具 MetaCode；涉及与 Anthropic 和 OpenAI 2 家供应商的使用权争议，受影响工程师规模尚未披露。",
+      "importance": "high",
+      "reasoning": "6月29日 The Decoder 独家披露，Crypto Briefing、AI Weekly、ZeroHedge 等多家媒体同步报道，今日热点。The Information 内部文件确认政策点名限制 2 款特定产品。Meta 旗下 AI 团队规模位居全球前列，此决定将加剧行业训练数据争夺，并为其他大型科技公司设立先例。2025 年 Anthropic 更新用户条款允许选择性训练，被认为是 Meta 此次收紧的直接诱因。High 级。",
+      "source": "The Decoder / Crypto Briefing",
+      "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
+      "keywords": ["Meta", "Claude Code", "Codex", "训练数据", "数据竞争"],
+      "category": "公司动态"
+    },
+    {
+      "id": 5,
+      "title": "Anthropic签加州政府约",
+      "content": "Anthropic 与加州州长 Gavin Newsom 宣布合作，以 5 折向全州机构及 58 个县市政府提供 Claude，是美国首次在单一州内向全体政府部门统一推开 AI 工具。Claude 成为首款由加州科技部统一分发的 AI 工具，Anthropic 提供免费培训；覆盖工作人员数及上线时间线待定。",
+      "importance": "high",
+      "reasoning": "6月29日加州州长办公室官方公告，TechCrunch、Fox Business、CBS Sacramento 等多家媒体同步报道，今日重要政策动态。政府 AI 采购以 50% 折扣面向全州 58 个县市统一落地，在美国各州中属首例；若其他州效仿将影响全国公共部门 AI 采购格局。Anthropic 以折扣换取政府背书，对其商业化路径有重要意义。High 级。",
+      "source": "TechCrunch / 加州州长办公室",
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "keywords": ["Anthropic", "加州政府", "Claude", "政府采购", "AI部署"],
+      "category": "行业观察"
+    },
+    {
+      "id": 6,
+      "title": "AI编程工具遭恶意劫持",
+      "content": "安全机构 0DIN 披露：黑客将恶意指令藏在 GitHub 仓库 DNS 记录中，Claude Code 等 AI 工具运行脚本时自动拉取执行，开发者机器控制权被转移且扫描工具无法检出。漏洞已影响至少 3 款 AI 编程工具，CVSS 评分 9.6 分；此类攻击量较上年增加 340%。",
+      "importance": "high",
+      "reasoning": "6月29日 The Decoder 独家披露，SecurityWeek、CyberSecurityNews 等多家安全媒体同步跟进，今日热点安全动态。攻击向量利用 AI 工具自动执行特性绕过人工审查，且 DNS 隐藏指令在仓库文件中完全不可见，防御难度极高。Claude Code、Gemini CLI、GitHub Copilot 三大编程助手同时受影响，覆盖绝大多数活跃开发者群体。9.6 CVSS 评分和 340% 年增速表明威胁已进入严重区间。High 级。",
+      "source": "The Decoder / SecurityWeek",
+      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+      "keywords": ["AI安全", "Claude Code", "提示注入", "供应链攻击", "GitHub"],
+      "category": "安全事件"
+    },
+    {
+      "id": 7,
+      "title": "德勤警告计时费将终结",
+      "content": "德勤向自家顾问发出内部预警：AI 智能体将使「按小时计费」模式在 2035 年前萎缩至「极薄一层」；麦肯锡和波士顿咨询集团亦在探索替代营收模式，3 大咨询巨头面临业务结构重构。德勤全球员工逾 40 万，受影响计费收入比例尚未披露。",
+      "importance": "high",
+      "reasoning": "6月29日 The Decoder 独家披露（内部简报泄露），今日行业观察热点。Deloitte、McKinsey、BCG 是全球管理咨询三大巨头，三家同时重构商业模式意味着 AI 对白领知识服务业颠覆已进入实质规划阶段。此事件延续此前关于 AI 取代白领工作的争论，具有较强行业信号价值；报道以 The Decoder 独家为主要来源，Financial Times 等有相关领域跟进分析。High 级。",
+      "source": "The Decoder（独家）",
+      "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
+      "keywords": ["德勤", "咨询业", "AI替代", "计费模式", "白领工作"],
+      "category": "行业观察"
+    },
+    {
+      "id": 8,
+      "title": "TIDAL拒为AI音乐分成",
+      "content": "TIDAL 宣布自 7 月 15 日起取消 100% AI 生成音乐的版税分成，并自动标注「AI」标签，封锁其对粉丝销售资格，删除 AI 冒充真人艺人的曲目；受影响曲目规模尚未披露。",
+      "importance": "medium",
+      "reasoning": "6月29日 TechCrunch 首发，Billboard、Variety、Digital Music News、Music Business Worldwide 等至少 4 家专业媒体同日报道，今日音乐行业热点。TIDAL 以艺人权益为差异化定位，此次将 AI 生成内容明确排除在版税体系之外，是音乐平台对 AI 版权边界的首批强制执行动作之一，Spotify 和 Apple Music 目前尚无类似明确政策，具有行业示范意义。Medium 级。",
+      "source": "TechCrunch / Billboard",
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "keywords": ["TIDAL", "AI音乐", "版权", "版税", "音乐流媒体"],
+      "category": "行业观察"
+    },
+    {
+      "id": 9,
+      "title": "AI已撑起半壁工作量",
+      "content": "Anthropic 调查显示，近半数 Claude 用户认为 AI 已完成其日常工作超过 50% 的任务；33% 估计替代率在 30-60% 之间，14% 表示高达 60-90%；具体样本量及行业分布尚未披露。",
+      "importance": "medium",
+      "reasoning": "6月29日 AIBase 报道，Anthropic 官方调查数据，今日补充性数据点。用户自我报告的替代率存在高估偏向，且 Claude 用户属早期采用者群体，不代表整体劳动力市场。但数据具参考价值，可作为 Anthropic 展示 Claude 真实影响力的商业背书，与行业对 AI 工作替代率的广泛讨论相呼应。Medium 级。",
+      "source": "Anthropic / AIBase",
+      "url": "https://news.aibase.com/news/29220",
+      "keywords": ["Anthropic", "Claude", "AI工作替代", "用户调查", "AI效率"],
+      "category": "行业观察"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-30T08:00:00Z",
+    "total_news": 9,
+    "sources_checked": ["TechCrunch", "The Decoder", "AIBase", "Hacker News", "KED Global", "SecurityWeek"],
+    "duplicates_removed": 8,
+    "generation_time_seconds": 900
+  }
+}
