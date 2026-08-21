@@ -13,6 +13,8 @@ export default defineConfig({
       name: 'copy-data-dir',
       closeBundle() {
         cpSync(resolve(__dirname, 'data'), resolve(__dirname, 'dist/data'), { recursive: true })
+        cpSync(resolve(__dirname, 'weekly'), resolve(__dirname, 'dist/weekly'), { recursive: true })
+        cpSync(resolve(__dirname, 'papers'), resolve(__dirname, 'dist/papers'), { recursive: true })
       }
     }
   ],

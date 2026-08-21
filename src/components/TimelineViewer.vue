@@ -7,7 +7,10 @@
           <span class="tl-logo-text">AI 追踪</span>
           <span class="tl-logo-sub">话题追踪 · 日报归档</span>
         </div>
-        <RouterLink to="/" class="back-link">← 今日快讯</RouterLink>
+        <div class="top-links">
+          <RouterLink to="/" class="back-link">← AI 周报</RouterLink>
+          <RouterLink to="/daily" class="back-link">历史日报</RouterLink>
+        </div>
       </div>
     </header>
 
@@ -494,6 +497,12 @@ const formatDate = (dateStr) => {
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   transition: all 0.2s;
+}
+
+.top-links {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
 }
 
 .back-link:hover {

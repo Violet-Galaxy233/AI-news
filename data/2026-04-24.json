@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "title": "DeepSeek V4 开源",
+      "title": "DeepSeek V4 发布",
       "content": "深度求索正式发布 DeepSeek V4——1.6 万亿参数混合专家 Pro 版与 2840 亿参数 Flash 版双型号、Apache 2.0 开源权重；最大支持 100 万字符上下文；融合 Compressed Sparse Attention 与 Heavily Compressed Attention 双重混合注意力、Manifold-Constrained Hyper-Connections 结构，32 万亿以上字符数据与 FP4+FP8 混合精度完成基础训练；API 同步上线 deepseek-v4-pro 与 deepseek-v4-flash；老 deepseek-chat、deepseek-reasoner 将于 7月24日 退役、当日起流量全部转入 Flash。与 GPT-5.5 同日发布。",
       "importance": "critical",
       "reasoning": "4月24日 DeepSeek 技术报告首发，Hugging Face、AIBase、Hacker News、OFox.ai 同步报道，今日头条新闻。V4 是 DeepSeek V3 以来隔 16 个月的世代更新，1.6 万亿参数 Pro 是中国实验室公开开源权重参数规模新高、与 GPT-5.5 同日发布形成正面对撞；Apache 2.0 许可叠加 100 万字符上下文和 32 万亿字符基础训练，在开源-闭源智能差距上较 V3 显著收窄，对 Qwen3.6-27B 与 Tencent Hy3 后续开源节奏构成压力。Critical 级。",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "title": "Tencent Hy3 开源",
+      "title": "Tencent Hy3 发布",
       "content": "腾讯混元团队开源 Hy3 Preview——2950 亿参数混合专家架构、210 亿活跃参数、256K 上下文长度；前 OpenAI 研究员姚顺雨主导基础训练与强化学习栈重建，冷启动到发布不足 3 个月；权重在 Hugging Face、ModelScope、GitCode 同步开放；上线腾讯云等 9 个端侧产品，最低 28 元每月。",
       "importance": "high",
       "reasoning": "4月23日 Decrypt、SCMP、AIBase、Pandaily 同步报道，今日新闻。Hy3 Preview 是腾讯混元品牌重构后首款对外开源模型，210 亿活跃参数规模以 40% 效率提升对标业界主力 MoE 模型，叠加从冷启动到开源不足三个月的节奏，标志腾讯从产品集成 AI 转向自研开源前沿模型；与 DeepSeek V4 同日发布、与 Qwen3.6-27B 前后呼应，中国实验室开源产能进入密集释放期。High 级。",

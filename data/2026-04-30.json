@@ -5,7 +5,7 @@
   "news": [
     {
       "id": 1,
-      "title": "Anthropic 估 9000 亿",
+      "title": "Anthropic 估值约 9000 亿",
       "content": "Anthropic 已收到多份新一轮融资意向、单轮规模约 500 亿美元、投后估值在 8500 亿至 9000 亿美元区间；本轮估值若落地将使 Anthropic 一举超过 OpenAI 当前 8520 亿美元、成为全球估值最高的 AI 创业公司；公司年化营收已从 2024 年底约 10 亿美元跳升至 2025 年底约 90 亿、本月达 300 亿美元；近期已锁定 Amazon 累计 250 亿美元投资+10 年 1000 亿 AWS 算力+5 吉瓦专属容量；Google 此前已宣布最高 400 亿美元投资+5 年 5 吉瓦 TPU 算力承诺；Anthropic 公司表示尚未接受任何意向、协商处于很早期阶段；本轮融资若完成、估值将较公司 2 月的 3800 亿美元一举翻倍以上。",
       "importance": "critical",
       "reasoning": "4月29日 Bloomberg 首发，TechCrunch、CNBC、MarketScreener、BloombergLaw、Yahoo Finance、Shacknews、digitaltoday、WTVB AM、gncrypto 等全球同步报道，今日头条新闻。Anthropic 500 亿美元融资+8500-9000 亿美元估值+反超 OpenAI 8520 亿美元+月度营收数据飞跃，是 AI 资本市场首次出现「Anthropic 估值反超 OpenAI」的拐点；与 4月28日 Microsoft-OpenAI 解锁多云协议、4月28日 OpenAI 错失 Q1 营收+用户目标同周登场，标志 AI 龙头王座出现 ChatGPT 发布以来首次实质动摇；Amazon+Google 双云厂同时为 Anthropic 押注千亿级合作、印证商业模式优势已转移到编程+企业市场。Critical 级。",
@@ -33,7 +33,14 @@
       "reasoning": "4月29日 Alphabet 财报电话会首发，TechCrunch、CNBC、9to5Google、Constellation Research、investingLive、Phemex、Yahoo Finance、Deadline、Hollywood Reporter、Quartz、Android Central 等全球同步报道，今日头条新闻。Google Cloud 200 亿美元季度+63% 增速+4600 亿积压订单+Pichai 公开承认算力短缺+Gemini 付费 +40% 环比+160 亿字符/分钟处理量+1900 亿全年资本开支，是云业务首次跨入「需求端结构性供不应求」拐点；与 4月29日 Microsoft Copilot 2000 万席位、4月28日 OpenAI Q1 错失目标同日登场，三大云厂全面进入「AI 收入物理化」阶段、超大规模数据中心扩张面临从能源到设备的多重瓶颈。Critical 级。",
       "source": "Alphabet / TechCrunch / CNBC",
       "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
-      "keywords": ["Alphabet", "Google Cloud", "200 亿", "63% 增速", "350 亿订阅", "1900 亿资本开支"],
+      "keywords": [
+        "Alphabet",
+        "Google Cloud",
+        "200 亿",
+        "63% 增速",
+        "350 亿订阅",
+        "1900 亿资本开支"
+      ],
       "category": "公司动态"
     },
     {
@@ -77,7 +84,14 @@
       "reasoning": "4月28日 GM 官方新闻室首发，Yahoo Autos、Benzinga、Hoodline、wheelz.me、24/7 Wall St、Phandroid、root-nation、Autoblog、AIBase 等同步报道，今日热点新闻。GM Gemini 400 万辆+2022 款及以后全平台覆盖+Super Cruise 10 亿英里里程+车厂主动批量推送，是车载 AI 助手首次以百万级既有车队同步升级方式落地；与 4月22日 Google Cloud Next、4月29日 Alphabet 财报双驱动同月登场，Google 将 Gemini 从软件订阅扩展到大众消费硬件分发渠道、对标 Tesla 自有车队 AI 升级路径。High 级。",
       "source": "GM / Yahoo Autos / Benzinga",
       "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
-      "keywords": ["General Motors", "Google Gemini", "400 万辆", "Super Cruise", "Google Built-in", "车载 AI"],
+      "keywords": [
+        "General Motors",
+        "Google Gemini",
+        "400 万辆",
+        "Super Cruise",
+        "Google Built-in",
+        "车载 AI"
+      ],
       "category": "产品发布"
     },
     {
@@ -90,17 +104,6 @@
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-has-effectively-abandoned-first-party-stargate-data-centers-in-favor-of-more-flexible-deals-company-now-prefers-to-lease-compute-and-says-stargate-is-an-umbrella-term",
       "keywords": ["OpenAI", "Stargate", "自建放弃", "230 兆瓦", "Trainium", "品牌伞"],
       "category": "公司动态"
-    },
-    {
-      "id": 9,
-      "title": "Le Chat 60% 假信息",
-      "content": "NewsGuard 发布最新独立审计、Mistral AI 旗舰对话产品 Le Chat 在英语场景下复述虚假信息率 50%、法语场景 56.6%；针对涉俄、涉伊朗、涉中国国家级宣传内容、模型在中性提问下错误率 10%、敌意提问下飙升至 80%；样本含「伊朗防空军在科威特边境击落美 F-15」等 10 条具名虚假；Mistral 面向法国政府部门提供的 Le Chat Enterprise 因不联网未受影响。",
-      "importance": "medium",
-      "reasoning": "4月29日 NewsGuard 报告首发，The Decoder、Franceinfo、Generation NT、Siècle Digital、Lettre Audiovisuel、Apex Incwo 等同步报道，今日新闻。NewsGuard 独立审计+Le Chat 50%/56.6% 错误率+敌意提问 80%+10 条具名俄伊中虚假信息+企业版不联网豁免，是「主权 AI」品牌叙事下欧洲旗舰模型首次被第三方机构系统性证伪；与 3月19日 Meta AI 智能体失控泄露同线，主流面向公众的对话 AI 在国家级宣传战中防御能力薄弱、政府版与公众版裂分趋势加剧。Medium 级。",
-      "source": "NewsGuard / The Decoder / Franceinfo",
-      "url": "https://the-decoder.com/mistrals-le-chat-spreads-iran-war-disinformation-in-60-percent-of-leading-prompts/",
-      "keywords": ["Mistral", "Le Chat", "NewsGuard", "60% 错误率", "Iran 假信息", "主权 AI"],
-      "category": "安全事件"
     },
     {
       "id": 10,

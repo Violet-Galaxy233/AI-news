@@ -1,0 +1,32 @@
+[
+  {
+    "week": "2026-W33",
+    "title": "AI 一周要闻",
+    "date_range": "2026-08-10 至 2026-08-16",
+    "published_at": "2026-08-17",
+    "summary": "本周 AI 行业从模型竞赛进一步走向可部署性与治理落地。Meta 用可在消费级硬件运行的 Muse Glimmer 重返开放权重赛道，OpenAI 则把高风险网络安全能力放入受控访问体系；SpaceX 完成对 Cursor 的 600 亿美元收购，显示代码智能体已经成为平台级入口。与此同时，Claude 文本水印、Spotify 的 AI Persona 标签和 Twitch 训练数据争议表明，内容来源与授权正从政策概念变成产品默认设置。",
+    "total_stories": 11,
+    "critical_count": 3,
+    "paper_count": 3
+  },
+  {
+    "week": "2026-W31",
+    "title": "AI 一周要闻",
+    "date_range": "2026-07-27 至 2026-08-02",
+    "published_at": "2026-08-03",
+    "summary": "本周 AI 行业的关键词是开放与约束。Moonshot AI 正式开放 Kimi K3 权重，NVIDIA 联合数十家机构成立开放安全联盟；欧洲则同时推进七座 AI 超级工厂、AI 法案透明度义务和简化后的执行时间表。围绕算力、模型开放、内容标识与用户隐私的竞争，正在从企业口号变成基础设施、联盟和可执行规则。",
+    "total_stories": 10,
+    "critical_count": 3,
+    "paper_count": 0
+  },
+  {
+    "week": "2026-W30",
+    "title": "AI 一周要闻",
+    "date_range": "2026-07-20 至 2026-07-26",
+    "published_at": "2026-07-27",
+    "summary": "本周 AI 行业的主线从单纯追逐模型能力，转向成本、责任与落地能力的正面较量。Anthropic 用更低价格推出 Claude Opus 5，OpenAI 将健康数据接入 ChatGPT，Meta 把个人助手推进到可执行任务阶段；与此同时，15 亿美元版权和解、欧盟透明度规则和 Hugging Face 安全事件，让模型公司承担的法律与运营责任迅速具体化。",
+    "total_stories": 10,
+    "critical_count": 3,
+    "paper_count": 0
+  }
+]

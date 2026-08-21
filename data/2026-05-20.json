@@ -11,18 +11,32 @@
       "reasoning": "5月19日 Google 官方主题演讲首发,CNBC、TechCrunch、The Decoder、Engadget、Tom's Guide、Winbuzzer、9to5Google、SiliconANGLE、Android Central、CryptoBriefing 等全球同步报道,Hacker News 首页 669 点,今日头条新闻。Gemini 3.5 Flash 即日开放 + Terminal-Bench 2.1/MCP Atlas/GDPval-AA 全部超 Gemini 3.1 Pro + 速度约 4 倍 + Spark 24 小时后台 + 关机锁屏不断 + Omni 文本/图像/音频生视频 + 对话式剪辑 + AI Ultra 新档 100 美元/月 + 旧顶级降至 200 美元 + Antigravity 2.0 + Android AI Studio 一键生 App + Pro 版延至 6 月。是 Google 自 Gemini 3.1 Pro 后又一波核心模型 + 消费订阅 + 开发平台同日打包发布;与 5月18日 Brockman 掌 OpenAI 产品三线合并、5月15日 ChatGPT 直连银行同月叠加、三大厂在「模型 + 智能体 + 订阅」全面摊牌、消费级 AI 进入「关机锁屏不停工」时代。Critical 级。",
       "source": "CNBC / TechCrunch / The Decoder",
       "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
-      "keywords": ["Google I/O 2026", "Gemini 3.5 Flash", "Gemini Spark", "Gemini Omni", "AI Ultra 100 美元", "Antigravity 2.0"],
+      "keywords": [
+        "Google I/O 2026",
+        "Gemini 3.5 Flash",
+        "Gemini Spark",
+        "Gemini Omni",
+        "AI Ultra 100 美元",
+        "Antigravity 2.0"
+      ],
       "category": "产品发布"
     },
     {
       "id": 2,
-      "title": "Karpathy 投 Anthropic",
+      "title": "Karpathy 入职 Anthropic",
       "content": "OpenAI 联合创始人、特斯拉前 AI 总监 Andrej Karpathy 入职 Anthropic 预训练团队、由团队负责人 Nick Joseph 直管、专责用 Claude 加速基础训练研究。这是 Karpathy 离 OpenAI 五年、暂停 Eureka Labs 教育创业后首次回归前沿 AI 研发;他强调仍「深爱教育」未来会重启相关工作。Hacker News 当日热度 1238 点登榜首;Anthropic 在人才、企业、底层工具三条线对 OpenAI 形成包抄、Karpathy 选 Anthropic 而非回 OpenAI 被视为前沿研究人才流向的标志性时刻。",
       "importance": "critical",
       "reasoning": "5月19日 Karpathy 个人 Twitter 首发(Hacker News 1238 点登榜首),TechCrunch、The Decoder、Axios、Yahoo Finance、Slashdot、StreetInsider、MacObserver、TeslaNorth、AIBase 等全球同步报道,今日头条新闻。Andrej Karpathy 入 Anthropic 预训练 + Nick Joseph 直管 + 用 Claude 加速基础训练研究 + 离 OpenAI 五年首次回前沿研发 + 暂停 Eureka Labs 教育创业 + 仍「深爱教育」未来会重启。是 OpenAI 联合创始人级别的核心研究者首次公开选 Anthropic 而非回 OpenAI;与 5月18日 Anthropic 收 Stainless、5月15日 Anthropic-PwC 3 万人、5月13日 Anthropic 企业反超同月叠加、Anthropic 在「人才 + 企业 + 底层工具」三线对 OpenAI 形成包抄,被视为前沿研究人才流向的标志性时刻。Critical 级。",
       "source": "TechCrunch / The Decoder / Axios",
       "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-      "keywords": ["Andrej Karpathy", "Anthropic 预训练", "OpenAI 联创", "Nick Joseph", "Eureka Labs", "人才流向"],
+      "keywords": [
+        "Andrej Karpathy",
+        "Anthropic 预训练",
+        "OpenAI 联创",
+        "Nick Joseph",
+        "Eureka Labs",
+        "人才流向"
+      ],
       "category": "公司动态"
     },
     {
@@ -33,7 +47,14 @@
       "reasoning": "5月19日 Mistral 与 Emmi 双方官方同步首发,The Decoder、TheNextWeb、Tech.eu、TrendingTopics、French Tech Journal、ResultSense、Let's Data Science、TipRanks 等全球同步报道,今日头条新闻。Mistral 收 Emmi AI + 消息人士称约 3 亿欧元现金加股权 + Emmi 2025 年奥地利史上最大 1500 万欧元融资 + 自研物理 AI 模拟气流/热传导/材料应力 + 客户覆盖能源/汽车/半导体/航天 + 30 余名研究员工程师 5 月并入 Mistral 科研与应用 AI + 合力欧洲工业 AI 全栈。是欧洲 AI 厂商把工业级物理 AI 直接收编;与 5月18日 Mensch 警告法国主权依赖美企、4月29日 Mistral Workflows 企业编排同月叠加、欧洲在工业级垂直与主权替代两条线加速整合、对抗美系 AI 在制造业的渗透。Critical 级。",
       "source": "Mistral / The Decoder / Tech.eu",
       "url": "https://the-decoder.com/mistral-ai-acquires-viennese-physical-ai-startup-emmi-ai/",
-      "keywords": ["Mistral AI", "Emmi AI 收购", "3 亿欧元", "物理 AI 模拟", "工业 AI 全栈", "欧洲主权"],
+      "keywords": [
+        "Mistral AI",
+        "Emmi AI 收购",
+        "3 亿欧元",
+        "物理 AI 模拟",
+        "工业 AI 全栈",
+        "欧洲主权"
+      ],
       "category": "公司动态"
     },
     {
@@ -44,7 +65,14 @@
       "reasoning": "5月19日 阿里巴巴重庆活动首发,CNBC、futunn、Geopolitechs、Yahoo Finance、DCD、Quartz、TechNode、网易、CapitalBrief 等全球同步报道,今日头条新闻。阿里同台发自研 AI 芯片真武 M890 与 Qwen3.7-Max 大模型 + M890 是现役真武 810E 的 3 倍 + 单卡显存 144 GB + 卡间带宽 800 GB/秒 + 128 卡超节点 + 芯片间通信延迟低至百纳秒级 + 128 颗逻辑融合单一计算单元 + 真武家族迄今交付 56 万颗 + 20 个行业 400 余家客户。是中国 AI 算力链「芯片 + 大模型 + 云端」同日打包升级;与 5月19日 Google-Blackstone 250 亿美元 TPU 云、5月14日 Cerebras 上市同月叠加、国产 AI 算力供给从单点突破走向系统替代、加速对 NVIDIA 主导格局形成多元挑战。Critical 级。",
       "source": "CNBC / Geopolitechs / futunn",
       "url": "https://www.cnbc.com/2026/05/19/alibaba-reveals-more-powerful-zhenwu-ai-chip-new-llm.html",
-      "keywords": ["阿里巴巴", "真武 M890 芯片", "Qwen3.7-Max", "128 卡超节点", "百纳秒延迟", "国产算力替代"],
+      "keywords": [
+        "阿里巴巴",
+        "真武 M890 芯片",
+        "Qwen3.7-Max",
+        "128 卡超节点",
+        "百纳秒延迟",
+        "国产算力替代"
+      ],
       "category": "区域事件"
     },
     {
@@ -55,7 +83,14 @@
       "reasoning": "5月19日 Google DeepMind 官方与 Google I/O 同步首发,TechCrunch、9to5Google、AndroidCentral、Startup Fortune、TheNextWeb、Newsbytes、MEXC、Yahoo 等全球同步报道,今日热点新闻。Project Genie 接入谷歌街景 + 美国地点 + 自定义风格与角色 + 起始视角对齐 + 街景库覆盖 110 国 280 亿张图像 + 先给 AI Ultra 订户 + 数周扩全球 + Waymo 已用 Genie 3 模拟龙卷风/象群等极端事件 + 仍无物理感知 + 角色穿模 + 研究员承认落后视频生成 6 至 12 个月。是 Google DeepMind 把世界模型与现实街景库直接对接、为自动驾驶与机器人提供「真实地理 + 极端事件」训练场;与 4月23日 Google Cloud Next、4月19日 Physical Intelligence π0.7 同月叠加、世界模型从纯生成走向「现实锚定」。High 级。",
       "source": "Google DeepMind / TechCrunch / 9to5Google",
       "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
-      "keywords": ["Project Genie", "谷歌街景", "世界模型", "Waymo 训自驾", "110 国 280 亿图", "AI Ultra"],
+      "keywords": [
+        "Project Genie",
+        "谷歌街景",
+        "世界模型",
+        "Waymo 训自驾",
+        "110 国 280 亿图",
+        "AI Ultra"
+      ],
       "category": "产品发布"
     },
     {
@@ -66,7 +101,14 @@
       "reasoning": "5月19日 Anthropic 官方博客与 The Decoder、9to5Mac、InfoQ、The New Stack、Phemex、Blockchain News、TestingCatalog、Metaverse Post 等全球同步首发,今日热点新闻。Claude Managed Agents 新增自托管沙箱 + 公测 + 客户自家基础设施或 Cloudflare/Daytona/Modal/Vercel 上跑工具调用 + 编排留 Anthropic 云 + MCP 隧道研究预览 + 单条加密外连 + 通内网 MCP 服务器 + 无需对外开任何端口 + 代码/仓库不出安全边界。是 Anthropic 对企业 AI 部署「不出边界」诉求的正面回应;与 5月15日 Anthropic-PwC 3 万人、5月13日 Anthropic 企业反超、5月18日 Mensch 警告主权依赖同月叠加、AI 智能体从「全云端」走向「客户边界内执行」、企业级 AI 进入混合部署阶段。High 级。",
       "source": "Anthropic / The Decoder / The New Stack",
       "url": "https://the-decoder.com/anthropic-adds-self-hosted-sandboxes-and-mcp-tunnels-to-claude-managed-agents/",
-      "keywords": ["Anthropic", "Claude Managed Agents", "自托管沙箱", "MCP 隧道", "Cloudflare", "企业边界"],
+      "keywords": [
+        "Anthropic",
+        "Claude Managed Agents",
+        "自托管沙箱",
+        "MCP 隧道",
+        "Cloudflare",
+        "企业边界"
+      ],
       "category": "产品发布"
     },
     {
@@ -77,7 +119,14 @@
       "reasoning": "5月19日 OpenAI 官方与 Google blog、TechCrunch、TheNextWeb、CryptoBriefing、Investing.com、The National 等全球同步首发,Hacker News 当日 233 点,今日热点新闻。OpenAI 全面采用 Google DeepMind SynthID 水印 + C2PA 元数据双层 + ChatGPT/Codex/API 生图/视频/音频全打标 + 公众图像出处验证工具预览 + SynthID 经截屏压缩仍可保留 + C2PA 附详尽创作信息 + 二者互补 + Kakao/ElevenLabs/Nvidia 同期跟进。是 OpenAI 首次大规模采纳竞争对手 Google 的水印技术;与 5月18日 YouTube 换脸检测全开放、5月16日 arXiv 封禁 AI 代写、4月22日 OpenAI Images 2.0 同月叠加、跨厂内容溯源标准首次成型。High 级。",
       "source": "OpenAI / TechCrunch / CryptoBriefing",
       "url": "https://openai.com/index/advancing-content-provenance/",
-      "keywords": ["OpenAI", "SynthID 水印", "Google DeepMind", "C2PA 元数据", "ChatGPT 图像", "内容溯源"],
+      "keywords": [
+        "OpenAI",
+        "SynthID 水印",
+        "Google DeepMind",
+        "C2PA 元数据",
+        "ChatGPT 图像",
+        "内容溯源"
+      ],
       "category": "行业观察"
     },
     {

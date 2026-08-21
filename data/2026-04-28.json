@@ -23,7 +23,7 @@
     },
     {
       "id": 2,
-      "title": "DeepMind 老将 11 亿种子",
+      "title": "DeepMind 老将获 11 亿种子轮",
       "content": "前 DeepMind 强化学习负责人 David Silver 创立的英国 AI 实验室 Ineffable Intelligence 完成 11 亿美元种子轮融资、投后估值 51 亿美元、欧洲史上最大种子轮；Sequoia 与 Lightspeed 共同领投，Nvidia、Google、DST Global、Index Ventures 与英国主权 AI 基金等共同参与；Silver 在 DeepMind 工作逾 10 年、是 AlphaGo 与 AlphaZero 系列核心架构师、现仍兼任 University College London 教授；Ineffable 目标构建无需人类标注数据的「超级学习者」、依赖纯强化学习自行试错探索新知识；公司成立仅数月、单轮种子规模与估值已超过 OpenAI 与 Anthropic 同期种子；过去一年 OpenAI、DeepMind、Anthropic、xAI 离职老兵创办的 Periodic Labs、Humans& 等同类公司亦完成数亿美元融资。",
       "importance": "critical",
       "reasoning": "4月27日 TechCrunch 首发，CNBC、Bloomberg、Tech.eu、Mezha、Yahoo Finance、PYMNTS、digitado、BigGo Finance 等全球同步报道，今日热点新闻。Ineffable Intelligence 11 亿美元种子+51 亿美元估值+欧洲史上最大种子轮+Silver 个人品牌+Sequoia 与 Lightspeed 双领投，是 2026 年下注「无人类数据自学习」路线最大单笔种子；与 OpenAI、Anthropic 主流路径——海量人类语料+强化学习微调——形成路线分叉；与 4月24日 Google 400 亿美元 Anthropic、4月23日 GPT-5.5「Spud」同周登场，AI 投资从应用层全面回流到方法论级基础研究。Critical 级。",

@@ -6,7 +6,7 @@
     {
       "id": 1,
       "title": "谷歌联手 Marvell",
-      "content": "谷歌 4月19日 被曝与 Marvell 就两款定制 AI 芯片深度谈判：一款内存处理单元配合现有 TPU 承担数据搬运瓶颈，另一款专攻推理的下一代 TPU；Marvell 加入后成为继 Broadcom、MediaTek 之后谷歌第三家设计伙伴，谈判在 Broadcom 签订 2031 长约后数天启动；Marvell 2026 财年数据中心营收 61 亿美元、定制硅年化 15 亿美元。",
+      "content": "谷歌 被曝与 Marvell 就两款定制 AI 芯片深度谈判：一款内存处理单元配合现有 TPU 承担数据搬运瓶颈，另一款专攻推理的下一代 TPU；Marvell 加入后成为继 Broadcom、MediaTek 之后谷歌第三家设计伙伴，谈判在 Broadcom 签订 2031 长约后数天启动；Marvell 2026 财年数据中心营收 61 亿美元、定制硅年化 15 亿美元。",
       "importance": "critical",
       "reasoning": "4月19日 TheNextWeb、Republic World、Yahoo Finance、WCCFTech 等全球同步报道，今日新闻。谷歌在 Broadcom 签订 2031 长约后数天接洽 Marvell 标志其 TPU 设计伙伴从双供应商扩至三家，推理专用 TPU+内存处理单元双芯片方案是对英伟达 GPU 垄断的结构性分散。Marvell 股价单日反应积极，产业级影响。Critical 级。",
       "source": "TheNextWeb / WCCFTech",
@@ -17,7 +17,7 @@
     {
       "id": 2,
       "title": "Uber AI 预算爆雷",
-      "content": "Uber 首席技术官 Neppalli Naga 4月17日 向 The Information 披露 4 个月烧光全年 AI 预算，R&D 支出 34 亿美元仍入不敷出；Claude Code 用量超越 Cursor 成主导工具，11% 后端代码更新由 AI 代理撰写；Anthropic 近期转向用量计费取代 $200/用户/月定额，企业客户成本失控被视为 AI 编程经济性拐点。",
+      "content": "Uber 首席技术官 Neppalli Naga 向 The Information 披露 4 个月烧光全年 AI 预算，R&D 支出 34 亿美元仍入不敷出；Claude Code 用量超越 Cursor 成主导工具，11% 后端代码更新由 AI 代理撰写；Anthropic 近期转向用量计费取代 $200/用户/月定额，企业客户成本失控被视为 AI 编程经济性拐点。",
       "importance": "critical",
       "reasoning": "4月15-17日 The Information 首发，Benzinga、Yahoo Finance、AOL、byteiota 等同步转载，3天内热点新闻。Uber 是 Claude Code 最大企业用户之一，CTO 亲口「回到起点重新规划」+ Anthropic 计费模式转变+ 11% 代码 AI 化三重信号，标志企业级 AI 编程成本从可控转向不可预测，对 Anthropic 估值与 Uber 2026 盈利预期均有实质影响。Critical 级。",
       "source": "The Information / Benzinga",
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "title": "MCP 架构漏洞曝光",
-      "content": "OX Security 4月16日 公开披露 Anthropic MCP（模型上下文协议）架构性远程代码执行漏洞：影响 Claude Code、Cursor、VS Code、Gemini-CLI、GitHub Copilot、Windsurf 等主流工具，1.5 亿次下载、7000+ 公开服务器、20 万实例暴露；Windsurf CVE-2026-30615 零交互即可被攻击，Anthropic 拒绝修改协议称 STDIO 传输「设计如此」。",
+      "content": "OX Security 公开披露 Anthropic MCP（模型上下文协议）架构性远程代码执行漏洞：影响 Claude Code、Cursor、VS Code、Gemini-CLI、GitHub Copilot、Windsurf 等主流工具，1.5 亿次下载、7000+ 公开服务器、20 万实例暴露；Windsurf CVE-2026-30615 零交互即可被攻击，Anthropic 拒绝修改协议称 STDIO 传输「设计如此」。",
       "importance": "critical",
       "reasoning": "4月16日 TheRegister、Infosecurity Magazine、TechRadar、Computing、DarkReading 等全球同步报道，OX Security 首发，4天前但仍在发酵。MCP 是 2026 年 AI 智能体基础协议（月安装量 9700 万），此漏洞属架构级而非实现 bug，Anthropic 拒绝修改意味着全生态开发者需自行加固，是 AI 供应链系统性安全最严重事件。Critical 级。",
       "source": "The Register / OX Security",
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "title": "Meta 裁员 8000",
-      "content": "Meta 4月17日 确认 5 月 20 日启动公司史上最大规模裁员：裁减 8000 人占全球员工 10%，首轮冲击产品与基础设施岗；2025 年营收 2000 亿美元、利润 600 亿美元仍精简结构，为 1350 亿美元 AI 投资让路对标 OpenAI 和 Anthropic。",
+      "content": "Meta 确认 5 月 20 日启动公司史上最大规模裁员：裁减 8000 人占全球员工 10%，首轮冲击产品与基础设施岗；2025 年营收 2000 亿美元、利润 600 亿美元仍精简结构，为 1350 亿美元 AI 投资让路对标 OpenAI 和 Anthropic。",
       "importance": "high",
       "reasoning": "4月17-18日 Benzinga、The Hans India、Los Angeles Today、NewsX、BM Magazine 等同步报道，3天内热点。Meta 是全球市值前五科技公司，10% 裁员幅度为 Zuckerberg 任内最大；此前 14 亿美元收购 Scale AI 创始人 Alexandr Wang 后的首次重大人事重组，释放 AI 时代科技巨头「利润不足以保就业」的明确信号。High 级。",
       "source": "Benzinga / NewsX",
@@ -50,7 +50,7 @@
     {
       "id": 5,
       "title": "微软收购 Fintool",
-      "content": "微软 4月18日 确认收购 AI 金融分析 startup Fintool（YC 2023 毕业），创始人 Bustamante 经 X 公告；Fintool 产品可在 Excel 自动构建现金流模型、在 PowerPoint 生成财报演示，并入 Microsoft 365 Finance Agents，未来扩至其他行业。",
+      "content": "微软  确认收购 AI 金融分析 startup Fintool（YC 2023 毕业），创始人 Bustamante 经 X 公告；Fintool 产品可在 Excel 自动构建现金流模型、在 PowerPoint 生成财报演示，并入 Microsoft 365 Finance Agents，未来扩至其他行业。",
       "importance": "high",
       "reasoning": "4月17-18日 Neowin、Nsane Forums、Windows Report、Techtimes 等同步报道，3天内热点。金额未披露但是微软 2026 首起 AI 收购，标志 Office 套件从 Copilot 面向全员升级为垂直行业智能体平台。Fintool V5 在离岗模式下自主运行财务建模被视为企业 AI 代理里程碑能力，对 Bloomberg Terminal、FactSet 等传统金融工具形成直接冲击。High 级。",
       "source": "Neowin / Windows Report",
@@ -71,8 +71,8 @@
     },
     {
       "id": 7,
-      "title": "Elad Gil 退出论",
-      "content": "AI 投资人 Elad Gil 4月19日 在「No Priors」播客提出「12 个月窗口」论：多数 AI 创业公司价值在顶峰 12 个月后崩塌，建议董事会每年专门开 1-2 次退出策略会以剥离情感因素。",
+      "title": "Elad Gil 提出退出论",
+      "content": "AI 投资人 Elad Gil在「No Priors」播客提出「12 个月窗口」论：多数 AI 创业公司价值在顶峰 12 个月后崩塌，建议董事会每年专门开 1-2 次退出策略会以剥离情感因素。",
       "importance": "medium",
       "reasoning": "4月19日 TechCrunch、Yahoo、LinkedIn 等同步报道，今日新闻。Elad Gil 是早期 AI 最具影响力的投资人之一，援引 Lotus、AOL、Broadcast.com 历史退出案例套用于当前 AI 估值泡沫期，对创始人融资/退出决策具有产业风向标意义，但属于观点性分析而非具体事件。Medium 级。",
       "source": "TechCrunch",
@@ -83,7 +83,7 @@
     {
       "id": 8,
       "title": "Grok 4.3 Beta 上线",
-      "content": "xAI 4月17日 悄然上线 Grok 4.3 Beta，仅向 SuperGrok Heavy 订阅用户（$300/月）开放 Early Access；新增原生 PDF、PowerPoint 幻灯片、Excel 电子表格和视频输入生成能力，马斯克 4月18日 披露当前检查点约 5000 亿参数。",
+      "content": "xAI悄然上线 Grok 4.3 Beta，仅向 SuperGrok Heavy 订阅用户（$300/月）开放 Early Access；新增原生 PDF、PowerPoint 幻灯片、Excel 电子表格和视频输入生成能力，马斯克 4月18日 披露当前检查点约 5000 亿参数。",
       "importance": "medium",
       "reasoning": "4月17日 Phemex、PiunikaWeb、KuCoin、BuildFastWithAI 等同步报道，3天内新闻。Grok 4.3 Beta 无正式发布、无新闻稿，仅出现在模型选择器中供 Early Access 尝试；$300/月门槛限定受众，5 月中下旬才全面推出。原生幻灯片输出对齐 Claude 与 ChatGPT 消费端竞争。Medium 级。",
       "source": "PiunikaWeb / Phemex",
@@ -94,7 +94,7 @@
     {
       "id": 9,
       "title": "Midjourney V8.1 发布",
-      "content": "Midjourney 4月15日 发布 V8.1 正式版：原生 2K 高清渲染、HD 模式速度快 3 倍成本降 1/3，标清模式快 50% 便宜 25%，恢复 V7 风格美学并带回图像提示词功能。",
+      "content": "Midjourney 发布 V8.1 正式版：原生 2K 高清渲染、HD 模式速度快 3 倍成本降 1/3，标清模式快 50% 便宜 25%，恢复 V7 风格美学并带回图像提示词功能。",
       "importance": "medium",
       "reasoning": "4月14-15日 KuCoin、Medium、Midjourney 官方更新页等同步报道，5 天前但仍在广泛讨论中。V8.1 是 Midjourney 重要创作工具更新，2K 原生渲染 + 3 倍速度 + 成本下降组合对标 Ideogram 3、Flux 1.2 等竞品，社区反应积极。字数窗口外但内容延续性强，例外保留。Medium 级。",
       "source": "KuCoin / Midjourney",

@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "title": "Cohere 并 Aleph Alpha",
+      "title": "Cohere 并入 Aleph Alpha",
       "content": "加拿大 AI 公司 Cohere 宣布与德国 Aleph Alpha 合并、合并后估值约 200 亿美元；Lidl 母公司 Schwarz Group 以 5 亿欧元（约 6 亿美元）结构化融资入局成为战略股东；新公司保留 Cohere 名称，加拿大与德国双总部运营；交易获德国与加拿大政府背书，主攻企业与公共部门主权 AI、对标美国超大规模云厂；待监管与股东批准后落地；面向欧洲对美国 AI 提供方依赖的退出选项；2025 年 Aleph Alpha 估值约 50 亿美元、本次合并较前估值翻 4 倍。",
       "importance": "critical",
       "reasoning": "4月24-25日 TechCrunch、Sifted、CNBC、Axios、Globe and Mail、TheNextWeb、The Logic 等全球同步报道，今日头条新闻。Cohere 与 Aleph Alpha 合并 200 亿美元跨大西洋 AI 公司+德加双政府背书+Schwarz Group 5 亿欧元结构融资，是首个由欧洲企业资本与北美 AI 实验室共建的「主权 AI」平台，直接挑战 OpenAI、Anthropic、Google 在欧洲企业市场的份额；Aleph Alpha 估值 50 亿→200 亿美元一步翻 4 倍，标志欧洲在监管驱动下重新成为 AI 资本焦点。Critical 级。",
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "title": "阿联酋 50% 政府 AI",
+      "title": "阿联酋宣布 50% 政府 AI",
       "content": "阿联酋副总统兼总理、迪拜统治者 Sheikh Mohammed bin Rashid Al Maktoum 宣布：2 年内将阿联酋政府 50% 部门、服务与运营迁移至 Agentic AI 自主智能体执行；副总统 Sheikh Mansour bin Zayed 督导执行，内阁事务部长 Mohammad Al Gergawi 领导专项工作组；全部联邦员工须完成生成式 AI 工具培训；项目目标包含降低运营成本、提高生产力、提升服务速度；阿联酋自称为全球首个全面 agentic 政府。",
       "importance": "critical",
       "reasoning": "4月23日 Khaleej Times、The National 首发，4月24日 Gulf News、MIT Sloan ME、The Decoder、Filipino Times 等同步报道，今日头条新闻。Sheikh Mohammed 以阿联酋全国政府体系级目标承诺「全球首个 agentic 政府」+2 年 50% 部门覆盖+全员强制 AI 培训，是国家级行政机关首次将自主智能体上升为执政路径；与中国 Q1 750 个备案、欧盟 AI Act 即将强制执行、美国《Trump America AI Act》立法推进同期登场，全球 AI 治理格局从「监管约束」转向「政府自用」新阶段；产业层面对 OpenAI、Anthropic、G42 等 Agentic 平台带来主权采购订单想象空间。Critical 级。",

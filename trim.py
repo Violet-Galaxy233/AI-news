@@ -7,7 +7,7 @@
 import os
 from PIL import Image
 
-PATH = os.path.expanduser("~/Desktop/CSAIA - AI 闪电快讯.png")
+PATH = os.path.expanduser("~/Desktop/CSAIA - AI 一周要闻.png")
 
 
 def trim(path):

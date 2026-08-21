@@ -11,32 +11,18 @@
       "reasoning": "4月28日 Stratechery 首发 Sam Altman+Matt Garman 联合采访（HN 首页 222 点 77+ 评论），The Register、CNBC、Axios、GeekWire、Techmeme、Invezz、AWS Blogs、wtaq 等全球同步报道，今日头条新闻。GPT-5.5+GPT-5.4+Codex 上 Amazon Bedrock+24 小时极速落地+Trainium 芯片底座，是 OpenAI 自 2019 年与 Microsoft 战略绑定以来首次实质性多云分发、印证 4月27日 协议重写的执行速度；与 4月24日 Google 400 亿美元 Anthropic 投资、4月23日 GPT-5.5 发布形成「三大云厂-三大实验室」交叉绑定的最后一块拼图。Critical 级。",
       "source": "Stratechery / The Register / CNBC",
       "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "keywords": [
-        "OpenAI",
-        "AWS Bedrock",
-        "Managed Agents",
-        "Codex",
-        "GPT-5.5",
-        "Trainium"
-      ],
+      "keywords": ["OpenAI", "AWS Bedrock", "Managed Agents", "Codex", "GPT-5.5", "Trainium"],
       "category": "产品发布"
     },
     {
       "id": 2,
-      "title": "OpenAI 营收错目标",
+      "title": "OpenAI Q1不及目标",
       "content": "华尔街日报披露 OpenAI 2026 年第一季度同时错失内部营收与用户增长目标；公司 2026 年现金消耗预计 250 亿美元、对应营收目标 300 亿美元；2025 年实际营收约 130 亿美元、亏损 80 亿美元；CFO Sarah Friar 与 CEO Sam Altman 就未来 6000 亿美元数据中心承诺出现内部分歧；Friar 反对 2026 年 IPO、认为公司无法承担上市公司财报披露义务、Altman 主张加速；竞争层面 Anthropic 在编程与企业级市场持续抢份额；消息致 Oracle、Broadcom、AMD 等 AI 关联股票同日下跌、连带 S&P 500 受冲击。",
       "importance": "critical",
       "reasoning": "4月28日 WSJ 首发，The Decoder、Sherwood News、CNBC、Axios、Semafor、24/7 Wall St、Yahoo Finance、ProPakistani 等全球同步报道，今日头条新闻。OpenAI Q1 同时错失营收+用户目标+250 亿现金消耗+CFO 与 CEO IPO 时间表分歧+6000 亿数据中心承诺张力，是 OpenAI 自 ChatGPT 发布以来首次官方层面承认增长瓶颈；叠加 4月27日 Microsoft 撤独家、4月24日 Google 400 亿美元 Anthropic、4月7日 Anthropic ARR 300 亿美元反超，AI 资本叙事从「OpenAI 一家独大」进入「三足鼎立」新阶段；Anthropic 在编程与企业市场抢份额是 4月25日 Cursor 9 秒清库与 BankerToolBench 评测之外又一应用层信号。Critical 级。",
       "source": "WSJ / The Decoder / CNBC",
       "url": "https://the-decoder.com/openai-misses-revenue-targets-as-anthropic-and-google-close-in/",
-      "keywords": [
-        "OpenAI",
-        "营收错失",
-        "Sarah Friar",
-        "IPO 分歧",
-        "6000 亿",
-        "250 亿现金"
-      ],
+      "keywords": ["OpenAI", "营收错失", "Sarah Friar", "IPO 分歧", "6000 亿", "250 亿现金"],
       "category": "公司动态"
     },
     {
@@ -47,14 +33,7 @@
       "reasoning": "4月28日 TechCrunch 首发，CNBC、Slashdot、Yahoo Finance、Storyboard18、Inc Magazine、TheHill、Washington Post、BusinessStory、Dr. Matthew Lynch 等全球同步报道，今日头条新闻。Google 取代 Anthropic 拿下 DOD 全合法用途+Pentagon AI 主管公开承认「单源是错」+950 员工联署被推翻+OpenAI/xAI 已先签，是 AI 厂商「监管伦理 vs 国防订单」对峙的标志性转折；与 3月10日 美国防部拒暂停 Anthropic 封锁、4月19日 Amodei 会见白宫融冰同线，标志主流前沿 AI 厂商对国防合同保留底线者将被系统性淘汰。Critical 级。",
       "source": "TechCrunch / CNBC / Yahoo Finance",
       "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
-      "keywords": [
-        "Google",
-        "Pentagon",
-        "Gemini",
-        "Anthropic 替代",
-        "950 员工联署",
-        "国防部"
-      ],
+      "keywords": ["Google", "Pentagon", "Gemini", "Anthropic 替代", "950 员工联署", "国防部"],
       "category": "政策监管"
     },
     {
@@ -65,14 +44,7 @@
       "reasoning": "4月28日 Anthropic 官方+Adobe 官方双博客首发，Hacker News 首页 96 点 58+ 评论，Neowin、Seeking Alpha、NoFilmSchool、Glitchwire、Releasebot 等同步报道，今日热点新闻。Claude 同时接入 Adobe+Autodesk+Blender+Ableton+Splice+RISD/Ringling/Goldsmiths 全产业链+教育生态，是 AI 模型厂首次以「跨工具协作者」定位整合数字内容创作、3D 设计、音乐制作三大专业垂直；与 4月27日 Adobe Firefly Assistant 公测、4月23日 Google Cloud Next 7.5 亿合作伙伴基金同周登场，标志 SaaS 创意软件进入「智能体直接编排专业工具链」新阶段；Anthropic 通过 OEM-style 嵌入抢占创意软件分发入口。Critical 级。",
       "source": "Anthropic / Adobe / Neowin",
       "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "keywords": [
-        "Claude",
-        "Creative Work",
-        "Adobe",
-        "Autodesk",
-        "Blender",
-        "Ableton"
-      ],
+      "keywords": ["Claude", "Creative Work", "Adobe", "Autodesk", "Blender", "Ableton"],
       "category": "产品发布"
     },
     {
@@ -83,19 +55,12 @@
       "reasoning": "4月28日 VentureBeat 首发，The Decoder、WinBuzzer、Cryptopond、AIBase 等同步报道，今日热点新闻。Mistral Workflows+Temporal 引擎+ASML+CMA-CGM+France Travail 等大型欧洲客户首发+日均百万次执行+13 亿欧元 ASML 战略捆绑，是欧洲在「主权 AI」叙事下的关键工具层产品；与 4月25日 Cohere-Aleph Alpha 200 亿美元合并、4月22日 Google Cloud Next 7.5 亿合作伙伴基金登场，欧美 AI 市场从「模型能力竞争」进入「企业应用编排」第二战场。High 级。",
       "source": "VentureBeat / The Decoder / WinBuzzer",
       "url": "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
-      "keywords": [
-        "Mistral",
-        "Workflows",
-        "Temporal",
-        "ASML",
-        "CMA-CGM",
-        "主权 AI"
-      ],
+      "keywords": ["Mistral", "Workflows", "Temporal", "ASML", "CMA-CGM", "主权 AI"],
       "category": "产品发布"
     },
     {
       "id": 6,
-      "title": "自学习 AI 5 亿融资",
+      "title": "自学习 AI 获5 亿融资",
       "content": "前 DeepMind 主任研究员 Tim Rocktäschel（同时兼任 University College London 教授）创立的 Recursive Superintelligence 完成 5 亿美元融资、投后估值 40 亿美元、公司成立仅 4 个月；GV（Google Ventures）领投，Nvidia 参投，本轮超额认购传至 10 亿美元规模；联合创始人含前 Salesforce 首席科学家 Richard Socher 与 OpenAI、Google、Meta 离职研究员；目标实现「自我改进 AI」、自动化前沿模型评估、数据筛选、训练、研究方向选择全流程；与 David Silver 同处 UCL 学术圈、两笔欧洲史上最大早期融资同周登场。",
       "importance": "high",
       "reasoning": "4月28日 The Decoder、Sifted 首发，Implicator AI、Financial Times、UCL News、Dealroom、CNBC 等同步报道，今日热点新闻。Recursive Superintelligence 5 亿+40 亿估值+4 个月+GV 领投+Nvidia 参投+Tim Rocktäschel+Richard Socher+多家头部实验室离职老兵阵容，与 4月27日 Silver Ineffable 11 亿种子并列「自学习路线」双子星；UCL 单一学术圈接连出两笔欧洲史上最大早期融资、欧洲学术系统在 AI 创业中地位上升；AI 投资从应用层全面回流到基础研究方法论。High 级。",
@@ -137,14 +102,7 @@
       "reasoning": "4月29日 AIBase、蚂蚁集团技术博客、GitHub 同日发布，国内多家平台同步报道，今日新闻。Ling-2.6-flash 1040 亿总参数+74 亿活跃参数 MoE+10 倍效率+量化部署+全权重开源，是蚂蚁集团对标 DeepSeek V4、美团 LongCat 2.0 的中国开源代表作；与 4月23日 Tencent Hy3 295B、4月22日 Qwen3.6-27B 同月开源，中国前沿模型从「闭源争夺榜单」走向「开源争抢生态位」。High 级。",
       "source": "AIBase / 蚂蚁集团 / GitHub",
       "url": "https://news.aibase.com/news/27585",
-      "keywords": [
-        "蚂蚁集团",
-        "Ling-2.6-flash",
-        "1040 亿参数",
-        "MoE",
-        "10 倍效率",
-        "开源"
-      ],
+      "keywords": ["蚂蚁集团", "Ling-2.6-flash", "1040 亿参数", "MoE", "10 倍效率", "开源"],
       "category": "产品发布"
     },
     {
@@ -164,24 +122,6 @@
         "乐观偏差"
       ],
       "category": "行业观察"
-    },
-    {
-      "id": 10,
-      "title": "腾讯 ADP 智能体平台",
-      "content": "腾讯在福州数字中国峰会上发布 Agent Development Platform（ADP）云端开发平台；提供智能体「技能」创建、管理与组合能力；面向复杂多步骤企业级场景；与同周蚂蚁 DataX 平台、Ling-2.6-flash 开源、阿里 Qwen 系列更新构成中国大型互联网公司「智能体周」；初期面向数字政务、金融与制造业三大行业场景。",
-      "importance": "medium",
-      "reasoning": "4月29日 AIBase 首发+数字中国峰会官方资料，今日新闻。腾讯 ADP+智能体技能化范式+数字政务+金融+制造业三大行业场景，是腾讯 4月23日 Hy3 开源后的应用层延伸；与同周蚂蚁 Ling-2.6-flash 开源、4月23日 阿里 Qwen3.6-27B 同步登场，中国互联网三巨头智能体生态加速分化与重组。Medium 级。",
-      "source": "AIBase / 数字中国峰会",
-      "url": "https://news.aibase.com/news/27588",
-      "keywords": [
-        "腾讯",
-        "ADP",
-        "数字中国峰会",
-        "智能体平台",
-        "云开发",
-        "福州"
-      ],
-      "category": "产品发布"
     }
   ],
   "metadata": {

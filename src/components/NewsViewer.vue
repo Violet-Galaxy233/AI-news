@@ -20,6 +20,7 @@
       <main class="content">
         <!-- 追踪入口 -->
         <div class="tracker-entry">
+          <RouterLink to="/" class="tracker-link">← 返回周报</RouterLink>
           <RouterLink to="/timeline" class="tracker-link">◈ 话题追踪</RouterLink>
         </div>
 
@@ -325,6 +326,9 @@ onMounted(loadLatest)
 
 /* 追踪入口 */
 .tracker-entry {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
   text-align: right;
   margin-bottom: 1.25rem;
 }

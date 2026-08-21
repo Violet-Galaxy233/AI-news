@@ -4,13 +4,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "node scripts/build-index.js && vite build",
+    "build": "node scripts/build-index.js && node scripts/build-weekly-index.js && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "build-index": "node scripts/build-index.js",
+    "build-weekly-index": "node scripts/build-weekly-index.js",
     "trim": "python3 trim.py",
     "capture": "python3 capture.py",
     "shoot": "zsh shoot.sh",
-    "caption": "python3 gen_caption.py"
+    "caption": "python3 gen_caption.py",
+    "weekly:publish": "python3 weekly_publish.py",
+    "weekly:split": "python3 weekly_split.py"
   },
   "dependencies": {
     "vue": "^3.4.0",

@@ -1,0 +1,379 @@
+{
+  "week": "2026-W31",
+  "date_range": "2026-07-27 至 2026-08-02",
+  "published_at": "2026-08-03",
+  "title": "AI 一周要闻",
+  "summary": "本周 AI 行业的关键词是开放与约束。Moonshot AI 正式开放 Kimi K3 权重，NVIDIA 联合数十家机构成立开放安全联盟；欧洲则同时推进七座 AI 超级工厂、AI 法案透明度义务和简化后的执行时间表。围绕算力、模型开放、内容标识与用户隐私的竞争，正在从企业口号变成基础设施、联盟和可执行规则。",
+  "stories": [
+    {
+      "id": "2026-W31-01",
+      "title": "Kimi K3 开放权重，把前沿模型竞争拉回本地部署",
+      "section": "产品与技术",
+      "importance": "critical",
+      "content": "Moonshot AI 于 7 月 27 日正式开放 Kimi K3 模型权重。技术报告称，该模型采用约 2.8 万亿总参数的混合专家架构，并提供长上下文与智能体能力；综合表现仍落后于最强闭源模型，但在公开评测中超过多款现有开放及商业模型。权重开放后，企业和研究机构可以自行部署、微调和审计，而不再只通过 API 使用。模型体量依然要求昂贵的集群资源，真正的竞争点因此从“能否下载”转向推理效率和部署成本。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "Moonshot AI 发布 Kimi K3 技术报告并开放完整模型权重。"
+        },
+        {
+          "date": "7 月 28 日",
+          "event": "开发者开始公开测试本地部署、代码生成和智能体工作流。"
+        }
+      ],
+      "why_it_matters": "开放权重让高能力模型更容易进入私有化部署和二次开发市场，也给闭源 API 的价格、数据控制与可审计性带来更直接的竞争。",
+      "sources": [
+        {
+          "name": "Kimi K3 技术报告",
+          "url": "https://arxiv.org/abs/2607.24653"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run"
+        }
+      ],
+      "keywords": [
+        "Kimi K3",
+        "Moonshot AI",
+        "开放权重",
+        "本地部署"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-02",
+      "title": "欧盟用 100 亿欧元公共资金建设七座 AI 超级工厂",
+      "section": "公司与资本",
+      "importance": "critical",
+      "content": "欧盟委员会启动最多七座 AI Gigafactory 的正式招标，计划投入约 100 亿欧元公共资金，并撬动约 200 亿欧元私人投资。项目将把先进 AI 芯片、云软件、高速互联和安全访问环境整合为训练下一代模型的大型基础设施。欧盟此前收到来自 16 个成员国、60 个地点的 77 份意向方案，希望借公共采购和欧洲投资银行融资降低项目风险，并减少对美国与中国算力平台的依赖。",
+      "timeline": [
+        {
+          "date": "7 月 30 日",
+          "event": "欧盟正式开放七座 AI 超级工厂的申请与招标。"
+        },
+        {
+          "date": "7 月 31 日",
+          "event": "欧盟进一步说明公共资金、成员国资金与私人投资的组合安排。"
+        }
+      ],
+      "why_it_matters": "欧洲第一次把“技术主权”转化为可采购的大规模算力项目。能否按期建设、获得芯片并控制电力成本，将决定欧洲模型企业能否缩小基础设施差距。",
+      "sources": [
+        {
+          "name": "欧盟委员会",
+          "url": "https://commission.europa.eu/topics/competitiveness/competitiveness-coordination-tool-projects/ai-gigafactories_en"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/88b83cd517a4d47c115605e636d0b3e4"
+        }
+      ],
+      "keywords": [
+        "欧盟",
+        "AI Gigafactory",
+        "算力",
+        "公共投资"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-03",
+      "title": "NVIDIA 拉起开放安全联盟，模型安全开始共建工具链",
+      "section": "政策与安全",
+      "importance": "critical",
+      "content": "NVIDIA 联合 Microsoft、Hugging Face、Cloudflare、CrowdStrike、IBM、Linux Foundation 等数十家机构成立 Open Secure AI Alliance，目标是开放共享用于发现漏洞、身份验证、审计和智能体防护的技术与框架。联盟把此前 Hugging Face 安全事件作为推动开放取证与协同响应的案例。OpenAI、Anthropic 和 Google 没有出现在首批成员名单中，反映头部模型实验室与基础设施、安全厂商对开放程度和风险控制仍有明显分歧。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "NVIDIA 公布 Open Secure AI Alliance 及首批成员。"
+        },
+        {
+          "date": "7 月 29 日",
+          "event": "开放权重与前沿模型风险的行业立场分化继续扩大。"
+        }
+      ],
+      "why_it_matters": "智能体安全不再只是单家公司内部的模型对齐问题，而是横跨模型、云、身份、软件供应链和事故响应的系统工程。开放工具链可能成为新的行业标准入口。",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+        },
+        {
+          "name": "CrowdStrike",
+          "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-open-secure-ai-alliance/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/27/nvidia-anthropic-openai-open-weight-debate"
+        }
+      ],
+      "keywords": [
+        "NVIDIA",
+        "Open Secure AI Alliance",
+        "智能体安全",
+        "开放工具"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-04",
+      "title": "Claude 分享链接进入搜索结果，公开与私密的边界失效",
+      "section": "政策与安全",
+      "importance": "high",
+      "content": "部分用户通过 Claude 分享功能生成的对话与文档链接出现在 Google 搜索结果中，其中包含组织计划、工作资料和个人信息。Anthropic 表示没有主动向搜索引擎提交聊天目录或站点地图，并强调分享链接可被任何获得链接的人访问；事件曝光后，多项结果陆续从搜索中消失。问题的核心不是模型读取了私密聊天，而是用户容易把“可通过链接访问”误解为“不会被搜索和发现”。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "媒体确认多条 Claude 分享内容能够通过搜索引擎检索。"
+        },
+        {
+          "date": "7 月 28 日",
+          "event": "部分索引结果消失，用户开始集中检查既有分享链接。"
+        }
+      ],
+      "why_it_matters": "生成式 AI 正承载越来越多企业和个人资料。分享页面必须清楚区分公开发布、定向分享和私密协作，否则一个默认设置就可能变成数据泄露入口。",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/27/anthropic-claude-public-chats-google-search"
+        },
+        {
+          "name": "Claude 隐私说明",
+          "url": "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations"
+        }
+      ],
+      "keywords": [
+        "Claude",
+        "分享链接",
+        "搜索索引",
+        "隐私"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-05",
+      "title": "欧盟 AI Omnibus 生效，合规期限延后但透明度义务照常启动",
+      "section": "政策与安全",
+      "importance": "high",
+      "content": "欧盟 AI Omnibus 于 7 月 27 日生效，对部分高风险系统要求和行政流程作出简化并延长实施期限；与此同时，AI 法案第 50 条透明度义务于 8 月 2 日开始适用。面向欧洲用户的产品需要披露用户正在与 AI 互动，并为生成或显著修改的内容提供机器可读标记；深度伪造、公共利益内容、情绪识别和部分生物特征分类还需额外提示。规则节奏有所调整，但内容标识和交互披露没有暂停。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "AI Omnibus 在欧盟范围内正式生效。"
+        },
+        {
+          "date": "8 月 2 日",
+          "event": "AI 法案第 50 条透明度义务开始适用。"
+        }
+      ],
+      "why_it_matters": "企业获得了更多准备高风险系统合规的时间，却必须立即处理产品界面、AI 内容标记和可追溯性。合规工作应按义务类型拆分，而不能整体延期。",
+      "sources": [
+        {
+          "name": "欧盟委员会 AI Omnibus",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+        },
+        {
+          "name": "欧盟透明度指南",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+        },
+        {
+          "name": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689"
+        }
+      ],
+      "keywords": [
+        "AI Omnibus",
+        "欧盟 AI 法案",
+        "透明度",
+        "内容标识"
+      ],
+      "previous_week": true
+    },
+    {
+      "id": "2026-W31-06",
+      "title": "Apple 首次确认高强度 Siri AI 可能采用付费模式",
+      "section": "产品与技术",
+      "importance": "high",
+      "content": "Apple 在季度业绩沟通中表示，新一代 Siri AI 的基础能力仍将随系统提供，但高频或高算力使用可能需要额外付费。这是公司首次明确讨论 Siri 的分层收费方向。新 Siri 能结合屏幕内容、个人信息和应用操作完成任务，部分能力依赖外部模型与云端推理；公开测试已经启动，正式版本计划随秋季系统更新推出。Apple 仍未公布具体套餐、额度或价格。",
+      "timeline": [
+        {
+          "date": "7 月 30 日",
+          "event": "Apple 在业绩沟通中确认重度 Siri AI 使用可能收费。"
+        },
+        {
+          "date": "8 月 1 日",
+          "event": "市场开始讨论设备销售、订阅与模型成本之间的新商业模式。"
+        }
+      ],
+      "why_it_matters": "消费级 AI 的推理成本正在迫使硬件公司重新定义“买设备即享全部软件”的模式。Apple 的选择会影响手机厂商如何给系统级智能体定价。",
+      "sources": [
+        {
+          "name": "Apple Siri AI",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/30/tim-cook-apple-may-charge-for-ai-siri"
+        }
+      ],
+      "keywords": [
+        "Apple",
+        "Siri AI",
+        "订阅",
+        "消费级 AI"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-07",
+      "title": "OpenAI 数据显示 AI 正在打破岗位任务边界",
+      "section": "行业观察",
+      "importance": "high",
+      "content": "OpenAI Economic Research 分析超过 80 万条美国 ChatGPT 工作相关消息后发现，16.8% 的工作消息涉及其他职业通常承担的任务；在可明确对应职业的消息中，这一比例达到 43.5%。小企业用户的跨岗位使用更明显，设计、分析、营销和技术任务更容易在不同角色间流动。研究描述的是用户任务变化，并不能直接等同于岗位消失或生产率增长，但说明 AI 已开始改变团队内部的分工方式。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "OpenAI 发布 Work at the Frontier 系列首份研究。"
+        }
+      ],
+      "why_it_matters": "企业部署 AI 的价值可能先体现为岗位边界重组，而不是简单裁员。管理者需要重新设计授权、质量检查和培训，而不仅是为每个岗位购买聊天工具。",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-july-27-2026/"
+        }
+      ],
+      "keywords": [
+        "OpenAI",
+        "工作研究",
+        "岗位边界",
+        "小企业"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-08",
+      "title": "美国 FTC 把 AI 输出操控纳入消费者保护讨论",
+      "section": "政策与安全",
+      "importance": "medium",
+      "content": "美国联邦贸易委员会就 AI 准确性政策声明完成公众意见征集。草案认为，如果企业宣称系统客观、准确，却未披露地为特定意识形态目标调整输出，可能构成《联邦贸易委员会法》第 5 条所禁止的欺骗行为。意见期于 7 月 31 日结束，最终文本仍可能变化。争议焦点在于如何定义“准确”、消费者合理预期，以及联邦政策与州级 AI 规则的关系。",
+      "timeline": [
+        {
+          "date": "7 月 31 日",
+          "event": "FTC 结束 AI 准确性政策声明的公众意见征集。"
+        }
+      ],
+      "why_it_matters": "模型行为、系统提示和内容政策可能从产品设计问题转为消费者保护证据。企业需要记录输出规则，并避免把带有明确限制的系统宣传为完全中立。",
+      "sources": [
+        {
+          "name": "FTC",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+        },
+        {
+          "name": "Inside Privacy",
+          "url": "https://www.insideprivacy.com/consumer-protection/ftc-seeks-comment-on-proposed-policy-statement-addressing-ai-accuracy-and-output-steering/"
+        }
+      ],
+      "keywords": [
+        "FTC",
+        "AI 准确性",
+        "消费者保护",
+        "输出操控"
+      ],
+      "previous_week": false
+    },
+    {
+      "id": "2026-W31-09",
+      "title": "Samsung 与 Google 把 Gemini 推进眼镜和可穿戴设备",
+      "section": "产品与技术",
+      "importance": "medium",
+      "content": "Samsung 在 Galaxy Unpacked 后进一步披露智能眼镜的产品与定价方向。设备将使用 Android XR 与 Gemini，支持免手持问答、视觉理解、导航和跨设备任务，并强调较轻机身和全天候使用。Google 同期说明 Gemini 将覆盖新折叠屏、手表和眼镜，试图把手机上的智能体能力延伸到持续可见、可听的个人设备。具体上市时间、地区与完整价格仍待确认。",
+      "timeline": [
+        {
+          "date": "7 月 27 日",
+          "event": "Samsung 继续披露 Galaxy 智能眼镜的定位和价格区间线索。"
+        }
+      ],
+      "why_it_matters": "智能眼镜能把 AI 从主动打开的应用变成持续陪伴的入口，但也同步放大摄像头权限、旁观者隐私、电池续航和社会接受度问题。",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
+        },
+        {
+          "name": "Samsung",
+          "url": "https://insights.samsung.com/2026/07/15/announcing-the-next-galaxy-unpacked-event-watch-the-livestream-on-july-22/"
+        },
+        {
+          "name": "Android Central",
+          "url": "https://www.androidcentral.com/wearables/samsung-teases-galaxy-glasses-android-xr-smart-glasses-pricing"
+        }
+      ],
+      "keywords": [
+        "Samsung",
+        "Gemini",
+        "智能眼镜",
+        "Android XR"
+      ],
+      "previous_week": true
+    },
+    {
+      "id": "2026-W31-10",
+      "title": "加拿大把 AI 智能体活动记录纳入透明度咨询",
+      "section": "政策与安全",
+      "importance": "medium",
+      "content": "加拿大政府启动 AI 透明度公众咨询，讨论 AI 生成内容识别、人机交互提示、系统能力与限制披露、严重事件记录，以及如何追踪智能体的活动和交互。咨询持续至 9 月 23 日，是加拿大新版国家 AI 战略的配套动作。与欧盟直接规定义务不同，加拿大仍处于征集意见阶段，但已把智能体可追溯性明确列为政策议题。",
+      "timeline": [
+        {
+          "date": "7 月 29 日",
+          "event": "加拿大政府扩大宣传并邀请企业、研究机构和公众参与咨询。"
+        }
+      ],
+      "why_it_matters": "当 AI 能代表用户操作工具，单纯标注“由 AI 生成”已经不够。谁授权、做了什么、造成何种结果，将成为企业智能体合规的核心记录。",
+      "sources": [
+        {
+          "name": "加拿大政府",
+          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/government-of-canada-launches-public-consultation-on-ai-transparency.html"
+        },
+        {
+          "name": "Digital Watch Observatory",
+          "url": "https://dig.watch/updates/canada-ai-transparency-rules-consultation"
+        }
+      ],
+      "keywords": [
+        "加拿大",
+        "AI 透明度",
+        "智能体",
+        "可追溯性"
+      ],
+      "previous_week": true
+    }
+  ],
+  "trend": {
+    "title": "AI 竞争进入“开放能力与可执行责任”并行阶段",
+    "content": "本周最清晰的变化，是模型开放与制度约束不再互相等待。Kimi K3 和 NVIDIA 安全联盟扩大开放模型与工具链的供给，欧洲则同步建设公共算力、启动透明度义务并调整合规节奏。企业接下来面对的不是“开放还是封闭”的单选题，而是如何同时证明三件事：模型与算力具有可替代性，智能体行为能够被追踪，面向用户的内容和交互边界足够清楚。能把部署成本、安全证据和合规记录整合进同一套产品流程的公司，更可能把技术优势稳定转化为商业采用。"
+  },
+  "metadata": {
+    "candidate_count": 46,
+    "generated_at": "2026-08-02T18:00:00+08:00",
+    "sources_checked": [
+      "OpenAI",
+      "NVIDIA",
+      "Moonshot AI / arXiv",
+      "European Commission",
+      "EUR-Lex",
+      "FTC",
+      "Government of Canada",
+      "Apple",
+      "Google",
+      "Samsung",
+      "Axios",
+      "AP",
+      "Nature",
+      "Tom's Hardware"
+    ]
+  }
+}
